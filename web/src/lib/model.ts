@@ -125,8 +125,7 @@ export interface SearchMatch {
 }
 
 export type SearchResult =
-  | { status: 'ok'; query: string; matches: SearchMatch[] }
-  | { status: 'no_match'; query: string; coverage: Coverage }
+  { status: 'ok'; query: string; matches: SearchMatch[] } | { status: 'no_match'; query: string; coverage: Coverage }
 
 export interface SharedPhenotype {
   node: AtlasNode

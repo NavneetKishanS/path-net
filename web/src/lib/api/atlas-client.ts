@@ -130,7 +130,10 @@ export class AtlasApiClient implements ApiClient {
   }
   async removeSynonym(nodeId: string, synonym: string) {
     const o = this.store.read()
-    this.rebuild({ ...o, synonyms: { ...o.synonyms, [nodeId]: (o.synonyms[nodeId] ?? []).filter((x) => x !== synonym) } })
+    this.rebuild({
+      ...o,
+      synonyms: { ...o.synonyms, [nodeId]: (o.synonyms[nodeId] ?? []).filter((x) => x !== synonym) },
+    })
   }
   async getAddedSynonyms() {
     return this.store.read().synonyms

@@ -13,7 +13,9 @@ async function getJson<T>(url: string): Promise<T> {
 
 export async function fetchRestGraph(baseUrl: string): Promise<Graph> {
   const [nodes, edges, evidence, clusters, node_cluster] = await Promise.all(
-    (['nodes', 'edges', 'evidence', 'clusters', 'node_cluster'] as const).map((t) => getJson<unknown[]>(`${baseUrl}/${t}`)),
+    (['nodes', 'edges', 'evidence', 'clusters', 'node_cluster'] as const).map((t) =>
+      getJson<unknown[]>(`${baseUrl}/${t}`),
+    ),
   )
   return emptyGraph({ nodes, edges, evidence, clusters, node_cluster } as Partial<Graph>)
 }

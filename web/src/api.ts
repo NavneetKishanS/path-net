@@ -20,7 +20,12 @@ const API: string = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'
 let client: ApiClient | null = null
 
 export function getApiClient(): ApiClient {
-  client ??= DATA_SOURCE === 'rest' ? createRestClient(API) : DATA_SOURCE === 'static' ? createStaticClient() : createMockClient()
+  client ??=
+    DATA_SOURCE === 'rest'
+      ? createRestClient(API)
+      : DATA_SOURCE === 'static'
+        ? createStaticClient()
+        : createMockClient()
   return client
 }
 

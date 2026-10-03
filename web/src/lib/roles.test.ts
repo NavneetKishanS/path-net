@@ -1,5 +1,15 @@
 import { describe, expect, it } from 'vitest'
-import { canAccess, CONTRACT_ROLE, DEFAULT_ROLE, isLite, isRole, ROLE_CONFIG, ROLES, roleWithFull, type PanelId } from './roles'
+import {
+  canAccess,
+  CONTRACT_ROLE,
+  DEFAULT_ROLE,
+  isLite,
+  isRole,
+  ROLE_CONFIG,
+  ROLES,
+  roleWithFull,
+  type PanelId,
+} from './roles'
 
 // The feature table from the task: F = full, L = lite, - = none. Columns: leader, patient, scout, researcher, admin.
 const TABLE: Record<PanelId, string> = {

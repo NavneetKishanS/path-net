@@ -65,7 +65,14 @@ const ASSET_CATEGORY: Record<string, AssetCategory> = {
   funded_research_project: 'funded_research',
 }
 
-const INACTIVE_STUDY = new Set(['TERMINATED', 'WITHDRAWN', 'COMPLETED', 'UNKNOWN', 'SUSPENDED', 'ACTIVE_NOT_RECRUITING'])
+const INACTIVE_STUDY = new Set([
+  'TERMINATED',
+  'WITHDRAWN',
+  'COMPLETED',
+  'UNKNOWN',
+  'SUSPENDED',
+  'ACTIVE_NOT_RECRUITING',
+])
 
 export function normalise(s: string): string {
   return s
@@ -116,7 +123,11 @@ export class Atlas {
   }
 
   graphData(): GraphData {
-    return { nodes: [...this.g.nodes.values()], edges: this.live().filter((e) => e.status !== 'pending'), clusters: this.g.clusters }
+    return {
+      nodes: [...this.g.nodes.values()],
+      edges: this.live().filter((e) => e.status !== 'pending'),
+      clusters: this.g.clusters,
+    }
   }
 
   nodeDetail(id: string): NodeDetail | null {
@@ -179,7 +190,11 @@ export class Atlas {
         if (m.node.type !== 'gene') continue
         for (const e of this.live()) {
           if (e.relation === 'disease_gene' && e.to === m.node.id && e.stance === 'supports') {
-            resolved.push({ node: this.must(e.from), matchedVia: { kind: 'gene', value: m.node.name }, resolvedFrom: m.node })
+            resolved.push({
+              node: this.must(e.from),
+              matchedVia: { kind: 'gene', value: m.node.name },
+              resolvedFrom: m.node,
+            })
           }
         }
       }
@@ -201,7 +216,11 @@ export class Atlas {
     })
     if (name === q) return mk('name', node.name, 100)
     for (const id of node.ids) {
-      if (normalise(id.value) === q || normalise(`${id.namespace}:${id.value}`) === q || normalise(`${id.namespace} ${id.value}`) === q)
+      if (
+        normalise(id.value) === q ||
+        normalise(`${id.namespace}:${id.value}`) === q ||
+        normalise(`${id.namespace} ${id.value}`) === q
+      )
         return mk('id', `${id.namespace} ${id.value}`, 95)
     }
     for (const s of node.synonyms) if (normalise(s) === q) return mk('synonym', s, 90)
@@ -226,7 +245,13 @@ export class Atlas {
   }
 
   private annotatedDiseases(): string[] {
-    return [...new Set(this.live().filter((e) => e.relation === 'disease_phenotype').map((e) => e.from))]
+    return [
+      ...new Set(
+        this.live()
+          .filter((e) => e.relation === 'disease_phenotype')
+          .map((e) => e.from),
+      ),
+    ]
   }
 
   sharedPhenotypes(a: string, b: string): SharedPhenotype[] {
@@ -239,7 +264,12 @@ export class Atlas {
         const count = this.live().filter(
           (e) => e.relation === 'disease_phenotype' && e.to === node.id && e.stance === 'supports',
         ).length
-        return { node, diseaseCount: count, annotatedTotal: total, informative: count <= Math.max(1, Math.floor(total / 3)) }
+        return {
+          node,
+          diseaseCount: count,
+          annotatedTotal: total,
+          informative: count <= Math.max(1, Math.floor(total / 3)),
+        }
       })
       .sort((x, y) => x.diseaseCount - y.diseaseCount || x.node.name.localeCompare(y.node.name))
   }
@@ -261,7 +291,11 @@ export class Atlas {
     const parent = this.parentOf(targetId)
     const targets = [targetId, ...(parent ? [parent.id] : [])]
     const out = this.live().filter(
-      (e) => e.stance === 'contradicts' && e.relation === 'disease_mechanism' && targets.includes(e.from) && supported.has(e.to),
+      (e) =>
+        e.stance === 'contradicts' &&
+        e.relation === 'disease_mechanism' &&
+        targets.includes(e.from) &&
+        supported.has(e.to),
     )
     // The focus's own contradicted assignments also limit any link through that mechanism.
     const own = this.live().filter(
@@ -404,7 +438,10 @@ export class Atlas {
     const out: string[] = []
     const ga = this.geneOf(from.id)
     const gb = this.geneOf(to.id)
-    if (ga && gb && ga.id !== gb.id) out.push(`Different genes: ${ga.name} and ${gb.name}. The link is through what the change does, not the gene name.`)
+    if (ga && gb && ga.id !== gb.id)
+      out.push(
+        `Different genes: ${ga.name} and ${gb.name}. The link is through what the change does, not the gene name.`,
+      )
     if (conn.kind === 'mechanism') {
       const scope = str(conn.via[0]?.props.scope)
       if (scope) out.push(scope.endsWith('.') ? scope : `${scope}.`)
@@ -414,8 +451,10 @@ export class Atlas {
     const pa = new Set(this.phenotypesOf(from.id).map((n) => n.id))
     const pb = new Set(this.phenotypesOf(to.id).map((n) => n.id))
     const onlyA = [...pa].filter((x) => !pb.has(x)).map((x) => this.must(x).name)
-    if (pb.size > 0 && onlyA.length > 0) out.push(`Symptoms annotated only for ${from.name}: ${onlyA.slice(0, 4).join(', ')}.`)
-    if (pb.size === 0) out.push(`No symptom annotations are recorded for ${to.name} in this atlas, so symptoms cannot be compared yet.`)
+    if (pb.size > 0 && onlyA.length > 0)
+      out.push(`Symptoms annotated only for ${from.name}: ${onlyA.slice(0, 4).join(', ')}.`)
+    if (pb.size === 0)
+      out.push(`No symptom annotations are recorded for ${to.name} in this atlas, so symptoms cannot be compared yet.`)
     return out
   }
 
@@ -428,18 +467,26 @@ export class Atlas {
       )
     }
     for (const q of conn.qualifiers) {
-      out.push(`${this.must(q.from).name}: evidence contradicts one mechanism for everyone with this diagnosis. Which families fall in the matching subgroup?`)
+      out.push(
+        `${this.must(q.from).name}: evidence contradicts one mechanism for everyone with this diagnosis. Which families fall in the matching subgroup?`,
+      )
     }
-    const studies = this.assetsFor([from.id, to.id, ...(this.parentOf(to.id) ? [this.parentOf(to.id)!.id] : [])]).filter(
-      (a) => a.category === 'study',
-    )
+    const studies = this.assetsFor([
+      from.id,
+      to.id,
+      ...(this.parentOf(to.id) ? [this.parentOf(to.id)!.id] : []),
+    ]).filter((a) => a.category === 'study')
     for (const s of studies) {
       if (s.status && INACTIVE_STUDY.has(s.status)) {
-        out.push(`${s.node.name} is recorded as ${s.status.toLowerCase().replace(/_/g, ' ')}. What did its design learn before anyone proposes a shared trial?`)
+        out.push(
+          `${s.node.name} is recorded as ${s.status.toLowerCase().replace(/_/g, ' ')}. What did its design learn before anyone proposes a shared trial?`,
+        )
       }
     }
     if (conn.communities.length > 0) {
-      out.push('Do the partner registry’s consent and data fields allow use for a related condition? This needs the registry team’s review.')
+      out.push(
+        'Do the partner registry’s consent and data fields allow use for a related condition? This needs the registry team’s review.',
+      )
     }
     return out
   }
@@ -465,12 +512,15 @@ export class Atlas {
           ? `No other condition in this atlas has cited evidence for ${mechs.map((m) => m.node.name.toLowerCase()).join(' or ')}.`
           : `No cited mechanism is recorded for ${from.name} yet.`,
         ...(broad.length
-          ? [`Symptom overlap is limited to common features (${broad.slice(0, 4).join(', ')}), which many unrelated conditions share.`]
+          ? [
+              `Symptom overlap is limited to common features (${broad.slice(0, 4).join(', ')}), which many unrelated conditions share.`,
+            ]
           : []),
       ],
       nextQuestions: [
         ...mechs.map(
-          (m) => `Which other genes act through ${m.node.name.toLowerCase()}? Extending the search beyond the four genes in this slice could answer that.`,
+          (m) =>
+            `Which other genes act through ${m.node.name.toLowerCase()}? Extending the search beyond the four genes in this slice could answer that.`,
         ),
         'Has the mechanism been tested for the specific variants in your community?',
         'Are there researchers outside this sample who study the same pathway? A wider NIH RePORTER and PubMed search would show them.',
@@ -499,7 +549,9 @@ export class Atlas {
   private assetRecord(node: AtlasNode, edge: Edge): AssetRecord {
     const p = node.props
     const category: AssetCategory =
-      node.type === 'study' ? 'study' : (ASSET_CATEGORY[str(p.kind) ?? ''] ?? (node.type === 'funding' ? 'funded_research' : 'patient_data'))
+      node.type === 'study'
+        ? 'study'
+        : (ASSET_CATEGORY[str(p.kind) ?? ''] ?? (node.type === 'funding' ? 'funded_research' : 'patient_data'))
     return {
       node,
       category,
@@ -522,16 +574,26 @@ export class Atlas {
     for (const cluster of this.g.clusters) {
       const clusterGenes = new Set(
         this.live()
-          .filter((e) => e.relation === 'disease_mechanism' && e.stance === 'supports' && cluster.mechanismIds.includes(e.to))
+          .filter(
+            (e) => e.relation === 'disease_mechanism' && e.stance === 'supports' && cluster.mechanismIds.includes(e.to),
+          )
           .map((e) => this.geneOf(e.from)?.name)
           .filter((g): g is string => !!g),
       )
-      const geneOfAsset = (a: AssetRecord) => a.diseases.map((d) => this.geneOf(d.id)?.name).find((g) => g && clusterGenes.has(g))
+      const geneOfAsset = (a: AssetRecord) =>
+        a.diseases.map((d) => this.geneOf(d.id)?.name).find((g) => g && clusterGenes.has(g))
       for (const category of ['patient_data', 'funded_research', 'biosamples'] as AssetCategory[]) {
-        const inCluster = assets.filter((a) => a.category === category && (a.node.clusters.includes(cluster.id) || geneOfAsset(a)))
+        const inCluster = assets.filter(
+          (a) => a.category === category && (a.node.clusters.includes(cluster.id) || geneOfAsset(a)),
+        )
         const genes = [...new Set(inCluster.map(geneOfAsset).filter((g): g is string => !!g))]
         if (inCluster.length >= 2 && genes.length >= 2) {
-          const what = category === 'funded_research' ? 'funded projects' : category === 'patient_data' ? 'patient data efforts' : 'sample collections'
+          const what =
+            category === 'funded_research'
+              ? 'funded projects'
+              : category === 'patient_data'
+                ? 'patient data efforts'
+                : 'sample collections'
           out.push({
             category,
             clusterId: cluster.id,
@@ -548,13 +610,16 @@ export class Atlas {
     const people = [...this.g.nodes.values()].filter((n) => n.type === 'investigator')
     return people
       .map((node) => {
-        const edges = this.live().filter((e) => e.from === node.id && (e.relation === 'investigator_disease' || e.relation === 'investigator_award'))
+        const edges = this.live().filter(
+          (e) => e.from === node.id && (e.relation === 'investigator_disease' || e.relation === 'investigator_award'),
+        )
         const diseases = edges.filter((e) => e.relation === 'investigator_disease').map((e) => this.must(e.to))
         const awards = edges.filter((e) => e.relation === 'investigator_award').map((e) => this.must(e.to))
         const clusters = [...new Set(diseases.flatMap((d) => d.clusters))]
         const diseaseClusters = diseases.map((d) => d.clusters)
         const sharedAcrossClusters =
-          diseases.length >= 2 && diseaseClusters.some((a, i) => diseaseClusters.some((b, j) => j > i && !a.some((c) => b.includes(c))))
+          diseases.length >= 2 &&
+          diseaseClusters.some((a, i) => diseaseClusters.some((b, j) => j > i && !a.some((c) => b.includes(c))))
         return {
           node,
           diseases,
@@ -567,7 +632,12 @@ export class Atlas {
           contactPolicy: str(node.props.contact_policy),
         }
       })
-      .sort((a, b) => Number(b.sharedAcrossClusters) - Number(a.sharedAcrossClusters) || b.diseases.length - a.diseases.length || a.node.name.localeCompare(b.node.name))
+      .sort(
+        (a, b) =>
+          Number(b.sharedAcrossClusters) - Number(a.sharedAcrossClusters) ||
+          b.diseases.length - a.diseases.length ||
+          a.node.name.localeCompare(b.node.name),
+      )
   }
 
   funding(): { records: FundingRecord[]; gaps: FundingGap[] } {
@@ -585,8 +655,12 @@ export class Atlas {
         organization: str(p.organization),
         projectNumber: str(p.core_project_num) ?? award.ids.find((i) => i.namespace === 'NIHProject')?.value ?? null,
         url: str(p.url) ?? str(p.source_url),
-        investigators: this.live().filter((e) => e.relation === 'investigator_award' && e.to === award.id).map((e) => this.must(e.from)),
-        diseases: this.live().filter((e) => e.relation === 'asset_disease' && e.from === award.id).map((e) => this.must(e.to)),
+        investigators: this.live()
+          .filter((e) => e.relation === 'investigator_award' && e.to === award.id)
+          .map((e) => this.must(e.from)),
+        diseases: this.live()
+          .filter((e) => e.relation === 'asset_disease' && e.from === award.id)
+          .map((e) => this.must(e.to)),
       }
     })
     const funded = new Set(records.flatMap((r) => r.diseases.map((d) => d.id)))
@@ -614,7 +688,9 @@ export class Atlas {
     const conns = this.connections(diseaseId)
     const viable = conns.filter((c) => c.kind === 'mechanism' && c.supported && c.disease.id)
     const network = conns.filter((c) => c.kind === 'investigator')
-    const contradicted = conns.filter((c) => c.kind !== 'mechanism' && c.qualifiers.some((q) => q.from === c.disease.id))
+    const contradicted = conns.filter(
+      (c) => c.kind !== 'mechanism' && c.qualifiers.some((q) => q.from === c.disease.id),
+    )
     const unsupported = [
       ...contradicted,
       ...conns.filter((c) => c.kind === 'phenotype'),
@@ -622,14 +698,19 @@ export class Atlas {
     ]
 
     const ownIds = [diseaseId, ...(parent ? [parent.id] : [])]
-    const partnerIds = viable.flatMap((c) => [c.disease.id, ...(this.parentOf(c.disease.id) ? [this.parentOf(c.disease.id)!.id] : [])])
+    const partnerIds = viable.flatMap((c) => [
+      c.disease.id,
+      ...(this.parentOf(c.disease.id) ? [this.parentOf(c.disease.id)!.id] : []),
+    ])
     const all = this.assetsFor([...ownIds, ...partnerIds])
     const assets = all.filter((a) => a.category !== 'study')
     const studies = all.filter((a) => a.category === 'study')
 
     const investigatorIds = new Set([
       ...network.map((c) => c.via[0]!.id),
-      ...this.live().filter((e) => e.relation === 'investigator_disease' && [...ownIds, ...partnerIds].includes(e.to)).map((e) => e.from),
+      ...this.live()
+        .filter((e) => e.relation === 'investigator_disease' && [...ownIds, ...partnerIds].includes(e.to))
+        .map((e) => e.from),
     ])
     const partners = this.investigators().filter((r) => investigatorIds.has(r.node.id))
 
@@ -648,7 +729,9 @@ export class Atlas {
           url: str(group.group.props.url),
         })
       }
-      const registry = assets.find((a) => a.category === 'patient_data' && partnerIds.some((p) => a.diseases.some((d) => d.id === p)))
+      const registry = assets.find(
+        (a) => a.category === 'patient_data' && partnerIds.some((p) => a.diseases.some((d) => d.id === p)),
+      )
       if (registry) {
         doThisWeek.push({
           id: 'read-registry',
@@ -663,7 +746,8 @@ export class Atlas {
           nextExperiments.push({
             id: `confirm-${s.edge.id}`,
             title: `Confirm the mechanism for ${s.subject.name} variants`,
-            detail: `${s.edge.scope ?? ''} A functional test of the variants in your families would show whether the shared mechanism applies to them.`.trim(),
+            detail:
+              `${s.edge.scope ?? ''} A functional test of the variants in your families would show whether the shared mechanism applies to them.`.trim(),
             edgeIds: [s.edge.id],
             url: s.edge.evidence[0]?.url ?? null,
           })
@@ -731,21 +815,28 @@ export class Atlas {
       return (opts.effects ?? []).some((e) => effects.includes(e) || c.effect === e)
     })
     const ranked = matches.map((cluster) => {
-      const mechanismEdges = this.live().filter((e) => e.relation === 'disease_mechanism' && cluster.mechanismIds.includes(e.to))
+      const mechanismEdges = this.live().filter(
+        (e) => e.relation === 'disease_mechanism' && cluster.mechanismIds.includes(e.to),
+      )
       const supporting = mechanismEdges.filter((e) => e.stance === 'supports')
       const diseases = [...new Map(supporting.map((e) => [e.from, this.must(e.from)])).values()]
       const ids = diseases.flatMap((d) => [d.id, ...(this.parentOf(d.id) ? [this.parentOf(d.id)!.id] : [])])
-      const groups = [...new Map(diseases.flatMap((d) => this.communitiesOf(d.id)).map((c) => [c.group.id, c.group])).values()]
+      const groups = [
+        ...new Map(diseases.flatMap((d) => this.communitiesOf(d.id)).map((c) => [c.group.id, c.group])).values(),
+      ]
       const records = this.assetsFor(ids)
       const infrastructure = records.filter((a) => a.category !== 'study')
       const studies = records.filter((a) => a.category === 'study')
       const contacts = this.investigators().filter((r) => r.diseases.some((d) => ids.includes(d.id)))
       const unmetNeeds: string[] = []
       for (const d of diseases) {
-        if (this.communitiesOf(d.id).length === 0) unmetNeeds.push(`No patient organization linked to ${d.name} in this atlas.`)
+        if (this.communitiesOf(d.id).length === 0)
+          unmetNeeds.push(`No patient organization linked to ${d.name} in this atlas.`)
       }
-      if (!infrastructure.some((a) => a.category === 'patient_data')) unmetNeeds.push('No registry or natural history study linked.')
-      if (!studies.some((s) => s.status === 'RECRUITING')) unmetNeeds.push('No recruiting interventional or observational study linked.')
+      if (!infrastructure.some((a) => a.category === 'patient_data'))
+        unmetNeeds.push('No registry or natural history study linked.')
+      if (!studies.some((s) => s.status === 'RECRUITING'))
+        unmetNeeds.push('No recruiting interventional or observational study linked.')
       return {
         cluster,
         rank: 0,
@@ -762,7 +853,8 @@ export class Atlas {
     ranked.sort(
       (a, b) =>
         b.diseases.length - a.diseases.length ||
-        Number(b.infrastructure.some((x) => x.category === 'patient_data')) - Number(a.infrastructure.some((x) => x.category === 'patient_data')) ||
+        Number(b.infrastructure.some((x) => x.category === 'patient_data')) -
+          Number(a.infrastructure.some((x) => x.category === 'patient_data')) ||
         b.groups.length - a.groups.length ||
         b.contacts.length - a.contacts.length ||
         a.cluster.label.localeCompare(b.cluster.label),
@@ -798,8 +890,15 @@ export class Atlas {
         retrievedAt: q.retrieved_at,
       })),
       limitations: c.limitations ?? [],
-      counts: { nodes: nodes.length, edges: observed.length, evidence: this.g.evidenceCount, clusters: this.g.clusters.length },
-      evidenceBySource: [...bySource.entries()].map(([sourceType, count]) => ({ sourceType, count })).sort((a, b) => b.count - a.count),
+      counts: {
+        nodes: nodes.length,
+        edges: observed.length,
+        evidence: this.g.evidenceCount,
+        clusters: this.g.clusters.length,
+      },
+      evidenceBySource: [...bySource.entries()]
+        .map(([sourceType, count]) => ({ sourceType, count }))
+        .sort((a, b) => b.count - a.count),
       nodesWithOntologyIds: nodes.filter((n) => n.ids.length > 0).length,
       scoredEdges: this.g.edges.filter((e) => e.confidence !== null).length,
     }
@@ -815,6 +914,9 @@ export class Atlas {
         origin: edge.tier === 'D' ? ('contributed' as const) : ('inferred' as const),
         decision: decisions[edge.id] ?? null,
       }))
-      .sort((a, b) => Number(a.decision !== null) - Number(b.decision !== null) || a.edge.relation.localeCompare(b.edge.relation))
+      .sort(
+        (a, b) =>
+          Number(a.decision !== null) - Number(b.decision !== null) || a.edge.relation.localeCompare(b.edge.relation),
+      )
   }
 }

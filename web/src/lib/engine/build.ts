@@ -170,7 +170,11 @@ function statusOf(row: EdgeRow, overrides: Overrides): EdgeStatus {
   return row.status
 }
 
-export function buildGraph(graph: Graph, titles: PubmedTitles = {}, overrides: Overrides = EMPTY_OVERRIDES): BuiltGraph {
+export function buildGraph(
+  graph: Graph,
+  titles: PubmedTitles = {},
+  overrides: Overrides = EMPTY_OVERRIDES,
+): BuiltGraph {
   const membership = new Map<string, string[]>()
   for (const nc of graph.node_cluster) {
     membership.set(nc.node_id, [...(membership.get(nc.node_id) ?? []), nc.cluster_id])
@@ -278,7 +282,8 @@ function curatedLinks(nodes: Map<string, AtlasNode>, edges: Edge[]): Edge[] {
         tier: 'A',
         status: 'verified',
         stance: 'supports',
-        scope: 'ClinVar records this variant in the gene. Clinical classification alone does not state its functional effect.',
+        scope:
+          'ClinVar records this variant in the gene. Clinical classification alone does not state its functional effect.',
         evidence: url
           ? [
               {
@@ -372,7 +377,12 @@ function inferredLinks(nodes: Map<string, AtlasNode>, edges: Edge[], overrides: 
           confidence: null,
           basis: 'inferred',
           tier: 'C',
-          status: overrides.decisions[id] === 'rejected' ? 'rejected' : overrides.decisions[id] === 'approved' ? 'verified' : 'unverified',
+          status:
+            overrides.decisions[id] === 'rejected'
+              ? 'rejected'
+              : overrides.decisions[id] === 'approved'
+                ? 'verified'
+                : 'unverified',
           stance: 'supports',
           scope: `Inferred by the graph: both conditions have cited evidence for "${mech?.name ?? mechId}". A shared mechanism class does not establish trial eligibility or interchangeable treatment.`,
           evidence: [...list[i]!.evidence, ...list[j]!.evidence],
@@ -402,7 +412,12 @@ function inferredLinks(nodes: Map<string, AtlasNode>, edges: Edge[], overrides: 
           confidence: null,
           basis: 'inferred',
           tier: 'C',
-          status: overrides.decisions[id] === 'rejected' ? 'rejected' : overrides.decisions[id] === 'approved' ? 'verified' : 'unverified',
+          status:
+            overrides.decisions[id] === 'rejected'
+              ? 'rejected'
+              : overrides.decisions[id] === 'approved'
+                ? 'verified'
+                : 'unverified',
           stance: 'supports',
           scope: `Inferred by the graph: ${person?.name ?? personId} is listed on NIH awards for both conditions. Shared expertise, not shared biology.`,
           evidence: [...list[i]!.evidence, ...list[j]!.evidence],

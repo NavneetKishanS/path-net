@@ -81,7 +81,10 @@ describe('inferred links', () => {
   it('gives every observed, non-sample edge at least one evidence row with a URL', () => {
     for (const e of atlas.g.edges.filter((x) => x.basis === 'observed' && !x.sample)) {
       expect(e.evidence.length, e.id).toBeGreaterThan(0)
-      expect(e.evidence.every((ev) => ev.url !== ''), e.id).toBe(true)
+      expect(
+        e.evidence.every((ev) => ev.url !== ''),
+        e.id,
+      ).toBe(true)
     }
   })
 })
