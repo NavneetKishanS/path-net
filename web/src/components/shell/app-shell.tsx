@@ -78,7 +78,8 @@ export function AppShell({ children }: { children: ReactNode }) {
           </div>
         )}
       </header>
-      <main id="main" className="flex-1">
+      {/* Content arrives after hydration; keeping the footer below the fold avoids a layout shift. */}
+      <main id="main" className="min-h-dvh flex-1">
         {children}
       </main>
       <DataFooter plain={detail === 'plain'} />

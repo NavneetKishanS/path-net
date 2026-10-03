@@ -17,14 +17,14 @@ import { ClusterTag, ExternalIds, Ident, TypeLabel, mechanismPlain } from './nod
 import { MiniMap } from '@/components/graph/mini-map'
 
 /** Condition page: what it is, how it is caused, who serves it, what it connects to, what to do. */
-export function DiseaseOverview({ id, asHome }: { id: string; asHome?: boolean }) {
+export function DiseaseOverview({ id }: { id: string }) {
   const detail = useNode(id)
   if (detail.isLoading) return <Pending label="Loading condition" lines={8} />
   if (detail.error || !detail.data) return <ErrorNote error={detail.error ?? `No condition with id ${id}`} />
-  return <Overview d={detail.data} asHome={asHome} />
+  return <Overview d={detail.data} />
 }
 
-function Overview({ d, asHome }: { d: NodeDetail; asHome?: boolean }) {
+function Overview({ d }: { d: NodeDetail }) {
   const { can, detail, role } = useRole()
   const graph = useGraph()
   const conns = useConnections(d.node.id)
@@ -39,9 +39,9 @@ function Overview({ d, asHome }: { d: NodeDetail; asHome?: boolean }) {
   const phen = d.edges.filter((e) => e.relation === 'disease_phenotype' && e.from === node.id)
   const groups = d.edges.filter((e) => e.relation === 'group_disease' && e.to === node.id)
   const nb = (nid: string) => d.neighbours.find((n) => n.id === nid)
+  // Render in one pass so sections do not push each other down as their queries resolve.
+  if (conns.isLoading || plan.isLoading) return <Pending label="Loading condition" lines={8} />
   const routable = (conns.data ?? []).filter((c) => c.kind !== 'phenotype')
-  const Title = asHome ? 'h2' : 'h1'
-
   return (
     <div className="space-y-10">
       <header>
@@ -51,9 +51,9 @@ function Overview({ d, asHome }: { d: NodeDetail; asHome?: boolean }) {
             <ClusterTag key={c.id} cluster={c} />
           ))}
         </div>
-        <Title className="text-h2 text-ink md:text-h1" data-testid="disease-title">
+        <h1 className="text-h2 text-ink md:text-h1" data-testid="disease-title">
           {node.name}
-        </Title>
+        </h1>
         {node.synonyms.length > 0 && (
           <p className="mt-2 text-ui text-ink-2">
             <span className="text-ink-3">Also known as </span>

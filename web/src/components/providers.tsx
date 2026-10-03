@@ -5,7 +5,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import { ThemeProvider } from 'next-themes'
 import { MotionConfig } from 'motion/react'
+import { getApiClient } from '@/api'
 import { RoleProvider } from './role/role-provider'
+
+// Start fetching and indexing the dataset while React hydrates, not after.
+if (typeof window !== 'undefined') void getApiClient().meta()
 
 export function Providers({ children }: { children: ReactNode }) {
   const [client] = useState(

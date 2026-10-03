@@ -17,7 +17,8 @@ import { displayName } from './node-bits'
  */
 export function CommunityFinder({ diseaseId }: { diseaseId: string }) {
   const plan = useActionPlan(diseaseId)
-  if (plan.isLoading) return <Pending label="Looking for your community" lines={6} />
+  const coverage = useCoverage()
+  if (plan.isLoading || coverage.isLoading) return <Pending label="Looking for your community" lines={6} />
   if (plan.error || !plan.data) return <ErrorNote error={plan.error ?? 'Condition not found'} />
   return <Finder p={plan.data} />
 }

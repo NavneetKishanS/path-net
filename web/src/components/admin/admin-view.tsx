@@ -12,6 +12,9 @@ import { Button } from '@/components/ui/button'
 import { SOURCE_LABEL, edgeSentence, formatDate } from '@/lib/copy'
 
 export function AdminView() {
+  const queries = [useMeta(), useCoverage(), useReviewQueue(), useGraph(), useAddedSynonyms()]
+  // One paint once everything is ready, so sections do not shift each other.
+  if (queries.some((q) => q.isLoading)) return <Pending label="Loading administration" lines={12} />
   return (
     <div className="space-y-12">
       <BuilderStatus />

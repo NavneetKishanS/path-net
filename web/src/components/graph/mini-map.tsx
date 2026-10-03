@@ -7,6 +7,7 @@ import { useGraph } from '@/lib/queries'
 import { useHref } from '@/components/role/app-link'
 import { nodeHref } from '@/components/search/global-search'
 import { edgeParam } from '@/lib/url-state'
+import { useInView } from '@/lib/use-in-view'
 import type { GraphData } from '@/lib/model'
 import { GraphFrame, LazyGraph } from './lazy-graph'
 import { GraphLegend } from './graph-legend'
@@ -40,8 +41,14 @@ export function MiniMap({ focusId, height = 340 }: { focusId: string; height?: n
   const href = useHref()
   const [edge, setEdge] = useQueryState('edge', edgeParam)
   const [asTable, setAsTable] = useState(false)
+  const [box, inView] = useInView<HTMLDivElement>()
   const sub = useMemo(() => (graph.data ? neighbourhood(graph.data, focusId) : null), [graph.data, focusId])
-  if (!sub) return <GraphFrame height={height}>{null}</GraphFrame>
+  if (!sub || !inView)
+    return (
+      <div ref={box}>
+        <GraphFrame height={height}>{null}</GraphFrame>
+      </div>
+    )
   const focus = sub.nodes.find((n) => n.id === focusId)
   const clusters = sub.clusters.filter((c) => sub.nodes.some((n) => n.clusters.includes(c.id)))
   return (

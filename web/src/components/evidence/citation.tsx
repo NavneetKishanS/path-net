@@ -34,7 +34,8 @@ export function CitationMarker({ edge, className }: { edge: Edge; className?: st
       type="button"
       onClick={() => void setEdge(edge.id)}
       className={cn(
-        'inline-flex translate-y-[-1px] items-center rounded-xs border px-1 align-baseline font-mono text-[11px] leading-4 whitespace-nowrap transition-colors',
+        // The pseudo-element widens the hit area to 24px without changing the chip's size.
+        'relative inline-flex translate-y-[-1px] items-center rounded-xs border px-1 align-baseline font-mono text-[11px] leading-4 whitespace-nowrap transition-colors before:absolute before:-inset-y-1 before:-inset-x-0.5 before:content-[""]',
         edge.stance === 'contradicts'
           ? 'border-contra/40 text-contra-ink hover:bg-contra-weak'
           : edge.basis === 'inferred'

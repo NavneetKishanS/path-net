@@ -86,7 +86,7 @@ export function EvidencePanel({ edge, from, to }: Props) {
 
       {edge.scope && (
         <div>
-          <h4 className="meta-label">What this does and does not claim</h4>
+          <h3 className="meta-label">What this does and does not claim</h3>
           <p className="mt-1 max-w-[68ch] text-ui text-ink-2">{edge.scope}</p>
         </div>
       )}
@@ -110,7 +110,7 @@ export function EvidencePanel({ edge, from, to }: Props) {
 
       {derived.length > 0 && (
         <section>
-          <h4 className="meta-label">Built from these observed links</h4>
+          <h3 className="meta-label">Built from these observed links</h3>
           <ol className="mt-2 space-y-2 border-l border-dashed border-inferred/60 pl-3">
             {derived.map((d) => {
               const a = byId(d.from)
@@ -130,7 +130,7 @@ export function EvidencePanel({ edge, from, to }: Props) {
 
       {edge.basis === 'observed' && (
         <section>
-          <h4 className="meta-label">Sources ({edge.evidence.length})</h4>
+          <h3 className="meta-label">Sources ({edge.evidence.length})</h3>
           {edge.evidence.length === 0 ? (
             <p className="mt-1 text-ui text-contra-ink">No evidence is attached to this edge yet.</p>
           ) : (
@@ -145,9 +145,9 @@ export function EvidencePanel({ edge, from, to }: Props) {
 
       {contradictions.length > 0 && (
         <section className="border-t border-contra/30 pt-4">
-          <h4 className="flex items-center gap-2">
+          <h3 className="flex items-center gap-2">
             <ContradictsBadge label="Contradicting or limiting evidence" />
-          </h4>
+          </h3>
           <ul className="mt-2 space-y-2">
             {contradictions.map((c) => {
               const a = byId(c.from)

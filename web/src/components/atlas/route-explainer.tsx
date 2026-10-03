@@ -63,9 +63,9 @@ export function RouteExplainer({ route }: { route: Route }) {
 
         {route.qualifiers.length > 0 && !plain && (
           <section aria-labelledby="limits">
-            <h3 id="limits" className="mb-2 flex items-center gap-2 text-h3">
+            <h2 id="limits" className="mb-2 flex items-center gap-2 text-h3">
               What limits this link
-            </h3>
+            </h2>
             <ul className="space-y-2">
               {route.qualifiers.map((q) => (
                 <li key={q.id} className="flex flex-wrap items-start gap-2 text-ui text-ink-2">
@@ -82,9 +82,9 @@ export function RouteExplainer({ route }: { route: Route }) {
         {!lite && (
           <div className="grid gap-8 md:grid-cols-2">
             <section aria-labelledby="differs">
-              <h3 id="differs" className="mb-2 text-h3">
+              <h2 id="differs" className="mb-2 text-h3">
                 {plain ? 'What is different' : 'What differs between them'}
-              </h3>
+              </h2>
               <ul className="list-disc space-y-1.5 pl-5 text-ui text-ink-2 marker:text-ink-3">
                 {route.differences.map((d) => (
                   <li key={d}>{d}</li>
@@ -92,9 +92,9 @@ export function RouteExplainer({ route }: { route: Route }) {
               </ul>
             </section>
             <section aria-labelledby="check">
-              <h3 id="check" className="mb-2 text-h3">
+              <h2 id="check" className="mb-2 text-h3">
                 {plain ? 'What still needs checking' : 'What must be checked before joining forces'}
-              </h3>
+              </h2>
               <ul
                 className="list-disc space-y-1.5 pl-5 text-ui text-ink-2 marker:text-ink-3"
                 data-testid="open-questions"
@@ -152,7 +152,7 @@ function StepList({
 }) {
   return (
     <section>
-      <h3 className="mb-3 text-h3">{title}</h3>
+      <h2 className="mb-3 text-h3">{title}</h2>
       <ol className="relative space-y-1" data-testid="route-steps">
         {steps.map((s, i) => {
           const active = s.edge.id === selected
@@ -185,13 +185,13 @@ function StepList({
                       type="button"
                       onClick={() => onSelect(s.edge.id)}
                       aria-pressed={active}
-                      aria-label={`Show evidence for step ${offset + i + 1}`}
                       className={cn(
                         'rounded-xs px-1 text-label',
                         active ? 'text-ink-3' : 'text-accent-ink hover:underline',
                       )}
                     >
                       {active ? 'Evidence shown' : 'Show evidence'}
+                      <span className="sr-only"> for step {offset + i + 1}</span>
                     </button>
                   </div>
                 </div>

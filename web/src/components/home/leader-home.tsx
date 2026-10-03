@@ -21,7 +21,7 @@ export function LeaderHome() {
             Change
           </button>
         </div>
-        <DiseaseOverview id={focus} asHome />
+        <DiseaseOverview id={focus} />
       </Page>
     )
   }

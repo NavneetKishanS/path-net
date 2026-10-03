@@ -30,10 +30,10 @@ export function RankedClusters({ items }: { items: RankedCluster[] }) {
               </span>
               <div className="min-w-0 space-y-3">
                 <div>
-                  <h3 className="flex items-center gap-2 text-h3 text-ink">
+                  <h2 className="flex items-center gap-2 text-h3 text-ink">
                     <ClusterSwatch cluster={r.cluster} className="size-3" />
                     {r.cluster.label}
-                  </h3>
+                  </h2>
                   <p className="mt-1 text-label text-ink-3">{r.cluster.scope}</p>
                 </div>
 
