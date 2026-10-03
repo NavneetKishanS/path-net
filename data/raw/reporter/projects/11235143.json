@@ -1,0 +1,124 @@
+{
+  "appl_id": 11235143,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS102239-09",
+  "project_serial_num": "NS102239",
+  "organization": {
+    "org_name": "YALE UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "NEW HAVEN",
+    "org_country": "UNITED STATES",
+    "org_state": "CT",
+    "org_state_name": null,
+    "dept_type": "PHARMACOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "043207562"
+    ],
+    "org_ueis": [
+      "FL6GV84CKN57"
+    ],
+    "primary_duns": "043207562",
+    "primary_uei": "FL6GV84CKN57",
+    "org_fips": "US",
+    "org_ipf_code": "9420201",
+    "org_zipcode": "065208327",
+    "external_org_id": 9420201
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 430696,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "102239",
+    "support_year": "09",
+    "full_support_year": "09",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 1860612,
+      "first_name": "LEONARD",
+      "middle_name": "K",
+      "last_name": "KACZMAREK",
+      "is_contact_pi": true,
+      "full_name": "LEONARD K KACZMAREK",
+      "title": "PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "KACZMAREK, LEONARD K",
+  "program_officers": [
+    {
+      "first_name": "HEIDI",
+      "middle_name": "YANICE",
+      "last_name": "MATOS GALICIA",
+      "full_name": "HEIDI YANICE MATOS GALICIA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 430696.0,
+      "direct_cost_ic": 257132.0,
+      "indirect_cost_ic": 173564.0
+    }
+  ],
+  "cong_dist": "CT-03",
+  "spending_categories": null,
+  "project_start_date": "2018-03-01T00:00:00",
+  "project_end_date": "2027-11-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -72.926428,
+    "lat": 41.310925
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "NC",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Neuronal Communications Study Section[NC]"
+  },
+  "award_notice_date": "2025-12-16T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS102239",
+  "terms": "<3' Untranslated Regions><3'UTR><ASD><Action Potentials><Animal Model><Animal Models and Related Studies><Animals><Antisense Agent><Antisense Oligonucleotides><Assay><Autism><Autistic Disorder><Binding><Bioassay><Biological Assay><C-terminal><Cell Line><Cell membrane><CellLine><Cellular Regulation><Cerebral cortex><Characteristics><Closure by Ligation><Connector Neuron><Coupled><Cytoplasm><Cytoplasmic Membrane><DNA mutation><Development><Early Infantile Autism><Electrophysiology><Electrophysiology (science)><Ensure><Epilepsy><Epileptic Seizures><Epileptics><FMR-1 Protein><FMR1><FMR1 Protein><FMR1 gene><FMRP><FMRP protein><FRAXA><Focal Seizure><Fragile X Mental Retardation 1 Gene><Fragile X Mental Retardation Protein><Fragile X Messenger Ribonucleoprotein><Fragile X mRNA ribonucleoprotein><Genes><Genetic Change><Genetic defect><Genetic mutation><Glutamates><Goals><Immune Precipitation><Immunoprecipitation><In Situ Hybridization><Infantile Autism><Intercalary Neuron><Intercalated Neurons><Interneurons><Internuncial Cell><Internuncial Neuron><Ion Channel><Ionic Channels><Ions><Isoforms><K channel><Kanner's Syndrome><L-Glutamate><Ligation><Location><Membrane Channels><Messenger RNA><Mice><Mice Mammals><Molecular Interaction><Murine><Mus><Mutant Strains Mice><Mutation><NAV1.6><Na element><Na(v)1.1><NaCh6><Nav1.1><Nav1.2><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurons><Neurophysiology / Electrophysiology><Non-Polyadenylated RNA><Pattern><Peptides><Physiologic><Physiological><Plasma Membrane><Potassium Channel><Potassium Ion Channels><Process><Property><Protein Biosynthesis><Protein Isoforms><Proteins><Pyramidal neuron><RNA><RNA Gene Products><RNA Splicing><Reporter><Ribonucleic Acid><Ribosomal Peptide Biosynthesis><Ribosomal Protein Biosynthesis><Ribosomal Protein Synthesis><SCN1A protein><SCN2A protein><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Signaling Factor Proto-Oncogene><Signaling Pathway Gene><Signaling Protein><Sodium><Splicing><Strains Cell Lines><Syndrome><Testing><Therapeutic><Time><Translations><Upregulation><antisense oligo><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><beta Actin><cell cortex><cell growth regulation><cell type><childhood epilepsy><cultured cell line><developmental><differential expression><differentially expressed><disease causing variant><disease-causing allele><disease-causing mutation><early onset><electrophysiological><epilepsia><epileptogenic><excitatory neuron><experiment><experimental research><experimental study><experiments><fragile X FMR1 protein><fragile X mental retardation 1><fragile X mental retardation-1 protein><gain of function><gain of function mutation><genome mutation><glutamatergic><hippocampal pyramidal neuron><in situ Hybridization Genetics><in situ Hybridization Staining Method><infancy><infantile><inhibitor><inhibitory neuron><mRNA><mRNA Translation><migration><model of animal><mouse model><mouse mutant><murine model><mutant><na(v)1.2><neuronal><neuronal excitability><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><partial seizure><pathogenic allele><pathogenic variant><pediatric epilepsy><plasmalemma><protein synthesis><response><severe intellectual disability><sodium channel, voltage gated, type VIII, alpha subunit><transcriptional differences><translation><voltage><β-Actin>",
+  "pref_terms": "3' Untranslated Regions;Action Potentials;Animal Model;Animals;Antisense Oligonucleotides;Binding;Biological Assay;C-terminal;Cell Line;Cell membrane;Cerebral cortex;Characteristics;Coupled;Cytoplasm;Development;Electrophysiology (science);Ensure;Epilepsy;FMR1 gene;Focal Seizure;Genes;Glutamates;Goals;Immunoprecipitation;In Situ Hybridization;Interneurons;Ion Channel;Ions;Ligation;Location;Messenger RNA;Mus;Mutant Strains Mice;Mutation;Neurons;Pattern;Peptides;Physiological;Potassium Channel;Process;Property;Protein Biosynthesis;Protein Isoforms;Proteins;RNA;RNA Splicing;Reporter;SCN1A protein;SCN2A protein;SCN8A gene;Seizures;Signaling Protein;Sodium;Syndrome;Testing;Therapeutic;Time;Translations;Upregulation;autism spectrum disorder;beta Actin;cell cortex;cell growth regulation;cell type;childhood epilepsy;differential expression;disease-causing mutation;early onset;excitatory neuron;experimental study;gain of function;gain of function mutation;hippocampal pyramidal neuron;infancy;inhibitor;inhibitory neuron;mRNA Translation;migration;mouse model;mutant;neuronal excitability;novel therapeutic intervention;response;severe intellectual disability;voltage",
+  "abstract_text": "ABSTRACT\nThe KCNT1 gene encodes a Na+-activated K+ channel (KNa channel) termed Slack. These channels are bound\ndirectly to regulators of mRNA translation in neurons. Mutations in KCNT1 give rise to several childhood\nepilepsies as well as autism. These gain-of-function mutations produce a 3-20-fold increase in K+ current and\nall result in very severe intellectual disability. In a mouse model of epilepsy expressing the Slack-R455H\nmutation, KNa currents are increased in both excitatory and inhibitory cortical neurons. The characteristics of\nthe increased KNa current are, however, different in the two types of cells, and the firing of excitatory neurons is\nincreased while that of GABAergic interneurons is suppressed. This proposal will test the hypothesis that\nexcitatory and inhibitory cortical neurons preferentially express either Slack-A or Slack-B splice isoforms, which\ndiffer substantially in their activation properties. In situ hybridization and immunolocalization experiments,\ncoupled with the use of antisense oligonucleotides, will localize and suppress the expression of each isoform.\nThe second part of the proposal will investigate the finding that, in addition to increased KNa currents, cortical\nneurons in Slack mutant mice have greatly increased Na+ currents and levels of NaV subunits. Because both\nphysiological and pathophysiological (Slack mutant) activation of Slack channels triggers increased translation\nof mRNAs for β-actin and for mRNA translation reporter constructs, we will test whether this mechanism\ncontributes to increased synthesis of NaV channel subunits. The ability of Slack channels to stimulate\ntranslation will be tested using reporter constructs containing 5’ and 3’ UTR domains of NaV genes, as well as\nassays of the rate of synthesis of nascent NaV peptides in cortical neurons. Finally, experiments will determine\nif specific domains in the cytoplasmic C-terminal domain of Slack channels, or K+ flux through the channels,\nare required for stimulation of mRNA reporter constructs or increased Na+ channel synthesis. The findings will\nprovide essential information on the major unsolved question of how neurons coordinate expression of Na+ and\nK+ channels to regulate intrinsic excitability, and on how disruption of this process leads to abnormal firing and\nsevere intellectual disability.",
+  "project_title": "Cellular Regulation of Sodium-activated Potassium Channels",
+  "phr_text": "PROJECT NARRATIVE\nEpilepsy of infancy with migrating focal seizures (EIMFS) is a condition associated with very severe intellectual\ndisability. It is caused by mutations in the KCNT1 gene, which encodes the Slack potassium channel, a protein\nthat regulates both firing patterns and the translation of new mRNAs in neurons. The experiments in this\nproposal will determine how such mutations alter the excitability of excitatory and inhibitory neurons in the\ncerebral cortex and how they control the synthesis of other types of channels, information critical to the\ndevelopment of new therapeutic approaches.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2025-12-01T00:00:00",
+  "budget_end": "2026-11-30T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 257132,
+  "indirect_cost_amt": 173564,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11235143",
+  "date_added": "2025-12-20T17:04:10"
+}

@@ -2,6 +2,8 @@
 
 Review date: **2026-10-03 (Europe/Berlin)**. This is a **machine-assisted source audit, not clinical validation**.
 
+Packaging note: **2026-10-04**. The original raw snapshot used for this review is now tracked in `data/raw/` and included in a fresh checkout. `python pipeline/validate_graph.py --check-raw` and `python pipeline/restore_pubmed.py --check` can run offline against those bundled caches. Packaging does not change the 2026-10-03 review/source dates, scientific findings or source-specific copyright and licence terms in `SOURCES.md`.
+
 Reviewed `data/seed/graph.json` against original cached webpage bodies, complete PubMed abstracts and their original EFetch XML, ClinVar variant identities, ClinicalTrials.gov protocol records, and NIH RePORTER project records. The review covered **37 mechanism/community/research-discovery edges and 39 evidence rows**. Every referenced raw-cache hash and reviewed text/structured-record locator matched. Surrounding source context was inspected, rather than treating a matching substring as sufficient evidence.
 
 Canonical graph SHA-256 (`provenance.graph_sha256`, independent of JSON field ordering): `508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf`.
@@ -44,4 +46,4 @@ No incorrect SCN2A variant identity or swapped GoF/LoF assignment was found. Bro
 - Keep broader-source/narrower-MONDO scope visible for community assets and research discovery links. STARR is an observational resource; KCNQ2 samples and study designs are candidates for discussion, not automatically reusable infrastructure for every linked disorder.
 - Provisional cluster membership organizes records. Shared genes, symptoms, investigators or an ion-channel functional class do not establish common treatment, clinical compatibility, or a 10x acceleration. Those would require additional expert review and evidence.
 
-The graph and builder were not modified during this audit. Cached pages and complete API responses remain local, ignored files; the review paraphrases source context and adds no new clinical claims.
+The graph and builder were not modified during this audit. Cached pages and complete API responses are preserved in the bundled, tracked raw snapshot; the review paraphrases source context and adds no new clinical claims.

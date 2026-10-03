@@ -1,0 +1,29 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+  "query": "SCN2A",
+  "retrieved_at": "2026-10-03T20:49:42+00:00",
+  "requests": [
+    {
+      "query.term": "SCN2A",
+      "format": "json",
+      "pageSize": 50,
+      "countTotal": "true"
+    }
+  ],
+  "total_count": 11,
+  "study_ids": [
+    "NCT07019922",
+    "NCT05407727",
+    "NCT05818553",
+    "NCT02505477",
+    "NCT06314490",
+    "NCT07494331",
+    "NCT05737784",
+    "NCT06674070",
+    "NCT07031661",
+    "NCT03907124",
+    "NCT01238250"
+  ],
+  "truncated": false
+}

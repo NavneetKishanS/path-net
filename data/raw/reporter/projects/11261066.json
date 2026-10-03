@@ -1,0 +1,124 @@
+{
+  "appl_id": 11261066,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS131319-03",
+  "project_serial_num": "NS131319",
+  "organization": {
+    "org_name": "OHIO STATE UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "Columbus",
+    "org_country": "UNITED STATES",
+    "org_state": "OH",
+    "org_state_name": null,
+    "dept_type": "NEUROSCIENCES",
+    "fips_country_code": null,
+    "org_duns": [
+      "832127323"
+    ],
+    "org_ueis": [
+      "DLWBSLWAJWR1"
+    ],
+    "primary_duns": "832127323",
+    "primary_uei": "DLWBSLWAJWR1",
+    "org_fips": "US",
+    "org_ipf_code": "6218701",
+    "org_zipcode": "43210",
+    "external_org_id": 6218701
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 373396,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "131319",
+    "support_year": "03",
+    "full_support_year": "03",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 10351324,
+      "first_name": "Jacy",
+      "middle_name": "Lee",
+      "last_name": "Wagnon",
+      "is_contact_pi": true,
+      "full_name": "Jacy Lee Wagnon",
+      "title": "ASSISTANT PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "WAGNON, JACY LEE",
+  "program_officers": [
+    {
+      "first_name": "GEORGE",
+      "middle_name": "KWABENA ESSIEN",
+      "last_name": "UMANAH",
+      "full_name": "GEORGE KWABENA ESSIEN UMANAH"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 373396.0,
+      "direct_cost_ic": 250000.0,
+      "indirect_cost_ic": 123396.0
+    }
+  ],
+  "cong_dist": "OH-03",
+  "spending_categories": null,
+  "project_start_date": "2024-02-21T00:00:00",
+  "project_end_date": "2029-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -83.033131,
+    "lat": 39.999598
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "CNNT",
+    "sra_flex_code": "N",
+    "group_code": "90",
+    "name": "Special Emphasis Panel[ZRG1-CNNT-N(90)S]"
+  },
+  "award_notice_date": "2026-01-31T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS131319",
+  "terms": "<ASO therapeutics><ASO therapy><ASO treatment><Abnormal Movements><Action Potentials><Address><Affect><Age><Antisense Agent><Antisense Oligonucleotide Therapy><Antisense Oligonucleotides><Aran-Duchenne disease><Architecture><Ataxia><Ataxy><Axon><Behavior assessment><Biophysics><Brain><Brain Nervous System><Cessation of life><Characteristics><Clinical><Cognitive Disturbance><Cognitive Impairment><Cognitive decline><Cognitive function abnormal><Convulsive Seizures><Coordination Impairment><Cruveilhier disease><DNA mutation><Data><Death><Decreased Muscle Tone><Development><Developmental Delay><Developmental Delay Disorders><Disease><Disorder><Disturbance in cognition><Dysfunction><Dyskinesia Syndromes><Dyskinesias><Dyskinetic syndrome><Dyssynergia><Dystonia><Electrophysiology><Electrophysiology (science)><Encephalon><Engineering / Architecture><Epilepsy><Epileptic Seizures><Epileptics><Exhibits><Fore-Brain><Forebrain><Functional disorder><Gene variant><Genes><Genetic><Genetic Change><Genetic defect><Genetic mutation><Heterozygote><Histology><Hypomyotonia><Hypotonia><Impaired cognition><Impairment><Incidence><Individual><Injections><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Maintenance><Measures><Medulla Spinalis><Mice><Mice Mammals><Missense Mutation><Modeling><Morphology><Motor><Motor Cell><Motor Neurons><Motor Seizures><Movement Disorder Syndromes><Movement Disorders><Murine><Mus><Muscle><Muscle Dystonia><Muscle Fibers><Muscle Hypotony><Muscle Tissue><Muscle Tone Poor><Muscle Weakness><Muscle hypotonia><Muscular Hypotonia><Muscular Weakness><Mutation><Myoneural Junction><Myotubes><NAV1.6><NaCh6><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neuromuscular Junction><Neurons><Neurophysiology / Electrophysiology><Pathogenesis><Pathology><Patients><Phenotype><Physiopathology><Population><Prosencephalon><QOL><Quality of life><Recurrence><Recurrent><Reporting><Resistance><Rhabdomyocyte><Risk><Role><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Skeletal Fiber><Skeletal Muscle Cell><Skeletal Muscle Fiber><Skeletal Myocytes><Sodium Channel><Sodium Ion Channels><Specific Child Development Disorders><Spinal><Spinal Cord><Spinal Muscular Atrophy><Structure><Tamoxifen><Testing><Therapeutic><Time><Variant><Variation><Work><ages><allelic variant><anti-sense oligonucleotide drug><anti-sense oligonucleotide therapy><anti-sense oligonucleotide treatment><anti-sense therapy><antisense drug><antisense oligo><antisense oligonucleotide therapeutic><antisense therapeutics><antisense therapy><behavior test><behavioral assessment><behavioral test><biophysical foundation><biophysical principles><biophysical sciences><co-morbid><co-morbidity><cognitive dysfunction><cognitive loss><comorbidity><develop therapy><developmental><early onset><early onset disorder><electrophysiological><epilepsia><epileptic encephalopathies><epileptogenic><excitatory neuron><experiment><experimental research><experimental study><experiments><gain of function><genetic variant><genome mutation><genomic variant><heterozygosity><impaired intellectual functioning><improved><infancy><infantile><innervation><insight><intellectual and developmental disability><intellectual and developmental disorder><intervention development><limited intellectual functioning><missense single nucleotide polymorphism><missense single nucleotide variant><missense variant><motoneuron><motor control><motor disease><motor disorder><motor dysfunction><motor impairment><mouse model><movement impairment><movement limitation><murine model><muscular><nerve cell death><nerve cell loss><nerve supply><neuromuscular><neuron cell death><neuron cell loss><neuron death><neuron loss><neuronal><neuronal cell death><neuronal cell loss><neuronal death><neuronal excitability><neuronal loss><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><pathophysiology><pharmacologic><postnatal><premature><prematurity><prevent><preventing><resistant><severe intellectual disability><social role><sodium channel, voltage gated, type VIII, alpha subunit><therapy development><treatment development><voltage>",
+  "pref_terms": "Action Potentials;Address;Affect;Age;Antisense Oligonucleotide Therapy;Antisense Oligonucleotides;Architecture;Ataxia;Axon;Behavior assessment;Biophysics;Brain;Cessation of life;Characteristics;Clinical;Data;Development;Developmental Delay Disorders;Disease;Dyskinetic syndrome;Dystonia;Electrophysiology (science);Epilepsy;Exhibits;Functional disorder;Genes;Genetic;Heterozygote;Histology;Impaired cognition;Impairment;Incidence;Individual;Injections;Intellectual functioning disability;Maintenance;Measures;Missense Mutation;Modeling;Morphology;Motor;Motor Neurons;Motor Seizures;Movement Disorders;Mus;Muscle;Muscle Fibers;Muscle Weakness;Muscle hypotonia;Mutation;Neuromuscular Junction;Neurons;Pathogenesis;Pathology;Patients;Phenotype;Population;Prosencephalon;Quality of life;Recurrence;Reporting;Resistance;Risk;Role;SCN8A gene;Seizures;Sodium Channel;Spinal;Spinal Cord;Spinal Muscular Atrophy;Structure;Tamoxifen;Testing;Therapeutic;Time;Variant;Work;behavior test;comorbidity;early onset;early onset disorder;epileptic encephalopathies;excitatory neuron;experimental study;gain of function;genetic variant;improved;infancy;insight;motor control;motor disorder;motor impairment;mouse model;nerve supply;neuromuscular;neuron loss;neuronal excitability;novel;novel therapeutic intervention;pharmacologic;postnatal;premature;prevent;severe intellectual disability;therapy development;voltage",
+  "abstract_text": "PROJECT SUMMARY\nDevelopmental and epileptic encephalopathies (DEEs) are severe early-onset seizure disorders with\ntreatment-resistant seizures, developmental delay/regression, and long-term cognitive and motor impairment.\nSCN8A DEE, caused by gain-of-function, missense variants in the voltage-gated sodium channel gene SCN8A\n(Nav1.6), is characterized by infantile-onset seizures, mild to severe intellectual disability, significant\ndevelopmental delay, and elevated risk of premature lethality. A serious comorbidity in SCN8A DEE is the\nprominent motor impairment, including severe hypotonia, movement disorders, and a large proportion of\nindividuals that are non-ambulatory. Two mouse models carrying the patient mutations p.Asn1768Asp\n(N1768D) or p.Arg1872Trp (R1872W) recapitulated seizures and early death but did not exhibit motor\nimpairment. Thus, insight into the mechanisms underlying motor impairment in SCN8A DEE has not previously\nbeen possible. We developed a novel conditional mouse model of SCN8A DEE with the patient mutation\np.Thr767Ile (T767I). The T767I mouse is the first model of SCN8A DEE that exhibits significant muscle\nweakness and motor impairment. Our preliminary data suggests that functional motor units are reduced in\nScn8a-T767I/+ mice. We hypothesize that the Scn8a-T767I mutation alters spinal motor neuron activity,\nleading to dysfunction of the motor unit and motor impairment in SCN8A DEE. Thus, we propose to use this\nunique mouse model to address the gap in our understanding of the pathophysiology underlying motor\nimpairment in SCN8A DEE. We will use the T767I mouse to 1) determine how Scn8a-T767I affects motor unit\nstructure, function and connectivity, 2) determine how expression of Scn8a-T767I in motor neurons affects\nneuromotor development, and 3) determine whether motor impairment can be prevented or reversed with\nadministration of an anti-sense oligonucleotide that reduces expression of Scn8a in brain and spinal cord.\nInformation gained from these studies will provide mechanistic insight into the pathophysiology of SCN8A DEE\nthat will aid in the development of new therapeutic strategies for this severe disorder.",
+  "project_title": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+  "phr_text": "PROJECT NARRATIVE\nGenetic mutations in the sodium channel gene SCN8A cause a severe, early-onset seizure disorder along with\nsignificant motor impairment. We have generated a unique new mouse model that is the first to exhibit the\nmotor impairment characteristic of SCN8A epilepsy. This proposal seeks to investigate the pathophysiologic\nmechanisms underlying motor dysfunction to provide new information that will help guide development of\ntreatments for this debilitating disorder.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-02-01T00:00:00",
+  "budget_end": "2027-01-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 250000,
+  "indirect_cost_amt": 123396,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11261066",
+  "date_added": "2026-02-07T17:04:09"
+}

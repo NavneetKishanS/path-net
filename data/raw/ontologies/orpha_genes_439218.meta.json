@@ -1,0 +1,14 @@
+{
+  "source_id": "orpha_genes_439218",
+  "provider": "Orphadata",
+  "source_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/439218",
+  "resolved_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/439218",
+  "retrieved_at": "2026-10-03T20:50:10.488373+00:00",
+  "cache_path": "raw/ontologies/orpha_genes_439218.json",
+  "raw_sha256": "651e8bb3962ce745e317239c661e6a45cad0040ea324658fb63da74f47565dd7",
+  "bytes": 2469,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC-BY-4.0",
+  "license_url": "https://api.orphadata.com/openapi.json"
+}

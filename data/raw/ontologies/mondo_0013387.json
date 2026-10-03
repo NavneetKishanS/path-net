@@ -1,0 +1,168 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0013387",
+      "lang" : "en",
+      "description" : [ "KCNQ2-related epileptic encephalopathy is a severe form of neonatal epilepsy that usually manifests in newborns during the first week of life with seizures (that affect alternatively both sides of the body), often accompanied by clonic jerking or more complex motor behavior, as well as signs of encephalopathy such as diffuse hypotonia, limb spasticity, lack of visual fixation and tracking and mild to moderate intellectual deficiency. The severity can range from controlled to intractable seizures and mild/moderate to severe intellectual disability." ],
+      "synonyms" : [ "epileptic encephalopathy, early infantile, type 7", "DEE7", "EIEE7", "KCNQ2-NEE", "KCNQ2-related disorders", "developmental and epileptic encephalopathy 7", "epileptic encephalopathy, early infantile, 7" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/developmental_and_epileptic_encephalopathy_7" ],
+        "database_cross_reference" : [ "DOID:0080462", "GARD:0013060", "MEDGEN:462336", "OMIM:613720", "Orphanet:439218", "UMLS:C3150986" ],
+        "has exact match" : [ "http://identifiers.org/medgen/462336", "http://linkedlifedata.com/resource/umls/id/C3150986", "http://purl.obolibrary.org/obo/DOID_0080462", "http://www.orpha.net/ORDO/Orphanet_439218", "https://omim.org/entry/613720" ],
+        "id" : [ "MONDO:0013387" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/4521" ]
+      },
+      "label" : "developmental and epileptic encephalopathy, 7",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0013387",
+      "obo_id" : "MONDO:0013387",
+      "in_subset" : [ "doid_rare", "gard_rare", "ordo_disorder", "orphanet_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "KCNQ2-related epileptic encephalopathy is a severe form of neonatal epilepsy that usually manifests in newborns during the first week of life with seizures (that affect alternatively both sides of the body), often accompanied by clonic jerking or more complex motor behavior, as well as signs of encephalopathy such as diffuse hypotonia, limb spasticity, lack of visual fixation and tracking and mild to moderate intellectual deficiency. The severity can range from controlled to intractable seizures and mild/moderate to severe intellectual disability.",
+        "oboXrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "439218",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_439218"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0080462",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0080462"
+      }, {
+        "database" : "GARD",
+        "id" : "0013060",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/?gard_id=0013060"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "462336",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/462336"
+      }, {
+        "database" : "OMIM",
+        "id" : "613720",
+        "description" : "Orphanet:439218/e",
+        "url" : "https://omim.org/entry/613720"
+      }, {
+        "database" : "Orphanet",
+        "id" : "439218",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_439218"
+      }, {
+        "database" : "UMLS",
+        "id" : "C3150986",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C3150986"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "DEE7",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "613720",
+          "description" : null,
+          "url" : "https://omim.org/entry/613720"
+        } ]
+      }, {
+        "name" : "EIEE7",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "613720",
+          "description" : null,
+          "url" : "https://omim.org/entry/613720"
+        } ]
+      }, {
+        "name" : "KCNQ2-NEE",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ ]
+      }, {
+        "name" : "developmental and epileptic encephalopathy 7",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080462",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080462"
+        }, {
+          "database" : "OMIM",
+          "id" : "613720",
+          "description" : null,
+          "url" : "https://omim.org/entry/613720"
+        } ]
+      }, {
+        "name" : "epileptic encephalopathy, early infantile, 7",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "613720",
+          "description" : null,
+          "url" : "https://omim.org/entry/613720"
+        } ]
+      }, {
+        "name" : "KCNQ2-related disorders",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0013060",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/?gard_id=0013060"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/graph"
+        },
+        "has_material_basis_in_germline_mutation_in" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013387/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013387"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

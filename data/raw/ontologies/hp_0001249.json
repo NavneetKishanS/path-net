@@ -1,0 +1,129 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/HP_0001249",
+      "lang" : "en",
+      "description" : [ "This term should be used for children who are at least five years old. For younger children, consider using the term Global developmental delay (HP:0001263). According to the WHO classification, Disorders of intellectual development are a group of etiologically diverse conditions originating during the developmental period characterized by significantly below average intellectual functioning and adaptive behavior that are approximately two or more standard deviations below the mean (approximately less than the 2nd/3rd percentile, corresponding roughly to an IQ threshold of 70). A diagnosis of intellectual disability should not be based solely on the results of tests of intellectual and adaptive functioning; rather, it is based on a combination of clinical assessment and judgment in conjunction with the results of standardized tests of intellectual and adaptive functioning.", "The term intellectual disability or intellectual developmental disorder is used to describe significantly sub-average intellectual and adaptive functioning based on clinical assessment and as measured by individually administered, appropriately normed, standardized and validated tests of intellectual functioning and adaptive behavior, with onset during the developmental period from infancy through adolescence." ],
+      "synonyms" : [ "Dull intelligence", "Nonprogressive intellectual disability", "Nonprogressive mental retardation", "Intellectual disability", "Low intelligence", "Mental deficiency", "Mental retardation", "Mental retardation, nonspecific", "Mental-retardation", "Poor school performance" ],
+      "annotation" : {
+        "has_alternative_id" : [ "HP:0000730", "HP:0001261", "HP:0001267", "HP:0001286", "HP:0002122", "HP:0002192", "HP:0002316", "HP:0002382", "HP:0002386", "HP:0002402", "HP:0002458", "HP:0002482", "HP:0002499", "HP:0002543", "HP:0003767", "HP:0006833", "HP:0006877", "HP:0006887", "HP:0006924", "HP:0007025", "HP:0007044", "HP:0007154", "HP:0007176", "HP:0007180", "HP:0007243" ],
+        "id" : [ "HP:0001249" ]
+      },
+      "label" : "Intellectual disability",
+      "ontology_name" : "hp",
+      "ontology_prefix" : "HP",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "HP_0001249",
+      "obo_id" : "HP:0001249",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "The term intellectual disability or intellectual developmental disorder is used to describe significantly sub-average intellectual and adaptive functioning based on clinical assessment and as measured by individually administered, appropriately normed, standardized and validated tests of intellectual functioning and adaptive behavior, with onset during the developmental period from infancy through adolescence.",
+        "oboXrefs" : [ {
+          "database" : "PMID",
+          "id" : "31292035",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/31292035"
+        }, {
+          "database" : "PMID",
+          "id" : "32206581",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/32206581"
+        }, {
+          "database" : "PMID",
+          "id" : "36975277",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/36975277"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : [ {
+        "name" : "Intellectual disability",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Mental deficiency",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Mental retardation",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Mental retardation, nonspecific",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Mental-retardation",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Low intelligence",
+        "scope" : "hasRelatedSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Poor school performance",
+        "scope" : "hasRelatedSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001249/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001249"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

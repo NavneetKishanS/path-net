@@ -1,0 +1,46 @@
+{
+  "source": "NIH RePORTER API v2",
+  "endpoint": "https://api.reporter.nih.gov/v2/projects/search",
+  "query": "SCN2A",
+  "retrieved_at": "2026-10-03T20:49:40+00:00",
+  "requests": [
+    {
+      "criteria": {
+        "advanced_text_search": {
+          "operator": "and",
+          "search_field": "all",
+          "search_text": "SCN2A"
+        },
+        "fiscal_years": [],
+        "use_relevance": true
+      },
+      "offset": 0,
+      "limit": 20
+    }
+  ],
+  "total_count": 292,
+  "application_ids": [
+    "11594149",
+    "11436758",
+    "11289342",
+    "11317220",
+    "11463970",
+    "11382293",
+    "11458751",
+    "11367624",
+    "11631660",
+    "11301017",
+    "11285465",
+    "11351013",
+    "11305354",
+    "11600294",
+    "11087457",
+    "11235143",
+    "11235882",
+    "11309101",
+    "11251761",
+    "11438335"
+  ],
+  "truncated": true,
+  "note": "Application IDs identify annual awards; core_project_num groups related award years."
+}

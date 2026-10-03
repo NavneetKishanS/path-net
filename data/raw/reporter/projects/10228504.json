@@ -1,0 +1,139 @@
+{
+  "appl_id": 10228504,
+  "subproject_id": null,
+  "fiscal_year": 2021,
+  "project_num": "3R43HG010852-01A1S1",
+  "project_serial_num": "HG010852",
+  "organization": {
+    "org_name": "NEMAMETRIX, INC.",
+    "city": null,
+    "country": null,
+    "org_city": "Eugene",
+    "org_country": "UNITED STATES",
+    "org_state": "OR",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "078737378"
+    ],
+    "org_ueis": [
+      "RDHNFKDYX5X3"
+    ],
+    "primary_duns": "078737378",
+    "primary_uei": "RDHNFKDYX5X3",
+    "org_fips": "US",
+    "org_ipf_code": "10033432",
+    "org_zipcode": "974029190",
+    "external_org_id": 10033432
+  },
+  "award_type": "3",
+  "activity_code": "R43",
+  "award_amount": 124932,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "3",
+    "activity_code": "R43",
+    "ic_code": "HG",
+    "serial_num": "010852",
+    "support_year": "01",
+    "full_support_year": "01A1S1",
+    "suffix_code": "A1S1"
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 9825067,
+      "first_name": "Trisha",
+      "middle_name": "",
+      "last_name": "Brock",
+      "is_contact_pi": false,
+      "full_name": "Trisha  Brock",
+      "title": "DIRECTOR"
+    },
+    {
+      "profile_id": 2466899,
+      "first_name": "CHRISTOPHER",
+      "middle_name": "E",
+      "last_name": "HOPKINS",
+      "is_contact_pi": false,
+      "full_name": "CHRISTOPHER E HOPKINS",
+      "title": ""
+    },
+    {
+      "profile_id": 9856637,
+      "first_name": "Kathryn",
+      "middle_name": "E",
+      "last_name": "McCormick",
+      "is_contact_pi": true,
+      "full_name": "Kathryn E McCormick",
+      "title": "SR. DIRECTOR OF SCIENTIFIC STRATEGY"
+    }
+  ],
+  "contact_pi_name": "MCCORMICK, KATHRYN E",
+  "program_officers": [],
+  "agency_ic_admin": {
+    "code": "HG",
+    "abbreviation": "NHGRI",
+    "name": "National Human Genome Research Institute",
+    "admin_org_id": "12500074",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2021,
+      "code": "OD",
+      "name": "NIH Office of the Director",
+      "abbreviation": "OD",
+      "total_cost": 124932.0,
+      "direct_cost_ic": 83399.0,
+      "indirect_cost_ic": 33360.0
+    }
+  ],
+  "cong_dist": "OR-04",
+  "spending_categories": [
+    92,
+    276,
+    525
+  ],
+  "project_start_date": "2020-12-10T00:00:00",
+  "project_end_date": "2023-04-30T00:00:00",
+  "organization_type": {
+    "name": "Domestic For-Profits",
+    "code": "FP",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -123.053341,
+    "lat": 44.03973
+  },
+  "opportunity_number": "PA-18-591",
+  "full_study_section": {
+    "srg_code": null,
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": "15",
+    "name": null
+  },
+  "award_notice_date": "2020-12-09T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "SB",
+  "core_project_num": "R43HG010852",
+  "terms": "<2-PAM chloride><2-formyl-1-methylpyridinium chloride oxime><4-Aminobutanoic Acid><4-Aminobutyric Acid><4-amino-butanoic acid><ACh Receptors><Acetylcholine><Acetylcholine Receptors><Administrative Supplement><Aldicarb><Aminalon><Aminalone><Animal Model><Animal Models and Related Studies><Animals><Antidotes><Assay><Atropine><Attenuated><Award><Behavior><Benign><Benzodiazepine Compounds><Benzodiazepines><Bioassay><Biologic Assays><Biological Assay><Biological Function><Biological Process><Botox><Botulinum A Toxin><Botulinum Neurotoxin A><Botulinum Toxin Type A><Brachydanio rerio><C elegans><C. elegans><C.elegans><Caenorhabditis elegans><Carbamates><Chemicals><Cholinergic Receptors><Cholinoceptive Sites><Cholinoceptors><Cleaved cell><Clinical><Clostridium Botulinum Toxin Type A><Clostridium botulinum A Toxin><Code><Coding System><Complement><Complement Proteins><Dangerousness><Danio rerio><Detection><Development><Diagnosis><Diazepam><Disease model><Drug Screening><Drugs><Electrophysiology><Electrophysiology (science)><Enzyme Reactivation><Epilepsy><Epileptic Seizures><Epileptics><Ester Hydrolase><Exposure to><Funding><Future><GABA><Gene variant><Genes><Goals><Health><History><Human><Investigational Drugs><Investigational New Drugs><Libraries><Measurable><Measures><Medication><Methods><Modern Man><Morphology><Muscarinic Acetylcholine Receptor><Muscarinic Receptors><NHGRI><NIH><NSF attachment protein receptor><National Center for Human Genome Research><National Human Genome Research Institute><National Institutes of Health><Nematoda><Nematodes><Nerve Impulse Transmission><Nerve Transmission><Nerve Transmitter Substances><Neuronal Transmission><Neurophysiology / Electrophysiology><Neurotoxins><Neurotransmitters><Organism><Organophosphates><Ortholog><Orthologous Gene><Palsy><Paralysed><Parents><Pathogenicity><Patients><Pesticides><Pharmaceutic Preparations><Pharmaceutical Preparations><Phenotype><Plegia><Poisoning><Pralidoxime chloride><Proteins><Protocol><Protocols documentation><Receptor Protein><Recording of previous events><Research><Route><SBIR><SNAP receptor><SNARE><Seizure Disorder><Seizures><Small Business Innovation Research><Small Business Innovation Research Grant><Symptoms><Synapses><Synaptic><Synaptic Vesicles><System><Therapeutic><Theriacs><Toxic effect><Toxicities><Transgenic Organisms><Translations><Transmission><United States National Institutes of Health><Valium><Variant><Variation><Video Recording><Videorecording><Work><Zebra Danio><Zebra Fish><Zebrafish><allele variant><allelic variant><axon signaling><axon-glial signaling><axonal signaling><base><botulinum toxin A><cholinergic synapse><cleaved><developmental><disorder model><dl-Hyoscyamine><drug/agent><electrophysiological><epilepsia><epileptiform><epileptogenic><esterase><gamma-Aminobutyric Acid><genetic variant><genomic variant><glia signaling><glial signaling><inhibitor><inhibitor/antagonist><living system><medical countermeasure><model of animal><model organism><nerve agent><nerve signaling><neural signaling><neuron toxicity><neuronal signaling><neuronal survival><neuronal toxicity><neurotoxic><neurotoxicant><neurotoxicity><neurotransmission><neurotransmitter release><novel><paralysis><paralytic><parent project><poisoned><postsynaptic><presynaptic><prevent><preventing><programs><pyridine-2-aldoxime methachloride><pyridine-2-aldoxime methochloride><receptor><response><restoration><roundworm><screening><soluble N-ethylmaleimide-sensitive-factor attachment protein receptor><success><synapse><tool><transgenic><transmission process><vesicle release><vesicular release><video recording system><γ-Aminobutyric Acid>",
+  "pref_terms": "Acetylcholine;Administrative Supplement;Aldicarb;Animal Model;Animals;Antidotes;Atropine;Attenuated;Award;Behavior;Benign;Benzodiazepines;Biological Assay;Biological Process;Botox;Botulinum Toxin Type A;Caenorhabditis elegans;Carbamates;Chemicals;Cholinergic Receptors;Cleaved cell;Clinical;Code;Complement;Dangerousness;Detection;Development;Diagnosis;Diazepam;Disease model;Drug Screening;Electrophysiology (science);Enzyme Reactivation;Epilepsy;Exposure to;Funding;Future;Genes;Goals;Health;Human;Investigational Drugs;Libraries;Measurable;Measures;Methods;Morphology;Muscarinic Acetylcholine Receptor;National Human Genome Research Institute;Nematoda;Neurotoxins;Neurotransmitters;Organism;Organophosphates;Orthologous Gene;Paralysed;Parents;Pathogenicity;Patients;Pesticides;Pharmaceutical Preparations;Phenotype;Poisoning;Pralidoxime chloride;Proteins;Protocols documentation;Recording of previous events;Research;Route;SNAP receptor;Seizures;Small Business Innovation Research Grant;Symptoms;Synapses;Synaptic Vesicles;System;Therapeutic;Toxic effect;Transgenic Organisms;Translations;United States National Institutes of Health;Variant;Video Recording;Work;Zebrafish;base;cholinergic synapse;esterase;gamma-Aminobutyric Acid;genetic variant;inhibitor/antagonist;medical countermeasure;nerve agent;neuronal survival;neurotoxic;neurotoxicity;neurotransmission;neurotransmitter release;novel;parent project;postsynaptic;presynaptic;prevent;programs;receptor;response;restoration;screening;success;tool;transmission process;vesicular release",
+  "abstract_text": "Summary\nThis supplement funding request is relevant for the development of chemical medical countermeasures to\nneurotoxin exposure. Specifically, we use a humanized animal model to provide greater relevance and\ntranslation of drugs as antidotes to the neurotoxic effects of exposure to aldicarb, a pesticide which causes\npotentially lethal buildup of acetylcholine (ACh) at the synapse. In the parent SBIR award, we are creating a\npolygenic humanization of C. elegans wherein three human genes involved in vesicular release of ACh\n(SNAP25, STXBP1 and STX1A) replace their orthologous loci (ric-4, unc-18 and unc-64) in a single transgenic\nline. The resulting polygenic humanized animal will be used as a platform for functional categorization of\npathogenic genetic variants when patient-derived variants are installed. As a supplementary project, the\ndouble-humanized hSTXBP1/hSTX1A humanized animals, which we have already created, and a\ntiple-humanized hSNAP25/hSTXBP1/hSTX1A will be used as a platform for discovery of drugs that act as\nantidotes to aldicarb neurotoxicity. The human proteins functionally replace the worm orthologs, restoring\nregulated neurotransmitter release from the synapse. Treatment with aldicarb inhibits synaptic ACh esterase\n(AChE) and leads to build up of ACh at cholinergic synapses. This paralytic effect of aldicarb is well\ndocumented in prior C. elegans work. Yet, most common antidotes to aldicarb work via a diverse set of\nmechanisms, which have not been well characterized in C. elegans. As a result, we focus on four distinct\nmechanisms: (1) acting upstream to decrease presynaptic release of ACh (botulinum toxin A - \"Botox\", (2)\nacting downstream to inhibit ACh receptors (atropine), (3) acting directly on the aldicarb-blocked AChE by\npromoting enzyme reactivation (pralidoxime), and (4) reducing GABA transmission which alleviates convulsive\nsymptoms (diazepam). In this work to establish an aldicarb antidote discovery system, two aims are sought.\nThe first aim will be to establish aldicarb paralytic activity that can be easily detected in the humanized animal\nmodels. The second aim will be to measure the antidote effects of four drugs (atropine, pralidoxime, diazepam\nand Botox) on aldicarb-induced paralysis. Success of the project occurs when an assay protocol is found\ncapable of detecting the effects of an antidote in reducing aldicarb toxicity. In future work, this humanized\nsystem can be used as a screening platform for aldicarb antidotes as well as a broad range of neurotoxic\nagents that threaten human health.",
+  "project_title": "Administrative Supplement: Functional Assessment of Variants in Organisms of Research (FAVOR) - Profiling Canonical Human Genes and their Variants through Disease Model Phenotyping.",
+  "phr_text": "Narrative\nFunding for the project will create a platform for discovery of antidotes to nerve agents. A humanized C.\nelegans animal model is used to achieve a better translation of study results to human use. Agents to prevent\naldicarb toxicity is the focus of this preliminary study.",
+  "spending_categories_desc": "Biodefense; Genetics; Neurosciences",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2020-12-10T00:00:00",
+  "budget_end": "2023-04-30T00:00:00",
+  "cfda_code": "93.172",
+  "funding_mechanism": "SBIR/STTR",
+  "direct_cost_amt": 83399,
+  "indirect_cost_amt": 33360,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10228504",
+  "date_added": "2020-12-12T19:33:02"
+}

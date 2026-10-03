@@ -1,0 +1,175 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0013388",
+      "lang" : "en",
+      "description" : [ "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN2A gene." ],
+      "synonyms" : [ "DEE11", "EIEE11", "SCN2A early infantile epileptic encephalopathy", "developmental and epileptic encephalopathy 11", "early infantile epileptic encephalopathy caused by mutation in SCN2A", "epileptic encephalopathy, early infantile, 11" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/developmental_and_epileptic_encephalopathy_11" ],
+        "database_cross_reference" : [ "DOID:0080421", "GARD:0015699", "MEDGEN:462337", "OMIM:613721", "UMLS:C3150987" ],
+        "has exact match" : [ "http://identifiers.org/medgen/462337", "http://linkedlifedata.com/resource/umls/id/C3150987", "http://purl.obolibrary.org/obo/DOID_0080421", "https://omim.org/entry/613721" ],
+        "id" : [ "MONDO:0013388" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/10205", "https://github.com/monarch-initiative/mondo/issues/4521" ]
+      },
+      "label" : "developmental and epileptic encephalopathy, 11",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0013388",
+      "obo_id" : "MONDO:0013388",
+      "in_subset" : [ "gard_rare", "nord_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN2A gene.",
+        "oboXrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/disease_series_by_gene",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0080421",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0080421"
+      }, {
+        "database" : "GARD",
+        "id" : "0015699",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/?gard_id=0015699"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "462337",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/462337"
+      }, {
+        "database" : "OMIM",
+        "id" : "613721",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://omim.org/entry/613721"
+      }, {
+        "database" : "UMLS",
+        "id" : "C3150987",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C3150987"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "DEE11",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080421",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080421"
+        }, {
+          "database" : "OMIM",
+          "id" : "613721",
+          "description" : null,
+          "url" : "https://omim.org/entry/613721"
+        } ]
+      }, {
+        "name" : "EIEE11",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "613721",
+          "description" : null,
+          "url" : "https://omim.org/entry/613721"
+        } ]
+      }, {
+        "name" : "SCN2A early infantile epileptic encephalopathy",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/disease_series_by_gene",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "developmental and epileptic encephalopathy 11",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080421",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080421"
+        }, {
+          "database" : "OMIM",
+          "id" : "613721",
+          "description" : null,
+          "url" : "https://omim.org/entry/613721"
+        } ]
+      }, {
+        "name" : "early infantile epileptic encephalopathy caused by mutation in SCN2A",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "epileptic encephalopathy, early infantile, 11",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "613721",
+          "description" : null,
+          "url" : "https://omim.org/entry/613721"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013388"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

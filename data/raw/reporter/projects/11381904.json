@@ -1,0 +1,142 @@
+{
+  "appl_id": 11381904,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS137587-02",
+  "project_serial_num": "NS137587",
+  "organization": {
+    "org_name": "NORTHWESTERN UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "CHICAGO",
+    "org_country": "UNITED STATES",
+    "org_state": "IL",
+    "org_state_name": null,
+    "dept_type": "PHARMACOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "005436803"
+    ],
+    "org_ueis": [
+      "KG76WYENL5K1"
+    ],
+    "primary_duns": "005436803",
+    "primary_uei": "KG76WYENL5K1",
+    "org_fips": "US",
+    "org_ipf_code": "6144650",
+    "org_zipcode": "606114579",
+    "external_org_id": 6144650
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 874739,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "137587",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 6574463,
+      "first_name": "Alfred",
+      "middle_name": "L.",
+      "last_name": "George",
+      "is_contact_pi": true,
+      "full_name": "Alfred L. George",
+      "title": "PROFESSOR AND CHAIR OF PHARMACOLOGY"
+    },
+    {
+      "profile_id": 11673518,
+      "first_name": "Evangelos",
+      "middle_name": "",
+      "last_name": "Kiskinis",
+      "is_contact_pi": false,
+      "full_name": "Evangelos  Kiskinis",
+      "title": "ASSISTANT PROFESSOR OF NEUROLOGY"
+    },
+    {
+      "profile_id": 8880930,
+      "first_name": "Anastasios",
+      "middle_name": "",
+      "last_name": "Tzingounis",
+      "is_contact_pi": false,
+      "full_name": "Anastasios  Tzingounis",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "GEORGE, ALFRED L.",
+  "program_officers": [
+    {
+      "first_name": "HEIDI",
+      "middle_name": "YANICE",
+      "last_name": "MATOS GALICIA",
+      "full_name": "HEIDI YANICE MATOS GALICIA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 874739.0,
+      "direct_cost_ic": 627014.0,
+      "indirect_cost_ic": 247725.0
+    }
+  ],
+  "cong_dist": "IL-05",
+  "spending_categories": null,
+  "project_start_date": "2025-08-01T00:00:00",
+  "project_end_date": "2030-07-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -87.680046,
+    "lat": 42.050479
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "BN",
+    "sra_flex_code": "P",
+    "group_code": "57",
+    "name": "Special Emphasis Panel[ZRG1-BN-P(57)]"
+  },
+  "award_notice_date": "2026-07-28T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS137587",
+  "terms": "<0-11 years old><21+ years old><Adult><Adult Human><Affect><Antigenic Determinants><Antimorphic mutation><Binding Determinants><Biophysics><Brain><Brain Nervous System><Brain region><Cell Body><Cell Line><Cell model><CellLine><Cells><Cellular model><Child><Child Youth><Children (0-21)><Clinical><Collection><Complex><DNA mutation><Development><Disease><Disorder><Dominant Negative><Dominant-Negative Mutant><Dominant-Negative Mutation><Drug Therapy><Drugs><Dysfunction><Electrophysiology><Electrophysiology (science)><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Epitopes><Exhibits><Functional disorder><GEM model><GEMM model><Genes><Genetic Change><Genetic defect><Genetic mutation><Genetically Engineered Mouse><Glutamates><Heterozygote><Human><Impairment><Induced pluripotent stem cell derived neurons><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Investigation><Ion Channel><Ionic Channels><K channel><K element><KO mice><Knock-out Mice><Knockout Mice><Knowledge><L-Glutamate><Measures><Medication><Membrane Channels><Membrane Potentials><Mice><Mice Mammals><Modeling><Modern Man><Molecular><Murine><Mus><Mutation><Neonatal><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neural Development><Neurocyte><Neurodevelopmental Disorder><Neurologic Disorders><Neurological Development Disorder><Neurological Disorders><Neuron from iPSC><Neuron from induced pluripotent stem cells><Neurons><Neurophysiology / Electrophysiology><Null Mouse><Outcome><PIP2><Pathogenesis><Pathogenicity><Patient outcome><Patient-Centered Outcomes><Patient-Focused Outcomes><Patients><Pattern><Peripheral><Pharmaceutical Preparations><Pharmacological Treatment><Pharmacology><Pharmacotherapy><Phenotype><Phosphatidylinositol 4,5-Biphosphate><Phosphatidylinositol 4,5-Diphosphate><Phosphatidylinositol-4,5-Bisphosphate><Physiology><Physiopathology><Potassium><Potassium Channel><Potassium Ion Channels><Prevalence><Property><Proteomics><PtIns 4,5-P2><PtdInsP2><Regulation><Resting Potentials><Seizure Disorder><Series><Severities><Stimulus><Strains Cell Lines><System><Therapeutic><Therapeutic Intervention><Thinking><Time><Transmembrane Potentials><Variant><Variation><Work><adulthood><biophysical foundation><biophysical principles><biophysical sciences><cell type><childhood epilepsy><cohort><cultured cell line><developmental><drug intervention><drug treatment><drug/agent><early childhood><electrophysiological><epilepsia><epilepsy participant><epilepsy patient><epilepsy subject><epilepsy volunteer><epileptic encephalopathies><epileptic patient><epileptic subject><epileptogenic><experiment><experimental research><experimental study><experiments><gain of function><genetic etiology><genetic mechanism of disease><genetically engineered mouse model><genetically engineered murine model><genome mutation><glutamatergic><heterozygosity><high throughput technology><hippocampal subregions><iPS><iPS neurons><iPSC><iPSC derived-neurons><iPSCs><impaired intellectual functioning><improved outcome><in vivo><induced pluripotent cell><induced pluripotent stem cell><induced pluripotent stem cell neurons><inducible pluripotent cell><inducible pluripotent stem cell><infancy><infantile><intellectual and developmental disability><intellectual and developmental disorder><intervention therapy><kids><limited intellectual functioning><loss of function><mRNA Expression><mouse model><multi-electrode arrays><multidisciplinary><multielectrode arrays><murine model><mutant><mutation correction><neurodevelopment><neurodevelopmental disease><neurological disease><neuronal><neuronal excitability><neurons derived from induced pluripotent stem cells><neurons differentiated from induced pluripotent stem cells><optimal therapies><optimal treatments><patch clamp><pathophysiology><patient oriented outcomes><patients with epilepsy><pediatric epilepsy><pharmaceutical intervention><pharmacologic><pharmacological intervention><pharmacological therapy><pharmacology intervention><pharmacology treatment><pharmacotherapeutics><response><therapeutic target><thoughts><trafficking><voltage><youngster>",
+  "pref_terms": "Adult;Affect;Biophysics;Brain;Brain region;Cell Line;Cell model;Cells;Child;Clinical;Collection;Complex;Development;Disease;Dominant-Negative Mutation;Electrophysiology (science);Epilepsy;Epitopes;Exhibits;Functional disorder;Genes;Genetically Engineered Mouse;Glutamates;Heterozygote;Human;Impairment;Induced pluripotent stem cell derived neurons;Intellectual functioning disability;Investigation;Ion Channel;Knockout Mice;Knowledge;Measures;Membrane Potentials;Modeling;Molecular;Mus;Mutation;Neonatal;Nervous System Disorder;Neurodevelopmental Disorder;Neurons;Outcome;Pathogenesis;Pathogenicity;Patient-Focused Outcomes;Patients;Pattern;Peripheral;Pharmaceutical Preparations;Pharmacology;Pharmacotherapy;Phenotype;Phosphatidylinositol 4,5-Diphosphate;Physiology;Potassium;Potassium Channel;Prevalence;Property;Proteomics;Regulation;Series;Severities;Stimulus;System;Therapeutic;Therapeutic Intervention;Thinking;Time;Variant;Work;cell type;childhood epilepsy;cohort;early childhood;epilepsy patient;epileptic encephalopathies;experimental study;gain of function;genetic etiology;high throughput technology;hippocampal subregions;improved outcome;in vivo;induced pluripotent stem cell;infancy;loss of function;mRNA Expression;mouse model;multi-electrode arrays;multidisciplinary;mutant;mutation correction;neurodevelopment;neuronal excitability;optimal treatments;patch clamp;pharmacologic;response;therapeutic target;trafficking;voltage",
+  "abstract_text": "SUMMARY | Pathogenic variants in KCNQ2 are among the most commonly discovered genetic etiologies of\nneonatal and infantile onset epilepsy. KCNQ2 encodes the voltage-gated potassium (KV) channel KV7.2, which\nforms hetero-tetrameric complexes with the related channel KV7.3 to generate M-current, a voltage-gated, slowly\nactivating and deactivating current widely distributed in central and peripheral neurons. Activation of M-current\nat subthreshold membrane potentials opposes cell depolarization by incoming stimuli and dampens neuronal\nexcitability. The clinical spectrum of KCNQ2-related disorders ranges from self-limited familial neonatal epilepsy\n(SLFNE) to sporadic cases of severe developmental and epileptic encephalopathy (DEE). It is not known why\nDEE patients suffer long-lasting intellectual and developmental disabilities, while SLFNE patients have normal\nneurodevelopment. This gap in knowledge hinders deployment and timing of optimal therapies. Current thinking\nposits that SLFNE patients harbor mutations that cause loss-of-function and haploinsufficiency, whereas DEE\npatients harbor mutations that exert dominant-negative effects or rarely gain-of-function. However, this inference\ndoes not fully explain the heterogenity in clinical outcomes. This is likely because this it is based on work in\nheterologous systems solely examining the effects of Kv7.2 mutations on channel function without considering\nthe impact on trafficking, localization, and differential assembly of KV7.2 channels with other KV7 subunits in\nneurons. The objective of this proposal is to determine how KCNQ2 mutations impair the assembly and\nphysiology of neuronal KV7 ion channels. We will utilize our multidisciplinary expertise and established toolbox\nof high throughput technologies and orthogonal cell models, including unique patient-specific induced pluripotent\nstem cell (iPSC) derived neurons and unique mouse models, to advance understanding of pathophysiological\nmechanisms that drive divergent phenotype severity in KCNQ2-related disorders. In Aim 1, we will employ our\nunique, large collection of patient-specific iPSC lines with heterozygous pathogenic KCNQ2 variants to\ndetermine drivers of phenotype divergence in this disorder, to assess trafficking and localization of mutant KV7.2,\nand to determine the subunit composition of KV7 channels in human neurons. In Aim 2, we will extend our\ninvestigations of channel composition in vivo using an existing portfolio of genetically engineered mice that\nexpress epitope-tagged endogenous KV7 channels subunits in brain. We will determine if pathogenic KV7.2\nvariants disrupt the normal time, region and cell type dependent formation of KV7 channel complexes. Finally in\nAim 3, we will investigate the functional and pharmacological properties of pathogenic KCNQ2 variants when\nco-expressed with KV7.5, and determine if KCNQ2-DEE variants differ from KCNQ2-SLFNE variants in their\nresponses to intracellular PIP2, a major regulator of neuronal M-current. Collectively, our work will fill fundamental\ngaps in our understanding of Kv7 channel diversity and the impact of pathogenic variants, and inform therapeutic\nstrategies that seek to modify KCNQ2 patient outcomes.",
+  "project_title": "Pathophysiology of KCNQ2-related Disorders",
+  "phr_text": "PROJECT NARRATIVE\nThis proposal will advance understanding of molecular mechanisms of epilepsy, one of the most common\nneurological disorders affecting children and adults. The focus of the study is on a group of related potassium\nchannel encoding genes that are prevalent causes of early childhood epilepsy and neurodevelopmental\ndisorders and are important targets for pharmacological treatments of epilepsy. Advanced knowledge of the\nmechanisms by which these genes cause epilepsy will lead to improved outcomes for children with such\ndisorders and direct the development of better anti-epilepsy drugs.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-08-01T00:00:00",
+  "budget_end": "2027-07-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 627014,
+  "indirect_cost_amt": 247725,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11381904",
+  "date_added": "2026-08-01T17:03:56"
+}

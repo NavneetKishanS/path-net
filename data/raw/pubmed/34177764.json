@@ -1,0 +1,12 @@
+{
+  "pmid": "34177764",
+  "title": "Paroxysmal Movement Disorders.",
+  "abstract": "Paroxysmal movement disorders (PxMDs) are a clinical and genetically heterogeneous group of movement disorders characterized by episodic involuntary movements (dystonia, dyskinesia, chorea and/or ataxia). Historically, PxMDs were classified clinically (triggers and characteristics of the movements) and this directed single-gene testing. With the advent of next-generation sequencing (NGS), how we classify and investigate PxMDs has been transformed. Next-generation sequencing has enabled new gene discovery (RHOBTB2, TBC1D24), expansion of phenotypes in known PxMDs genes and a better understanding of disease mechanisms. However, PxMDs exhibit phenotypic pleiotropy and genetic heterogeneity, making it challenging to predict genotype based on the clinical phenotype. For example, paroxysmal kinesigenic dyskinesia is most commonly associated with variants in PRRT2 but also variants identified in PNKD, SCN8A, and SCL2A1. There are no radiological or biochemical biomarkers to differentiate genetic causes. Even with NGS, diagnosis rates are variable, ranging from 11 to 51% depending on the cohort studied and technology employed. Thus, a large proportion of patients remain undiagnosed compared to other neurological disorders such as epilepsy, highlighting the need for further genomic research in PxMDs. Whole-genome sequencing, deep-sequencing, copy number variant analysis, detection of deep-intronic variants, mosaicism and repeat expansions, will improve diagnostic rates. Identifying the underlying genetic cause has a significant impact on patient care, modification of treatment, long-term prognostication and genetic counseling. This paper provides an update on the genetics of PxMDs, description of PxMDs classified according to causative gene rather than clinical phenotype, highlighting key clinical features and providing an algorithm for genetic testing of PxMDs.",
+  "authors": [
+    "Susan Harvey",
+    "Mary D King",
+    "Kathleen M Gorman"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34177764/",
+  "retrieved_at": "2026-10-03T20:49:44+00:00"
+}

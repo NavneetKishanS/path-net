@@ -1,0 +1,19 @@
+{
+  "pmid": "25893612",
+  "title": "Human brain proteins showing neuron-specific interactions with γ-secretase.",
+  "abstract": "The transmembrane protease complex γ-secretase is a key enzyme in Alzheimer disease pathogenesis as it liberates the neurotoxic amyloid β-peptide (Aβ); however, the mechanism of regulation of its activity in various cell types and subcellular compartments is largely unknown. Several γ-secretase inhibitors have been developed, but none have been released due to side-effects that appear to arise from reduced processing of Notch, one of many γ-secretase substrates. Hence, it is desirable to specifically inhibit Aβ production. In our previous studies, we have identified several γ-secretase-associated proteins (GSAPs) from brain, which affect Aβ production without having any major effects on Notch processing. In the present study using detergent-resistant membranes prepared from brain, we have identified four GSAPs that affect Aβ production to a greater extent than Notch processing. We evaluated the interaction between GSAPs and γ-secretase in various cell types and their mRNA expression in various human organs. Using an in situ proximity ligation assay, we demonstrated that many GSAPs showed considerably greater interaction with γ-secretase in neurons than in human embryonic kidney cells stably over-expressing APP, and showed that several GSAPs are highly expressed in human brain. This study underscores the importance of studying protein-protein interactions in relevant cell types, and suggests that reducing Aβ production by interfering with brain- or neuron-specific γ-secretase/GSAP interactions may reduce the risk of unwanted side-effects associated with treatment of Alzheimer disease.",
+  "authors": [
+    "Mitsuhiro Inoue",
+    "Ji-Yeun Hur",
+    "Takahiro Kihara",
+    "Yasuhiro Teranishi",
+    "Natsuko G Yamamoto",
+    "Taizo Ishikawa",
+    "Birgitta Wiehager",
+    "Bengt Winblad",
+    "Lars O Tjernberg",
+    "Sophia Schedin-Weiss"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/25893612/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

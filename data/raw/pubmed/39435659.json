@@ -1,0 +1,20 @@
+{
+  "pmid": "39435659",
+  "title": "Parvalbumin interneuron impairment causes synaptic transmission deficits and seizures in SCN8A developmental and epileptic encephalopathy.",
+  "abstract": "SCN8A developmental and epileptic encephalopathy (DEE) is a severe epilepsy syndrome resulting from mutations in the voltage-gated sodium channel Nav1.6, encoded by the gene SCN8A. Nav1.6 is expressed in excitatory and inhibitory neurons, yet previous studies primarily focus on how SCN8A mutations affect excitatory neurons, with limited studies on the importance of inhibitory interneurons. Parvalbumin (PV) interneurons are a prominent inhibitory interneuron subtype that expresses Nav1.6. To assess PV interneuron function within SCN8A DEE, we used 2 mouse models harboring patient-derived SCN8A gain-of-function variants, Scn8aD/+, where the SCN8A variant N1768D is expressed globally, and Scn8aW/+-PV, where the SCN8A variant R1872W is selectively expressed in PV interneurons. Expression of the R1872W SCN8A variant selectively in PV interneurons led to development of spontaneous seizures and seizure-induced death. Electrophysiology studies showed that Scn8aD/+ and Scn8aW/+-PV interneurons were susceptible to depolarization block and exhibited increased persistent sodium current. Evaluation of synaptic connections between PV interneurons and pyramidal cells showed synaptic transmission deficits in Scn8aD/+ and Scn8aW/+-PV interneurons. Together, our findings indicate that PV interneuron failure via depolarization block along with inhibitory synaptic impairment likely elicits an overall inhibitory reduction in SCN8A DEE, leading to unchecked excitation and ultimately resulting in seizures and seizure-induced death.",
+  "authors": [
+    "Raquel M Miralles",
+    "Alexis R Boscia",
+    "Shrinidhi Kittur",
+    "Jessica C Hanflink",
+    "Payal S Panchal",
+    "Matthew S Yorek",
+    "Tyler C J Deutsch",
+    "Caeley M Reever",
+    "Shreya R Vundela",
+    "Eric R Wengert",
+    "Manoj K Patel"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39435659/",
+  "retrieved_at": "2026-10-03T20:49:44+00:00"
+}

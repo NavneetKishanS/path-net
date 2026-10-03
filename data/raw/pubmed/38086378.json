@@ -1,0 +1,17 @@
+{
+  "pmid": "38086378",
+  "title": "Microcircuit failure in STXBP1 encephalopathy leads to hyperexcitability.",
+  "abstract": "De novo mutations in STXBP1 are among the most prevalent causes of neurodevelopmental disorders and lead to haploinsufficiency, cortical hyperexcitability, epilepsy, and other symptoms in people with mutations. Given that Munc18-1, the protein encoded by STXBP1, is essential for excitatory and inhibitory synaptic transmission, it is currently not understood why mutations cause hyperexcitability. We find that overall inhibition in canonical feedforward microcircuits is defective in a P15-22 mouse model for Stxbp1 haploinsufficiency. Unexpectedly, we find that inhibitory synapses formed by parvalbumin-positive interneurons were largely unaffected. Instead, excitatory synapses fail to recruit inhibitory interneurons. Modeling confirms that defects in the recruitment of inhibitory neurons cause hyperexcitation. CX516, an ampakine that enhances excitatory synapses, restores interneuron recruitment and prevents hyperexcitability. These findings establish deficits in excitatory synapses in microcircuits as a key underlying mechanism for cortical hyperexcitability in a mouse model of Stxbp1 disorder and identify compounds enhancing excitation as a direction for therapy.",
+  "authors": [
+    "Altair Brito Dos Santos",
+    "Silas Dalum Larsen",
+    "Liangchen Guo",
+    "Paola Barbagallo",
+    "Alexia Montalant",
+    "Matthijs Verhage",
+    "Jakob Balslev Sørensen",
+    "Jean-François Perrier"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38086378/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

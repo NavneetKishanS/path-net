@@ -1,0 +1,123 @@
+{
+  "appl_id": 10670374,
+  "subproject_id": "8068",
+  "fiscal_year": 2023,
+  "project_num": "5U54NS117170-04",
+  "project_serial_num": "NS117170",
+  "organization": {
+    "org_name": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+    "city": null,
+    "country": null,
+    "org_city": "ANN ARBOR",
+    "org_country": "UNITED STATES",
+    "org_state": "MI",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "073133571"
+    ],
+    "org_ueis": [
+      "GNJ7BBP73WE9"
+    ],
+    "primary_duns": "073133571",
+    "primary_uei": "GNJ7BBP73WE9",
+    "org_fips": "US",
+    "org_ipf_code": "1506502",
+    "org_zipcode": "481081364",
+    "external_org_id": 1506502
+  },
+  "award_type": "5",
+  "activity_code": "U54",
+  "award_amount": 577785,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "U54",
+    "ic_code": "NS",
+    "serial_num": "117170",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 14149655,
+      "first_name": "Yu",
+      "middle_name": "",
+      "last_name": "Wang",
+      "is_contact_pi": true,
+      "full_name": "Yu  Wang",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "WANG, YU ",
+  "program_officers": [],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2023,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 577785.0,
+      "direct_cost_ic": 503697.0,
+      "indirect_cost_ic": 74088.0
+    }
+  ],
+  "cong_dist": "MI-06",
+  "spending_categories": [
+    118,
+    255,
+    276,
+    520,
+    525
+  ],
+  "project_start_date": "2020-09-15T00:00:00",
+  "project_end_date": "2025-07-31T00:00:00",
+  "organization_type": {
+    "name": "Domestic Higher Education",
+    "code": "10",
+    "is_other": true
+  },
+  "geo_lat_lon": {
+    "lon": -83.743038,
+    "lat": 42.275494
+  },
+  "opportunity_number": "RFA-NS-19-019",
+  "full_study_section": {
+    "srg_code": "ZNS1",
+    "srg_flex": null,
+    "sra_designator_code": "SRB",
+    "sra_flex_code": "A",
+    "group_code": null,
+    "name": "ZNS1-SRB-A"
+  },
+  "award_notice_date": "2023-06-21T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RC",
+  "core_project_num": "U54NS117170",
+  "terms": "<2-dimensional><3-D><3-Dimensional><3D><Assay><Behavioral><Benign><Bioassay><Biochemical><Biologic Assays><Biologic Models><Biological><Biological Assay><Biological Models><Brachydanio rerio><Brain><Brain Nervous System><CRISPR><CRISPR/Cas system><Calcium><Cell Body><Cells><Classification><Clustered Regularly Interspaced Short Palindromic Repeats><Common Rat Strains><Complex><Cortical Dysplasia><D Cells><DNA seq><DNA sequencing><DNAseq><Danio rerio><Data><Delta Cell><Diagnosis><Disease Outcome><Electrophysiology><Electrophysiology (science)><Electroporation><Embryo><Embryonic><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Exhibits><Explosion><Fishes><Focal Epilepsy><Focal Seizure Disorder><Future><Gene Alteration><Gene Mutation><Gene variant><Genes><Genetic><Genetic Alteration><Genetic Change><Genetic Counseling><Genetic defect><Genetics-Mutagenesis><Goals><Human><Image><In Vitro><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Knowledge><Laboratories><Localization-Related Epilepsy><Mediating><Methods><Model System><Modeling><Modern Man><Munc-18 protein><Munc18 protein><Mutagenesis><Mutagenesis Molecular Biology><Mutation><Nature><Neurophysiology / Electrophysiology><Partial Epilepsies><Partial Seizure Disorder><Pathogenicity><Phenotype><Pre-Clinical Model><Preclinical Models><Probability><Proteins><Rat><Rats Mammals><Rattus><Recommendation><Rodent><Rodent Model><Rodentia><Rodents Mammals><Seizure Disorder><Seizures><Somatostatin Cells><Somatostatin Secreting Cell><Syndrome><System><Systematics><Testing><Uncertainty><Variant><Variation><Zebra Danio><Zebra Fish><Zebrafish><allele variant><allelic variant><biologic><childhood epilepsy><clinical relevance><clinically relevant><discover genes><doubt><drug discovery><electrophysiological><electroporative delivery><epilepsia><epileptogenic><gene discovery><gene electrotransfer><genetic variant><genome mutation><genomic variant><human disease><imaging><in silico><in utero><in vitro Model><in vivo><in vivo Model><in vivo evaluation><in vivo testing><intellectual and developmental disability><limited intellectual functioning><loss of function><machine learning based model><machine learning model><model organism><mutant><next generation><pediatric epilepsy><syntaxin binding protein 1><syntaxin binding protein Munc18><three dimensional><treatment strategy><two-dimensional><unclassified variant><variant of uncertain clinical significance><variant of uncertain significance><variant of undetermined significance><variant of unknown significance>",
+  "pref_terms": "3-Dimensional;Behavioral;Benign;Biochemical;Biological;Biological Assay;Biological Models;Brain;Calcium;Cells;Classification;Clustered Regularly Interspaced Short Palindromic Repeats;Complex;Cortical Dysplasia;D Cells;DNA sequencing;Data;Diagnosis;Disease Outcome;Electrophysiology (science);Electroporation;Embryo;Epilepsy;Exhibits;Explosion;Fishes;Future;Gene Mutation;Genes;Genetic;Genetic Counseling;Goals;Human;Image;In Vitro;Intellectual functioning disability;Knowledge;Laboratories;Mediating;Methods;Modeling;Mutagenesis;Mutation;Nature;Partial Epilepsies;Pathogenicity;Phenotype;Pre-Clinical Model;Probability;Proteins;Rattus;Recommendation;Rodent;Rodent Model;Seizures;Syndrome;System;Testing;Uncertainty;Variant;Zebrafish;childhood epilepsy;clinically relevant;drug discovery;gene discovery;genetic variant;human disease;in silico;in utero;in vitro Model;in vivo;in vivo Model;in vivo evaluation;loss of function;machine learning model;model organism;mutant;next generation;syntaxin binding protein 1;treatment strategy;two-dimensional;variant of unknown significance",
+  "abstract_text": "PROJECT SUMMARY\nKnowledge of epilepsy genes has exploded with the advent of next generation DNA sequencing (NGS), yet\nour understanding of how any specific gene mutation leads to epilepsy increasingly lags behind gene\ndiscovery. With the expanding list of potential epilepsy genes comes the problem of genetic variants of\nuncertain significance (VUS), confounding definitive diagnosis, genetic counselling and treatment strategies.\nThe ultimate goal of the EpiMVP team is to develop a highly integrated and effective multiplatform pipeline\nto determine the functional impact of VUS for non-ion channel epilepsy genes. To this end, the Gene and\nVariant Curation Core (GVCC) provides in silico prediction of VUSs to prioritize and refine specific genes\nand VUS for study as Project 1 (Genes to Proteins) begins in vitro biochemical and cell biological\nassessment and Project 2 (Proteins to Cell Systems) further explores the prioritized VUS in two\ndimensional (2-D) and 3-D cell systems. However, due to the complex nature of epilepsy and the brain,\nuncertainty and even conflicting interpretation will at times arise from in vitro biochemical and cell-based\nfunctional assays. Thus, it is ultimately critical to apply refined VUS list for in vivo functional assessment in\nmodel organisms. The long-term goal of project 3 (Cell Systems to Preclinical Models) is to incorporate\nin vivo functional assays into EpiMVP pipeline in which the functional and genetic data of a specific VUS are\nmerged to arrive at a decisive probability of pathogenicity. Project 3 will take advantage of Clustered\nRegularly Interspaced Short Palindromic Repeats (CRISPR) gene editing methods to generate well-defined\nloss-of-function (LOF) epilepsy models in rodent and zebrafish as a null background on which to evaluate\nhuman VUS. Data generated in Project 3 will be shared with Projects 1 and 2 and the GVCC in an iterative\nfashion with an overall deliverable to develop EpiPred (Epilepsy Variant Prediction), a machine learning\nmodel that will allow accurate classification of missense epilepsy gene variants as likely pathogenic or\nbenign. With the prioritized and refined VUS list, we will test 3-4 VUS each for 1-2 genes per year and\ncomplete testing of at least 5 genes in both fish and rodent model systems. Our first-year goal is to examine\nfunctional rescue of 3-4 VUS each for STXBP1 and DEPDC5. Deliverables include: 1) Cross-validated in\nvivo models to interrogate epilepsy genes; 2) Determination of VUS pathogenicity for at least 5 non-ion\nchannel epilepsy genes using 2 in vivo models; 3) Assessment of in silico and in vitro models for VUS\npathogenicity prediction, and whether in vivo models are required for certain genes and VUS; and 4)\nOptimized in vivo models for each epilepsy gene that will be powerful platforms for future drug discovery and\nfor exploring underlying mechanisms in these genetic epilepsies.",
+  "project_title": "Cell Systems to Pre-Clinical Models",
+  "phr_text": null,
+  "spending_categories_desc": "Brain Disorders; Epilepsy; Genetics; Neurodegenerative; Neurosciences",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2023-08-01T00:00:00",
+  "budget_end": "2024-07-31T00:00:00",
+  "cfda_code": null,
+  "funding_mechanism": "Research Centers",
+  "direct_cost_amt": 503697,
+  "indirect_cost_amt": 74088,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10670374",
+  "date_added": "2023-08-05T16:15:57"
+}

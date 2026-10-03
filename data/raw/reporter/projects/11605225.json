@@ -1,0 +1,133 @@
+{
+  "appl_id": 11605225,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1R56NS146956-01A1",
+  "project_serial_num": "NS146956",
+  "organization": {
+    "org_name": "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER",
+    "city": null,
+    "country": null,
+    "org_city": "SAN ANTONIO",
+    "org_country": "UNITED STATES",
+    "org_state": "TX",
+    "org_state_name": null,
+    "dept_type": "PHYSIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "800772162"
+    ],
+    "org_ueis": [
+      "C3KXNLTAAY98"
+    ],
+    "primary_duns": "800772162",
+    "primary_uei": "C3KXNLTAAY98",
+    "org_fips": "US",
+    "org_ipf_code": "578418",
+    "org_zipcode": "782293901",
+    "external_org_id": 578418
+  },
+  "award_type": "1",
+  "activity_code": "R56",
+  "award_amount": 565436,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "R56",
+    "ic_code": "NS",
+    "serial_num": "146956",
+    "support_year": "01",
+    "full_support_year": "01A1",
+    "suffix_code": "A1"
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 11255250,
+      "first_name": "Hye Young",
+      "middle_name": "",
+      "last_name": "Lee",
+      "is_contact_pi": true,
+      "full_name": "Hye Young  Lee",
+      "title": "ASSISTANT PROFESSOR"
+    },
+    {
+      "profile_id": 8136400,
+      "first_name": "NIREN",
+      "middle_name": "",
+      "last_name": "MURTHY",
+      "is_contact_pi": false,
+      "full_name": "NIREN  MURTHY",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "LEE, HYE YOUNG ",
+  "program_officers": [
+    {
+      "first_name": "HEIDI",
+      "middle_name": "YANICE",
+      "last_name": "MATOS GALICIA",
+      "full_name": "HEIDI YANICE MATOS GALICIA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 565436.0,
+      "direct_cost_ic": 424113.0,
+      "indirect_cost_ic": 141323.0
+    }
+  ],
+  "cong_dist": "TX-20",
+  "spending_categories": null,
+  "project_start_date": "2026-09-09T00:00:00",
+  "project_end_date": "2027-08-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -98.577742,
+    "lat": 29.513091
+  },
+  "opportunity_number": "PA-25-301",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "BBBT",
+    "sra_flex_code": "X",
+    "group_code": "81",
+    "name": "Special Emphasis Panel[ZRG1-BBBT-X(81)]"
+  },
+  "award_notice_date": "2026-09-09T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R56NS146956",
+  "terms": "<Abscission><Acids><Acrylates><Address><Advanced Development><Affect><Alleles><Allelomorphs><Ammon Horn><Brain><Brain Nervous System><Brain region><CRISPR><CRISPR approach><CRISPR based approach><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR tools><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas system><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Cas nuclease technology><Cell Body><Cells><Chemicals><Childhood><Clinical><Clustered Regularly Interspaced Short Palindromic Repeats><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Complex><Cornu Ammonis><DNA mutation><Dentate Fascia><Development><Diffusion><Digenic Acid><Dose><Drugs><Effectiveness><Encephalon><Endosomes><Engineering><Epilepsy><Epileptic Seizures><Epileptics><Excision><Exhibits><Extirpation><Fascia Dentata><Formulation><Gene variant><Genes><Genetic Change><Genetic defect><Genetic mutation><Gyrus Dentatus><Heterozygote><Hippocampus><Human><Injections><Kainic Acid><Libraries><Lipids><Macrogols><Mediating><Medication><Memory Loss><Messenger RNA><Methods><Mice><Mice Mammals><Modeling><Modern Man><Murine><Mus><Mutation><NAV1.6><NaCh6><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neurocyte><Neurologic Disorders><Neurological Disorders><Neurons><Pathogenicity><Patients><Persons><Pharmaceutical Preparations><Polyethylene Glycols><Polyethylene Oxide><Polyethyleneoxide><Polyoxyethylenes><Predisposition><Receptosomes><Removal><Reporter><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Surgical Removal><Susceptibility><Therapeutic><Therapeutic Effect><Therapeutic Gene Editing><Toxic effect><Toxicities><Transfection><Variant><Variation><Wild Type Mouse><allelic variant><brain tissue><brain volume><cognitive function><deliver mRNA><deliver messenger RNA><delivery system for mRNA><delivery vector><delivery vehicle><dentate gyrus><developmental><diffused><diffuses><diffusing><diffusions><disease causing variant><disease-causing allele><disease-causing mutation><drug/agent><epilepsia><epileptogenic><experiment><experimental research><experimental study><experiments><gain of function mutation><gene-editing therapy><genetic variant><genome editing based therapy><genome editing therapy><genome editing treatment><genome editing-based therapeutics><genome mutation><genomic variant><heterozygosity><hippocampal><immunogenicity><improved><innovate><innovation><innovative><knock-down><knockdown><lipid based nanoparticle><lipid nanoparticle><mRNA><mRNA delivery><memory decline><messenger RNA delivery><mouse model><murine model><mutant><nano particle delivery><nanoparticle delivered><nanoparticle delivery><neurological disease><neuronal><neurosurgery><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><pathogenic allele><pathogenic variant><pediatric><precision medicine><precision-based medicine><prevent><preventing><resection><sodium channel, voltage gated, type VIII, alpha subunit><therapeutic agent development><therapeutic candidate><therapeutic development><therapeutic editing><therapeutic genome editing><therapeutic target><voltage><wildtype mouse>",
+  "pref_terms": "Acids;Acrylates;Address;Advanced Development;Affect;Alleles;Brain;Brain region;CRISPR/Cas technology;Cells;Chemicals;Childhood;Clinical;Clustered Regularly Interspaced Short Palindromic Repeats;Complex;Development;Diffusion;Dose;Effectiveness;Endosomes;Engineering;Epilepsy;Excision;Exhibits;Formulation;Genes;Heterozygote;Hippocampus;Human;Injections;Kainic Acid;Libraries;Lipids;Mediating;Memory Loss;Messenger RNA;Methods;Modeling;Mus;Mutation;Nervous System Disorder;Neurons;Pathogenicity;Patients;Persons;Pharmaceutical Preparations;Polyethylene Glycols;Predisposition;Reporter;SCN8A gene;Seizures;Therapeutic;Therapeutic Effect;Toxic effect;Transfection;Variant;Wild Type Mouse;brain tissue;brain volume;cognitive function;delivery vehicle;dentate gyrus;disease-causing mutation;experimental study;gain of function mutation;genetic variant;immunogenicity;improved;innovation;knock-down;lipid nanoparticle;mRNA delivery;mouse model;mutant;nanoparticle delivery;neurosurgery;novel therapeutic intervention;precision medicine;prevent;therapeutic candidate;therapeutic development;therapeutic genome editing;therapeutic target;voltage",
+  "abstract_text": "-------------------------------------------------------------Project Summary------ -------------------------------------------------------\nEpilepsy is a common neurological disorder that affects approximately 50 million people worldwide and a third of\nthese patients do not achieve adequate seizure control.\navailable drugs, and neurosurgical removal of large brain\nOnly ~50% of epilepsies can be controlled with currently-\nregions remains the only other alternative for patients with\ncrippling epileptic seizures, resulting in profound loss of memory and cognitive function. The voltage-gated Na+\nchannel, NaV1.6 is encoded by the SCN8A gene, and is a particularly compelling therapeutic candidate for treating\nepileptic seizures and knock-down of the Scn8a gene in the mouse brain reduces seizures. However, current\nmethods for knocking down Scn8a gene are based on antisense strategies, which are difficult to clinically implement\nbecause they require repeated injections into the brain. Gene editing of the SCN8A gene has great promise to\naddress the above-mentioned concern and additionally can permit allele-specific inactivation of dominant pathogenic\nallele in heterozygotes. Indeed, editing of a pathogenic Scn8a allele specifically has already been accomplished via\nCRISPR, using AAV as a delivery vector and rescued heterozygous mice from epileptic seizures. However, AAV-\nmediated gene editing in the brain is problematic because of prolonged expression of Cas9 as well as its\nimmunogenicity. There is consequently an urgent need to develop safe and efficient non-viral delivery vehicles that\ncan deliver CRISPR to the brain. Among non-viral delivery strategies, lipid nanoparticles (LNPs) have great potential\nfor delivering mRNA to the brain because of their well-characterized clinical track record and their versatility. However,\nmRNA delivery to the brain with LNPs is currently inefficient because of limited diffusion in the brain and low levels of\nendosomal disruption, and needs to be more efficient before it can generate significant therapeutics effects. To\naddress this critical need, we developed acid-degradable LNPs (termed ADP-LNPs), which are made with acid-\ndegradable polyethylene glycol (PEG) lipids and can transfect large volumes of brain tissue after an intracranial\ninjection, because they tolerate high levels of PEGylation without losing activity. Our preliminary results demonstrate\nthat ADP-LNPs deliver Cas9 mRNA to the brain with remarkable efficiency via an intracranial injection; ~5 times\nhigher gene editing efficiency than standard LNPs in the mouse brain. We have demonstrated that a single intracranial\ninjection of ADP-LNPs carrying Cas9 mRNA/Ai9 sgRNA could induce gene editing ~30% of the total cells in the\ndentate gyrus (DG), a part of the hippocampus using Ai9 reporter mice. Additionally, we demonstrated that ADP-\nLNPs carrying Cas9 mRNA/Scn8a sgRNA could reduce NaV1.6 expression levels by ~50% in 1/3 of the DG without\na sign of toxicity. These exciting results demonstrate that ADP-LNPs have great potential as precision-medicine\ntherapeutics for epilepsy. The central objectives of this proposal are (1) to develop new LNP variants based upon\nADP-LNPs with improved diffusion and efficiency, and (2) to develop a new therapeutic strategy for treating epileptic\nseizures based upon local CRISPR/Cas9-mediated Scn8a gene editing in the mouse hippocampus using our newly\ndeveloped LNP-mRNA complexes. The central hypothesis is: intracerebral delivery of LNP-mRNA complexes that\ncarry Cas9 mRNA and sgRNA targeting the Scn8a gene can prevent/rescue mice from epileptic seizures.\nSpecific Aim 1. Increase the mouse brain gene editing efficiency of the ADP-LNPs\nSpecific Aim 2. Reduce seizures by knocking down Scn8a in a chemically-induced mouse seizure model\nSpecific Aim 3. Reduce seizures by knocking down the pathogenic Scn8a-N1768D allele in a mouse model of\npediatric seizures\nThe experiments in this proposal are significant because if successful, they will demonstrate that non-viral gene\nediting of the Scn8a gene in the hippocampus can treat SCN8A-related epilepsies and will enable the development\nof a new class of epilepsy therapeutics. These experiments are innovative given that they demonstrate that ADP-\nLNPs provide two advantages over traditional LNPs: (1) enhanced diffusion in brain tissue and (2) enhanced\nendosomal disruption, and have great potential for developing brain therapeutics that can deliver mRNA to large\nvolumes of brain tissue.",
+  "project_title": "Gene editing therapeutics that prevent epileptic seizures",
+  "phr_text": "--------------------------------------------------------------Project Narrative-------------------------------------------------------------\nThe experiments in this proposal focus on developing lipid nanoparticle (LNP)-mRNA complexes that can protect\nmice from epileptic seizures via gene editing of a seizure causing gene. The LNP-mRNA complexes developed\nin this proposal will edit large volumes of brain tissue non-virally and we propose to use them to treat mouse\nmodels of seizure. If successful, the experiments in this proposal will develop a new strategy for treating seizures.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-09-09T00:00:00",
+  "budget_end": "2027-08-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 424113,
+  "indirect_cost_amt": 141323,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11605225",
+  "date_added": "2026-09-12T17:04:08"
+}

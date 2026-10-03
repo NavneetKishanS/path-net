@@ -1,0 +1,20 @@
+{
+  "pmid": "42485845",
+  "title": "Brain structure abnormalities in neurodevelopmental synaptopathies.",
+  "abstract": "Advanced brain imaging studies have been scarcely reported in neurodevelopmental encephalopathies. In this study we assess structural brain alterations in three rare neurogenetic disorders primarily affecting glutamatergic neurotransmission, aiming to identify shared and disease-specific neuroanatomical patterns and their clinical correlations. A cohort of patients with SYNGAP1 (n = 19), GRIN gene family (n = 19), and STXBP1 (n = 10) mutations underwent magnetic resonance imaging. Advanced segmentation tools were used to extract regional brain volumes. Volumetric differences between patient and age-matched normative reference templates were assessed using parametric and non-parametric tests, depending on data distribution, and ANCOVA was used to adjust between covariates. Associations with clinical symptoms were evaluated using the appropriate correlation tests. In our cohort, we found that patients exhibited statistically significant and consistent shared differences in brain tissue volumes compared to age-matched templates, including larger volumes in the basal ganglia, thalamus, ventricles, and certain cortical regions, alongside reductions in total white matter, cerebellar, and limbic structures (amygdala and parahippocampal gyrus). Clinically, ventricular enlargement correlated positively with the severity of intellectual disability, language impairment, and motor dysfunction, while total intracranial volume showed negative correlations with these same domains. Distinctive trends included supplementary motor cortex enlargement and cerebellar volume deficit in STXBP1, while amygdala volume deficit was most prominent in SYNGAP1 and GRINpathies. In conclusion, the study suggests the presence of shared and disease-specific brain alterations in SYNGAP1, GRINpathies, and STXBP1 disorders. Overall, brain volumetry may represent a useful exploratory tool, contributing to a more detailed characterization of these diseases while offering insights beyond conventional radiological assessment.",
+  "authors": [
+    "Júlia Romagosa-Perez",
+    "Juliana Ribeiro-Constante",
+    "Natalia Alexandra Julià-Palacios",
+    "Alejandra Darling",
+    "Rosanna Marí-Vico",
+    "Arnau Valls-Esteve",
+    "Mireia Olivella",
+    "Xavier Altafaj",
+    "Synaptopathies-Working Group",
+    "Christian Stephan-Otto",
+    "Angeles García-Cazorla"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42485845/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

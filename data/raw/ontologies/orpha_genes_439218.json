@@ -1,0 +1,88 @@
+{
+  "data": {
+    "__count": 1,
+    "__licence": {
+      "identifier": "CC-BY-4.0",
+      "link": "https://creativecommons.org/licenses/by/4.0",
+      "name": "Creative Commons Attribution 4.0 International"
+    },
+    "results": {
+      "Date": "2026-06-23 07:57:31",
+      "DisorderGeneAssociation": [
+        {
+          "DisorderGeneAssociationStatus": "Assessed",
+          "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in",
+          "Gene": {
+            "ExternalReference": [
+              {
+                "Reference": "KCNQ2",
+                "Source": "ClinVar"
+              },
+              {
+                "Reference": "ENSG00000075043",
+                "Source": "Ensembl"
+              },
+              {
+                "Reference": "KCNQ2",
+                "Source": "Genatlas"
+              },
+              {
+                "Reference": "6296",
+                "Source": "HGNC"
+              },
+              {
+                "Reference": "561",
+                "Source": "IUPHAR"
+              },
+              {
+                "Reference": "602235",
+                "Source": "OMIM"
+              },
+              {
+                "Reference": "O43526",
+                "Source": "Reactome"
+              },
+              {
+                "Reference": "O43526",
+                "Source": "SwissProt"
+              }
+            ],
+            "GeneType": "gene with protein product",
+            "Locus": [
+              {
+                "GeneLocus": "20q13.33",
+                "LocusKey": 1
+              }
+            ],
+            "Symbol": "KCNQ2",
+            "Synonym": [
+              "BFNC",
+              "ENB1",
+              "HNSPC",
+              "KCNA11",
+              "Kv7.2"
+            ],
+            "name": "potassium voltage-gated channel subfamily Q member 2"
+          },
+          "SourceOfValidation": "23621294[PMID]_20437616[PMID]"
+        }
+      ],
+      "DisorderGroup": "Disorder",
+      "ORPHAcode": 439218,
+      "OrphanetURL": "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=439218",
+      "Preferred term": "KCNQ2-related developmental and epileptic encephalopathy",
+      "Typology": "Disease"
+    }
+  },
+  "datasetCategory": {
+    "lang": "en",
+    "name": "Rare diseases and associated genes"
+  },
+  "parameters": {
+    "path": {
+      "ORPHAcode": 439218
+    },
+    "query": {}
+  },
+  "uri": "https://api.orphadata.com/rd-associated-genes/orphacodes/439218"
+}

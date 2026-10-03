@@ -1,0 +1,133 @@
+{
+  "appl_id": 11289342,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01MH136475-03",
+  "project_serial_num": "MH136475",
+  "organization": {
+    "org_name": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+    "city": null,
+    "country": null,
+    "org_city": "SAN FRANCISCO",
+    "org_country": "UNITED STATES",
+    "org_state": "CA",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "094878337"
+    ],
+    "org_ueis": [
+      "KMH5K9V7S518"
+    ],
+    "primary_duns": "094878337",
+    "primary_uei": "KMH5K9V7S518",
+    "org_fips": "US",
+    "org_ipf_code": "577508",
+    "org_zipcode": "941432510",
+    "external_org_id": 577508
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 672761,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "MH",
+    "serial_num": "136475",
+    "support_year": "03",
+    "full_support_year": "03",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 8843508,
+      "first_name": "Kevin",
+      "middle_name": "J",
+      "last_name": "Bender",
+      "is_contact_pi": true,
+      "full_name": "Kevin J Bender",
+      "title": "PROFESSOR"
+    },
+    {
+      "profile_id": 1858291,
+      "first_name": "Daniel",
+      "middle_name": "",
+      "last_name": "Feldman",
+      "is_contact_pi": false,
+      "full_name": "Daniel  Feldman",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "BENDER, KEVIN J",
+  "program_officers": [
+    {
+      "first_name": "YAEL",
+      "middle_name": "",
+      "last_name": "MANDELBLAT-CERF",
+      "full_name": "YAEL  MANDELBLAT-CERF"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 672761.0,
+      "direct_cost_ic": 512542.0,
+      "indirect_cost_ic": 160219.0
+    }
+  ],
+  "cong_dist": "CA-11",
+  "spending_categories": null,
+  "project_start_date": "2024-04-01T00:00:00",
+  "project_end_date": "2029-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -122.413937,
+    "lat": 37.767442
+  },
+  "opportunity_number": "PAR-20-263",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "BN",
+    "sra_flex_code": "P",
+    "group_code": "57",
+    "name": "Special Emphasis Panel[ZRG1-BN-P(57)]"
+  },
+  "award_notice_date": "2026-02-23T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01MH136475",
+  "terms": "<12-20 years old><21+ years old><ASD><Action Potentials><Acute><Adolescence><Adolescent><Adolescent Youth><Adult><Adult Human><Affect><Alleles><Allelic Loss><Allelomorphs><Animals><Area><Autism><Autistic Disorder><Axon><Behavior><Behavioral><Biological Markers><Brain><Brain Nervous System><Brain region><CRISPR activation><CRISPR activator><CRISPR based activation><CRISPR gene activation><CRISPR transcription activation><CRISPR transcriptional activation><CRISPR-Cas-9-mediated gene activation><CRISPR-based gene activation><CRISPR-dCAS9 Activator><CRISPR-mediated transcriptional activation><CRISPR/CAS9 activation><CRISPR/CAS9 gene activation><CRISPR/dCas9 activation><CRISPR/dCas9-based transcriptional activation><CRISPRa><Cell Body><Cell Function><Cell Physiology><Cell Process><Cells><Cellular Function><Cellular Physiology><Cellular Process><Cerebellum><Code><Coding System><Crucial developmental period><Cytoplasmic Granules><DNA Therapy><Data><Dendrites><Development><Disease><Disorder><Dysfunction><EEG><Early Infantile Autism><Electrocorticogram><Electroencephalogram><Electroencephalography><Encephalon><Enhancers><Exhibits><Frequencies><Functional disorder><Gene Expression><Gene Transfer Clinical><Genes><Genetic><Genetic Intervention><Goals><High-Throughput Nucleotide Sequencing><High-Throughput Sequencing><Human><Impairment><Infantile Autism><Intervention><Kanner's Syndrome><Laboratories><Learning><Link><Loss of Heterozygosity><Maps><Membrane><Methods><Mice><Mice Mammals><Modeling><Modern Man><Morbid Obesity><Motor><Murine><Mus><Nav1.2><Neocortex><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurodevelopmental Disorder><Neurological Development Disorder><Neurons><Phenotype><Physiologic><Physiological><Physiology><Physiopathology><Pivotal developmental period><Population><Position><Positioning Attribute><Prefrontal Cortex><Preparation><Proteins><Purkinje Cells><Purkinje's Corpuscles><Pyramidal Cells><Reagent><Reflex><Reflex action><SCN2A protein><Sensory><Severe obesity><Sodium Channel><Sodium Ion Channels><Somatosensory Cortex><Space Perception><Spatial Discrimination><Specificity><Subcellular Process><Synapses><Synaptic><Synaptic plasticity><System><Testing><Therapeutic><Therapeutic Intervention><Touch><Touch sensation><Transcription Activator><Transcription Coactivator><Transcription Factor Coactivator><Transcriptional Activator/Coactivator><Transmission><Upregulation><Vibrissae><Visual><Whiskers><Windows of susceptibility><Work><activating CRISPR technology><adolescence (12-20)><adulthood><assess effectiveness><autism model><autism risk allele><autism risk genes><autism risk locus><autism risk variant><autism spectral disorder><autism spectrum disorder><autism spectrum disorder risk allele><autism spectrum disorder risk genes><autism spectrum disorder risk locus><autism spectrum disorder risk variant><autism spectrum disorder susceptibility genes><autism spectrum risk genes><autism susceptibility genes><autistic spectrum disorder><behavior phenotype><behavioral impairment><behavioral phenotyping><bio-markers><biologic marker><biomarker><cerebellar Purkinje cell><critical developmental period><critical developmental window><critical period><critical period of development><critical windows of development><determine effectiveness><determine efficacy><developmental><effective intervention><effectiveness assessment><effectiveness evaluation><effectiveness testing><efficacy analysis><efficacy assessment><efficacy determination><efficacy evaluation><efficacy examination><electrocorticography><evaluate effectiveness><evaluate efficacy><examine effectiveness><examine efficacy><experiment><experimental research><experimental study><experiments><extreme obesity><functional genomics><gene repair therapy><gene therapy><gene-based therapy><genetic therapy><genomic therapy><granule><granule cell><homotypical cortex><iPS><iPSC><iPSCs><impaired behavior><induced pluripotent cell><induced pluripotent stem cell><inducible pluripotent cell><inducible pluripotent stem cell><intervention therapy><isocortex><juvenile><juvenile human><loss of function><loss of function mutation><membrane structure><model of autism spectrum disorder><mouse model><murine model><na(v)1.2><neocortical><neopallium><neural><neurodevelopmental disease><neuronal><new drug treatments><new drugs><new pharmacological therapeutic><new therapeutics><new therapy><next generation therapeutics><novel drug treatments><novel drugs><novel pharmaco-therapeutic><novel pharmacological therapeutic><novel therapeutics><novel therapy><oculovestibular reflex><pathophysiology><perceptual spatial orientation><postsynaptic><preparations><promoter><promotor><repetitive behavior><response><risk genes implicated in autism><risk genes in autism><sensitive developmental window><sensory cortex><social communication impairment><somatosensory><somesthetic sensory cortex><spatial orientation><spatial perception><synapse><synapse function><synaptic function><tactile sensation><transmission process><vestibo-ocular reflexes><vestibulo-occular system><vestibulo-ocular reflex><vestibulo-oculomotor reflex><vestibuloocular reflexes><voltage><windows of developmental susceptibility>",
+  "pref_terms": "Action Potentials;Acute;Adolescence;Adolescent;Adult;Affect;Alleles;Animals;Area;Axon;Behavior;Behavioral;Biological Markers;Brain;Brain region;CRISPR-mediated transcriptional activation;Cell Physiology;Cells;Cerebellum;Code;Cytoplasmic Granules;Data;Dendrites;Development;Disease;Electrocorticogram;Electroencephalography;Enhancers;Exhibits;Frequencies;Functional disorder;Gene Expression;Genes;Genetic;Goals;High-Throughput Nucleotide Sequencing;Human;Impairment;Intervention;Laboratories;Learning;Link;Loss of Heterozygosity;Maps;Membrane;Methods;Modeling;Morbid Obesity;Motor;Mus;Neocortex;Neurodevelopmental Disorder;Neurons;Phenotype;Physiological;Physiology;Population;Positioning Attribute;Prefrontal Cortex;Preparation;Proteins;Purkinje Cells;Pyramidal Cells;Reagent;Reflex action;SCN2A protein;Sensory;Sodium Channel;Somatosensory Cortex;Space Perception;Specificity;Synapses;Synaptic plasticity;System;Testing;Therapeutic;Therapeutic Intervention;Touch sensation;Transcription Coactivator;Upregulation;Vibrissae;Visual;Work;autism risk genes;autism spectrum disorder;behavioral impairment;behavioral phenotyping;critical developmental period;critical period;effective intervention;effectiveness evaluation;effectiveness testing;efficacy evaluation;experimental study;functional genomics;gene therapy;granule cell;induced pluripotent stem cell;loss of function;loss of function mutation;model of autism spectrum disorder;mouse model;neocortical;neural;novel therapeutics;postsynaptic;promoter;repetitive behavior;response;sensory cortex;social communication impairment;somatosensory;synaptic function;transmission process;vestibulo-ocular reflex;voltage",
+  "abstract_text": "Title: CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism\nspectrum disorder\nProject Summary: Heterozygous loss-of-function mutations in the sodium channel gene SCN2A\nare strongly associated with autism spectrum disorder. SCN2A encodes the neuronal sodium\nchannel NaV1.2, which contributes to membrane excitability in somatodendritic or axonal\ncompartments, depending on cell class. Heterozygous loss of Scn2a, modeled in Scn2a+/- mice,\ncauses deficits in cellular excitability and synaptic function across multiple brain areas, and drives\nrobust systems- and behavioral-level deficits in sensory processing, neural coding, and\nsensorimotor learning. Here, our goal is to rescue these cellular, circuit and behavioral deficits\nusing CRISPR-activation (CRISPRa)-based therapeutic approaches in Scn2a+/- mice.\n Most autism risk genes, like SCN2A, are associated with autism by heterozygous loss-of-\nfunction. CRISPRa is a promising therapeutic approach for many genetic forms of autism\nbecause it upregulates expression of the remaining functional gene copy, potentially rescuing\ncellular function. Scn2a+/- mice are an ideal test case for CRISPRa intervention in severe genetic\nforms of autism.\n We have developed CRISPRa-based reagents that restore Scn2a expression to near-\nnormal levels, and preliminary data show that treatment of adolescent Scn2a+/- mice with\nCRISPRa successfully rescues cellular and synaptic phenotypes in at least one brain area. Here,\nwe will test the effectiveness of CRISPRa rescue of cellular, circuit, and behavioral phenotypes\nacross sensory, associative, and motor regions of the brain. To do so, we bring together three\nlaboratories with proven expertise in Scn2a disorders and autism, cellular and systems\nphysiology, and therapeutics. Results of this study will help establish the feasibility of gene\ntherapy for neurodevelopmental disorders including severe genetic forms of autism, and will help\ndefine the critical developmental windows in which therapeutic interventions are most effective.",
+  "project_title": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+  "phr_text": "Relevance\nAutism spectrum disorder is a neurodevelopmental disorder that affects approximately 1% of the\npopulation, and is defined by social communication impairments, repetitive behaviors, and\nalterations in sensory and sensorimotor processing. This work will reveal how dysfunction in the\nautism-linked gene SCN2A disrupts sensory and sensorimotor processing in the brain, and will\ntest whether novel therapeutic methods that restore SCN2A expression to normal levels can\nrescue cellular, network, and behavioral alterations in a mouse model of Scn2a disruption. This\nmay enable development of novel therapies for severe genetic forms of autism.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-02-01T00:00:00",
+  "budget_end": "2027-01-31T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 512542,
+  "indirect_cost_amt": 160219,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11289342",
+  "date_added": "2026-02-28T17:04:01"
+}

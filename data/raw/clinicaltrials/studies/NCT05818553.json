@@ -1,0 +1,306 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05818553",
+      "orgStudyIdInfo": {
+        "id": "PRAX-562-221"
+      },
+      "organization": {
+        "fullName": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "officialTitle": "A Phase 2,Double-Blind,Randomized Clinical Trial to Explore the Safety,Tolerability,Efficacy, and Pharmacokinetics of PRAX-562 in Pediatric Participants With Developmental and Epileptic Encephalopathies Followed by Open-Label Extension(OLE)",
+      "acronym": "EMBOLD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2027-03-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-03-17",
+      "studyFirstSubmitQcDate": "2023-04-17",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "detailedDescription": "A Phase 2, double-blind, randomized clinical trial to evaluate the safety and tolerability of PRAX 562 in pediatric participants with SCN2A- and SCN8A- DEEs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "SCN2A Encephalopathy",
+        "SCN8A Encephalopathy"
+      ],
+      "keywords": [
+        "Pediatric epilepsy",
+        "NaV1.2 Voltage-Gated Sodium Channel",
+        "SCN2A variant",
+        "SCN8A variant",
+        "Developmental and epileptic encephalopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Parallel group",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Double-blind",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 77,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part A: Randomized, Double-Blind 0.5mg/kg/day PRAX-562 or PRAX-562/Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible participants from each cohort will be randomized in a 1:1 ratio to either 0.5 milligrams/kilograms/day (mg/kg/day) PRAX-562 for 16 weeks (PRAX-562 arm) or 0.5 mg/kg/day PRAX-562 for 12 weeks and matching placebo for 4 weeks (PRAX-562/placebo arm) administered orally or via gastrostomy tube (G-tube).",
+          "interventionNames": [
+            "Drug: PRAX-562"
+          ]
+        },
+        {
+          "label": "Part B: Open-Label Extension Treatment 0.5mg/kg/day PRAX-562",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible participants will receive 0.5mg/kg/day administered orally or via G-tube for up to 144 weeks.",
+          "interventionNames": [
+            "Drug: PRAX-562"
+          ]
+        },
+        {
+          "label": "Part A: Randomized, Double-Blind 1.0 mg/kg/day PRAX-562 or PRAX-562/Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible participants from each cohort will be randomized in a 1:1 ratio to either 1.0 milligrams/kilograms/day (mg/kg/day) PRAX-562 for 16 weeks (PRAX-562 arm) or 1.0 mg/kg/day PRAX-562 for 12 weeks and matching placebo for 4 weeks (PRAX-562/placebo arm) administered orally or via gastrostomy tube (G-tube).",
+          "interventionNames": [
+            "Drug: PRAX-562"
+          ]
+        },
+        {
+          "label": "Open-Label Extension Treatment 1.0 mg/kg/day PRAX-562",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible participants will receive 1.0 mg/kg/day administered orally or via G-tube for up to 144 weeks.",
+          "interventionNames": [
+            "Drug: PRAX-562"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PRAX-562",
+          "description": "Once daily oral or G-tube treatment.",
+          "armGroupLabels": [
+            "Open-Label Extension Treatment 1.0 mg/kg/day PRAX-562",
+            "Part A: Randomized, Double-Blind 0.5mg/kg/day PRAX-562 or PRAX-562/Placebo",
+            "Part A: Randomized, Double-Blind 1.0 mg/kg/day PRAX-562 or PRAX-562/Placebo",
+            "Part B: Open-Label Extension Treatment 0.5mg/kg/day PRAX-562"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PART A (Cohorts 1 and 2) RDB: To evaluate the safety and tolerability of PRAX 562 in pediatric participants with SCN2A- and SCN8A- DEEs",
+          "description": "Changes from baseline in monthly (28-day) motor seizure frequency",
+          "timeFrame": "16 weeks"
+        },
+        {
+          "measure": "PART B (Cohorts 1 and 2) OLE: To evaluate the long-term safety and tolerability of PRAX-562 in pediatric participants with DEEs",
+          "description": "Incidence and severity of TEAEs",
+          "timeFrame": "48 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PART A (Cohorts 1 and 2) RDB: To assess the effect of PRAX-562 on the frequency of countable motor seizures in pediatric participants with DEEs",
+          "description": "Changes from baseline in monthly (28-day) motor seizure frequency",
+          "timeFrame": "16 weeks"
+        },
+        {
+          "measure": "Plasma concentrations of PRAX-562",
+          "description": "Sparse pharmacokinetic (PK) sampling will be used to calculate mean concentrations at baseline, and at Weeks 2, 4, 6, 8,10, 12 and 16.",
+          "timeFrame": "16 weeks"
+        },
+        {
+          "measure": "Seizure Frequency (OLE Extension)",
+          "description": "Efficacy assessments (seizure diary) will be collected daily and reviewed at timepoints Day 1, Week 16, Week 32, and Week 48.",
+          "timeFrame": "48 weeks"
+        },
+        {
+          "measure": "To assess the effect of PRAX-562 on the frequency of countable motor seizures in pediatric participants with DEEs",
+          "description": "Changes from baseline in monthly (28-day) motor seizure frequency",
+          "timeFrame": "16 weeks"
+        },
+        {
+          "measure": "Incidence of Treatment-Emergent Adverse Events (TEAEs) [Safety and Tolerability])",
+          "description": "The number of participants with treatment-emergent adverse events will be reported by severity and preferred term.",
+          "timeFrame": "16 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Has a documented variant in SCN2A with onset of seizures occurring in the first 3 months of life or has a diagnosis of SCN8A-DEE supported by both clinical and genetic findings.\n* Has a seizure frequency as follows:\n\n  * At least 8 countable motor seizures in the 4 weeks immediately prior to Screening as reported by the parent/legal guardian or in the opinion of the investigator as documented in medical notes.\n\nAND o At least 8 countable motor seizures during the 28 day Baseline Observation Period (during which seizure frequency is recorded in a daily seizure diary).\n\n• Additional inclusion criteria apply and will be assessed by the study team.\n\nExclusion Criteria:\n\n* Has any clinically significant or known pathogenic or likely pathogenic genetic variant other than in SCN2A and SCN8A or a genetic variant that may explain or contribute to the participant's epilepsy and/or developmental disorder.\n* Has a documented, functionally characterized loss-of-function (LoF) missense variant or a presumed LoF variant (nonsense or frameshift variant) based on genetic testing and/or clinical evidence that prior exposure to a sodium channel blocker (SCB) medication worsened seizures.\n* Has 2 or more episodes of convulsive status epilepticus requiring hospitalization and intubation in the 6 months prior to Screening.\n* Additional exclusion criteria apply and will be assessed by the study team.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Year",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Medical Director",
+          "affiliation": "Praxis Precision Medicines",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Praxis Research Site",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30329",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55113",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "Hackensack",
+          "state": "New Jersey",
+          "zip": "07601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.88593,
+            "lon": -74.04347
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "Tel Litwinsky",
+          "zip": "52621",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.05096,
+            "lon": 34.84588
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "Glasgow",
+          "zip": "G51 4TF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "London",
+          "zip": "WC1N 3BH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    }
+  },
+  "hasResults": false
+}

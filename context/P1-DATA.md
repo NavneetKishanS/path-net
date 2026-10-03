@@ -2,6 +2,12 @@
 
 Release: 2026-10-03. Branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2 and SCN8A neighbours. SCN2A supplies the documented same-gene/different-function example; it is also the first backup slice. The source coverage behind this choice is recorded in `SOURCES.md` and `data/curation/coverage_inventory.json`.
 
+Packaging update: **2026-10-04**. The delivery now tracks the original `data/raw/` snapshot: **425 files**, comprising **423 data files**, `.gitkeep` and the `curate_community.py` helper, totalling **50,321,976 bytes**. A fresh checkout includes the source caches needed for offline raw-evidence and PubMed checks. Source retrieval dates remain 2026-10-03; bundling does not change the source-specific copyrights, licences or terms documented in `SOURCES.md`.
+
+Temporary signed redirect query parameters and fragments were removed from metadata for publication; the stable `source_url` and original response bytes and hashes are retained. `.gitattributes` disables line-ending conversion for `data/raw/**` to preserve exact provenance hashes across platforms. `curate_community.py` is a historical curation helper; supported replay and rebuilding use `pipeline/fetch_slice.py` and `pipeline/build_graph.py`.
+
+Packaging validation on 2026-10-04 used a clean Git-exported copy containing all 500 project files. Every one of the 425 raw files matched the final snapshot's per-file SHA-256 inventory. The exported copy passed the offline audit of all 76 evidence records, verification of all 159 pinned PubMed records, and all 64 tests.
+
 ## Delivered baseline
 
 - `data/seed/graph.json`: 54 real nodes, 68 edges, 76 evidence records, four provisional mechanism groups, 69 memberships. No placeholders; every edge has source evidence.
@@ -9,7 +15,7 @@ Release: 2026-10-03. Branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2
 - `data/seed/demo_paths.json`: primary STXBP1 group/resource journey, SCN2A variant counterexample, shared-investigator path and unknown-query fixture.
 - `data/seed/coverage.json`: dated query coverage, sample limits and graph counts. This file is a P4 input, not a sixth graph table.
 - `data/curation/`: compact reviewed inputs and pinned PMID/NCT/NIH-application manifests. The reviewed graph rebuilds without the full raw cache.
-- `data/raw/`: 159 nonempty PubMed records, 32 complete study records, 82 NIH annual awards, 29 ontology/API sources and public organization/mechanism snapshots. This directory is intentionally ignored by Git.
+- `data/raw/`: tracked original snapshot containing 159 nonempty PubMed records, 32 complete study records, 82 NIH annual awards, 29 ontology/API sources and public organization/mechanism snapshots, plus query metadata and original responses.
 
 There are 49 tier A and 19 tier B edges; 67 support their scoped relationship and one contradicts assigning a single gain-of-function mechanism to the entire SCN2A disorder spectrum. There are no tier C/D claims. `verified` means checked against the source within the stated scope. Confidence is `null`; calibrated scoring belongs to P2.
 
@@ -35,7 +41,7 @@ The last three commands work offline from committed curation snapshots. Builds a
 python pipeline/build_graph.py --output-dir /path/to/comparison
 ```
 
-When this release's raw caches are present:
+The original caches are bundled in this release. From a fresh checkout, these stronger checks also work offline:
 
 ```bash
 python pipeline/validate_graph.py --check-raw
@@ -43,12 +49,14 @@ python pipeline/fetch_groups.py --validate-curation
 python pipeline/restore_pubmed.py --check
 ```
 
-Raw auditing checks original response/text hashes, exact quotes and source-record digests. The committed compact snapshot is sufficient to rebuild, but it does not replace rechecking the original source context during scientific review. See `P1-EVIDENCE-REVIEW.md`.
+Raw auditing checks the bundled original response/text hashes, exact quotes and source-record digests. The compact snapshot remains sufficient to rebuild independently of the raw cache, but neither an offline rebuild nor a hash check replaces reviewing the original source context during scientific review. See `P1-EVIDENCE-REVIEW.md`.
 
-## Acquire source caches on another machine
+## Reuse, repair or refresh source caches
+
+A fresh checkout already contains the original release caches; no source download is required for the offline checks above. The commands below reuse complete caches and can restore missing records or acquire sources into an alternate data directory:
 
 ```bash
-# All selected sources; complete local caches are reused:
+# All selected sources; complete bundled caches are reused:
 python pipeline/fetch_slice.py
 
 # P2 only needs the pinned abstract corpus:
@@ -63,7 +71,7 @@ python pipeline/fetch_slice.py --sources ontologies community
 
 PubMed restoration pins 159 PMIDs and verifies title, abstract, authors and URL digests independently of retrieval time. Research restoration pins 32 NCT IDs and 82 annual NIH application IDs. An explicit `--refresh` requests current source records; changed, missing or empty records fail for review instead of silently passing as the saved release. Old PubMed records invalidated by refresh are retained under the query's `stale/` directory, outside P2's input directory.
 
-Ontology and community retrieval use their saved source URLs and official releases. The community fetcher imports confirmed mechanism abstracts from the original PubMed XML. Run the PubMed step first on a fresh checkout. Changed page quotes fail rather than being rewritten automatically. After acquisition, inspect changed compact curation files, rebuild, and run the raw audit. Retrieval dates and upstream responses can change, so a new live snapshot is not guaranteed to have the original release's hashes.
+Ontology and community retrieval use their saved source URLs and official releases. The community fetcher imports confirmed mechanism abstracts from the original PubMed XML, which is included in a fresh checkout. When restoring into an empty alternate data directory, run the PubMed step first. Changed page quotes fail rather than being rewritten automatically. After acquisition, inspect changed compact curation files, rebuild, and run the raw audit. Retrieval dates and upstream responses can change, so a new live snapshot is not guaranteed to have the original release's hashes.
 
 The individual `fetch_pubmed.py`, `fetch_clinicaltrials.py`, `fetch_reporter.py` and `fetch_ontologies.py` commands remain available for new coverage searches. Query-based expansion is deliberately separate from pinned release replay. Refresh coverage inventory and source review when expanding the curated scope.
 
@@ -146,7 +154,7 @@ Recorded validation on 2026-10-03:
 | Offline ingestion, contract, provenance, replay and release tests | 64 passed |
 | All graph evidence against original raw caches | 76 evidence records passed |
 | P2 input and unchanged quote checker | 159 exact-shape records; all 14 selected paper snippets accepted |
-| Build in a fresh data directory containing only committed curation | All four generated JSON files matched byte-for-byte; no raw cache present |
+| Curation-only isolated rebuild, with raw caches deliberately omitted | All four generated JSON files matched byte-for-byte |
 | Explicit-ID live replay into an isolated cache | 3 PubMed, 1 trial and 2 NIH records matched pinned content digests |
 | Existing SQL migration and unchanged seed loader | Two exact round-trips; all 54 nodes/68 edges/76 evidence rows and cluster tables preserved; anon SELECT passed |
 | Existing frontend | Production build passed; browser search, disease connections, STARR evidence and unknown-query view worked; no browser error logs observed |

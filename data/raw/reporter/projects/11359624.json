@@ -1,0 +1,124 @@
+{
+  "appl_id": 11359624,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS133139-04",
+  "project_serial_num": "NS133139",
+  "organization": {
+    "org_name": "UNIVERSITY OF VIRGINIA",
+    "city": null,
+    "country": null,
+    "org_city": "CHARLOTTESVILLE",
+    "org_country": "UNITED STATES",
+    "org_state": "VA",
+    "org_state_name": null,
+    "dept_type": "ANESTHESIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "065391526"
+    ],
+    "org_ueis": [
+      "JJG6HU8PA4S5"
+    ],
+    "primary_duns": "065391526",
+    "primary_uei": "JJG6HU8PA4S5",
+    "org_fips": "US",
+    "org_ipf_code": "1526402",
+    "org_zipcode": "229044195",
+    "external_org_id": 1526402
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 403750,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "133139",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 10438554,
+      "first_name": "Ian",
+      "middle_name": "Christopher",
+      "last_name": "Wenker",
+      "is_contact_pi": true,
+      "full_name": "Ian Christopher Wenker",
+      "title": "POST-DOCTORAL ASSOCIATE"
+    }
+  ],
+  "contact_pi_name": "WENKER, IAN CHRISTOPHER",
+  "program_officers": [
+    {
+      "first_name": "VICKY",
+      "middle_name": "R",
+      "last_name": "WHITTEMORE",
+      "full_name": "VICKY R WHITTEMORE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 403750.0,
+      "direct_cost_ic": 250000.0,
+      "indirect_cost_ic": 153750.0
+    }
+  ],
+  "cong_dist": "VA-05",
+  "spending_categories": null,
+  "project_start_date": "2023-06-01T00:00:00",
+  "project_end_date": "2028-05-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -78.500531,
+    "lat": 38.050527
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "CNNT",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Clinical Neuroplasticity and Neurotransmitters Study Section[CNNT]"
+  },
+  "award_notice_date": "2026-05-07T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS133139",
+  "terms": "<Acute><Address><Airway failure><Apnea><Asystole><Benchmarking><Best Practice Analysis><Brain><Brain Mapping><Brain Nervous System><Brain Stem><Brainstem><Breathing><Bypass><CAGH44><Cardiac><Cardiac Arrest><Cause of Death><Cell Nucleus><Cessation of life><Chromosome Mapping><Clonic Seizure><Convulsive Seizures><Cranial Nerve X><DNA mutation><Data><Death><Development><Electrophysiology><Electrophysiology (science)><Elements><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Experimental Designs><FOXP2><FOXP2 gene><Failure><Fore-Brain><Forebrain><Forkhead Box P2><Gene Localization><Gene Mapping><Gene Mapping Genetics><Generations><Genetic><Genetic Change><Genetic defect><Genetic mutation><Heart Arrest><Hind Brain><In Vitro><Individual><Injections><Interruption><Linkage Mapping><Maps><Mesencephalon><Mice><Mice Mammals><Mid-brain><Midbrain><Midbrain structure><Modeling><Motor Seizures><Murine><Mus><Muscle><Muscle Tissue><Mutant Strains Mice><Mutation><NAV1.6><NINDS><NaCh6><National Institute of Neurological Diseases and Stroke><National Institute of Neurological Disorders and Stroke><Nerve Cells><Nerve Fibers><Nerve Unit><Neural Cell><Neurocyte><Neurons><Neurophysiology / Electrophysiology><Nodal><Nucleus><Pattern><Phase><Pneumogastric Nerve><Pons><Pons Cerebelli><Pons Varolii><Pontine><Pontine structure><Preventative strategy><Prevention strategy><Preventive strategy><Prosencephalon><Receptor Protein><Recovery><Refractory><Research><Respiratory Aspiration><Respiratory Failure><Respiratory Inspiration><Rhombencephalon><Risk Factors><Role><SCN8A><SCN8A gene><SUDEP><Seizure Disorder><Seizures><Site><Slice><Structure><Sudden Death><TNRC10><Techniques><Tenth Cranial Nerve><Testing><Tonic Seizures><Total Human and Non-Human Gene Mapping><Trinucleotide Repeat-Containing Gene 10><Vagus Nerve><Vagus nerve structure><Work><afferent nerve><benchmark><developmental><electrophysiological><epilepsia><epilepsy participant><epilepsy patient><epilepsy subject><epilepsy volunteer><epileptic patient><epileptic subject><epileptogenic><genetic mapping><genome mutation><hindbrain><in vivo><inspiration><mouse model><mouse mutant><murine model><muscular><mutant><neural><neural circuit><neural circuitry><neurocircuitry><neuronal><neuronal circuit><neuronal circuitry><neuronal excitability><novel><optogenetics><parabrachial nucleus><patch clamp><patients with epilepsy><prevent><preventing><receptor><recruit><respiratory><selective expression><selectively expressed><sensory nerve><social role><sodium channel, voltage gated, type VIII, alpha subunit><sudden unexpected death in epilepsy><synaptic circuit><synaptic circuitry><ventilation>",
+  "pref_terms": "Acute;Address;Apnea;Benchmarking;Brain;Brain Mapping;Brain Stem;Breathing;Bypass;Cardiac;Cause of Death;Cell Nucleus;Cessation of life;Chromosome Mapping;Clonic Seizure;Data;Development;Electrophysiology (science);Elements;Epilepsy;Experimental Designs;FOXP2 gene;Failure;Generations;Genetic;Heart Arrest;In Vitro;Individual;Injections;Interruption;Maps;Midbrain structure;Modeling;Motor Seizures;Mus;Muscle;Mutant Strains Mice;Mutation;National Institute of Neurological Disorders and Stroke;Nerve Fibers;Neurons;Nodal;Pattern;Phase;Pontine structure;Prevention strategy;Prosencephalon;Recovery;Refractory;Research;Respiratory Failure;Risk Factors;Role;SCN8A gene;Seizures;Site;Slice;Structure;Sudden Death;Techniques;Testing;Tonic Seizures;Vagus nerve structure;Work;afferent nerve;epilepsy patient;hindbrain;in vivo;mouse model;mutant;neural;neural circuit;neuronal circuitry;neuronal excitability;novel;optogenetics;parabrachial nucleus;patch clamp;prevent;receptor;recruit;respiratory;selective expression;sudden unexpected death in epilepsy;ventilation",
+  "abstract_text": "Sudden Unexpected Death in Epilepsy (SUDEP) accounts for up to 17% of all epilepsy-related deaths, and\n50% for those refractory to treatment. There is increasing evidence that apnea (respiratory arrest) is the\nprimary cause of death from SUDEP. We have shown in a number of mouse models - including PTZ injection,\nrapid kindling (prelim. data), and mouse models harboring Scn8a mutations identified from SUDEP patients -\nthat sudden death is due to seizure-induced apnea (SIA) that occurs during tonic seizures, minutes prior\nto terminal asystole. As it pertains to this proposal, we have also made four other important observations:\n1) artificial ventilation can prevent death and suppressed cardiac activity does not increase likelihood of fatality;\n2) tonic contraction of breathing muscles represents a likely mechanism of SIA; 3) inhibition of cortical seizure\nactivity does not impact SIA; and 4) inhibition of the inspiratory oscillator does not reduce apnea (prelim. data),\nsuggesting seizure spread bypasses homeostatic elements of respiratory control circuitry. CENTRAL\nHYPOTHESIS: [AIM 1] Increased midbrain and pontine excitability is both necessary and sufficient to\nproduce SIA, [AIM 2] the parabrachial/kölliker fuse (PB/KF) nucleus in the pons represents a key nodal\npoint for SIA generation, and [AIM 3] that brainstem nuclei, like the PB/KF and PAG are recruited\nspecifically during SIA, which we will explore using electrophysiology and genetic mapping. AIM 1: We\nhave previously used chemogenetics to demonstrate that cortical ictal activity is not required for SIA and we now\npropose that hyperexcitability of the pons and midbrain drive SIA and SUDEP. We will use chemogenetics to\ninhibit different parts of the brainstem of Scn8a mutant mice to test their necessity for SIA and SUDEP.\nAdditionally, we will test sufficiency of these regions by selectively expressing an Scn8a mutation that increases\nneuronal excitability. Using the rapid kindling model, we will also perform patch clamp recordings to test whether\nincreased neuronal excitability in these regions occurs concurrently with the development of SIA. AIM 2: The\nparabrachial/kölliker fuse nucleus PB/KF in the Pons is a key nodal point for descending forebrain input and\nprojects past the inspiratory oscillator, and is modulated by the vagus nerve. In this aim, we will photoinhibit the\nFoxp2-positive PB/KF neurons to regain normal breathing pattern during SIA, photostimulate P2ry1-positive\nvagal afferent nerve fibers to interrupt inspiration during SIA, and determine if PB/KF and Npy2r-positive vagal\nneuron photostimulation rescues postictal breathing in our PTZ SUDEP mouse model. AIM 3: We have\ndemonstrated that tonic seizures with SIA and clonic seizures without SIA can occur in the very same mouse,\nboth in Scn8a mutant and rapid kindling models (prelim. data) and that certain mid- and hindbrain structures are\nactivated during SIA. We will determine the neuronal circuitry activated specifically during SIA and SUDEP using\nin vivo electrophysiology and TRAP2 identification of activated neurons.",
+  "project_title": "The neural circuitry of seizure-induced apnea and SUDEP",
+  "phr_text": "Sudden Unexpected Death in Epilepsy (SUDEP) accounts for between 8 and 17% of all epilepsy-related\ndeaths and, although our understanding of SUDEP is rudimentary, there is increasing evidence that respiratory\narrest after a convulsive seizure is the primary cause in many cases. In support of this, we have found that\nseizure-induced apnea that occurs during the tonic phase and failure of postictal breathing recovery produce\nSUDEP in mouse models. Using novel mouse models of SUDEP, we propose to use chemogenetic,\noptogenetic, and electrophysiological techniques to elucidate the underlying neural circuitry that is recruited to\ncause seizure-induced apnea and SUDEP.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-06-01T00:00:00",
+  "budget_end": "2027-05-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 250000,
+  "indirect_cost_amt": 153750,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11359624",
+  "date_added": "2026-06-06T17:04:50"
+}

@@ -1,0 +1,181 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06356233",
+      "orgStudyIdInfo": {
+        "id": "FIMBEX"
+      },
+      "organization": {
+        "fullName": "Fundación Iniciativa para las Neurociencias (FINCE)",
+        "class": "OTHER"
+      },
+      "briefTitle": "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+      "officialTitle": "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+      "acronym": "FIMBEX"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-05-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-10-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-04-04",
+      "studyFirstSubmitQcDate": "2024-04-04",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Adrián Valls Carbó",
+        "investigatorTitle": "MD",
+        "investigatorAffiliation": "Fundación Iniciativa para las Neurociencias (FINCE)"
+      },
+      "leadSponsor": {
+        "name": "Fundación Iniciativa para las Neurociencias (FINCE)",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective observational study to evaluate the phenotype of 10 patients under 10 years of age with developmental epileptic encephalopathy due to mutation of the STXBP1 gene. The study will consist of a clinical and neurodevelopmental evaluation, magnetic resonance imaging, prolonged electroencephalogram, cardiological study, and analysis of biomarkers in cerebrospinal fluid. These patients will be followed up for 3 years. The aim of the study is, knowing the baseline phenotype, to analyse the response to commonly used drugs and to anticipate the response to different drugs available on the market in this group of patients based on clinical and biomarker assessment (EEG, MRI and study of specific proteins and neurotransmitters in plasma, urine and CSF)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STXBP1 Encephalopathy With Epilepsy"
+      ],
+      "keywords": [
+        "STXBP1"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "CSF"
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "No intervention will be performed",
+          "description": "No intervention will be performed"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CSF biomarkers",
+          "timeFrame": "Baseline, 1 year and 2 years"
+        },
+        {
+          "measure": "EEG markers",
+          "timeFrame": "Baseline, 1 year and 2 years"
+        },
+        {
+          "measure": "MRI markers",
+          "timeFrame": "Baseline, 1 year and 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical phenotype",
+          "timeFrame": "Baseline, 1 year and 2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients under 10 years of age with confirmed mutation for STXBP1. In cases where the diagnostic technique for the mutation is not optimal, a trio exome will be performed to confirm the mutation.\n\nExclusion Criteria:\n\n* Presence of functional disability that prevents the neuropsychological study from being carried out and absence of a reliable informant for the patient.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "1 Month",
+      "maximumAge": "10 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "Patients under 10 years of age with confirmed mutation for STXBP1 willing to collaborate in the study.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospital Ruber Internacional",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Alvaro Beltran Corbellini, MD",
+              "role": "CONTACT",
+              "phone": "+34913875250",
+              "email": "info@neurologiaclinica.es"
+            },
+            {
+              "name": "Antonio Gil-Nagel, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Antonio Gil-Nagel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

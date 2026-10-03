@@ -1,0 +1,27 @@
+{
+  "source": "PubMed E-utilities",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "query": "24318194[PMID] OR 34431999[PMID]",
+  "request": {
+    "db": "pubmed",
+    "term": "24318194[PMID] OR 34431999[PMID]",
+    "retmax": 2,
+    "retmode": "json",
+    "sort": "relevance",
+    "datetype": "pdat",
+    "mindate": "1800/01/01",
+    "maxdate": "2026/10/03"
+  },
+  "retrieved_at": "2026-10-03T20:51:55+00:00",
+  "total_count": 2,
+  "returned_pmids": [
+    "34431999",
+    "24318194"
+  ],
+  "cached_pmids": [
+    "34431999",
+    "24318194"
+  ],
+  "missing_abstract_pmids": [],
+  "note": "Ranked search snapshot; only nonempty abstracts enter the P2 input directory."
+}

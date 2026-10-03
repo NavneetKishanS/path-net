@@ -1,0 +1,22 @@
+{
+  "pmid": "34083748",
+  "title": "Phenotypic analysis of catastrophic childhood epilepsy genes.",
+  "abstract": "Genetic engineering techniques have contributed to the now widespread use of zebrafish to investigate gene function, but zebrafish-based human disease studies, and particularly for neurological disorders, are limited. Here we used CRISPR-Cas9 to generate 40 single-gene mutant zebrafish lines representing catastrophic childhood epilepsies. We evaluated larval phenotypes using electrophysiological, behavioral, neuro-anatomical, survival and pharmacological assays. Local field potential recordings (LFP) were used to screen ∼3300 larvae. Phenotypes with unprovoked electrographic seizure activity (i.e., epilepsy) were identified in zebrafish lines for 8 genes; ARX, EEF1A, GABRB3, GRIN1, PNPO, SCN1A, STRADA and STXBP1. We also created an open-source database containing sequencing information, survival curves, behavioral profiles and representative electrophysiology data. We offer all zebrafish lines as a resource to the neuroscience community and envision them as a starting point for further functional analysis and/or identification of new therapies.",
+  "authors": [
+    "Aliesha Griffin",
+    "Colleen Carpenter",
+    "Jing Liu",
+    "Rosalia Paterno",
+    "Brian Grone",
+    "Kyla Hamling",
+    "Maia Moog",
+    "Matthew T Dinday",
+    "Francisco Figueroa",
+    "Mana Anvar",
+    "Chinwendu Ononuju",
+    "Tony Qu",
+    "Scott C Baraban"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34083748/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "pmid": "36245272",
+  "title": "Reduced dynamin-1 levels in neurons lacking MUNC18-1.",
+  "abstract": "MUNC18-1 (also known as syntaxin-binding protein-1, encoded by Stxbp1) binds to syntaxin-1. Together, these proteins regulate synaptic vesicle exocytosis and have a separate role in neuronal viability. In Stxbp1 null mutant neurons, syntaxin-1 protein levels are reduced by 70%. Here, we show that dynamin-1 protein levels are reduced at least to the same extent, and transcript levels of Dnm1 (which encodes dynamin-1) are reduced by 50% in Stxbp1 null mutant brain. Several, but not all, other endocytic proteins were also found to be reduced, but to a lesser extent. The reduced dynamin-1 expression was not observed in SNAP25 null mutants or in double-null mutants of MUNC13-1 and -2 (also known as Unc13a and Unc13b, respectively), in which synaptic vesicle exocytosis is also blocked. Co-immunoprecipitation experiments demonstrated that dynamin-1 and MUNC18-1 do not bind directly. Furthermore, MUNC18-1 levels were unaltered in neurons lacking all three dynamin paralogues. Finally, overexpression of dynamin-1 was not sufficient to rescue neuronal viability in Stxbp1 null mutant neurons; thus, the reduction in dynamin-1 is not the single cause of neurodegeneration of these neurons. The reduction in levels of dynamin-1 protein and mRNA, as well as of other endocytosis proteins, in Stxbp1 null mutant neurons suggests that MUNC18-1 directly or indirectly controls expression of other presynaptic genes.",
+  "authors": [
+    "Hanna C A Lammertse",
+    "Alessandro Moro",
+    "Ingrid Saarloos",
+    "Ruud F Toonen",
+    "Matthijs Verhage"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36245272/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "38395944",
+  "title": "Meta-analysis of 46,000 germline de novo mutations linked to human inherited disease.",
+  "abstract": "De novo mutations (DNMs) are variants that occur anew in the offspring of noncarrier parents. They are not inherited from either parent but rather result from endogenous mutational processes involving errors of DNA repair/replication. These spontaneous errors play a significant role in the causation of genetic disorders, and their importance in the context of molecular diagnostic medicine has become steadily more apparent as more DNMs have been reported in the literature. In this study, we examined 46,489 disease-associated DNMs annotated by the Human Gene Mutation Database (HGMD) to ascertain their distribution across gene and disease categories. Most disease-associated DNMs reported to date are found to be associated with developmental and psychiatric disorders, a reflection of the focus of sequencing efforts over the last decade. Of the 13,277 human genes in which DNMs have so far been found, the top-10 genes with the highest proportions of DNM relative to gene size were H3-3 A, DDX3X, CSNK2B, PURA, ZC4H2, STXBP1, SCN1A, SATB2, H3-3B and TUBA1A. The distribution of CADD and REVEL scores for both disease-associated DNMs and those mutations not reported to be de novo revealed a trend towards higher deleteriousness for DNMs, consistent with the likely lower selection pressure impacting them. This contrasts with the non-DNMs, which are presumed to have been subject to continuous negative selection over multiple generations. This meta-analysis provides important information on the occurrence and distribution of disease-associated DNMs in association with heritable disease and should make a significant contribution to our understanding of this major type of mutation.",
+  "authors": [
+    "Mónica Lopes-Marques",
+    "Matthew Mort",
+    "João Carneiro",
+    "António Azevedo",
+    "Andreia P Amaro",
+    "David N Cooper",
+    "Luísa Azevedo"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38395944/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

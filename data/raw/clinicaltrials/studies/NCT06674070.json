@@ -1,0 +1,253 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06674070",
+      "orgStudyIdInfo": {
+        "id": "Riphah/IIMC/IRC/23/30101"
+      },
+      "organization": {
+        "fullName": "Riphah International University",
+        "class": "OTHER"
+      },
+      "briefTitle": "SCN2A Polymorphisms Are Associated With Response to Valproic Acid in Paediatric Population(Pakistan)",
+      "officialTitle": "SCN2A, rs2304016 Polymorphisms Are Associated With Response to Valproic Acid in Paediatric Epilepsy Patients (Pakistan)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-09-03",
+      "studyFirstSubmitQcDate": "2024-11-03",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Riphah International University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this Observational study was to identify the effect of SCN2A gene polymorphism in the Paediatric epileptic Pakistani population. The main question it aims to answer is:\n\nto evaluate the effect of this genetic polymorphism on the clinical efficacy of Valproic acid\n\nParticipants were prescribed Valproic acid after diagnosis of epilepsy.",
+      "detailedDescription": "This observational study aimed to identify the effect of SCN2A rs2304016 gene polymorphism in the Paediatric epileptic population.\n\nThe main question it aims to answer is:\n\n• to evaluate the effect of this genetic polymorphism on the clinical efficacy of Valproic acid\n\nThe participants' blood samples were taken and further genotyping was performed using conventional tetraARMS PCR. The results were visualized by gel electrophoresis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epilepsy"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Venous blood was withdrawn, and DNA extraction was performed using Chelex method"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "Valproic Acid",
+          "description": "syrup/ tablet EPIVAL (250mg"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To evaluate the genetic variabilities in the clinical efficacy of Valproic acid after prescription for epilepsy",
+          "description": "The questionnaire used is QOLIE-31 (Quality of Life in Epilepsy Inventory). This is a widely used instrument developed especially for evaluating QOL (quality of life) in patients with epilepsy. QOLIE-31 consists of 31 questions divided into seven domains: emotional well-being, social functioning, energy/fatigue, and cognitive functioning. Seizure worry, medication effects, and overall QOL all scored from zero to 1.\n\nThe higher the score, the better the response to treatment. Each domain was scored by calculating the mean score of the responses to the questions within that domain. Higher scores reflect better QOL while lower ones reflect worse QOL.",
+          "timeFrame": "2 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Epileptic Pakistani individuals of age between 1 to 12 years of either sex\n* Each patient had experienced two or more clinically confirmed, spontaneous epileptic seizures in the past.\n* Newly diagnosed patients started VPA 20 mg/kg (drug of the same brand was used for every patient throughout the study).\n\nExclusion Criteria:\n\n* Patients taking any other anti-epileptic drug.\n* Patients taking medications that interact with VPA.\n* Patients with moderate or severe systemic diseases",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Month",
+      "maximumAge": "12 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "Pediatric Pakistani population",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sughra Kanwal, MBBS",
+          "affiliation": "Riphah International University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "IIMC, Riphah International University",
+          "city": "Islamabad",
+          "state": "Federal",
+          "country": "Pakistan",
+          "geoPoint": {
+            "lat": 33.72148,
+            "lon": 73.04329
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19142297",
+          "type": "BACKGROUND",
+          "citation": "Wang W, Wu J, Dai X, Ma G, Yang B, Wang T, Yuan C, Ding D, Hong Z, Kwan P, Bell GS, Prilipko LL, de Boer HM, Sander JW. Global campaign against epilepsy: assessment of a demonstration project in rural China. Bull World Health Organ. 2008 Dec;86(12):964-9. doi: 10.2471/blt.07.047050."
+        },
+        {
+          "pmid": "29724294",
+          "type": "BACKGROUND",
+          "citation": "Chen J, Su QB, Tao YQ, Qin JM, Zhou Y, Zhou S, Li HL, Chen ZJ, Zhou YF, Zhou LM, Wang XD, Huang M. ABCC2 rs2273697 is associated with valproic acid concentrations in patients with epilepsy on valproic acid monotherapy. Pharmazie. 2018 May 1;73(5):279-282. doi: 10.1691/ph.2018.7344."
+        },
+        {
+          "pmid": "30693367",
+          "type": "BACKGROUND",
+          "citation": "Shi L, Zhu M, Li H, Wen Z, Chen X, Luo J, Lin C, Zhang Z. SCN1A and SCN2A polymorphisms are associated with response to valproic acid in Chinese epilepsy patients. Eur J Clin Pharmacol. 2019 May;75(5):655-663. doi: 10.1007/s00228-019-02633-0. Epub 2019 Jan 28."
+        },
+        {
+          "pmid": "15540518",
+          "type": "BACKGROUND",
+          "citation": "Rabbani MA, Siddiqui BK, Tahir MH, Ahmad B, Shamim A, Shah SM, Ahmad A. Systemic lupus erythematosus in Pakistan. Lupus. 2004;13(10):820-5. doi: 10.1191/0961203303lu1077xx."
+        },
+        {
+          "pmid": "34133540",
+          "type": "BACKGROUND",
+          "citation": "Banawalikar N, Adiga S, Adiga U, Shenoy V, Kumari S, Shetty P, Shetty S, Sharmila KP. Association of UGT1A6 gene polymorphism with clinical outcome in pediatric epileptic patients on sodium valproate monotherapy. Braz J Med Biol Res. 2021 Jun 14;54(9):e11097. doi: 10.1590/1414-431X2021e11097. eCollection 2021."
+        },
+        {
+          "pmid": "19694741",
+          "type": "BACKGROUND",
+          "citation": "Lakhan R, Kumari R, Misra UK, Kalita J, Pradhan S, Mittal B. Differential role of sodium channels SCN1A and SCN2A gene polymorphisms with epilepsy and multiple drug resistance in the north Indian population. Br J Clin Pharmacol. 2009 Aug;68(2):214-20. doi: 10.1111/j.1365-2125.2009.03437.x."
+        },
+        {
+          "pmid": "33519675",
+          "type": "BACKGROUND",
+          "citation": "Li M, Zhong R, Lu Y, Zhao Q, Li G, Lin W. Association Between SCN1A rs2298771, SCN1A rs10188577, SCN2A rs17183814, and SCN2A rs2304016 Polymorphisms and Responsiveness to Antiepileptic Drugs: A Meta-Analysis. Front Neurol. 2021 Jan 14;11:591828. doi: 10.3389/fneur.2020.591828. eCollection 2020."
+        },
+        {
+          "pmid": "29263209",
+          "type": "BACKGROUND",
+          "citation": "Oyrer J, Maljevic S, Scheffer IE, Berkovic SF, Petrou S, Reid CA. Ion Channels in Genetic Epilepsy: From Genes and Mechanisms to Disease-Targeted Therapies. Pharmacol Rev. 2018 Jan;70(1):142-173. doi: 10.1124/pr.117.014456."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014635",
+          "term": "Valproic Acid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010421",
+          "term": "Pentanoic Acids"
+        },
+        {
+          "id": "D014631",
+          "term": "Valerates"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005232",
+          "term": "Fatty Acids, Volatile"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,20 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "5",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "32073399",
+      "29538625",
+      "38651838",
+      "36301686",
+      "41642117"
+    ],
+    "translationset": [],
+    "querytranslation": "(29538625[UID] OR 32073399[UID] OR 38651838[UID] OR 36301686[UID] OR 41642117[UID]) AND 1800/01/01:2026/10/03[Date - Publication]"
+  }
+}

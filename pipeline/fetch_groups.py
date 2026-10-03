@@ -8,7 +8,7 @@
 Direct HTTPS is the default even when a key is present. Bright Data Web Unlocker
 requires explicit selection plus BRIGHTDATA_API_KEY and BRIGHTDATA_UNLOCKER_ZONE.
 It obeys the target site's robots policy, just like direct fetches. Full bodies
-and extracted text stay in ignored data/raw; only quotes and hashes are curated.
+and extracted text are bundled in data/raw; only reviewed quotes enter the graph.
 Mechanisms are imported offline from the documented fetch_pubmed.py API cache,
 including its original EFetch XML. Run that API collector first if it is missing.
 """

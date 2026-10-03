@@ -1,0 +1,423 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04937062",
+      "orgStudyIdInfo": {
+        "id": "19-10020997"
+      },
+      "organization": {
+        "fullName": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
+      "officialTitle": "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-06-10",
+      "studyFirstSubmitQcDate": "2021-06-21",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Children's Hospital Colorado",
+          "class": "OTHER"
+        },
+        {
+          "name": "SLC6A1 Connect",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "STXBP1 Foundation",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Clara Inspired",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "University of Pennsylvania Orphan Disease Center",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Horizon Therapeutics",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is to evaluate the use of glycerol phenylbutyrate for monogenetic developmental epileptic encephalopathies (DEEs). DEEs are characterized by epilepsy and developmental delay in early life.\n\nTwo examples of DEEs are STXBP1 and SLC6A1, though there are dozens of others.\n\nSTXBP1 Encephalopathy is a severe disease that can cause seizures and developmental delays in infants and children. SLC6A1 neurodevelopmental disorder is characterized by developmental delay and often epilepsy. Both STXBP1 encephalopathy and SLC6A1 neurodevelopmental disorder cause symptoms because there are not enough working proteins made by these genes.\n\nIt is possible that a medication called phenylbutyrate may help the the remaining proteins work better for STXBP1, SLC6A1, and/or other similar DEEs caused by single genes (i.e. \"monogenetic\"). This study is to test if glycerol phenylbutyrate is safe and well tolerated in children with monogenetic DEE.",
+      "detailedDescription": "STXBP1 encephalopathy (STXBP1-E) is a devastating neurodevelopmental disorder that often begins in infancy. Intellectual disability is a core feature, often severe to profound. Nearly all have epilepsy (95% in the largest series). The epilepsy is clinically heterogeneous, and may present as a well-defined epilepsy syndrome (e.g., early infantile epileptic encephalopathy, infantile spasms, epilepsy of infancy migrating focal seizure, or Dravet syndrome) or as non-syndromic epilepsy. Seizures are refractory to medications in one third. Affected individuals may have autistic features (1 in 5), low tone, movement disorders (including ataxia and bruxism), abnormal EEGs (\\> 60% with focal or multifocal epileptiform discharges), and/or abnormal MRI brain imaging (atrophy, thin corpus callosum, delayed myelination). The clinical spectrum is broad -- some individuals are profoundly impaired with seizures that begin in the first days of life; whereas others may have a few seizures in late infancy and mild learning difficulties.\n\nSTXBP1 knockout mice show normal early brain assembly with subsequent degeneration, decreased neurite outgrowth, and completely abolished neurotransmitter release These mice die shortly after birth. Heterozygous STXBP1 mice are similar to wild-type, except they have abnormal behaviors during sleep (twitches and jumps) and EEG abnormalities. Thus, heterozygous STXBP1 mice recapitulate some aspects of the human disease, though they have neither seizures nor overt behavioral abnormalities. Human embryonic stem cell-derived neurons engineered for STXBP1 loss of function exhibit normal initial synaptogenesis, synapse size, and soma size; however, heterozygotes show decreased neurotransmitter release corresponding to decreased STXBP1 levels, while homozygous loss of function causes significant neural degeneration. Published experiments on neuronal lines derived from affected patients show decreased STXBP1 protein, STXBP1 protein mislocalization, and decreased neurite outgrowth. Early work in heterologous cell lines demonstrated STXBP1 mutations cause protein misfolding that leads to aggregation of the mutant protein with wild-type STXBP1.\n\nIn laboratory settings, stabilizing protein folding of the STXBP1 protein product with chemical chaperones rescued molecular and functional deficits in all tested models, using any of three chemical chaperones: sorbitol, trehalose, and 4-phenylbutyrate. Sorbitol and trehalose are sugars, and would be metabolized in the gut. 4-phenylbutyrate, however, is available as an FDA approved medication, either via sodium phenylbutyrate or glycerol phenylbutyrate. The glycerol formulation is better tolerated, thus this trial.\n\nSLC6A1-related neurodevelopmental disorder (SLC6A1-NDD) begins in early childhood and is characterized by epilepsy (\\~91%, typically generalized) and developmental delay (\\~82%). The epilepsy is typically generalized (absence, atonic, myoclonic, generalized tonic-clonic) though is sometimes focal. Substantial minorities have an autism spectrum disorder, movement disorder, or problems with attention or aggression.\n\nThe protein product of SLC6A1 is GABA transporter protein type 1 (GAT-1), which is important for GABA homeostasis in the brain. Pathogenic mutations in SLC6A1 lead to loss of function and haploinsufficiency. Preliminary data suggests a dramatic impairment in GABA uptake in cells with homozygous variants in the GAT-1 protein, which improves with administration of phenylbutyrate.\n\nThe investigators began studying phenylbutyrate for STXBP1-E and SLC6A1-NDD with a pilot study (i.e. Phase 1 study) in order to (a) understand safety and tolerability of the medication in children with STXBP1-E and SLC6A1-NDD, (b) understand the peak plasma concentrations in order to estimate CSF levels, and (c) generate exploratory information about clinical outcomes as a means to estimate effect sizes and pilot a battery of clinical testing for STXBP1-E and SLC6A1-NDD for future trials.\n\nBased on additional publications and ongoing research, the study the study has expanded in scope to (a) follow enrolled children for a longer time and (b) broaden the enrollment criteria to include monogenetic DEEs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STXBP1 Encephalopathy With Epilepsy, SLC6A1 Neurodevelopmental Disorder",
+        "Developmental and Epileptic Encephalopathy"
+      ],
+      "keywords": [
+        "phenylbutyrate, developmental and epileptic encephalopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This is a pilot, single treatment, multiple-dose, open label, study to be conducted in up to 10 children with STXBP1-E, and 10 with SLC6A1-NDD, and 30 children with monogenetic developmental and epileptic encephalopathy.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SLC6A1 and STXBP1",
+          "type": "EXPERIMENTAL",
+          "description": "Each participant will be enrolled for 14 weeks (4 weeks baseline, 8 weeks of drug exposure, and 2 weeks follow-up). After clinical assessment by the investigator if deemed safe and appropriate, and requested by the caregiver, participants may continue to receive the study medication (\"extended use\"), up to December 2025. Participants who remain on phenylbutyrate therapy will be followed quarterly through video visits, and yearly in-person visit. Participants who do not opt to remain on phenylbutyrate therapy will be weaned off the medication during the 2 week follow-up period.",
+          "interventionNames": [
+            "Drug: Glycerol Phenylbutyrate 1100 MG/ML [Ravicti]"
+          ]
+        },
+        {
+          "label": "Monogenetic Epileptic Encephalopathy",
+          "type": "EXPERIMENTAL",
+          "description": "Each participant will be enrolled for 20 weeks (5 weeks baseline, 12 weeks of drug exposure, and 2 weeks follow-up) . After clinical assessment by the investigator if deemed safe and appropriate, and requested by the caregiver, participants may continue to receive the study medication (\"extended use\"), up to December 2025. Participants who remain on phenylbutyrate therapy will be followed quarterly through video visits, and yearly in-person visit. Participants who do not opt to remain on phenylbutyrate therapy will be weaned off the medication during the 2 week follow-up period.",
+          "interventionNames": [
+            "Drug: Glycerol Phenylbutyrate 1100 MG/ML [Ravicti]"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Glycerol Phenylbutyrate 1100 MG/ML [Ravicti]",
+          "description": "Glycerol phenylbutyrate (trade name \"Ravicti\") is an FDA-approved medication used for urea cycle disorders in children and adults. We will titrate to a goal dose of 1.2 mL/m2 (12.4 g/m2) in three equally divided doses given enterally (i.e., by mouth or by g-tube).\n\nThe dosing is consistent with the dosing guidelines in the FDA approved Medication Guide (https://www.accessdata.fda.gov/drugsatfda\\_docs/label/2017/203284s005lbl.pdf).",
+          "armGroupLabels": [
+            "Monogenetic Epileptic Encephalopathy",
+            "SLC6A1 and STXBP1"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Short Term Adverse events (i.e., safety)",
+          "description": "The qualitative safety endpoint will describe any adverse events. It will include a description of the incidence, frequency, and severity of adverse events (including known side effects of the medication, changes in vital signs, EKG changes, EEG changes, increase in seizures, changes in clinical laboratory results, and/or changes in physical examination). We will monitor for these adverse events throughout the study, and measure them definitely at the time of the second admission.",
+          "timeFrame": "20 weeks"
+        },
+        {
+          "measure": "Long Term Adverse events (i.e., safety)",
+          "description": "The long term qualitative safety endpoint will describe any adverse events. It will include a description of the incidence, frequency, and severity of adverse events (including known side effects of the medication, changes in vital signs, EKG changes, EEG changes, increase in seizures, changes in clinical laboratory results, and/or changes in physical examination). We will monitor for these adverse events throughout the study, and measure them yearly until December 2025.",
+          "timeFrame": "through December 2025 (1 - 5 years, depending on participant)"
+        },
+        {
+          "measure": "Percentage of doses taken by participants (i.e., tolerability)",
+          "description": "The tolerability endpoint is quantitative and will measure medication compliance (i.e. what percentage of the doses are taken).",
+          "timeFrame": "20 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Plasma concentration of phenylbutyrate",
+          "description": "We will measure the plasma concentration of phenylbutyrate at the second inpatient admission.",
+          "timeFrame": "20 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "\\###### STXBP1 / SLC6A1 ARM\n\nInclusion Criteria:\n\n* Diagnosed with STXBP1-E or SLC6A1-NDD; confirmed by laboratory report (i.e., a genetic test with a pathogenic or likely pathogenic mutation of STXBP1 or SLC6A1-NDD and a clinical picture consistent with the disorder, as determined by the Investigator). Patients with the appropriate clinical picture, a de novo variant of uncertain significance in STXBP1 or SLC6A1-NDD will also be eligible for enrollment, at the discretion of the Investigator.\n* Is between 2 months and 17 years of age, inclusive.\n* For children with STXBP1-E, the child must have had at least one seizure in the past 30 days prior to enrollment. If there is high demand for the study and we have several subjects to choose, we will prefer to enroll children with a high number of seizures in the past month.\n* For SLC6A1-NDD, seizures occur later in the course (typically middle of 1st decade) and so seizures will not be an entry criteria.\n* Is in general good health, aside from neurological consequences of STXBP1-E or SLC6A1-NDD, as determined by having no concurrent medical illness, in the opinion of the site investigator, that places the subject at increased risk of adverse drug reactions or that will interfere with study follow-up.\n* Has normal laboratory test results (≤ 1.5 × upper limit of normal \\[ULN\\]) for serum aminotransferase (aspartate aminotransferas \\[AST\\] and alanine aminotransferase \\[ALT\\]) concentrations and ammonia at Screening.\n* Has normal renal function, with estimated glomerular filtration rate \\> 90 mL/minute/1.73 m2 at Screening (using the Chronic Kidney Disease Epidemiology Collaboration equation).\n* Has a platelet count \\> 150 × 103/μL at Screening.\n* Has a QT interval corrected with Fridericia's formula (QTcF) \\< 450 msec on the Screening EKG.\n* Parent or guardian is able to comprehend and willing to sign an informed consent form (ICF).\n\nExclusion Criteria:\n\n* Has participated in another investigational study within 30 days or 5 half-lives of the test drug's biologic activity (whichever is longer) before the first study drug dose.\n* Has a QT interval corrected with Fridericia's formula (QTcF) ≥ 450 msec on the Screening EKG.\n* Has an active medical illness that would preclude participation in the study (as determined by the Investigator).\n* Has a clinical laboratory evaluation outside of the test laboratory reference range, unless deemed not clinically significant by the Investigator and the Sponsor.\n* Is unable to comply with the study protocol.\n* Has poor venous access and/or cannot tolerate venipuncture.\n* Is pregnant\n* Is a female of child-bearing age (12 years old or older) and known to be sexually active (for example, as determined through a confidential HEADDSSS history), and not taking medication for contraception. This will be assessed confidentially as per good general pediatrics practice\n* Known hypersensitivity to phenylbutyrate. Signs of hypersensitivity include wheezing, dyspnea, coughing, hypotension, flushing, nausea, and rash.\n* Taking alfentanil, quinidine, cyclosporine, or probenecid (known interactions with phenylbutyrate). For subjects who had taken any of these medications in the past, the last dose must have been taken at least 1 week prior to enrollment into the study.\n* Inborn errors of beta oxidation.\n* Pancreatic insufficiency or intestinal malabsorption\n\n  \\###### MONOGENETIC DEE ARM Inclusion Criteria\n* Diagnosed with a monogenic developmental and epileptic encephalopathy; confirmed by laboratory report (i.e., a genetic test with a pathogenic or likely pathogenic mutation of a monogenic developmental and epileptic encephalopathy and a clinical picture consistent with the disorder, as determined by the Investigator). Children with the appropriate clinical picture, a de novo variant of uncertain significance in a monogenic developmental and epileptic encephalopathy will also be eligible for enrollment, at the discretion of the Investigator. If the mutant is classified as definitively non-pathogenic, we would not enroll the child. \"Appropriate clinical picture\" is at the discretion of the Investigator.\n* Is between 0 months and 15 years of age, inclusive.\n* The child must have had at least one seizure in the past 30 days prior to enrollment. (If there is high demand for the study and we have several subjects to choose, we will prefer to enroll children with a high number of seizures in the past month.)\n* Is in general good health, aside from neurological consequences of their monogenic developmental and epileptic encephalopathy, as determined by having no concurrent medical illness, in the opinion of the site investigator, that places the subject at increased risk of adverse drug reactions or that will interfere with study follow-up.\n* Has normal laboratory test results (≤ 1.5 × upper limit of normal \\[ULN\\]) for serum aminotransferase (aspartate aminotransferas \\[AST\\] and alanine aminotransferase \\[ALT\\]) concentrations and ammonia.\n* Has normal renal function, with estimated glomerular filtration rate \\> 90 mL/minute/1.73 m2 at Screening (using the Chronic Kidney Disease Epidemiology Collaboration equation).\n* Has a platelet count \\> 150 × 103/μL at Screening.\n* Has a QT interval corrected with Fridericia's formula (QTcF) \\< 450 msec on the Screening EKG.\n* Parent or guardian is able to comprehend and willing to sign an informed consent form (ICF).\n\nExclusion Criteria:\n\n* Has participated in another investigational study within 30 days or 5 half-lives of the test drug's biologic activity (whichever is longer) before the first study drug dose.\n* Has a QT interval corrected with Fridericia's formula (QTcF) ≥ 450 msec on the Screening EKG.\n* Has an active medical illness that would preclude participation in the study (as determined by the Investigator).\n* Has a clinical laboratory evaluation outside of the test laboratory reference range, unless deemed not clinically significant by the Investigator and the Sponsor.\n* Is unable to comply with the study protocol.\n* Has poor venous access and/or cannot tolerate venipuncture.\n* Is pregnant\n* Is a female of child-bearing age (12 years old or older) and known to be sexually active (for example, as determined through a confidential HEADDSSS history), and not taking medication for contraception. This will be assessed confidentially as per good general pediatrics practice\n* Known hypersensitivity to phenylbutyrate. Signs of hypersensitivity include wheezing, dyspnea, coughing, hypotension, flushing, nausea, and rash.\n* Taking alfentanil, quinidine, cyclosporine, or probenecid (known interactions with phenylbutyrate). For subjects who had taken any of these medications in the past, the last dose must have been taken at least 1 week prior to enrollment into the study.\n* Inborn errors of beta oxidation.\n* Pancreatic insufficiency or intestinal malabsorption",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "0 Months",
+      "maximumAge": "17 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Zachary Grinspan, MD",
+          "affiliation": "Weill Medical College of Cornell University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Children's Hospital Colorado",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30654231",
+          "type": "BACKGROUND",
+          "citation": "Rezazadeh A, Uddin M, Snead OC 3rd, Lira V, Silberberg A, Weiss S, Donner EJ, Zak M, Bradbury L, Scherer SW, Fasano A, Andrade DM. STXBP1 encephalopathy is associated with awake bruxism. Epilepsy Behav. 2019 Mar;92:121-124. doi: 10.1016/j.yebeh.2018.12.018. Epub 2019 Jan 14."
+        },
+        {
+          "pmid": "26865513",
+          "type": "BACKGROUND",
+          "citation": "Stamberger H, Nikanorova M, Willemsen MH, Accorsi P, Angriman M, Baier H, Benkel-Herrenbrueck I, Benoit V, Budetta M, Caliebe A, Cantalupo G, Capovilla G, Casara G, Courage C, Deprez M, Destree A, Dilena R, Erasmus CE, Fannemel M, Fjaer R, Giordano L, Helbig KL, Heyne HO, Klepper J, Kluger GJ, Lederer D, Lodi M, Maier O, Merkenschlager A, Michelberger N, Minetti C, Muhle H, Phalin J, Ramsey K, Romeo A, Schallner J, Schanze I, Shinawi M, Sleegers K, Sterbova K, Syrbe S, Traverso M, Tzschach A, Uldall P, Van Coster R, Verhelst H, Viri M, Winter S, Wolff M, Zenker M, Zoccante L, De Jonghe P, Helbig I, Striano P, Lemke JR, Moller RS, Weckhuysen S. STXBP1 encephalopathy: A neurodevelopmental disorder including epilepsy. Neurology. 2016 Mar 8;86(10):954-62. doi: 10.1212/WNL.0000000000002457. Epub 2016 Feb 10."
+        },
+        {
+          "pmid": "18469812",
+          "type": "BACKGROUND",
+          "citation": "Saitsu H, Kato M, Mizuguchi T, Hamada K, Osaka H, Tohyama J, Uruno K, Kumada S, Nishiyama K, Nishimura A, Okada I, Yoshimura Y, Hirai S, Kumada T, Hayasaka K, Fukuda A, Ogata K, Matsumoto N. De novo mutations in the gene encoding STXBP1 (MUNC18-1) cause early infantile epileptic encephalopathy. Nat Genet. 2008 Jun;40(6):782-8. doi: 10.1038/ng.150. Epub 2008 May 11."
+        },
+        {
+          "pmid": "26514728",
+          "type": "BACKGROUND",
+          "citation": "Di Meglio C, Lesca G, Villeneuve N, Lacoste C, Abidi A, Cacciagli P, Altuzarra C, Roubertie A, Afenjar A, Renaldo-Robin F, Isidor B, Gautier A, Husson M, Cances C, Metreau J, Laroche C, Chouchane M, Ville D, Marignier S, Rougeot C, Lebrun M, de Saint Martin A, Perez A, Riquet A, Badens C, Missirian C, Philip N, Chabrol B, Villard L, Milh M. Epileptic patients with de novo STXBP1 mutations: Key clinical features based on 24 cases. Epilepsia. 2015 Dec;56(12):1931-40. doi: 10.1111/epi.13214. Epub 2015 Oct 29."
+        },
+        {
+          "pmid": "28971703",
+          "type": "BACKGROUND",
+          "citation": "Stamberger H, Weckhuysen S, De Jonghe P. STXBP1 as a therapeutic target for epileptic encephalopathy. Expert Opin Ther Targets. 2017 Nov;21(11):1027-1036. doi: 10.1080/14728222.2017.1386175. Epub 2017 Oct 5."
+        },
+        {
+          "pmid": "29538625",
+          "type": "BACKGROUND",
+          "citation": "Kovacevic J, Maroteaux G, Schut D, Loos M, Dubey M, Pitsch J, Remmelink E, Koopmans B, Crowley J, Cornelisse LN, Sullivan PF, Schoch S, Toonen RF, Stiedl O, Verhage M. Protein instability, haploinsufficiency, and cortical hyper-excitability underlie STXBP1 encephalopathy. Brain. 2018 May 1;141(5):1350-1374. doi: 10.1093/brain/awy046."
+        },
+        {
+          "pmid": "26280581",
+          "type": "BACKGROUND",
+          "citation": "Patzke C, Han Y, Covy J, Yi F, Maxeiner S, Wernig M, Sudhof TC. Analysis of conditional heterozygous STXBP1 mutations in human neurons. J Clin Invest. 2015 Sep;125(9):3560-71. doi: 10.1172/JCI78612. Epub 2015 Aug 17."
+        },
+        {
+          "pmid": "26918652",
+          "type": "BACKGROUND",
+          "citation": "Yamashita S, Chiyonobu T, Yoshida M, Maeda H, Zuiki M, Kidowaki S, Isoda K, Morimoto M, Kato M, Saitsu H, Matsumoto N, Nakahata T, Saito MK, Hosoi H. Mislocalization of syntaxin-1 and impaired neurite growth observed in a human iPSC model for STXBP1-related epileptic encephalopathy. Epilepsia. 2016 Apr;57(4):e81-6. doi: 10.1111/epi.13338. Epub 2016 Feb 25."
+        },
+        {
+          "pmid": "25284778",
+          "type": "BACKGROUND",
+          "citation": "Martin S, Papadopulos A, Tomatis VM, Sierecki E, Malintan NT, Gormal RS, Giles N, Johnston WA, Alexandrov K, Gambin Y, Collins BM, Meunier FA. Increased polyubiquitination and proteasomal degradation of a Munc18-1 disease-linked mutant causes temperature-sensitive defect in exocytosis. Cell Rep. 2014 Oct 9;9(1):206-218. doi: 10.1016/j.celrep.2014.08.059. Epub 2014 Oct 2."
+        },
+        {
+          "pmid": "27597756",
+          "type": "BACKGROUND",
+          "citation": "Chai YJ, Sierecki E, Tomatis VM, Gormal RS, Giles N, Morrow IC, Xia D, Gotz J, Parton RG, Collins BM, Gambin Y, Meunier FA. Munc18-1 is a molecular chaperone for alpha-synuclein, controlling its self-replicating aggregation. J Cell Biol. 2016 Sep 12;214(6):705-18. doi: 10.1083/jcb.201512016. Epub 2016 Sep 5."
+        },
+        {
+          "pmid": "26841694",
+          "type": "BACKGROUND",
+          "citation": "Ito S, Hayashi H, Sugiura T, Ito K, Ueda H, Togawa T, Endo T, Tanikawa K, Kage M, Kusuhara H, Saitoh S. Effects of 4-phenylbutyrate therapy in a preterm infant with cholestasis and liver fibrosis. Pediatr Int. 2016 Jun;58(6):506-509. doi: 10.1111/ped.12839. Epub 2016 Feb 4."
+        },
+        {
+          "pmid": "25022842",
+          "type": "BACKGROUND",
+          "citation": "Hasegawa Y, Hayashi H, Naoi S, Kondou H, Bessho K, Igarashi K, Hanada K, Nakao K, Kimura T, Konishi A, Nagasaka H, Miyoshi Y, Ozono K, Kusuhara H. Intractable itch relieved by 4-phenylbutyrate therapy in patients with progressive familial intrahepatic cholestasis type 1. Orphanet J Rare Dis. 2014 Jul 15;9:89. doi: 10.1186/1750-1172-9-89."
+        },
+        {
+          "pmid": "24530123",
+          "type": "BACKGROUND",
+          "citation": "Naoi S, Hayashi H, Inoue T, Tanikawa K, Igarashi K, Nagasaka H, Kage M, Takikawa H, Sugiyama Y, Inui A, Nagai T, Kusuhara H. Improved liver function and relieved pruritus after 4-phenylbutyrate therapy in a patient with progressive familial intrahepatic cholestasis type 2. J Pediatr. 2014 May;164(5):1219-1227.e3. doi: 10.1016/j.jpeds.2013.12.032. Epub 2014 Feb 13."
+        },
+        {
+          "pmid": "22609309",
+          "type": "BACKGROUND",
+          "citation": "Gonzales E, Grosse B, Cassio D, Davit-Spraul A, Fabre M, Jacquemin E. Successful mutation-specific chaperone therapy with 4-phenylbutyrate in a child with progressive familial intrahepatic cholestasis type 2. J Hepatol. 2012 Sep;57(3):695-8. doi: 10.1016/j.jhep.2012.04.017. Epub 2012 May 16."
+        },
+        {
+          "pmid": "7528572",
+          "type": "BACKGROUND",
+          "citation": "Collins AF, Pearson HA, Giardina P, McDonagh KT, Brusilow SW, Dover GJ. Oral sodium phenylbutyrate therapy in homozygous beta thalassemia: a clinical trial. Blood. 1995 Jan 1;85(1):43-9."
+        },
+        {
+          "pmid": "27026010",
+          "type": "BACKGROUND",
+          "citation": "Lee NY, Kang YS. In Vivo and In Vitro Evidence for Brain Uptake of 4-Phenylbutyrate by the Monocarboxylate Transporter 1 (MCT1). Pharm Res. 2016 Jul;33(7):1711-22. doi: 10.1007/s11095-016-1912-6. Epub 2016 Mar 29."
+        },
+        {
+          "pmid": "19345133",
+          "type": "BACKGROUND",
+          "citation": "Ono K, Ikemoto M, Kawarabayashi T, Ikeda M, Nishinakagawa T, Hosokawa M, Shoji M, Takahashi M, Nakashima M. A chemical chaperone, sodium 4-phenylbutyric acid, attenuates the pathogenic potency in human alpha-synuclein A30P + A53T transgenic mice. Parkinsonism Relat Disord. 2009 Nov;15(9):649-54. doi: 10.1016/j.parkreldis.2009.03.002. Epub 2009 Apr 3."
+        },
+        {
+          "pmid": "11391852",
+          "type": "BACKGROUND",
+          "citation": "Berg S, Serabe B, Aleksic A, Bomgaars L, McGuffey L, Dauser R, Durfee J, Nuchtern J, Blaney S. Pharmacokinetics and cerebrospinal fluid penetration of phenylacetate and phenylbutyrate in the nonhuman primate. Cancer Chemother Pharmacol. 2001 May;47(5):385-90. doi: 10.1007/s002800000256."
+        },
+        {
+          "pmid": "14733959",
+          "type": "BACKGROUND",
+          "citation": "Mercuri E, Bertini E, Messina S, Pelliccioni M, D'Amico A, Colitto F, Mirabella M, Tiziano FD, Vitali T, Angelozzi C, Kinali M, Main M, Brahe C. Pilot trial of phenylbutyrate in spinal muscular atrophy. Neuromuscul Disord. 2004 Feb;14(2):130-5. doi: 10.1016/j.nmd.2003.11.006."
+        },
+        {
+          "pmid": "17082463",
+          "type": "BACKGROUND",
+          "citation": "Mercuri E, Bertini E, Messina S, Solari A, D'Amico A, Angelozzi C, Battini R, Berardinelli A, Boffi P, Bruno C, Cini C, Colitto F, Kinali M, Minetti C, Mongini T, Morandi L, Neri G, Orcesi S, Pane M, Pelliccioni M, Pini A, Tiziano FD, Villanova M, Vita G, Brahe C. Randomized, double-blind, placebo-controlled trial of phenylbutyrate in spinal muscular atrophy. Neurology. 2007 Jan 2;68(1):51-5. doi: 10.1212/01.wnl.0000249142.82285.d6. Epub 2006 Nov 2."
+        },
+        {
+          "pmid": "17702032",
+          "type": "BACKGROUND",
+          "citation": "Hogarth P, Lovrecic L, Krainc D. Sodium phenylbutyrate in Huntington's disease: a dose-finding study. Mov Disord. 2007 Oct 15;22(13):1962-4. doi: 10.1002/mds.21632."
+        },
+        {
+          "pmid": "27297240",
+          "type": "BACKGROUND",
+          "citation": "Bondulich MK, Guo T, Meehan C, Manion J, Rodriguez Martin T, Mitchell JC, Hortobagyi T, Yankova N, Stygelbout V, Brion JP, Noble W, Hanger DP. Tauopathy induced by low level expression of a human brain-derived tau fragment in mice is rescued by phenylbutyrate. Brain. 2016 Aug;139(Pt 8):2290-306. doi: 10.1093/brain/aww137. Epub 2016 Jun 12."
+        },
+        {
+          "pmid": "23448463",
+          "type": "BACKGROUND",
+          "citation": "Cuadrado-Tejedor M, Ricobaraza AL, Torrijo R, Franco R, Garcia-Osta A. Phenylbutyrate is a multifaceted drug that exerts neuroprotective effects and reverses the Alzheimer s disease-like phenotype of a commonly used mouse model. Curr Pharm Des. 2013;19(28):5076-84. doi: 10.2174/1381612811319280006."
+        },
+        {
+          "pmid": "21372141",
+          "type": "BACKGROUND",
+          "citation": "Zhou W, Bercury K, Cummiskey J, Luong N, Lebin J, Freed CR. Phenylbutyrate up-regulates the DJ-1 protein and protects neurons in cell culture and in animal models of Parkinson disease. J Biol Chem. 2011 Apr 29;286(17):14941-51. doi: 10.1074/jbc.M110.211029. Epub 2011 Mar 3."
+        },
+        {
+          "pmid": "21272191",
+          "type": "BACKGROUND",
+          "citation": "Wiley JC, Pettan-Brewer C, Ladiges WC. Phenylbutyric acid reduces amyloid plaques and rescues cognitive behavior in AD transgenic mice. Aging Cell. 2011 Jun;10(3):418-28. doi: 10.1111/j.1474-9726.2011.00680.x. Epub 2011 Mar 22."
+        },
+        {
+          "pmid": "21069780",
+          "type": "BACKGROUND",
+          "citation": "Ricobaraza A, Cuadrado-Tejedor M, Marco S, Perez-Otano I, Garcia-Osta A. Phenylbutyrate rescues dendritic spine loss associated with memory deficits in a mouse model of Alzheimer disease. Hippocampus. 2012 May;22(5):1040-50. doi: 10.1002/hipo.20883. Epub 2010 Nov 10."
+        },
+        {
+          "pmid": "19145227",
+          "type": "BACKGROUND",
+          "citation": "Ricobaraza A, Cuadrado-Tejedor M, Perez-Mediavilla A, Frechilla D, Del Rio J, Garcia-Osta A. Phenylbutyrate ameliorates cognitive deficit and reduces tau pathology in an Alzheimer's disease mouse model. Neuropsychopharmacology. 2009 Jun;34(7):1721-32. doi: 10.1038/npp.2008.229. Epub 2009 Jan 14."
+        },
+        {
+          "pmid": "17459145",
+          "type": "BACKGROUND",
+          "citation": "Inden M, Kitamura Y, Takeuchi H, Yanagida T, Takata K, Kobayashi Y, Taniguchi T, Yoshimoto K, Kaneko M, Okuma Y, Taira T, Ariga H, Shimohama S. Neurodegeneration of mouse nigrostriatal dopaminergic system induced by repeated oral administration of rotenone is prevented by 4-phenylbutyrate, a chemical chaperone. J Neurochem. 2007 Jun;101(6):1491-1504. doi: 10.1111/j.1471-4159.2006.04440.x."
+        },
+        {
+          "pmid": "15226415",
+          "type": "BACKGROUND",
+          "citation": "Qi X, Hosoi T, Okuma Y, Kaneko M, Nomura Y. Sodium 4-phenylbutyrate protects against cerebral ischemic injury. Mol Pharmacol. 2004 Oct;66(4):899-908. doi: 10.1124/mol.104.001339. Epub 2004 Jun 29."
+        },
+        {
+          "pmid": "30266908",
+          "type": "BACKGROUND",
+          "citation": "Guiberson NGL, Pineda A, Abramov D, Kharel P, Carnazza KE, Wragg RT, Dittman JS, Burre J. Mechanism-based rescue of Munc18-1 dysfunction in varied encephalopathies by chemical chaperones. Nat Commun. 2018 Sep 28;9(1):3986. doi: 10.1038/s41467-018-06507-4."
+        },
+        {
+          "pmid": "27121790",
+          "type": "BACKGROUND",
+          "citation": "Ghabril M, Zupanets IA, Vierling J, Mantry P, Rockey D, Wolf D, O'Shea R, Dickinson K, Gillaspy H, Norris C, Coakley DF, Mokhtarani M, Scharschmidt BF. Glycerol Phenylbutyrate in Patients With Cirrhosis and Episodic Hepatic Encephalopathy: A Pilot Study of Safety and Effect on Venous Ammonia Concentration. Clin Pharmacol Drug Dev. 2013 Jul;2(3):278-84. doi: 10.1002/cpdd.18. Epub 2013 Mar 16."
+        },
+        {
+          "pmid": "21847373",
+          "type": "BACKGROUND",
+          "citation": "Jin XT, Galvan A, Wichmann T, Smith Y. Localization and Function of GABA Transporters GAT-1 and GAT-3 in the Basal Ganglia. Front Syst Neurosci. 2011 Jul 28;5:63. doi: 10.3389/fnsys.2011.00063. eCollection 2011."
+        },
+        {
+          "pmid": "32398021",
+          "type": "BACKGROUND",
+          "citation": "Wang J, Poliquin S, Mermer F, Eissman J, Delpire E, Wang J, Shen W, Cai K, Li BM, Li ZY, Xu D, Nwosu G, Flamm C, Liao WP, Shi YW, Kang JQ. Endoplasmic reticulum retention and degradation of a mutation in SLC6A1 associated with epilepsy and autism. Mol Brain. 2020 May 12;13(1):76. doi: 10.1186/s13041-020-00612-6."
+        },
+        {
+          "pmid": "30885608",
+          "type": "BACKGROUND",
+          "citation": "El-Kasaby A, Kasture A, Koban F, Hotka M, Asjad HMM, Kubista H, Freissmuth M, Sucic S. Rescue by 4-phenylbutyrate of several misfolded creatine transporter-1 variants linked to the creatine transporter deficiency syndrome. Neuropharmacology. 2019 Dec 15;161:107572. doi: 10.1016/j.neuropharm.2019.03.015. Epub 2019 Mar 15."
+        },
+        {
+          "pmid": "10666020",
+          "type": "BACKGROUND",
+          "citation": "Rubenstein RC, Zeitlin PL. Sodium 4-phenylbutyrate downregulates Hsc70: implications for intracellular trafficking of DeltaF508-CFTR. Am J Physiol Cell Physiol. 2000 Feb;278(2):C259-67. doi: 10.1152/ajpcell.2000.278.2.C259."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570223",
+          "term": "glycerol phenylbutyrate"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

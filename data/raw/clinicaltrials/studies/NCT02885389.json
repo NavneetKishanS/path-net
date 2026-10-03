@@ -1,0 +1,146 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02885389",
+      "orgStudyIdInfo": {
+        "id": "2010.614"
+      },
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Molecular Genetics in Infantile Spasms",
+      "officialTitle": "Molecular Characterization of a Cohort of 73 Patients With Infantile Spasms Syndrome"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-08-23",
+      "studyFirstSubmitQcDate": "2016-08-26",
+      "studyFirstPostDateStruct": {
+        "date": "2016-08-31",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-08-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-08-31",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Infantile Spasms syndrome (ISs) is a characterized by epileptic spasms occurring in clusters with an onset in the first year of life. West syndrome represents a subset of ISs that associates spasms in clusters, a hypsarrhythmia EEG pattern and a developmental arrest or regression. Aetiology of ISs is widely heterogeneous including many genetic causes. Many patients, however, remain without etiological diagnosis, which is critical for prognostic purpose and genetic counselling. In the present study, the investigators performed genetic screening of 73 patients with different types of ISs by array-CGH and molecular analysis of 5 genes: CDKL5, STXBP1, KCNQ2, and GRIN2A, whose mutations cause different types of epileptic encephalopathies, including ISs, as well as MAGI2, which was suggested to be related to a subset of ISs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Infantile Spasms",
+        "West Syndrome"
+      ],
+      "keywords": [
+        "Infantile spasms",
+        "West syndrome",
+        "variant",
+        "mutation",
+        "CNV",
+        "sequencing"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 41,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Presence of deleterious gene variants in candidate genes for infantile spasms/west syndrome and for deleterious Copy-Number variations (CNV). A pan-genome analysis by microarray",
+          "timeFrame": "Day one"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Infantile spams or West syndrome\n\nExclusion Criteria:\n\n* brain malformation\n* clinical features of tuberous sclerosis\n* abnormal metabolic assays",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "3 Months",
+      "maximumAge": "15 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "Infantile spams or West syndrome",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013036",
+          "term": "Spasms, Infantile"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004829",
+          "term": "Epilepsy, Generalized"
+        },
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D000073376",
+          "term": "Epileptic Syndromes"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

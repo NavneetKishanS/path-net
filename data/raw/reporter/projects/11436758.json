@@ -1,0 +1,124 @@
+{
+  "appl_id": 11436758,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1K99NS151036-01",
+  "project_serial_num": "NS151036",
+  "organization": {
+    "org_name": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+    "city": null,
+    "country": null,
+    "org_city": "SAN FRANCISCO",
+    "org_country": "UNITED STATES",
+    "org_state": "CA",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "094878337"
+    ],
+    "org_ueis": [
+      "KMH5K9V7S518"
+    ],
+    "primary_duns": "094878337",
+    "primary_uei": "KMH5K9V7S518",
+    "org_fips": "US",
+    "org_ipf_code": "577508",
+    "org_zipcode": "941432510",
+    "external_org_id": 577508
+  },
+  "award_type": "1",
+  "activity_code": "K99",
+  "award_amount": 117747,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "K99",
+    "ic_code": "NS",
+    "serial_num": "151036",
+    "support_year": "01",
+    "full_support_year": "01",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 14132242,
+      "first_name": "Kathryn",
+      "middle_name": "Anne",
+      "last_name": "Salvati",
+      "is_contact_pi": true,
+      "full_name": "Kathryn Anne Salvati",
+      "title": "POSTDOCTORAL FELLOW"
+    }
+  ],
+  "contact_pi_name": "SALVATI, KATHRYN ANNE",
+  "program_officers": [
+    {
+      "first_name": "LAUREN",
+      "middle_name": "ELIZABETH",
+      "last_name": "ULLRICH",
+      "full_name": "LAUREN ELIZABETH ULLRICH"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 117747.0,
+      "direct_cost_ic": 109025.0,
+      "indirect_cost_ic": 8722.0
+    }
+  ],
+  "cong_dist": "CA-11",
+  "spending_categories": null,
+  "project_start_date": "2026-08-15T00:00:00",
+  "project_end_date": "2028-07-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -122.413937,
+    "lat": 37.767442
+  },
+  "opportunity_number": "PA-24-194",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "NV",
+    "sra_flex_code": "V",
+    "group_code": "22",
+    "name": "Special Emphasis Panel[ZRG1 NV-V (22)]"
+  },
+  "award_notice_date": "2026-08-11T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "OR",
+  "core_project_num": "K99NS151036",
+  "terms": "<2-photon><ASD><Action Potentials><Acute><Affect><Affective><Apical><Architecture><Attention><Autism><Autistic Disorder><Award><Axon><Back><Behavior><Behavioral><Behavioral Paradigm><Binding><Calcium><Calcium Spikes><Care Givers><Caregivers><Cell Body><Cell Communication and Signaling><Cell Nucleus><Cell Signaling><Cells><Collaborations><Communities><Conscious><Consciousness><Coupling><Data><Dendrites><Detection><Development><Distant><Dorsum><Dysfunction><Early Infantile Autism><Electrophysiology><Electrophysiology (science)><Engineering / Architecture><Ensure><Event><Evoked Potentials><Exhibits><Feedback><Fire - disasters><Fires><Frequencies><Functional disorder><Genes><Goals><Heterozygote><Image><Impairment><Individual><Infantile Autism><Intracellular Communication and Signaling><Kanner's Syndrome><Knowledge><Learning><Link><Measures><Medial><Mediating><Mentors><Mentorship><Mice><Mice Mammals><Modeling><Molecular Interaction><Movement><Murine><Mus><Nav1.2><Neural Transmission><Neurodevelopmental Disorder><Neurological Development Disorder><Neuronal Dysfunction><Neurophysiology / Electrophysiology><Neurosciences><Nucleus><Perception><Performance><Phase><Physiopathology><Population><Position><Positioning Attribute><Preparation><Process><Pupil><Pyramidal neuron><Regulation><Reporting><Research><Role><SCN2A protein><Sampling><Sensory><Shapes><Signal Transduction><Signal Transduction Systems><Signaling><Slice><Socialization><Sodium Channel><Sodium Ion Channels><Somatosensory Cortex><Source><Stimulus><Stream><Synapses><Synaptic><Synaptic Transmission><Testing><Texture><Thalamic structure><Thalamus><Touch><Touch sensation><Training><Travel><Vibrissae><Whiskers><Work><attentional control><autism attributes><autism indicator><autism model><autism predisposition><autism risk><autism risk allele><autism risk genes><autism risk locus><autism risk variant><autism spectral disorder><autism spectrum disorder><autism spectrum disorder features><autism spectrum disorder indicator><autism spectrum disorder predisposition><autism spectrum disorder risk><autism spectrum disorder risk allele><autism spectrum disorder risk genes><autism spectrum disorder risk locus><autism spectrum disorder risk variant><autism spectrum disorder susceptibility><autism spectrum disorder susceptibility genes><autism spectrum disorder symptoms><autism spectrum risk genes><autism susceptibility genes><autism symptomology><autism symptoms><autism-like symptoms><autism-related attributes><autistic features><autistic individuals><autistic people><autistic spectrum disorder><autistic symptoms><autistic traits><autistic-like symptoms><biological signal transduction><body movement><detector><developmental><electrophysiological><ex vivo><excitatory neuron><experiment><experimental research><experimental study><experiments><fire><heterozygosity><high dimensional data><hippocampal pyramidal neuron><imaging><improved><in vivo><individuals on the autism spectrum><individuals on the spectrum><individuals with ASD><individuals with autism><individuals with autism spectrum disorder><insight><loss of function><model of autism spectrum disorder><multidimensional data><multidimensional datasets><na(v)1.2><neocortical><neural dysfunction><neurodevelopmental disease><neuronal excitability><novel><orofacial><passive monitoring><passive sensing><patch clamp><pathophysiology><people on the autism spectrum><people with ASD><people with autism><people with autism spectrum disorder><preference><preparations><programs><repetitive behavior><response><risk genes implicated in autism><risk genes in autism><sensory input><sensory integration><sensory mechanism><skills><social communication impairment><social role><somatosensory><somesthetic sensory cortex><synapse><tactile sensation><thalamic><theories><two-photon><voltage>",
+  "pref_terms": "Action Potentials;Acute;Affect;Affective;Apical;Architecture;Attention;Award;Axon;Back;Behavior;Behavioral;Behavioral Paradigm;Binding;Calcium;Calcium Spikes;Caregivers;Cell Nucleus;Cells;Collaborations;Communities;Conscious;Coupling;Data;Dendrites;Detection;Development;Distant;Electrophysiology (science);Ensure;Event;Evoked Potentials;Exhibits;Feedback;Fire - disasters;Frequencies;Functional disorder;Genes;Goals;Heterozygote;Image;Impairment;Individual;Knowledge;Learning;Link;Measures;Medial;Mediating;Mentors;Mentorship;Modeling;Movement;Mus;Neurodevelopmental Disorder;Neuronal Dysfunction;Neurosciences;Perception;Performance;Phase;Population;Positioning Attribute;Preparation;Process;Pupil;Regulation;Reporting;Research;Role;SCN2A protein;Sampling;Sensory;Shapes;Signal Transduction;Slice;Socialization;Sodium Channel;Somatosensory Cortex;Source;Stimulus;Stream;Synapses;Synaptic Transmission;Testing;Texture;Thalamic structure;Touch sensation;Training;Travel;Vibrissae;Work;attentional control;autism risk;autism risk genes;autism spectrum disorder;autism symptoms;detector;ex vivo;excitatory neuron;experimental study;hippocampal pyramidal neuron;improved;in vivo;individuals with autism spectrum disorder;insight;loss of function;model of autism spectrum disorder;multidimensional data;neocortical;neuronal excitability;novel;orofacial;passive monitoring;patch clamp;preference;programs;repetitive behavior;response;sensory input;sensory integration;sensory mechanism;skills;social communication impairment;somatosensory;theories;two-photon;voltage",
+  "abstract_text": "PROJECT SUMMARY\nAutism Spectrum Disorder (ASD) is a life-long neurodevelopmental condition that impacts ~1% of the global\npopulation. Affecting ~90% of individuals with ASD, somatosensory dysfunction is a burdensome feature of ASD\npathophysiology that emerges early in development. Caregivers of ASD individuals often report challenges in\nbonding through affective touch, observing preferences or aversions to specific textures, sensory seeking\nbehavior, and difficulty in filtering sensory information. All affects one’s ability to learn, socialize and participate\nin everyday activities. The goal of this project is to define a novel mechanism by which haploinsufficiency of\nSCN2A—the gene most strongly associated with autism spectrum disorder (ASD)—disrupts function at the cell,\ncircuit, and behavior level to alter sensory perception.\nThe gene SCN2A encodes the sodium channel NaV1.2, and is expressed throughout neocortical excitatory\nneuron dendrites, whose function is critical for proper integration of synaptic inputs. How these dendritically\nlocalized channels aid in neocortical function in vivo, and how circuits adapt to loss of dendritic excitability is\npoorly understood.\nIn the mentored phase (K99), I will test the central hypothesis that Scn2a haploinsufficiency (Scn2a+/-) disrupts\ndendritic integration in the somatosensory cortex, leading to impaired sensory perception, modeling a key cellular\nmechanism of ASD-associated dysfunction. First, I will combine 2-photon calcium imaging of L5PN dendrites\nwith a behavioral paradigm to test whether Scn2a+/- mice exhibit a shifted perceptual threshold for passive\nwhisker stimulation. Second, I will use ex vivo acute slice preparations and in vivo 2-photon calcium imaging to\ntest how Scn2a+/- disrupts functional coupling between basal and apical dendritic compartments, thereby\nimpairing dendritic integration. The resulting data will link cellular dysfunction to impaired sensory behavior.\nIn the independent phase (R00) of this award will focus on determining how Scn2a haploinsufficiency disrupts\nhigher-order cortico-thalamo-cortical circuits that integrate contextual information to shape sensory perception.\nI will test how Scn2a+/- disrupts posterior medial thalamus (POm)—a higher order thalamic somatosensory\nnucleus—feedback at L5PN apical dendrites, POm intrinsic excitability, and whether Scn2a+/- disrupts functional\ncoupling between POm axons and L5PN dendrites in vivo. This work will establish a new framework for how\ndisrupted cortico-thalamo-cortical feedback loops cause sensory dysfunction in ASD.\nGuided by my mentors, Dr. Kevin Bender (UCSF) and Dr. Daniel Feldman (UC Berkeley) and advisors Dr. Vijay\nM K Namboodiri (UCSF) and Dr. Massimo Scanziani (UCSF/HHMI), I will acquire essential technical and\nscientific expertise that will be crucial for setting the basis of my independent research program. Combined with\nrobust mentorship, collaboration and UCSF’s vibrant neuroscience community, this training will ensure my\nsuccessful transition to independence.",
+  "project_title": "Examining Scn2a loss of function in sensory perception",
+  "phr_text": "PROJECT NARRATIVE\nAutism spectrum disorder (ASD) is a neurodevelopmental disorder that affects approximately 1% of the\npopulation, and is defined by social communication impairments, repetitive behaviors, and alterations in sensory\nprocessing. This work will reveal how perturbations in the autism-linked gene SCN2A affect neocortical function\nthat shapes sensory perception. Resolving this critical knowledge gap will provide insight into how cortical and\nsubcortical sensory networks adapt—or fail to adapt—to SCN2A loss, providing new insight into mechanisms of\nsensory dysfunction in ASD.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-08-15T00:00:00",
+  "budget_end": "2027-07-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Other Research-Related",
+  "direct_cost_amt": 109025,
+  "indirect_cost_amt": 8722,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11436758",
+  "date_added": "2026-08-15T17:03:56"
+}

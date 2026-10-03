@@ -1,0 +1,285 @@
+{
+  "data": {
+    "__count": 1,
+    "__licence": {
+      "identifier": "CC-BY-4.0",
+      "link": "https://creativecommons.org/licenses/by/4.0",
+      "name": "Creative Commons Attribution 4.0 International"
+    },
+    "results": {
+      "Date": "2026-06-23 07:57:18",
+      "Disorder": {
+        "DisorderGroup": "Disorder",
+        "HPODisorderAssociation": [
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001249",
+              "HPOTerm": "Intellectual disability"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001250",
+              "HPOTerm": "Seizure"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001263",
+              "HPOTerm": "Global developmental delay"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0011185",
+              "HPOTerm": "EEG with focal epileptiform discharges"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0000729",
+              "HPOTerm": "Autistic behavior"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0000750",
+              "HPOTerm": "Delayed speech and language development"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0000752",
+              "HPOTerm": "Hyperactivity"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001251",
+              "HPOTerm": "Ataxia"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001252",
+              "HPOTerm": "Hypotonia"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001337",
+              "HPOTerm": "Tremor"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001344",
+              "HPOTerm": "Absent speech"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002123",
+              "HPOTerm": "Generalized myoclonic seizure"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002376",
+              "HPOTerm": "Developmental regression"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002384",
+              "HPOTerm": "Focal impaired awareness seizure"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002521",
+              "HPOTerm": "Hypsarrhythmia"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002540",
+              "HPOTerm": "Inability to walk"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0006989",
+              "HPOTerm": "Dysplastic corpus callosum"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0010819",
+              "HPOTerm": "Atonic seizure"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0010841",
+              "HPOTerm": "Multifocal epileptiform discharges"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0011097",
+              "HPOTerm": "Epileptic spasm"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0011153",
+              "HPOTerm": "Focal motor seizure"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0011203",
+              "HPOTerm": "EEG with abnormally slow frequencies"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0012469",
+              "HPOTerm": "Infantile spasms"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0012762",
+              "HPOTerm": "Cerebral white matter atrophy"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0200134",
+              "HPOTerm": "Epileptic encephalopathy"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001257",
+              "HPOTerm": "Spasticity"
+            },
+            "HPOFrequency": "Very rare (<4-1%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001332",
+              "HPOTerm": "Dystonia"
+            },
+            "HPOFrequency": "Very rare (<4-1%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002510",
+              "HPOTerm": "Spastic tetraplegia"
+            },
+            "HPOFrequency": "Very rare (<4-1%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0007334",
+              "HPOTerm": "Bilateral tonic-clonic seizure with focal onset"
+            },
+            "HPOFrequency": "Very rare (<4-1%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0012448",
+              "HPOTerm": "Delayed myelination"
+            },
+            "HPOFrequency": "Very rare (<4-1%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0100660",
+              "HPOTerm": "Dyskinesia"
+            },
+            "HPOFrequency": "Very rare (<4-1%)"
+          }
+        ],
+        "ORPHAcode": 599373,
+        "OrphanetURL": "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=599373",
+        "Preferred term": "STXBP1-related developmental and epileptic encephalopathy",
+        "Typology": "Disease"
+      },
+      "Online": "y",
+      "Source": "35190816[PMID]",
+      "ValidationDate": "2023-01-17 00:00:00.0",
+      "ValidationStatus": "y"
+    }
+  },
+  "datasetCategory": {
+    "lang": "en",
+    "name": "Rare diseases and associated phenotypes"
+  },
+  "parameters": {
+    "path": {
+      "ORPHAcode": 599373
+    },
+    "query": {}
+  },
+  "uri": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373"
+}

@@ -1,0 +1,40 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1189",
+    "retmax": "20",
+    "retstart": "0",
+    "idlist": [
+      "20437616",
+      "36047730",
+      "37857637",
+      "41174170",
+      "39192337",
+      "41015095",
+      "31324323",
+      "39602259",
+      "33811133",
+      "33616268",
+      "38460523",
+      "21269290",
+      "32917465",
+      "40043113",
+      "40998073",
+      "41419331",
+      "42190144",
+      "33681646",
+      "34181986",
+      "37099824"
+    ],
+    "translationset": [
+      {
+        "from": "KCNQ2",
+        "to": "\"kcnq2 protein, human\"[Supplementary Concept] OR \"kcnq2 protein, human\"[All Fields] OR \"kcnq2\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"kcnq2 protein human\"[Supplementary Concept] OR \"kcnq2 protein human\"[All Fields] OR \"kcnq2\"[All Fields]) AND \"hasabstract\"[All Fields] AND 1800/01/01:2026/10/03[Date - Publication]"
+  }
+}

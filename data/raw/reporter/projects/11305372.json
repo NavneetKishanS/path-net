@@ -1,0 +1,124 @@
+{
+  "appl_id": 11305372,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1R01NS142283-01A1",
+  "project_serial_num": "NS142283",
+  "organization": {
+    "org_name": "NORTHWESTERN UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "CHICAGO",
+    "org_country": "UNITED STATES",
+    "org_state": "IL",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "005436803"
+    ],
+    "org_ueis": [
+      "KG76WYENL5K1"
+    ],
+    "primary_duns": "005436803",
+    "primary_uei": "KG76WYENL5K1",
+    "org_fips": "US",
+    "org_ipf_code": "6144650",
+    "org_zipcode": "606114579",
+    "external_org_id": 6144650
+  },
+  "award_type": "1",
+  "activity_code": "R01",
+  "award_amount": 620507,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "142283",
+    "support_year": "01",
+    "full_support_year": "01A1",
+    "suffix_code": "A1"
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 11673518,
+      "first_name": "Evangelos",
+      "middle_name": "",
+      "last_name": "Kiskinis",
+      "is_contact_pi": true,
+      "full_name": "Evangelos  Kiskinis",
+      "title": "ASSISTANT PROFESSOR OF NEUROLOGY"
+    }
+  ],
+  "contact_pi_name": "KISKINIS, EVANGELOS ",
+  "program_officers": [
+    {
+      "first_name": "AMELIE",
+      "middle_name": "",
+      "last_name": "GUBITZ",
+      "full_name": "AMELIE  GUBITZ"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 620507.0,
+      "direct_cost_ic": 411485.0,
+      "indirect_cost_ic": 209022.0
+    }
+  ],
+  "cong_dist": "IL-05",
+  "spending_categories": null,
+  "project_start_date": "2026-08-14T00:00:00",
+  "project_end_date": "2031-05-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -87.680046,
+    "lat": 42.050479
+  },
+  "opportunity_number": "PA-25-301",
+  "full_study_section": {
+    "srg_code": "CMND",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Cellular and Molecular Biology of Neurodegeneration Study Section[CMND]"
+  },
+  "award_notice_date": "2026-08-14T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS142283",
+  "terms": "<ALS patients><Action Potentials><Activities of Daily Living><Activities of everyday life><Affect><Amentia><Amyotrophic Lateral Sclerosis><Amyotrophic Lateral Sclerosis Motor Neuron Disease><Amyotrophic Lateral Sclerosis patients><Amyotrophic lateral sclerosis and frontotemporal degeneration><Amyotrophic lateral sclerosis and frontotemporal dementia><Animal Model><Animal Models and Related Studies><Antisense Agent><Antisense Oligonucleotides><Assay><Autopsy><Binding><Binding Sites><Bioassay><Biochemical><Biological Assay><Body Tissues><Brain><Brain Nervous System><Cell Body><Cell Function><Cell Nucleus><Cell Physiology><Cell Process><Cells><Cellular Function><Cellular Physiology><Cellular Process><Chemicals><Clinical><Combining Site><Cytoplasm><DNA mutation><Defect><Degenerative Neurologic Disorders><Dementia><Disease><Disease Progression><Disorder><Down-Regulation><Drugs><Dysfunction><Electrophysiology><Electrophysiology (science)><Encephalon><Event><Exclusion><Executive Dysfunction><Executive Function Deficit><Executive Impairment><Exhibits><Exons><FTD dementia><FTD/ALS><FTLD/ALS><Family><Frequencies><Frontal Temporal Dementia><Frontotemporal Dementia><Frontotemporal Lobar Degeneration/Amyotrophic lateral sclerosis><Functional RNA><Functional disorder><Gehrig's Disease><Gene Expression><Genes><Genetic Change><Genetic Diversity><Genetic Polymorphism><Genetic Predisposition><Genetic Predisposition to Disease><Genetic Susceptibility><Genetic Variation><Genetic defect><Genetic mutation><Genetic propensity><Human><Immunohistochemistry><Immunohistochemistry Cell/Tissue><Immunohistochemistry Staining Method><Induced pluripotent stem cell derived neurons><Inherited Predisposition><Inherited Susceptibility><Intermediary Metabolism><Intrinsic drive><Investigation><K channel><Link><Lou Gehrig Disease><Measures><Mediating><Medication><Medulla Spinalis><Messenger RNA><Metabolic Processes><Metabolism><Mice><Mice Mammals><Modality><Modern Man><Molecular Interaction><Motor Cell><Motor Neuron Disease><Motor Neurons><Movement><Murine><Mus><Muscle><Muscle Tissue><Mutation><Nerve Cells><Nerve Unit><Nervous System Degenerative Diseases><Neural Cell><Neural Degenerative Diseases><Neural degenerative Disorders><Neurocyte><Neurodegenerative Diseases><Neurodegenerative Disorders><Neurologic Degenerative Conditions><Neuron from iPSC><Neuron from induced pluripotent stem cells><Neurons><Neurophysiology / Electrophysiology><Noncoding RNA><Nontranslated RNA><Nuclear><Nuclear RNA><Nucleus><Palsy><Paralysed><Pathologic><Patients><Peptide Domain><Pharmaceutical Preparations><Phenotype><Physiology><Physiopathology><Play><Plegia><Poison><Potassium Channel><Potassium Ion Channels><Prevalence><Property><Protein Domains><Proteins><Quantitative RTPCR><Quantitative Reverse Transcriptase PCR><RNA Splicing><RNA metabolism><RNA-Binding Proteins><Reactive Site><Regulation><Repression><Role><Speech><Spinal><Spinal Cord><Splicing><Subcellular Process><Synapses><Synaptic><Synaptic Vesicles><TAR DNA binding protein 43 kDa pathology><TAR DNA binding protein 43 pathology><TAR DNA binding protein of 43 proteinopathy><TAR DNA-binding protein 43><TDP-43><TDP-43 aggregate><TDP-43 aggregation><TDP43><TDP43 aggregate><TDP43 aggregation><TDP43 associated neurodegeneration><TDP43 associated neurodegenerative disease><TDP43 associated pathologies><TDP43 induced neurodegeneration><TDP43 neurodegeneration><TDP43 neurodegenerative disease><TDP43 neuropathology><TDP43 pathogenesis><TDP43 pathology><TDP43 proteinopathy><TDP43 related neurodegeneration><TDP43 related pathology><Temporal Lobe><Tertiary Protein Structure><Testing><Therapeutic><Tissues><Toxic Chemical><Toxic Substance><Trans active response DNA binding protein 43 pathology><Trans active response DNA binding protein of 43 kDa proteinopathy><Transcranial magnetic stimulation><Transcript><Untranslated RNA><Work><amyotrophic lateral sclerosis with frontotemporal dementia><amyotrophic lateral sclerosis/FTLD><amyotrophic lateral sclerosis/frontotemporal dementia><amyotrophic lateral sclerosis/ftd><antisense oligo><base><bases><body movement><chemical conjugate><co-morbid><co-morbidity><comorbidity><daily living function><daily living functionality><degenerative diseases of motor and sensory neurons><degenerative disorder of motor neurons><degenerative neurological diseases><dementia risk><design><designing><disease prognostic><drug/agent><early onset><electrophysiological><excitatory neuron><executive control><executive function><exon skipping><front temporal dementia><frontal cortex><frontal lobe><frontal lobe dementia><frontal temporal dementia/ALS><frontotemporal dementia-amyotrophic lateral sclerosis><frontotemporal lobar degeneration dementia><frontotemporal lobar dementia><frontotemporal lobar dementia amyotrophic lateral sclerosis><frontotemporal lobe degeneration associated with dementia><functional ability><functional capacity><gain of function><genetic vulnerability><genetically predisposed><genome mutation><iPS><iPS neurons><iPSC><iPSC derived-neurons><iPSCs><induced pluripotent cell><induced pluripotent stem cell><induced pluripotent stem cell neurons><inducible pluripotent cell><inducible pluripotent stem cell><inhibitory neuron><innovate><innovation><innovative><loss of function><low-frequency mutation><mRNA><model of animal><motoneuron><motor neuron degeneration><multi-electrode arrays><multielectrode arrays><muscular><necropsy><nerve conduction study><neurodegenerative illness><neuronal><neuronal excitability><neurons derived from induced pluripotent stem cells><neurons differentiated from induced pluripotent stem cells><neurophysiological><neurophysiology><neurotransmitter release><noncoding><paralysis><paralytic><patch clamp><pathophysiology><polymorphism><population based><postmortem><protein TDP-43><protein TDP43><qRTPCR><rare allele><rare mutation><rare variant><risk factor for dementia><risk for dementia><sALS><social role><sporadic ALS><sporadic amyotrophic lateral sclerosis><synapse><temporal cortex><therapeutic target><toxic compound><trans active response DNA binding protein 43 kDa pathology><trans active response DNA binding protein 43 proteinopathy><vesicle release><vesicular release>",
+  "pref_terms": "ALS patients;Action Potentials;Activities of Daily Living;Affect;Amyotrophic Lateral Sclerosis;Animal Model;Antisense Oligonucleotides;Autopsy;Binding;Binding Sites;Biochemical;Biological Assay;Brain;Cell Nucleus;Cell Physiology;Cells;Chemicals;Clinical;Cytoplasm;Defect;Dementia;Disease;Disease Progression;Down-Regulation;Electrophysiology (science);Event;Exclusion;Executive Dysfunction;Exhibits;Exons;Family;Frequencies;Frontotemporal Dementia;Functional disorder;Gene Expression;Genes;Genetic Polymorphism;Genetic Predisposition to Disease;Genetic Variation;Human;Immunohistochemistry;Induced pluripotent stem cell derived neurons;Intrinsic drive;Investigation;Link;Measures;Mediating;Messenger RNA;Metabolism;Modality;Motor Neuron Disease;Motor Neurons;Movement;Mus;Muscle;Mutation;Neurodegenerative Disorders;Neurons;Nuclear;Nuclear RNA;Paralysed;Pathologic;Patients;Pharmaceutical Preparations;Phenotype;Physiology;Play;Poison;Potassium Channel;Prevalence;Property;Proteins;Quantitative Reverse Transcriptase PCR;RNA Splicing;RNA metabolism;RNA-Binding Proteins;Regulation;Repression;Role;Speech;Spinal;Spinal Cord;Synapses;Synaptic Vesicles;TDP-43 aggregation;TDP43 proteinopathy;Temporal Lobe;Tertiary Protein Structure;Testing;Therapeutic;Tissues;Transcranial magnetic stimulation;Transcript;Untranslated RNA;Work;base;chemical conjugate;comorbidity;dementia risk;design;disease prognostic;early onset;excitatory neuron;executive function;exon skipping;frontal lobe;frontotemporal lobar dementia amyotrophic lateral sclerosis;gain of function;induced pluripotent stem cell;inhibitory neuron;innovation;loss of function;motor neuron degeneration;multi-electrode arrays;nerve conduction study;neuronal excitability;neurophysiology;neurotransmitter release;patch clamp;population based;protein TDP-43;rare variant;sporadic amyotrophic lateral sclerosis;therapeutic target;vesicular release",
+  "abstract_text": "ABSTRACT\n Amyotrophic lateral sclerosis (ALS) is a devastating neurodegenerative disease that is characterized by\na progressive inability to control muscle movement. ALS patients are often comorbid with frontotemporal\ndementia (FTD), also known as ALS/FTD. The clinical manifestation of ALS/FTD is mediated by the selective\ndysfunction and degeneration of upper and lower motor neurons (MNs) that connect the CNS to the musculature,\nas well as cortical neurons that are responsible for speech and executive function. A broadly observed clinical\nfeature in ALS/FTD patients is neuronal hyperexcitability. Motor neuron excitability, measured by transcranial\nmagnetic stimulation and threshold tracking nerve conduction studies, is an early indicator of motor neuron\ndisease that is detected pre-symptomatically, and is prognostic of disease progression and survival in both\nsporadic and familial cases. Despite its wide prevalence and therapeutic potential, the mechanisms that drive\nintrinsic neuronal hyperexcitability in ALS/FTD patients are poorly understood. Nuclear depletion and\ncytoplasmic aggregation of TDP-43 represents a unifying pathological feature of the overwhelming majority of\nALS (~97%) and approximately 50% of all FTD patients (FTD-TDP). TDP-43 is a multifunctional RNA-binding\nprotein that predominately resides in the nucleus and regulates RNA splicing. We have found that TDP-43\ndysfunction causes spurious mis-splicing of KCNQ2 and UNC13A in ALS/FTD postmortem patient CNS tissue\nthat strongly correlate with TDP-43 pathology, genetic predisposition, and clinical disease metrics. UNC13A\nencodes a protein with critical functions in synaptic vesicle release, while KCNQ2 encodes a potassium channel\nthat regulates action potential frequency. Here, we will test the hypothesis that TDP-43 dependent splicing errors\non UNC13A and KCNQ2 mRNAs trigger detrimental defects on distinct neuronal excitability properties that\ncompromise their functionality and contribute to ALS/FTD pathophysiology. We will use induced pluripotent stem\ncell (iPSC)-derived cortical excitatory and inhibitory neurons, spinal motor neurons, and postmortem patient\ntissue to: 1) determine the extent and diversity of erroneous splicing of UNC13A and KCNQ2 in patients, 2)\ncharacterize the functional effects of these two events on neuronal physiology and, 3) develop single and bi-\nfunctional splice-modulating antisense oligonucleotides (ASOs) that can restore their normal splicing and\nneuronal physiology. In Aims 1 and 2 we will use single cell patch-clamp and population-based multi-electrode\narrays to measure neuron intrinsic and network properties and determine the functional ramifications of TDP-43-\nmediated mis-splicing in human neurons. In Aim 3 we will design, screen, and identify splice-modulating ASOs\nconjugated by chemical linkers to simultaneously rescue both TDP-43 target mRNAs. Our studies will impact the\nfield by highlighting a mechanistic link between TDP-43 dysfunction and neuronal excitability through aberrant\nmRNA metabolism, defining the functional ramifications of two of the most prevalent splicing errors of TDP-43,\nand by developing a new class of ASOs that could represent rational therapeutic modalities for ALS/FTD patients.",
+  "project_title": "Investigating the Association Between TDP-43 Dependent Disruptions in RNA Metabolism and Neuronal Excitability",
+  "phr_text": "NARRATIVE\nThe purpose of our proposed study is to elucidate the ramifications of Amyotrophic Lateral Sclerosis (ALS) and\nFrontotemporal Dementia (FTD)-associated TDP-43 loss-of-function on neurophysiology. We will use induced\npluripotent stem cell-derived neurons and postmortem patient tissue to define the functional ramifications of mis-\nspliced KCNQ2 and UNC13A and develop single and bi-functional splice-modulating antisense oligonucleotides\nthat can restore their normal splicing and restore normal neurophysiology. Our work will contribute towards the\nidentification of therapeutic targets that could be broadly relevant for sporadic ALS/FTD patients with TDP-43\nproteinopathy.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-08-14T00:00:00",
+  "budget_end": "2027-05-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 411485,
+  "indirect_cost_amt": 209022,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11305372",
+  "date_added": "2026-08-15T17:03:56"
+}

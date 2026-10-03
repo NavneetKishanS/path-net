@@ -1,0 +1,124 @@
+{
+  "appl_id": 11389665,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1F31NS149620-01",
+  "project_serial_num": "NS149620",
+  "organization": {
+    "org_name": "YALE UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "NEW HAVEN",
+    "org_country": "UNITED STATES",
+    "org_state": "CT",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "043207562"
+    ],
+    "org_ueis": [
+      "FL6GV84CKN57"
+    ],
+    "primary_duns": "043207562",
+    "primary_uei": "FL6GV84CKN57",
+    "org_fips": "US",
+    "org_ipf_code": "9420201",
+    "org_zipcode": "065208327",
+    "external_org_id": 9420201
+  },
+  "award_type": "1",
+  "activity_code": "F31",
+  "award_amount": 38134,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "F31",
+    "ic_code": "NS",
+    "serial_num": "149620",
+    "support_year": "01",
+    "full_support_year": "01",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 78219681,
+      "first_name": "Samiksha",
+      "middle_name": "",
+      "last_name": "Chopra",
+      "is_contact_pi": true,
+      "full_name": "Samiksha  Chopra",
+      "title": "MD-PHD STUDENT"
+    }
+  ],
+  "contact_pi_name": "CHOPRA, SAMIKSHA ",
+  "program_officers": [
+    {
+      "first_name": "JENNY",
+      "middle_name": "LILY",
+      "last_name": "KIM",
+      "full_name": "JENNY LILY KIM"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 38134.0,
+      "direct_cost_ic": 38134.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "CT-03",
+  "spending_categories": null,
+  "project_start_date": "2026-07-01T00:00:00",
+  "project_end_date": "2028-06-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -72.926428,
+    "lat": 41.310925
+  },
+  "opportunity_number": "PA-25-422",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F01A",
+    "sra_flex_code": "N",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1 F01A-N (20)]"
+  },
+  "award_notice_date": "2026-06-03T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31NS149620",
+  "terms": "<0-11 years old><Absence Epilepsy><Absence Seizure Disorder><Absence Seizures><Acetylcholine><Address><Adeno-Associated Viruses><Affect><Anesthesia><Anesthesia procedures><Animal Behavior><Arousal><Auditory><Auditory Cortex><Auditory area><Awareness><Behavior><Behavioral><Behavioral Paradigm><Benign><Brain><Brain Nervous System><Causality><Cell Communication and Signaling><Cell Signaling><Chemicals><Child><Child Youth><Childhood><Childhood Absence Epilepsy><Children (0-21)><Clinical><Cognitive><Cognitive Disturbance><Cognitive Impairment><Cognitive decline><Cognitive function abnormal><Common Rat Strains><Conscious><Consciousness><Cues><Cyclicity><Data><Dependoparvovirus><Dependovirus><Depressed mood><Development><Disease><Disorder><Disturbance in cognition><EEG><Electroencephalogram><Electroencephalography><Electrophysiology><Electrophysiology (science)><Encephalon><Etiology><Exhibits><Feasibility Studies><Female><Fiber><Fixation><Focal Seizure><Foundations><G Protein-Complex Receptor><G Protein-Coupled Receptor Genes><G-Protein-Coupled Receptors><GPCR><Genetic><Genetic Models><Goals><Head><Heterozygote><Histologic><Histologically><Hydrogen Oxide><Imaging Procedures><Imaging Technics><Imaging Techniques><Impaired cognition><Impairment><Implant><Individual><Interruption><Intervention><Intracellular Communication and Signaling><Juvenile Absence Epilepsy><Label><Learning><Link><Locomotion><Measurable><Measures><Mediator><Mentorship><Mice><Mice Mammals><Minor Epilepsy><Modeling><Molecular><Morphology><Murine><Mus><NAV1.6><NaCh6><Nerve Cells><Nerve Transmitter Substances><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neurocyte><Neurologic><Neurologic Disorders><Neurological><Neurological Disorders><Neurons><Neurophysiology / Electrophysiology><Neurotransmitters><Optical Methods><Outcome><Output><Patient Education><Patient Instruction><Patient Training><Patients><Pattern><Perception><Periodicity><Petit Mal Convulsion><Petit Mal Epilepsy><Photometry><Physicians><Population><Position><Positioning Attribute><Proxy><Pykno-Epilepsy><Pyknolepsy><QOL><Quality of life><Rat><Rats Mammals><Rattus><Research><Research Training><Rhythmicity><Rodent Model><Running><SCN8A><SCN8A gene><Scientist><Seizures><Sensory><Severities><Signal Transduction><Signal Transduction Systems><Signaling><System><Task Performances><Technical Expertise><Therapeutic><Training><Training Support><Unconscious><Unconscious State><Unconsciousness><Water><Work><adeno associated virus group><association cortex><association cortical><association cortices><auditory processing><awake><behavioral impairment><biological signal transduction><causation><cell cortex><cell type><childhood epilepsy><cholinergic><cognitive dysfunction><cognitive function><cognitive loss><consciousness loss><depressed><developmental><disease causation><electrophysiological><experiment><experimental research><experimental study><experiments><extracellular><habituation><heterozygosity><imaging in mice><imaging studies for mice><imaging studies in mice><impaired behavior><in vivo><insight><kids><male><mice imaging><mouse model><murine imaging><murine model><neural><neural mechanism><neurological disease><neuromechanism><neuronal><optical fiber><partial seizure><patient safety><pediatric><pediatric epilepsy><petit mal seizure><research facility><response><restraint><sadness><sample fixation><sensor><signal processing><sodium channel, voltage gated, type VIII, alpha subunit><success><targeted drug therapy><targeted drug treatments><targeted therapeutic><targeted therapeutic agents><targeted therapy><targeted treatment><technical skills><therapeutic agent development><therapeutic development><tool><training opportunity><training project><youngster><♀><♂>",
+  "pref_terms": "Absence Epilepsy;Acetylcholine;Address;Affect;Anesthesia procedures;Animal Behavior;Arousal;Auditory;Auditory area;Awareness;Behavior;Behavioral;Behavioral Paradigm;Benign;Brain;Chemicals;Child;Childhood;Clinical;Cognitive;Conscious;Cues;Data;Dependovirus;Depressed mood;Development;Disease;Electroencephalography;Electrophysiology (science);Etiology;Exhibits;Feasibility Studies;Female;Fiber;Focal Seizure;Foundations;G-Protein-Coupled Receptors;Genetic;Genetic Models;Goals;Head;Heterozygote;Histologic;Imaging Techniques;Impaired cognition;Impairment;Implant;Individual;Interruption;Intervention;Label;Learning;Link;Locomotion;Measurable;Measures;Mediator;Mentorship;Modeling;Molecular;Morphology;Mus;Nervous System Disorder;Neurologic;Neurons;Neurotransmitters;Optical Methods;Outcome;Output;Patient Education;Patients;Pattern;Perception;Periodicity;Photometry;Physicians;Population;Positioning Attribute;Proxy;Quality of life;Rattus;Research;Research Training;Rodent Model;Running;SCN8A gene;Scientist;Seizures;Sensory;Severities;Signal Transduction;System;Task Performances;Technical Expertise;Therapeutic;Training;Training Support;Unconscious State;Water;Work;association cortex;auditory processing;awake;behavioral impairment;cell cortex;cell type;childhood epilepsy;cholinergic;cognitive function;experimental study;extracellular;habituation;in vivo;insight;male;mice imaging;mouse model;neural;neuromechanism;optical fiber;patient safety;research facility;response;restraint;sample fixation;sensor;signal processing;success;targeted treatment;therapeutic development;tool;training opportunity;training project",
+  "abstract_text": "PROJECT ABSTRACT\nAbsence seizures, characterized by rhythmic 3–4 Hz spike-and-wave discharges (SWDs) on\nelectroencephalography, represent a significant neurological burden affecting thousands of children worldwide.\nThese brief (5-10 second) periods of impaired responsiveness and loss of consciousness are associated with\nlasting cognitive, sensory, and learning deficits. Despite this clinical impact, the cellular and network mechanisms\nunderlying impaired consciousness and arousal during absence seizures remain poorly understood, limiting\noptions for therapeutic development in pediatric epilepsy. Prior research in rat models of absence seizures has\nattempted to address this gap and has partially recapitulated the behavioral impairments seen in patients by\ntraining rats on behavioral tasks as proxy indicators of consciousness. However, these studies were performed\nin freely moving rats, limiting the use of advanced cellular and optical methods that require head fixation. Given\nthe broad availability of genetic and molecular tools in mouse models and the feasibility of studying mice in\nawake, head-fixed conditions, establishing a behaving head-fixed model of absence seizures would be extremely\nvaluable. To this end, this project will use the heterozygous SCN8A mouse model, a well-characterized genetic\nmodel of absence seizures, in combination with an awake, behaving head-fixed task paradigm, to elucidate\nmechanisms of disrupted arousal and auditory processing during SWDs. Aim 1 will optimize a lick-on-cue\nbehavioral paradigm and evaluate cortical acetylcholine dynamics during task performance using fiber\nphotometry to characterize arousal state changes at the neurotransmitter level. Aim 2 will utilize in vivo single\nunit recordings to identify cortical neurons associated with SWD-disrupted behaviors and characterize distinct\nfiring patterns underlying consciousness impairment. Experiments from Aim 1 will provide the first\ncharacterization of chemical mediators of impaired arousal in absence epilepsy, particularly within the auditory\nprimary and association cortex processing network. By correlating single-neuron activity with behavioral\nimpairment severity and establishing morphological identity through juxtacellular labeling, Aim 2 will reveal which\nspecific cortical cell types and firing dynamics underlie consciousness disruption during absence seizures. These\nfindings will advance our fundamental understanding of the neural mechanisms underlying consciousness and\narousal, with direct implications for developing targeted interventions for childhood absence epilepsy. The\nmechanistic insights gained may also inform therapeutic approaches for other neurological conditions affecting\nconsciousness and cognitive function in pediatric populations. This project is well-positioned for success through\nthe integration of strong mentorship, technical expertise from key collaborators, comprehensive training\nopportunities, and state-of-the-art research facilities.",
+  "project_title": "Mechanisms of Impaired Arousal and Sensory Processing in a Behaving Mouse Model of Absence Seizures",
+  "phr_text": "PROJECT NARRATIVE\nAbsence epilepsy is a neurological condition that disrupts consciousness and affects thousands of children\nworldwide, leading to persistent cognitive and behavioral impairments. This research will identify the specific\ncortical cell types, neurotransmitter systems, and neural firing dynamics that underlie disruptions in\nconsciousness and sensory processing during absence seizures. By linking neuronal activity with behavioral\nmarkers of awareness, this work will advance understanding of brain function and guide the development of\ntargeted therapies for absence epilepsy and other consciousness-related neurological disorders.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-07-01T00:00:00",
+  "budget_end": "2027-06-30T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 38134,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11389665",
+  "date_added": "2026-08-08T17:03:55"
+}

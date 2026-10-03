@@ -1,0 +1,124 @@
+{
+  "appl_id": 11285170,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5F31NS141554-02",
+  "project_serial_num": "NS141554",
+  "organization": {
+    "org_name": "NORTHWESTERN UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "CHICAGO",
+    "org_country": "UNITED STATES",
+    "org_state": "IL",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "005436803"
+    ],
+    "org_ueis": [
+      "KG76WYENL5K1"
+    ],
+    "primary_duns": "005436803",
+    "primary_uei": "KG76WYENL5K1",
+    "org_fips": "US",
+    "org_ipf_code": "6144650",
+    "org_zipcode": "606114579",
+    "external_org_id": 6144650
+  },
+  "award_type": "5",
+  "activity_code": "F31",
+  "award_amount": 40602,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F31",
+    "ic_code": "NS",
+    "serial_num": "141554",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 79411562,
+      "first_name": "Mia",
+      "middle_name": "Suzanne",
+      "last_name": "Broad",
+      "is_contact_pi": true,
+      "full_name": "Mia Suzanne Broad",
+      "title": "PHD CANDIDATE"
+    }
+  ],
+  "contact_pi_name": "BROAD, MIA SUZANNE",
+  "program_officers": [
+    {
+      "first_name": "JENNY",
+      "middle_name": "LILY",
+      "last_name": "KIM",
+      "full_name": "JENNY LILY KIM"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 40602.0,
+      "direct_cost_ic": 40602.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "IL-05",
+  "spending_categories": null,
+  "project_start_date": "2025-02-11T00:00:00",
+  "project_end_date": "2027-12-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -87.680046,
+    "lat": 42.050479
+  },
+  "opportunity_number": "PA-23-272",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F03A",
+    "sra_flex_code": "E",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F03A-E(20)]"
+  },
+  "award_notice_date": "2026-02-02T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31NS141554",
+  "terms": "<Alternate Splicing><Alternative RNA Splicing><Alternative Splicing><Atlases><Biological><Biological Function><Biological Process><Causality><Cell Body><Cells><Cerebrum><Cicloheximide><Communities><Cycloheximide><Data><Detection><Development><Disease><Disorder><Drugs><Electrophysiology><Electrophysiology (science)><Encephalopathies><Epilepsy><Epileptic Seizures><Epileptics><Etiology><Event><Exclusion><Exons><Genes><Genetic><Human><Investigation><Isoforms><Length><Location><Mediating><Medication><Messenger RNA><Modern Man><NAV1.6><Na(v)1.1><NaCh6><Nav1.1><Nerve Cells><Nerve Unit><Neural Cell><Neural Development><Neural Stem Cell><Neurocyte><Neurodevelopmental Disorder><Neurological Development Disorder><Neurons><Neurophysiology / Electrophysiology><Organoids><Pathogenicity><Pattern><Pharmaceutical Preparations><Play><Poison><Productivity><Protein Isoforms><Proteins><Publishing><RNA Seq><RNA Splicing><RNA sequencing><RNA targeting drug><RNA targeting therapeutics><RNA-targeting therapy><RNAseq><Research Proposals><Research Resources><Resources><Role><SCN1A protein><SCN8A><SCN8A gene><SYNGAP1><Seizure Disorder><Site><Sodium Channel><Sodium Ion Channels><Specificity><Splicing><Stop Codon><Synapses><Synaptic><Synaptic Ras GTPase Activating Protein 1><Termination Codon><Terminator Codon><Time><Toxic Chemical><Toxic Substance><Transcript><Translating><Translation Stop Signal><Translations><Variant><Variation><annotation  system><annotation framework><annotation tool><bio-informatics pipeline><bio-informatics tool><bioinformatics pipeline><bioinformatics tool><biologic><causation><cell type><cerebral><combinatorial><comparative><developmental><disease causation><dravet syndrome><drug/agent><electrophysiological><epilepsia><epileptogenic><global gene expression><global transcription profile><iPS><iPSC><iPSCs><induced pluripotent cell><induced pluripotent stem cell><inducible pluripotent cell><inducible pluripotent stem cell><insight><mRNA><mRNA Decay><method validation><nerve stem cell><neural precursor><neural precursor cell><neural progenitor><neural progenitor cells><neural stem and progenitor cells><neurodevelopment><neurodevelopmental disease><neurogenic progenitors><neurogenic stem cell><neuron development><neuron progenitors><neuronal><neuronal development><neuronal progenitor><neuronal progenitor cells><neuronal stem cells><neuroprogenitor><new drug target><new druggable target><new pharmacotherapy target><new therapeutic target><new therapy target><novel><novel drug target><novel druggable target><novel pharmacotherapy target><novel therapeutic target><novel therapy target><premature><prematurity><progenitor and neural stem cells><programs><protein expression><protein homeostasis><proteostasis><ras GTPase-Activating Proteins><ras-GAPs><scRNA sequencing><scRNA-seq><severe myoclonic epilepsy of infancy><single cell RNA-seq><single cell RNAseq><single cell expression profiling><single cell transcriptomic profiling><single-cell RNA sequencing><social role><sodium channel, voltage gated, type VIII, alpha subunit><spatial and temporal><spatial temporal><spatiotemporal><synapse><synapse function><synaptic function><toxic compound><transcriptome><transcriptome sequencing><transcriptomic sequencing><translation><validate developed methods><voltage>",
+  "pref_terms": "Alternative Splicing;Atlases;Biological;Biological Process;Cells;Cerebrum;Communities;Cycloheximide;Data;Detection;Development;Disease;Electrophysiology (science);Encephalopathies;Epilepsy;Etiology;Event;Exclusion;Exons;Genes;Genetic;Human;Investigation;Length;Location;Mediating;Messenger RNA;Neurodevelopmental Disorder;Neurons;Organoids;Pathogenicity;Pattern;Pharmaceutical Preparations;Play;Poison;Productivity;Protein Isoforms;Proteins;Publishing;RNA Splicing;RNA-targeting therapy;Research Proposals;Resources;Role;SCN1A protein;SCN8A gene;SYNGAP1;Site;Sodium Channel;Specificity;Synapses;Terminator Codon;Time;Transcript;Translating;Translations;Variant;annotation  system;bioinformatics pipeline;bioinformatics tool;cell type;combinatorial;comparative;dravet syndrome;induced pluripotent stem cell;insight;mRNA Decay;method validation;nerve stem cell;neurodevelopment;neuron development;new therapeutic target;novel;premature;programs;protein expression;proteostasis;ras GTPase-Activating Proteins;single-cell RNA sequencing;spatiotemporal;synaptic function;transcriptome;transcriptome sequencing;voltage",
+  "abstract_text": "PROJECT SUMMARY\nAlternative poison exon (PE) splicing is a critical regulatory mechanism that tightly controls protein expression\nacross time and cell type. When included in an mRNA transcript, a PE introduces a premature termination codon\nthat triggers nonsense-mediated mRNA decay (NMD) to degrade the transcript. Alternative PE splicing is critical\nfor mediating proper neurodevelopment. For example, the voltage-gated sodium channel (VGSC) genes SCN1A\n(NaV1.1) and SCN8A (NaV1.6) splice PEs into mRNA transcripts in neural progenitor cells, but not in mature\nneurons, resulting in productive mRNA that can then be translated into functional VGSCs to support neuronal\nelectrophysiology. Pathogenic variants near PE splice sites can cause aberrant PE splicing patterns that result\nin neurodevelopmental disorders (NDDs) like Dravet syndrome, caused by abnormal PE splicing in SCN1A and\nSCN8A. Although important in regulating the dynamics of neurodevelopment, PEs have been largely\nunderstudied due to the technical challenges in identifying these exons. PEs are inherently difficult to detect\nusing short-read RNA sequencing (SRS) because NMD quickly degrades PE-containing transcripts, resulting in\nlow transcript abundance. Moreover, it is challenging to computationally resolve the exact location of a PE in an\nmRNA isoform using SRS because the reads rarely span entire splice junctions. To overcome these biological\nand technical obstacles, I will develop POISEN (Poison exOn dIScovery for long-rEad traNscriptomes), a\nbioinformatics pipeline to identify PEs in long-read RNA sequencing (LRS) data. I hypothesize that the\ncomputational identification of PEs using LRS data will enable the discovery of novel PEs and define the\ncell type and temporal specificity of PEs across neurodevelopment. In Aim 1, I will perform bulk LRS on\ninduced pluripotent stem cell-derived cerebral organoids (COs) grown at three distinct time points to recapitulate\ndifferent stages of human neurodevelopment. Using these CO long-read transcriptomes, I will program POISEN\nto systematically identify PEs. To validate the PEs identified in CO transcriptomes, I will use cycloheximide (CHX)\ntreatment to upregulate the abundance of PE-containing transcripts. I will then compare CHX-treated and control\nCOs using bulk SRS, applying a differential exon usage analysis to evaluate the increase in PE expression in\nCHX-treated COs versus control COs. I will also perform an enrichment analysis on NDD- and epilepsy-related\ngenes that express PEs to gain insight into the biological processes influenced by alternative PE splicing. In Aim\n2, I will perform single-cell LRS on COs grown for the same time points as in Aim 1 and evaluate PE splicing\npatterns according to cell type and time point. I will create an online browser to house the data and results of this\nstudy as a useful resource for the scientific community to leverage in probing the understudied phenomenon of\nalternative PE splicing in neurodevelopment and NDDs. This study will result in the first bioinformatics pipeline\nfor detecting PEs in LRS data, facilitating the discovery of PEs relevant to neurodevelopment and novel\ntherapeutic targets for genetic epilepsy disorders and other NDDs.",
+  "project_title": "POISEN: A Bioinformatics Pipeline to Identify Poison Exons in Neurodevelopment",
+  "phr_text": "PROJECT NARRATIVE\nAlternative poison exon (PE) splicing is a regulatory mechanism used to rigorously maintain protein expression\nacross time and cell type during neurodevelopment. Pathogenic variants near PE splice sites can result in\naberrant PE splicing events that can result in severe neurodevelopmental disorders (NDDs) like genetic\nepilepsy disorders, yet alternative PE splicing has been historically understudied due to the technical\nchallenges in identifying these alternative exons. This research proposal aims to discover PEs relevant in\nhuman neurodevelopment and in NDD- and epilepsy-related genes by developing and applying POISEN\n(Poison exOn dIScovery for long-rEad traNscriptomes), a bioinformatics pipeline that specifically detects PEs\nin the long-read transcriptomes of induced pluripotent stem cell-derived cerebral organoids.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-02-01T00:00:00",
+  "budget_end": "2027-01-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 40602,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11285170",
+  "date_added": "2026-02-07T17:04:09"
+}

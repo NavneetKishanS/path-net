@@ -1,0 +1,24 @@
+{
+  "source_id": "scn2a_dragonfly",
+  "requested_url": "https://scn2a.iamrare.org/",
+  "source_url": "https://scn2a.iamrare.org/",
+  "retrieved_at": "2026-10-03T20:48:40Z",
+  "status_code": 200,
+  "backend": "direct",
+  "content_type": "text/html; charset=UTF-8",
+  "encoding": "UTF-8",
+  "body_sha256": "93aff6fda7d6981c165bf3d8d1e1ec0ec920c9f607bb1e64a70ae173901c1b82",
+  "text_sha256": "681a350e8467bfe08491ad0358014b52de63dad0b33df577e4a295f223d56304",
+  "body_path": "raw/groups/scn2a_dragonfly.body",
+  "text_path": "raw/groups/scn2a_dragonfly.txt",
+  "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+  "robots_checks": [
+    {
+      "url": "https://scn2a.iamrare.org/robots.txt",
+      "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f",
+      "retrieved_at": "2026-10-03T20:48:37Z",
+      "allowed": true
+    }
+  ],
+  "licence": "NORD/FamilieSCN2A registry public landing page; no open licence verified; do not fetch participant data"
+}

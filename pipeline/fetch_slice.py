@@ -1,7 +1,7 @@
 """Acquire/replay the selected P1 sources, leaving graph construction explicit.
 
 Use build_graph.py alone to reproduce the committed release without a network.
-This command populates ignored raw caches and refreshes the compact source inputs;
+This command populates raw source caches and refreshes the compact source inputs;
 source changes must be reviewed before publishing a rebuilt graph.
 """
 from __future__ import annotations

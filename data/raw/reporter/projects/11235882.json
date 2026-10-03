@@ -1,0 +1,125 @@
+{
+  "appl_id": 11235882,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01MH127848-05",
+  "project_serial_num": "MH127848",
+  "organization": {
+    "org_name": "UNIVERSITY OF PENNSYLVANIA",
+    "city": null,
+    "country": null,
+    "org_city": "PHILADELPHIA",
+    "org_country": "UNITED STATES",
+    "org_state": "PA",
+    "org_state_name": null,
+    "dept_type": "ANATOMY/CELL BIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "042250712"
+    ],
+    "org_ueis": [
+      "GM1XX56LEP58",
+      " Z75RRBRSNRW4"
+    ],
+    "primary_duns": "042250712",
+    "primary_uei": "GM1XX56LEP58",
+    "org_fips": "US",
+    "org_ipf_code": "6463801",
+    "org_zipcode": "191046205",
+    "external_org_id": 6463801
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 442099,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "MH",
+    "serial_num": "127848",
+    "support_year": "05",
+    "full_support_year": "05",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 8488302,
+      "first_name": "Damaris",
+      "middle_name": "N",
+      "last_name": "Lorenzo",
+      "is_contact_pi": true,
+      "full_name": "Damaris N Lorenzo",
+      "title": "ASSOCIATE PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "LORENZO, DAMARIS N",
+  "program_officers": [
+    {
+      "first_name": "JAMIE",
+      "middle_name": "DANIELLE",
+      "last_name": "DRISCOLL",
+      "full_name": "JAMIE DANIELLE DRISCOLL"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 442099.0,
+      "direct_cost_ic": 279250.0,
+      "indirect_cost_ic": 162849.0
+    }
+  ],
+  "cong_dist": "PA-03",
+  "spending_categories": null,
+  "project_start_date": "2022-12-01T00:00:00",
+  "project_end_date": "2026-11-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -75.193983,
+    "lat": 39.953462
+  },
+  "opportunity_number": "PA-18-401",
+  "full_study_section": {
+    "srg_code": "SYN",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Synapses, Cytoskeleton and Trafficking Study Section[SYN]"
+  },
+  "award_notice_date": "2025-12-22T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01MH127848",
+  "terms": "<ANK2><ANK2 gene><ASD><ASD patient><Action Potentials><Affect><Anatomic Sites><Anatomic structures><Anatomy><Ankyrin 2><Ankyrin-B><Antibodies><Architecture><Assay><Autism><Autism Spectrum Disorder patient><Autistic Disorder><Axon><Binding><Bioassay><Biological Assay><Biology><Biotin><Brain><Brain Ankyrin><Brain Nervous System><Cell Body><Cells><Cellular Assay><Complex><Couples><Cytoskeletal Gene><Cytoskeletal Proteins><Dendrites><Development><Dysfunction><Early Infantile Autism><Encephalon><Engineering / Architecture><Exhibits><Functional disorder><Genes><Glutamates><Goals><Impairment><In Vitro><Infantile Autism><Ion Channel><Ionic Channels><Isoforms><KI mice><KO mice><Kanner's Syndrome><Knock-in Mouse><Knock-out Mice><Knockout Mice><L-Glutamate><Label><Ligase><Ligase Gene><Link><Mass Photometry/Spectrum Analysis><Mass Spectrometry><Mass Spectroscopy><Mass Spectrum><Mass Spectrum Analyses><Mass Spectrum Analysis><Membrane><Membrane Channels><Membrane Protein Gene><Membrane Proteins><Membrane Transport Proteins><Membrane Transporters><Membrane-Associated Proteins><Mice><Mice Mammals><Molecular><Molecular Interaction><Morphology><Motor><Murine><Mus><Nav1.2><Nerve Cells><Nerve Unit><Network Analysis><Neural Cell><Neural Transmission><Neurocyte><Neuronal Ankyrin><Neurons><Nonerythroid Ankyrin><Null Mouse><Pathway Analysis><Pathway interactions><Phenocopy><Physiopathology><Play><Position><Positioning Attribute><Protein Isoforms><Proteins><Proteomics><Publishing><Pyramidal neuron><Role><SCN2A protein><Scaffolding Protein><Sodium Channel><Sodium Ion Channels><Spinal Column><Spine><Surface Proteins><Synapses><Synaptic><Synaptic Transmission><Synthetases><Variant><Variation><Vertebral column><Vesicle><Vitamin H><autism predisposition><autism risk><autism risk allele><autism risk genes><autism risk locus><autism risk variant><autism spectral disorder><autism spectrum disorder><autism spectrum disorder predisposition><autism spectrum disorder risk><autism spectrum disorder risk allele><autism spectrum disorder risk genes><autism spectrum disorder risk locus><autism spectrum disorder risk variant><autism spectrum disorder susceptibility><autism spectrum disorder susceptibility genes><autism spectrum risk genes><autism susceptibility genes><autistic individuals><autistic patient><autistic people><autistic spectrum disorder><axon growth><axonal growth><backbone><cell assay><chromatin remodeling><coenzyme R><density><developmental><excitatory neuron><experiment><experimental research><experimental study><experiments><falls><gene interaction><gene network><glutamatergic><high risk><hippocampal pyramidal neuron><in vivo><individuals on the autism spectrum><individuals on the spectrum><individuals with ASD><individuals with autism><individuals with autism spectrum disorder><knockin mice><membrane structure><na(v)1.2><nano meter scale><nano meter sized><nanometer scale><nanometer sized><nanoscale><neuronal><novel><pathophysiology><pathway><patient with ASD><people on the autism spectrum><people with ASD><people with autism><people with autism spectrum disorder><postsynaptic><postsynaptic density protein><protein complex><risk genes implicated in autism><risk genes in autism><social role><superresolution imaging><superresolution microscopy><synapse><synapse function><synaptic function><tandem mass spectrometry><trafficking><voltage>",
+  "pref_terms": "ANK2 gene;ASD patient;Action Potentials;Affect;Anatomy;Antibodies;Architecture;Axon;Binding;Biological Assay;Biology;Biotin;Brain;Cells;Cellular Assay;Complex;Couples;Cytoskeletal Proteins;Dendrites;Development;Exhibits;Functional disorder;Genes;Glutamates;Goals;Impairment;In Vitro;Ion Channel;Knock-in Mouse;Knockout Mice;Label;Ligase;Link;Mass Spectrum Analysis;Membrane;Membrane Proteins;Membrane Transport Proteins;Molecular;Morphology;Motor;Mus;Neurons;Pathway Analysis;Pathway interactions;Phenocopy;Play;Positioning Attribute;Protein Isoforms;Proteins;Proteomics;Publishing;Role;SCN2A protein;Scaffolding Protein;Sodium Channel;Synapses;Synaptic Transmission;Variant;Vertebral column;Vesicle;autism risk;autism risk genes;autism spectrum disorder;axon growth;chromatin remodeling;density;excitatory neuron;experimental study;falls;gene interaction;gene network;high risk;hippocampal pyramidal neuron;in vivo;individuals with autism spectrum disorder;nanoscale;novel;postsynaptic;postsynaptic density protein;protein complex;superresolution imaging;superresolution microscopy;synaptic function;tandem mass spectrometry;trafficking;voltage",
+  "abstract_text": "PROJECT SUMMARY\nNetwork gene analysis suggests that high confidence autism spectrum disorder (hcASD) genes operate through\nconvergent mechanisms that predominantly support synaptic function, which, in turn, can determine anatomical\nand functional brain connectivity. Several variants in ANK2 have been identified in ASD patients and this gene\nhas been consistently considered a top hcASD risk. ANK2 encodes ankyrin-B (AnkB), which roles in axonal\nbiology may be an underlying factor in ASD pathophysiology. However, our recent findings indicate that ankyrin-\nB also plays important roles at the cortical excitatory postsynapse. Moreover, both predominant AnkB isoforms\nin neurons (220 kDa and 440 kDa AnkB) are abundantly expressed in dendrites, where they likely perform\nisoform-specific roles and interact with unique partners, including proteins encoded by other hsASD genes. Thus,\nit is important to define the isoform-specific roles and partners of AnkB at the postsynapse. To accomplish these\ngoal we will 1) use in vivo proximity-dependent biotin identification (iBioID) combined with in tandem mass\nspectrometry (MS) to capture and identify AnkB interacting partners in the postsynapse by leveraging our novel\nbiotin ligase BirA-tagged conditional AnkB (AnkB-BioID) knock-in mouse and isoform-specific AnkB knockout\nmice; 2) combine live and super-resolution microscopies and cellular assays to validate compelling AnkB\ninteractors; and 3) define the significance of novel AnkB PSD complexes for synaptic development and function.",
+  "project_title": "Elucidating the synaptic interactome of the high risk autism gene ANK2",
+  "phr_text": "PROJECT NARRATIVE\nNetwork analysis suggests that high confidence autism spectrum disorder (hcASD) genes operate\nthrough convergent mechanisms that predominantly modulate chromatin remodeling or support\nsynaptic function, which in turn can determine anatomical and functional brain connectivity.\nHowever, how the proteins encoded by these genes interact physically and converge functionally\nhas not been fully elucidated. The studies we propose aim to determine the postsynaptic\ninteractome of ankyrin-B, which is encoded by the high confidence autism gene ANK2.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2025-12-01T00:00:00",
+  "budget_end": "2026-11-30T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 279250,
+  "indirect_cost_amt": 162849,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11235882",
+  "date_added": "2025-12-27T17:03:34"
+}

@@ -1,0 +1,22 @@
+{
+  "pmid": "39412438",
+  "title": "The clinical and genetic spectrum of paediatric speech and language disorders.",
+  "abstract": "Speech and language disorders are known to have a substantial genetic contribution. Although frequently examined as components of other conditions, research on the genetic basis of linguistic differences as separate phenotypic subgroups has been limited so far. Here, we performed an in-depth characterization of speech and language disorders in 52 143 individuals, reconstructing clinical histories using a large-scale data-mining approach of the electronic medical records from an entire large paediatric healthcare network. The reported frequency of these disorders was the highest between 2 and 5 years old and spanned a spectrum of 26 broad speech and language diagnoses. We used natural language processing to assess the degree to which clinical diagnoses in full-text notes were reflected in ICD-10 diagnosis codes. We found that aphasia and speech apraxia could be retrieved easily through ICD-10 diagnosis codes, whereas stuttering as a speech phenotype was coded in only 12% of individuals through appropriate ICD-10 codes. We found significant comorbidity of speech and language disorders in neurodevelopmental conditions (30.31%) and, to a lesser degree, with epilepsies (6.07%) and movement disorders (2.05%). The most common genetic disorders retrievable in our analysis of electronic medical records were STXBP1 (n = 21), PTEN (n = 20) and CACNA1A (n = 18). When assessing associations of genetic diagnoses with specific linguistic phenotypes, we observed associations of STXBP1 and aphasia (P = 8.57 × 10-7, 95% confidence interval = 18.62-130.39) and MYO7A with speech and language development delay attributable to hearing loss (P = 1.24 × 10-5, 95% confidence interval = 17.46-infinity). Finally, in a sub-cohort of 726 individuals with whole-exome sequencing data, we identified an enrichment of rare variants in neuronal receptor pathways, in addition to associations of UQCRC1 and KIF17 with expressive aphasia, MROH8 and BCHE with poor speech, and USP37, SLC22A9 and UMODL1 with aphasia. In summary, our study outlines the landscape of paediatric speech and language disorders, confirming the phenotypic complexity of linguistic traits and novel genotype-phenotype associations. Subgroups of paediatric speech and language disorders differ significantly with respect to the composition of monogenic aetiologies.",
+  "authors": [
+    "Jan H Magielski",
+    "Sarah M Ruggiero",
+    "Julie Xian",
+    "Shridhar Parthasarathy",
+    "Peter D Galer",
+    "Shiva Ganesan",
+    "Amanda Back",
+    "Jillian L McKee",
+    "Ian McSalley",
+    "Alexander K Gonzalez",
+    "Angela Morgan",
+    "Joseph Donaher",
+    "Ingo Helbig"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39412438/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

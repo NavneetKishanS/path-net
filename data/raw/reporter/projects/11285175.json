@@ -1,0 +1,124 @@
+{
+  "appl_id": 11285175,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5F30DK139715-02",
+  "project_serial_num": "DK139715",
+  "organization": {
+    "org_name": "UNIVERSITY OF MIAMI SCHOOL OF MEDICINE",
+    "city": null,
+    "country": null,
+    "org_city": "CORAL GABLES",
+    "org_country": "UNITED STATES",
+    "org_state": "FL",
+    "org_state_name": null,
+    "dept_type": "INTERNAL MEDICINE/MEDICINE",
+    "fips_country_code": null,
+    "org_duns": [
+      "052780918"
+    ],
+    "org_ueis": [
+      "F8THLJQSAF93"
+    ],
+    "primary_duns": "052780918",
+    "primary_uei": "F8THLJQSAF93",
+    "org_fips": "US",
+    "org_ipf_code": "5221250",
+    "org_zipcode": "331462926",
+    "external_org_id": 5221250
+  },
+  "award_type": "5",
+  "activity_code": "F30",
+  "award_amount": 46714,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F30",
+    "ic_code": "DK",
+    "serial_num": "139715",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 16507728,
+      "first_name": "Noah",
+      "middle_name": "Joseph",
+      "last_name": "Levi",
+      "is_contact_pi": true,
+      "full_name": "Noah Joseph Levi",
+      "title": "GRADUATE STUDENT "
+    }
+  ],
+  "contact_pi_name": "LEVI, NOAH JOSEPH",
+  "program_officers": [
+    {
+      "first_name": "ARTHUR",
+      "middle_name": "",
+      "last_name": "CASTLE",
+      "full_name": "ARTHUR  CASTLE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "DK",
+    "abbreviation": "NIDDK",
+    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "admin_org_id": "12500020",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "DK",
+      "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "abbreviation": "NIDDK",
+      "total_cost": 46714.0,
+      "direct_cost_ic": 46714.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "FL-27",
+  "spending_categories": null,
+  "project_start_date": "2025-01-01T00:00:00",
+  "project_end_date": "2027-12-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -80.277246,
+    "lat": 25.713468
+  },
+  "opportunity_number": "PA-23-260",
+  "full_study_section": {
+    "srg_code": "DDK",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Fellowships in Digestive Diseases and Nutrition[DDK-F]"
+  },
+  "award_notice_date": "2025-12-23T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F30DK139715",
+  "terms": "<Acetylcholine><Acetylcholine Agonists><Acetylcholine Receptor, Muscarinic 1><Acinar Cell><Aciner Cells><Acinus organ component><Affect><Autonomic Dysfunction><Axon><B9 endocrine pancreas><Binding><Body Tissues><CHRM1><CHRM1 gene><Cell Communication and Signaling><Cell Signaling><Characteristics><Cholinergic Agonists><Cholinergic Receptor, Muscarinic 1><Clinical Treatment><Complex><Coupling><Cranial Nerve X><Cyclicity><DNA mutation><Data><Development><Developmental Delay><Developmental Delay Disorders><Devices><Diabetes Mellitus><Diffuse><Disease><Disorder><E-stim><Electric Stimulation><Electrophysiology><Electrophysiology (science)><Encephalopathies><Endocrine><Endocrine Gland Secretion><Endocrine Pancreas><Ensure><Enzyme Gene><Enzymes><Epilepsy><Epileptic Seizures><Epileptics><Exocrine pancreas><Family><Future><Genetic><Genetic Change><Genetic defect><Genetic mutation><Goals><Heterogeneity><Hormone secretion><Hormones><Humulin R><Impairment><Insulin><Intracellular Communication and Signaling><Ion Channel><Ionic Channels><Islands of Langerhans><Islet Cell><Islets of Langerhans><K channel><Knowledge><Love><Measures><Mediating><Membrane Channels><Modeling><Molecular><Molecular Interaction><Muscarinic Acetylcholine Receptor><Muscarinic Receptors><Mutation><NIH><National Institutes of Health><Nerve Cells><Nerve Impulse Transmission><Nerve Transmission><Nerve Unit><Nesidioblasts><Neural Cell><Neurocyte><Neuronal Transmission><Neurons><Neurophysiology / Electrophysiology><Nicotinic Acetylcholine Receptors><Nicotinic Receptors><Novolin R><Oranges><Organ><Pancreas><Pancreatic><Pancreatic Islets><Pancreatic Secretion><Pancreatic enzyme><Pancreatitis><Parasympathetic Ganglia><Parasympathetic Nervous System><Pars endocrina pancreatis><Pattern><Periodicity><Peripheral><Phenotype><Physiologic><Physiological><Physiology><Pneumogastric Nerve><Potassium Channel><Potassium Ion Channels><Preparation><Prevention><Process><Receptor Activation><Receptor Inhibition><Regular Insulin><Regulation><Research><Rhythmicity><Role><Seizure Disorder><Signal Transduction><Signal Transduction Systems><Signaling><Slice><Specific Child Development Disorders><Structure of parasympathetic ganglion><Techniques><Tenth Cranial Nerve><Tissues><Transgenic Mice><United States National Institutes of Health><Vagus Nerve><Vagus nerve structure><Visceral><Work><acinus><axon signaling><axon-glial signaling><axonal signaling><biological signal transduction><cholinergic><cholinergic neuron><clinical intervention><clinical therapy><develop therapy><developmental><diabetes><electrophysiological><electrostimulation><epilepsia><epileptogenic><ex vivo><exocrine pancreatic><gastrointestinal symptom><genome mutation><glia signaling><glial signaling><hormonal secretion><information processing><innervation><insight><intervention development><islet><mouse model><murine model><nerve signaling><nerve supply><neural><neural signaling><neuronal><neuronal signaling><neurotransmission><nutrient absorption><pancreas enzyme><pancreatic juice><pharmacologic><preparations><preservation><prevent><preventing><programs><response><social role><therapy development><tool><treatment development><trial regimen><trial treatment><vagus nerve stimulation><voltage>",
+  "pref_terms": "Acetylcholine;Acinar Cell;Acinus organ component;Affect;Autonomic Dysfunction;Axon;Binding;CHRM1 gene;Characteristics;Cholinergic Agonists;Clinical Treatment;Complex;Coupling;Data;Development;Developmental Delay Disorders;Devices;Diabetes Mellitus;Diffuse;Disease;Electric Stimulation;Electrophysiology (science);Encephalopathies;Endocrine;Ensure;Enzymes;Epilepsy;Exocrine pancreas;Family;Future;Genetic;Goals;Heterogeneity;Hormone secretion;Hormones;Impairment;Insulin;Ion Channel;Islet Cell;Islets of Langerhans;Knowledge;Love;Measures;Mediating;Modeling;Molecular;Muscarinic Acetylcholine Receptor;Mutation;Neurons;Nicotinic Receptors;Oranges;Organ;Pancreas;Pancreatic enzyme;Pancreatitis;Parasympathetic Nervous System;Pattern;Periodicity;Peripheral;Phenotype;Physiological;Physiology;Potassium Channel;Preparation;Prevention;Process;Receptor Activation;Receptor Inhibition;Regulation;Research;Role;Signal Transduction;Slice;Structure of parasympathetic ganglion;Techniques;Tissues;Transgenic Mice;United States National Institutes of Health;Vagus nerve structure;Visceral;Work;cholinergic;cholinergic neuron;ex vivo;gastrointestinal symptom;information processing;insight;islet;mouse model;nerve supply;neural;neurotransmission;nutrient absorption;pancreatic juice;pharmacologic;preservation;prevent;programs;response;therapy development;tool;vagus nerve stimulation;voltage",
+  "abstract_text": "PROJECT SUMMARY\nThe parasympathetic nervous system uses the vagus nerve to modulate the secretion of both insulin and\ndigestive enzymes from the pancreas. Because of its diffuse innervation pattern targeting multiple visceral\norgans as well as the indirect approaches used to assess the role of the vagus nerve in the pancreas,\ninterpretation of the existing evidence is difficult. Furthermore, intrapancreatic neurons, which are the exclusive\ntargets and mandatory relays of the efferent vagus nerve in the pancreas, have not been sufficiently studied. It\nis widely believed that they act as mere conduits of vagal input and do not substantively contribute to\nautonomic control of pancreas function. In preliminary studies, I found that intrapancreatic neurons respond to\ncholinergic input through stimulation of both nicotinic (nAChRs) and muscarinic acetylcholine receptors\n(mAChRs). Neuronal responses elicited by mAChR activation, which do not occur in canonical\nparasympathetic ganglia, resulted in long lasting, rhythmic bursts of activity. Additionally, I found that\nintrapancreatic neurons possess the molecular and functional signatures of the neuronal M-current, a voltage\ngated K+ conductance mediated by Kv7.2/7.3 ion channels indirectly inhibited my mAChR activation. These\nresults indicate that intrapancreatic neurons indeed possess functional characteristics supporting the notion\nthat they are centers integrating and processing cholinergic input from the vagus nerve. I therefore hypothesize\nthat intrapancreatic neurons transform cholinergic input through an mAChR associated mechanism and rely on\nthe function of Kv7.2/7.3 ion channels to achieve efficient control of pancreatic targets. In Aim1, I propose to\nuse living pancreas slices generated from a transgenic mouse model that expresses the genetically encoded\nCa2+ indicator GCaMP3 in intrapancreatic neurons to understand the contribution of mAChR activation and\nassociated M-Current inhibition on intrapancreatic neuron activity. I will also use electrophysiologic techniques\nto interrogate the M-Current. In Aim2, I will explore how Kv7.2/7.3 channels influence the transmission of\nneuronal input from intrapancreatic neurons to exocrine and endocrine targets within the pancreas following\ntargeted neuronal chemogenetic stimulation. The rationale for the proposed research is that, if we want to\ndevelop therapies leveraging electrical stimulation of the vagus nerve to treat or prevent diseases like diabetes\nand pancreatitis, it is imperative to elucidate the mechanisms by which intrapancreatic neurons, not only relay,\nbut integrate and transform vagal cholinergic input to the pancreas. Additionally, Kv7.2/7.3 channelopathies\ndue to mutations in KCNQ2 and KCNQ3 can result in severe epilepsy and developmental delay as well as\ngastrointestinal symptoms and autonomic dysfunction. The proposed research is significant because it will\nproduce mechanistic insight into how local intrapancreatic neurons functionally impact endocrine and exocrine\ncompartments of the pancreas and will lay the groundwork for studying the impact of Kv7.2/7.3\nchannelopathies on pancreas function.",
+  "project_title": "The impact of the neuronal Kv7.2 current on cholinergic control of pancreas secretion",
+  "phr_text": "The vagus nerve of the parasympathetic nervous system targets intrapancreatic neurons to modulate the\nsecretion of both insulin and digestive enzymes from the pancreas. This project is aimed at elucidating the\nmechanisms intrapancreatic neurons use to respond to vagal input and regulate pancreas function. We expect\nour results to (a) demonstrate that intrapancreatic neurons not only relay, but transform vagal cholinergic input\nand (b) produce mechanistic insight into how local intrapancreatic neurons functionally impact endocrine and\nexocrine compartments of the pancreas.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-01-01T00:00:00",
+  "budget_end": "2026-12-31T00:00:00",
+  "cfda_code": "93.847",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 46714,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11285175",
+  "date_added": "2026-01-03T17:04:19"
+}

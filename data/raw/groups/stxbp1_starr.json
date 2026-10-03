@@ -1,0 +1,24 @@
+{
+  "source_id": "stxbp1_starr",
+  "requested_url": "https://www.stxbp1disorders.org/starr",
+  "source_url": "https://www.stxbp1disorders.org/starr",
+  "retrieved_at": "2026-10-03T20:48:34Z",
+  "status_code": 200,
+  "backend": "direct",
+  "content_type": "text/html;charset=utf-8",
+  "encoding": "utf-8",
+  "body_sha256": "c500908aabef481634118cf1aab36837957da5eea096787679471655188722a3",
+  "text_sha256": "1fa97dcbccebb28ef33a2aab1595a2135cf71cf887ea138b3b400b1d581c7f5a",
+  "body_path": "raw/groups/stxbp1_starr.body",
+  "text_path": "raw/groups/stxbp1_starr.txt",
+  "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+  "robots_checks": [
+    {
+      "url": "https://www.stxbp1disorders.org/robots.txt",
+      "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
+      "retrieved_at": "2026-10-03T20:48:30Z",
+      "allowed": true
+    }
+  ],
+  "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only"
+}

@@ -1,0 +1,20 @@
+{
+  "pmid": "41510908",
+  "title": "Non-Synaptic Function and Localization of Syntaxin-Binding Protein 1 in a Mouse Model of STXBP1-Related Epileptic Encephalopathy.",
+  "abstract": "De novo mutations in the syntaxin-binding protein 1 (STXBP1), encoded by STXBP1, are among the most prevalent causes of variable neurodevelopmental disorders, including epileptic encephalopathy, developmental delay, and movement disorders. Although STXBP1 has been proposed as a critical presynaptic protein controlling synaptic vesicle exocytosis, clinical phenotypes also suggest that its biological function could be more diverse. The expression pattern of STXBP1 was studied using immunostaining in vitro and in vivo. Synaptosome isolation was performed to investigate the synaptic and non-synaptic localization of STXBP1 in the brain. STXBP1 immunoprecipitation followed by mass spectrometry (MS) was conducted to identify protein complexes interacting with STXBP1. Cre-in utero electroporation (IUE) was done on Stxbp1F/F mice to generate an in vivo knockout (KO) cellular model for studying the in vivo function of STXBP1. Our immunohistochemistry results demonstrated that STXBP1 expression in the cerebral cortex was developmentally regulated and was detected in neuronal soma and processes. STXBP1 was in both the synaptic and cytosolic fractions, interacting with neuronal cytoskeleton and membrane periodic structures. Interestingly, sparse Stxbp1 KO in the mouse forebrain led to cell-autonomous cell death, which was rescued by either wild-type STXBP1 or pathogenic mutants. However, Stxbp1 KO neurons rescued by pathogenic mutants exhibited impaired dendritic growth. Our results also showed that STXBP1 interacted with alpha II Spectrin and ARPC2 and is required for their localization on the neuronal membrane. Our data suggest that STXBP1 has diverse functions in the nervous system and regulates the trafficking of membrane cytoskeleton proteins in the brain. ANN NEUROL 2025 ANN NEUROL 2026;99:796-808.",
+  "authors": [
+    "Tao Yang",
+    "Rajat Banerjee",
+    "Yamei Deng",
+    "Sheetal Jahagirdar",
+    "Joo Hyun Kim",
+    "Wu Chen",
+    "Mingshan Xue",
+    "Alexey I Nesvizhskii",
+    "Michael D Uhler",
+    "Jack M Parent",
+    "Yu Wang"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41510908/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

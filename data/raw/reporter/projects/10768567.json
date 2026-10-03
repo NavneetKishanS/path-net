@@ -1,0 +1,127 @@
+{
+  "appl_id": 10768567,
+  "subproject_id": null,
+  "fiscal_year": 2024,
+  "project_num": "5F31HL156470-04",
+  "project_serial_num": "HL156470",
+  "organization": {
+    "org_name": "UNIVERSITY OF CONNECTICUT STORRS",
+    "city": null,
+    "country": null,
+    "org_city": "STORRS-MANSFIELD",
+    "org_country": "UNITED STATES",
+    "org_state": "CT",
+    "org_state_name": null,
+    "dept_type": "PHYSIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "614209054"
+    ],
+    "org_ueis": [
+      "WNTPS995QBM7"
+    ],
+    "primary_duns": "614209054",
+    "primary_uei": "WNTPS995QBM7",
+    "org_fips": "US",
+    "org_ipf_code": "1506602",
+    "org_zipcode": "062691133",
+    "external_org_id": 1506602
+  },
+  "award_type": "5",
+  "activity_code": "F31",
+  "award_amount": 32322,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F31",
+    "ic_code": "HL",
+    "serial_num": "156470",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 16406282,
+      "first_name": "Jaseph",
+      "middle_name": "",
+      "last_name": "Soto",
+      "is_contact_pi": true,
+      "full_name": "Jaseph  Soto",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "SOTO, JASEPH ",
+  "program_officers": [
+    {
+      "first_name": "AARON",
+      "middle_name": "D",
+      "last_name": "LAPOSKY",
+      "full_name": "AARON D LAPOSKY"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "HL",
+    "abbreviation": "NHLBI",
+    "name": "National Heart Lung and Blood Institute",
+    "admin_org_id": "12500068",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2024,
+      "code": "HL",
+      "name": "National Heart Lung and Blood Institute",
+      "abbreviation": "NHLBI",
+      "total_cost": 32322.0,
+      "direct_cost_ic": 32322.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "CT-02",
+  "spending_categories": [
+    408,
+    525
+  ],
+  "project_start_date": "2021-01-07T00:00:00",
+  "project_end_date": "2024-08-15T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF ARTS AND SCIENCES",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -72.247553,
+    "lat": 41.811419
+  },
+  "opportunity_number": "PA-19-196",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F10A",
+    "sra_flex_code": "K",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F10A-K(20)L]"
+  },
+  "award_notice_date": "2023-12-11T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31HL156470",
+  "terms": "<Affect><Animals><Apnea><Autoregulation><Behavior><Brain><Brain Nervous System><Breathing><CO2><Carbon Dioxide><Carbonic Anhydride><Cell Nucleus><Chemoreceptors><Chronic><Clinical><Clinical Data><Clinical Research><Clinical Study><Common Rat Strains><Disease><Disorder><Dysfunction><Electrophysiology><Electrophysiology (science)><Elements><Encephalon><Encephalopathies><Exhibits><Foundations><Functional disorder><Generations><Genes><Genetic Alteration><Genetic Change><Genetic defect><Goals><Homeostasis><Hypoventilation><Impairment><Investigators><K channel><Lead><Mice><Mice Mammals><Modeling><Molecular><Motor Cell><Motor Neurons><Motor output><Murine><Mus><Mutation><Neonatal><Nerve Cells><Nerve Transmitter Substances><Nerve Unit><Neural Cell><Neurocyte><Neurons><Neurophysiology / Electrophysiology><Neurotransmitters><Nucleus><Nucleus Tractus Solitarii><Nucleus solitarius><Output><Pathogenicity><Patients><Pb element><Pharmacology><Phenotype><Physiological Homeostasis><Physiopathology><Position><Positioning Attribute><Potassium Channel><Potassium Ion Channels><Rat><Rats Mammals><Rattus><Recurrence><Recurrent><Research><Research Personnel><Researchers><Respiration Disorders><Respiratory Aspiration><Respiratory Disease><Respiratory Disorder><Respiratory Inspiration><Respiratory System Disease><Respiratory System Disorder><Role><Slice><Solitary Nucleus><Symptoms><Syndrome><System><Testing><Training><Transgenic Mice><Variant><Variation><Work><breathing disorder><cell type><congenital central hypoventilation syndrome><develop therapy><electrophysiological><epileptic encephalopathies><gain of function><gain of function mutation><genome mutation><heavy metal Pb><heavy metal lead><infancy><infantile><insight><inspiration><intervention development><loss of function><loss of function mutation><motoneuron><mouse model><murine model><neonatal brain><neuronal><novel><pathophysiology><patient profile><preBotzinger complex><profiles in patients><respiratory><respiratory dysfunction><response><social role><solitary tract nucleus><therapeutic target><therapy development><treatment development>",
+  "pref_terms": "Affect;Animals;Apnea;Behavior;Brain;Breathing;Carbon Dioxide;Cell Nucleus;Chemoreceptors;Chronic;Clinical;Clinical Data;Clinical Research;Disease;Electrophysiology (science);Elements;Encephalopathies;Exhibits;Foundations;Functional disorder;Generations;Genes;Goals;Homeostasis;Hypoventilation;Impairment;Lead;Modeling;Molecular;Motor Neurons;Motor output;Mus;Mutation;Neonatal;Neurons;Neurotransmitters;Nucleus solitarius;Output;Pathogenicity;Patients;Pharmacology;Phenotype;Positioning Attribute;Potassium Channel;Rattus;Recurrence;Research;Research Personnel;Respiration Disorders;Respiratory Disease;Role;Slice;Symptoms;Syndrome;System;Testing;Training;Transgenic Mice;Variant;Work;cell type;congenital central hypoventilation syndrome;epileptic encephalopathies;gain of function;gain of function mutation;infancy;insight;loss of function;loss of function mutation;mouse model;neonatal brain;novel;preBotzinger complex;profiles in patients;respiratory;response;therapeutic target;therapy development",
+  "abstract_text": "PROJECT SUMMARY/ABSTRACT\nKCNQ channels are key determinants of neuronal activity, and recent clinical evidence identifies mutations in\nKCNQ2 as a cause of neonatal epileptic encephalopathy. Most variants associated with neonatal epileptic\nencephalopathy are Loss-of-Function.However, recent work also identified a recurrent KCNQ2 Gain-of-Function\nmutation (R201C) in patients with neonatal onset encephalopathy. Patients with both KCNQ2 Loss- and Gain-\nof-Function mutations exhibit respiratory dysfunction including central hypoventilation syndrome, a condition\nthought to result from loss of respiratory chemoreception, i.e., the mechanism by which the brain regulates\nbreathing in response to CO2/H+. The retrotrapezoid nucleus (RTN) is an important chemoreceptor region, and\nwe have shown previously that KCNQ channels regulate basal activity and neurotransmitter modulation of RTN\nchemoreceptors. Therefore, I hypothesize that KCNQ2 channels are the principal KCNQ subunits that control\nactivity of RTN chemoreceptors. Ipropose that KNCQ2 Gain-of-Functionwill hyperpolarize RTNchemoreceptors\nand eliminate their contribution to the drive to breathe, whereas KCNQ2 Loss-of-Function mutations will\ndestabilize RTN chemoreceptor activity and disrupt modulation by neurotransmitters, thus also contributing to\nunstable breathing. Additionally, I will also test whether KCNQ2 dysfunction affects not only the RTN but the\nrespiratory control circuit in general including other chemoreceptors, inspiratory rhythmogenic pre-Bötzinger\ncomplex neurons, and output respiratory motor neurons. Objectives of this study are to investigate, from the\ncellular to system level, contributions of KCNQ2 channels to chemoreceptorfunction and respiratory control. The\ntwo Specific Aims of this project are: 1) determine cellular effects of KCNQ2 on respiratory chemoreception,\ninspiratory rhythmgeneration and motor output and 2) determine the essential role of KCNQ2 channels in control\nof breathing. The rationale for the proposed research is that by understandingwhether and howKCNQ2 channels\nregulate neuronal activity across multiple levels of the respiratory circuit, and respiratory behavior, I will lay a\nfoundation for development of treatments for respiratory problems like apnea and central hypoventilation\nsyndrome.",
+  "project_title": "Proposed roles of KCNQ2 Channels in Respiratory Homeostasis",
+  "phr_text": "PROJECT NARRATIVE\nRespiratory disfunction has been identified as a key symptom in the clinical profile of patients with pathogenic\nvariants of the potassium channel KCNQ2. The role of KCNQ2 channels in respiratory homeostasis remains\nunexplored. The proposed research will identify the roles of KCNQ2 channels as well as KCNQ2 pathogenic\nvariants in respiratory homeostasis, thus providing an integrated model of the respiratory circuit in the context of\nKCNQ2 function, which will serve as a foundation for potential therapeutic targets in respiratory disease which\ninclude but are not limited to KCNQ2 encephalopathy.\n.",
+  "spending_categories_desc": "Lung; Neurosciences",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2024-01-07T00:00:00",
+  "budget_end": "2024-08-15T00:00:00",
+  "cfda_code": "93.838",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 32322,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10768567",
+  "date_added": "2024-01-13T16:19:50"
+}

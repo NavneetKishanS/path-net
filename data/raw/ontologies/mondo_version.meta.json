@@ -1,0 +1,14 @@
+{
+  "source_id": "mondo_version",
+  "provider": "MONDO",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo",
+  "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo",
+  "retrieved_at": "2026-10-03T20:49:30.061776+00:00",
+  "cache_path": "raw/ontologies/mondo_version.json",
+  "raw_sha256": "64ad4444fd7d90d3fae08b48a5769926f3a22ce7092288fad80422bc033f66c8",
+  "bytes": 1900,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC-BY-4.0",
+  "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE"
+}

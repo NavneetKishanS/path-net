@@ -1,0 +1,134 @@
+{
+  "appl_id": 10926822,
+  "subproject_id": null,
+  "fiscal_year": 2024,
+  "project_num": "5F32DA058453-02",
+  "project_serial_num": "DA058453",
+  "organization": {
+    "org_name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+    "city": null,
+    "country": null,
+    "org_city": "BIRMINGHAM",
+    "org_country": "UNITED STATES",
+    "org_state": "AL",
+    "org_state_name": null,
+    "dept_type": "NEUROSCIENCES",
+    "fips_country_code": null,
+    "org_duns": [
+      "063690705"
+    ],
+    "org_ueis": [
+      "YND4PLMC9AN7"
+    ],
+    "primary_duns": "063690705",
+    "primary_uei": "YND4PLMC9AN7",
+    "org_fips": "US",
+    "org_ipf_code": "1288803",
+    "org_zipcode": "352940001",
+    "external_org_id": 1288803
+  },
+  "award_type": "5",
+  "activity_code": "F32",
+  "award_amount": 76811,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F32",
+    "ic_code": "DA",
+    "serial_num": "058453",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 14865940,
+      "first_name": "Emily",
+      "middle_name": "",
+      "last_name": "Jorgensen",
+      "is_contact_pi": true,
+      "full_name": "Emily  Jorgensen",
+      "title": "POSTDOCTORAL TRAINEE"
+    }
+  ],
+  "contact_pi_name": "JORGENSEN, EMILY ",
+  "program_officers": [
+    {
+      "first_name": "EDGARDO",
+      "middle_name": "",
+      "last_name": "FALCON-MORALES",
+      "full_name": "EDGARDO  FALCON-MORALES"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "DA",
+    "abbreviation": "NIDA",
+    "name": "National Institute on Drug Abuse",
+    "admin_org_id": "12500072",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2024,
+      "code": "DA",
+      "name": "National Institute on Drug Abuse",
+      "abbreviation": "NIDA",
+      "total_cost": 76811.0,
+      "direct_cost_ic": 76811.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "AL-07",
+  "spending_categories": [
+    81,
+    89,
+    118,
+    5224,
+    240,
+    276,
+    525,
+    5225,
+    817
+  ],
+  "project_start_date": "2023-05-01T00:00:00",
+  "project_end_date": "2026-04-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -86.799772,
+    "lat": 33.50591
+  },
+  "opportunity_number": "PA-21-048",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F03B",
+    "sra_flex_code": "L",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F03B-L(20)L]"
+  },
+  "award_notice_date": "2024-05-01T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F32DA058453",
+  "terms": "<Action Potentials><Address><Affective Disorders><Alcohol Chemical Class><Alcohols><Animal Model><Animal Models and Related Studies><Area><Awareness><Behavior><Behavioral><Biologic Models><Biological Models><Brain><Brain Nervous System><Brain region><CRISPR><CRISPR/Cas system><Cell Body><Cells><Clustered Regularly Interspaced Short Palindromic Repeats><Cocaine><Common Rat Strains><Consumption><Corpus Striatum><Corpus striatum structure><Cues><D(2) Dopamine Receptor Gene><D2DR><D2DR Gene><D2R><D2R Gene><DRD1><DRD1 gene><DRD2><DRD2 gene><Data><Dimensions><Disease><Disorder><Dissociation><Dopamine><Dopamine Receptor><Dopamine Receptor D1 Gene><Dopamine Receptor D2 Gene><Drug Therapy><Drugs><Electrophysiology><Electrophysiology (science)><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Family member><Foundations><Future><Gene Transcription><Genes><Genetic><Genetic Transcription><Glutamates><Hydroxytyramine><Infusion><Infusion procedures><Injections><Ion Channel Gating><Ion Channel Gatings><K channel><L-Glutamate><Learning><Mediating><Medication><Membrane><Memory><Model System><Molecular><Mood Disorders><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neurocyte><Neurologic Disorders><Neurological Disorders><Neurons><Neurophysiology / Electrophysiology><Nucleus Accumbens><Overdose><Pharmaceutical Preparations><Pharmacology><Pharmacotherapy><Physiologic><Physiological><Physiology><Play><Population><Potassium Channel><Potassium Ion Channels><Prefrontal Cortex><Prevalence><Property><RNA Expression><RNA Seq><RNA sequencing><RNAseq><Rat><Rats Mammals><Rattus><Regimen><Relapse><Research><Rewards><Role><Seizure Disorder><Striate Body><Striatum><Substance Use Disorder><Substance abuse problem><System><Testing><Transcription><Transmission><United States><Ventral Tegmental Area><Voltage-Gated K+ Channels><Voltage-Gated Potassium Channel><Withdrawal><Work><abuse of substances><abused drug><abused drugs><behavioral plasticity><cell type><cocaine exposure><cocaine reward><cocaine seeking><cocaine self-administration><cocaine-exposed><common treatment><compulsion><dopamine system><drug abused><drug of abuse><drug seeking behavior><drug treatment><drug/agent><drugs abused><drugs of abuse><electrophysiological><epilepsia><epileptogenic><experiment><experimental research><experimental study><experiments><exposed to cocaine><exposure to cocaine><functional plasticity><gene manipulation><genetic manipulation><genetically manipulate><genetically perturb><glutamatergic><in vivo><infusions><insight><learned behavior><learning behavior><membrane structure><mesolimbic dopamine system><mesolimbic system><model of animal><motivated behavior><neurological disease><neuronal><neuronal excitability><neuropsychiatric disease><neuropsychiatric disorder><novel><patch clamp><patch sequencing><patch-seq><patchseq><pharmacologic><population based><psychostimulant><response><reward processing><self-administer cocaine><social role><striatal><substance abuse><substance use and disorder><tool><transcriptome sequencing><transcriptomic sequencing><transmission process><ventral tegmentum><voltage>",
+  "pref_terms": "Action Potentials;Address;Alcohols;Animal Model;Area;Awareness;Behavior;Behavioral;Biological Models;Brain;Brain region;Cells;Clustered Regularly Interspaced Short Palindromic Repeats;Cocaine;Consumption;Corpus striatum structure;Cues;DRD1 gene;DRD2 gene;Data;Dimensions;Disease;Dissociation;Dopamine;Dopamine Receptor;Electrophysiology (science);Epilepsy;Family member;Foundations;Future;Genes;Genetic;Genetic Transcription;Glutamates;Infusion procedures;Injections;Ion Channel Gating;Learning;Mediating;Membrane;Memory;Molecular;Mood Disorders;Nervous System Disorder;Neurons;Nucleus Accumbens;Overdose;Pharmaceutical Preparations;Pharmacology;Pharmacotherapy;Physiological;Physiology;Play;Population;Potassium Channel;Prefrontal Cortex;Prevalence;Property;Rattus;Regimen;Relapse;Research;Rewards;Role;Substance Use Disorder;Substance abuse problem;System;Testing;United States;Ventral Tegmental Area;Voltage-Gated Potassium Channel;Withdrawal;Work;behavioral plasticity;cell type;cocaine exposure;cocaine reward;cocaine seeking;cocaine self-administration;common treatment;compulsion;dopamine system;drug of abuse;drug seeking behavior;experimental study;functional plasticity;genetic manipulation;in vivo;insight;learned behavior;mesolimbic system;motivated behavior;neuronal excitability;neuropsychiatric disorder;novel;patch clamp;patch sequencing;pharmacologic;population based;psychostimulant;response;reward processing;tool;transcriptome sequencing;transmission process;voltage",
+  "abstract_text": "PROJECT SUMMARY\nSubstance use disorder is a multidimensional neuropsychiatric disease increasing in prevalence across the\nUnited States despite increased awareness and substantial leaps in treatment approaches. Unfortunately, these\ntreatments commonly fail due to strongly encoded drug-associations, often resulting in relapse. Drugs of abuse,\nsuch as cocaine, act on the mesolimbic dopamine system to increase dopaminergic transmission in the nucleus\naccumbens (NAc), a key brain region important for reward processing. Medium spiny neurons (MSNs) within the\nNAc are responsive to increases in dopamine transmission. Importantly, MSNs do not generate spontaneous\naction potentials so changes in excitability are dependent on dopaminergic input, in addition to input from other\nprojecting areas. When studying MSNs in relation to substance abuse, there is substantial evidence\ndemonstrating MSNs increase their excitability following cocaine exposure or dopamine stimulation. However,\nvery little research has examined why this happens and how voltage-gated ion channels in the NAc are\nimplicated in cocaine-induced physiological and behavioral plasticity. My preliminary data suggests a role for\nKCNQ2/3, m-current, potassium channels in MSN excitability and the rewarding effects of cocaine. Although\npharmacological manipulation of KCNQ2/3 channels decreases drug seeking behaviors and KCNQ2/3 channels\nare important for several intrinsic properties, the role of KCNQ2/3 channels in MSN excitability and cocaine-\nrelated molecular and behavioral adaptations has never been studied. In this Proposal, I will test the overarching\nhypothesis that KCNQ2/3 channels in the NAc are involved in functional and behavioral plasticity associated with\ncocaine-seeking behaviors. Specific Aim 1 of this proposal will use multiple approaches to determine how\nKCNQ2/3 channels influence baseline MSN excitability and establish gene-to-function relationships between\nKCNQ expression and MSN physiology. Specific Aim 2 will will combine CRISPR/dCas9 tools and cocaine self-\nadministration to target specific KCNQ2/3-mediated aspects of drug related learning and compulsive drug\nseeking. Together, these experiments will define how KCNQ2/3 channels regulate MSN physiology, identify the\nrelationship between KCNQ subunits and MSN excitability, and determine if KCNQ2/3 channels in the NAc\nmodulates cocaine-related behavioral plasticity. These studies with reveal previously unknown mechanisms by\nwhich KCNQ2/3 channels contribute to psychostimulant response, and will provide a foundation for future\nexperiments to explore how KCNQ2/3 channels contribute to motivated behavior.",
+  "project_title": "Contributions of KCNQ2/3 channels to medium spiny neuron excitability and cocaine reward",
+  "phr_text": "PROJECT NARRATIVE\nSubstance use disorder is a multidimensional neurological disease increasing in prevalence across the United\nStates despite increased awareness and substantial leaps in treatment approaches. Unfortunately, these\ntreatments commonly fail due to strongly encoded drug-associations, often resulting in relapse. The\nexperiments in this Proposal aim to identify previously unknown functional and molecular plasticity involved in\ndrug-seeking behaviors needed to develop targeted pharmacotherapies to reduce and hopefully eliminate\nrelapse episodes and overdoses.",
+  "spending_categories_desc": "Basic Behavioral and Social Science; Behavioral and Social Science; Brain Disorders; Cocaine; Drug Abuse (NIDA only); Genetics; Neurosciences; Stimulant Use and Misuse; Substance Misuse",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2024-05-01T00:00:00",
+  "budget_end": "2025-04-30T00:00:00",
+  "cfda_code": "93.279",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 76811,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10926822",
+  "date_added": "2024-05-04T16:17:42"
+}

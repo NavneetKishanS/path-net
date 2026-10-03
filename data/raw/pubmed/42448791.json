@@ -1,0 +1,26 @@
+{
+  "pmid": "42448791",
+  "title": "Translatable electrophysiological and behavioral abnormalities in a humanized model of SYNGAP1-disorder.",
+  "abstract": "Heterozygous variants in SYNGAP1 and STXBP1 cause distinct neurodevelopmental disorders due to haploinsufficiency of essential synaptic proteins. As gene targeted approaches to correct these disorders often target non-conserved genomic regions, thus limiting their clinical translation, we generated humanized mouse models wherein the entire Syngap1 or Stxbp1 loci were replaced with their human counterparts. Stxbp1 humanized mice exhibited impaired viability, while Stxbp1 hybrid mice (Stxbp1Hu/+) were viable and suitable for evaluating target engagement of human-specific therapeutics. Syngap1 humanized mice were viable and successfully crossed with Syngap1 heterozygous mice to produce a Syngap1 humanized-haploinsufficient model (Syngap1Hu/-). Syngap1Hu/- mice displayed haploinsufficient levels of human SYNGAP1, disease-relevant behaviors, and EEG abnormalities including epileptiform activity and generalized slowing. Importantly, parallel analysis in a cohort of patients with SYNGAP1-disorder revealed similar electrophysiological signatures. Finally, we showed that human gene-targeted antisense oligonucleotides modulate human SYNGAP1 expression in Syngap1Hu/- neurons. Together, we describe new models to support pre-clinical therapeutic development for SYNGAP1 and STXBP1 disorders and identify translational biomarkers of SYNGAP1-disorder in mice and humans to benchmark therapeutic testing.",
+  "authors": [
+    "Alex J Felix",
+    "Brandon L Brown",
+    "Nicolas Marotta",
+    "Maximilian J Gessner",
+    "Mika Houserova",
+    "Icnelia Huerta-Ocampo",
+    "Taryn Wilson",
+    "Rani Randell",
+    "Jennine M Dawicki-McKenna",
+    "Dulce Reinhardt",
+    "Keita Uchida",
+    "Ian McSalley",
+    "Jillian L McKee",
+    "Ingo Helbig",
+    "Michael J Boland",
+    "Beverly L Davidson",
+    "Benjamin L Prosser"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42448791/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

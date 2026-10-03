@@ -1,0 +1,46 @@
+{
+  "source": "NIH RePORTER API v2",
+  "endpoint": "https://api.reporter.nih.gov/v2/projects/search",
+  "query": "KCNQ2",
+  "retrieved_at": "2026-10-03T20:49:42+00:00",
+  "requests": [
+    {
+      "criteria": {
+        "advanced_text_search": {
+          "operator": "and",
+          "search_field": "all",
+          "search_text": "KCNQ2"
+        },
+        "fiscal_years": [],
+        "use_relevance": true
+      },
+      "offset": 0,
+      "limit": 20
+    }
+  ],
+  "total_count": 169,
+  "application_ids": [
+    "11381904",
+    "11312585",
+    "11305372",
+    "11311384",
+    "11415500",
+    "11285175",
+    "11004391",
+    "11140897",
+    "11030230",
+    "11082457",
+    "11054695",
+    "11097903",
+    "11068974",
+    "11001348",
+    "10809724",
+    "10768567",
+    "10820881",
+    "10926822",
+    "10793483",
+    "10834956"
+  ],
+  "truncated": true,
+  "note": "Application IDs identify annual awards; core_project_num groups related award years."
+}

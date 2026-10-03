@@ -1,0 +1,1775 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04912856",
+      "orgStudyIdInfo": {
+        "id": "XPF-009-302"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-003447-28",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Xenon Pharmaceuticals Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+      "officialTitle": "An Open-Label Extension of the Study XEN496 in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+      "acronym": "EPIK-OLE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Sponsor decision; not a safety decision",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-08-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-11-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-11-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-05-03",
+      "studyFirstSubmitQcDate": "2021-05-27",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-03",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-11-15",
+      "resultsFirstSubmitQcDate": "2025-02-12",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-02-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Xenon Pharmaceuticals Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To assess the long-term safety and tolerability of XEN496 in pediatric subjects with KCNQ2 developmental and epileptic encephalopathy (KCNQ2-DEE) who had participated in the primary study (XPF-009-301).",
+      "detailedDescription": "This is an open-label, long-term extension study of XEN496 for the treatment of seizures in subjects with KCNQ2-DEE, that will be open to eligible subjects who participated in the primary study, XPF-009-301. The primary objective is to assess the long-term safety of XEN496. A double-blind transition/titration period will be used to maintain blinding to the treatment allocation in the primary study (XPF-009-301). After completion of the blinded transition/titration period, subjects will receive the open label study drug at their optimal dose for approximately 35 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epilepsy",
+        "Epilepsy in Children",
+        "Epilepsy; Seizure",
+        "Disease",
+        "Brain Diseases",
+        "Central Nervous System Diseases",
+        "Nervous System Diseases",
+        "Epileptic Syndromes"
+      ],
+      "keywords": [
+        "XEN496",
+        "Ezogabine",
+        "Retigabine",
+        "Encephalopathy",
+        "Seizure",
+        "KCNQ2",
+        "EPIK"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Patients will enter a blinded titration period (24 days) before moving to the open label treatment period for the remaining 35 months.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1: XEN496 only",
+          "type": "EXPERIMENTAL",
+          "description": "24-day blinded transition/titration period. Subjects who received XEN496 in the preceding study will continue to receive XEN496 at the same dose, in a blinded manner, without any further titration. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nSubjects who discontinue will be required to taper off study drug over a period of up to 15 days",
+          "interventionNames": [
+            "Drug: XEN496"
+          ]
+        },
+        {
+          "label": "Group 2: Placebo to XEN496",
+          "type": "EXPERIMENTAL",
+          "description": "24-day blinded transition/titration period. Subjects who were allocated to placebo in the preceding study, will be titrated to a tolerated dose up to a maximum dose of 21 mg/kg/day, with a maximum daily dose of 672 mg/day. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects\n\nSubjects who discontinue or complete the study treatment will be required to taper off study drug over a period of up to 15 days.",
+          "interventionNames": [
+            "Drug: XEN496"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "XEN496",
+          "description": "XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child.",
+          "armGroupLabels": [
+            "Group 1: XEN496 only",
+            "Group 2: Placebo to XEN496"
+          ],
+          "otherNames": [
+            "ezogabine",
+            "retigabine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs) Related to Intervention",
+          "description": "Safety and tolerability of XEN496 as assessed by incidence and severity of AEs and SAEs",
+          "timeFrame": "From Screening/Baseline through to 4 weeks post last dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject completed participation in the primary study, XPF-009-301. A subject who withdraws from the primary study due to meeting protocol-specified worsening criteria will be considered as having completed participation in the primary study.\n* The caregiver is willing and able to be compliant with diary completion, visit schedule, and study drug administration.\n* Subject's caregiver achieved a minimum of 85% compliance with daily diary completion during both baseline and the double-blind period of the primary study.\n\nExclusion Criteria:\n\n* Any adverse event(s) or serious adverse event(s) during the primary study XPF-009-301, which in the opinion of the investigator and sponsor's medical monitor, would preclude the subject's entry into the OLE study.\n* A clinically significant condition or illness, or symptoms other than those resulting from KCNQ2-DEE, present at screening/baseline that, in the opinion of the investigator, would pose a risk to the subject if s/he were to enter the study.\n* Any conditions that were specified as exclusion criteria in the primary study, XPF-009-301.\n* It is anticipated that the subject will require treatment with at least 1 of the disallowed medications during the study.\n* Any change in cardiac rhythm or atrioventricular conduction in the primary study that, in the investigator's opinion, is a significant risk to subject safety.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Month",
+      "maximumAge": "6 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Study Director",
+          "affiliation": "Xenon Pharmaceuticals Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Children's Hospital of Philadelphia",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "MultiCare Health System - Mary Bridge Pediatrics - Tacoma",
+          "city": "Tacoma",
+          "state": "Washington",
+          "zip": "98405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.25288,
+            "lon": -122.44429
+          }
+        },
+        {
+          "facility": "Sydney Children's Hospital",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "zip": "2031",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.86785,
+            "lon": 151.20732
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Antwerpen - Dienst Kinderneurologie",
+          "city": "Edegem",
+          "state": "Antwerpen",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "XPF-009-301 Study (EPIK)",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT04639310"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Group 1: XEN496 Treatment in Preceding Study",
+          "description": "24-day blinded transition/titration period. Subjects who received XEN496 in the preceding study will continue to receive XEN496 at the same dose, in a blinded manner, without any further titration. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nOptimally-tolerated dose level established during the transition/titration period will be maintained throughout the duration of open-label period unless dose adjustment is required.\n\nSubjects who discontinue will be required to taper off study drug over a period of up to 15 days\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child.\n\nPlacebo: Placebo sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child."
+        },
+        {
+          "id": "FG001",
+          "title": "Group 2: Placebo Treatment in Preceding Study",
+          "description": "24-day blinded transition/titration period. Subjects, who were allocated to placebo in the preceding study, will be titrated to a tolerated dose up to a maximum dose of 21 mg/kg/day, with a maximum daily dose of 672 mg/day. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nOptimally-tolerated dose level established during the transition/titration period will be maintained throughout the duration of open-label period unless dose adjustment is required.\n\nSubjects who discontinue will be required to taper off study drug over a period of up to 15 days\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child.\n\nPlacebo: Placebo sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Sponsor Decision; not due to safety reasons",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Not reported in synoptic CSR.",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Group 1: XEN496 Treatment in Preceding Study",
+          "description": "24-day blinded transition/titration period. Subjects who received XEN496 in the preceding study will continue to receive XEN496 at the same dose, in a blinded manner, without any further titration. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nSubjects who discontinue will be required to taper off study drug over a period of up to 15 days\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child."
+        },
+        {
+          "id": "BG001",
+          "title": "Group 2: Placebo Treatment in Preceding Study",
+          "description": "24-day blinded transition/titration period. Subjects, who were allocated to placebo in the preceding study, will be titrated to a tolerated dose up to a maximum dose of 21 mg/kg/day, with a maximum daily dose of 672 mg/day. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nOptimally-tolerated dose level established during the transition/titration period will be maintained throughout the duration of open-label period unless dose adjustment is required.\n\nSubjects who discontinue or complete the study treatment will be required to taper off study drug over a period of up to 15 days.\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "5"
+            },
+            {
+              "groupId": "BG001",
+              "value": "3"
+            },
+            {
+              "groupId": "BG002",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Belgium",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Australia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs) Related to Intervention",
+          "description": "Safety and tolerability of XEN496 as assessed by incidence and severity of AEs and SAEs",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Screening/Baseline through to 4 weeks post last dose",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group 1: XEN496 Treatment in Preceding Study",
+              "description": "24-day blinded transition/titration period. Subjects who received XEN496 in the preceding study will continue to receive XEN496 at the same dose, in a blinded manner, without any further titration. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nSubjects who discontinue will be required to taper off study drug over a period of up to 15 days\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child."
+            },
+            {
+              "id": "OG001",
+              "title": "Group 2: Placebo Treatment in Preceding Study",
+              "description": "24-day blinded transition/titration period. Subjects, who were allocated to placebo in the preceding study, will be titrated to a tolerated dose up to a maximum dose of 21 mg/kg/day, with a maximum daily dose of 672 mg/day. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nOptimally-tolerated dose level established during the transition/titration period will be maintained throughout the duration of open-label period unless dose adjustment is required.\n\nSubjects who discontinue or complete the study treatment will be required to taper off study drug over a period of up to 15 days.\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Number of participants with any AEs",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Number of participants with any TEAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with any treatment related TEAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with any TEAE leading to discontinuation of study drug",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with any TEAE leading to a dose reduction or treatment interruption",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with any Severe TEAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with any Serious TEAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with any TEAE leading to death",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Collection of adverse event data began at Visit 1 when consent was obtained and continued throughout the course subject's participation in the study. The intended duration of the collection period was 3 years. Following the termination of the study, the collection period was up to 2 years and 3 months.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Group 1: XEN496 Treatment in Preceding Study",
+          "description": "24-day blinded transition/titration period. Subjects who received XEN496 in the preceding study will continue to receive XEN496 at the same dose, in a blinded manner, without any further titration. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nSubjects who discontinue will be required to taper off study drug over a period of up to 15 days\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 5,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 5,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 5
+        },
+        {
+          "id": "EG001",
+          "title": "Group 2: Placebo Treatment in Preceding Study",
+          "description": "24-day blinded transition/titration period. Subjects, who were allocated to placebo in the preceding study, will be titrated to a tolerated dose up to a maximum dose of 21 mg/kg/day, with a maximum daily dose of 672 mg/day. To maintain the blinded aspect of the study, placebo will be dispensed to all subjects during the transition/titration period to ensure the total number of capsules are consistent across all subjects.\n\nOptimally-tolerated dose level established during the transition/titration period will be maintained throughout the duration of open-label period unless dose adjustment is required.\n\nSubjects who discontinue or complete the study treatment will be required to taper off study drug over a period of up to 15 days.\n\nXEN496: XEN496 sprinkle capsules. Parents / caregivers will be instructed to sprinkle and mix the contents of the capsules into soft foods or liquids and feed it to the child.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 3,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 3,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 3
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Gastroenteritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Seizure cluster",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Intestinal malrotation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Urinary retention",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Gamma-glutamyltransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Retinal Pigmentation",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood pressure systolic increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Salivary gland enlargement",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Gastroenteritis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Peripheral swelling",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Swelling face",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Erythema",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Viral upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Otitis Media",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Respiratory synctial virus test positive",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Intestinal malrotation",
+          "organSystem": "Congenital, familial and genetic disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal bacterial overgrowth",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood in the stool",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Urinary hesitation",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Initial Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Ear Swelling",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dermatitis allergic",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Bronchitis viral",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blister",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Abnormal behaviour",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Epilepsy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 26.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Due to the early termination of the study (not due to safety reasons or futility) and the limited number of subjects enrolled in this OLE, the full analysis was not completed, and no efficacy data were assessed."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "GT60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Noam Butterfield",
+        "organization": "Xenon Pharmaceuticals",
+        "email": "nbutterfield@xenon-pharma.com",
+        "phone": "604 484 3300"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan: Study Protocol",
+          "date": "2022-05-09",
+          "uploadDate": "2024-12-18T18:51",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 559972
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan: Statistical Analysis Plan",
+          "date": "2023-05-04",
+          "uploadDate": "2025-02-11T10:53",
+          "filename": "SAP_002.pdf",
+          "size": 3019623
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02",
+      "removedCountries": [
+        "Spain"
+      ],
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-12-12",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D004194",
+          "term": "Disease"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D000073376",
+          "term": "Epileptic Syndromes"
+        },
+        {
+          "id": "D012640",
+          "term": "Seizures"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C101866",
+          "term": "ezogabine"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

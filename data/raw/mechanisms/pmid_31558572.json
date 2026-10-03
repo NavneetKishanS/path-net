@@ -1,0 +1,17 @@
+{
+  "source_id": "pmid_31558572",
+  "requested_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+  "retrieved_at": "2026-10-03T20:56:37+00:00",
+  "backend": "pubmed_api_cache",
+  "content_type": "application/xml",
+  "encoding": "utf-8",
+  "body_sha256": "a598454ef596301a6f47a79daa28db394c7626b7872a0d890cd75c2018781805",
+  "text_sha256": "b6a151ffa5232b69665142eecc27b9ea5dfe383797ef3803ae7c9c5331ae4f8f",
+  "body_path": "raw/mechanisms/pmid_31558572.body",
+  "text_path": "raw/mechanisms/pmid_31558572.txt",
+  "original_cache_path": "raw/pubmed_searches/340208efc099b0e7/efetch_26cb2450e81a907f.xml",
+  "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+  "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+  "licence": "Mason et al. 2019, eNeuro; paper CC BY 4.0 verified on PMC6795554; attribution retained"
+}

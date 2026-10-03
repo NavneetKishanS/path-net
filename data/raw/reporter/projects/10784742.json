@@ -1,0 +1,132 @@
+{
+  "appl_id": 10784742,
+  "subproject_id": null,
+  "fiscal_year": 2024,
+  "project_num": "5R01NS131512-02",
+  "project_serial_num": "NS131512",
+  "organization": {
+    "org_name": "CHILDREN'S HOSP OF PHILADELPHIA",
+    "city": null,
+    "country": null,
+    "org_city": "PHILADELPHIA",
+    "org_country": "UNITED STATES",
+    "org_state": "PA",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "073757627"
+    ],
+    "org_ueis": [
+      "G7MQPLSUX1L4"
+    ],
+    "primary_duns": "073757627",
+    "primary_uei": "G7MQPLSUX1L4",
+    "org_fips": "US",
+    "org_ipf_code": "1499101",
+    "org_zipcode": "191462305",
+    "external_org_id": 1499101
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 694724,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "131512",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 15318049,
+      "first_name": "Ingo",
+      "middle_name": "",
+      "last_name": "Helbig",
+      "is_contact_pi": true,
+      "full_name": "Ingo  Helbig",
+      "title": "ASSISTANT PROFESSOR, ATTENDING PHYSICIAN"
+    }
+  ],
+  "contact_pi_name": "HELBIG, INGO ",
+  "program_officers": [
+    {
+      "first_name": "VICKY",
+      "middle_name": "R",
+      "last_name": "WHITTEMORE",
+      "full_name": "VICKY R WHITTEMORE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2024,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 694724.0,
+      "direct_cost_ic": 495237.0,
+      "indirect_cost_ic": 199487.0
+    }
+  ],
+  "cong_dist": "PA-03",
+  "spending_categories": [
+    118,
+    176,
+    255,
+    276,
+    520,
+    525,
+    679
+  ],
+  "project_start_date": "2023-02-15T00:00:00",
+  "project_end_date": "2028-03-31T00:00:00",
+  "organization_type": {
+    "name": "Independent Hospitals",
+    "code": "30",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -75.196604,
+    "lat": 39.946632
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "GHD",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Genetics of Health and Disease Study Section[GHD]"
+  },
+  "award_notice_date": "2024-03-19T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS131512",
+  "terms": "<0-11 years old><Address><Adolescent><Adolescent Youth><Anticonvulsant Agent><Anticonvulsant Drugs><Anticonvulsants><Anticonvulsive Agents><Anticonvulsive Drugs><Brain Diseases><Brain Disorders><Caring><Case Series><Case Study><Causality><Child><Child Youth><Children (0-21)><Chorea><Choreic Movement><Choreiform Movement><Classification><Clinical><Clinical Data><Complement><Complement Proteins><Complex><Consumption><Data><Development><Diagnosis><Dictionary><Disease><Disorder><Encephalon Diseases><Epilepsy><Epileptic Seizures><Epileptics><Etiology><Future><Gene variant><Genes><Genetic><Genetic Predisposition><Genetic Predisposition to Disease><Genetic Susceptibility><Genetic propensity><Genomics><Genotype><Goals><Hereditary><Human><Independent Scientist Award><Individual><Infantile spasms><Inherited><Inherited Predisposition><Inherited Susceptibility><Intracranial CNS Disorders><Intracranial Central Nervous System Disorders><Intractable Epilepsy><K02 Award><Knowledge><Life><Lightning Attacks><Link><Manuals><Methods><Modern Man><NAV1.6><NIH><NaCh6><National Institutes of Health><Natural History><Neurodevelopmental Disorder><Neurological Development Disorder><Ontology><Other Genetics><Outcome><Parents><Patients><Pattern><Phenotype><Position><Positioning Attribute><Prognosis><Public Health><Recurrence><Recurrent><Refractory epilepsy><Research><Risk><Risk Assessment><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Semantics><Sodium Channel Blockers><Subgroup><Systematics><Time><Translating><United States National Institutes of Health><Variant><Variation><Vulnerable Populations><West Syndrome><Work><X-linked infantile spasms><allele variant><allelic variant><case report><causation><childhood epilepsy><clinical care><cohort><complementation><de novo mutation><de novo variant><developmental><developmental disease><developmental disorder><disability><disease causation><drug-resistant epilepsy><early onset><eclampsia nutans><epilepsia><epileptogenic><exome><exomes><flexion spasm><gain of function><genetic etiology><genetic mechanism of disease><genetic variant><genetic vulnerability><genetically predisposed><genomic variant><genomic variation><greeting spasms><improved><infantile salaam><infantile spasms with mental retardation><infantile spasms-hypsarrhythmia-mental retardation syndrome><insight><jackknife spasm><juvenile><juvenile human><kids><loss of function><medical vulnerability><mouse model><murine model><neurodevelopmental disease><neurogenetics><new approaches><novel approaches><novel strategies><novel strategy><parent><pediatric epilepsy><precision medicine><precision-based medicine><prevent><preventing><progenitor cell model><progenitor model><rare allele><rare mutation><rare variant><response><response to therapy><response to treatment><seizure drug><seizure medication><sodium channel, voltage gated, type VIII, alpha subunit><stem and progenitor cell model><stem cell based model><stem cell derived model><stem cell model><therapeutic response><therapy response><tool><treatment response><treatment responsiveness><trial design><vulnerable group><vulnerable individual><vulnerable people><youngster>",
+  "pref_terms": "Address;Adolescent;Anticonvulsants;Brain Diseases;Caring;Case Series;Case Study;Child;Chorea;Classification;Clinical;Clinical Data;Complement;Complex;Consumption;Data;Development;Diagnosis;Dictionary;Disease;Epilepsy;Etiology;Future;Genes;Genetic;Genetic Predisposition to Disease;Genomics;Genotype;Goals;Human;Independent Scientist Award;Individual;Infantile spasms;Inherited;Intractable Epilepsy;Knowledge;Life;Link;Manuals;Methods;Natural History;Neurodevelopmental Disorder;Ontology;Other Genetics;Outcome;Parents;Patients;Pattern;Phenotype;Positioning Attribute;Prognosis;Public Health;Recurrence;Research;Risk;Risk Assessment;SCN8A gene;Seizures;Semantics;Sodium Channel Blockers;Subgroup;Time;Translating;United States National Institutes of Health;Variant;Vulnerable Populations;Work;childhood epilepsy;clinical care;cohort;de novo mutation;developmental disease;disability;early onset;exome;gain of function;genetic variant;genomic variation;improved;insight;loss of function;medical vulnerability;mouse model;neurogenetics;novel strategies;precision medicine;prevent;rare variant;response;stem cell model;tool;treatment response;trial design",
+  "abstract_text": "PROJECT SUMMARY\nOver the last decade, there has been an exponential increase in identified genetic causes of neurodevelopmental\ndisorders and epilepsy. With more than 100 genes identified, understanding how phenotypes relate to specific\ngenetic variants is critical, given the clinical complexity of developmental brain disorders. Given that treatment\nand prognosis is dependent on understanding genotype-phenotype correlations, there is a critical need to better\nassess clinical features in genetic epilepsies. However, phenotyping is a time-consuming, manual task with\nlimited throughput. To overcome this bottleneck, we have developed a novel approach, based on the Human\nPhenotype Ontology (HPO), which we have previously applied to SCN2A-related disorders and to STXBP1-\nrelated disorders, resulting in knowledge that is already applied clinically. Our long-term goal is to decipher the\nphenotypic landscape of genetic epilepsies to improve clinical care.Therefore, our objectives are to determine\nthe relationship between genomic variation and epilepsy-related clinical features in a large patient cohort and to\nidentify subgroups within the 20 most common genetic epilepsies that may provide insight into outcomes and\ntreatment responses. We plan to pursue these objectives through two aims. First, we aim to determine the impact\nof genomic features on epilepsy phenotypes in >9,000 individuals through an HPO-based approach (Aim #1).\nWe will analyze exome data in >13K individuals with trio exome data and >600K HPO terms to assess the\nrelationship between distinct monogenic etiologies and rare variants with clinical epilepsy features, using\ncomputational phenotyping tools developed by our team. This will allow for insight into the relationship between\ngenetic etiologies and phenotypic features at a granular scale. Secondly, we aim to define relevant subgroups\nin genetic epilepsies through phenotype harmonization (Aim #2). We will translate clinical features for the 20\nmost common genetic epilepsies to HPO terms and perform a semantic similarity analysis to determine whether\nspecific variants have significantly similar clinical features, followed by in-depth chart review. This knowledge will\ninform the prioritization of variants for functional studies and clinical care. In summary, HPO-based delineation\nof genetic epilepsies is expected to significantly improve knowledge of genotype-phenotype correlations by\nadding unmatched detail and power. Our team has previously pioneered computational phenotype analysis in\nthe epilepsies and neurodevelopmental disorders, positioning us uniquely to address these questions. In addition\nto facilitating research of disease mechanisms by prioritizing variants for work with stem cells or mouse models,\nfor example, our findings will also apply to clinical care by providing an unprecedented level of precision in\nprognosis and treatment information.",
+  "project_title": "A computational phenotyping approach to characterize neurogenetic disorders",
+  "phr_text": "PROJECT NARRATIVE\nThe proposed research is relevant to public health because the identification of factors determining outcomes in\nchildhood epilepsies is ultimately expected to translate into necessary improvements to care for this medically\nvulnerable population. Thus, the proposed research is relevant to the purpose of the NIH to acquire new\nknowledge to help prevent, detect, diagnose, and treat disease and disability, enhance the lives of children and\nadolescents, and optimize abilities for all.",
+  "spending_categories_desc": "Brain Disorders; Clinical Research; Epilepsy; Genetics; Neurodegenerative; Neurosciences; Pediatric",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2024-04-01T00:00:00",
+  "budget_end": "2025-03-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 495237,
+  "indirect_cost_amt": 199487,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10784742",
+  "date_added": "2024-04-06T16:18:19"
+}

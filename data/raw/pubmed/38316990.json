@@ -1,0 +1,29 @@
+{
+  "pmid": "38316990",
+  "title": "The DDHD2-STXBP1 interaction mediates long-term memory via generation of saturated free fatty acids.",
+  "abstract": "The phospholipid and free fatty acid (FFA) composition of neuronal membranes plays a crucial role in learning and memory, but the mechanisms through which neuronal activity affects the brain's lipid landscape remain largely unexplored. The levels of saturated FFAs, particularly of myristic acid (C14:0), strongly increase during neuronal stimulation and memory acquisition, suggesting the involvement of phospholipase A1 (PLA1) activity in synaptic plasticity. Here, we show that genetic ablation of the PLA1 isoform DDHD2 in mice dramatically reduces saturated FFA responses to memory acquisition across the brain. Furthermore, DDHD2 loss also decreases memory performance in reward-based learning and spatial memory models prior to the development of neuromuscular deficits that mirror human spastic paraplegia. Via pulldown-mass spectrometry analyses, we find that DDHD2 binds to the key synaptic protein STXBP1. Using STXBP1/2 knockout neurosecretory cells and a haploinsufficient STXBP1+/- mouse model of human early infantile encephalopathy associated with intellectual disability and motor dysfunction, we show that STXBP1 controls targeting of DDHD2 to the plasma membrane and generation of saturated FFAs in the brain. These findings suggest key roles for DDHD2 and STXBP1 in lipid metabolism and in the processes of synaptic plasticity, learning, and memory.",
+  "authors": [
+    "Isaac O Akefe",
+    "Saber H Saber",
+    "Benjamin Matthews",
+    "Bharat G Venkatesh",
+    "Rachel S Gormal",
+    "Daniel G Blackmore",
+    "Suzy Alexander",
+    "Emma Sieriecki",
+    "Yann Gambin",
+    "Jesus Bertran-Gonzalez",
+    "Nicolas Vitale",
+    "Yann Humeau",
+    "Arnaud Gaudin",
+    "Sevannah A Ellis",
+    "Alysee A Michaels",
+    "Mingshan Xue",
+    "Benjamin Cravatt",
+    "Merja Joensuu",
+    "Tristan P Wallis",
+    "Frédéric A Meunier"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38316990/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

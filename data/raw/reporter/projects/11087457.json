@@ -1,0 +1,124 @@
+{
+  "appl_id": 11087457,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5F31NS137730-02",
+  "project_serial_num": "NS137730",
+  "organization": {
+    "org_name": "NEW YORK UNIVERSITY SCHOOL OF MEDICINE",
+    "city": null,
+    "country": null,
+    "org_city": "NEW YORK",
+    "org_country": "UNITED STATES",
+    "org_state": "NY",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "121911077"
+    ],
+    "org_ueis": [
+      "M5SZJ6VHUHN8"
+    ],
+    "primary_duns": "121911077",
+    "primary_uei": "M5SZJ6VHUHN8",
+    "org_fips": "US",
+    "org_ipf_code": "5998304",
+    "org_zipcode": "10016",
+    "external_org_id": 5998304
+  },
+  "award_type": "5",
+  "activity_code": "F31",
+  "award_amount": 43242,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F31",
+    "ic_code": "NS",
+    "serial_num": "137730",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 78964765,
+      "first_name": "Yu-Chi",
+      "middle_name": "",
+      "last_name": "Sun",
+      "is_contact_pi": true,
+      "full_name": "Yu-Chi  Sun",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "SUN, YU-CHI ",
+  "program_officers": [
+    {
+      "first_name": "MARGUERITE",
+      "middle_name": "",
+      "last_name": "MATTHEWS",
+      "full_name": "MARGUERITE  MATTHEWS"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 43242.0,
+      "direct_cost_ic": 43242.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "NY-12",
+  "spending_categories": null,
+  "project_start_date": "2024-09-01T00:00:00",
+  "project_end_date": "2027-08-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -73.974354,
+    "lat": 40.669895
+  },
+  "opportunity_number": "PA-21-051",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F03A",
+    "sra_flex_code": "E",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F03A-E(20)L]"
+  },
+  "award_notice_date": "2026-08-11T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31NS137730",
+  "terms": "<ASD><Action Potentials><Affect><Alternate Splicing><Alternative RNA Splicing><Alternative Splicing><Animals><Assay><Autism><Autistic Disorder><BK channels><Big K channels><Bioassay><Biological Assay><Brain Diseases><Brain Disorders><CNS plasticity><Cell Body><Cell Communication and Signaling><Cell Signaling><Cells><Chemosensitization><Chemosensitization/Potentiation><Chronic><Cognition Disorders><Data><Defect><Dendrites><Dendritic Spines><Dependence><Early Infantile Autism><Encephalon Diseases><Engineering><Environment><Epilepsy><Epileptic Seizures><Epileptics><Exons><Family><Feedback><Fugu Toxin><Genes><Genetic Markers><Heterogeneity><Homer 1><Homer1><Impairment><In Vitro><Individual><Infantile Autism><Intracellular Communication and Signaling><Intracranial CNS Disorders><Intracranial Central Nervous System Disorders><Investigation><Ion Channel><Ionic Channels><Isoforms><K element><Kanner's Syndrome><Knowledge><Learning><Left><Link><MaxiK channels><Measures><Membrane Channels><Mental disorders><Mental health disorders><Methods><Mice><Mice Mammals><Modification><Murine><Mus><Nav1.2><Nerve Cells><Nerve Unit><Neural Cell><Neuranatomies><Neuranatomy><Neuroanatomies><Neuroanatomy><Neurocyte><Neuronal Plasticity><Neurons><Pattern><Permeability><Physiology><Potassium><Potentiation><Prevalence><Process><Property><Protein Isoforms><Psychiatric Disease><Psychiatric Disorder><RNA Seq><RNA Splicing><RNA sequencing><RNAseq><Reading><Regulation><Research Resources><Resources><SCN2A protein><Seizure Disorder><Seizures><Signal Pathway><Signal Transduction><Signal Transduction Systems><Signaling><Slice><Specificity><Splicing><Synapses><Synaptic><Tarichatoxin><Techniques><Testing><Tetradotoxin><Tetrodotoxin><Transcript><Validation><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><biological signal transduction><cell type><central nervous system plasticity><channel blockers><cognitive disease><cognitive disorder><cognitive syndrome><dendrite spine><epilepsia><epileptogenic><ex vivo><flexibility><flexible><gene biomarker><gene expression biomarker><gene marker><gene signature biomarker><genetic biomarker><in situ sequencing><in vivo><large-conductance calcium-activated potassium channels><maxi-K channels><mental illness><na(v)1.2><neural cell body><neural circuit><neural circuitry><neural plasticity><neurocircuitry><neuronal><neuronal cell body><neuronal excitability><neuroplastic><neuroplasticity><neuropsychiatric disease><neuropsychiatric disorder><pharmacologic><psychiatric illness><psychological disorder><puffer fish toxin><screening><screenings><slowpoke protein><soma><synapse><synaptic circuit><synaptic circuitry><transcriptome sequencing><transcriptomic sequencing><validations><visual deprivation><voltage>",
+  "pref_terms": "Action Potentials;Affect;Alternative Splicing;Animals;Biological Assay;Brain Diseases;Cells;Chemosensitization;Chronic;Cognition Disorders;Data;Defect;Dendrites;Dendritic Spines;Dependence;Engineering;Environment;Epilepsy;Exons;Family;Feedback;Genes;Genetic Markers;Heterogeneity;Homer 1;Impairment;In Vitro;Individual;Investigation;Ion Channel;Knowledge;Learning;Left;Link;Measures;Mental disorders;Methods;Modification;Mus;Neuroanatomy;Neuronal Plasticity;Neurons;Pattern;Permeability;Physiology;Potassium;Prevalence;Process;Property;Protein Isoforms;RNA Splicing;Reading;Regulation;Resources;SCN2A protein;Seizures;Signal Pathway;Signal Transduction;Slice;Specificity;Synapses;Techniques;Testing;Tetrodotoxin;Transcript;Validation;autism spectrum disorder;cell type;channel blockers;ex vivo;flexibility;in situ sequencing;in vivo;large-conductance calcium-activated potassium channels;neural circuit;neuronal cell body;neuronal excitability;neuropsychiatric disorder;pharmacologic;screening;transcriptome sequencing;visual deprivation;voltage",
+  "abstract_text": "Project Summary/Abstract\nNeural circuits can change their properties under changes in activity. Hebbian plasticity acts as a positive\nregulator to increase or decrease synaptic strength and neuronal excitability. These destabilizing challenges\nare counterbalanced by homeostatic plasticity which maintains synaptic strength and neuronal excitability\nwithin an optimal range, stabilizing circuit function. One way to regulate these two processes is by alternative\nsplicing of ion channel genes, which changes channel properties to alter neuronal properties. Studies show\nthat defects in alternative splicing of ion channels can impair circuit activity underlying neuropsychiatric\ndisorders. Evidence suggests that low and high neuronal activity regulates distinct patterns of alternative\nsplicing of ion channel genes, supporting Hebbian or homeostatic plasticity, or both. However, the mechanism\nunderlying these splicing patterns is unknown. My central hypothesis is that activity regulates alternative\nsplicing of ion channels through subcellular signaling mechanisms tailored to specific cell types. My\nproposal will focus on (1) how activity generally changes alternative splicing, (2) how these changes occur in\ndifferent cell types, and (3) how cellular mechanisms control alternative splicing. I will assess these changes\nunder activity perturbation using tetrodotoxin (TTX) to chronically silence neurons and high potassium (40mM\nK+) to chronically depolarize neurons. In vitro investigations will determine the cellular mechanisms while ex\nvivo and in vivo investigations will determine the circuit mechanisms across cell types. Screening, assaying,\nand manipulating alternatively spliced ion channels will be done using cutting-edge multiplexed methods. Aim\n1 will identify examples of different patterns of alternative splicing in ion channels. Through an RNAseq\nscreen and qPCR validation, this aim will characterize the prevalence of different alternative splicing patterns. I\npredict I will characterize splicing patterns across multiple families of ion channels. Aim 2 will investigate how\nactivity regulates alternative splicing in diverse excitatory and inhibitory cell types. I will combine\nneuroanatomical techniques with ex vivo organotypic slice cultures and after perturbations in vivo, to study\nchronic silencing and depolarization in cell types in intact circuits and within a native environment in the animal.\nI predict that activity-dependent alternative splicing occurs in a cell type-specific manner. Aim 3 will determine\nhow signaling from the soma or dendrites regulate alternative splicing. I will use an engineered somatic\nCa2+ blocking method and pharmacological agents to manipulate subcellular signaling in neuron cultures. I\npredict that somatic and dendritic signaling controls two distinct patterns of alternative splicing. The results of\nthis study will clarify the regulation of activity-dependent alternative splicing from subcellular mechanisms and\nfrom cell type-specific mechanisms, providing a multi-level understanding of how dysregulation of neuronal\nactivity contributes to overall activity of the circuit.",
+  "project_title": "Diverse Patterns of Activity-Dependent Alternative Splicing",
+  "phr_text": "Project Narrative\nCognitive and neuropsychiatric disorders have been linked to aberrant alternative splicing of various ion\nchannels. Defects in ion channel splicing can dysregulate ion channel contributions to neuroplasticity. A\nmechanistic understanding of the activity-dependence of alternative splicing of ion channels would therefore\nadvance our knowledge of the underlying causes of abnormal physiology and brain disorders.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-09-01T00:00:00",
+  "budget_end": "2027-08-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 43242,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11087457",
+  "date_added": "2026-09-05T17:04:02"
+}

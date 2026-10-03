@@ -1,0 +1,1722 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04873869",
+      "orgStudyIdInfo": {
+        "id": "NBI-921352-DEE2012"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-003140-83",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Neurocrine Biosciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)",
+      "officialTitle": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacokinetics of NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "This study was prematurely terminated due to sponsor decision.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-03-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-04-30",
+      "studyFirstSubmitQcDate": "2021-04-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-05",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-09-30",
+      "resultsFirstSubmitQcDate": "2025-09-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-10-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Neurocrine Biosciences",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study is to assess the efficacy, safety, and pharmacokinetics of NBI-921352 as adjunctive therapy for seizures in subjects with SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "SCN8A Developmental and Epileptic Encephalopathy Syndrome"
+      ],
+      "keywords": [
+        "Epilepsy",
+        "Sodium channel",
+        "voltage-gated",
+        "type VIII",
+        "alpha subunit (SCN8A)",
+        "NaV1.6 inhibitor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive matching placebo for up to 18 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "NBI-921352",
+          "type": "EXPERIMENTAL",
+          "description": "In the first 6 weeks participants will receive increasing doses of NBI-921352 (Titration Period) based on weight, followed by 10 weeks of treatment at their final tolerated dose (Maintenance Period) and 2 weeks of treatment with decreasing doses (Taper Period).",
+          "interventionNames": [
+            "Drug: NBI-921352"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NBI-921352",
+          "description": "Administered orally",
+          "armGroupLabels": [
+            "NBI-921352"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Administered orally",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage Change From Baseline in 28-day Seizure Frequency for Countable Motor Seizures During the 16-week Treatment Period",
+          "timeFrame": "Planned time frame: Baseline to Week 16"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With a Treatment Response",
+          "description": "Treatment response was defined as a ≥50% decrease from baseline in 28-day seizure frequency for countable motor seizures during the treatment period of the study.",
+          "timeFrame": "Planned time frame: Baseline to Week 16"
+        },
+        {
+          "measure": "Percentage Change From Baseline in 28-day Seizure Frequency for Countable Motor Seizures During the 10-week Maintenance Period",
+          "timeFrame": "Planned time frame: Baseline, Week 6 to Week 16"
+        },
+        {
+          "measure": "Percentage of Participants With a ≥ 25%, ≥ 75%, or 100% Treatment Response During the 16-week Treatment Period",
+          "description": "Treatment response was defined as a ≥25%, ≥50%, ≥75%, or 100% decrease from baseline in 28-day seizure frequency for countable motor seizures during the treatment period of the study.",
+          "timeFrame": "Planned time frame: Baseline to Week 16"
+        },
+        {
+          "measure": "Percentage of Participants With a ≥25%, ≥50%, ≥75%, or 100% Treatment Response During the 10-week Maintenance Period",
+          "description": "Treatment response was defined as a ≥25%, ≥50%, ≥75%, or 100% decrease from baseline in 28-day seizure frequency for countable motor seizures during the treatment period of the study.",
+          "timeFrame": "Planned time frame: Baseline, Week 6 to Week 16"
+        },
+        {
+          "measure": "Clinical Global Impression of Change (CGIC) Score at Each Visit During the 16-week Treatment Period",
+          "description": "The CGIC scale, which is based on a 7-point scale (range: 1=very much improved to 7=very much worse), was used to rate the overall global improvement since the initiation of study treatment dosing, as rated by the investigator (or qualified designee).",
+          "timeFrame": "Planned time frame: Up to Week 16"
+        },
+        {
+          "measure": "Parent/Caregiver Global Impression of Change (GIC) Score at Each Visit During the 16-week Treatment Period",
+          "description": "The GIC scale was used to assess the parent/caregiver's impression of change in the participant's overall condition since starting study treatment and was rated on a 7-point scale (1=very much improved to 7=very much worse).",
+          "timeFrame": "Planned time frame: Up to Week 16"
+        },
+        {
+          "measure": "Change From Baseline in Clinical Global Impression of Severity (CGIS) Scores at Each Visit During the 16-week Treatment Period",
+          "description": "The CGIS scale was used to assess overall severity on a 5-point scale (range: 1=normal, not at all ill to 5=among the most extremely ill).",
+          "timeFrame": "Planned time frame: Baseline to Week 16"
+        },
+        {
+          "measure": "Change From Baseline in Parent/Caregiver Global Impression of Severity (GIS) Scores at Each Visit During the 16-week Treatment Period",
+          "description": "The GIS scale was used to assess overall severity on a 5-point scale (range: 1=none to 5=very severe).",
+          "timeFrame": "Planned time frame: Baseline through Week 16"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female 2 to 21 years of age, inclusive.\n2. Have a diagnosis of SCN8A-DEE supported by both clinical and genetic findings\n3. Have on average at least 1 countable motor seizure per week and not be seizure-free for more than 20 consecutive days\n4. Being treated with at least 1 other antiseizure medication (ASM), but no more than 4 ASMs\n5. Have failed to achieve seizure freedom with at least 2 ASMs\n6. Must be using a nocturnal alerting system or practice consistent with standards of care at the time of screening and continue to use this for the duration of the study\n7. Must have an adequate rescue medication regimen per the investigator's judgment in place at the time of screening and for the duration of the study\n8. Have a body weight of at least 10 kg\n9. The subject's parent/caregiver is able to accurately identify seizure types, especially countable motor seizures (defined as GTCS, tonic, atonic or FOS with noticeable motor component) and is able to complete seizure diary\n\nExclusion Criteria:\n\n1. Have previously been enrolled in this study and received blinded treatment\n2. Have participated in an interventional clinical trial \\< 30 days prior to screening\n3. Have symptoms that would be more consistent with another epilepsy disorder such as Dravet syndrome (eg, fever-induced episodes of status epilepticus, frequent myoclonic seizures, worsening on sodium channel blockers, absence seizures with generalized spike-and-wave EEG as the sole seizure type)\n4. Are currently receiving cannabinoids or medical marijuana except Epidiolex/Epidyolex, unless approved by the Sponsor\n5. Are currently taking systemic steroids (excluding inhaled medication for asthma treatments and intranasal steroids for allergies). If subject has received these medications in the past, must be off these medications for at least 3 months prior to the screening visit and these drugs may not be initiated during the duration of the study. Intermittent steroids to treat nonepilepsy related diseases (such as allergies or dermatological conditions) are not exclusionary\n6. Have a history of moderate or severe head trauma or other neurological disorders or systemic medical diseases that are, in the investigator's opinion, likely to affect nervous system functioning\n7. Have a clinically significant medical condition or chronic disease, that in the opinion of the investigator would preclude the subject from participating in and completing the study or that could confound interpretation of study outcome\n8. Have clinically significant abnormal vital signs at the screening visit as determined by the investigator\n9. Have one or more clinical laboratory test values outside the reference range, based on blood samples taken at the screening visit, that are of potential risk to the subject's safety as determined by the investigator\n10. Have, at the screening visit, an electrocardiogram (ECG) finding of a corrected QT interval using Fridericia's formula (QTcF) \\> 450 msec or presence of any significant cardiac abnormality.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "maximumAge": "21 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Development Lead",
+          "affiliation": "Neurocrine Biosciences",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UCSF Medical Center",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94158",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Children's National Hospital",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "University of Rochester",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Cook Children's Medical Center",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Study was prematurely terminated due to sponsor decision. Due to the early termination, only 8 participants were enrolled and completed the study. As prespecified, analyses were pooled by treatment received (NBI-921352 or placebo), rather than specific dose level received.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "NBI-921352",
+          "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Received Study Drug",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Safety analysis set: Included all participants who received at least 1 dose of study treatment.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "NBI-921352",
+          "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "4"
+            },
+            {
+              "groupId": "BG001",
+              "value": "4"
+            },
+            {
+              "groupId": "BG002",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4.46",
+                      "spread": "2.60"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9.17",
+                      "spread": "4.87"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6.81",
+                      "spread": "4.40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage Change From Baseline in 28-day Seizure Frequency for Countable Motor Seizures During the 16-week Treatment Period",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With a Treatment Response",
+          "description": "Treatment response was defined as a ≥50% decrease from baseline in 28-day seizure frequency for countable motor seizures during the treatment period of the study.",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage Change From Baseline in 28-day Seizure Frequency for Countable Motor Seizures During the 10-week Maintenance Period",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline, Week 6 to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With a ≥ 25%, ≥ 75%, or 100% Treatment Response During the 16-week Treatment Period",
+          "description": "Treatment response was defined as a ≥25%, ≥50%, ≥75%, or 100% decrease from baseline in 28-day seizure frequency for countable motor seizures during the treatment period of the study.",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With a ≥25%, ≥50%, ≥75%, or 100% Treatment Response During the 10-week Maintenance Period",
+          "description": "Treatment response was defined as a ≥25%, ≥50%, ≥75%, or 100% decrease from baseline in 28-day seizure frequency for countable motor seizures during the treatment period of the study.",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline, Week 6 to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Global Impression of Change (CGIC) Score at Each Visit During the 16-week Treatment Period",
+          "description": "The CGIC scale, which is based on a 7-point scale (range: 1=very much improved to 7=very much worse), was used to rate the overall global improvement since the initiation of study treatment dosing, as rated by the investigator (or qualified designee).",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Up to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Parent/Caregiver Global Impression of Change (GIC) Score at Each Visit During the 16-week Treatment Period",
+          "description": "The GIC scale was used to assess the parent/caregiver's impression of change in the participant's overall condition since starting study treatment and was rated on a 7-point scale (1=very much improved to 7=very much worse).",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Up to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Clinical Global Impression of Severity (CGIS) Scores at Each Visit During the 16-week Treatment Period",
+          "description": "The CGIS scale was used to assess overall severity on a 5-point scale (range: 1=normal, not at all ill to 5=among the most extremely ill).",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline to Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Parent/Caregiver Global Impression of Severity (GIS) Scores at Each Visit During the 16-week Treatment Period",
+          "description": "The GIS scale was used to assess overall severity on a 5-point scale (range: 1=none to 5=very severe).",
+          "populationDescription": "Due to early study termination, analyses of efficacy data were not performed due to an insufficient sample size to allow for meaningful statistical analysis of the data, as pre-specified in the protocol.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Planned time frame: Baseline through Week 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NBI-921352",
+              "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Up to 30 weeks",
+      "description": "Safety Analysis Set: Included all participants who received at least 1 dose of study treatment.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "NBI-921352",
+          "description": "Participants received oral doses of NBI-921352 3 times a day based on body weight.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 4,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Participants received oral doses of placebo matching NBI-921352 3 times a day.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 4,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Parainfluenzae virus infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Seizure",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Acute respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Gait disturbance",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Enterovirus infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Otitis media",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Rhinovirus Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Arthropod sting",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Face injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Fall",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Spinal compression fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Eosinophil count increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Urine leukocyte esterase positive",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "White blood cells urine",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Neck pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Coordination abnormal",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Drooling",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Lethargy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Seizure",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Somnolence",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Urinary retention",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Rash papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Due to the early termination, only 8 participants were enrolled and completed the study."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Neurocrine Medical Information",
+        "organization": "Neurocrine Biosciences",
+        "email": "medinfo@neurocrine.com",
+        "phone": "+1 877-641-3461"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-11-30",
+          "uploadDate": "2025-09-23T07:40",
+          "filename": "Prot_000.pdf",
+          "size": 1330492
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2024-12-12",
+          "uploadDate": "2025-09-23T07:40",
+          "filename": "SAP_001.pdf",
+          "size": 344440
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

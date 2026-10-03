@@ -1,0 +1,149 @@
+{
+  "appl_id": 11096934,
+  "subproject_id": null,
+  "fiscal_year": 2025,
+  "project_num": "2U24NS120854-04",
+  "project_serial_num": "NS120854",
+  "organization": {
+    "org_name": "CHILDREN'S HOSP OF PHILADELPHIA",
+    "city": null,
+    "country": null,
+    "org_city": "PHILADELPHIA",
+    "org_country": "UNITED STATES",
+    "org_state": "PA",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "073757627"
+    ],
+    "org_ueis": [
+      "G7MQPLSUX1L4"
+    ],
+    "primary_duns": "073757627",
+    "primary_uei": "G7MQPLSUX1L4",
+    "org_fips": "US",
+    "org_ipf_code": "1499101",
+    "org_zipcode": "191462305",
+    "external_org_id": 1499101
+  },
+  "award_type": "2",
+  "activity_code": "U24",
+  "award_amount": 424415,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "2",
+    "activity_code": "U24",
+    "ic_code": "NS",
+    "serial_num": "120854",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 15318049,
+      "first_name": "Ingo",
+      "middle_name": "",
+      "last_name": "Helbig",
+      "is_contact_pi": true,
+      "full_name": "Ingo  Helbig",
+      "title": "ASSISTANT PROFESSOR, ATTENDING PHYSICIAN"
+    },
+    {
+      "profile_id": 2048128,
+      "first_name": "HEATHER",
+      "middle_name": "C.",
+      "last_name": "MEFFORD",
+      "is_contact_pi": false,
+      "full_name": "HEATHER C. MEFFORD",
+      "title": ""
+    },
+    {
+      "profile_id": 78610744,
+      "first_name": "Kimberly",
+      "middle_name": "",
+      "last_name": "Wiltrout",
+      "is_contact_pi": false,
+      "full_name": "Kimberly  Wiltrout",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "HELBIG, INGO ",
+  "program_officers": [
+    {
+      "first_name": "VICKY",
+      "middle_name": "R",
+      "last_name": "WHITTEMORE",
+      "full_name": "VICKY R WHITTEMORE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2025,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 424415.0,
+      "direct_cost_ic": 323229.0,
+      "indirect_cost_ic": 101186.0
+    }
+  ],
+  "cong_dist": "PA-03",
+  "spending_categories": [
+    118,
+    255,
+    276,
+    520,
+    525,
+    3070
+  ],
+  "project_start_date": "2021-08-01T00:00:00",
+  "project_end_date": "2028-05-31T00:00:00",
+  "organization_type": {
+    "name": "Independent Hospitals",
+    "code": "30",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -75.196604,
+    "lat": 39.946632
+  },
+  "opportunity_number": "PAR-23-199",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "MGG",
+    "sra_flex_code": "A",
+    "group_code": "50",
+    "name": "Special Emphasis Panel[ZRG1 MGG-A (50)]"
+  },
+  "award_notice_date": "2025-07-17T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "OR",
+  "core_project_num": "U24NS120854",
+  "terms": "<Address><Affect><Age><Antisense Agent><Antisense Oligonucleotides><Biologic Models><Biological Models><Calcium Channel><Calcium Channel Antagonist Receptor><Calcium Channel Blocker Receptors><Calcium Ion Channels><Categories><Causality><Classification><ClinVar><Complex><DNA Therapy><Data><Decision Making><Dedications><Development><Diagnostic><Disease><Disorder><Economic Burden><Epilepsy><Epileptic Seizures><Epileptics><Etiology><Family><Foundations><Frequencies><Funding><Gene Transfer Clinical><Genes><Genetic><Genetic Intervention><Genetic Predisposition><Genetic Predisposition to Disease><Genetic Susceptibility><Genetic propensity><Goals><Heterogeneity><Human><Individual><Inherited Predisposition><Inherited Susceptibility><International><Ion Channel><Ion Channel Gating><Ion Channel Gatings><Ionic Channels><Knowledge><Literature><Membrane Channels><Mission><Model System><Modern Man><Modification><NAV1.6><NIH><Na element><NaCh6><National Institutes of Health><Nature><Nervous System Diseases><Nervous System Disorder><Neurologic Disorders><Neurological Disorders><Ontology><Pathogenicity><Patients><Persons><Phenotype><Population><Procedures><Program Development><Public Health><Recommendation><Research><Research Resources><Resources><Role><SCN8A><SCN8A gene><SYNGAP1><Seizure Disorder><Sodium><Sodium Channel><Sodium Ion Channels><Solid><Subgroup><Synapses><Synaptic><Synaptic Ras GTPase Activating Protein 1><Systematics><Testing><Therapeutic Uses><Translating><United States National Institutes of Health><Update><VDCC><Variant><Variant Curation Expert Panel><Variation><Viral Genes><Voltage-Dependent Calcium Channels><Work><ages><antisense oligo><burden of disease><burden of illness><causation><childhood epilepsy><clinical relevance><clinically relevant><common treatment><developmental><discover genes><disease burden><disease causation><disease causing variant><disease-causing allele><disease-causing mutation><epilepsia><epileptogenic><evidence base><gene discovery><gene repair therapy><gene testing><gene therapy><gene-based testing><gene-based therapy><genetic etiology><genetic mechanism of disease><genetic testing><genetic therapy><genetic vulnerability><genetically predisposed><genomic therapy><improved><knowledge curation><neurological disease><novel><pathogenic allele><pathogenic variant><pediatric epilepsy><personalization of treatment><personalized medicine><personalized therapy><personalized treatment><pharmacologic><precision medicine><precision-based medicine><social role><sodium channel, voltage gated, type VIII, alpha subunit><synapse><therapeutic agent development><therapeutic development><treatment choice><unclassified variant><variant of uncertain clinical significance><variant of uncertain significance><variant of undetermined significance><variant of unknown significance><voltage>",
+  "pref_terms": "Address;Affect;Age;Antisense Oligonucleotides;Biological Models;Calcium Channel;Categories;Classification;ClinVar;Complex;Data;Decision Making;Dedications;Development;Diagnostic;Disease;Economic Burden;Epilepsy;Etiology;Family;Foundations;Frequencies;Funding;Genes;Genetic;Genetic Predisposition to Disease;Goals;Heterogeneity;Human;Individual;International;Ion Channel;Ion Channel Gating;Knowledge;Literature;Mission;Modification;Nature;Nervous System Disorder;Ontology;Pathogenicity;Patients;Persons;Phenotype;Population;Procedures;Program Development;Public Health;Recommendation;Research;Resources;Role;SCN8A gene;SYNGAP1;Sodium;Sodium Channel;Solid;Subgroup;Synapses;Testing;Therapeutic Uses;Translating;United States National Institutes of Health;Update;Variant;Variant Curation Expert Panel;Viral Genes;Work;burden of illness;childhood epilepsy;clinically relevant;common treatment;disease-causing mutation;evidence base;gene discovery;gene therapy;genetic testing;improved;knowledge curation;novel;personalized medicine;pharmacologic;precision medicine;therapeutic development;treatment choice;variant of unknown significance;voltage",
+  "abstract_text": "PROJECT SUMMARY\nThe epilepsies affect up to 1% of the global population and more than 150 genetic etiologies have been\ndiscovered over the last two decades. Genetic testing is emerging as a diagnostic standard and the diagnostic\nyield frequently approaches 30-40% for individuals with epilepsy who receive testing. Knowledge about the\nunderlying genetic etiology is increasingly used for personalized medicine and a wide variety of gene-specific\ntreatments with novel pharmacological compounds, gene-regulating strategies such as use of anti-sense\noligonucleotides, and viral gene therapy are under development. However, information with regards to gene\nvalidity and variant pathogenicity is often not standardized. This highlights an ongoing, critical need to assess\nthe validity of gene-disease relationships in the epilepsies, given that variant information is increasingly used for\ntherapeutic decision-making. Our ClinGen Epilepsy Gene Curation Expert Panel (GCEP) already curated nearly\n120 genetic etiologies for the epilepsies and our Epilepsy Sodium Channel Variant Curation Expert Panel (VCEP)\nhas already modified ACMG/AMP variant criteria for ion channel-related epilepsies as the most important gene\ngroup in the epilepsies. The current project represents an urgently needed continuation of our gene and variant\ncuration efforts, which we aim to accomplish through two aims. First, we will curate 100 gene-disease\nrelationships in the epilepsies in newly defined etiologies (Aim #1) given the ongoing discovery of novel genetic\netiologies in the epilepsies. We will use our previously developed epilepsy-specific Standard Operating\nProcedures (SOPs) with regards to phenotype-based pre-curation to capture relevant clinical subgroups, novel\nconcepts for the inclusion of relevant model system data, and reassessment of prior curations based on updated\nliterature. We expect that these SOPs will allow for evidence-based classification in 90% of all genetic etiologies\naccording to different levels of certainty. Secondly, we will curate variants in synapse genes and continue\ncuration for channelopathies (Aim #2). The overall frequency, disease burden, and heterogeneity of the disorders\nof the synapse has only become apparent in the last five years. We therefore will establish a new VCEP for\nsynapse disorders (STXBP1, SYNGAP1, DNM1, and STX1B) and modify ACMG/AMP criteria. Combining\nvariant curation in synapse disorders with our continued effort for variants curation in the ion channels, we plan\nto curate 1,500 variants, aiming for reduced VUS rates by >20%. By the end of the proposed research period,\nwe will have addressed the lack of reliable, objectively reviewed information on the causative nature of newly\nidentified epilepsy genes and will have re-categorized a significant proportion of disease variants in synapse\ndisorders, jointly with our continued effort within the sodium channel VCEP. Combined with our prior work, this\nwill provide a much-needed foundation for the emerging era of precision medicine in genetic epilepsies.",
+  "project_title": "ClinGen Expert Curation Panel for the Epilepsies",
+  "phr_text": "PROJECT NARRATIVE\nThe proposed research is relevant to public health, as more reliable and expert-reviewed gene and variant\ncurations are ultimately expected to translate into improved diagnostics and treatment of the common genetic\nepilepsies, allowing for greater personalized treatment choices. Thus, the proposed research is relevant to the\npurpose of the RFA, mission of the NIH, and goals of the ClinGen consortium by providing a dedicated framework\nto curate knowledge with respect to the genetic epilepsies, with the goal to use that knowledge to reduce the\nburden of neurological disease for all people.",
+  "spending_categories_desc": "Brain Disorders; Epilepsy; Genetics; Neurodegenerative; Neurosciences; Precision Medicine",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2025-07-17T00:00:00",
+  "budget_end": "2026-05-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Other Research-Related",
+  "direct_cost_amt": 323229,
+  "indirect_cost_amt": 101186,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11096934",
+  "date_added": "2025-07-19T16:13:37"
+}

@@ -1,0 +1,305 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06585605",
+      "orgStudyIdInfo": {
+        "id": "IRB-P00044666"
+      },
+      "organization": {
+        "fullName": "Boston Children's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Retrospective Survey-based Multicenter Study to Delineate the Molecular and Phenotypic Spectrum of Epilepsy-dyskinesia Syndromes",
+      "officialTitle": "A Retrospective Survey-based Multicenter Study to Delineate the Molecular and Phenotypic Spectrum of Epilepsy-dyskinesia Syndromes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-09-03",
+      "studyFirstSubmitQcDate": "2024-09-03",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Darius Ebrahimi-Fakhari",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Boston Children's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Boston Children's Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "International Parkinson and Movement Disorder Society",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Epilepsy-Dyskinesia Study aims to advance the understanding of the clinical and molecular spectrum of epilepsy-dyskinesia syndromes, monogenic diseases that cause both movement disorders and epilepsy. Addressing challenges in rare disease research -such as small, geographically dispersed patient populations and a lack of standardized protocols- the study employs a multinational retrospective survey endorsed by the International Parkinson and Movement Disorder Society. This survey seeks to collect comprehensive data on clinical features, disease progression, age of onset, genetic variants, and concurrent neurological conditions, standardizing data collection across countries to provide a unified understanding of these conditions. Through retrospective review and molecular data analysis, the study aims to identify patterns and correlations between movement and seizure disorders, uncovering genotype-phenotype relationships. The initiative\\&#39;s goals are to enhance understanding of epilepsy-dyskinesia syndromes, inform precision medicine approaches, and foster international collaboration.",
+      "detailedDescription": "Overview: The Epilepsy-Dyskinesia Study aims to advance the understanding of the clinical and molecular spectrum of epilepsy-dyskinesia syndromes, which are monogenic diseases causing both movement disorders and epilepsy.\n\nDesign: Multinational Retrospective Survey:\n\nSurvey Details: Endorsed by the International Parkinson and Movement Disorder Society, this multinational retrospective survey seeks to gather comprehensive data on:\n\n* Clinical Features and Progression: Examining developmental history and treatment responses.\n* Disease Aspects: Including the age of onset for movement disorders and seizures, genetic variants, and concurrent neurological conditions.\n\nData Harmonization: By standardizing data collection across countries, the survey aims to overcome barriers in rare disease research and provide a unified understanding of these conditions.\n\nStudy Aims: This study seeks to broaden our understanding of the spectrum and association of movement and seizure disorders through a retrospective review. By analyzing clinical data, the study aims to identify patterns and correlations between these conditions while investigating molecular data to uncover underlying genetic and biochemical mechanisms. The ultimate goal is to enhance knowledge of how these disorders interact and progress over time, offering new insights at both clinical and molecular levels.\n\nOverarching Goals:\n\n1. Enhance understanding of movement disorders and epilepsy.\n2. Inform precision medicine approaches.\n3. Foster international collaboration for rare disease research."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epilepsy in Children",
+        "Dyskinesias",
+        "Movement Disorders in Children",
+        "Neurologic Disorder",
+        "Chorea",
+        "Myoclonus",
+        "Ataxia",
+        "Epilepsy",
+        "Dystonia Disorder",
+        "Movement Disorders"
+      ],
+      "keywords": [
+        "epilepsy-dyskinesia syndrome",
+        "movement disorders",
+        "epileptic encephalopathy",
+        "dyskinesia",
+        "dystonia",
+        "neurogenetics",
+        "PRRT2",
+        "ATP1A3",
+        "MECP2",
+        "CACNA1A",
+        "CDKL5",
+        "FOXG1",
+        "GNAO1",
+        "SCN1A",
+        "SCN8A",
+        "SLC2A1",
+        "STXBP1",
+        "UBA5"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Creation of a Shared Clinical Database",
+          "description": "The primary endpoint of this multi-center study will be the creation of the Epilepsy-Dyskinesia Study and the enrollment of 350 individuals in a shared database.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Understanding of Disease Spectrum",
+          "description": "To comprehensively understand the spectrum and association of movement and seizure disorders on both clinical and molecular levels.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Assess the Impact of Movement Disorders on Health-Related Quality of Life",
+          "description": "To assess the impact of movement disorders on health-related quality of life specifically within the context of epilepsy-dyskinesia syndromes.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Investigate the Efficacy of Symptomatic Treatments",
+          "description": "Investigate the efficacy of symptomatic treatments in addressing both seizure and movement disorders, aiming to identify shared therapeutic strategies.",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Children between 0 - 18 years of age with a movement disorder and a pathogenic or likely pathogenic variant in one of the genes of interest:\n\nAARS2 ALG13 AP3B2 AP4B1 AP4E1 AP4M1 AP4S1 ARX ATP1A3 CACNA1A CACNA1E CACNA2D2 CDKL5 CSTB DARS2 DLAT DLD DNM1 EARS2 EPG5 FARS2 FOXG1 FRRS1L GABRA1 GABRA2 GABRB2 GABRB3 GABRG2 GRIA2 GRIA4 GRIN1 GRIN2A GRIN2B GRIN2D GNAO1 HARS2 HNRNPU IQSEC2 KCNA2 KCNB1 KCNC1 KCNMA1 KCNQ2 KCNQ3 KCNT1 LARS2 MECP2 MEF2C MTND5 MTTL1 MTTK NARS2 NHLRC1 PDE10A PDE2 PCDH12 PCDH19 PDK3 PIGP PIGQ PIGS PIGN POLG PDHA1 PDHB PDHX PRRT2 PURA RHOBTB2 SCN1A SCN1B SCN2A SCN8A SCN9A SLC13A5 SLC1A2 SLC2A1 SLC25A22 SMCA1 SNP14 ST3GAL3 STXBP1 SPTAN1 SYNGAP1 TBC1D24 TBL1WL1 TARS2 UBA5 UBE3A VAMP2 VARS2 WARS2 WDOX WDR45 YIF1B YWHAG\n\nExclusion Criteria:\n\n* Not having such diagnosis and/or not presenting a movement disorder.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "0 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "This study will enroll individuals diagnosed with a movement disorder due to pathogenic or likely pathogenic variants in the genes listed below. We plan to enroll at least 350 individuals over a 24-month period.\n\nAARS2 ALG13 AP3B2 AP4B1 AP4E1 AP4M1 AP4S1 ARX ATP1A3 CACNA1A CACNA1E CACNA2D2 CDKL5 CSTB DARS2 DLAT DLD DNM1 EARS2 EPG5 FARS2 FOXG1 FRRS1L GABRA1 GABRA2 GABRB2 GABRB3 GABRG2 GRIA2 GRIA4 GRIN1 GRIN2A GRIN2B GRIN2D GNAO1 HARS2 HNRNPU IQSEC2 KCNA2 KCNB1 KCNC1 KCNMA1 KCNQ2 KCNQ3 KCNT1 LARS2 MECP2 MEF2C MTND5 MTTL1 MTTK NARS2 NHLRC1 PDE10A PDE2 PCDH12 PCDH19 PDK3 PIGP PIGQ PIGS PIGN POLG PDHA1 PDHB PDHX PRRT2 PURA RHOBTB2 SCN1A SCN1B SCN2A SCN8A SCN9A SLC13A5 SLC1A2 SLC2A1 SLC25A22 SMCA1 SNP14 ST3GAL3 STXBP1 SPTAN1 SYNGAP1 TBC1D24 TBL1WL1 TARS2 UBA5 UBE3A VAMP2 VARS2 WARS2 WDOX WDR45 YIF1B YWHAG",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Darius Ebrahimi-Fakhari, MD, PhD.",
+          "role": "CONTACT",
+          "phone": "617-355-0097",
+          "email": "movementdisorders@childrens.harvard.edu"
+        },
+        {
+          "name": "Vicente Quiroz, MD",
+          "role": "CONTACT",
+          "email": "movementdisorders@childrens.harvard.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Boston Children&#39;s Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Darius Ebrahimi-Fakhari, MD, PhD",
+              "role": "CONTACT",
+              "phone": "617-355-0097",
+              "email": "movementdisorders@childrens.harvard.edu"
+            },
+            {
+              "name": "Darius Ebrahimi-Fakhari, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Vicente Quiroz, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33833732",
+          "type": "BACKGROUND",
+          "citation": "de Gusmao CM, Garcia L, Mikati MA, Su S, Silveira-Moriyama L. Paroxysmal Genetic Movement Disorders and Epilepsy. Front Neurol. 2021 Mar 23;12:648031. doi: 10.3389/fneur.2021.648031. eCollection 2021."
+        },
+        {
+          "pmid": "35795805",
+          "type": "BACKGROUND",
+          "citation": "Mastrangelo M, Galosi S, Cesario S, Renzi A, Campea L, Leuzzi V. Presenting Patterns of Genetically Determined Developmental Encephalopathies With Epilepsy and Movement Disorders: A Single Tertiary Center Retrospective Cohort Study. Front Neurol. 2022 Jun 20;13:855134. doi: 10.3389/fneur.2022.855134. eCollection 2022."
+        },
+        {
+          "pmid": "31784983",
+          "type": "BACKGROUND",
+          "citation": "Papandreou A, Danti FR, Spaull R, Leuzzi V, Mctague A, Kurian MA. The expanding spectrum of movement disorders in genetic epilepsies. Dev Med Child Neurol. 2020 Feb;62(2):178-191. doi: 10.1111/dmcn.14407. Epub 2019 Nov 29."
+        },
+        {
+          "pmid": "35861924",
+          "type": "BACKGROUND",
+          "citation": "Saenz-Farret M, Tijssen MAJ, Eliashiv D, Fisher RS, Sethi K, Fasano A. Antiseizure Drugs and Movement Disorders. CNS Drugs. 2022 Aug;36(8):859-876. doi: 10.1007/s40263-022-00937-x. Epub 2022 Jul 21."
+        },
+        {
+          "pmid": "33919646",
+          "type": "BACKGROUND",
+          "citation": "Spagnoli C, Fusco C, Percesepe A, Leuzzi V, Pisani F. Genetic Neonatal-Onset Epilepsies and Developmental/Epileptic Encephalopathies with Movement Disorders: A Systematic Review. Int J Mol Sci. 2021 Apr 18;22(8):4202. doi: 10.3390/ijms22084202."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020820",
+          "term": "Dyskinesias"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D002819",
+          "term": "Chorea"
+        },
+        {
+          "id": "D009207",
+          "term": "Myoclonus"
+        },
+        {
+          "id": "D001259",
+          "term": "Ataxia"
+        },
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D020821",
+          "term": "Dystonic Disorders"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D004421",
+          "term": "Dystonia"
+        },
+        {
+          "id": "C538001",
+          "term": "Dystonia 12"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

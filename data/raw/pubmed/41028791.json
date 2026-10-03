@@ -1,0 +1,17 @@
+{
+  "pmid": "41028791",
+  "title": "Detecting MUNC18-1 related presynaptic dysfunction and rescue in human iPSC-derived neurons.",
+  "abstract": "Human induced pluripotent stem cell (hiPSC) derived neurons are powerful tools to model disease biology in the drug development space. Here we leveraged a spectrum of neurophysiological tools to characterize iPSC-derived NGN2 neurons. Specifically, we applied these technologies to detect phenotypes associated with presynaptic dysfunction and rescue in NGN2 neurons lacking a synaptic vesicle associated protein MUNC18-1, encoded by syntaxin binding protein 1 gene (STXBP1). STXBP1 homozygous knock out NGN2 neurons lacked miniature post synaptic currents and demonstrated disrupted network bursting as assayed with multielectrode array and calcium imaging. Furthermore, knock out neurons released less glutamate into culture media, consistent with a presynaptic deficit. These synaptic phenotypes were rescued by reconstitution of STXBP1 protein by AAV transduction in a dose-dependent manner. Our results identify a complementary suite of physiological methods suitable to examine the modulation of synaptic transmission in human neurons.",
+  "authors": [
+    "Manzhao Long",
+    "Nicholas B Gallo",
+    "Jennifer Zoll",
+    "Sharanya Unnikrishnan",
+    "Edward Guilmette",
+    "Davide Gianni",
+    "Sijia Wu",
+    "Christopher A Hinckley"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41028791/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

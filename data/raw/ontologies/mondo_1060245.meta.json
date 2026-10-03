@@ -1,0 +1,14 @@
+{
+  "source_id": "mondo_1060245",
+  "provider": "MONDO",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245",
+  "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245",
+  "retrieved_at": "2026-10-03T20:49:35.532806+00:00",
+  "cache_path": "raw/ontologies/mondo_1060245.json",
+  "raw_sha256": "870942c45cd0586d387c6ce81e6468e35c45c50144fd565c22d7f45ed5990652",
+  "bytes": 8524,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC-BY-4.0",
+  "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE"
+}

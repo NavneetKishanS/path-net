@@ -1,0 +1,33 @@
+{
+  "pmid": "41642117",
+  "title": "Mechanisms of SCN2A loss of function do not predict presence or phenotype of epilepsy.",
+  "abstract": "SCN2A loss-of-function (LoF) variants are associated with epilepsy (onset age ≥ 3 months), intellectual disability (ID), and autism spectrum disorder (ASD). Despite numerous identified variants and the description of phenotypic subgroups, relationships between Nav1.2 channel dysfunction and clinical phenotypes remain unclear. This study examined how distinct LoF mechanisms relate to phenotypic outcomes. Whole-cell patch-clamp electrophysiology was used to characterize 15 presumed LoF SCN2A variants. Mechanism-phenotype correlations were assessed in 33 patients with these variants (six recurrent) and 41 patients with 15 previously characterized LoF variants (four recurrent). Phenotypic subgroups were categorized as later onset epilepsy-midinfancy (onset between 3 and 18 months), later onset epilepsy-childhood (onset after 18 months), ID/ASD without epilepsy, and \"other\" for unclassified cases. Of the 15 electrophysiologically characterized SCN2A variants, 11 caused total Nav1.2 LoF, three caused partial LoF, and one showed mixed LoF and gain-of-function (GoF) effects. Among previously published variants, seven showed total LoF, five partial LoF, and two mixed LoF/GoF, and one was undetermined. Across both cohorts, seven of 10 recurrent variants (70%) were associated with multiple phenotypic subgroups. Partial or total Nav1.2 LoF variants were identified in all subgroups. Notably, a midinfancy epilepsy phenotype was observed in 22 of 24 individuals (92%) carrying a mixed LoF variant, with phenotype data unavailable for seven additional individuals. A novel LoF-associated phenotype-episodic ataxia with or without developmental delay or ID-was identified in five of six individuals with the L1650P variant. Although episodic ataxia has been previously associated with GoF variants in SCN2A, this is the first reported instance in individuals with a confirmed LoF variant. Distinct SCN2A LoF phenotypes cannot be reliably linked to specific biophysical mechanisms, as both total and partial Nav1.2 LoF occurs across diverse phenotypes. For efficient personalized treatment, it is crucial not to rely solely on clinical phenotype to predict the underlying LoF mechanism.",
+  "authors": [
+    "Marsha Tan",
+    "Beatrice Southby Goad",
+    "Meagan Allen",
+    "Jill Rodda",
+    "Kay L Richards",
+    "Simone L Ardern-Holmes",
+    "Daniel Bamborschke",
+    "Daniel Fritzen",
+    "Inna Hughes",
+    "Kate Riney",
+    "Ana Roche Martinez",
+    "Angelo Russo",
+    "Adriane Sinclair",
+    "Stefano Sartori",
+    "Marina Trivisano",
+    "Angela De Dominicis",
+    "Nicola Specchio",
+    "Rikke S Møller",
+    "Ingrid E Scheffer",
+    "Walid Fazeli",
+    "Markus Wolff",
+    "Steven Petrou",
+    "Katherine B Howell",
+    "Géza Berecki"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41642117/",
+  "retrieved_at": "2026-10-03T20:51:23+00:00"
+}

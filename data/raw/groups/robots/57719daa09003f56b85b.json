@@ -1,0 +1,7 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/robots.txt",
+  "status_code": 200,
+  "retrieved_at": "2026-10-03T20:50:33Z",
+  "text": "# robots.txt - robot exclusion file - back-end server version - no robots!\n# ========================================================================\n#\nUser-agent: *\nDisallow: /\n",
+  "sha256": "ead5515bac4e17bafb45312b93ca74f15ea098086a1c678f42a8319f3b369ac8"
+}

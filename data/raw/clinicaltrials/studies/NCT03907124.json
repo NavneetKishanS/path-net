@@ -1,0 +1,331 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03907124",
+      "orgStudyIdInfo": {
+        "id": "STUDY00018828"
+      },
+      "organization": {
+        "fullName": "Oregon Health and Science University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Clinical Utility of Pharmacogenomics of Psychotropic Medications",
+      "officialTitle": "Clinical Utility of Pharmacogenomics of Psychotropic Medications"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "PI left institution prior to recruitment.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-06-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-07-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-07-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-03-12",
+      "studyFirstSubmitQcDate": "2019-04-04",
+      "studyFirstPostDateStruct": {
+        "date": "2019-04-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Kamalika Roy",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Oregon Health and Science University"
+      },
+      "leadSponsor": {
+        "name": "Oregon Health and Science University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "While the scientific understanding of pharmacogenomics is quickly accelerating, its translation to clinical decision-making (especially in psychiatric practice) has progressed more slowly. In an effort to begin to bridge this translational gap, genetic testing has been developed for various and commonly existing psychiatric disorders, such as major depression, schizophrenia, bipolar disorder, and pain syndromes to improve the safety of prescribing psychotropic medications for these disorders. This genetic testing incudes several pharmacodynamics and pharmacokinetic genetic factors, such as the cytochrome P450 1A2 gene (CYP1A2); the cytochrome P450 2B6 (CYP2B6) gene; P450 2D6 gene (CYP2D6); the cytochrome P450 2C9 gene (CYP2C9); the cytochrome P450 2C19 gene (CYP2C19); uridine-glucoronyl-transferase 2B15 (UGT2B15) gene; the serotonin transporter gene (Solute Carrier Family 6 Member; SLC6A4); p-glycoprotein ( ATP-binding cassette sub-family B member 1; ABCB1) transporter gene; the serotonin 2A receptor gene (HTR2A); the serotonin 2C receptor (HTR2C) gene; serotonin 1a receptor (5HT1a) gene; dopamine 1 receptor (DRD1) gene; dopamine 2 receptor (DRD2) gene; adrenergic alpha-2A receptor (alpha-2A) gene; opioid mu (opioid receptor mu 1; OPRM1) receptor gene; dopamine synthesis gene (ankyrin repeat and kinase domain containing 1; ANKK1); dopamine metabolizing enzyme \\[Catechol-o-methyltransferase (COMT\\]) gene; kainite receptor gene (glutamate ionotropic receptor kainate type subunit 4; GRIK4); folate (methylenetetrahydrofolate reductase; MTHFR) gene; sodium channels (sodium voltage-gated channel alpha subunit 2; SCN2A) gene.\n\nThe interpretive report is based on copies of these multiple informative genes. The investigators are proposing to utilize comprehensive genetic testing to select more genetically-informed psychotropic medications to enhance their effectiveness in real-world patients with psychiatric illnesses such as schizophrenia, major depression, bipolar affective disorder as well as pain in a state hospital setting. The investigators plan to use genetic testing offered by Admera® for major classes of psychotropic medications. The investigators hypothesize that genetic testing will demonstrate clinical benefits by improving state hospital patients' response and decreasing their adverse effects. The proposed study will be conducted in a total sample of 60 subjects diagnosed with schizophrenia, major depression, bipolar affective disorder as well as pain at the Oregon State Hospital, Salem Oregon over a total period of 24 months",
+      "detailedDescription": "There is considerable inter-individual variability in therapeutic drug response, required dosage and adverse effects in psychotropic treatment. Few patients experience a remission of their illness when initially treated with any medications.1,2 In those who remain symptomatic, less than half will experience a significant improvement with a change in medication or with the addition of an alternative psychotropic medication.2 Variation in drug response is complex and is dependent on a number of factors, including diagnostic accuracy, the potential for drug-drug interactions, age, gender, renal and hepatic functioning, medical and psychiatric comorbidity, nutritional status, coincident substance use, genomic and related downstream translational factors and patient compliance. In recent studies examining the use of antidepressants, antipsychotics, mood stabilizers, and pain medications substantial proportions of study patients discontinue treatment as a consequence of adverse effects or symptom relapse.3-5 Similarly in community practice settings, nearly half of the patients make no follow-up visits, and only a fourth return to pursue regular primary treatment.6,7 Prolonged times to response whether caused by adverse effects or by other factors are associated with substantial increased risk for morbidity or mortality. Pharmacogenomic testing is expected to improve response, as well as minimize the likelihood of adverse effects associated with patient nonadherence and extended morbidity.8-10 While the scientific understanding of pharmacogenomics is quickly accelerating, its translation to clinical decision-making in practice has progressed more slowly.11,12 In an effort to begin to bridge this translational gap, a pharmacogenomic/pharmacogenetic testing has been developed for various and commonly existing psychiatric disorders to improve the safety of prescribing medications. This pharmacogenomic-based interpretive report is based on genotyping both copies of multiple informative genes, which are: the cytochrome P450 1A2 gene (CYP1A2); the cytochrome P450 2B6 (CYP2B6) gene; P450 2D6 gene (CYP2D6); the cytochrome P450 2C9 gene (CYP2C9); the cytochrome P450 2C19 gene (CYP2C19); uridine-glucoronyl-transferase 2B15 (UGT2B15) gene; the serotonin transporter gene (Solute Carrier Family 6 Member; SLC6A4); p-glycoprotein ( ATP-binding cassette sub-family B member 1; ABCB1) transporter gene; the serotonin 2A receptor gene (HTR2A); the serotonin 2C receptor (HTR2C) gene; serotonin 1a receptor (5HT1a) gene; dopamine 1 receptor (DRD1) gene; dopamine 2 receptor (DRD2) gene; adrenergic alpha-2A receptor (alpha-2A) gene; opioid mu (opioid receptor mu 1; OPRM1) receptor gene; dopamine synthesis gene (ankyrin repeat and kinase domain containing 1; ANKK1); dopamine metabolizing enzyme \\[Catechol-o-methyltransferase (COMT\\]) gene; kainite receptor gene (glutamate ionotropic receptor kainate type subunit 4; GRIK4); folate (methylenetetrahydrofolate reductase; MTHFR) gene; sodium channels (sodium voltage-gated channel alpha subunit 2; SCN2A) gene.\n\nThe cytochrome P450 enzymes' genes code for the enzymes that are responsible for metabolism of most antipsychotic, antidepressant and pain medications. The UGT2B15 is for benzodiazepine metabolism. The COMT gene is for dopamine metabolism and is relevant for cognitive function, depression and smoking. The SLC6A4 and the 5HT2A have been associated with differential treatment response to specific medications. The 5HT2C is for weight gain; the ABCB1 gene is for pain; some psychotropics such as risperidone; the dopamine 2 (D2) receptor gene for psychotropic medications, weight gain and pain medications; and the opioid mu (OPRM1) receptor gene for weight and pain; Sodium channels (SCN2A) gene for autism, seizures and bipolar disorder; GRIK4 gene is for kainite receptor involvement with rapidly acting antidepressants, pain, dysphoria, and potentially psychotropic medications' ANKK1 is for smoking, weight management, and bipolar disorder. The MHTFR is for antidepressants; D1 is for psychotropic response.\n\nSuch genetic testing has a significant potential to reduce healthcare costs through increased efficacy and tolerability of antidepressant medications as well as medication adherence. However, there is a relative lack of such efforts with psychotropic medications (APMs) in the treatment of various psychiatric disorders, such as schizophrenia, major depression, or bipolar disorder. This is despite significant room for improvement in efficacy and tolerability of currently available drugs in such patients. Consequently, the investigators are proposing to utilize genetic testing to select more genetically-informed medications to enhance their effectiveness in real-world patients with psychiatric illnesses such as schizophrenia, major depression, and bipolar affective disorder as well as medical problem with chronic pain in a large state hospital setting. The investigators plan to use genetic testing offered by Admera® for medications. The investigators hypothesize that utilizing such pharmacogenomic testing as a treatment decision support tool will demonstrate clinical benefits by improving patient response and decreasing adverse effects to the psychotropic medications. The proposed study will be conducted at the Oregon State Hospital, Salem Oregon over a total period of 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Psychiatric Disorders",
+        "Pain"
+      ],
+      "keywords": [
+        "Utility",
+        "Pharmacogenomics",
+        "Psychotropic",
+        "Medications"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a randomized prospective cohort study which will compare the utility of an interpretive report based on pharmacogenomic testing between study subjects receiving psychotropic medication with guidance from an interpretive report (i.e., Genetically-Guided Group) and those receiving psychotropic medications without the implementation of the interpretive report (Genetically-Unguided Group).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The study raters will be kept blinded to the two arms of the study to avoid assessment bias.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Genetically-guided treatment arm",
+          "type": "EXPERIMENTAL",
+          "description": "The active arm - where patients will receive genetically-guided treatment",
+          "interventionNames": [
+            "Drug: Genetically-guided treatment with FDA-approved psychotropic drugs",
+            "Drug: Treatment as usual (TAU)"
+          ]
+        },
+        {
+          "label": "Treatment as usual (TAU) control arm",
+          "type": "NO_INTERVENTION",
+          "description": "TAU is the control arm - where patients will continue to receive their usual treatment as before."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Genetically-guided treatment with FDA-approved psychotropic drugs",
+          "description": "Psychiatric patients in this experimental arm will receive genetically-guided treatment with psychotropic medications",
+          "armGroupLabels": [
+            "Genetically-guided treatment arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Treatment as usual (TAU)",
+          "description": "All subjects assigned to TAU group, which is the control arm, will continue to receive FDA-approved psychotropic medications for psychiatric indications investigated in this study",
+          "armGroupLabels": [
+            "Genetically-guided treatment arm"
+          ],
+          "otherNames": [
+            "standard of care treatment with FDA-approved psychotropic drugs"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Positive Subscale of Positive and Negative Syndrome Scale (PANSS)",
+          "description": "PANSS is one of the most widely clinical scales to monitor positive and negative symptoms of schizophrenia. The scores range from 30 to 210. A score of 58 is considered mildly ill; 75 is moderately ill and 95 is markedly ill; and 116 is severely ill. This study will only use the scores from positive subscale (range 7 to 49) and the eligibility criteria will require a moderate score on 4 positive sub-scale items, including hallucinations, delusions, suspiciousness and conceptual disorganization to qualify for the study.",
+          "timeFrame": "15 minutes"
+        },
+        {
+          "measure": "Behavioral Assessment of Pain Screening Instrument (BAPSI)",
+          "description": "This scale assesses level of pain-related disability, psychological distress, and pain intensity. 0 - 3 = minimal levels of average pain intensity; 4 - 6 = moderate levels of average pain intensity; 7 - 10 = severe levels of average pain intensity.",
+          "timeFrame": "10 minutes"
+        },
+        {
+          "measure": "Generalized Anxiety Disorder-7 (GAD-7)",
+          "description": "This is a scale to assess severity of anxiety symptoms. Total score=21; 5-9 = Mild; 10-14 = Moderate; \\>15 = Severe\n\n\\*For Panic Disorder, Social Phobia, \\& PTSD, cutoff score of 8 may be used for optimal sensitivity/specificity (see Evidence section).\n\nCritical Actions\n\nThis tool should be used for screening and monitoring symptom severity and cannot replace a clinical assessment and diagnosis.\n\nDo not forget to rule out medical causes of anxiety before diagnosing an anxiety disorder (for example, EKG for arrhythmias, TSH for thyroid disease).",
+          "timeFrame": "10 minutes"
+        },
+        {
+          "measure": "Public Health Questionnaire-9 (PHQ-9)",
+          "description": "This is a commonly used scale in clinical practice to assess depressive symptoms. The total score is 36. Score of 0-4 = Minimal or no depressive symptoms; 5-9 = Mild symptoms; 10-14 = moderate symptoms; 15-19 = Moderately severe symptoms; 20-27 = severe symptoms.",
+          "timeFrame": "10 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Global Impression-Severity (CGI-S) and Clinical Global Impression-Improvement (CGI-I)",
+          "description": "CGI-S will be used to assess severity o illness at baseline. The total score ranges from 0 to 7, where 0 is not assessed; 3 is mildly ill; 5 is markedly ill; and 7 is most extensively ill. While CGI-I is is scored from 0 to 7, where 0 is not assessed; 1 is very much improved; 3 is minimally improved; 5 is minimally worse and 7 is very much worse.",
+          "timeFrame": "5 minutes"
+        },
+        {
+          "measure": "Self-Report Quality of Life Scale (SQLS)",
+          "description": "This is a 30-item questionnaire, comprising three scales ('psychosocial', 'motivation and energy', and 'symptoms and side-effects') addressing different SQLS dimensions. Each quality of life item is scored from 0 to 4, where 0 is not assessed, 1 is rare; 2 is sometimes, 3 is often and 4 is frequently. The score can range from 0 to 120, where higher scores reflect lower quality of life.",
+          "timeFrame": "5 minutes"
+        },
+        {
+          "measure": "Social & Occupational Functional Assessment Scale (SOFAS)",
+          "description": "SOFAS focuses exclusively on the individual's level of social and occupational functioning and is not directly influenced by the overall severity of the individual's psychological symptoms. It is scored from 0 to 100, where 100 = Superior functioning in a wide range of activities; 80 = No more than a slight impairment in social, occupational, or school functioning (e.g., infrequent interpersonal conflict, temporarily falling behind in schoolwork); 60 is Moderate difficulty in social, occupational, or school functioning (e.g., few friends, conflicts with peers or co-workers); 40 = Major impairment in several areas, such as work or school, family relations; and 20 = Occasionally fails to maintain minimal personal hygiene; unable to function independently.",
+          "timeFrame": "7 minutes"
+        },
+        {
+          "measure": "Abnormal Involuntary Movement Scale (AIMS)",
+          "description": "The AIMS is a 12-item clinician-rated scale to assess severity of EPS, especially dyskinesias in patients taking neuroleptic medications. It also assesses overall severity, incapacitation, and the patient's level of awareness of the movements, and distress associated with them. Items are scored on a 0 (none) to 4 (severe) basis; the scale provides a total score (items 1 through 7) or item 8 can be used in isolation as an indication of overall severity of symptoms.",
+          "timeFrame": "7 minutes"
+        },
+        {
+          "measure": "UKU Side Effect Rating Scale (USERS)",
+          "description": "USERS is a comprehensive scale to assess side effects from medications. It is composed of several sub-scales but in this study we will only use the sub-scales that are frequently associated with neuroleptic medications i.e., psychic (10 items), neurologic (8 items) and autonomic (11 items). Each item is scores as 9, 0, 1, 2 and 3, the higher number represents a subjectively reported increase in frequency of respective side effect.",
+          "timeFrame": "10 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient is between the ages of 18 and 80\n* Schizophrenia or schizoaffective disorder, major depressive disorder, bipolar affective disorder as ascertained by a qualified physician or mental health professional licensed to diagnose based on DSM-V criteria.\n* Patients using antidepressants, anxiolytics, mood stabilizers, and sedative/hypnotics will be allowed\n* Patients on clozapine treatment will be allowed.\n* Study subjects with a score of at least 12 on the scale to assess capacity to consent i.e., UBACC.\n\nExclusion Criteria:\n\n* Patients who are court-committed for involuntary medications\n* Uncontrolled and/or serious medical illness (as ascertained at admission screening process)\n* Pregnant patients\n* Patients who cannot communicate in English.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mujeeb U Shad, MD, MSCS",
+          "affiliation": "Psychiatry",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mujeeb Uddin Shad",
+          "city": "Salem",
+          "state": "Oregon",
+          "zip": "97301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9429,
+            "lon": -123.0351
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19179943",
+          "type": "BACKGROUND",
+          "citation": "Kemp AH, Gordon E, Rush AJ, Williams LM. Improving the prediction of treatment response in depression: integration of clinical, cognitive, psychophysiological, neuroimaging, and genetic measures. CNS Spectr. 2008 Dec;13(12):1066-86; quiz 1087-8. doi: 10.1017/s1092852900017120."
+        },
+        {
+          "pmid": "16554525",
+          "type": "BACKGROUND",
+          "citation": "Rush AJ, Trivedi MH, Wisniewski SR, Stewart JW, Nierenberg AA, Thase ME, Ritz L, Biggs MM, Warden D, Luther JF, Shores-Wilson K, Niederehe G, Fava M; STAR*D Study Team. Bupropion-SR, sertraline, or venlafaxine-XR after failure of SSRIs for depression. N Engl J Med. 2006 Mar 23;354(12):1231-42. doi: 10.1056/NEJMoa052963."
+        },
+        {
+          "pmid": "17074942",
+          "type": "BACKGROUND",
+          "citation": "Rush AJ, Trivedi MH, Wisniewski SR, Nierenberg AA, Stewart JW, Warden D, Niederehe G, Thase ME, Lavori PW, Lebowitz BD, McGrath PJ, Rosenbaum JF, Sackeim HA, Kupfer DJ, Luther J, Fava M. Acute and longer-term outcomes in depressed outpatients requiring one or several treatment steps: a STAR*D report. Am J Psychiatry. 2006 Nov;163(11):1905-17. doi: 10.1176/ajp.2006.163.11.1905."
+        },
+        {
+          "pmid": "16172203",
+          "type": "BACKGROUND",
+          "citation": "Lieberman JA, Stroup TS, McEvoy JP, Swartz MS, Rosenheck RA, Perkins DO, Keefe RS, Davis SM, Davis CE, Lebowitz BD, Severe J, Hsiao JK; Clinical Antipsychotic Trials of Intervention Effectiveness (CATIE) Investigators. Effectiveness of antipsychotic drugs in patients with chronic schizophrenia. N Engl J Med. 2005 Sep 22;353(12):1209-23. doi: 10.1056/NEJMoa051688. Epub 2005 Sep 19."
+        },
+        {
+          "pmid": "18221631",
+          "type": "BACKGROUND",
+          "citation": "Thase ME. STEP-BD and bipolar depression: what have we learned? Curr Psychiatry Rep. 2007 Dec;9(6):497-503. doi: 10.1007/s11920-007-0068-9."
+        },
+        {
+          "pmid": "20843873",
+          "type": "BACKGROUND",
+          "citation": "Simon GE, Perlis RH. Personalized medicine for depression: can we match patients with treatments? Am J Psychiatry. 2010 Dec;167(12):1445-55. doi: 10.1176/appi.ajp.2010.09111680. Epub 2010 Sep 15."
+        },
+        {
+          "pmid": "17362808",
+          "type": "BACKGROUND",
+          "citation": "Perlis RH. Pharmacogenetic studies of antidepressant response: how far from the clinic? Psychiatr Clin North Am. 2007 Mar;30(1):125-38. doi: 10.1016/j.psc.2006.12.004."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Mrazek DA. Psychiatric Pharmacogenomics. New York, NY: Oxford University Press; 2010."
+        },
+        {
+          "pmid": "15037866",
+          "type": "BACKGROUND",
+          "citation": "Kirchheiner J, Nickchen K, Bauer M, Wong ML, Licinio J, Roots I, Brockmoller J. Pharmacogenetics of antidepressants and antipsychotics: the contribution of allelic variations to the phenotype of drug response. Mol Psychiatry. 2004 May;9(5):442-73. doi: 10.1038/sj.mp.4001494."
+        },
+        {
+          "pmid": "21192344",
+          "type": "BACKGROUND",
+          "citation": "Mrazek DA, Biernacka JM, O'Kane DJ, Black JL, Cunningham JM, Drews MS, Snyder KA, Stevens SR, Rush AJ, Weinshilboum RM. CYP2C19 variation and citalopram response. Pharmacogenet Genomics. 2011 Jan;21(1):1-9. doi: 10.1097/fpc.0b013e328340bc5a."
+        },
+        {
+          "pmid": "21485747",
+          "type": "BACKGROUND",
+          "citation": "Licinio J, Wong ML. Pharmacogenomics of antidepressant treatment effects. Dialogues Clin Neurosci. 2011;13(1):63-71. doi: 10.31887/DCNS.2011.13.1/jlicinio."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Rundell JR, Shinozaki G. Pharmacogenomic considerations in patients with both comorbid medical and psychiatric illness. Prim Psychiatry 2010; 17:33-38"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

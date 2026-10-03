@@ -1,0 +1,22 @@
+{
+  "pmid": "39463124",
+  "title": "Quantitative EEG biomarkers for STXBP1-related disorders.",
+  "abstract": "EEG patterns and quantitative EEG (qEEG) features have been poorly explored in monogenic epilepsies. Herein, we investigate regional differences in EEG frequency composition in patients with STXBP1 developmental and epileptic encephalopathy (STXBP1-DEE). We conducted a retrospective study collecting electroclinical data of patients with STXBP1-DEE and two control groups of patients with DEEs of different etiologies and typically developing individuals matched for age and sex. We performed a (1) visual EEG assessment, (b) qEEG analysis, and (c) electrical source imaging (ESI). We quantified the relative power (RP) of four frequency bands (α β, θ, δ), in two electrode groups (anterior/posterior), and compared their averages and dynamics (standard deviation [SD] over time). The ESI was performed by applying the standard Distributed Source Modeling algorithm. We analyzed 42 EEG studies in 19 patients with STXBP1-DEE (10 female), with a median age at recordings of 9.6 years (range 9 months to 29 years). The δRP was higher in recordings of STXBP1-DEE (p < .001) compared to both control groups, suggesting the pathogenicity and STXBP1-specificity of these findings. In STXBP1-DEE, the δRP was significantly higher in the anterior electrode group compared to the posterior one (p = .003). There was no correlation between the anterior δRP and the epilepsy focus, age at recordings, and concomitant medications The ESI modeling of this activity showed a widespread involvement of the dorsomesial frontal cortex, suggesting a large corticosubcortical pathologic network. Finally, we identified two groups of recordings: cluster.1 with higher anterior δRP and low dynamics and cluster.2 with lower δRP and higher dynamics. Patients in cluster.1 had a more severe epilepsy and neurological phenotype compared to patients in cluster 2. The qEEG analysis showed a predominant frontal slow activity as a specific STXBP1 feature that correlates with the severity of the phenotype and may represent a biomarker for prospective longitudinal studies of STXBP1-DEE.",
+  "authors": [
+    "Alberto Cossu",
+    "Francesca Furia",
+    "Jacopo Proietti",
+    "Caterina Ancora",
+    "Chiara Reale",
+    "Francesca Darra",
+    "Roberto Previtali",
+    "Bernardo Dalla Bernardina",
+    "Guido Rubboli",
+    "Sandor Beniczky",
+    "Rikke S Møller",
+    "Gaetano Cantalupo",
+    "Elena Gardella"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39463124/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

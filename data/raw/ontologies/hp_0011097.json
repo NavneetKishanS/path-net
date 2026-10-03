@@ -1,0 +1,105 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/HP_0011097",
+      "lang" : "en",
+      "description" : [ "The maximum age of onset is between 3 and 12 months, the peak being at 6 months. However, spasms may start from birth, or appear long after the age of 12 months, including into adulthood. Infantile spasms represent a specific type of seizure seen in an epilepsy syndrome of infancy and childhood known as West Syndrome. West Syndrome is characterized by infantile spasms, developmental regression, and hypsarrhythmia (as demonstrated by electroencephalography).", "A sudden flexion, extension, or mixed extension-flexion of predominantly proximal and truncal muscles that is usually more sustained than a myoclonic movement but not as sustained as a tonic seizure. Limited forms may occur: Grimacing, head nodding, or subtle eye movements. Epileptic spasms frequently occur in clusters. Infantile spasms are the best known form, but spasms can occur at all ages" ],
+      "synonyms" : [ "Salaam convulsion", "Salaam seizure", "West syndrome", "Epileptic spasms", "Salaam convulsions", "Salaam seizures" ],
+      "annotation" : {
+        "Creator" : [ "https://orcid.org/0000-0002-0736-9199" ],
+        "Date" : [ "2011-05-04T01:56:31Z" ],
+        "id" : [ "HP:0011097" ]
+      },
+      "label" : "Epileptic spasm",
+      "ontology_name" : "hp",
+      "ontology_prefix" : "HP",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "HP_0011097",
+      "obo_id" : "HP:0011097",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "A sudden flexion, extension, or mixed extension-flexion of predominantly proximal and truncal muscles that is usually more sustained than a myoclonic movement but not as sustained as a tonic seizure. Limited forms may occur: Grimacing, head nodding, or subtle eye movements. Epileptic spasms frequently occur in clusters. Infantile spasms are the best known form, but spasms can occur at all ages",
+        "oboXrefs" : [ {
+          "database" : "HPO_CONTRIBUTOR",
+          "id" : "jalbers",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "PMID",
+          "id" : "28276060",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/28276060"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : [ {
+        "name" : "Epileptic spasms",
+        "scope" : "hasExactSynonym",
+        "type" : "plural form",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Salaam convulsions",
+        "scope" : "hasExactSynonym",
+        "type" : "plural form",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Salaam seizures",
+        "scope" : "hasExactSynonym",
+        "type" : "plural form",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0011097/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0011097"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

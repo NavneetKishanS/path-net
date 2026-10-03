@@ -1,0 +1,153 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_1060245",
+      "lang" : "en",
+      "description" : [ "Any nervous system disorder in which the cause of the disease is a variation in the SCN2A gene, which encodes the Nav1.2 sodium channel critical for neuronal function. SCN2A-related disorders span a broad phenotypic spectrum, from self-limited familial neonatal-infantile epilepsy through severe early-onset epileptic encephalopathies to later-onset epilepsy, autism spectrum disorder and intellectual disability without seizures, and episodic ataxia. Because Nav1.2 is essential for brain development as well as neuronal excitability, the presentation is predominantly neurodevelopmental where developmental delay, intellectual disability, and autism spectrum disorder are the most consistent features across the spectrum, present even in the absence of seizures. Clinical severity is broadly associated with the functional effect of the variant on the Nav1.2 channel, with gain-of-function changes typically linked to early severe epilepsy and loss-of-function changes more often associated with autism spectrum disorder and intellectual disability or intellectual disability, although these relationships are complex and not fully understood." ],
+      "synonyms" : [ "SCN2A disorders", "SCN2A related conditions", "SCN2A-RD" ],
+      "annotation" : {
+        "Creator" : [ "https://orcid.org/0000-0002-7638-4659" ],
+        "id" : [ "MONDO:1060245" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/10205" ]
+      },
+      "label" : "SCN2A-related disorder",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_1060245",
+      "obo_id" : "MONDO:1060245",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "Any nervous system disorder in which the cause of the disease is a variation in the SCN2A gene, which encodes the Nav1.2 sodium channel critical for neuronal function. SCN2A-related disorders span a broad phenotypic spectrum, from self-limited familial neonatal-infantile epilepsy through severe early-onset epileptic encephalopathies to later-onset epilepsy, autism spectrum disorder and intellectual disability without seizures, and episodic ataxia. Because Nav1.2 is essential for brain development as well as neuronal excitability, the presentation is predominantly neurodevelopmental where developmental delay, intellectual disability, and autism spectrum disorder are the most consistent features across the spectrum, present even in the absence of seizures. Clinical severity is broadly associated with the functional effect of the variant on the Nav1.2 channel, with gain-of-function changes typically linked to early severe epilepsy and loss-of-function changes more often associated with autism spectrum disorder and intellectual disability or intellectual disability, although these relationships are complex and not fully understood.",
+        "oboXrefs" : [ {
+          "database" : "PMID",
+          "id" : "28379373",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/28379373"
+        }, {
+          "database" : "PMID",
+          "id" : "31904126",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/31904126"
+        }, {
+          "database" : "PMID",
+          "id" : "31924505",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/31924505"
+        }, {
+          "database" : "PMID",
+          "id" : "38651838",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/38651838"
+        }, {
+          "database" : "PMID",
+          "id" : "40694750",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/40694750"
+        }, {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0001-9310-0163",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0001-9310-0163"
+        }, {
+          "database" : null,
+          "id" : "https://scn2a.org/pdf/scn2arelated_disorders.pdf",
+          "description" : null,
+          "url" : "https://scn2a.org/pdf/scn2arelated_disorders.pdf"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : [ {
+        "name" : "SCN2A disorders",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0001-9310-0163",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0001-9310-0163"
+        } ]
+      }, {
+        "name" : "SCN2A related conditions",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0001-9310-0163",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0001-9310-0163"
+        }, {
+          "database" : null,
+          "id" : "https://www.rarechromo.org/media/information/Chromosome%20%202/SCN2A%20related%20conditions%20FTNW.pdf",
+          "description" : null,
+          "url" : "https://www.rarechromo.org/media/information/Chromosome%20%202/SCN2A%20related%20conditions%20FTNW.pdf"
+        } ]
+      }, {
+        "name" : "SCN2A-RD",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0001-9310-0163",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0001-9310-0163"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/graph"
+        },
+        "has_material_basis_in_germline_mutation_in" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

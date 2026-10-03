@@ -1,0 +1,14 @@
+{
+  "source_id": "phenotype",
+  "provider": "HPO",
+  "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+  "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/41063438/30a413da-5d1f-4476-b219-03dc6507f153",
+  "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+  "cache_path": "raw/ontologies/phenotype.hpoa",
+  "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+  "bytes": 35816037,
+  "etag": "\"0x8DF0936DA47C46B\"",
+  "last_modified": "Wed, 02 Sep 2026 21:12:10 GMT",
+  "license": "HPO license; attribution, version and integrity requirements",
+  "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md"
+}

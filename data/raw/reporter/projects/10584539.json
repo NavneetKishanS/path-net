@@ -1,0 +1,130 @@
+{
+  "appl_id": 10584539,
+  "subproject_id": "6349",
+  "fiscal_year": 2023,
+  "project_num": "5P01HL144457-05",
+  "project_serial_num": "HL144457",
+  "organization": {
+    "org_name": "VERSITI BLOOD HEALTH, INC.",
+    "city": null,
+    "country": null,
+    "org_city": "MILWAUKEE",
+    "org_country": "UNITED STATES",
+    "org_state": "WI",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "057163172"
+    ],
+    "org_ueis": [
+      "JZDRNT166LE4"
+    ],
+    "primary_duns": "057163172",
+    "primary_uei": "JZDRNT166LE4",
+    "org_fips": "US",
+    "org_ipf_code": "5304801",
+    "org_zipcode": "532332121",
+    "external_org_id": 5304801
+  },
+  "award_type": "5",
+  "activity_code": "P01",
+  "award_amount": 301897,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "P01",
+    "ic_code": "HL",
+    "serial_num": "144457",
+    "support_year": "05",
+    "full_support_year": "05",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 14128114,
+      "first_name": "Christopher",
+      "middle_name": "",
+      "last_name": "Ng",
+      "is_contact_pi": true,
+      "full_name": "Christopher  Ng",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "NG, CHRISTOPHER ",
+  "program_officers": [
+    {
+      "first_name": "ANDREI",
+      "middle_name": "L",
+      "last_name": "KINDZELSKI",
+      "full_name": "ANDREI L KINDZELSKI"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "HL",
+    "abbreviation": "NHLBI",
+    "name": "National Heart Lung and Blood Institute",
+    "admin_org_id": "12500068",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2023,
+      "code": "HL",
+      "name": "National Heart Lung and Blood Institute",
+      "abbreviation": "NHLBI",
+      "total_cost": 301897.0,
+      "direct_cost_ic": 240779.0,
+      "indirect_cost_ic": 61118.0
+    }
+  ],
+  "cong_dist": "WI-04",
+  "spending_categories": [
+    108,
+    176,
+    276,
+    306,
+    320
+  ],
+  "project_start_date": "2019-03-15T00:00:00",
+  "project_end_date": "2025-02-28T00:00:00",
+  "organization_type": {
+    "name": "Research Institutes",
+    "code": "20",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -87.935338,
+    "lat": 43.037892
+  },
+  "opportunity_number": "PAR-18-405",
+  "full_study_section": {
+    "srg_code": "HLBP",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Heart, Lung, and Blood Program Project Study Section[HLBP]"
+  },
+  "award_notice_date": "2023-06-08T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "P01HL144457",
+  "terms": "<(TNF)-α><5' Untranslated Regions><5'UTR><ABH Blood Group><ABO blood group system><ABO blood groups><ABO(H) blood groups><AVPR2><AVPR2 gene><Affect><Age><Aging><Angiohemophilia><Antiheparin Factor><Apoplexy><Assay><BS-seq><Basal Transcription Factor><Basal transcription factor genes><Beta Proprotein Interleukin 1><Binding><Binding Sites><Bioassay><Biologic Assays><Biological Assay><Biology><Bisulfite-based sequencing><Bleeding><Blood><Blood Diseases><Blood Plasma><Blood Platelet Factor IV><Blood Reticuloendothelial System><Blood platelet factor 4><Brain Vascular Accident><Cachectin><Cardiac infarction><Cell model><Cellular model><Cerebral Stroke><Cerebrovascular Apoplexy><Cerebrovascular Stroke><ChIP Sequencing><ChIP-seq><ChIPseq><Chemokine (C-X-C motif) Ligand 4><Code><Coding System><Combining Site><CpG Islands><CpG-Rich Islands><DI1><DNA-Dependent RNA Polymerase II><Data><Endothelial Cells><Epigenetic><Epigenetic Change><Epigenetic Mechanism><Epigenetic Process><Factor 4><GNA12><GNA12 gene><Gene Transcription><General Population><General Public><General Transcription Factor Gene><General Transcription Factors><Genes><Genetic Alteration><Genetic Change><Genetic Transcription><Genetic defect><H Blood Group><H Blood Group System><Hematologic Diseases><Hematological Disease><Hematological Disorder><Hemorrhage><Hemostatic Agents><Hemostatics><Heparin Neutralizing Protein><Histone Acetylation><Histones><Hypermethylation><IL-1 beta><IL-1 β><IL-1-b><IL-1β><IL1-Beta><IL1-β><IL1B Protein><IL1F2><IL1β><Individual><Inflammation><Interleukin 1beta><Interleukin-1 beta><Interleukin-1β><Macrophage-Derived TNF><Messenger RNA><Methylation><Micro RNA><MicroRNAs><Modification><Molecular Interaction><Monocyte-Derived TNF><Mutation><Myocardial Infarct><Myocardial Infarction><NFAT transcription factor 5><NFAT5 protein><NFATL1 protein><NFATz protein><NNX3><OREBP protein><PF4 Gene><Pathway interactions><Patients><Pattern><Plasma><Plasma Serum><Platelet Factor 4><Position><Positioning Attribute><Preinterleukin 1 Beta><Proteins><RNA Expression><RNA Polymerase B><RNA Polymerase II><RNA Seq><RNA sequencing><RNAseq><Reactive Site><Recombinant Platelet Factor 4><Regulation><Reporter><Reporting><Research><Reticuloendothelial System, Serum, Plasma><Risk Factors><Ristocetin Cofactor><Ristocetin-Willebrand Factor><Role><SCYB4><Short interfering RNA><Site-Directed Mutagenesis><Site-Specific Mutagenesis><Small Inducible Cytokine B4><Small Inducible Cytokine Subfamily B, Member 4><Small Interfering RNA><Stroke><TNF><TNF A><TNF Alpha><TNF gene><TNF-α><TNFA><TNFα><Targeted DNA Modification><Targeted Modification><Testing><Thrombosis><Transcription><Transcription Factor Proto-Oncogene><Transcription Regulation><Transcription factor genes><Transcriptional Control><Transcriptional Regulation><Transfection><Tumor Necrosis Factor><Tumor Necrosis Factor-alpha><V2R><Variant><Variation><Vascular Hemophilia><Von willebrand factor deficiency><Willebrand disease><age effect><ages><aging effect><bisulfite sequencing><bisulfite-seq><blood disorder><blood loss><brain attack><candidate identification><cardiac infarct><cerebral vascular accident><cerebrovascular accident><chromatin immunoprecipitation-sequencing><compare to control><comparison control><coronary attack><coronary infarct><coronary infarction><cytokine><differential expression><differentially expressed><disease phenotype><epigenetic regulation><epigenetically><experiment><experimental research><experimental study><experiments><expression vector><gamma-Thromboglobulin><genome mutation><genome wide methylation><genomewide methylation><global methylation><guanine nucleotide binding protein (G protein) alpha 12><heart attack><heart infarct><heart infarction><histone methylation><histone modification><locked nucleic acid><mRNA><mRNA Leader Sequences><miRNA><miRNAs><novel><nuclear factor of activated T-cells 5><nuclear factor of activated T-cells 5 protein><osmotic response element binding protein><overexpress><overexpression><pathway><platelet factor IV><programs><promoter><promotor><release factor><scRNA-seq><siRNA><single cell RNA-seq><single cell RNAseq><single cell expression profiling><single cell transcriptomic profiling><single-cell RNA sequencing><social role><stroked><strokes><thrombotic><thrombotic disease><thrombotic disorder><transcription factor><transcriptional differences><transcriptome sequencing><transcriptomic sequencing><von Willebrand Disease><von Willebrand Factor><von Willebrand Protein>",
+  "pref_terms": "5' Untranslated Regions;ABO blood group system;AVPR2 gene;Affect;Age;Aging;Binding;Binding Sites;Biological Assay;Biology;Blood;Cell model;ChIP-seq;Code;CpG Islands;Data;Endothelial Cells;Epigenetic Process;GNA12 gene;General Population;Genes;Genetic Transcription;Hematological Disease;Hemorrhage;Hemostatic Agents;Histone Acetylation;Histones;Hypermethylation;Individual;Inflammation;Interleukin-1 beta;Messenger RNA;Methylation;MicroRNAs;Modification;Mutation;Myocardial Infarction;NFAT5 protein;PF4 Gene;Pathway interactions;Patients;Pattern;Plasma;Positioning Attribute;Proteins;RNA Polymerase II;Regulation;Reporter;Reporting;Research;Risk Factors;Role;Site-Directed Mutagenesis;Small Interfering RNA;Stroke;TNF gene;Testing;Thrombosis;Transcriptional Regulation;Transfection;Variant;age effect;bisulfite sequencing;candidate identification;comparison control;cytokine;differential expression;disease phenotype;epigenetic regulation;experimental study;expression vector;genome wide methylation;histone methylation;histone modification;locked nucleic acid;novel;overexpression;programs;promoter;release factor;single-cell RNA sequencing;thrombotic;transcription factor;transcriptome sequencing;von Willebrand Disease;von Willebrand Factor",
+  "abstract_text": "PROJECT SUMMARY: PROJECT 4 (ESI)\nVon Willebrand factor (VWF) is an essential hemostatic protein and alterations of VWF levels are associated\nwith bleeding and thrombosis. VWF levels < 50 IU/dL represent a risk factor for bleeding while VWF levels < 30\nIU/dL define Willebrand disease (VWD) and are often associated with mutations in the VWF gene.\nAlternatively, high levels of VWF are associated with thrombotic conditions such as myocardial infarction and\nstroke. The wide distribution of VWF levels in the general population indicates that there are multiple factors\nthat regulate VWF levels. To date, major modifiers such as the ABO blood group and specific variants in genes\nimplicated in VWF release (STXBP1, GNA12) or clearance (LRP1, AVPR2, ACE) account for only 30-40% of\nthe known variation. The objective of this proposal is to identify alternative mechanisms that regulate VWF\nlevels. Our central hypothesis is that specific transcriptional and epigenetic mechanisms in endothelial\ncells are critical determinants of VWF levels. The hypothesis is based on recent reports and our preliminary\ndata that microRNAs levels (miRs), transcription factors, and epigenetic mechanisms can all modify VWF\nlevels. We are uniquely positioned to test this hypothesis using our primary patient-derived blood outgrowth\nendothelial cells (BOECs) that replicate accurately the disease phenotype. We will test our hypothesis via the\nfollowing three aims, (1) Determination of transcriptional mechanisms that affect VWF expression in BOECs,\n(2) Determination of the contribution of methylation and histone-acetylation status of VWF on VWF expression\nfrom BOECs and (3) Determination of the role of transcriptional and epigenetic mechanisms on VWF levels in\naging. Our preliminary data and our expertise in BOEC models positions us well to carry out these proposed\nresearch aims. Successful completion of these aims will (1) confirm novel transcriptional regulators of VWF in\nlow VWF BOECs, such as miR-24 and TCF4, (2) confirm the regulatory role of epigenetic modifiers, such as\nVWF promoter methylation and histone acetylation, in determining VWF levels, and (3) demonstrate novel\ntranscriptional and epigenetic regulation that may explain the effects of aging on VWF levels. In addition, our\nun-biased RNA sequencing, methylation arrays, and microRNA arrays may also identify additional targets for\nVWF regulation. Globally, by evaluating the role of transcriptional and epigenetic regulators on VWF levels it is\nanticipated that we will identify novel mechanisms of VWF expression and function. Such results are significant\nas they are expected to advance the understanding of how modifiers outside of the VWF coding region can\ninfluence VWF levels and represent novel pathways of VWF regulation that have previously not been well\nexamined.",
+  "project_title": "Project 4: Epigenetic Mechanisms Modulating VWF",
+  "phr_text": null,
+  "spending_categories_desc": "Biotechnology; Clinical Research; Genetics; Hematology; Human Genome",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2023-03-01T00:00:00",
+  "budget_end": "2024-02-29T00:00:00",
+  "cfda_code": null,
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 240779,
+  "indirect_cost_amt": 61118,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10584539",
+  "date_added": "2023-06-10T16:16:09"
+}

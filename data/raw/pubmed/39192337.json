@@ -1,0 +1,16 @@
+{
+  "pmid": "39192337",
+  "title": "Involvement of HDAC2-mediated kcnq2/kcnq3 genes transcription repression activated by EREG/EGFR-ERK-Runx1 signaling in bone cancer pain.",
+  "abstract": "Bone cancer pain (BCP) represents a prevalent symptom among cancer patients with bone metastases, yet its underlying mechanisms remain elusive. This study investigated the transcriptional regulation mechanism of Kv7(KCNQ)/M potassium channels in DRG neurons and its involvement in the development of BCP in rats. We show that HDAC2-mediated transcriptional repression of kcnq2/kcnq3 genes, which encode Kv7(KCNQ)/M potassium channels in dorsal root ganglion (DRG), contributes to the sensitization of DRG neurons and the pathogenesis of BCP in rats. Also, HDAC2 requires the formation of a corepressor complex with MeCP2 and Sin3A to execute transcriptional regulation of kcnq2/kcnq3 genes. Moreover, EREG is identified as an upstream signal molecule for HDAC2-mediated kcnq2/kcnq3 genes transcription repression. Activation of EREG/EGFR-ERK-Runx1 signaling, followed by the induction of HDAC2-mediated transcriptional repression of kcnq2/kcnq3 genes in DRG neurons, leads to neuronal hyperexcitability and pain hypersensitivity in tumor-bearing rats. Consequently, the activation of EREG/EGFR-ERK-Runx1 signaling, along with the subsequent transcriptional repression of kcnq2/kcnq3 genes by HDAC2 in DRG neurons, underlies the sensitization of DRG neurons and the pathogenesis of BCP in rats. These findings uncover a potentially targetable mechanism contributing to bone metastasis-associated pain in cancer patients.",
+  "authors": [
+    "Zi-Xian Zhang",
+    "Yue Tian",
+    "Song Li",
+    "Hong-Bo Jing",
+    "Jie Cai",
+    "Min Li",
+    "Guo-Gang Xing"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39192337/",
+  "retrieved_at": "2026-10-03T20:49:42+00:00"
+}

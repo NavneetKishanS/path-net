@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "curation_inputs": {
-    "curation/ontology_slice.json": "6803dfb6da14d0da43aa66b042b91f4a15dde15b0085afb9491644e58e35a825",
+    "curation/ontology_slice.json": "f800f51641eb09eb54e27033d7c7142f2f7cac02bc83f1bd5d47b56db64dc14e",
     "curation/community.json": "0a29ead6c38c65d13dcfac39508066739cff64eaaa111fa7e647ea03bf92266b",
     "curation/research.json": "55c5575dd934cbd94d37fbbeb824d9c8ab95c416ce6cd7f34b0796a27c4d3a73",
     "curation/research_selection.json": "b3b04d1f2bc9f13b9b9f024bd3be9dc952727abb0b6d0443fb6c27239b26ecf2",
@@ -4243,7 +4243,7 @@
       "source_id": "phenotype",
       "provider": "HPO",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
-      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/41063438/30a413da-5d1f-4476-b219-03dc6507f153?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-03T21%3A42%3A38Z&rscd=attachment%3B+filename%3Dphenotype.hpoa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-03T20%3A41%3A53Z&ske=2026-10-03T21%3A42%3A38Z&sks=b&skv=2018-11-09&sig=QUqWuywE%2FD%2Fxdsnc6vkV1Ja%2FgIEY%2BQ8ivsRMLrQn1M4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTA2MjQyMywibmJmIjoxNzkxMDYwNjIzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.dnr-ibC3zLhL89e3u005Jhew-I_QwxdW8H6_cmV3vPw&response-content-disposition=attachment%3B%20filename%3Dphenotype.hpoa&response-content-type=application%2Foctet-stream",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/41063438/30a413da-5d1f-4476-b219-03dc6507f153",
       "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
       "cache_path": "raw/ontologies/phenotype.hpoa",
       "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
