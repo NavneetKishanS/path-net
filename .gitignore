@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+web/public/graph.json
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Raw API caches and model output can be large; commit curated seeds, not caches.
+data/raw/*
+!data/raw/.gitkeep
+data/extracted/
+data/seed/clusters.generated.json

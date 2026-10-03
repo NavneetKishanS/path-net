@@ -1,0 +1,59 @@
+{
+  "_comment": "PLACEHOLDER DATA modelled on the illustrative diagram in the challenge brief (Gene A / Gene B). No real claims, no real sources. P1 replaces this with the curated slice. Keep the shape described in contract/README.md.",
+  "nodes": [
+    { "id": "gene_a", "type": "gene", "name": "Gene A", "synonyms": ["GENEA"], "ext_ids": {}, "props": { "placeholder": true } },
+    { "id": "gene_b", "type": "gene", "name": "Gene B", "synonyms": ["GENEB"], "ext_ids": {}, "props": { "placeholder": true } },
+    { "id": "dis_1", "type": "disease", "name": "Example Disease 1", "synonyms": ["Disease One", "ED1"], "ext_ids": {}, "props": { "placeholder": true, "plain": "A muscle-weakness condition caused by a missing protein." } },
+    { "id": "dis_2", "type": "disease", "name": "Example Disease 2", "synonyms": ["Disease Two", "ED2"], "ext_ids": {}, "props": { "placeholder": true, "plain": "Same gene as Disease 1, but a toxic protein causes different effects." } },
+    { "id": "dis_3", "type": "disease", "name": "Example Disease 3", "synonyms": ["Disease Three", "ED3"], "ext_ids": {}, "props": { "placeholder": true, "plain": "A different gene, but the same missing-protein mechanism as Disease 1." } },
+    { "id": "mech_lof", "type": "mechanism", "name": "Loss of function: protein missing", "synonyms": ["haploinsufficiency"], "ext_ids": {}, "props": { "effect": "loss_of_function" } },
+    { "id": "mech_gof", "type": "mechanism", "name": "Gain of function: protein becomes toxic", "synonyms": [], "ext_ids": {}, "props": { "effect": "gain_of_function" } },
+    { "id": "ph_weak", "type": "phenotype", "name": "Muscle weakness", "synonyms": ["myopathy"], "ext_ids": {}, "props": {} },
+    { "id": "ph_other", "type": "phenotype", "name": "Different effects", "synonyms": [], "ext_ids": {}, "props": {} },
+    { "id": "pg_1", "type": "patient_group", "name": "Example Patient Group 1", "synonyms": [], "ext_ids": {}, "props": { "placeholder": true } },
+    { "id": "asset_1", "type": "asset", "name": "Example registry", "synonyms": [], "ext_ids": {}, "props": { "placeholder": true, "kind": "registry" } },
+    { "id": "kol_1", "type": "person", "name": "Example Investigator", "synonyms": [], "ext_ids": {}, "props": { "placeholder": true } }
+  ],
+  "edges": [
+    { "id": "e01", "src": "dis_1", "dst": "gene_a", "type": "disease_gene", "tier": "A", "confidence": 1.0, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e02", "src": "dis_2", "dst": "gene_a", "type": "disease_gene", "tier": "A", "confidence": 1.0, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e03", "src": "dis_3", "dst": "gene_b", "type": "disease_gene", "tier": "A", "confidence": 1.0, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e04", "src": "dis_1", "dst": "mech_lof", "type": "disease_mechanism", "tier": "B", "confidence": 0.8, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e05", "src": "dis_2", "dst": "mech_gof", "type": "disease_mechanism", "tier": "B", "confidence": 0.8, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e06", "src": "dis_3", "dst": "mech_lof", "type": "disease_mechanism", "tier": "B", "confidence": 0.8, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e07", "src": "dis_1", "dst": "ph_weak", "type": "disease_phenotype", "tier": "A", "confidence": 1.0, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e08", "src": "dis_3", "dst": "ph_weak", "type": "disease_phenotype", "tier": "A", "confidence": 1.0, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e09", "src": "dis_2", "dst": "ph_other", "type": "disease_phenotype", "tier": "A", "confidence": 1.0, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e10", "src": "pg_1", "dst": "dis_1", "type": "group_disease", "tier": "A", "confidence": 0.9, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e11", "src": "asset_1", "dst": "dis_1", "type": "asset_disease", "tier": "A", "confidence": 0.9, "stance": "supports", "status": "unverified", "note": "Registry that Disease 3's community could reuse" },
+    { "id": "e12", "src": "kol_1", "dst": "dis_1", "type": "investigator_disease", "tier": "B", "confidence": 0.7, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e13", "src": "kol_1", "dst": "dis_3", "type": "investigator_disease", "tier": "B", "confidence": 0.7, "stance": "supports", "status": "unverified", "note": null },
+    { "id": "e14", "src": "dis_1", "dst": "dis_3", "type": "shares_mechanism_with", "tier": "C", "confidence": 0.7, "stance": "supports", "status": "unverified", "note": "Inferred: same loss-of-function mechanism and shared phenotype, different genes." },
+    { "id": "e15", "src": "dis_1", "dst": "dis_2", "type": "shares_mechanism_with", "tier": "B", "confidence": 0.6, "stance": "contradicts", "status": "unverified", "note": "Same gene, but a different mechanism, so a separate cluster." }
+  ],
+  "evidence": [
+    { "id": "ev01", "edge_id": "e04", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: replace with the verbatim sentence from the source.", "retrieved_at": null },
+    { "id": "ev02", "edge_id": "e06", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: replace with the verbatim sentence from the source.", "retrieved_at": null },
+    { "id": "ev03", "edge_id": "e10", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: patient-group page that names the disease.", "retrieved_at": null },
+    { "id": "ev04", "edge_id": "e11", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: registry page and eligibility criteria.", "retrieved_at": null },
+    { "id": "ev05", "edge_id": "e12", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: paper or trial listing this investigator.", "retrieved_at": null },
+    { "id": "ev06", "edge_id": "e13", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: paper or trial listing this investigator.", "retrieved_at": null },
+    { "id": "ev07", "edge_id": "e14", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: inferred from e04, e06, e07, e08. Graph-derived, not a published claim.", "retrieved_at": null },
+    { "id": "ev08", "edge_id": "e15", "source_type": "placeholder", "source_url": "", "pmid": null, "snippet": "PLACEHOLDER: paper that reports a different mechanism for the same gene.", "retrieved_at": null }
+  ],
+  "clusters": [
+    { "id": "c_lof", "label": "Loss of function, muscle weakness", "mechanism": { "effect": "loss_of_function" } },
+    { "id": "c_gof", "label": "Gain of function, different effects", "mechanism": { "effect": "gain_of_function" } }
+  ],
+  "node_cluster": [
+    { "node_id": "dis_1", "cluster_id": "c_lof" },
+    { "node_id": "dis_3", "cluster_id": "c_lof" },
+    { "node_id": "mech_lof", "cluster_id": "c_lof" },
+    { "node_id": "ph_weak", "cluster_id": "c_lof" },
+    { "node_id": "dis_2", "cluster_id": "c_gof" },
+    { "node_id": "mech_gof", "cluster_id": "c_gof" },
+    { "node_id": "ph_other", "cluster_id": "c_gof" },
+    { "node_id": "gene_a", "cluster_id": "c_lof" },
+    { "node_id": "gene_a", "cluster_id": "c_gof" }
+  ]
+}

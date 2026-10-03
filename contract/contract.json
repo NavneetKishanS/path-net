@@ -1,0 +1,26 @@
+{
+  "_comment": "Single source of truth for enums. Changing this file affects everyone: announce it in the team chat, then update web/src/types.ts and supabase/migrations to match.",
+  "node_types": ["disease", "gene", "variant", "mechanism", "phenotype", "patient_group", "paper", "study", "asset", "person"],
+  "edge_types": {
+    "disease_gene": { "from": "disease", "to": "gene", "typical_tier": ["A"] },
+    "gene_variant_mechanism": { "from": "variant", "to": "mechanism", "typical_tier": ["A", "B"] },
+    "disease_mechanism": { "from": "disease", "to": "mechanism", "typical_tier": ["A", "B"] },
+    "disease_phenotype": { "from": "disease", "to": "phenotype", "typical_tier": ["A"] },
+    "group_disease": { "from": "patient_group", "to": "disease", "typical_tier": ["A", "B"] },
+    "asset_disease": { "from": "asset", "to": "disease", "typical_tier": ["A", "B"] },
+    "study_disease": { "from": "study", "to": "disease", "typical_tier": ["A"] },
+    "investigator_disease": { "from": "person", "to": "disease", "typical_tier": ["A", "B"] },
+    "shares_mechanism_with": { "from": "disease", "to": "disease", "typical_tier": ["B", "C"] },
+    "shares_investigator": { "from": "disease", "to": "disease", "typical_tier": ["C"] }
+  },
+  "tiers": {
+    "A": "Curated database (MONDO, HPO, ClinVar, Orphanet, ClinicalTrials.gov, RePORTER)",
+    "B": "Extracted from a paper or site; the quote must appear verbatim in the fetched text",
+    "C": "Inferred by the graph (shared mechanism, shared investigator). Always shown as a hypothesis",
+    "D": "Contributed by a user, pending admin review"
+  },
+  "stances": ["supports", "contradicts", "neutral"],
+  "statuses": ["verified", "unverified", "rejected"],
+  "mechanism_effects": ["loss_of_function", "gain_of_function", "dominant_negative", "unknown"],
+  "roles": ["family", "group_leader", "scout", "researcher", "admin"]
+}
