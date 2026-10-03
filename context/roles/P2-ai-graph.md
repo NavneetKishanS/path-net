@@ -6,7 +6,7 @@ Owner: ______________ · Sleeps 05:00 to 09:00 · Read `context/00-PROJECT.md` f
 Turn raw text into trustworthy graph edges, group diseases by mechanism and phenotype, and explain every path in plain language with a citation for each step. Track prizes require OpenAI models or tools, so the extraction, reconciliation and explanation calls go to OpenAI.
 
 ## You own
-`pipeline/extract.py`, `pipeline/cluster.py`, new `pipeline/reconcile.py` and `pipeline/explain.py`, all prompts, the gold set, and the extraction evaluation.
+`pipeline/extract.py`, `pipeline/labels.py`, `pipeline/eval_gold.py`, `pipeline/cluster.py`, new `pipeline/reconcile.py` and `pipeline/explain.py`, all prompts, `data/gold/`, `context/LABEL_RULES.md`, and the extraction evaluation.
 
 ## Start in 5 minutes
 ```bash
@@ -19,8 +19,8 @@ Confirm with the team whether the hackathon provides OpenAI credits or whether y
 
 ## Checklist
 **M0 (Sat 20:30)**
-- [ ] Fix the extraction schema, edge-type enum and mechanism taxonomy with P4 (`contract/contract.json`).
-- [ ] Hand-label 5 abstracts as a gold set in `data/gold/` (claim, quote, correct edge).
+- [ ] Label set: done in `contract/contract.json` ("extraction" block), `pipeline/labels.py` and `context/LABEL_RULES.md`. Read the rules, tell P4 the contract changed, and adjust only if the slice needs it.
+- [ ] Hand-label 5 abstracts as the gold set. Steps in `data/gold/README.md`: `python extract.py --draft PMID...`, correct `draft.jsonl`, save as `gold.jsonl`, run `python eval_gold.py --check`.
 
 **M1 (to 01:00)**
 - [ ] Run extraction on P1's abstracts. Keep only claims whose quote is verbatim (already coded in `verify_quote`).
@@ -33,7 +33,7 @@ Confirm with the team whether the hackathon provides OpenAI credits or whether y
 - [ ] The counterexample: one gene in two clusters, with the contradicting edge shown.
 - [ ] Tier C bridge edges (shared mechanism, shared investigator) and the confidence scoring rule.
 - [ ] `explain.py`: input an ordered list of edges with evidence, output plain-language steps, each tagged with the edge id it rests on. Drop any sentence with no edge. Hypotheses use "may" and are labelled inferred. Empty path returns the coverage report.
-- [ ] Score extraction on the gold set. Record precision honestly.
+- [ ] Score extraction on the gold set: `python eval_gold.py --verbose`. Record precision, recall and the quote-guard rate honestly; with about 5 abstracts it is a sanity check, not a benchmark.
 - [ ] Write the handoff note before you sleep at 05:00.
 
 **M3 (09:00 to 10:00)**

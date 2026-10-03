@@ -22,5 +22,10 @@
   "stances": ["supports", "contradicts", "neutral"],
   "statuses": ["verified", "unverified", "rejected"],
   "mechanism_effects": ["loss_of_function", "gain_of_function", "dominant_negative", "unknown"],
-  "roles": ["family", "group_leader", "scout", "researcher", "admin"]
+  "roles": ["family", "group_leader", "scout", "researcher", "admin"],
+  "extraction": {
+    "_comment": "Labels the model may output when extracting from abstracts. The relation fixes the types: subject is always a disease, object type comes from edge_types[relation].to. Owner: P2; tell P4 before changing.",
+    "relations": ["disease_gene", "disease_mechanism", "disease_phenotype"],
+    "effects": ["loss_of_function", "gain_of_function", "dominant_negative", "unknown", "not_applicable"]
+  }
 }
