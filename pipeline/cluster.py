@@ -1,9 +1,18 @@
-"""Cluster diseases by shared mechanism and phenotype (not by name or gene).
+"""Cluster diseases by shared mechanism, refined by shared phenotype (not by name or gene).
 
     python cluster.py            # prints clusters, writes data/seed/clusters.generated.json
 
-Weights: shared mechanism = 3, shared phenotype = 1. Then Louvain community detection.
-Owner: P2. Extend with HPO term overlap, shared investigators, and contradicting edges.
+Mechanism overlap is what forms a cluster edge at all (weight 3 per shared mechanism node).
+Phenotype overlap (weight 1 per shared HPO node) only adds to an edge that mechanism already
+created -- it never connects two diseases on its own. Generic DEE symptoms (seizures,
+developmental delay, hypotonia...) are shared by nearly everything in this slice, so letting
+phenotype alone form edges lumps mechanistically unrelated diseases (e.g. KCNQ2 and STXBP1)
+into one cluster with no real shared mechanism. Requiring a mechanism edge first keeps the
+same-gene-family, different-mechanism counterexample (SCN2A loss-of-function vs. the
+sodium-channel gain-of-function cluster) in two separate clusters, as the demo needs.
+Contradicting disease_mechanism edges are excluded from clustering but reported separately,
+so the counterexample's contradicting edge stays visible rather than silently dropped.
+Owner: P2.
 """
 from collections import defaultdict
 from itertools import combinations
@@ -19,7 +28,11 @@ def cluster(seed: dict) -> list[dict]:
     types = {n["id"]: n["type"] for n in seed["nodes"]}
     names = {n["id"]: n["name"] for n in seed["nodes"]}
     links = defaultdict(lambda: defaultdict(set))  # disease -> kind -> {target ids}
+    contradictions = []
     for e in seed["edges"]:
+        if e["type"] == "disease_mechanism" and e["stance"] == "contradicts":
+            contradictions.append({"disease": names.get(e["src"], e["src"]), "mechanism": names.get(e["dst"], e["dst"]), "edge_id": e["id"]})
+            continue
         if e["stance"] == "contradicts":
             continue
         if e["type"] == "disease_mechanism":
@@ -31,9 +44,11 @@ def cluster(seed: dict) -> list[dict]:
     g = nx.Graph()
     g.add_nodes_from(diseases)
     for a, b in combinations(diseases, 2):
-        w = W_MECHANISM * len(links[a]["mech"] & links[b]["mech"]) + W_PHENOTYPE * len(links[a]["pheno"] & links[b]["pheno"])
-        if w:
-            g.add_edge(a, b, weight=w)
+        mech_overlap = len(links[a]["mech"] & links[b]["mech"])
+        if not mech_overlap:
+            continue  # phenotype alone never forms a cluster edge; see module docstring
+        pheno_overlap = len(links[a]["pheno"] & links[b]["pheno"])
+        g.add_edge(a, b, weight=W_MECHANISM * mech_overlap + W_PHENOTYPE * pheno_overlap)
 
     out = []
     for i, members in enumerate(nx.community.louvain_communities(g, weight="weight", seed=42)):
@@ -44,14 +59,18 @@ def cluster(seed: dict) -> list[dict]:
             "label": ", ".join(sorted(names[m] for m in members)),
             "shared_mechanisms": sorted(names[s] for s in shared),
         })
-    return out
+    return out, contradictions
 
 
 def main() -> None:
-    result = cluster(load_seed())
+    result, contradictions = cluster(load_seed())
     for c in result:
         print(f"{c['id']}: {c['diseases']} shared mechanism: {c['shared_mechanisms'] or 'none'}")
-    save_json(DATA_DIR / "seed" / "clusters.generated.json", result)
+    if contradictions:
+        print("\nContradicting mechanism claims (excluded from clustering, kept visible):")
+        for c in contradictions:
+            print(f"  {c['disease']} contradicts {c['mechanism']} ({c['edge_id']})")
+    save_json(DATA_DIR / "seed" / "clusters.generated.json", {"clusters": result, "contradictions": contradictions})
 
 
 if __name__ == "__main__":
