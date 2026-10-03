@@ -1,0 +1,124 @@
+{
+  "appl_id": 11351013,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5F30MH135660-03",
+  "project_serial_num": "MH135660",
+  "organization": {
+    "org_name": "UNIVERSITY OF CALIFORNIA LOS ANGELES",
+    "city": null,
+    "country": null,
+    "org_city": "LOS ANGELES",
+    "org_country": "UNITED STATES",
+    "org_state": "CA",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "092530369"
+    ],
+    "org_ueis": [
+      "RN64EPNH8JC6"
+    ],
+    "primary_duns": "092530369",
+    "primary_uei": "RN64EPNH8JC6",
+    "org_fips": "US",
+    "org_ipf_code": "577505",
+    "org_zipcode": "900952000",
+    "external_org_id": 577505
+  },
+  "award_type": "5",
+  "activity_code": "F30",
+  "award_amount": 55114,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F30",
+    "ic_code": "MH",
+    "serial_num": "135660",
+    "support_year": "03",
+    "full_support_year": "03",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 16237171,
+      "first_name": "Natalie",
+      "middle_name": "",
+      "last_name": "Hawken",
+      "is_contact_pi": true,
+      "full_name": "Natalie  Hawken",
+      "title": "MSTP STUDENT"
+    }
+  ],
+  "contact_pi_name": "HAWKEN, NATALIE ",
+  "program_officers": [
+    {
+      "first_name": "JAMIE",
+      "middle_name": "DANIELLE",
+      "last_name": "DRISCOLL",
+      "full_name": "JAMIE DANIELLE DRISCOLL"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 55114.0,
+      "direct_cost_ic": 55114.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "CA-36",
+  "spending_categories": null,
+  "project_start_date": "2024-07-01T00:00:00",
+  "project_end_date": "2028-06-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -118.45102,
+    "lat": 34.070199
+  },
+  "opportunity_number": "PA-23-260",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F02B",
+    "sra_flex_code": "Y",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F02B-Y(20)L]"
+  },
+  "award_notice_date": "2026-06-18T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F30MH135660",
+  "terms": "<0-11 years old><21+ years old><3-D><3-Dimensional><3D><ASD><Address><Adult><Adult Human><Affect><Assay><Astrocytes><Astrocytus><Astroglia><Autism><Autistic Disorder><Autopsy><Axon><Bioassay><Biologic Models><Biological Assay><Biological Models><Brain><Brain Nervous System><Cell Body><Cell Communication><Cell Culture Techniques><Cell Interaction><Cell Line><Cell Maturation><Cell Nucleus><Cell-to-Cell Interaction><CellLine><Cells><Cellular Morphology><Child><Child Youth><Children (0-21)><Classification><Clinic><Clinical><Co-culture><Cocultivation><Coculture><Coculture Techniques><Complex><Connector Neuron><DNA mutation><Data Set><Developing fetus><Development><Diagnosis><Differential Gene Expression><Dysfunction><Early Infantile Autism><Encephalon><Ethics><Fetal Development><Foundations><Functional disorder><Gene Alteration><Gene Expression Monitoring><Gene Expression Pattern Analysis><Gene Expression Profiling><Gene Mutation><Gene Transcription><Genes><Genetic><Genetic Change><Genetic Risk><Genetic Transcription><Genetic defect><Genetic mutation><Genetic predisposing factor><Goals><Heritability><Hortega cell><Human><Immunohistochemistry><Immunohistochemistry Cell/Tissue><Immunohistochemistry Staining Method><In Vitro><Infantile Autism><Intercalary Neuron><Intercalated Neurons><Interneurons><Internuncial Cell><Internuncial Neuron><Kanner's Syndrome><Knowledge><Laboratories><Lead><Maps><Measures><Mentorship><Methods><Microglia><Model System><Modeling><Modern Man><Morphology><Mutation><Nerve Cells><Nerve Impulse Transmission><Nerve Transmission><Nerve Unit><Network Analysis><Neural Cell><Neural Development><Neural Stem Cell><Neurocyte><Neurodevelopmental Disorder><Neuroimmune><Neurological Development Disorder><Neuronal Dysfunction><Neuronal Transmission><Neurons><Nucleus><Organoids><Pathogenesis><Pathologic><Pathway Analysis><Pattern><Pb element><Pediatric Neurology><Phagocytes><Phagocytic Cell><Phagocytosis><Phenotype><Physicians><Physiology><Physiopathology><Population><Position><Positioning Attribute><Productivity><Progenitor Cells><Proliferating><Protocol><Protocols documentation><RNA Expression><RNA Seq><RNA sequencing><RNAseq><Risk><Role><Sampling><Scientist><Secondary to><Sensory><Single-Nucleus Sequencing><Social Interaction><Strains Cell Lines><Synapses><Synaptic><System><Systematics><Testing><Thinking><Tissue-Specific Differential Gene Expression><Tissue-Specific Gene Expression><Training><Trajectory><Transcript Expression Analyses><Transcript Expression Analysis><Transcription><Translational Research><Translational Science><Validation><adulthood><amebocyte><analyze gene expression><astrocytic glia><autism predisposition><autism risk><autism risk allele><autism risk genes><autism risk locus><autism risk variant><autism spectral disorder><autism spectrum disorder><autism spectrum disorder predisposition><autism spectrum disorder risk><autism spectrum disorder risk allele><autism spectrum disorder risk genes><autism spectrum disorder risk locus><autism spectrum disorder risk variant><autism spectrum disorder susceptibility><autism spectrum disorder susceptibility genes><autism spectrum risk genes><autism susceptibility genes><autistic individuals><autistic people><autistic spectrum disorder><axon signaling><axon-glial signaling><axonal signaling><career><cell culture><cell cultures><cell morphology><cell type><child neurology><clinical training><compare to control><comparison control><cortical progenitors><cortical stem cell><cultured cell line><de novo mutation><de novo variant><developmental><developmental neurobiology><ethical><excitatory neuron><experiment><experimental research><experimental study><experiments><fetal><functional genomics><gene defect><gene expression analysis><gene expression assay><gene network><genetic architecture><genetic risk factor><genome mutation><gitter cell><glia signaling><glial activation><glial cell activation><glial neural stem cell><glial progenitor><glial signaling><glial stem cell><global gene expression><global transcription profile><heavy metal Pb><heavy metal lead><high risk><human model><human progenitor><human stem cells><in vivo><individuals on the autism spectrum><individuals on the spectrum><individuals with ASD><individuals with autism><individuals with autism spectrum disorder><inherited factor><kids><mesoglia><microglial cell><microgliocyte><model of human><multidisciplinary><mutant><mutant allele><necropsy><nerve signaling><nerve stem cell><neural><neural dysfunction><neural precursor><neural precursor cell><neural progenitor><neural progenitor cells><neural signaling><neural stem and progenitor cells><neurodevelopment><neurodevelopmental disease><neurogenesis><neurogenic progenitors><neurogenic stem cell><neuroglial progenitor><neuroglial stem cells><neuron development><neuron progenitors><neuronal><neuronal development><neuronal progenitor><neuronal progenitor cells><neuronal signaling><neuronal stem cells><neuroprogenitor><neurotransmission><novel><pathogen><pathophysiology><people on the autism spectrum><people with ASD><people with autism><people with autism spectrum disorder><perivascular glial cell><postmortem><progenitor and neural stem cells><progenitor cell pool><progenitor cell population><progenitor pool><progenitor population><repetitive behavior><risk genes implicated in autism><risk genes in autism><sNuc-Seq><scRNA sequencing><scRNA-seq><single cell RNA-seq><single cell RNAseq><single cell expression profiling><single cell transcriptomic profiling><single nucleus RNA-sequencing><single nucleus seq><single-cell RNA sequencing><single-nucleus RNA-seq><skills><snRNA sequencing><snRNA-seq><social role><spheroids><stem and progenitor cell population><stem cell pool><stem cell population><stem cells><synapse><thoughts><three dimensional><transcriptional profiling><transcriptome><transcriptome sequencing><transcriptomic sequencing><transcriptomics><translation research><translational investigation><validations><youngster>",
+  "pref_terms": "3-Dimensional;Address;Adult;Affect;Astrocytes;Autopsy;Axon;Biological Assay;Biological Models;Brain;Cell Communication;Cell Culture Techniques;Cell Line;Cell Maturation;Cell Nucleus;Cells;Cellular Morphology;Child;Classification;Clinic;Clinical;Coculture Techniques;Complex;Data Set;Development;Diagnosis;Ethics;Fetal Development;Foundations;Functional disorder;Gene Expression Profiling;Gene Mutation;Genes;Genetic;Genetic Risk;Genetic Transcription;Goals;Heritability;Human;Immunohistochemistry;In Vitro;Interneurons;Knowledge;Laboratories;Lead;Maps;Measures;Mentorship;Methods;Microglia;Modeling;Morphology;Mutation;Neurodevelopmental Disorder;Neuroimmune;Neuronal Dysfunction;Neurons;Organoids;Pathogenesis;Pathologic;Pathway Analysis;Pattern;Pediatric Neurology;Phagocytes;Phagocytosis;Phenotype;Physicians;Physiology;Population;Positioning Attribute;Productivity;Proliferating;Protocols documentation;Risk;Role;Sampling;Scientist;Secondary to;Sensory;Social Interaction;Synapses;System;Testing;Thinking;Tissue-Specific Gene Expression;Training;Trajectory;Translational Research;Validation;autism risk;autism risk genes;autism spectrum disorder;career;cell type;clinical training;comparison control;cortical progenitors;de novo mutation;developmental neurobiology;excitatory neuron;experimental study;fetal;functional genomics;gene network;genetic architecture;genetic risk factor;glial activation;glial stem cell;high risk;human model;human stem cells;in vivo;individuals with autism spectrum disorder;multidisciplinary;mutant;nerve stem cell;neural;neurodevelopment;neurogenesis;neuron development;neurotransmission;novel;pathogen;repetitive behavior;single nucleus RNA-sequencing;single-cell RNA sequencing;skills;spheroids;stem cell population;stem cells;transcriptome;transcriptome sequencing;transcriptomics",
+  "abstract_text": "PROJECT SUMMARY/ABSTRACT\nAutism spectrum disorder (ASD) is a lifelong, common neurodevelopmental disorder (NDD) with high heritability\nand complex genetic architecture. Known genetic risk factors, including large effect, de novo mutations that\ncause approximately 10% of ASD cases, have their maximal expression and converge during early brain\ndevelopment to impact neurogenesis and neuronal development. Yet, multiple analyses of post-mortem brain\nfrom individuals with ASD have consistently identified pervasive microglial activation. Study of cortical\ndevelopment in ASD has centered around neurons. So, there is a dearth of knowledge surrounding microglia\nfunction in the developing brain in ASD, which is especially important because microglia colonize the developing\nfetal cortex during the epoch during in which ASD risk genes converge. Here, I propose to leverage advances in\nhuman stem cell (SC) culture, including the development and validation of 3D human cortical spheroid (hCS)\nmodels of human brain development, to assess the impact of ASD genetic risk and neuronal-microglial\ninteractions on microglial function. Cell lines derived from control, non-ASD, SC lines and two SC lines with a\nhaploinsufficiency of high-risk ASD-associated genes (CHD8 and SCN2A) will be utilized to derive microglia and\nhCS. Bulk transcriptomics, morphological analysis, and phagocytosis assays of microglia from SC lines\nharboring high risk ASD-associated mutations will reveal how ASD genetic risk impacts microglia physiology,\nindependent of interactions with neuronal cell types (Aim 1). Transcriptomes will be mapped to the in vivo\ndevelopmental trajectory of microglia, and differential gene expression analysis will be performed on the ASD\nmicroglia relative to controls. Perturbations to cortical neurogenesis in ASD will be assessed through single cell\nRNA sequencing and immunohistochemical analysis of cell type and morphology in a 3D co-culture system of\nhuman cortical spheroids (hCS) integrated with microglia to model fetal microglial colonization of the cortex (Aim\n2). Cell type distribution, differential gene expression, and gene network analysis of ASD mutant hCS compared\nto controls at early and late neurogenesis will be performed; immunohistochemistry of cell populations, synapses,\nand microglial morphology will validate and extend transcriptomic findings. These experiments will help inform\nASD pathophysiology by elucidating how ASD genetic risk contributes to microglial activation and neuronal-\nmicroglial signaling and provide a framework for testing other ASD risk mutations. This training plan will prepare\nthis applicant for a successful career as a physician-scientist studying neurodevelopmental disorders (NDDs),\nvia the following major goals: training in stem cell culture and functional genomics, rigor and ethics in scientific\nthinking, professional development, and translation of research into the clinical setting. Working in a\ncollaborative, multidisciplinary laboratory specializing in functional genomic analysis alongside clinical training\nand mentorship from physicians practicing in NDD clinics, this applicant is well-positioned to gain the skills\nnecessary for a productive scientific and clinical career in pediatric neurology and developmental neurobiology.",
+  "project_title": "Functional Genomic Interrogation of Autism Spectrum Disorder Genetic Risk on Microglia-Neuronal Interactions",
+  "phr_text": "PROJECT NARRATIVE\nAutism Spectrum Disorder (ASD) is a highly heritable, heterogenous neurodevelopmental disorder affecting 1 in\n36 children, and while functional genomic analysis of post-mortem cortex from donors diagnosed with ASD\nreveals activation of microglia, there is little known about microglial activity in ASD during fetal brain development.\nThis project aims to transcriptionally, functionally, and morphologically characterize the impact of ASD risk gene\nmutations on the patterns of microglial activation, using stem cell (SC) derived microglia combined with 3-\ndimensional SC cortical spheroids. These studies will identify potential mechanisms of pathophysiology of neuro-\nimmune dysregulation in ASD and will untangle the effects of genetic risk versus the effects of cell-cell\ninteractions on microglial activation.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-07-01T00:00:00",
+  "budget_end": "2027-06-30T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 55114,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11351013",
+  "date_added": "2026-07-04T17:03:59"
+}

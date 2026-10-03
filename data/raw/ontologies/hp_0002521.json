@@ -1,0 +1,71 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/HP_0002521",
+      "lang" : "en",
+      "description" : [ "Hypsarrhythmia is abnormal interictal high amplitude waves and a background of irregular spikes. There is continuous (during wakefulness), high-amplitude (>200 Hz), generalized polymorphic slowing with no organized background and multifocal spikes demonstrated by electroencephalography (EEG)." ],
+      "synonyms" : [ "Hypsarrhythmia by EEG" ],
+      "annotation" : {
+        "id" : [ "HP:0002521" ]
+      },
+      "label" : "Hypsarrhythmia",
+      "ontology_name" : "hp",
+      "ontology_prefix" : "HP",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "HP_0002521",
+      "obo_id" : "HP:0002521",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "Hypsarrhythmia is abnormal interictal high amplitude waves and a background of irregular spikes. There is continuous (during wakefulness), high-amplitude (>200 Hz), generalized polymorphic slowing with no organized background and multifocal spikes demonstrated by electroencephalography (EEG).",
+        "oboXrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-0736-9199",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-0736-9199"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0002521/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0002521"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

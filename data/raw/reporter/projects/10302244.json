@@ -1,0 +1,132 @@
+{
+  "appl_id": 10302244,
+  "subproject_id": null,
+  "fiscal_year": 2021,
+  "project_num": "1R21NS118280-01A1",
+  "project_serial_num": "NS118280",
+  "organization": {
+    "org_name": "UNIVERSITY OF PENNSYLVANIA",
+    "city": null,
+    "country": null,
+    "org_city": "PHILADELPHIA",
+    "org_country": "UNITED STATES",
+    "org_state": "PA",
+    "org_state_name": null,
+    "dept_type": "PHYSIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "042250712"
+    ],
+    "org_ueis": [
+      "GM1XX56LEP58",
+      " Z75RRBRSNRW4"
+    ],
+    "primary_duns": "042250712",
+    "primary_uei": "GM1XX56LEP58",
+    "org_fips": "US",
+    "org_ipf_code": "6463801",
+    "org_zipcode": "191046205",
+    "external_org_id": 6463801
+  },
+  "award_type": "1",
+  "activity_code": "R21",
+  "award_amount": 474874,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "R21",
+    "ic_code": "NS",
+    "serial_num": "118280",
+    "support_year": "01",
+    "full_support_year": "01A1",
+    "suffix_code": "A1"
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 9045128,
+      "first_name": "Benjamin",
+      "middle_name": "Lears",
+      "last_name": "Prosser",
+      "is_contact_pi": true,
+      "full_name": "Benjamin Lears Prosser",
+      "title": "ASSOCIATE PROFESSOR OF PHYSIOLOGY"
+    }
+  ],
+  "contact_pi_name": "PROSSER, BENJAMIN LEARS",
+  "program_officers": [
+    {
+      "first_name": "ROBERT",
+      "middle_name": "D",
+      "last_name": "RIDDLE",
+      "full_name": "ROBERT D RIDDLE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2021,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 474874.0,
+      "direct_cost_ic": 344663.0,
+      "indirect_cost_ic": 130211.0
+    }
+  ],
+  "cong_dist": "PA-03",
+  "spending_categories": [
+    108,
+    118,
+    276,
+    453,
+    525,
+    679
+  ],
+  "project_start_date": "2021-07-01T00:00:00",
+  "project_end_date": "2022-12-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -75.193983,
+    "lat": 39.953462
+  },
+  "opportunity_number": "PA-18-358",
+  "full_study_section": {
+    "srg_code": "TAG",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Therapeutic Approaches to Genetic Diseases Study Section[TAG]"
+  },
+  "award_notice_date": "2021-07-01T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R21NS118280",
+  "terms": "<0-11 years old><3' Untranslated Regions><3'UTR><Affect><Anti-Sense Oligonucleotides><Antisense Agent><Antisense Oligonucleotides><Assay><Binding><Binding Sites><Bio-Informatics><Bioassay><Bioinformatics><Biologic Assays><Biological Assay><Birth><Birth Defects><Blood Sample><Blood specimen><Brain><Brain Nervous System><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/Cas method><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Cas nuclease technology><Cell Body><Cells><Child><Child Youth><Children (0-21)><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Combining Site><Congenital Abnormality><Congenital Anatomic Abnormality><Congenital Anatomical Abnormality><Congenital Defects><Congenital Deformity><Congenital Malformation><DNA><DNA Alteration><DNA Sequence Alteration><DNA mutation><Data><Deoxyribonucleic Acid><Disease><Disorder><Encephalon><Encephalopathies><Epilepsy><Epileptic Seizures><Epileptics><Functional RNA><Gene Down-Regulation><Gene Expression><Gene Inactivation><Gene Silencing><Gene variant><Genes><Genetic><Genetic Alteration><Genetic Change><Genetic Predisposition><Genetic Predisposition to Disease><Genetic Susceptibility><Genetic defect><Genetic mutation><Goals><High Throughput Assay><Human><Inherited Predisposition><Inherited Susceptibility><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Lead><Light><Mediating><Messenger RNA><Micro RNA><MicroRNAs><Modern Man><Molecular Interaction><Mutation><NAV1.6><NF-1><NF-1 Protein><NF-1 encoded protein><NF1><NF1 GRP><NF1 Protein><NF1 gene><NF1-GAP-Related Protein><NaCh6><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurodevelopmental Disorder><Neurofibromatosis 1 Genes><Neurofibromatosis Type 1 Gene Product><Neurofibromatosis Type 1 Protein><Neurofibromin><Neurofibromin 1><Neurological Development Disorder><Neurons><Non-Coding><Non-Coding RNA><Non-translated RNA><Noncoding RNA><Nontranslated RNA><Oligo><Oligonucleotides><Parturition><Pathogenicity><Patients><Pb element><Photoradiation><Proteins><Reactive Site><Reporter><Repression><Research><SCN8A><SCN8A gene><Seizure Disorder><Sequence Alteration><Site><Small RNA><Source><System><Testing><Therapeutic><Therapeutic Effect><Transcript><Transcription Repression><Transcriptional Repression><Untranslated RNA><Up-Regulation><Upregulation><Variant><Variation><Walking><Work><allele variant><allelic variant><anti-sense agent><anti-sense oligo><antisense oligo><base><behavioral impairment><brain tissue><cohort><dravet syndrome><epilepsia><epileptiform><epileptogenic><first in man><first-in-human><gene function><gene interaction><gene repression><genetic etiology><genetic mechanism of disease><genetic variant><genetic vulnerability><genetically predisposed><genome mutation><genomic alteration><genomic variant><global gene expression><global transcription profile><heavy metal Pb><heavy metal lead><high throughput screening><iPS><iPSC><iPSCs><impaired behavior><in silico><induced pluripotent stem cell><intellectual and developmental disability><interest><loss of function><mRNA><miRNA><miRNAs><motor impairment><movement impairment><movement limitation><neurofibromatosis type 1 gene><neurofibromatosis type 1 protein/gene><neuronal><new drug treatments><new drugs><new therapeutics><new therapy><next generation therapeutics><nf 1 Genes><noncoding><novel><novel drug treatments><novel drugs><novel therapeutics><novel therapy><oligos><pre-clinical efficacy><preclinical efficacy><predictive tools><prevent><preventing><protein expression><restoration><screening><severe myoclonic epilepsy of infancy><sodium channel, voltage gated, type VIII, alpha subunit><stable cell line><symptom treatment><symptomatic treatment><targeted drug therapy><targeted drug treatments><targeted therapeutic><targeted therapeutic agents><targeted therapy><targeted treatment><transcriptional silencing><transcriptome><treat symptom><youngster>",
+  "pref_terms": "3' Untranslated Regions;Affect;Antisense Oligonucleotides;Binding;Binding Sites;Bioinformatics;Biological Assay;Birth;Blood specimen;Brain;CRISPR/Cas technology;Cells;Child;Congenital Abnormality;DNA;DNA Sequence Alteration;Data;Disease;Encephalopathies;Epilepsy;Gene Expression;Gene Silencing;Genes;Genetic;Genetic Predisposition to Disease;Goals;Human;Intellectual functioning disability;Lead;Light;Mediating;Messenger RNA;MicroRNAs;Mutation;NF1 gene;Neurodevelopmental Disorder;Neurons;Oligonucleotides;Pathogenicity;Patients;Proteins;Reporter;Repression;Research;SCN8A gene;Site;Small RNA;Source;System;Testing;Therapeutic;Therapeutic Effect;Transcript;Untranslated RNA;Up-Regulation;Variant;Walking;Work;base;behavioral impairment;brain tissue;cohort;dravet syndrome;first-in-human;gene function;gene interaction;gene repression;genetic variant;high throughput screening;in silico;induced pluripotent stem cell;interest;loss of function;motor impairment;novel;novel therapeutics;preclinical efficacy;predictive tools;prevent;protein expression;restoration;screening;stable cell line;symptom treatment;targeted treatment;transcriptome",
+  "abstract_text": "Project Summary\nNeuro-developmental disorders (NDD) are often caused by genetic mutations that lead to haploinsufficiency, or\na loss-of-gene function. Mutations that cause haploinsufficiency of neurodevelopmental genes affect over\n200,000 births each year, and commonly result in congenital malformations, intellectual disability, epilepsy and\nmotor and behavioral impairments. While symptomatic treatments exist, for most conditions there are no\ntreatments that directly correct the reduced levels of the haploinsufficient gene. Recent research by our group\nand others has revealed that many NDD-causing genes are normally under active repression by microRNAs,\nsmall, non-coding RNAs that function in gene silencing. This raises the possibility of removing this microRNA\n“brake” to increase gene expression and help restore normal function in NDD haploinsufficiency. We hypothesize\nthat the expression of downregulated genes can be restored through steric-blocking antisense oligonucleotides\n(ASO) that specifically disrupt gene repression by microRNAs. Our preliminary data support this hypothesis and\ndemonstrate that ASOs that prevent a particular microRNA from binding to STXBP1 (a common NDD-causing\ngene) robustly upregulate gene and protein expression. We propose a novel pipeline to systematically develop\nASOs to treat genetic NDD. First, we will use bioinformatic and wet lab experimental approaches to identify and\nvalidate microRNAs that potently repress leading NDD-causing genes. Next, we will use a high-throughput\nmicroRNA reporter assays to screen ASOs that can relieve this microRNA-mediated gene repression. Third, we\nwill take lead ASOs identified from the high-throughput screen and test them on neurons derived from patients\nwith genetically-defined NDD to determine if they can rescue gene expression and function. Together, this work\nwill establish pre-clinical efficacy for an ASO-based therapy targeting microRNAs to treat neurodevelopmental\ndisorders arising from haploinsufficiency, and lay the groundwork for first-in-human applications.",
+  "project_title": "MicroRNA site-blocking oligonucleotides as a novel therapy for neurodevelopmental disorders",
+  "phr_text": "Project Narrative\nNeurodevelopmental disorders affect more than 1 in 50 children and are often caused by mutations that lead to\na decreased expression of specific genes in the brain. While no therapies exist to restore gene expression for\nmost disorders, recent evidence suggests that many of these genes are actively suppressed by microRNAs.\nHere we propose to use small synthetic strands of modified DNA (antisense olignonucleotides) to prevent\nmicroRNAs from silencing specific neurodevelopmental genes, thus restoring their expression and serving as a\nnovel therapy to treat neurodevelopmental disorders of defined genetic origins.",
+  "spending_categories_desc": "Biotechnology; Brain Disorders; Genetics; Intellectual and Developmental Disabilities (IDD); Neurosciences; Pediatric",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2021-07-01T00:00:00",
+  "budget_end": "2022-12-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 344663,
+  "indirect_cost_amt": 130211,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10302244",
+  "date_added": "2021-07-03T16:33:01"
+}

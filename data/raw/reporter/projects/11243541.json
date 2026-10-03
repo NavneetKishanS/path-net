@@ -1,0 +1,124 @@
+{
+  "appl_id": 11243541,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01MH130061-05",
+  "project_serial_num": "MH130061",
+  "organization": {
+    "org_name": "UNIVERSITY OF CALIFORNIA LOS ANGELES",
+    "city": null,
+    "country": null,
+    "org_city": "LOS ANGELES",
+    "org_country": "UNITED STATES",
+    "org_state": "CA",
+    "org_state_name": null,
+    "dept_type": "NEUROSCIENCES",
+    "fips_country_code": null,
+    "org_duns": [
+      "092530369"
+    ],
+    "org_ueis": [
+      "RN64EPNH8JC6"
+    ],
+    "primary_duns": "092530369",
+    "primary_uei": "RN64EPNH8JC6",
+    "org_fips": "US",
+    "org_ipf_code": "577505",
+    "org_zipcode": "900952000",
+    "external_org_id": 577505
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 719203,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "MH",
+    "serial_num": "130061",
+    "support_year": "05",
+    "full_support_year": "05",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 1930621,
+      "first_name": "BENNETT",
+      "middle_name": "G",
+      "last_name": "NOVITCH",
+      "is_contact_pi": true,
+      "full_name": "BENNETT G NOVITCH",
+      "title": "PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "NOVITCH, BENNETT G",
+  "program_officers": [
+    {
+      "first_name": "DAVID",
+      "middle_name": "M",
+      "last_name": "PANCHISION",
+      "full_name": "DAVID M PANCHISION"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 719203.0,
+      "direct_cost_ic": 468874.0,
+      "indirect_cost_ic": 250329.0
+    }
+  ],
+  "cong_dist": "CA-36",
+  "spending_categories": null,
+  "project_start_date": "2022-02-16T00:00:00",
+  "project_end_date": "2026-12-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -118.45102,
+    "lat": 34.070199
+  },
+  "opportunity_number": "PAR-20-263",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "MDCN",
+    "sra_flex_code": "P",
+    "group_code": "57",
+    "name": "Special Emphasis Panel[ZRG1-MDCN-P(57)R]"
+  },
+  "award_notice_date": "2026-02-09T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01MH130061",
+  "terms": "<Address><Anatomic Sites><Anatomic structures><Anatomy><Anticonvulsant Agent><Anticonvulsant Drugs><Anticonvulsants><Anticonvulsive Agents><Anticonvulsive Drugs><Appearance><Brain><Brain Nervous System><Brain region><Calcium><Cell Body><Cells><Cerebroatrophic Hyperammonemia><Complex><Coupling><Culture Techniques><DNA mutation><Defect><Development><Disease><Disorder><Dysfunction><Electrophysiology><Electrophysiology (science)><Encephalon><Exhibits><Frequencies><Functional disorder><Gene Alteration><Gene Mutation><Generalized Growth><Genes><Genetic Change><Genetic defect><Genetic mutation><Goals><Growth><High Frequency Oscillation><Human><Image><Link><MeCP-2 protein><MeCP2><MeCP2 protein><Methods><Methyl CpG binding protein MeCP2><Methyl-CpG-Binding Protein 2><Methyl-DNA binding protein MECP2><Microcephaly><Modeling><Modern Man><Molecular><Mosaicism><Mutation><NAV1.6><NaCh6><Nature><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Nervous System Physiology><Neural Cell><Neurocyte><Neurodevelopmental Disorder><Neurologic><Neurologic Disorders><Neurologic function><Neurological><Neurological Development Disorder><Neurological Disorders><Neurological function><Neuronal Dysfunction><Neurons><Neurophysiology - biologic function><Neurophysiology / Electrophysiology><Organoids><Pathologic><Pathology><Pathway interactions><Patients><Phenotype><Physiopathology><Population><Reporting><Rett Disorder><Rett Syndrome><SCN8A><SCN8A gene><Sampling><Seizures><Severities><Slice><Structural defect><Structural malformation><Structure><Symptoms><Syndrome><System><Testing><Therapeutic><Tissue Growth><Variant><Variation><Work><X Chromosome><ZIKV><Zika Virus><agyria><clinical phenotype><developmental><disease model><disorder model><electrophysiological><epileptic encephalopathies><epileptiform><excitatory neuron><experiment><experimental research><experimental study><experiments><gene defect><genome mutation><global health><hESC><human ES cell><human ESC><human embryonic stem cell><iPS><iPSC><iPSCs><imaging><induced pluripotent cell><induced pluripotent stem cell><inducible pluripotent cell><inducible pluripotent stem cell><inhibitory neuron><lissencephaly><lissencephaly pachygyria><micrencephaly><microencephaly><mosaic><mosaic diseases><mosaic disorders><mutant allele><nervous system function><network dysfunction><neural><neural circuit><neural circuitry><neural control><neural dysfunction><neural function><neural network><neural regulation><neurocircuitry><neurodevelopmental disease><neurological disease><neuromodulation><neuromodulatory><neuronal><neuropathologic><neuropathological><neuropathology><neuropsychiatric disease><neuropsychiatric disorder><neuroregulation><new drug treatments><new drugs><new pharmacological therapeutic><new therapeutics><new therapy><next generation therapeutics><novel drug treatments><novel drugs><novel pharmaco-therapeutic><novel pharmacological therapeutic><novel therapeutics><novel therapy><ontogeny><pathogen><pathophysiology><pathway><preservation><progenitor cell model><progenitor model><protein function><seizure drug><seizure medication><sensor><sodium channel, voltage gated, type VIII, alpha subunit><stem><stem and progenitor cell model><stem cell based model><stem cell derived model><stem cell model><structural abnormalities><structural anomalies><synaptic circuit><synaptic circuitry><therapeutic agent development><therapeutic development><tool><zikav>",
+  "pref_terms": "Address;Anatomy;Anticonvulsants;Appearance;Brain;Brain region;Calcium;Cells;Complex;Coupling;Culture Techniques;Defect;Development;Disease;Electrophysiology (science);Exhibits;Frequencies;Functional disorder;Gene Mutation;Genes;Goals;Growth;High Frequency Oscillation;Human;Image;Link;Methods;Methyl-CpG-Binding Protein 2;Microcephaly;Modeling;Molecular;Mosaicism;Mutation;Nature;Nervous System Disorder;Neurodevelopmental Disorder;Neurologic;Neuronal Dysfunction;Neurons;Organoids;Pathologic;Pathology;Pathway interactions;Patients;Phenotype;Population;Reporting;Rett Syndrome;SCN8A gene;Sampling;Seizures;Severities;Slice;Structural defect;Structure;Symptoms;Syndrome;System;Testing;Therapeutic;Variant;Work;X Chromosome;Zika Virus;clinical phenotype;disease model;epileptic encephalopathies;epileptiform;excitatory neuron;experimental study;global health;human embryonic stem cell;induced pluripotent stem cell;inhibitory neuron;lissencephaly;mosaic;nervous system function;network dysfunction;neural;neural circuit;neural function;neural network;neuropathology;neuropsychiatric disorder;neuroregulation;novel therapeutics;pathogen;preservation;protein function;sensor;stem;stem cell model;therapeutic development;tool",
+  "abstract_text": "PROJECT SUMMARY\nNeurodevelopmental and neuropsychiatric disorders are a global health problem; yet remarkably little is known\nabout their neurological basis in humans. Consequently, treatment options remain limited. The advent of\nmethods to direct the formation of neurons from human embryonic and induced pluripotent stem cells\n(collectively hPSCs) provides unprecedented opportunities to both investigate how the function of human\nneural circuits is subverted by neurological disease and screen for new therapies. A major step towards these\ngoals has been realized by the development of organoid culture techniques through which hPSC can be\ndirected to form spatially organized, brain-like structures. Thus far, brain organoids have been successfully\nemployed to model the impact of genetic mutations and environmental pathogens that result in overt defects in\nbrain growth. However, overall brain structure is preserved in most neurological disorders, and defects are\nprimarily defined by alterations in neural activities. Major challenges thus remain in developing means for\ndefining the organization and function of neural networks within organoids and using this approach to explore\nunderlying disease mechanisms and therapeutic opportunities. In our recent work, we discovered that\nremarkably complex neural network activities can emerge through the creation of cortex-ganglionic eminence\nfusion organoids, which permits the intermixing and functional coupling of excitatory and inhibitory neurons.\nUsing a combination of calcium sensor imaging and electrophysiological approaches, we identified that fusion\norganoids exhibit sustained multifrequency neural oscillations reminiscent of higher network functions seen in\nintact brain samples and slice cultures. We further developed a fusion organoid model for the\nneurodevelopmental disorder Rett syndrome and found that organoids harboring mutations in the MECP2\ngene exhibit markedly abnormal neural network activities including episodes of hypersynchronous bursting,\nloss of low-to-mid frequency oscillatory rhythms, and abnormal appearance of epileptiform high frequency\noscillations. Together, these studies illustrate the extraordinary potential for the fusion organoid platform to\nreport both normal and dysfunctional neural network functions and recapitulate salient pathological features\nseen in Rett patients such as seizures. Here, we seek to address three central questions for elucidating the\nmechanisms underlying neural network dysfunction associated with Rett syndrome and other\nneurodevelopmental disorders. First, does neural network dysfunction seen in Rett syndrome organoids\ngenerated from patients harboring different mutations correlate with the nature of the mutation? Second, what\nis the impact of cellular mosaicism in MECP2 function on neural network activities? Third, do organoid models\nfor different neurological diseases with a seizure component exhibit shared or distinct network dysfunction\nprofiles? Through our studies, we will explore how brain organoids can be best utilized to determine the root\ncauses of a range of human neuropathologies and work towards the goal of discovering new treatments.",
+  "project_title": "Elucidating the molecular mechanisms behind human neurodevelopmental disorders using brain organoids",
+  "phr_text": "PROJECT NARRATIVE\nBrain organoids are emerging as powerful tools for studying the mechanisms behind human brain development\nand disease. In our recent studies, we developed a platform for assembling functional neural circuits that\nexhibit surprisingly complex neural network activities such as oscillatory rhythms. In the proposed studies, we\nwill explore how brain organoids can be best utilized to discover the mechanisms behind a range of\nneurological disorders and develop strategies for therapeutic development.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-01-01T00:00:00",
+  "budget_end": "2026-12-31T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 468874,
+  "indirect_cost_amt": 250329,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11243541",
+  "date_added": "2026-02-14T17:04:07"
+}

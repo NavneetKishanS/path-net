@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "selection_date": "2026-10-03",
+  "genes": [
+    "STXBP1",
+    "SCN2A",
+    "KCNQ2",
+    "SCN8A"
+  ],
+  "scope": "Selected nonempty abstracts and book chapters for P2 extraction; not an exhaustive literature review. Targeted mechanism papers supplement gene-query samples.",
+  "record_count": 159,
+  "records": [
+    {
+      "pmid": "12610651",
+      "content_sha256": "b6c758955b235b49b93208bcc20b574e9b255038b98330c1c76f355ea75e7f6b"
+    },
+    {
+      "pmid": "20437616",
+      "content_sha256": "67fe0bb5fea0469e39eea893b4c0d271396e68e2ffa486c3f57da8f96fe1a251"
+    },
+    {
+      "pmid": "21269290",
+      "content_sha256": "a92acdeb13c46df7f90fa90282cc6decd8150c3c94e66a45b1b03f28b2c82dbc"
+    },
+    {
+      "pmid": "21967765",
+      "content_sha256": "df381e157cad0e897eb190ea79173bcdeb7f7f37e448fd9679d30fd21f6f8c5c"
+    },
+    {
+      "pmid": "22196487",
+      "content_sha256": "4bcb289ca9e4da64479215c6d3139b2c072f121c0645af244a36f2c7b9d243ff"
+    },
+    {
+      "pmid": "22495306",
+      "content_sha256": "68ae39f4397708376c9e9bbf77b3e7e6f51b27ea231fdcb8550914b2bbbb50a4"
+    },
+    {
+      "pmid": "22787616",
+      "content_sha256": "7ad8cfab92401f352c01100c95245dd0d34b34ceb437121060db2f3719c0eedf"
+    },
+    {
+      "pmid": "22787626",
+      "content_sha256": "ce4d724306d22520239ca46e44971d92b40d7acbe1e3e948d1d97e0b3005c81e"
+    },
+    {
+      "pmid": "22905747",
+      "content_sha256": "07836bfdaefe285cc0c7dbc3141412d4a9fd97b014cd542ff870d0fe79d2b428"
+    },
+    {
+      "pmid": "23708187",
+      "content_sha256": "386f5af284f9f418781cfd172f4c5058b1ddd41e2cd8178d5e02f04f5a8dafbd"
+    },
+    {
+      "pmid": "24318194",
+      "content_sha256": "fcee31946c96e3fa6b07ff3a80dab3ed250005e2512ce49ba51879ce9f96514b"
+    },
+    {
+      "pmid": "25282382",
+      "content_sha256": "13b8d7895e6f6d35e33e94f851fad87cbe3b41058343f3c9c0ae36f6dfd828ec"
+    },
+    {
+      "pmid": "25818041",
+      "content_sha256": "bab131d99b2af34ffff376becd62afa80da606fabd1bd61c6e9e459930f65bb6"
+    },
+    {
+      "pmid": "25893612",
+      "content_sha256": "66f49bb1024181a91605a839166f7873f47a0f7dcfae1e2eaebd592dc23c8daf"
+    },
+    {
+      "pmid": "26271793",
+      "content_sha256": "4ac24378c3f29aaa190dd2d36c8ca8601e521272b7926f088e5069d1164e41d5"
+    },
+    {
+      "pmid": "26795593",
+      "content_sha256": "30a6b9c9abd436b81e5a6180924e3c89b4f3a0a4905e694d5ed04341cf905d33"
+    },
+    {
+      "pmid": "26818399",
+      "content_sha256": "f44a98a6b77b697dc5579f95b532a7b446f35631af71e7065a68f7f8475a3d36"
+    },
+    {
+      "pmid": "26865513",
+      "content_sha256": "fefc8da4f9c0a8911a68ab582f0ab37b6e63df6d432d3f55a96296ce64763cf5"
+    },
+    {
+      "pmid": "26892388",
+      "content_sha256": "214fd9a0d8b1b443d505589c9ff601d5cddfaebb9e73ea814ad3258a02786995"
+    },
+    {
+      "pmid": "27559564",
+      "content_sha256": "8bca3ba31b1e5293c71d634602cac37eea4b26d57ee2fe44bc6026c512247514"
+    },
+    {
+      "pmid": "27742266",
+      "content_sha256": "cb2c376c03c71d1ea600805aeac58c923b263358f4736fb66dbb6e5025fe669c"
+    },
+    {
+      "pmid": "27781027",
+      "content_sha256": "68d70035f15b4014273b36b6faeab4a6600d0461f4ade5832250eb35901fdb9f"
+    },
+    {
+      "pmid": "27830185",
+      "content_sha256": "19a0359d02ef1af1283fbd9feff5ae20c80a07eeabb5bdcfe93087002cd8be72"
+    },
+    {
+      "pmid": "27905812",
+      "content_sha256": "8feea80d48c22ae51be06a89283ce1770e570bb0c2d7b4c875f1d828aadb33c8"
+    },
+    {
+      "pmid": "28212175",
+      "content_sha256": "a6a3b681a0033bebb96fc436a1b10b4a01b5b2dcfa0fc5d2a909ec0e4d966bd3"
+    },
+    {
+      "pmid": "28235671",
+      "content_sha256": "a3b714bf747ff45bfd4c5fd203f72f3299b346c2ec369d3ec0b1e0328b54919d"
+    },
+    {
+      "pmid": "28346953",
+      "content_sha256": "d2153d53d25ba7a0f41c92ead5366c4af9e26d31167cf4dbace2217c647ad439"
+    },
+    {
+      "pmid": "28379373",
+      "content_sha256": "c0b52389b675d51c89f00f52f9b53e3aa7eb9acae15830c54186e0a03a27a6af"
+    },
+    {
+      "pmid": "28971703",
+      "content_sha256": "cd001822452ad29ef0449497966db641cfb15a33dd03ec0efe8dcbebcbfdc4a2"
+    },
+    {
+      "pmid": "29067685",
+      "content_sha256": "9f9637556e74ec0c47eff927f062282d03b63aa8f901e4a253f141bf553ed38a"
+    },
+    {
+      "pmid": "29264391",
+      "content_sha256": "153375a38451a0ac7cc1edbfe85d24465d4b87e4f8ac30da56ce8c8db6301703"
+    },
+    {
+      "pmid": "29314583",
+      "content_sha256": "111ddbb3fa64cd9c8c9c6eeac46a755d287cf45b153ed0565d13893087b46e4a"
+    },
+    {
+      "pmid": "29426806",
+      "content_sha256": "68f2d697cc616b7574ccf0599759c859b7d222a91db6fd605d786f0a88e15dbe"
+    },
+    {
+      "pmid": "29538625",
+      "content_sha256": "2f9c067b02686a416ce47e40e1e908990926c07b974f41ba422ddda5a7d704e4"
+    },
+    {
+      "pmid": "29599780",
+      "content_sha256": "44c3aa640ba117b119877b326248832e997da55ad4be0e5b2eadb855c6e195f8"
+    },
+    {
+      "pmid": "29643704",
+      "content_sha256": "ca24ff4cad9069851238cb07938988b5256ae78df2c14ab36d878d5f41a99754"
+    },
+    {
+      "pmid": "29655203",
+      "content_sha256": "7105eddcbaf7ca80a0733ccad0dc126a8734c7b71fb8b511b249befbffad8699"
+    },
+    {
+      "pmid": "29691040",
+      "content_sha256": "266398d21fcc70964eafc048002ac7d3ba992b15316555e260e5d8ccba1939fa"
+    },
+    {
+      "pmid": "30654231",
+      "content_sha256": "d4127cdb293fda5f3a705d1a2ac83e4ee18b487d211646d5fd65203b704217b1"
+    },
+    {
+      "pmid": "30764523",
+      "content_sha256": "4270406ca862c5fc41bd60461b78f60d35e4b200333052637f4fb8c722c86fc6"
+    },
+    {
+      "pmid": "31221716",
+      "content_sha256": "9eb13c8b953121ac7278c0c400af9c2f3327561e1e4ea67d74ab66ae31950c72"
+    },
+    {
+      "pmid": "31230762",
+      "content_sha256": "70d141a8961cd12c1a35a397613d73101c349944d4184d2eb6868a423703fc15"
+    },
+    {
+      "pmid": "31324323",
+      "content_sha256": "504b5bcfe2cb2a12e818edae3e69b07edb1d721d2a54a8e9e1605aecd3ab4b2f"
+    },
+    {
+      "pmid": "31387522",
+      "content_sha256": "a6ff74fb8fcb54dc6add28d5e58c3822d4221a180d9f3aeee6337f75c536a993"
+    },
+    {
+      "pmid": "31558572",
+      "content_sha256": "9e478c189a73c15dd919d4e0729464b94130bf092fedc79dad66db9b0d8c48b3"
+    },
+    {
+      "pmid": "31618474",
+      "content_sha256": "a949d9f6c8671db6d93fcb17cd1af46c387bfec136dc8ae9f44ee17d88ef86a0"
+    },
+    {
+      "pmid": "31813518",
+      "content_sha256": "a6c5982abaaea63fb0099b8ebea10b332af71bed3fdd184efbca98ab51b4d320"
+    },
+    {
+      "pmid": "31855252",
+      "content_sha256": "d0e2d06686517aa7897483b880968abbf31ded694b7a806fcc06051ce12e74cd"
+    },
+    {
+      "pmid": "31882278",
+      "content_sha256": "8c38eedc1c36b44c873ae9af760ceece965e8e4b361f26c463245d67e4ae8f2f"
+    },
+    {
+      "pmid": "31904118",
+      "content_sha256": "3e1a46368ca7e52b36543177e1ae08dee3a4ffc8814347c92eb657adef56c65e"
+    },
+    {
+      "pmid": "31904120",
+      "content_sha256": "cf05051955ccf4883724779e81575e25e326bf11c7b85368798ad278f6e837fc"
+    },
+    {
+      "pmid": "31904126",
+      "content_sha256": "615a34e13d860de47c73b37a41c615c7e0690966a65db1aef8afbf2576e8ebd6"
+    },
+    {
+      "pmid": "31924505",
+      "content_sha256": "4185b8620724a4943454294081d188b1ecabed0857ee75a7c7437878112bafb8"
+    },
+    {
+      "pmid": "31929717",
+      "content_sha256": "c2593bf4f18e56073f57195f7cf34a066afe6907935ed9353e45b779bf2af6f4"
+    },
+    {
+      "pmid": "32005694",
+      "content_sha256": "df0d3b0774e0ea44cb1016f27d62b5fd973ba40de157dbc70818debca8a5ed09"
+    },
+    {
+      "pmid": "32073399",
+      "content_sha256": "d2cb7304ddae68a124cbd0711a83865c081395bca6ad97411c36e505a8b590b6"
+    },
+    {
+      "pmid": "32090326",
+      "content_sha256": "061861371262b9dd565de1c4e4c07b82cc24cc43eb9c6b202ff2defc0c942beb"
+    },
+    {
+      "pmid": "32521962",
+      "content_sha256": "2c7652af9f950e6a37a74aafea63bf65538d279c619c90c1415b90b61476995a"
+    },
+    {
+      "pmid": "32643187",
+      "content_sha256": "02a8995c9b94d7451d3884b6a522fcf50eb07f65768436e486d71d47e70f42d3"
+    },
+    {
+      "pmid": "32738165",
+      "content_sha256": "e2fbc64e201b5266ec48af5c8cb0a5ccab5bcda931b6d17ee798fdb06d575af4"
+    },
+    {
+      "pmid": "32917465",
+      "content_sha256": "1ef2638256e1419cd0bf3701fc6dfd3ce746fb0cbc555cedf10a9caf8699195f"
+    },
+    {
+      "pmid": "33176815",
+      "content_sha256": "647204096402e326c8f53462e4004dff006895a1b04fd4264b2e1fc276d6d0c3"
+    },
+    {
+      "pmid": "33531663",
+      "content_sha256": "09515275d56fddd23d32a2193db823adbc29607980a1c49030984e7301eb7b6f"
+    },
+    {
+      "pmid": "33616268",
+      "content_sha256": "91928a565ed8888cc9dd2d531c085f2ba303bb60c0902fa7c2b046ae8f34b3f4"
+    },
+    {
+      "pmid": "33681646",
+      "content_sha256": "c9baa28b5e069bfd23a74ff149065f9907b73ae29b0f9b64fa5b5e150d7d2731"
+    },
+    {
+      "pmid": "33811133",
+      "content_sha256": "2041019c00db9d3f4972a738d99b437d3fe25de5264a9ea61c9d7fd60dbee77e"
+    },
+    {
+      "pmid": "34083748",
+      "content_sha256": "2b87f1c174a398080c80cd08e5f0915fc1b09b786ed5712e3eeb567ecccb340c"
+    },
+    {
+      "pmid": "34177764",
+      "content_sha256": "673f0422cf1c9638e9b079f18e304e6a66bb9a63809839492b84adae447c2f77"
+    },
+    {
+      "pmid": "34181986",
+      "content_sha256": "c00da2561b2c9db1e368204bbcf30870bcfcb52ead6321a6c1c65ac7019b7b3f"
+    },
+    {
+      "pmid": "34392114",
+      "content_sha256": "f83411ee969f7172f470d9b52aeaec8889fbf366faee506cfbc753829d28e4a9"
+    },
+    {
+      "pmid": "34431999",
+      "content_sha256": "4be7bbaa140196a0db70f1a28a39281403f9bda39a6b7576999a0200000d4998"
+    },
+    {
+      "pmid": "35007884",
+      "content_sha256": "711b4c0e3439339212a8fe72769d8fa4ebcc3f0ad26af2c5bc1baaf8cfa71f38"
+    },
+    {
+      "pmid": "35190816",
+      "content_sha256": "2c7f1fd2123193a114430a59865c035bf0f63722b629f3bed9869c6c6c430ab1"
+    },
+    {
+      "pmid": "35431799",
+      "content_sha256": "85ca2c3c83dba172ea914b5d0c9211262f66a8cc15de4f1f5300ea39319fad18"
+    },
+    {
+      "pmid": "35501379",
+      "content_sha256": "0a309c6e527d1ab4e161193ab4279a0156ac84fa09bd48de7693a960a4395fbf"
+    },
+    {
+      "pmid": "35655584",
+      "content_sha256": "fd57dca93d0ee59d5a071a85947014ddd64fdbea7a69bb3930ba75e25ffbf937"
+    },
+    {
+      "pmid": "35851549",
+      "content_sha256": "b91a86d16be3df125a04465657fa463b3e317175ab07b67cd3d304dc55db4019"
+    },
+    {
+      "pmid": "36047730",
+      "content_sha256": "1d8dcb6e7d1ea2314bf75deaf2835c98a73c7548f3fb0210be724d923eea73fa"
+    },
+    {
+      "pmid": "36245272",
+      "content_sha256": "82fb2fdd05aa7093779be61aea39723f8af254455b231431433d8453ee517ef2"
+    },
+    {
+      "pmid": "36440324",
+      "content_sha256": "083e7ea1ec9cd54d89979bb278ebda61c565a6fa7a71dcb00b031cda441ea81a"
+    },
+    {
+      "pmid": "36625631",
+      "content_sha256": "f6a2981c30fd0a5d3ea33d52387a503d5a16d65cf24104ade7b82965359699e6"
+    },
+    {
+      "pmid": "36750385",
+      "content_sha256": "cbad34099c68ce9f09b9901755685d8fb043ca391f004f6cb5236ebeb81560e0"
+    },
+    {
+      "pmid": "36882827",
+      "content_sha256": "a4cbd18d49ab4ddf29ba6ee419a0d3bf475f02ad1b5e973771e05ea90fe5b4a8"
+    },
+    {
+      "pmid": "37056358",
+      "content_sha256": "3d282d52616a3ee6d524259d0afd7f34e7cad2131d9cb870a599b0d81a453cef"
+    },
+    {
+      "pmid": "37099824",
+      "content_sha256": "d86e0879d20680e68968f1a2e7b04a47aa95b72595c7f046b5eed75c70a8fd06"
+    },
+    {
+      "pmid": "37160367",
+      "content_sha256": "c233e2266183113c557c10482d186d7e7509cd83d2f96d7e06b22f0952e007ec"
+    },
+    {
+      "pmid": "37215006",
+      "content_sha256": "8d70ee41d3f96027f58cb272769f2a0ffbfac9a864fc09b02dca9c9f25524b4d"
+    },
+    {
+      "pmid": "37407264",
+      "content_sha256": "04f54259d74e6463e4409dad99ad83bac9bd740673c25edc82b739867d662dfa"
+    },
+    {
+      "pmid": "37425705",
+      "content_sha256": "03bf7baf17f514220ee657eaa7568c82bad2e0516d191408c6004c4274f13005"
+    },
+    {
+      "pmid": "37578743",
+      "content_sha256": "7188a6a40560adb70056e627bc138040cff5924a185434787f9ce61dfa9786b7"
+    },
+    {
+      "pmid": "37622116",
+      "content_sha256": "c0a924cbe0a26acb0aae2de9dbe83ad5ef24beb901c9779d803536883f1b761d"
+    },
+    {
+      "pmid": "37668872",
+      "content_sha256": "22db9f7e42424784a7b377f9a1b234aaa5f4365290b4170ebb869aaac99c2f99"
+    },
+    {
+      "pmid": "37857637",
+      "content_sha256": "7ae685c765a80823bc20c2317f8fca0d2ce8dac65be632863d81b07f79c582a8"
+    },
+    {
+      "pmid": "37861287",
+      "content_sha256": "bc2d82a6184ce4e06727d6b7d1a608cbc838533cdf2d8466411e351966e9b758"
+    },
+    {
+      "pmid": "38015929",
+      "content_sha256": "515fa0d6c01427e9807437c25dd8f6a7ab3d6d249286628a6ee527f427d07f8d"
+    },
+    {
+      "pmid": "38086378",
+      "content_sha256": "98041dccc08b1512b5167b1d35e5cde407813c7f28aae6ecf63c134cda9edce7"
+    },
+    {
+      "pmid": "38137001",
+      "content_sha256": "c9a77566480476718ea0547c289d78206e22553dd19bb28d5b6f8287743d1b6e"
+    },
+    {
+      "pmid": "38242640",
+      "content_sha256": "36b3338cddb6f0170fb9e2ff632dede0d1c916929889edc15a82e3fc95ed6610"
+    },
+    {
+      "pmid": "38253132",
+      "content_sha256": "16aca49c2e60a58b910b061ef6ac82ef56f4d71e4c5de3aee46fbfb3ff397849"
+    },
+    {
+      "pmid": "38279907",
+      "content_sha256": "3b6de5720b8b5a91175570089923f7f1e0c878feafa50f9b740700f4150bba0b"
+    },
+    {
+      "pmid": "38316990",
+      "content_sha256": "ff5139ea93997c7c6a5f7642dd03c534a49216db3eae6fb25c7a22018806afc6"
+    },
+    {
+      "pmid": "38360746",
+      "content_sha256": "3f7573a7448f05f7d3e2dadd20de58dc356793424f56067032eacafd7f9ee87a"
+    },
+    {
+      "pmid": "38395944",
+      "content_sha256": "72a5d5dda23577d6ac6514746a08139ca73b5198e2fa0c137a3eb9b2487d29d7"
+    },
+    {
+      "pmid": "38412857",
+      "content_sha256": "22878818a9fac869f0b92755a5b945f8029e6aa5884700ab3bbc16576e15c225"
+    },
+    {
+      "pmid": "38460523",
+      "content_sha256": "7b80078e1adb1db459f477e29065425635b707831b1fed8e6683d745f9c0aecf"
+    },
+    {
+      "pmid": "38472035",
+      "content_sha256": "76ee0f7efa8ee702722a67dcfd7f55459d7924d5016ec9712956bf969c8ac69a"
+    },
+    {
+      "pmid": "38498291",
+      "content_sha256": "d5ae1bcf2c2643d240f49c8731214a9220514442331f15338bafd93133f6d158"
+    },
+    {
+      "pmid": "38499656",
+      "content_sha256": "7f83759415814623406f9cbcb05f112e5960989c942edb984ce1b39b95014e77"
+    },
+    {
+      "pmid": "38540325",
+      "content_sha256": "3e02842a98c17bcfc038fdefaaddd404ae8837f9c57b333b64138c4352ae6bc1"
+    },
+    {
+      "pmid": "38651838",
+      "content_sha256": "8162ecc45bd28c0e5775905a9835226b03a17d0220e21e9a0b9dfa635acc4117"
+    },
+    {
+      "pmid": "38681507",
+      "content_sha256": "afc1eff9885b55c133625288b68451a0b3544e8361bec77176972c07d74461e8"
+    },
+    {
+      "pmid": "38802994",
+      "content_sha256": "487c2de7f9850d2414485f7abc6085026914853a9d1b907e76145f4ba90a6be6"
+    },
+    {
+      "pmid": "38898886",
+      "content_sha256": "14fa27cbfd8778fc2abd163cea1b9c6d7a1c3f9059bd3df9c656ab9e9dafe2cc"
+    },
+    {
+      "pmid": "39032529",
+      "content_sha256": "2793524afeef341127c7acf2390053e1bad8b6cc4a150d94aa9828f46927bbf4"
+    },
+    {
+      "pmid": "39088270",
+      "content_sha256": "d65921f3ca67137a38a33633f5efa6664002eb44d6810fe6d66e48eceb7f5134"
+    },
+    {
+      "pmid": "39192337",
+      "content_sha256": "97781e9b323860b9210d537865e3038ae92dde411d4afbd1793e562ef7a76d2d"
+    },
+    {
+      "pmid": "39392525",
+      "content_sha256": "82167be13e94b4b764abf7f28f94a760b105460c69b71f7662ad2f633e22de20"
+    },
+    {
+      "pmid": "39412438",
+      "content_sha256": "d5d4f5d190d25b0b4a85c48ea82299495cf928fc0235592338301d7d1e21e172"
+    },
+    {
+      "pmid": "39435659",
+      "content_sha256": "9267160167f0c874844e936514727c156ead7d22b8eb77056535ac05f452b469"
+    },
+    {
+      "pmid": "39463124",
+      "content_sha256": "6ca59cea6f0fc0053bf0469af636c2f04ac85ec5f197fe0d7f1c2bffc172f2b7"
+    },
+    {
+      "pmid": "39602259",
+      "content_sha256": "64a29a62cde955b11ffc7df51d210753e9dc40bfcefb033638a91221464c38d2"
+    },
+    {
+      "pmid": "39637139",
+      "content_sha256": "0e8ee456a242c21941f382e60fd3a1d2f3cc1b978873b19febfff81d60f599db"
+    },
+    {
+      "pmid": "40043113",
+      "content_sha256": "3c32e1e1ab8c870e9d1ce3c9ffd38e0eb44ded45091a3f1e2c89a0026469b8dd"
+    },
+    {
+      "pmid": "40180227",
+      "content_sha256": "9e038d57357a10b09ea004d76b15ac9f77935bdbff94b94e25c6be387cd06a86"
+    },
+    {
+      "pmid": "40190794",
+      "content_sha256": "8dd4cfbbdca007a3d10fca4184a3a82d71bb0119f9e39cbe13f1718174cf41d5"
+    },
+    {
+      "pmid": "40227275",
+      "content_sha256": "72465715299b52b72dc4384c1decc43302c78b3e7b499b7de1eac42e55db0335"
+    },
+    {
+      "pmid": "40349107",
+      "content_sha256": "4055ebcc23b7108160dd66dd250f6fc1e8f95f41480ebfde67b24bd81c15fb44"
+    },
+    {
+      "pmid": "40350643",
+      "content_sha256": "d76248587e153b9d064c726180f0b9c876b54853ac6f1082c9a33001c4441934"
+    },
+    {
+      "pmid": "40366453",
+      "content_sha256": "22cd664bdb7a9e8901a41aa88cedc903ad93a950d56e4bf183ff7ac87192ec8f"
+    },
+    {
+      "pmid": "40381613",
+      "content_sha256": "efbb56e362a99c1efe8f45e29f879e70ea2c1fb27429ee62844c2cb205d1a61b"
+    },
+    {
+      "pmid": "40502014",
+      "content_sha256": "0b864d7cd1b276c9c4ad366a6f19f59e06de43afbb2c403faa4d677e55dfa9e8"
+    },
+    {
+      "pmid": "40633241",
+      "content_sha256": "13e06c430e07f4b3843955b6f860c5d99b1ec1b7f23ba09167c59821a596b37c"
+    },
+    {
+      "pmid": "40645182",
+      "content_sha256": "8ea3c8b01519db7f4f9740827d570242ce6b002d6949e24e842ae1d5a5d955f2"
+    },
+    {
+      "pmid": "40884527",
+      "content_sha256": "f5b2bd9f69ddc3e9b66071c8def313349b0683335e4e5146a975b04506d3888c"
+    },
+    {
+      "pmid": "40886679",
+      "content_sha256": "3c94c87de74dc8ec59a7242cbff3f7022b15924fc208728fcdef77d152fd9631"
+    },
+    {
+      "pmid": "40963013",
+      "content_sha256": "8058e86a359005e4c9b715bf8077dd4991673131ad3b6b6b299a4378203bdac7"
+    },
+    {
+      "pmid": "40972954",
+      "content_sha256": "bb3263bbc4f2a76cef7bb414eb4d53d09c6164e5b46d87aedabb7e8fbde74ddd"
+    },
+    {
+      "pmid": "40986432",
+      "content_sha256": "a3b4ba5350a6e850deadb1920ee94c85f3bdd3c6dd84a099ec61b41de3f0884c"
+    },
+    {
+      "pmid": "40998073",
+      "content_sha256": "3626cde26727c7366a1de0fd41e93337d4144a7c942f0721749aeaf496cc6fc1"
+    },
+    {
+      "pmid": "41015095",
+      "content_sha256": "45d8b74c35450acbf5296ec7ca6306cce9c32bed53a9557d413684209cd83719"
+    },
+    {
+      "pmid": "41028791",
+      "content_sha256": "286f294d6d79636be8d5436db43336e8b4d93d9499aff2971e3834ae16a2f774"
+    },
+    {
+      "pmid": "41153369",
+      "content_sha256": "0871f086aa6c2b44533cf9d66406439b1cc68b98e85bc59972fbbd8b5e5a8d85"
+    },
+    {
+      "pmid": "41174170",
+      "content_sha256": "1088490d9278f577309db81225f7fda2e4b004e9b78ca6776500ccd73b9192da"
+    },
+    {
+      "pmid": "41263692",
+      "content_sha256": "3eac53dff452e97f51a5c8b21779c071b7ce2933e4d1e7ca914fb07b6698096a"
+    },
+    {
+      "pmid": "41282775",
+      "content_sha256": "875f7834f05bd175aa68a1cd209baac2df5155cad346eb6e4fb4f557a689fa2e"
+    },
+    {
+      "pmid": "41419331",
+      "content_sha256": "badb30097d864c4200306c742ac0074017e4159f938798803dddf77b6bbf2285"
+    },
+    {
+      "pmid": "41470225",
+      "content_sha256": "dfe7c5f7f60a1e728e141edf0cb3d59952392c8a44a354720a87236d659d22f9"
+    },
+    {
+      "pmid": "41510857",
+      "content_sha256": "89eef528af390912550ee9326fc5b9eaf5a942813296a7c36d5d9b51cdb09d43"
+    },
+    {
+      "pmid": "41510908",
+      "content_sha256": "cf962f2d441135454317cd9629fb8f5cb35eeb0f8297b1bc65f1d35f5d6e3baf"
+    },
+    {
+      "pmid": "41560101",
+      "content_sha256": "4c6e72928fd53e10dad53c7d4e63bac4017f248e90f591c12deaa3aed9ba1db6"
+    },
+    {
+      "pmid": "41642117",
+      "content_sha256": "2957eb028a2b0220b6f2b131517d5826b1043cbd31da5b8a62d23676d62fd3a1"
+    },
+    {
+      "pmid": "41714804",
+      "content_sha256": "804d981cbab37fd58c3b8f0ce0195eff01245658c8f1f1100c8e293fc87e6e1f"
+    },
+    {
+      "pmid": "41762326",
+      "content_sha256": "875e638b20180ae9ba0efeb421f00996c9304c2ad01fcd5a7493d8d8c7814672"
+    },
+    {
+      "pmid": "41883162",
+      "content_sha256": "f87780f09cfcc9dddcd8f079beb6ef8090cb06e74a7324a4290e1bc5c21351c0"
+    },
+    {
+      "pmid": "42190144",
+      "content_sha256": "a66aed033fd8969b2ab63f4441af816032662961aa39c0493e8ec2410fc192ef"
+    },
+    {
+      "pmid": "42227234",
+      "content_sha256": "ae237690248a4f64f39b7af6fe534190a239c37cf5f17e35fa739d4e68bf96b0"
+    },
+    {
+      "pmid": "42448791",
+      "content_sha256": "c929f66e6188168b35fb93e41fe4ae6757ba052bf619fc03036d1e20ade16f17"
+    },
+    {
+      "pmid": "42485845",
+      "content_sha256": "4b36d96b3aa767bf0cb17d9b6136b36aad214e24060d47f3b59b1ad9eae1fc08"
+    },
+    {
+      "pmid": "42573089",
+      "content_sha256": "35dd699346fb3a7c224795b2da7116fe5510b14c5cfbe87e778340dd07b7d3cb"
+    }
+  ]
+}

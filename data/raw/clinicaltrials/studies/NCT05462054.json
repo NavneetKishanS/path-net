@@ -1,0 +1,224 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05462054",
+      "orgStudyIdInfo": {
+        "id": "CAP-002-501"
+      },
+      "organization": {
+        "fullName": "Capsida Biotherapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+      "officialTitle": "A Phase 0 Non-interventional, Multi-center, Natural History Study in Pediatric Patients with Syntaxin Binding Protein 1 (STXBP1) Encephalopathy with Epilepsy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Withdrawn, no patients enrolled",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-07-05",
+      "studyFirstSubmitQcDate": "2022-07-13",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Capsida Biotherapeutics, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, non-interventional, longitudinal study designed to characterize the natural history of STXBP1 related encephalopathy with epilepsy, in participants ≤ \\<5 years of age."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STXBP1 Encephalopathy with Epilepsy"
+      ],
+      "keywords": [
+        "STXBP1",
+        "Epilepsy",
+        "Seizures",
+        "Epileptic encephalopathy",
+        "Genetic Diseases, Inborn"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "STXBP1 gene mutation"
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in neurodevelopmental parameters of adaptive behavior function over time utilizing the Vineland Adaptive Behavior Scales-II (VABS-II) Age-equivalent Scores",
+          "description": "The Vineland Adaptive Behavior Scales, Second Edition (Survey Interview Form) is a measure of adaptive behavior in children, adolescents and adults. It yields an overall standard score (Adaptive Behavior Composite, ABC) and age standard scores in four domains. ABC scores have a mean of 100 and a standard deviation of 15 (range = 20 to 160). Higher scores suggest a higher level of adaptive functioning.",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in neurodevelopment parameters over time utilizing an age appropriate assessment.",
+          "description": "The determination of whether a patient received Bayley Scales of Infant Development-III (BSID-III) is based on an algorithm that includes the patient's calendar age and VABS-II age-equivalent score (See Outcome 1). The BSID-III is a series of measurements to assess the motor (fine and gross), language (receptive and expressive), and cognitive development of infants and toddlers and consists of a series of developmental play tasks. contains two scoring systems of composite scores and percentile ranks. The normal range for composite scores is between 40-160 with mean at 100 and 0-99 for the percentile ranks. Higher scores mean a better outcome.",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in neurodevelopment parameters over time utilizing an age appropriate assessment.",
+          "description": "The determination of whether a patient received Kaufman Assessment Battery for Children-II (KABC-II) is based on an algorithm that includes the patient's calendar age and VABS-II age-equivalent score (See Outcome 1). The KABC-II is an individually administered measure of processing and reasoning abilities. The scoring range is 69 and below through 131 or greater. Higher scores mean a better outcome.",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in seizure frequency over time",
+          "description": "Seizure diary",
+          "timeFrame": "2 Years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in communication ability over time",
+          "description": "Observer-Reported Communication Ability (ORCA) Outcome Measure. The ORCA measure produces a single score that is an estimate of an individual's overall level of communication ability. Higher ORCA scores reflect greater communication ability; the mastery of expressive, receptive, and pragmatic types of communication and higher vocabularies for verbal words and symbols on assistive devices. The ORCA T-score range is from 26.82 to 83.24.",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in sleep behavior over time",
+          "description": "Patient sleep habits will be assessed using Children's Sleep Habits Questionnaires (CSHQ).",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in electroencephalogram (EEG) recording over time",
+          "description": "Standard EEG, lasting approximately 1 hour, to assess the presence of epileptiform activity.",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in motor function over time utilizing an age appropriate assessment.",
+          "description": "The Hammersmith Infant Neurological Examination (HINE) is aimed to be used for infants between 3 and 24 months of age and assess different aspects of neurological function: cranial nerve function, movements, reflexes and protective reactions and behavior, as well as some age-dependent items that reflect the development of gross and fine motor function. Each item is scored 0-3, higher scores mean a better outcome.",
+          "timeFrame": "2 Years"
+        },
+        {
+          "measure": "Changes in motor function over time utilizing an age appropriate assessment.",
+          "description": "The Gross Motor Function Measure-88 is aimed to be used for children 5 months or older of age and assess changes in gross motor function over time. Each item is scored 0-3, higher scores mean a better outcome.",
+          "timeFrame": "2 Years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female, \\> 1 day to ≤ 5 years of age at the time of informed consent.\n* Diagnosed with seizure disorder\n* Presence of a STXBP1 gene mutation. Historical documentation is sufficient to support eligibility for the study. Confirmatory testing will be obtained at baseline and performed by a CLIA certified laboratory\n* Written informed consent provided by a parent or legal guardian\n\nExclusion Criteria:\n\n* History of prior gene therapy treatment\n* Current enrollment in an interventional study or has received an investigational drug within 30 days or fewer than 5 half-lives prior to screening visit, whichever is longer\n* Treatment with any antisense oligonucleotide therapy within 6 months prior to screening and anticipate remaining on treatment throughout the study\n* The presence of a confirmed mutation in a gene other than STXPB1 that is known to contribute to a neurodevelopmental disability\n* Presence of a significant non-STXBP1 related central nervous impairment/behavioral disturbance that would confound the scientific rigor or interpretation of results of the study\n* History of prematurity (defined as gestational age \\<35 weeks), interventricular hemorrhage, structural brain deficit or congenital heart disease\n* Requires mechanical ventilation or non-invasive respiratory support such as continuous positive airway pressure (CPAP) or bilevel positive airway pressure (BiPAP) at the time of informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Day",
+      "maximumAge": "5 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "≤5 years of age with STXBP1 related encephalopathy with epilepsy.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Medical Monitor, MD",
+          "affiliation": "Capsida Biotherapeutics, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        },
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D012640",
+          "term": "Seizures"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

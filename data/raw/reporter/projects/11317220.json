@@ -1,0 +1,124 @@
+{
+  "appl_id": 11317220,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5K08NS121601-05",
+  "project_serial_num": "NS121601",
+  "organization": {
+    "org_name": "NORTHWESTERN UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "CHICAGO",
+    "org_country": "UNITED STATES",
+    "org_state": "IL",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "005436803"
+    ],
+    "org_ueis": [
+      "KG76WYENL5K1"
+    ],
+    "primary_duns": "005436803",
+    "primary_uei": "KG76WYENL5K1",
+    "org_fips": "US",
+    "org_ipf_code": "6144650",
+    "org_zipcode": "606114579",
+    "external_org_id": 6144650
+  },
+  "award_type": "5",
+  "activity_code": "K08",
+  "award_amount": 225180,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "K08",
+    "ic_code": "NS",
+    "serial_num": "121601",
+    "support_year": "05",
+    "full_support_year": "05",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 10318768,
+      "first_name": "SCOTT",
+      "middle_name": "K.",
+      "last_name": "ADNEY",
+      "is_contact_pi": true,
+      "full_name": "SCOTT K. ADNEY",
+      "title": "INSTRUCTOR"
+    }
+  ],
+  "contact_pi_name": "ADNEY, SCOTT K.",
+  "program_officers": [
+    {
+      "first_name": "KAVON",
+      "middle_name": "PAUL",
+      "last_name": "REZAIZADEH",
+      "full_name": "KAVON PAUL REZAIZADEH"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 225180.0,
+      "direct_cost_ic": 208500.0,
+      "indirect_cost_ic": 16680.0
+    }
+  ],
+  "cong_dist": "IL-05",
+  "spending_categories": null,
+  "project_start_date": "2022-07-01T00:00:00",
+  "project_end_date": "2027-04-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -87.680046,
+    "lat": 42.050479
+  },
+  "opportunity_number": "PA-20-203",
+  "full_study_section": {
+    "srg_code": "NST",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "NST-1 Study Section[NST-1]"
+  },
+  "award_notice_date": "2026-05-11T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "OR",
+  "core_project_num": "K08NS121601",
+  "terms": "<ASD><Affect><Ammon Horn><Animal Model><Animal Models and Related Studies><Animals><Area><Autism><Autistic Disorder><Award><Benchmarking><Best Practice Analysis><Biological Markers><Biophysical Process><Brain><Brain Nervous System><Business-Friendly Atmosphere><Career Development Awards><Career Development Awards and Programs><Career Development Programs K-Series><Cell Communication and Signaling><Cell Line><Cell Signaling><CellLine><Childhood><Connector Neuron><Cornu Ammonis><Data><Development><Disease><Disorder><Disparate><Drugs><Dysfunction><EEG><Early Infantile Autism><Electrodes><Electroencephalogram><Electroencephalography><Electrophysiology><Electrophysiology (science)><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Equilibrium><Exhibits><Faculty Education><Faculty Training><Fostering><Foundations><Functional disorder><Funding><Future><Gene variant><Genes><Genetic><Genetic Diseases><Genetic Models><Glutamates><Hippocampus><Human><Impairment><Implant><In vivo analysis><Induced pluripotent stem cell derived neurons><Infantile Autism><Intercalary Neuron><Intercalated Neurons><Interneurons><Internuncial Cell><Internuncial Neuron><Intracellular Communication and Signaling><Intractable Epilepsy><Ion Channel><Ionic Channels><K-Awards><K-Series Research Career Programs><Kanner's Syndrome><L-Glutamate><Link><Medication><Membrane Channels><Mentors><Mice><Mice Mammals><Missense Mutation><Modeling><Modern Man><Murine><Mus><NINDS><Na(v)1.1><National Institute of Neurological Diseases and Stroke><National Institute of Neurological Disorders and Stroke><Nav1.1><Nav1.2><Nerve Cells><Nerve Unit><Neural Cell><Neural Development><Neurocyte><Neurodevelopmental Disorder><Neurological Development Disorder><Neuron from iPSC><Neuron from induced pluripotent stem cells><Neuronal Dysfunction><Neurons><Neurophysiology / Electrophysiology><Optics><Output><Pathogenicity><Patients><Pharmaceutical Preparations><Phenotype><Physicians><Physiopathology><Population><Population Analysis><QOL><Quality of life><Recurrence><Recurrent><Refractory epilepsy><Reporter><Research><Research Career Program><SCN1A protein><SCN2A protein><Scientist><Seizure Disorder><Seizures><Severities><Signal Transduction><Signal Transduction Systems><Signaling><Slice><Sodium Channel><Sodium Channel Blockers><Sodium Ion Channels><Strains Cell Lines><Sudden Death><Synapses><Synaptic><Teacher Education><Teacher Educator><Teacher Preparation><Teacher Professional Development><Teacher Training><Training><United States><Variant><Variation><allelic variant><animal tissue><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><balance><balance function><benchmark><bio-markers><biologic marker><biological signal transduction><biomarker><biophysical mechanism><business-friendly environment><career><career development><causal allele><causal gene><causal mutation><causal variant><causative mutation><causative variant><childhood epilepsy><clinical phenotype><collaborative atmosphere><collaborative environment><cultured cell line><design><designing><developmental><disease model><disorder model><dravet syndrome><drug-resistant epilepsy><drug/agent><early onset><electrophysiological><epilepsia><epileptic encephalopathies><epileptogenic><ex vivo><excitatory neuron><faculty development><faculty professional development><gain of function><genetic analysis><genetic condition><genetic disorder><genetic variant><genome editing><genomic editing><genomic variant><glutamatergic><hiPSC><hippocampal><human iPS><human iPSC><human induced pluripotent cell><human induced pluripotent stem cells><human inducible pluripotent stem cells><human inducible stem cells><human progenitor cell derived><human stem cell-derived><human tissue><iPS><iPS neurons><iPSC><iPSC derived-neurons><iPSCs><in silico><in vivo><in vivo evaluation><in vivo testing><induced human pluripotent stem cells><induced pluripotent cell><induced pluripotent stem cell><induced pluripotent stem cell neurons><inducible pluripotent cell><inducible pluripotent stem cell><infancy><infantile><inhibitory neuron><insight><instructor training><interactive atmosphere><interactive environment><interdisciplinary atmosphere><interdisciplinary environment><interest><loss of function><missense single nucleotide polymorphism><missense single nucleotide variant><missense variant><model of animal><mortality><mouse model><multi-scale computational modeling><multi-scale mathematical modeling><multi-scale modeling><multiscale computational modeling><multiscale mathematical modeling><multiscale modeling><murine model><na(v)1.2><network dysfunction><neural circuit><neural circuitry><neural dysfunction><neurocircuitry><neurodevelopment><neurodevelopmental disease><neuronal><neuronal circuit><neuronal circuitry><neuronal excitability><neurons derived from induced pluripotent stem cells><neurons differentiated from induced pluripotent stem cells><neurophysiological><neurophysiology><new approaches><novel approaches><novel strategies><novel strategy><optical><pathophysiology><pediatric><pediatric epilepsy><peer-group atmosphere><peer-group environment><population based analysis><population level analysis><population scale analysis><population specific analysis><population wide analysis><programs><research study><severe myoclonic epilepsy of infancy><spatial and temporal><spatial temporal><spatiotemporal><synapse><synaptic circuit><synaptic circuitry><teacher development><voltage>",
+  "pref_terms": "Affect;Animal Model;Animals;Area;Award;Benchmarking;Biological Markers;Biophysical Process;Brain;Cell Line;Childhood;Data;Development;Disease;Disparate;Electrodes;Electroencephalography;Electrophysiology (science);Epilepsy;Equilibrium;Exhibits;Fostering;Foundations;Functional disorder;Funding;Future;Genes;Genetic;Genetic Diseases;Genetic Models;Glutamates;Hippocampus;Human;Impairment;Implant;Induced pluripotent stem cell derived neurons;Interneurons;Intractable Epilepsy;Ion Channel;K-Series Research Career Programs;Link;Mentors;Missense Mutation;Modeling;Mus;National Institute of Neurological Disorders and Stroke;Neurodevelopmental Disorder;Neuronal Dysfunction;Neurons;Optics;Output;Pathogenicity;Patients;Pharmaceutical Preparations;Phenotype;Physicians;Population;Population Analysis;Quality of life;Recurrence;Reporter;Research;SCN1A protein;SCN2A protein;Scientist;Seizures;Severities;Signal Transduction;Slice;Sodium Channel;Sodium Channel Blockers;Sudden Death;Synapses;Teacher Professional Development;Training;United States;Variant;animal tissue;autism spectrum disorder;career;career development;causal variant;childhood epilepsy;clinical phenotype;collaborative environment;design;disease model;dravet syndrome;early onset;epileptic encephalopathies;ex vivo;excitatory neuron;gain of function;genetic analysis;genetic variant;genome editing;human induced pluripotent stem cells;human stem cell-derived;human tissue;in silico;in vivo;in vivo evaluation;induced pluripotent stem cell;infancy;inhibitory neuron;insight;interest;loss of function;mortality;mouse model;multi-scale modeling;network dysfunction;neural circuit;neurodevelopment;neuronal circuitry;neuronal excitability;neurophysiology;novel strategies;programs;research study;spatiotemporal;voltage",
+  "abstract_text": "Project Summary Epilepsy affects up to 1% of the population worldwide, and 3 million in the United States\nalone. A growing proportion of pediatric epilepsies are tied to causative variants in ion channel genes, including\nthe voltage-gated sodium channel gene SCN2A. The 2020 Epilepsy Research Benchmarks of NINDS prioritize\nidentifying how genetic variants cause epilepsy and related neurodevelopmental disorders. SCN2A variants that\nmanifest with loss-of-function are associated with severe neurodevelopmental disorders and late-onset epilepsy.\nOn the other hand, gain-of-function SCN2A variants predominantly have a phenotype of early-onset epilepsy.\nThe encoded sodium channel (NaV1.2) is highly expressed in excitatory glutamatergic neurons early in\ndevelopment, presenting a unique opportunity to examine how excitatory neuron dysfunction leads to early-onset\nepilepsy. Animal and human tissue-derived neuron models have brought mechanistic insight to how Dravet\nsyndrome results in interneuron dysfunction and epilepsy. Among SCN2A-related diseases, animal models\nilluminate how loss-of-function leads to autism spectrum disorder with late-onset epilepsy. Due to lack of readily\navailable disease models, there is sparse mechanistic understanding of how excitatory neuron dysfunction early\nin development leads to early-onset epilepsy. This proposal will exploit two early-onset epilepsy variants of\nSCN2A that have a convergent clinical phenotype yet divergent biophysical mechanisms. Patient-derived neuron\nmodels and mouse models provide the opportunity to define the point of mechanistic convergence at multiple\nscales: from single neurons to neural circuits influencing epilepsy phenotype. Aim 1 will determine how two gain-\nof-function SCN2A variants, encoding missense mutations M1879T and E430A, confer increased excitability by\ndistinct mechanisms. Functional analysis of iPSC-derived neurons in isolation and in elementary circuits will\ndefine how the different variants impact excitability and thus converge toward an epileptic phenotype. Aim 2 will\ndefine hippocampal higher-level circuit perturbations in epileptic mice designed with genome editing to\nrecapitulate the SCN2A-E430A human epileptic encephalopathy. Ex vivo analysis of changes in excitability,\nsynaptic signaling, and network output in the hippocampus will lead to new understanding of how gain-of-function\nSCN2A variants affect neuronal networks. EEG and depth electrodes will provide spatiotemporal correlate to the\nin vivo epilepsy phenotype. This proposal will propel the awardee to independence as a physician-scientist by\nincorporating new expertise in multi-scale modeling of genetic epilepsy, focused relevant didactics, and a diverse\ncareer development team specializing in neurodevelopmental and genetic disorders, all in a highly collaborative\nenvironment fostering junior faculty development. This award will provide a platform to 1) define variant-specific\ncontributions to epilepsy phenotype in self-limited and intractable epilepsies and 2) investigate how targeted\nepileptic circuit dysfunction influences circuit output and epilepsy phenotype in future R01-funded independent\nresearch.",
+  "project_title": "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants",
+  "phr_text": "Narrative\nEpilepsy affects up to 1% of the population, causing disruptions in quality of life and even mortality due to\nsudden death. In pediatric epilepsy especially, changes in a single gene of an ion channel are recognized as a\nmajor contributor to infantile-onset seizures that can be very difficult to control with medications. This proposal\nwill provide new insight into the way single gene changes lead to recurrent seizures by examining single\nneurons and animal models, allowing for new approaches to therapy.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-05-01T00:00:00",
+  "budget_end": "2027-04-30T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Other Research-Related",
+  "direct_cost_amt": 208500,
+  "indirect_cost_amt": 16680,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11317220",
+  "date_added": "2026-05-16T17:04:42"
+}

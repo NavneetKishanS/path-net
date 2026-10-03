@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06314490",
+      "orgStudyIdInfo": {
+        "id": "ASOSCN2A"
+      },
+      "organization": {
+        "fullName": "University of California, San Diego",
+        "class": "OTHER"
+      },
+      "briefTitle": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+      "officialTitle": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-02-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-16",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-02-16",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-03-01",
+      "studyFirstSubmitQcDate": "2024-03-14",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Olivia Kim-McManus",
+        "investigatorTitle": "Professor, Neurosciences",
+        "investigatorAffiliation": "University of California, San Diego"
+      },
+      "leadSponsor": {
+        "name": "University of California, San Diego",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "California Institute for Regenerative Medicine (CIRM)",
+          "class": "OTHER"
+        },
+        {
+          "name": "n-Lorem Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This research project entails delivery of a personalized antisense oligonucleotide (ASO) drug designed for a single pediatric participant with SCN2A associated developmental epileptic encephalopathy",
+      "detailedDescription": "This is an interventional study to evaluate the safety and efficacy of treatment with an individualized antisense oligonucleotide (ASO) treatment in a single pediatric participant with a de novo pathogenic gain of function SCN2A mutation associated with severe developmental epileptic encephalopathy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Genetic Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Open label",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: nL-SCN2A-002"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "nL-SCN2A-002",
+          "description": "Personalized antisense oligonucleotide",
+          "armGroupLabels": [
+            "Open label"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Seizure frequency",
+          "description": "As measured by caregiver provided seizure diary",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Motor function as measured by Dyskinetic Cerebral Palsy Functional Impact Scale",
+          "description": "The Dyskinetic Cerebral Palsy Functional Impact Scale (D-FIS) is an 18 item caregiver questionnaire that evaluates the impact of dyskinesia on daily functions. It is a validated assessment tool for children aged 2 years and 6 months to 18 years. It uses a 5-point ordinal scale, from 0 (no impact) to 4 (extreme impact), for each item and derives a total score from summing all 18 items. A higher score indicates more severe impact of dyskinesia and worse motor functioning.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Motor function as measured by the motor skills domain of Vineland Adaptive Behavior Scales",
+          "description": "The Vineland Adaptive Behavior Scales, Third Edition (Vineland-3), is a standardized, validated, and reliable assessment tool designed to measure the adaptive behavior of individuals from birth through adulthood. The Vineland-3 Motor Skills domain evaluates gross and fine motor abilities in individuals from birth to age 9, offering insights into coordination, balance, mobility, and dexterity. The raw scores are converted to standard scores and growth scale value scores, with higher scores indicating better adaptive functioning.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Motor function as measured by the motor skills domain of Bayley Scales of Infant and Toddler Development",
+          "description": "The Bayley Scales of Infant and Toddler Development is a standardized, validated, and reliable assessment tool for evaluating developmental functioning in infants and toddlers. Its Motor Skills domain evaluates gross and fine motor abilities, including coordination, balance, and movement. The raw scores are converted to standard scores and growth scale value scores, with higher scores indicating better motor development.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Gastrointestinal assessment as measured by the Bristol Stool Chart",
+          "description": "The Bristol Stool Chart categorizes human feces into seven types, from Type 1 (severe constipation) to Type 7 (diarrhea), with Types 3 and 4 considered normal.",
+          "timeFrame": "Baseline to 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Neurodevelopmental Function as measured by Aberrant Behavior Checklist",
+          "description": "The Aberrant Behavior Checklist (ABC) is an empirically developed scale tailored to measure psychiatric symptoms and behavioral disturbances in individuals with Intellectual and Developmental Disabilities (IDD). It contains five domains: Irritability, Agitation, \\& Crying; Lethargy/Social Withdrawal; Stereotypic Behavior; Hyperactivity/Noncompliance; and Inappropriate Speech. Each question is scored on a 4-point scale (0 = not a problem to 3 = severe problem) to assess severity. Total scores per subscale reflect the extent of behavioral challenges, with higher scores indicating greater severity.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Neurodevelopmental Function as measured by Observer-Reported Communication Ability Measure",
+          "description": "The Observer-Reported Communication Ability (ORCA) Measure is a questionnaire assessing communication abilities in individuals with neurodevelopmental disorders, significantly impacting verbal speech. It includes 84 questions, with 70 behavioral items across 22 concepts/functions and 14 descriptive items about individual communication methods, covering expressive, receptive, and pragmatic communication areas. The ORCA is validated for Angelman and Rett syndromes and is being evaluated for other disorders. The ORCA T-score ranges from 25.8 to 83.8, with higher ORCA T-scores indicate greater communication ability.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Neurodevelopmental Function as measured by the Vineland Adaptive Behavior Scales",
+          "description": "The Vineland Adaptive Behavior Scales, Third Edition (Vineland-3), is a standardized, validated, and reliable assessment tool designed to measure the adaptive behavior of individuals from birth through adulthood through multiple domains, including communication and socialization. The raw scores are converted to standard scores and growth scale value scores, with higher scores indicating better adaptive functioning.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Neurodevelopmental Function as measured by the Bayley Scales of Infant and Toddler Development",
+          "description": "The Bayley Scales of Infant and Toddler Development is a standardized, validated, and reliable assessment tool for evaluating developmental functioning in infants and toddlers across subdomains of cognition and language (receptive and expressive communication). The raw scores are converted to standard scores and growth scale value scores, with higher scores indicating better neurodevelopment.",
+          "timeFrame": "Baseline to 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Informed consent provided by the participant's parent(s)/guardian(s)\n* Ability to travel to the study site, adhere to study-related follow-up examinations and/or procedures, and provide access to participant's medical records.\n* Genetically confirmed mutation\n\nExclusion Criteria:\n\n• Use of an investigational medication within less than 5 half-lives of the drug at enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Olivia Kim-McManus, M.D.",
+          "affiliation": "UCSD Rady Children's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Rady Children's Hospital",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "42481851",
+          "type": "DERIVED",
+          "citation": "Kim-McManus O, Mignon L, Douville J, Pu H, Parisien C, Glass S, Bennett CF, Celso J, Robbins K, Ung H, Olson H, Kingsmore SF, Petrou S, Crooke ST, Gleeson JG, Berry-Kravis E. Individualized antisense oligonucleotides for SCN2A-related developmental epileptic encephalopathy. Nat Med. 2026 Aug;32(8):2838-2845. doi: 10.1038/s41591-026-04527-y. Epub 2026 Jul 21."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

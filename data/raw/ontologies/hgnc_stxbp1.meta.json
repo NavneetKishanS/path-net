@@ -1,0 +1,14 @@
+{
+  "source_id": "hgnc_stxbp1",
+  "provider": "HGNC",
+  "source_url": "https://rest.genenames.org/fetch/symbol/STXBP1",
+  "resolved_url": "https://rest.genenames.org/fetch/symbol/STXBP1",
+  "retrieved_at": "2026-10-03T20:49:31.056434+00:00",
+  "cache_path": "raw/ontologies/hgnc_stxbp1.json",
+  "raw_sha256": "c46586662bc2d836fa55b9060f51b745aa184dfe72dd2055c5e920a54dd70756",
+  "bytes": 1092,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC0",
+  "license_url": "https://www.genenames.org/about/"
+}

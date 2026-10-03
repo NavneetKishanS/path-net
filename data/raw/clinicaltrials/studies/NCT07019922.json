@@ -1,0 +1,385 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07019922",
+      "orgStudyIdInfo": {
+        "id": "PRAX-222-311"
+      },
+      "organization": {
+        "fullName": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+      "officialTitle": "A Multi-Center, Single-Arm Clinical Trial to Investigate the Efficacy and Safety of Elsunersen in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-08-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-05",
+      "studyFirstSubmitQcDate": "2025-06-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-08-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A Multi-Center, Single-Arm Clinical Trial to Investigate the Efficacy and Safety of Elsunersen in Pediatric Participants with Early Onset SCN2A Developmental and Epileptic Encephalopathy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epileptic Encephalopathy",
+        "SCN2A Encephalopathy"
+      ],
+      "keywords": [
+        "epilepsis",
+        "early onset scn2a",
+        "epileptic encephalopathy",
+        "scn2a",
+        "gain of function",
+        "seizure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Specific milestones have to be met in Cohort 1 for enrollment to open in Cohort 2 and the same will apply to open Cohort 3.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort 1 Arm 1: Open-Label Treatment Period",
+          "type": "EXPERIMENTAL",
+          "description": "Open-label elsunersen",
+          "interventionNames": [
+            "Drug: 1mg elsunersen"
+          ]
+        },
+        {
+          "label": "Cohort 2: Open-Label Treatment Period",
+          "type": "EXPERIMENTAL",
+          "description": "Open-label elsunersen",
+          "interventionNames": [
+            "Drug: 1mg elsunersen"
+          ]
+        },
+        {
+          "label": "Cohort 3: Open-Label Treatment Period",
+          "type": "EXPERIMENTAL",
+          "description": "Open-label elsunersen",
+          "interventionNames": [
+            "Drug: 0.5mg elsunersen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "1mg elsunersen",
+          "description": "24 weeks every 4 weeks intrathecally",
+          "armGroupLabels": [
+            "Cohort 1 Arm 1: Open-Label Treatment Period",
+            "Cohort 2: Open-Label Treatment Period"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "0.5mg elsunersen",
+          "description": "24 weeks every 4 weeks intrathecally",
+          "armGroupLabels": [
+            "Cohort 3: Open-Label Treatment Period"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To assess the efficacy of elsunersen on seizure frequency in participants with early-onset SCN2A DEE",
+          "description": "Median percent change in monthly (28 days) motor seizure frequency from baseline to treatment after 24 weeks",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To assess secondary efficacy outcomes of elsunersen in participants with early-onset SCN2A DEE",
+          "description": "Responder rate - defined as a ≥50% reduction in monthly seizure frequency from baseline compared to treatment after 24 weeks",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "To assess secondary efficacy outcomes of elsunersen in participants with early-onset SCN2A DEE",
+          "description": "Change in motor seizure-free days from baseline",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "CGI-S change from baseline",
+          "description": "CGI-S assesses the clinician's impression of the participant's current illness state. The clinician should use his/her total clinical experience with this patient population and rate the current severity on a 7-point scale from 1 (normal, not at all ill) to 7 (among the most extremely ill patients).",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "CGI subdomain scores at each postdose time point",
+          "description": "Clinical Global Impression-Improvement (CGI-I) subdomains scores at each postdose time point",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "CgGI-S from baseline",
+          "description": "Caregiver Global Impression-Severity (CgGI-S) at baseline compared to treatment after 24 weeks",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "CgGI-I subdomain scores at each postdose time point",
+          "description": "Caregiver Global Impression-Improvement (CgGI I) subdomains scores at each postdose time point",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Sleep assessment scores from baseline",
+          "description": "Sleep assessment scores at baseline compared to each postdose time point",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "To evaluate the safety and tolerability of elsunersen in participants with early-onset SCN2A DEE",
+          "description": "Incidence and severity of treatment-emergent adverse events (TEAEs)",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Has a documented Gain of Function SCN2A variant confirmed through genetic testing.\n* Has onset of seizures prior to 3 months of age.\n* Seizure frequency of 4 or more countable motor seizures per 28-day during the Baseline Observation Period.\n\nExclusion Criteria:\n\n* Has any clinically significant or known pathogenic genetic variant other than in the SCN2A gene, or a genetic variant that may explain or contribute to the participant's epilepsy and/or developmental disorder.\n* Has bone, spine (eg, kyphosis, scoliosis), bleeding, or other disorder.\n* Has received any experimental or investigational drug, device, or other therapy within 30 days or 5 half-lives (whichever is longer) prior to Screening, including any prior use of gene therapy.\n* Is currently pregnant or breastfeeding or is planning to become pregnant during the clinical trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Day",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Head of Pharmacovigilance",
+          "role": "CONTACT",
+          "phone": "617-300-8460",
+          "email": "clinicaltrials@praxismedicines.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Medical Director",
+          "affiliation": "Praxis Precision Medicines",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "WITHDRAWN",
+          "city": "Porto Alegre",
+          "zip": "90035",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "WITHDRAWN",
+          "city": "São Paulo",
+          "zip": "05403",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Bonn",
+          "state": "Bonn",
+          "zip": "53127",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "status": "RECRUITING",
+          "city": "Rome",
+          "zip": "00165",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D012640",
+          "term": "Seizures"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

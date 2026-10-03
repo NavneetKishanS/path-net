@@ -1,0 +1,15 @@
+{
+  "pmid": "31558572",
+  "title": "Resurgent and Gating Pore Currents Induced by De Novo SCN2A Epilepsy Mutations.",
+  "abstract": "Over 150 mutations in the SCN2A gene, which encodes the neuronal Nav1.2 protein, have been implicated in human epilepsy cases. Of these, R1882Q and R853Q are two of the most commonly reported mutations. This study utilized voltage-clamp electrophysiology to characterize the biophysical effects of the R1882Q and R853Q mutations on the hNav1.2 channel, including their effects on resurgent current and gating pore current, which are not typically investigated in the study of Nav1.2 channel mutations. HEK cells transiently transfected with DNA encoding either wild-type (WT) or mutant hNav1.2 revealed that the R1882Q mutation induced a gain-of-function phenotype, including slowed fast inactivation, depolarization of the voltage dependence of inactivation, and increased persistent current. In this model system, the R853Q mutation primarily produced loss-of-function effects, including reduced transient current amplitude and density, hyperpolarization of the voltage dependence of inactivation, and decreased persistent current. The presence of a Navβ4 peptide (KKLITFILKKTREK-OH) in the pipette solution induced resurgent currents, which were increased by the R1882Q mutation and decreased by the R853Q mutation. Further study of the R853Q mutation in Xenopus oocytes indicated a reduced surface expression and revealed a robust gating pore current at negative membrane potentials, a function absent in the WT channel. This not only shows that different epileptogenic point mutations in hNav1.2 have distinct biophysical effects on the channel, but also illustrates that individual mutations can have complex consequences that are difficult to identify using conventional analyses. Distinct mutations may, therefore, require tailored pharmacotherapies in order to eliminate seizures.",
+  "authors": [
+    "Emily R Mason",
+    "Fenfen Wu",
+    "Reesha R Patel",
+    "Yucheng Xiao",
+    "Stephen C Cannon",
+    "Theodore R Cummins"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+  "retrieved_at": "2026-10-03T20:56:37+00:00"
+}

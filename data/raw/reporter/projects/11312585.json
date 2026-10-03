@@ -1,0 +1,124 @@
+{
+  "appl_id": 11312585,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5F31NS135753-03",
+  "project_serial_num": "NS135753",
+  "organization": {
+    "org_name": "NORTHWESTERN UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "CHICAGO",
+    "org_country": "UNITED STATES",
+    "org_state": "IL",
+    "org_state_name": null,
+    "dept_type": "PHARMACOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "005436803"
+    ],
+    "org_ueis": [
+      "KG76WYENL5K1"
+    ],
+    "primary_duns": "005436803",
+    "primary_uei": "KG76WYENL5K1",
+    "org_fips": "US",
+    "org_ipf_code": "6144650",
+    "org_zipcode": "606114579",
+    "external_org_id": 6144650
+  },
+  "award_type": "5",
+  "activity_code": "F31",
+  "award_amount": 46477,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F31",
+    "ic_code": "NS",
+    "serial_num": "135753",
+    "support_year": "03",
+    "full_support_year": "03",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 78318543,
+      "first_name": "Dalton",
+      "middle_name": "Jun-Da",
+      "last_name": "Huey",
+      "is_contact_pi": true,
+      "full_name": "Dalton Jun-Da Huey",
+      "title": "GRADUATE STUDENT"
+    }
+  ],
+  "contact_pi_name": "HUEY, DALTON JUN-DA",
+  "program_officers": [
+    {
+      "first_name": "JENNY",
+      "middle_name": "LILY",
+      "last_name": "KIM",
+      "full_name": "JENNY LILY KIM"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 46477.0,
+      "direct_cost_ic": 46477.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "IL-05",
+  "spending_categories": null,
+  "project_start_date": "2024-04-01T00:00:00",
+  "project_end_date": "2027-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -87.680046,
+    "lat": 42.050479
+  },
+  "opportunity_number": "PA-21-051",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F01A",
+    "sra_flex_code": "V",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F01A-V(20)L]"
+  },
+  "award_notice_date": "2026-03-24T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31NS135753",
+  "terms": "<0-11 years old><5' Untranslated Regions><5'UTR><ASO therapeutics><ASO therapy><ASO treatment><Action Potentials><Acylation><Affect><Allelic Loss><Antisense Agent><Antisense Oligonucleotide Therapy><Antisense Oligonucleotides><Assay><Attenuated><Binding><Bioassay><Biological Assay><Biology><Brain><Brain Nervous System><CRISPR approach><CRISPR based approach><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR tools><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Cas nuclease technology><Cell Body><Cell Line><CellLine><Cells><Chemicals><Child><Child Youth><Children (0-21)><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Complex><Cultured Cells><DNA mutation><Development><Disease><Disorder><Electrophysiology><Electrophysiology (science)><Elements><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Evaluation><FDA licensed drugs><FDA-approved agents><FDA-approved drug><FDA-approved medications><FDA-approved pharmaceuticals><FDA-approved therapeutic agent><Food and Drug Administration approved drug><Food and Drug Administration approved medications><Food and Drug Administration approved pharmaceuticals><Genes><Genetic><Genetic Change><Genetic defect><Genetic mutation><Glia><Glial Cells><Hydroxyl><Hydroxyl Radical><Immunoblotting><Impairment><Infant><Initiation Codon><Initiator Codon><Intervention Strategies><Kolliker's reticulum><Learning><Loss of Heterozygosity><Marketing><Measures><Messenger RNA><Methods><Modeling><Molecular Interaction><Mutation><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neurocyte><Neurodevelopmental Disorder><Neuroglia><Neuroglial Cells><Neurologic Disorders><Neurological Development Disorder><Neurological Disorders><Neuronal Differentiation><Neurons><Neurophysiology / Electrophysiology><Non-neuronal cell><Nonneuronal cell><Nucleotides><ORFs><Open Reading Frames><Pathogenicity><Physiologic><Physiological><Predisposition><Primer Extension><Production><Property><Protein Coding Region><Proteins><Reading Frames><Reporter Genes><Ribo-seq><Ribosomes><Seizure Disorder><Seizures><Series><Start Codon><Stop Codon><Strains Cell Lines><Structure><Susceptibility><System><Termination Codon><Terminator Codon><Therapeutic><Transcript><Translation Initiation><Translation Stop Signal><Translations><Variant><Variation><Voltage-Gated K+ Channels><Voltage-Gated Potassium Channel><Western Blotting><Western Immunoblotting><Work><anti-sense oligonucleotide drug><anti-sense oligonucleotide therapy><anti-sense oligonucleotide treatment><anti-sense therapy><antisense drug><antisense oligo><antisense oligonucleotide therapeutic><antisense therapeutics><antisense therapy><attenuate><attenuates><candidate identification><cultured cell line><design><designing><developmental><electrophysiological><epilepsia><epileptic encephalopathies><epileptogenic><experiment><experimental research><experimental study><experiments><gene product><gene-based treatment><gene-directed therapy><gene-targeted therapy><gene-targeted treatment><genome editing><genome mutation><genomic editing><hiPSC><human iPS><human iPSC><human induced pluripotent cell><human induced pluripotent stem cells><human inducible pluripotent stem cells><human inducible stem cells><iPS><iPSC><iPSCs><induced human pluripotent stem cells><induced pluripotent cell><induced pluripotent stem cell><inducible pluripotent cell><inducible pluripotent stem cell><insight><kids><loss of function><loss of function mutation><mRNA><mRNA Leader Sequences><nerve cement><neurodevelopmental disease><neurological disease><neuronal><new drug class><novel drug class><overexpress><overexpression><patch clamp><protein blotting><protein synthesis attenuation><ribosome footprint profiling><ribosome profiling><small molecule><targeted drug therapy><targeted drug treatments><targeted therapeutic><targeted therapeutic agents><targeted therapy><targeted treatment><therapeutic target><translation><translational attenuation><youngster>",
+  "pref_terms": "5' Untranslated Regions;Action Potentials;Acylation;Affect;Antisense Oligonucleotide Therapy;Antisense Oligonucleotides;Attenuated;Binding;Biological Assay;Biology;Brain;CRISPR/Cas technology;Cell Line;Cells;Chemicals;Child;Complex;Cultured Cells;Development;Disease;Electrophysiology (science);Elements;Epilepsy;Evaluation;FDA-approved drug;Genes;Genetic;Hydroxyl Radical;Impairment;Infant;Initiator Codon;Intervention Strategies;Learning;Loss of Heterozygosity;Marketing;Measures;Messenger RNA;Methods;Modeling;Mutation;Nervous System Disorder;Neurodevelopmental Disorder;Neuroglia;Neuronal Differentiation;Neurons;Nucleotides;Open Reading Frames;Pathogenicity;Physiological;Predisposition;Primer Extension;Production;Property;Proteins;Reading Frames;Reporter Genes;Ribosomes;Seizures;Series;Structure;System;Terminator Codon;Therapeutic;Transcript;Translation Initiation;Translations;Variant;Voltage-Gated Potassium Channel;Western Blotting;Work;candidate identification;design;epileptic encephalopathies;experimental study;gene product;gene-targeted therapy;genome editing;human induced pluripotent stem cells;induced pluripotent stem cell;insight;loss of function;loss of function mutation;novel drug class;overexpression;patch clamp;protein synthesis attenuation;ribosome profiling;small molecule;targeted treatment;therapeutic target",
+  "abstract_text": "PROJECT SUMMARY\nHeterozygous loss-of-function (LOF) is a common genetic mechanism among many monogenic epilepsy genes\nincluding KCNQ2, which encodes a brain voltage-gated potassium channel (Kv7.2). Pathogenic KCNQ2 variants\nare associated with severe developmental and epileptic encephalopathies that lack targeted treatments. We\nidentified an upstream open reading frame (uORF) within the 5’-untranslated region (5’-UTR) of the KCNQ2\nmRNA transcript that competes with the canonical reading frame for translation and attenuates Kv7.2 functional\nexpression in non-neuronal cells. Because suppressing uORF translation could be an effective strategy for\nboosting KCNQ2 expression in the setting of heterozygous LOF, we seek to determine the physiological\nrelevance of the KCNQ2 uORF (Aim 1), and to target the uORF with antisense oligonucleotides (ASO) using a\nstructure-driven approach (Aim 2). Our approach to Aim 1 will involve genome editing of human induced\npluripotent stem cells (iPSC) to inactivate the uORF start codon and to compare uORF usage, Kv7.2 translation,\nand electrophysiological properties of the channel in neurons differentiated from edited and non-edited iPSC\nlines. For Aim 2, we will experimentally deduce the secondary structure of the KCNQ2 5’-UTR, then design a\nseries of ASOs targeting the least structured regions proximal to the uORF. We will then confirm binding of\ncandidate ASOs to the KCNQ2 mRNA transcript and determine if an ASO strategy will boost Kv7.2 translation\nand function. These studies will clarify the physiological relevance of the uORF and identify a potential\ntherapeutic strategy to correct heterozygous LOF in this epilepsy gene.",
+  "project_title": "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
+  "phr_text": "PROJECT NARRATIVE\nGenetic defects in the gene KCNQ2 can result in severe epilepsy affecting infants and children, but there are\ncurrently no specific therapies that target this gene. In this proposal, we are focusing on a specific element in the\ngene called an upstream open reading frame (uORF) that we discovered impairs optimal KCNQ2 translation into\nprotein. Our work will determine if removing or blocking this uORF, possibly with a new class of drugs called\nantisense oligonucleotides, can boost levels of KCNQ2 protein in neurons as a potential strategy to overcome\nthe predisposition to seizures and epilepsy caused by genetic defects in this gene.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-04-01T00:00:00",
+  "budget_end": "2027-01-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 46477,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11312585",
+  "date_added": "2026-04-04T17:04:38"
+}

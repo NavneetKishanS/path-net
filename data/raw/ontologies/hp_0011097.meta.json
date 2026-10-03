@@ -1,0 +1,14 @@
+{
+  "source_id": "hp_0011097",
+  "provider": "HPO",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0011097",
+  "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0011097",
+  "retrieved_at": "2026-10-03T20:50:21.879525+00:00",
+  "cache_path": "raw/ontologies/hp_0011097.json",
+  "raw_sha256": "3ea9067dc3563efc4a6441717afc6f4f5b9644f904db8d81898f5bdb864a7093",
+  "bytes": 5342,
+  "etag": null,
+  "last_modified": null,
+  "license": "HPO license; attribution, version and integrity requirements",
+  "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md"
+}

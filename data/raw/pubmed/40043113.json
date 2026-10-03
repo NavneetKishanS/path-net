@@ -1,0 +1,20 @@
+{
+  "pmid": "40043113",
+  "title": "The conductance of KCNQ2 and its pathogenic variants is determined by individual subunit gating.",
+  "abstract": "KCNQ2 channel subunits form part of the M-current and underlie one of the major potassium currents throughout the human nervous system, regulating resting membrane potentials, shaping action potentials, and impeding repetitive neuronal firing. However, how individual subunits within tetramers control channel functionality remains unresolved. Here, we investigate (i) whether opening of KCNQ2 channels requires a concerted step or can result from independent subunit activation and (ii) how individual subunits regulate gate opening and conductance. The E140R mutation in the S2 segment prevents activated voltage sensor conformations, but concatemeric constructs containing up to three E140R subunits retain KCNQ2-like currents. The underlying single-channel currents show subconductance levels resulting from limitations in inner gate dimensions, determined by the number of activated subunits and their spatial arrangement. Channel opening is allosteric and requires activation of only a single subunit, which can accentuate the influence of clinically relevant heterozygous mutations at threshold voltages.",
+  "authors": [
+    "Andy Hinojo-Perez",
+    "Jodene Eldstrom",
+    "Ying Dou",
+    "Allan Marinho-Alcara",
+    "Michaela A Edmond",
+    "Alicia de la Cruz",
+    "Marta E Perez Rodriguez",
+    "Maykelis Diaz-Solares",
+    "Derek M Dykxhoorn",
+    "David Fedida",
+    "Rene Barro-Soria"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40043113/",
+  "retrieved_at": "2026-10-03T20:49:42+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "pmid": "27742266",
+  "title": "Proteomic analysis of mucopolysaccharidosis I mouse brain with two-dimensional polyacrylamide gel electrophoresis.",
+  "abstract": "Mucopolysaccharidosis type I (MPS I) is due to deficiency of α-l-iduronidase (IDUA) and subsequent storage of undegraded glycosaminoglycans (GAG). The severe form of the disease, known as Hurler syndrome, is characterized by mental retardation and neurodegeneration of unknown etiology. To identify potential biomarkers and unveil the neuropathology mechanism of MPS I disease, two-dimensional polyacrylamide gel electrophoresis (PAGE) and nanoliquid chromatography-tandem mass spectrometry (nanoLC-MS/MS) were applied to compare proteome profiling of brains from MPS I and control mice (5-month old). A total of 2055 spots were compared, and 25 spots (corresponding to 50 different proteins) with a fold change ≥3.5 and a p value <0.05 between MPS I and control mice were further analyzed by nanoLC-MS/MS. These altered proteins could be divided into three major groups based on Gene Ontology (GO) terms: proteins involved in metabolism, neurotransmission and cytoskeleton. Cytoskeletal proteins including ACTA1, ACTN4, TUBB4B and DNM1 were significantly downregulated. STXBP1, a regulator of synaptic vesicle fusion and docking was also downregulated, indicating impaired synaptic transmission. Additionally, proteins regulating Ca2+ and H+ homeostasis including ATP6V1B2 and RYR3 were downregulated, which may be related to disrupted autophagic and endocytotic pathways. Notably, there is no altered expression in proteins associated with cell death, ubiquitin or inflammation. These results for the first time highlight the important role of alterations in metabolism pathways, intracellular ionic homeostasis and the cytoskeleton in the neuropathology of MPS I disease. The proteins identified in this study would provide potential biomarkers for diagnostic and therapeutic studies of MPS I.",
+  "authors": [
+    "Li Ou",
+    "Michael J Przybilla",
+    "Chester B Whitley"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/27742266/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

@@ -1,0 +1,2187 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03043560",
+      "orgStudyIdInfo": {
+        "id": "GCO 16-0374"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R61MH111932-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R61MH111932-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Icahn School of Medicine at Mount Sinai",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study to Treat Major Depressive Disorder With a New Medication",
+      "officialTitle": "Developing Neuronal KCNQ Channel Modulators for Mood Disorders"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-09-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-08-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-08-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-02-02",
+      "studyFirstSubmitQcDate": "2017-02-03",
+      "studyFirstPostDateStruct": {
+        "date": "2017-02-06",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-08-29",
+      "resultsFirstSubmitQcDate": "2020-09-25",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-10-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-09-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "James Murrough",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+      },
+      "leadSponsor": {
+        "name": "James Murrough",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute of Mental Health (NIMH)",
+          "class": "NIH"
+        },
+        {
+          "name": "Baylor College of Medicine",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project is designed to examine the neuronal KCNQ2/3 potassium (K+) channel subtype as a novel treatment target for mood disorders through the administration of the KCNQ-selective channel opener ezogabine (Potiga, GlaxoSmithKline; FDA-approved for the treatment of seizure disorders).",
+      "detailedDescription": "Depressive disorders are among the most disabling medical conditions worldwide and currently available treatments fall short of addressing this large public health burden. Dysfunction within the brain reward system is emerging as a core feature of depressive disorders, in particular related to deficits in motivation, interest, and response to pleasure (e.g., anhedonia: markedly diminished response to pleasure). Evidences from a series of preclinical studies from our group highlighted the KCNQ subtype of neuronal potassium (K+) channel as a novel target for the treatment of depressive disorders and our human pilot study showed a reduction in anhedonia and related symptoms, and an increased brain response to reward (as measured by functional magnetic resonance imaging \\[fMRI\\]) following treatment with ezogabine. Building on this data, the current project will assess reward circuit activity following treatment with ezogabine in depressed patients with a current depressive disorder (Major depressive disorder \\[MDD\\], persistent depressive disorder, other specified depressive disorder) and anhedonia (defined by a score ≥ 20 on the Snaith-Hamilton Pleasure Scale \\[SHAPS\\]), using fMRI to investigate the cortico-striatal circuit to reward.\n\nThis study represents the first part of the R61/R33 National Institutes of Health (NIH) founded project. A clear increase in reward circuit activation in at least one ezogabine treatment group compared to placebo, given acceptable tolerability, will constitute a \"go\" and the project will move to the next phase (R33), where we aim to examine the relationship between treatment, reward circuit activity, and behavioral and clinical outcomes in a larger, confirmatory efficacy trial of ezogabine for depression with anhedonia."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depressive Disorder",
+        "Anhedonia"
+      ],
+      "keywords": [
+        "depression",
+        "anhedonia",
+        "reward"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double blind",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 45,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ezogabine",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive treatment with ezogabine up to 900mg/day.",
+          "interventionNames": [
+            "Drug: Ezogabine"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive treatment with a matching placebo pill.",
+          "interventionNames": [
+            "Drug: Placebos"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ezogabine",
+          "description": "daily for 5 weeks",
+          "armGroupLabels": [
+            "Ezogabine"
+          ],
+          "otherNames": [
+            "Potiga"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebos",
+          "description": "placebo pill daily for 5 weeks",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Ventral Striatum (VS) Activation",
+          "description": "change in activation during reward anticipation within the bilateral VS from baseline (Study Visit 0) to the primary outcome visit (Study Visit 5) as measured by functional MRI during the incentive flanker task (IFT). The IFT, like the Monetary Incentive Delay task, permits discrete modeling of brain activity during anticipation of an incentive.\n\nFunctional scans were preprocessed and denoised for motion and physiological noise using multi-echo independent component analysis (ME-ICA). Task-based modeling was conducted using AFNI and FSL software. The primary outcome for reward anticipation was the contrast of reward cue compared to neutral cue (reward\\>neutral cue). The primary imaging outcome was analyzed using a linear mixed model with a single random intercept term treating time as discrete or continuous as appropriate.",
+          "timeFrame": "baseline and 5 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Snaith-Hamilton Pleasure Scale (SHAPS)",
+          "description": "The SHAPS is a well-validated 14-item self-report questionnaire commonly used to assess anhedonia. Each item on the SHAPS is worded so that higher scores indicate greater pleasure capacity. A total score can be derived by summing the responses to each item. Items answered with \"strongly agree\" are coded as \"1\", while a \"strongly disagree\" response was assigned a score of \"4.\" Total scores on the SHAPS can range from 14 to 56, with higher scores corresponding to higher levels of anhedonia.",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "Clinical Global Impression - Improvement (CGI-I)",
+          "description": "A widely administered clinician rated global measure of the degree of improvement from the initial assessment in subject overall illness severity. 7 point scale rated as: 1, very much improved; 2, much improved; 3, minimally improved; 4, no change; 5, minimally worse; 6, much worse; or 7, very much worse.",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "Clinical Global Impression - Severity (CGI-S)",
+          "description": "Clinician rated global measure of subject overall illness severity. a 7-point scale rated as 1, normal, not at all ill; 2, borderline mentally ill; 3, mildly ill; 4, moderately ill; 5, markedly ill; 6, severely ill; or 7, extremely ill.",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "Anticipatory and Consummatory Interpersonal Pleasure Scale (ACIPS)",
+          "description": "A measure specifically designed to assess hedonic capacity for social and interpersonal pleasure.The ACIPS is a 17-item self-report measure scored on a likert scale, ranging from 1 (very false for me) to 6 (very true for me). Full scale from 17-102, higher score indicates higher hedonic capacity",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "Montgomery-Asberg Depression Rating Scale (MADRS)",
+          "description": "A 10-item instrument used for the evaluation of depressive symptoms in adults and for the assessment of any changes to those symptoms. Each items is scored 0 (normal) to 6 (severe depression) with overall score ranges from 0 (normal) to 60 (severe depression).",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0)",
+          "description": "A 12-item generic assessment instrument that measures the level of functioning. Each item is scored from 0 to 4 and the items are summed to provide a total score. The score therefore ranges from 0 to 48, with higher scores indicating greater disability.",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "Temporal Experience of Pleasure Scale (TEPS)",
+          "description": "The TEPS is composed of 18-items rated on a likert-type scale ranging from 1 (Very True for me) to 6 (Very False for me), and yields two subscales. Ten items make up the TEPS-Anticipatory Pleasure (TEPS-ANT) scale with a range from 10 (not motivated) to 60 (highly motivated). The other eight TEPS items make up the TEPS-Consummatory Pleasure (TEPS-CON) scale; range from 8 (not responsive) to 48 (highly responsive). Total scores range is 18-108. Lower scores indicate greater levels of anhedonia.",
+          "timeFrame": "baseline and 5 weeks"
+        },
+        {
+          "measure": "Specific Loss of Interest and Pleasure Scale (SLIPS)",
+          "description": "The SLIPS is a recently developed and validated measure of anhedonia that is tailored to detect recent changes in anhedonia. A 23-item measure, each item range from 0-3. Full scale from 0 to 69, higher score indicates more recent changes.",
+          "timeFrame": "baseline 5 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent obtained from subject and ability for subject to comply with the requirements of the study;\n* Men and women, age 18-65;\n* Participants must meet DSM-V criteria for current depressive disorder (major depressive disorder \\[MDD\\], persistent depressive disorder, other specified depressive disorder) as determined by a study psychiatrist and confirmed using the Structured Clinical Interview for DSM-V (SCID);\n* Clinically significant anhedonia as determined by a SHAPS score ≥ 20 at screening;\n* Current illness severity is at least moderate, defined as a score of ≥4 on the Clinical Global Impression-Severity (CGI-S) Scale;\n* If female of childbearing potential, must agree to use of a medically accepted form of contraception, or else agree to abstinence.\n\nExclusion Criteria:\n\n* A primary psychiatric diagnosis other than a depressive disorder as defined by DSM-V \\[co-morbid anxiety disorders (including agoraphobia, generalized anxiety disorder, social anxiety disorder and panic disorder) and Posttraumatic Stress Disorder (PTSD) are allowed\\] or major cognitive disorder;\n* Meets criteria for a substance or alcohol use disorder in the past 6 months;\n* Female participants who are pregnant, breastfeeding, or may become pregnant, or unwilling to practice birth control during participation in the study;\n* Positive urine toxicology screen for drugs of abuse at the time of screening;\n* Any unstable medical illnesses including hepatic, renal, gastroenterologic, respiratory, cardiovascular (including ischemic heart disease), endocrinologic, neurologic, immunologic, or hematologic disease;\n* Clinically significant abnormalities of laboratory tests, physical examination, or ECG;\n* Prolonged QT Interval at screening, operationalized as a QTc of \\> 480 ms;\n* A history of retinal abnormalities (i.e., pigment changes, retinal dystrophy) or findings of retinal pathology on ophthalmological exam at baseline;\n* Presence of a condition or abnormality that in the opinion of the Investigator would compromise the safety of the patient or the quality of the data;\n* Use of any dis-allowed medication according to the study protocol;\n* Serious and imminent risk of self harm or violence as determined by the PI;\n* Extreme illness severity as defined by a GCI-S score \\>6;\n* Any contraindication to MRI including claustrophobia, any trauma or surgery which may have left magnetic material in the body, magnetic implants or pacemakers, and inability to lie still for 1 hour or more;\n* History of non-response to electroconvulsive therapy in the current depressive episode\n\n  * Exceptions:\n\n    1. Subjects with a positive urine drug screen for cannabinoids, barbiturates, opiates, amphetamines, or benzodiazepines may be allowed in the study provided that the drug was used for a documented, legitimate medical purpose and/or the use of such products may be discontinued (documented by a negative repeat test) prior to randomization;\n    2. Medically appropriate episodic use (up to 3 days) of narcotic analgesics for acute medical indications is allowed (Discussion with PI required)\n\n       * Potential participants will not be discontinued from medication for the purposes of this study. If a patient is taking a protocol dis-allowed medication at the time of screening, the patient may discontinue the medication under the supervision of the treating physician in the case that the patient is not benefiting from the medication or otherwise wishes to discontinue the medication. In no case will a dis-allowed medication be discontinued for the purpose of study participation if the patient is receiving clinical benefit from the medication.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "James Murrough, MD, PhD",
+          "affiliation": "Icahn School of Medicine at Mount Sinai",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33653118",
+          "type": "DERIVED",
+          "citation": "Costi S, Morris LS, Kirkwood KA, Hoch M, Corniquel M, Vo-Le B, Iqbal T, Chadha N, Pizzagalli DA, Whitton A, Bevilacqua L, Jha MK, Ursu S, Swann AC, Collins KA, Salas R, Bagiella E, Parides MK, Stern ER, Iosifescu DV, Han MH, Mathew SJ, Murrough JW. Impact of the KCNQ2/3 Channel Opener Ezogabine on Reward Circuit Activity and Clinical Symptoms in Depression: Results From a Randomized Controlled Trial. Am J Psychiatry. 2021 May 1;178(5):437-446. doi: 10.1176/appi.ajp.2020.20050653. Epub 2021 Mar 3."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data from this study may be submitted to the National Database for Clinical Research Related to Mental Illness (NDCT). NDCT isa data repository run by the National Institute of Mental Health (NIMH) that allows researchers studying mental illness to collect and share deidentified information with each other. During and after the study, the researchers will send deidentified information about health and behavior and in some cases, genetic information, to NDCT. Other researchers nationwide can then file an application with the NIMH to obtain access to deidentified study data for research purposes."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Participants recruited from Sept 2017 through August 2019",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Ezogabine",
+          "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Matching placebo pill daily for 5 weeks"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "21"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "24"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "21"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Discontinued Intervention",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Ezogabine",
+          "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Matching placebo pill daily for 5 weeks"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "21"
+            },
+            {
+              "groupId": "BG001",
+              "value": "24"
+            },
+            {
+              "groupId": "BG002",
+              "value": "45"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "44.4",
+                      "spread": "13.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38.9",
+                      "spread": "14.3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41.5",
+                      "spread": "14.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "description": "as reported by the study participant",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White/Caucasian",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Black/African American",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hispanic/Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Employment at least Part-Time",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Educational Attainment - ast least some college",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Relationship Status - Single, Never Married",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Primary Diagnosis",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Major Depressive Disorder",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Persistent Depressive Disorder",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Current Major Depressive Episode",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age at Onset of Depression",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28.3",
+                      "spread": "15.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21.7",
+                      "spread": "11.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24.3",
+                      "spread": "14.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Current Depressive Episode Duration",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "months",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72",
+                      "lowerLimit": "6",
+                      "upperLimit": "180"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24",
+                      "lowerLimit": "9.5",
+                      "upperLimit": "54"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "30",
+                      "lowerLimit": "10",
+                      "upperLimit": "120"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Generalized Anxiety Disorder",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Posttraumatic Stress Disorder (PTSD)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Ventral Striatum (VS) Activation",
+          "description": "change in activation during reward anticipation within the bilateral VS from baseline (Study Visit 0) to the primary outcome visit (Study Visit 5) as measured by functional MRI during the incentive flanker task (IFT). The IFT, like the Monetary Incentive Delay task, permits discrete modeling of brain activity during anticipation of an incentive.\n\nFunctional scans were preprocessed and denoised for motion and physiological noise using multi-echo independent component analysis (ME-ICA). Task-based modeling was conducted using AFNI and FSL software. The primary outcome for reward anticipation was the contrast of reward cue compared to neutral cue (reward\\>neutral cue). The primary imaging outcome was analyzed using a linear mixed model with a single random intercept term treating time as discrete or continuous as appropriate.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Bold Oxygen-level Dependent (BOLD) Signa",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.26",
+                      "spread": "0.69"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.95",
+                      "spread": "0.79"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.176",
+                      "spread": "0.81"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.015",
+                      "spread": "0.68"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Snaith-Hamilton Pleasure Scale (SHAPS)",
+          "description": "The SHAPS is a well-validated 14-item self-report questionnaire commonly used to assess anhedonia. Each item on the SHAPS is worded so that higher scores indicate greater pleasure capacity. A total score can be derived by summing the responses to each item. Items answered with \"strongly agree\" are coded as \"1\", while a \"strongly disagree\" response was assigned a score of \"4.\" Total scores on the SHAPS can range from 14 to 56, with higher scores corresponding to higher levels of anhedonia.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38.7",
+                      "spread": "8.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.7",
+                      "spread": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.5",
+                      "spread": "8.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30",
+                      "spread": "10.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Global Impression - Improvement (CGI-I)",
+          "description": "A widely administered clinician rated global measure of the degree of improvement from the initial assessment in subject overall illness severity. 7 point scale rated as: 1, very much improved; 2, much improved; 3, minimally improved; 4, no change; 5, minimally worse; 6, much worse; or 7, very much worse.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4",
+                      "spread": "0.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4",
+                      "spread": "0.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.1",
+                      "spread": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.8",
+                      "spread": "1.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Global Impression - Severity (CGI-S)",
+          "description": "Clinician rated global measure of subject overall illness severity. a 7-point scale rated as 1, normal, not at all ill; 2, borderline mentally ill; 3, mildly ill; 4, moderately ill; 5, markedly ill; 6, severely ill; or 7, extremely ill.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.4",
+                      "spread": "0.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.6",
+                      "spread": "0.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.6",
+                      "spread": "1.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.3",
+                      "spread": "1.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Anticipatory and Consummatory Interpersonal Pleasure Scale (ACIPS)",
+          "description": "A measure specifically designed to assess hedonic capacity for social and interpersonal pleasure.The ACIPS is a 17-item self-report measure scored on a likert scale, ranging from 1 (very false for me) to 6 (very true for me). Full scale from 17-102, higher score indicates higher hedonic capacity",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46.1",
+                      "spread": "15.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.7",
+                      "spread": "15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65.1",
+                      "spread": "22.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59",
+                      "spread": "23.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Montgomery-Asberg Depression Rating Scale (MADRS)",
+          "description": "A 10-item instrument used for the evaluation of depressive symptoms in adults and for the assessment of any changes to those symptoms. Each items is scored 0 (normal) to 6 (severe depression) with overall score ranges from 0 (normal) to 60 (severe depression).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.3",
+                      "spread": "6.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26.8",
+                      "spread": "5.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.7",
+                      "spread": "8.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.5",
+                      "spread": "10.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0)",
+          "description": "A 12-item generic assessment instrument that measures the level of functioning. Each item is scored from 0 to 4 and the items are summed to provide a total score. The score therefore ranges from 0 to 48, with higher scores indicating greater disability.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.5",
+                      "spread": "7.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.5",
+                      "spread": "9.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.2",
+                      "spread": "9.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11.6",
+                      "spread": "9.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Temporal Experience of Pleasure Scale (TEPS)",
+          "description": "The TEPS is composed of 18-items rated on a likert-type scale ranging from 1 (Very True for me) to 6 (Very False for me), and yields two subscales. Ten items make up the TEPS-Anticipatory Pleasure (TEPS-ANT) scale with a range from 10 (not motivated) to 60 (highly motivated). The other eight TEPS items make up the TEPS-Consummatory Pleasure (TEPS-CON) scale; range from 8 (not responsive) to 48 (highly responsive). Total scores range is 18-108. Lower scores indicate greater levels of anhedonia.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "TEPS-ANT baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.3",
+                      "spread": "8.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.6",
+                      "spread": "8.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "TEPS-ANT 5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37.3",
+                      "spread": "10.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32.4",
+                      "spread": "11.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "TEPS-CON baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.8",
+                      "spread": "8.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25.6",
+                      "spread": "7.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "TEPS-CON 5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.2",
+                      "spread": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29.9",
+                      "spread": "10.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Specific Loss of Interest and Pleasure Scale (SLIPS)",
+          "description": "The SLIPS is a recently developed and validated measure of anhedonia that is tailored to detect recent changes in anhedonia. A 23-item measure, each item range from 0-3. Full scale from 0 to 69, higher score indicates more recent changes.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline 5 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ezogabine",
+              "description": "Ezogabine up to 900mg/day daily for 5 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Matching placebo pill daily for 5 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.3",
+                      "spread": "9.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.8",
+                      "spread": "10.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.3",
+                      "spread": "16.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21.5",
+                      "spread": "16.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "8 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Ezogabine",
+          "description": "Ezogabine up to 900mg/day daily for 5 weeks",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 21,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 21,
+          "otherNumAffected": 21,
+          "otherNumAtRisk": 21
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Matching placebo pill daily for 5 weeks",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 24,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 24,
+          "otherNumAffected": 19,
+          "otherNumAtRisk": 24
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Abdominal Pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Back Pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Confusional state",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Disturbance in attention",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 21,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Dry mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Increased appetite",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Malaise",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Memory impairment",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Nasal Congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Panic attack",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Polyuria",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Restlessness",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Sedation",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Somnolence",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred",
+          "organSystem": "Eye disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 24
+            }
+          ]
+        },
+        {
+          "term": "Other",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 24
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The relatively small sample size and termination of enrollment prior to the planned target limit conclusions regarding efficacy and generalizability."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr, James Murrough",
+        "organization": "Icahn School of Medicine at Mount Sinai",
+        "email": "james.murrough@mssm.edu",
+        "phone": "212-585-4640"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2018-06-01",
+          "uploadDate": "2020-08-21T19:07",
+          "filename": "SAP_000.pdf",
+          "size": 308876
+        },
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2019-06-12",
+          "uploadDate": "2020-08-21T19:08",
+          "filename": "Prot_001.pdf",
+          "size": 823473
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2020-09-21",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D059445",
+          "term": "Anhedonia"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C101866",
+          "term": "ezogabine"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

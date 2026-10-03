@@ -1,0 +1,14 @@
+{
+  "source_id": "hgnc_kcnq2",
+  "provider": "HGNC",
+  "source_url": "https://rest.genenames.org/fetch/symbol/KCNQ2",
+  "resolved_url": "https://rest.genenames.org/fetch/symbol/KCNQ2",
+  "retrieved_at": "2026-10-03T20:49:31.947906+00:00",
+  "cache_path": "raw/ontologies/hgnc_kcnq2.json",
+  "raw_sha256": "3a9bed7b94704285c40637cab95ddf5d4001149cc79c991cdc31d1fd0b30f634",
+  "bytes": 1293,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC0",
+  "license_url": "https://www.genenames.org/about/"
+}

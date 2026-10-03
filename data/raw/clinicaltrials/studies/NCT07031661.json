@@ -1,0 +1,280 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07031661",
+      "orgStudyIdInfo": {
+        "id": "CRC2021ZD01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CRC2021ZD01",
+          "type": "OTHER_GRANT",
+          "domain": "Clinical Research Center of Shanghai Mental Health Center"
+        }
+      ],
+      "organization": {
+        "fullName": "Shanghai Mental Health Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Cohort Study of Disease Prediction Model for High-risk Population With Bipolar Disorder",
+      "officialTitle": "The Establishment of Disease Prediction Model for High-risk Population With Bipolar Disorder Based on Multimodal Data: A Multicenter, Large Sample, Prospective Cohort Study",
+      "acronym": "DPM-rBD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-17",
+      "studyFirstSubmitQcDate": "2025-06-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shanghai Mental Health Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Shanghai Mental Health Center, Hongkou District",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Shanghai Mental Health Center, Xuhui District",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Children's Hospital of Fudan University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Peking University Sixth Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Qingdao No. 7 People's Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Nanjing Medical University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Bipolar disorder (BD) is a serious, complicated, familial aggregation onset of mental illness, which has the characteristics of five-low and one-high, namely high prevalence, high recurrence rate, high morbidity and mortality, high comorbidity rate and younger age characteristics. This situation will seriously influence one's behaviour or thinking, cognitive, emotional, social and occupational function, causing the heavy burden of disease. But, early recognition and early diagnosis are difficult to achieve at present.\n\nBased on the preliminary research results of the project team, it is found that BD can be identified early through specific dimensions, and early recognition is crucial for the prognosis of patients. The earlier the intervention for BD is implemented, the better the prognosis, especially the functional prognosis, but the difficulty lies in how to implement it. Establishing a high-quality clinical cohort of BD high-risk population is a necessary prerequisite. This study intends to establish a high-quality, large-sample cohort through multi-center, long-term and prospective cohort design and enroll 100 BD high-risk patients every year, a total of 400 cases in 4 years. The electronic mental health service platform will be used for ten years of intensive follow-up. Multi-modal data including clinical characteristics, genetic, cognitive, neuroimaging, sleep monitoring, eeg, eye movement, speech, facial expression and movement were collected to construct the database. On this basis, the interaction of biological factors, clinical risk factors, and environmental risk factors in the onset of BD is discussed to establish a big data prediction model for BD onset in high-risk populations. The effective subgroups of early intervention were analyzed and screened. An ethical and individualized prediction model of the effectiveness and safety of early intervention for the BD high-risk population was constructed.\n\nIt is hoped that the smooth implementation of this project can provide empirical evidence for the early identification, prevention and intervention of BD. To provide clinicians with real data-driven decision-making guidance to assist in selecting personalized and precise treatment; Ultimately promote the prognosis and functional recovery of BD patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "High-risk",
+        "Bipolar Disorder",
+        "Atypical Depression"
+      ],
+      "keywords": [
+        "bipolar disorder",
+        "high-risk",
+        "offspring",
+        "atypical depression",
+        "cohort study",
+        "prediction model"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "10ml blood sample"
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "high-risk offsprings of patients with bipolar disorder (HR-BD)",
+          "description": "the 6-18 years old health offsprings with at least one parent with bipolar disorder",
+          "interventionNames": [
+            "Other: This was an observational study with no intervention."
+          ]
+        },
+        {
+          "label": "patients with atypical depression",
+          "description": "the 6-18 years old patients with atypical depression according to the criteria of DSM-5",
+          "interventionNames": [
+            "Other: This was an observational study with no intervention."
+          ]
+        },
+        {
+          "label": "health control",
+          "description": "health juveniles with age and gender matched with HR-BD",
+          "interventionNames": [
+            "Other: This was an observational study with no intervention."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "This was an observational study with no intervention.",
+          "description": "This was an observational study with no intervention.",
+          "armGroupLabels": [
+            "health control",
+            "high-risk offsprings of patients with bipolar disorder (HR-BD)",
+            "patients with atypical depression"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The prevelence of mental illnesses over time in all three groups.",
+          "description": "The K-SADS-PL or SCID will be used to screen the mental illnesses of all three group. The cumulative prevelence of all follow-up points will be calculated.",
+          "timeFrame": "4 year, participants will be followed-up every one year."
+        },
+        {
+          "measure": "The differences of developmental trajectory of brain structure and function between three groups.",
+          "description": "All participants will complete the brain MRI scan every each year, which including structural MRI, resting-state and task functional MRI. The volume, thickness, Reho, attributes of structural and functional brain networks will be calculated and compared longitudinally.",
+          "timeFrame": "4 year, participants will be scaned every each year."
+        },
+        {
+          "measure": "The differences of developmental trajectory of multi-model features between three groups.",
+          "description": "The electroencephalogram (EEGs), eye movement, Polysomnography (PSG), voice, expression and gait movement will be recorded at baseline and annual follow-up period. The features of event-related potentials like N1 and P3, event-related spectral perturbation will be extracted from EEG. Saccadic latency, saccadic peak velocity, saccadic amplitude, saccade count, average fixation duration, total fixation duration, visit count, velocity gain, position gain of smooth tracking, accuracy and latency of visual search will be extracted from eye movement records. Total sleep time, sleep efficiency, sleep onset latency, rapid eye movement (REM) sleep latency, awakenings number, wake after sleep onset, number of microarousals, apnea-hypopnea index, time of REM sleep will be analyzed according to PSG. Formant frequency, intensity, bandwidth, Hammarberg Index, Mel-frequency cepstral coefficients (MFCC) will be acquired from voice data. The facial expression entropy and facial action units will be ca",
+          "timeFrame": "4 year, participants will be followed-up every one year."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The differences of developmental trajectory of cognitive function between three groups.",
+          "description": "All participants will be assessed with Wechsler Intelligence Scale for Children (WISC-III) or Wechsler Adult Intelligence Scale (WAIS-III). The total score of WISC-III/WAIS-III and scores of sub-scales will be calculated. Different ranges of total score of WISC-III/WAIS-III imply corresponding intelligence level. Intelligence quotient follows a normal distribution among the general population, with a mean of 100 and a standard deviation of 15. The higher the total score, the better the cognitive function.",
+          "timeFrame": "4 year, participants will be followed-up every one year."
+        },
+        {
+          "measure": "The differences of quality of sleep between three groups.",
+          "description": "All participants will be assessed with Sleep Disturbance Scale for Children (SDSC)/Pittsburgh Sleep Quality Index (PSQI). The scores of total scale or subscales will be calculated. The potential range is 26-130 in SDSC and 1-21 in PSQI, the higher the worse of sleep quality.",
+          "timeFrame": "4 year, participants will be followed-up every one year."
+        },
+        {
+          "measure": "The differences of quality of life between three groups.",
+          "description": "All participants will be assessed with Quality of life scale for children and adolescents (QLSCA)/ World Health Organization Quality of Life - BREF (WHOQOL-BREF). The total score will be calculated. The potential range is 0-100 in WHOQOL-BREF, the higher the better quality of life.",
+          "timeFrame": "4 year, participants will be followed-up every one year."
+        },
+        {
+          "measure": "The differences of genetic phenotypes and between three groups.",
+          "description": "The peripheral blood samples of all participants will be collected at baseline and every year, which include 5ml anticoagulant blood sample with EDTA and 5ml procoagulant blood sample. Genotyping carried out using the Illumina Genome wide Asian Screening Array (ASA) Assay. SNP of ANK3、SCN2A、CACNA1C、KCNB1、TRANK1、NCAN、HOMER1 will be selected. New genes will also be detected by GWAS.",
+          "timeFrame": "4 year, participants will be followed-up every one year."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* High-risk offsprings of parents with BD: Aged 6-18 yrs, both male and female. Offsprings and parents can sign the writtened informed consent form. At least one of parents was diagnosed with bipolar disorder by two or more senior psychiatric doctor.\n* Atypical depression: Aged 6-18 yrs, both male and female. Patients and parents can sign the writtened informed consent form. Patients was diagnosed with atypical depression by two or more senior psychiatric doctor according to DSM-5. The disease phase and treatment regime are unrestricted.\n* Health control: health individuals with age and gender matched with high-risk offsprings, no psychiatric family history.\n\nExclusion Criteria:\n\n* High-risk offsprings of parents with BD: HCL-32 total score \\> 12. Individuals was diagnosed with BD or have symptoms of Axis I psychiatric disorder screened by K-SADS-PL . Individuals with severe physical disease, including kidney diseases, liver diseases or nervous system diseases etc.\n* Atypical depression: HCL-32 total score \\> 12. Individuals was diagnosed with BD or have symptoms of Axis I psychiatric disorder screened by K-SADS-PL . Individuals with severe physical disease, including kidney diseases, liver diseases or nervous system diseases etc. Patients cormobid substance abuse or treated with MECT in recent half a year.\n* Health control: Individuals with psychiatric family history, severe physical disease, including kidney diseases, liver diseases or nervous system diseases etc.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "6 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "1. High-risk offsprings of parents with BD: health offsprings of patients with bipolar disorder;\n2. Atypical depression: patients with atypical depression according to DSM-5;\n3. Health control: Health individuals with age and gender matched with high-risk offsprings.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Shanghai Mental Health Center",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200030",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jun Chen, Ph.D",
+              "role": "CONTACT",
+              "phone": "+86 18017311373",
+              "email": "doctorcj2010@gmail.com"
+            },
+            {
+              "name": "Tao Yang, Ph.D",
+              "role": "CONTACT",
+              "phone": "+86 15800579832",
+              "email": "yangtaocomeon@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001714",
+          "term": "Bipolar Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000068105",
+          "term": "Bipolar and Related Disorders"
+        },
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,56 @@
+{
+  "source": "NIH RePORTER API v2",
+  "endpoint": "https://api.reporter.nih.gov/v2/projects/search",
+  "query": "STXBP1",
+  "retrieved_at": "2026-10-03T20:49:04+00:00",
+  "requests": [
+    {
+      "criteria": {
+        "advanced_text_search": {
+          "operator": "and",
+          "search_field": "all",
+          "search_text": "STXBP1"
+        },
+        "fiscal_years": [],
+        "use_relevance": true
+      },
+      "offset": 0,
+      "limit": 30
+    }
+  ],
+  "total_count": 64,
+  "application_ids": [
+    "11322512",
+    "11366073",
+    "11310175",
+    "11301017",
+    "11375422",
+    "11068519",
+    "11058352",
+    "11058348",
+    "11096934",
+    "10774226",
+    "10784742",
+    "10784762",
+    "10873143",
+    "10873147",
+    "10543132",
+    "10635575",
+    "10584539",
+    "10658750",
+    "10670363",
+    "10670374",
+    "10331810",
+    "10451793",
+    "10379438",
+    "10455559",
+    "10455556",
+    "10084931",
+    "10302244",
+    "10228504",
+    "10311021",
+    "10113379"
+  ],
+  "truncated": true,
+  "note": "Application IDs identify annual awards; core_project_num groups related award years."
+}

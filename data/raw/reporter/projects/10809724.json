@@ -1,0 +1,136 @@
+{
+  "appl_id": 10809724,
+  "subproject_id": null,
+  "fiscal_year": 2024,
+  "project_num": "5R01HL137094-07",
+  "project_serial_num": "HL137094",
+  "organization": {
+    "org_name": "UNIVERSITY OF CONNECTICUT STORRS",
+    "city": null,
+    "country": null,
+    "org_city": "STORRS-MANSFIELD",
+    "org_country": "UNITED STATES",
+    "org_state": "CT",
+    "org_state_name": null,
+    "dept_type": "PHYSIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "614209054"
+    ],
+    "org_ueis": [
+      "WNTPS995QBM7"
+    ],
+    "primary_duns": "614209054",
+    "primary_uei": "WNTPS995QBM7",
+    "org_fips": "US",
+    "org_ipf_code": "1506602",
+    "org_zipcode": "062691133",
+    "external_org_id": 1506602
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 507810,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "HL",
+    "serial_num": "137094",
+    "support_year": "07",
+    "full_support_year": "07",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 8087608,
+      "first_name": "Daniel",
+      "middle_name": "K",
+      "last_name": "Mulkey",
+      "is_contact_pi": true,
+      "full_name": "Daniel K Mulkey",
+      "title": "PROFESSOR"
+    },
+    {
+      "profile_id": 8880930,
+      "first_name": "Anastasios",
+      "middle_name": "",
+      "last_name": "Tzingounis",
+      "is_contact_pi": false,
+      "full_name": "Anastasios  Tzingounis",
+      "title": "PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "MULKEY, DANIEL K",
+  "program_officers": [
+    {
+      "first_name": "AARON",
+      "middle_name": "D",
+      "last_name": "LAPOSKY",
+      "full_name": "AARON D LAPOSKY"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "HL",
+    "abbreviation": "NHLBI",
+    "name": "National Heart Lung and Blood Institute",
+    "admin_org_id": "12500068",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2024,
+      "code": "HL",
+      "name": "National Heart Lung and Blood Institute",
+      "abbreviation": "NHLBI",
+      "total_cost": 507810.0,
+      "direct_cost_ic": 315410.0,
+      "indirect_cost_ic": 192400.0
+    }
+  ],
+  "cong_dist": "CT-02",
+  "spending_categories": [
+    408,
+    525
+  ],
+  "project_start_date": "2018-01-01T00:00:00",
+  "project_end_date": "2026-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF ARTS AND SCIENCES",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -72.247553,
+    "lat": 41.811419
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "RIBT",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Respiratory Integrative Biology and Translational Research Study Section[RIBT]"
+  },
+  "award_notice_date": "2023-12-27T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01HL137094",
+  "terms": "<ASD><Affect><Animals><Autism><Autistic Disorder><Binding><Body Tissues><Brain><Brain Nervous System><Breathing><CO2><Carbon Dioxide><Carbonic Anhydride><Cell Communication and Signaling><Cell Nucleus><Cell Signaling><Chemoreceptors><Chronic><Co-Transporters><Coupled><Development><Early Infantile Autism><Electrophysiology><Electrophysiology (science)><Encephalon><Foundations><Genes><Genetic Alteration><Genetic Change><Genetic defect><Goals><Hydrolysis><Hypoventilation><Infantile Autism><Inositide Phospholipids><Inositol Phosphoglycerides><Inositol Phospholipids><Intracellular Communication and Signaling><K channel><Kanner's Syndrome><Lead><Link><Mediating><Mice><Mice Mammals><Modeling><Molecular Interaction><Murine><Mus><Mutation><Myoclonic Jerk><Myoclonus><Nerve Cells><Nerve Transmitter Substances><Nerve Unit><Neural Cell><Neurocyte><Neurodevelopmental Disorder><Neurological Development Disorder><Neurons><Neurophysiology / Electrophysiology><Neurotransmitters><Nucleus><PIP2><Patients><Pb element><Phosphatidyl Inositol><Phosphatidylinositol 4,5-Biphosphate><Phosphatidylinositol 4,5-Diphosphate><Phosphatidylinositol-4,5-Bisphosphate><Phosphatidylinositols><Phosphoinositides><Potassium Channel><Potassium Ion Channels><Production><Property><PtIns 4,5-P2><PtdIns><PtdInsP2><Receptor Protein><Recurrence><Recurrent><Reflex><Reflex action><Regulation><Research><Respiration Disorders><Respiratory Aspiration><Respiratory Center><Respiratory Disorder><Respiratory Inspiration><Role><Signal Transduction><Signal Transduction Systems><Signaling><Slice><Symptoms><Synapses><Synaptic><Syndrome><Testing><Therapeutic Intervention><Tissues><Variant><Variation><Viral><Work><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><biological signal transduction><breathing disorder><cofactor><developmental><developmental epileptic encephalopathy><electrophysiological><epileptic encephalopathies><gain of function><gain of function mutation><gene manipulation><genetic manipulation><genetically manipulate><genetically perturb><genome mutation><heavy metal Pb><heavy metal lead><improved><inspiration><intervention therapy><knock-down><knockdown><loss of function><myoinositol><neonatal brain><neural><neurodevelopmental disease><neuronal><novel><parent grant><pharmacologic><receptor><respiratory><respiratory dysfunction><response><social role><symporter><synapse><therapeutic target><therapeutically effective>",
+  "pref_terms": "Affect;Animals;Binding;Brain;Breathing;Carbon Dioxide;Cell Nucleus;Chemoreceptors;Chronic;Coupled;Development;Electrophysiology (science);Foundations;Genes;Goals;Hydrolysis;Hypoventilation;Lead;Link;Mediating;Modeling;Mus;Mutation;Myoclonus;Neurodevelopmental Disorder;Neurons;Neurotransmitters;Patients;Phosphatidylinositol 4,5-Diphosphate;Phosphatidylinositols;Potassium Channel;Production;Property;Recurrence;Reflex action;Regulation;Research;Respiration Disorders;Respiratory Center;Role;Signal Transduction;Slice;Symptoms;Synapses;Syndrome;Testing;Therapeutic Intervention;Tissues;Variant;Viral;Work;autism spectrum disorder;cofactor;developmental epileptic encephalopathy;epileptic encephalopathies;gain of function;gain of function mutation;genetic manipulation;improved;knock-down;loss of function;myoinositol;neonatal brain;neural;novel;parent grant;pharmacologic;receptor;respiratory;response;symporter;therapeutic target;therapeutically effective",
+  "abstract_text": "SUMMARY\nDevelopmental and epileptic encephalopathy associated with KCNQ2 channels has been primarily linked to\nloss-of-function KCNQ2 mutations. However, an increasing number of recurrent KCNQ2 gain-of-function\nvariants (i.e., R201C) have been identified. Patients with the KCNQ2R201C mutation display severe myoclonus\nand early profound hypoventilation due to reduced chemoreflex. Currently, mechanisms by which KCNQ2\nchannels control the drive to breathe are unclear. The retrotrapezoid nucleus (RTN) is an important respiratory\ncenter; neurons in this region function as respiratory chemoreceptors by regulating breathing in response to\nchanges in tissue CO2. Chemosensitive RTN neurons are activated by an increase in CO2/H+, whereas a gain-\nof-function Kcnq2 mutation might hyperpolarize RTN neurons and make it more difficult to respond to CO2/H+.\nIndeed, work from the parent grant showed that expression of the recurrent Kcnq2 mutation Kcnq2R201C in RTN\nneurons blunted the ventilatory response to CO2. Excitingly, we also found that Kcnq2 channel activity in RTN\nneurons is regulated by a H+-myo-inositol cotransporter (HMIT) which imports myo-inositol to support\nproduction of phosphatidylinositol 4,5-bisphosphate (PIP2), an allosteric activator of Kcnq2 channels. HMIT\nexpression in the RTN region is restricted only to chemosensitive neurons. Therefore, we hypothesize that\nHMIT is required for Kcnq2 channel activity in RTN neurons. In particular, we propose that H+-dependent myo-\ninositol transport into RTN neurons by HMIT will increase PIP2 levels and activate Kcnq2 channels to limit\nCO2/H+-stimulated activity, as well as to maintain neural modulation by neurotransmitters that signal through\nGq-coupled receptors and PIP2 hydrolysis. Thus, the objective of this application is to determine the extent to\nwhich Kcnq2 channels and HMIT interact to control RTN chemoreception under normal conditions and whether\nHMIT can be targeted to improve breathing in mice that express Kcnq2R201C. The three Specific Aims of this\nproject are: 1) determine the extent to which HMIT influences Kcnq2 channel regulation of chemosensitive\nRTN neurons; 2) determine contributions of Kcnq2 channels and HMIT interactions to RTN chemoreceptor\nnetwork excitability; and 3) to establish HMIT in RTN neurons as a therapeutic target for Kcnq2 associated\nbreathing abnormalities. The rationale for this research is that by understanding how HMIT regulates Kcnq2\nchannel activity in RTN neurons, we can lay a foundation for developing treatments for respiratory problems\nassociated with Kcnq2 mutations.",
+  "project_title": "Role of KCNQ2 Channels in Control of Breathing",
+  "phr_text": "Project Narrative\nIn the past several years, important progress has been made in identifying genes implicated in\nneurodevelopmental disorders. It is now recognized that KCNQ2 loss and gain of function mutations lead to\ndevelopmental epileptic encephalopathy that might also include respiratory dysfunction and severe central\nhypoventilation syndrome. Therefore, the goal of this application is to understand the essential role of KCNQ2\nin control of breathing that may explain both the origins and developmental progression of symptoms, as well\nas to propose strategies for effective therapeutic interventions.",
+  "spending_categories_desc": "Lung; Neurosciences",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2024-02-01T00:00:00",
+  "budget_end": "2025-01-31T00:00:00",
+  "cfda_code": "93.233",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 315410,
+  "indirect_cost_amt": 192400,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10809724",
+  "date_added": "2024-02-03T16:18:44"
+}

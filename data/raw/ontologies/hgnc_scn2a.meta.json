@@ -1,0 +1,14 @@
+{
+  "source_id": "hgnc_scn2a",
+  "provider": "HGNC",
+  "source_url": "https://rest.genenames.org/fetch/symbol/SCN2A",
+  "resolved_url": "https://rest.genenames.org/fetch/symbol/SCN2A",
+  "retrieved_at": "2026-10-03T20:49:31.501651+00:00",
+  "cache_path": "raw/ontologies/hgnc_scn2a.json",
+  "raw_sha256": "5060acc8637a5dbd58b202c6fe150cddd002cbaf047f5c122d2e1b4dc170b043",
+  "bytes": 1413,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC0",
+  "license_url": "https://www.genenames.org/about/"
+}

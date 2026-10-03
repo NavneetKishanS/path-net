@@ -8,8 +8,7 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
-# Raw API caches and model output can be large; commit curated seeds, not caches.
-data/raw/*
-!data/raw/.gitkeep
+# The P1 delivery branch includes the reviewed raw source snapshot.
+# Keep generated model output and runtime artifacts out of version control.
 data/extracted/
 data/seed/clusters.generated.json

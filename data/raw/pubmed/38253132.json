@@ -1,0 +1,18 @@
+{
+  "pmid": "38253132",
+  "title": "Rab3a attenuates spinal cord injury by mediating vesicle release.",
+  "abstract": "Rab3a regulates vesicle secretion and transport. Emerging evidences have shown that extracellular vesicles (EVs) can reach target lesions of injured spinal cords and exert a positive effect on these lesions. However, the molecular mechanism by which Rab3a regulates vesicle secretion to ameliorate spinal cord injury (SCI) is not fully understood. An SCI rat model was established which was used to examine the pathological changes and Rab3a expression in spinal cord tissue. Rab3a was overexpressed in the model rats to demonstrate its effect on SCI repair. Rab3a was also knocked down in neuronal cells to verify its role in vesicle secretion and neuronal cells. The binding protein of Rab3a was identified by Co-IP and mass spectrometry. Rab3a was significantly downregulated in SCI rats and Rab3a overexpression promoted SCI repair. Rab3a knockdown inhibited the secretion of neuronal cell-derived EVs. Compared to the EVs from the equal number of control neuronal cells, EVs from Rab3a-knockdown neuronal cells promoted M1 macrophage polarization, which in turn, promoted neuronal cell apoptosis. Mechanistically, STXBP1 was identified as a binding protein of Rab3a, and their interaction promoted the secretion of neuronal cell-derived EVs. Furthermore, METTL2b was significantly downregulated in SCI rats, and METTL2b knockdown significantly reduced Rab3a protein expression. These results suggest that Rab3a promotes the secretion of neuronal cell-derived EVs by interacting with its binding protein STXBP1. Neuronal cells-derived EVs inhibited the polarization of M1 macrophages in the spinal cord microenvironment, thereby promoting SCI repair. Our findings provide a theoretical basis for the clinical treatment of SCI.",
+  "authors": [
+    "Yuhao Yang",
+    "Ziqiao Liu",
+    "Yang Lu",
+    "Xincheng Yu",
+    "Rui Zhu",
+    "Xingda Cai",
+    "Jinghua Lin",
+    "Zemin Wang",
+    "Dingsheng Zha"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38253132/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

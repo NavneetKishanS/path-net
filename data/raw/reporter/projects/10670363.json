@@ -1,0 +1,125 @@
+{
+  "appl_id": 10670363,
+  "subproject_id": "8066",
+  "fiscal_year": 2023,
+  "project_num": "5U54NS117170-04",
+  "project_serial_num": "NS117170",
+  "organization": {
+    "org_name": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+    "city": null,
+    "country": null,
+    "org_city": "ANN ARBOR",
+    "org_country": "UNITED STATES",
+    "org_state": "MI",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "073133571"
+    ],
+    "org_ueis": [
+      "GNJ7BBP73WE9"
+    ],
+    "primary_duns": "073133571",
+    "primary_uei": "GNJ7BBP73WE9",
+    "org_fips": "US",
+    "org_ipf_code": "1506502",
+    "org_zipcode": "481081364",
+    "external_org_id": 1506502
+  },
+  "award_type": "5",
+  "activity_code": "U54",
+  "award_amount": 284966,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "U54",
+    "ic_code": "NS",
+    "serial_num": "117170",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 2075379,
+      "first_name": "MARGARET",
+      "middle_name": "ELIZABETH",
+      "last_name": "ROSS",
+      "is_contact_pi": true,
+      "full_name": "MARGARET ELIZABETH ROSS",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "ROSS, MARGARET ELIZABETH",
+  "program_officers": [],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2023,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 284966.0,
+      "direct_cost_ic": 195074.0,
+      "indirect_cost_ic": 89892.0
+    }
+  ],
+  "cong_dist": "MI-06",
+  "spending_categories": [
+    118,
+    255,
+    276,
+    520,
+    525,
+    796,
+    797
+  ],
+  "project_start_date": "2020-09-15T00:00:00",
+  "project_end_date": "2025-07-31T00:00:00",
+  "organization_type": {
+    "name": "Domestic Higher Education",
+    "code": "10",
+    "is_other": true
+  },
+  "geo_lat_lon": {
+    "lon": -83.743038,
+    "lat": 42.275494
+  },
+  "opportunity_number": "RFA-NS-19-019",
+  "full_study_section": {
+    "srg_code": "ZNS1",
+    "srg_flex": null,
+    "sra_designator_code": "SRB",
+    "sra_flex_code": "A",
+    "group_code": null,
+    "name": "ZNS1-SRB-A"
+  },
+  "award_notice_date": "2023-06-21T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RC",
+  "core_project_num": "U54NS117170",
+  "terms": "<2-dimensional><3-D><3-Dimensional><3D><ACSL1><ACSL1 Gene><ASCL1><ASCL1 gene><ASCL1 protein><ASH1><Acceleration><Achaete-Scute Complex Homolog-Like 1 Protein><Achaete-Scute Complex-Like 1 Protein><Achaete-Scute Homolog 1 Protein><Algorithmic Software><Algorithmic Tools><Algorithms><Animal Model><Animal Models and Related Studies><Animals><Assay><Benign><Bioassay><Biochemical><Biologic Assays><Biologic Models><Biological><Biological Assay><Biological Models><Brachydanio rerio><Cell Body><Cell Communication and Signaling><Cell Differentiation><Cell Differentiation process><Cell Line><Cell Locomotion><Cell Migration><Cell Movement><Cell Signaling><Cell Survival><Cell Viability><CellLine><Cells><Cellular Assay><Cellular Migration><Cellular Morphology><Cellular Motility><Characteristics><Chemical Fractionation><Clinical><Co-Immunoprecipitations><Complex><DNA><Danio rerio><Data><Deoxyribonucleic Acid><Doxycycline><Elements><Epilepsy><Epileptic Seizures><Epileptics><Evaluation><FK506 Binding Protein 12-Rapamycin Associated Protein 1><FKBP12 Rapamycin Complex Associated Protein 1><FRACN><FRAP1><FRAP1 gene><FRAP2><Fractionation><Fractionation Radiotherapy><Frequencies><Future><Gene Action Regulation><Gene Expression><Gene Expression Regulation><Gene Regulation><Gene Regulation Process><Gene variant><Genes><Genetic><Genetic Alteration><Genetic Change><Genetic defect><Glutamates><Goals><HASH1><HASH1 protein><Human><Impairment><In Vitro><Individual><Interdisciplinary Research><Interdisciplinary Study><Intervention><Intervention Strategies><Intracellular Communication and Signaling><Investigators><Knock-out><Knockout><L-Glutamate><MASH 1 protein><MASH1><MASH1 protein><Mammalian Achaete-Scute Homolog 1><Mechanistic Target of Rapamycin><Model System><Modeling><Modern Man><Motility><Multidisciplinary Collaboration><Multidisciplinary Research><Munc-18 protein><Munc18 protein><Mutation><NGS Method><NGS system><NSF attachment protein receptor><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurons><ORFs><Open Reading Frames><Parents><Pathogenesis><Pathogenicity><Pathway interactions><Patients><Phenotype><Pre-Clinical Model><Precision therapeutics><Preclinical Models><Proliferating><Property><Protein Coding Region><Protein Trafficking><Proteins><RAFT1><RNA Seq><RNA Splicing><RNA sequencing><RNAseq><Research Personnel><Researchers><Rodent Model><SNAP receptor><SNARE><Seizure Disorder><Signal Transduction><Signal Transduction Systems><Signaling><Single Base Polymorphism><Single Nucleotide Polymorphism><Software Algorithm><Splicing><Strains Cell Lines><System><Testing><Variant><Variation><Vibramycin><Zebra Danio><Zebra Fish><Zebrafish><allele variant><allelic variant><alpha-6-Deoxyoxytetracycline><biologic><biological signal transduction><cell assay><cell morphology><cell motility><cell type><clinical significance><clinically significant><cultured cell line><diagnostic criteria><differentiation protocol><epilepsia><epileptogenic><experiment><experimental research><experimental study><experiments><genetic variant><genome mutation><genomic variant><glutamatergic><human pluripotent stem cell><human reference assembly><human reference genome><improved><in silico><in vitro Model><in vivo><indel><inhibitory neuron><insertion-deletion><insertion-deletion mutation><insertion/deletion><insertion/deletion mutation><interventional strategy><loss of function><loss of function mutation><mTOR><mammalian target of rapamycin><member><model of animal><multi-electrode arrays><multielectrode arrays><mutant><neuronal><next gen sequencing><next generation sequencing><nextgen sequencing><overexpress><overexpression><parent><pathway><pharmacologic><precision therapies><precision treatment><predictive tools><progenitor><protein expression><protein function><protein protein interaction><protein transport><screening><screenings><single nucleotide variant><soluble N-ethylmaleimide-sensitive-factor attachment protein receptor><synapse formation><synaptogenesis><syntaxin binding protein 1><syntaxin binding protein Munc18><therapeutic evaluation><therapeutic testing><three dimensional><tool><transcriptome sequencing><transcriptomic sequencing><two-dimensional><unclassified variant><variant of uncertain clinical significance><variant of uncertain significance><variant of undetermined significance><variant of unknown significance>",
+  "pref_terms": "3-Dimensional;ASCL1 gene;Acceleration;Algorithmic Software;Algorithms;Animal Model;Animals;Benign;Biochemical;Biological;Biological Assay;Biological Models;Cell Differentiation process;Cell Line;Cell Survival;Cells;Cellular Assay;Cellular Morphology;Characteristics;Clinical;Co-Immunoprecipitations;Complex;DNA;Data;Doxycycline;Elements;Epilepsy;Evaluation;FRAP1 gene;Fractionation;Frequencies;Future;Gene Expression;Gene Expression Regulation;Genes;Genetic;Glutamates;Goals;Human;Impairment;In Vitro;Individual;Interdisciplinary Study;Intervention;Knock-out;Modeling;Mutation;Neurons;Open Reading Frames;Parents;Pathogenesis;Pathogenicity;Pathway interactions;Patients;Phenotype;Pre-Clinical Model;Precision therapeutics;Proliferating;Property;Proteins;RNA Splicing;Research Personnel;Rodent Model;SNAP receptor;Signal Transduction;Single Nucleotide Polymorphism;System;Testing;Variant;Zebrafish;cell motility;cell type;clinically significant;diagnostic criteria;differentiation protocol;experimental study;genetic variant;human pluripotent stem cell;human reference genome;improved;in silico;in vitro Model;in vivo;inhibitory neuron;insertion/deletion mutation;loss of function;loss of function mutation;member;multi-electrode arrays;mutant;next generation sequencing;overexpression;pharmacologic;predictive tools;progenitor;protein expression;protein function;protein protein interaction;protein transport;screening;synaptogenesis;syntaxin binding protein 1;therapeutic evaluation;tool;transcriptome sequencing;two-dimensional;variant of unknown significance",
+  "abstract_text": "DNA TO PROTEINS: GENE REGULATION, PROTEIN EXPRESSION AND FUNCTION IN EPILEPSY\n Loss of function (LOF) mutations in hundreds of genes are associated with human epilepsy. However,\nthe high frequency of sequence variation among individuals presents a challenge to ascribe missense variants\nas causing epilepsy. This highly multidisciplinary research team develops a modular platform approach to\naccelerate determination of the functional, pharmacological, neuronal network and whole animal consequences\nof genetic variants of uncertain significance (VUS) encountered in patients with a range of epilepsy types. The\nultimate goal is to devise strategies for establishing genetic diagnostic criteria and identifying potential targets\nfor intervention. To this end, Project 1 will join Project 2 investigators in the interrogation of multiple VUS in 1 to\n2 frequently encountered, non-ion channel encoding epilepsy genes per year (up to 10 genes in 5 years). Project\n1 employs moderate-throughput assessment of 12-15 VUSs per gene, examined in 3 Milestones:\n Milestone 1 will assess in silico and in vitro model systems for VUS functional analyses to: 1a.\nwith the gene and variant curation core (GVCC), generate and assess In silico tools to improve modeling of VUS\npathogenicity; 1b. use 2-dimentional (2-D) cultures of HEK293T cells in biochemical tests of each studied VUS\nto examine mutant protein stability, known protein interactions and aggregation; 1c. test the impact of a\nVUS on subcellular localization, protein trafficking and/or post translational processing.\n Milestone 2 will establish assays of cell autonomous effects in vitro. The human epilepsy tool core\n(HETC) will inactivate selected genes and generate human pluripotent stem cells (hPSC) that express dox-\ninduced Neurogenin 2 (iNeurons) or ASCL1 & DLX2 (iGNs) for direct induction of neurons. Knockout neurons\nwill be made to overexpress WT or VUS containing protein and their ability to rescue LOF phenotypes in knockout\ncells will be examined in 2-D cultures through assessing progenitor proliferation, cell survival, potential for\ndifferentiation and gene expression using cell morphology, motility, and RNAseq.\n Milestone 3. Functional impact of VUS on synapse formation and network properties. These\niNeurons (e.g. expressing WT or VUS-containing STXBP1) will be examined for synapse formation, turnover\n(plasticity), transport, and firing properties using multi-electrode arrays (MEA). These 2-D cultures will\nscreen cells differentiated toward either glutamatergic excitatory or GABAergic inhibitory phenotypes, picking\nthe most promising lines in Project 1 that Project 2 will use in cell systems of mixed cell types in 2-D and 3-D.\nAs a whole, this U54 delivers: 1) multiple optimized, cross-validated hPSC platforms to interrogate epilepsy\ngenes; 2) in vitro and in vivo determination of human VUS pathogenicity for up to 10 non-ion channel epilepsy\ngenes; 3) optimized models for each epilepsy gene; and 4) platforms for future precision therapeutic testing.!",
+  "project_title": "Genes to Proteins",
+  "phr_text": null,
+  "spending_categories_desc": "Brain Disorders; Epilepsy; Genetics; Neurodegenerative; Neurosciences; Stem Cell Research; Stem Cell Research - Embryonic - Human",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2023-08-01T00:00:00",
+  "budget_end": "2024-07-31T00:00:00",
+  "cfda_code": null,
+  "funding_mechanism": "Research Centers",
+  "direct_cost_amt": 195074,
+  "indirect_cost_amt": 89892,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10670363",
+  "date_added": "2023-08-05T16:15:57"
+}

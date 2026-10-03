@@ -1,0 +1,268 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06967727",
+      "orgStudyIdInfo": {
+        "id": "IRB-P00050625"
+      },
+      "organization": {
+        "fullName": "Boston Children's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Registry and Natural History of Epilepsy-Dyskinesia Syndromes",
+      "officialTitle": "Registry and Natural History of Epilepsy-Dyskinesia Syndromes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-04",
+      "studyFirstSubmitQcDate": "2025-05-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Darius Ebrahimi-Fakhari",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Boston Children's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Boston Children's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Registry and Natural History of Epilepsy-Dyskinesia Syndromes is focused on gathering longitudinal clinical data as well as biological samples (blood, urine, and/or skin/tissue) from male and female patients, of all ages, who have a genetic diagnosis of epilepsy-dyskinesia syndromes. Through prospective review and molecular data analysis, the study aims to identify patterns and correlations between movement and seizure disorders, uncovering genotype-phenotype relationships. The initiative's goals are to enhance understanding of epilepsy-dyskinesia syndromes, inform precision medicine approaches, and foster international collaboration.",
+      "detailedDescription": "Movement disorders in childhood encompass a range of neurologic syndromes that are characterized by abnormalities of tone, posture, the initiation or control of voluntary movements, or unwanted involuntary movements. They are conventionally divided into hyperkinetic (dystonia, chorea, myoclonus, stereotypies, tics, and tremors) and hypokinetic (parkinsonism). Children often present with mixed movement disorders rather than pure syndromes and in a complex form, meaning associated comorbidities such as developmental delay, microcephaly, or epilepsy (Pearson and Pons 2019; Pérez-Dueñas et al. 2022).\n\nNeurological disorders characterized by both non-epileptic abnormal movements and epileptic seizures are termed \"Epilepsy-Dyskinesia Syndromes\" (Papandreou et al. 2020). These conditions encompass a spectrum of disorders with diverse etiologies. Their origins can be categorized into two main groups: acquired and genetic. Acquired causes include conditions such as cerebral palsy, autoimmune encephalitis, post-infectious syndromes, and post-stroke complications. Conversely, genetic factors play a significant role in the development of these syndromes, contributing to their varied clinical presentations and underlying pathophysiology. By recognizing and categorizing these disorders based on their etiology, clinicians and researchers can better understand their diverse manifestations and tailor treatment strategies accordingly.\n\nMore than 100 genes have been associated with Epilepsy-Dyskinesia Syndromes, showcasing an increasing appreciation of the overlap of genetic early-onset epilepsies and hyperkinetic movement disorders with genes involved in key cellular functions for brain development; however, this association remains understudied (Spagnoli et al. 2021; Papandreou et al. 2020; de Gusmão et al. 2021). To add to this, with the increasing capacity and availability of genetic diagnostics, two important concepts have emerged: 1) Genetic heterogeneity - one phenotype can be caused by variants in multiple different genes; and 2) Phenotypic pleiotropy - variants in one gene cause several different movement disorders phenotypes (Gannamani et al. 2021).\n\nCollaborative research into these syndromes is critical to building a better understanding of these concepts to advance in precision medicine for these syndromes, targeting molecular structures implicated in the pathogenesis of both movement disorders and epilepsy. Challenges for many rare disease research programs included a geographically dispersed and small patient population or lack of harmonization of existing research protocols.\n\nThe creation of prospective registry and natural history study aims to gather comprehensive information on various aspects of these conditions, including clinical features, progression, developmental history, level of functionality and response to treatment. This study will also compile data on other disease aspects, such as age of onset for both movement disorders and seizures, genetic variants, and concurrent neurological conditions.\n\nGeneral aims are to:\n\n1. Determine the natural history and genotype-phenotype correlations of disease-causing variants of epilepsy-dyskinesia syndromes.\n2. Establish a biobank for patients with a pathogenic or likely pathogenic variant in one of the genes of interest and the presence of a childhood-onset movement disorder, enabling quantitative profiling of biochemical biomarkers.\n3. Facilitate an early diagnosis, enable counseling with anticipatory guidance of affected families and help define clinically meaningful endpoints for future interventional traits.\n\nSpecific aims include:\n\n1\\. To comprehensively understand the spectrum and association of movement and seizure disorders on both clinical and molecular levels.\n\n1a. Assess the molecular mechanisms underlying the co-occurrence of movement and seizure disorders to elucidate common pathways and potential targets for intervention.\n\n1b. Characterize the clinical manifestations and phenotypic spectrum of individuals presenting with movement and seizure disorders, aiming to delineate standard clinical features and diagnostic challenges.\n\n1c. Investigate shared genetic and molecular mechanisms underlying the co-occurrence of movement and seizure disorders, focusing on identifying common genetic variants and pathways implicated in both conditions.\n\n2\\. Investigate the efficacy of symptomatic treatments in addressing both seizure and movement disorders, aiming to identify shared therapeutic strategies.\n\n3\\. To assess the impact of movement disorders on health-related quality of life, specifically within the context of genetic epilepsies.\n\n3a. Quantify the effects of movement disorders on various health-related quality of life domains in individuals with genetic epilepsies, including physical, emotional, and social well-being.\n\n3b. Identify factors contributing to the variability in quality-of-life outcomes among individuals with genetic epilepsies affected by movement disorders, such as disease severity and treatment response."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epilepsy-Dyskinesia",
+        "Epilepsy",
+        "Dyskinesia",
+        "EDS",
+        "Epilepsy-Dyskinesia Syndomes",
+        "Epilepsy in Children",
+        "Dyskinesias",
+        "Movement Disorders in Children",
+        "Neurologic Disorder",
+        "Chorea",
+        "Myoclonus",
+        "Ataxia",
+        "Dystonia Disorder",
+        "Movement Disorders"
+      ],
+      "keywords": [
+        "epilepsy",
+        "Epilepsy-Dyskinesia",
+        "Epilepsy-Dyskinesia Syndrome",
+        "Dyskinesia",
+        "movement disorders",
+        "epileptic encephalopathy",
+        "neurogenetics",
+        "PRRT2",
+        "ATP1A3",
+        "GNAO1",
+        "MECP2",
+        "CACNA1A",
+        "CDKL5",
+        "FOXG1",
+        "SCN1A",
+        "SCN8A",
+        "SLC2A1",
+        "STXBP1",
+        "UBA5",
+        "ADCY5"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Blood and / or urine samples"
+      },
+      "enrollmentInfo": {
+        "count": 700,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Creation of Biorepository",
+          "description": "Establish a biobank for patients with epilepsy-dyskinesia syndromes, enabling quantitative profiling of biochemical biomarkers.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Assess Health-Related Quality of Life",
+          "description": "Conduct a health-related quality of life survey on epilepsy-dyskinesia syndrome patients to understand the priorities of and impact on patients and caregivers.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Understanding of Disease Spectrum",
+          "description": "To comprehensively understand the spectrum and association of movement and seizure disorders on both clinical and molecular levels.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Investigate the Efficacy of Symptomatic Treatments",
+          "description": "Investigate the efficacy of symptomatic treatments in addressing both seizure and movement disorders, aiming to identify shared therapeutic strategies.",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Establish Clinical Trial Readiness",
+          "description": "To facilitate an early diagnosis, enable counseling and anticipatory guidance of affected families and help define clinically meaningful endpoints for future interventional trials.",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Having at least one pathogenic or likely pathogenic variant in one of the genes of interest:\n\nAARS2, ADCY5, ALG13, AP3B2, AP4B1, AP4E1, AP4M1, AP4S1, ARX, ATP1A3, CACNA1A, CACNA1E, CACNA2D2, CDKL5, CSTB, DARS2, DLAT, DLD, DNM1, EARS2, EPG5, EPM2A, FARS2, FOXG1, FRRS1L, GABRA1, GABRA2, GABRB2, GABRB3, GABRG2, GNAO1, GRIA2, GRIA4, GRIN1, GRIN2A, GRIN2B, GRIN2D, HARS2, HNRNPU, HTT, IQSEC2, IRF2BPL, KCNA2, KCNB1, KCNC1, KCNMA1, KCNQ2, KCNQ3, KCNT1, LARS2, MECP2, MEF2C, MTND5, MTTK, MTTL1, NARS2, NHLRC1, PCDH12, PCDH19, PDE10A, PDE2, PDHA1, PDHB, PDHX, PDK3, PDP1, PIGA, PIGN, PIGP, PIGQ, PIGS, PLCB1, POLG, PRRT2, PURA, RHOBTB2, SCN1A, SCN1B, SCN2A, SCN8A, SCN9A, SETBP1, SETD5, SLC13A5, SLC1A2, SLC25A22, SLC2A1, SMC1A, SNX14, SPTAN1, ST3GAL3, STXBP1, SYNGAP1, SYNJ1, SZT2, TARS2, TBC1D24, UBA5, UBE3A, VAMP2, VARS2, WARS2, WDR45, WWOX, YIF1B, YWHAG, and other genes associated with epilepsy-dyskinesia syndromes.\n\nExclusion Criteria:\n\n* Not having a pathogenic or likely pathogenic variants in the genes of interest",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "0 Years",
+      "maximumAge": "30 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "This study will enroll individuals diagnosed with a movement disorder due to pathogenic or likely pathogenic variants in the genes listed below.\n\nAARS2, ADCY5, ALG13, AP3B2, AP4B1, AP4E1, AP4M1, AP4S1, ARX, ATP1A3, CACNA1A, CACNA1E, CACNA2D2, CDKL5, CSTB, DARS2, DLAT, DLD, DNM1, EARS2, EPG5, EPM2A, FARS2, FOXG1, FRRS1L, GABRA1, GABRA2, GABRB2, GABRB3, GABRG2, GNAO1, GRIA2, GRIA4, GRIN1, GRIN2A, GRIN2B, GRIN2D, HARS2, HNRNPU, HTT, IQSEC2, IRF2BPL, KCNA2, KCNB1, KCNC1, KCNMA1, KCNQ2, KCNQ3, KCNT1, LARS2, MECP2, MEF2C, MTND5, MTTK, MTTL1, NARS2, NHLRC1, PCDH12, PCDH19, PDE10A, PDE2, PDHA1, PDHB, PDHX, PDK3, PDP1, PIGA, PIGN, PIGP, PIGQ, PIGS, PLCB1, POLG, PRRT2, PURA, RHOBTB2, SCN1A, SCN1B, SCN2A, SCN8A, SCN9A, SETBP1, SETD5, SLC13A5, SLC1A2, SLC25A22, SLC2A1, SMC1A, SNX14, SPTAN1, ST3GAL3, STXBP1, SYNGAP1, SYNJ1, SZT2, TARS2, TBC1D24, UBA5, UBE3A, VAMP2, VARS2, WARS2, WDR45, WWOX, YIF1B, YWHAG, and other genes associated with epilepsy-dyskinesia syndromes.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Darius Ebrahimi-Fakhari, MD, PhD",
+          "role": "CONTACT",
+          "phone": "617-355-0097",
+          "email": "movementdisorders@childrens.harvard.edu"
+        },
+        {
+          "name": "Josh Rong, BS",
+          "role": "CONTACT",
+          "phone": "617-355-0903",
+          "email": "movementdisorders@childrens.harvard.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Boston Children's Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D020820",
+          "term": "Dyskinesias"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D002819",
+          "term": "Chorea"
+        },
+        {
+          "id": "D009207",
+          "term": "Myoclonus"
+        },
+        {
+          "id": "D001259",
+          "term": "Ataxia"
+        },
+        {
+          "id": "D020821",
+          "term": "Dystonic Disorders"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "C538001",
+          "term": "Dystonia 12"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

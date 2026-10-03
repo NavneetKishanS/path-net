@@ -1,0 +1,124 @@
+{
+  "appl_id": 11310175,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS127830-04",
+  "project_serial_num": "NS127830",
+  "organization": {
+    "org_name": "CHILDREN'S HOSP OF PHILADELPHIA",
+    "city": null,
+    "country": null,
+    "org_city": "PHILADELPHIA",
+    "org_country": "UNITED STATES",
+    "org_state": "PA",
+    "org_state_name": null,
+    "dept_type": null,
+    "fips_country_code": null,
+    "org_duns": [
+      "073757627"
+    ],
+    "org_ueis": [
+      "G7MQPLSUX1L4"
+    ],
+    "primary_duns": "073757627",
+    "primary_uei": "G7MQPLSUX1L4",
+    "org_fips": "US",
+    "org_ipf_code": "1499101",
+    "org_zipcode": "191462305",
+    "external_org_id": 1499101
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 691483,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "127830",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 15318049,
+      "first_name": "Ingo",
+      "middle_name": "",
+      "last_name": "Helbig",
+      "is_contact_pi": true,
+      "full_name": "Ingo  Helbig",
+      "title": "ASSISTANT PROFESSOR, ATTENDING PHYSICIAN"
+    }
+  ],
+  "contact_pi_name": "HELBIG, INGO ",
+  "program_officers": [
+    {
+      "first_name": "VICKY",
+      "middle_name": "R",
+      "last_name": "WHITTEMORE",
+      "full_name": "VICKY R WHITTEMORE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 691483.0,
+      "direct_cost_ic": 496662.0,
+      "indirect_cost_ic": 194821.0
+    }
+  ],
+  "cong_dist": "PA-03",
+  "spending_categories": null,
+  "project_start_date": "2023-02-15T00:00:00",
+  "project_end_date": "2028-03-31T00:00:00",
+  "organization_type": {
+    "name": "Independent Hospitals",
+    "code": "30",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -75.196604,
+    "lat": 39.946632
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "DBD",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Developmental Brain Disorders Study Section[DBD]"
+  },
+  "award_notice_date": "2026-04-07T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS127830",
+  "terms": "<Accounting><Address><Age><Age Factors><Anticonvulsant Agent><Anticonvulsant Drugs><Anticonvulsants><Anticonvulsive Agents><Anticonvulsive Drugs><Brain Diseases><Brain Disorders><Clinical><Clinical Data><Comparative Effectiveness Research><Complex><Computational toolkit><Consumption><Data><Data Analyses><Data Analysis><Dedications><Demographic Factors><Development><Diagnostic><Disease><Disorder><Drugs><Encephalon Diseases><Epilepsy><Epileptic Seizures><Epileptics><Freedom><Frequencies><Future><Gene variant><Genes><Genetic><Genotype><Goals><History><Human><Individual><Intervention><Intracranial CNS Disorders><Intracranial Central Nervous System Disorders><Knowledge><Language><Liberty><Longitudinal><Manuals><Maps><Measurement><Medication><Methods><Missense Mutation><Mission><Modern Man><NAV1.6><NINDS><NaCh6><National Institute of Neurological Diseases and Stroke><National Institute of Neurological Disorders and Stroke><Natural History><Nerve><Nervous System Diseases><Nervous System Disorder><Neurodevelopmental Disorder><Neurologic Disorders><Neurological Development Disorder><Neurological Disorders><Ontology><Operative Procedures><Operative Surgical Procedures><Orphan Disease><Outcome><Patients><Pattern><Pharmaceutical Preparations><Phenotype><Position><Positioning Attribute><Prognosis><Public Health><Rare Diseases><Rare Disorder><Recording of previous events><Research><SCN8A><SCN8A gene><Saint Jude><Saint Jude Children's Cancer Center><Saint Jude Children's Research Hospital><Seizure Disorder><Seizures><Sodium Channel Blockers><St. Jude><St. Jude Children's Cancer Center><St. Jude Children's Research Hospital><St. Jude Children's Research Hospital Comprehensive Cancer Center><St.Jude Children's Cancer Center><St.Jude Children's Research Hospital><St.Jude Children's Research Hospital Comprehensive Cancer Center><Standardization><Stratification><Subgroup><Surgical><Surgical Interventions><Surgical Procedure><Therapeutic><Time><Trajectory><Translating><Variant><Variation><ages><allelic variant><analyzing longitudinal><childhood epilepsy><clinical care><clinical practice><cohort><compare treatment><computational toolbox><computational tools><computational toolset><computerized tools><course of disease><data harmonization><data interpretation><developmental><dietary><disease life course><disease over time><disease time course><disease trajectory><drug/agent><effective therapy><effective treatment><epilepsia><epileptogenic><evaluate longitudinal><genetic etiology><genetic mechanism of disease><genetic variant><genomic variant><harmonized data><histories><implantation><improved><keto diet><ketogenic diet><long term trajectory><longer term trajectory><longitudinal analysis><longitudinal assessment><longitudinal course><longitudinal data analysis><longitudinal data assessment><longitudinal endpoint><longitudinal evaluation><longitudinal outcome><longitudinal pattern><longitudinal trajectory><loss of function><missense single nucleotide polymorphism><missense single nucleotide variant><missense variant><neurodevelopmental disease><neurological disease><new approaches><novel approaches><novel strategies><novel strategy><orphan disorder><outcome measured longitudinally><outcome measured repeatedly><outcome prediction><outcomes measured over time><oxcarbazepine><pediatric epilepsy><personalization of treatment><personalized medicine><personalized therapy><personalized treatment><phenotypic data><programs><reconstruction><response><response to therapy><response to treatment><seizure drug><seizure medication><serial outcome><sodium channel, voltage gated, type VIII, alpha subunit><surgery><therapeutic response><therapy response><trajectory over time><treatment and outcome><treatment choice><treatment comparison><treatment response><treatment responsiveness><treatment strategy>",
+  "pref_terms": "Accounting;Address;Age;Age Factors;Anticonvulsants;Brain Diseases;Clinical;Clinical Data;Comparative Effectiveness Research;Complex;Consumption;Data;Data Analyses;Dedications;Demographic Factors;Development;Diagnostic;Disease;Epilepsy;Freedom;Frequencies;Future;Genes;Genetic;Genotype;Goals;Human;Individual;Intervention;Knowledge;Language;Longitudinal;Manuals;Maps;Measurement;Methods;Missense Mutation;Mission;National Institute of Neurological Disorders and Stroke;Natural History;Nerve;Nervous System Disorder;Neurodevelopmental Disorder;Ontology;Operative Surgical Procedures;Outcome;Patients;Pattern;Pharmaceutical Preparations;Phenotype;Positioning Attribute;Prognosis;Public Health;Rare Diseases;Recording of previous events;Research;SCN8A gene;Saint Jude Children's Research Hospital;Seizures;Sodium Channel Blockers;Standardization;Stratification;Subgroup;Therapeutic;Time;Trajectory;Translating;Variant;childhood epilepsy;clinical care;clinical practice;cohort;computerized tools;course of disease;data harmonization;dietary;effective therapy;genetic etiology;genetic variant;implantation;improved;ketogenic diet;longitudinal analysis;longitudinal course;longitudinal outcome;loss of function;novel strategies;outcome prediction;oxcarbazepine;personalized medicine;phenotypic data;programs;reconstruction;response;treatment and outcome;treatment choice;treatment comparison;treatment response;treatment strategy",
+  "abstract_text": "PROJECT SUMMARY\nOver the last decade, there has been an exponential increase in identified genetic causes of neurodevelopmental\ndisorders and epilepsy. With more than 100 genes identified, understanding how phenotypes relate to specific\ngenetic variants is critical given the clinical complexity of developmental brain disorders. Given that treatment\nand prognosis is dependent on understanding genotype-phenotype correlations, there is a critical need to better\nassess clinical features in genetic epilepsies. However, phenotyping is a time-consuming, manual task with\nlimited throughput. To overcome this bottleneck, we have developed a novel approach, based on the Human\nPhenotype Ontology (HPO) to capture and analyze longitudinal phenotypic data. In our preliminary data for\nSTXBP1- and SCN8A-related disorders, which we have reconstructed for >550 patient months, we identified\nunique natural histories, outcomes, and distinct response patterns to specific treatment strategies. Natural history\nand treatment response in pediatric epilepsies are deeply intertwined and often difficult to disentangle.\nAccordingly, a comprehensive assessment of genetic epilepsies needs to account for two factors, subgroups\nwith common clinical trajectories as well as gene-specific treatment responses. Our suggested project therefore\nhas two aims. First, we plan to detect relevant subgroups in genetic epilepsies based on longitudinal clinical data\n(Aim #1). We will reconstruct longitudinal trajectories and outcomes in the 15 most common genetic epilepsies\nwith 50-75 individuals per gene to delineate longitudinal seizure burden, seizures types, and developmental\nmilestones. Based on this, we will then identify subgroups defined by clinical features and global clinical\nresemblance, as well as variant and gene groups. In addition (Aim #2), we will identify specific treatment\nresponses in genetic epilepsies using standardized phenotypes. We will combine reconstructed natural history\nwith treatment data to compare reduction in seizure frequencies and effect on maintaining seizure freedom\nacross >20 treatment strategies with the goal to identify the most effective treatment strategy when adjusting for\nage and seizure type. Finally, we will also compare medication response across major variant classes and across\nall genetic etiologies combined. Our team has previously pioneered computational phenotype analysis in the\nepilepsies, positioning us uniquely to address these questions. Our analysis, mapping longitudinal clinical data\nto a harmonized format will provide unprecedented granularity in deciphering the trajectory of genetic epilepsies,\ninforming clinical practice in these conditions. We hope that these results will provide a template for the analysis\nof the limited clinical data in rare diseases in order to maximize treatment-relevant information, especially in\nconditions with complex, longitudinal disease histories.",
+  "project_title": "Subgroup delineation in genetic epilepsies and developmental brain disorders",
+  "phr_text": "PROJECT NARRATIVE\nThe proposed research is relevant to public health as more precise measurement of clinical data in genetic\nepilepsies and neurodevelopmental disorders is ultimately expected to translate into improved diagnostics,\nallowing for greater personalized treatment choices. Thus, the proposed research is relevant to the purpose of\nthe RFA and mission of the NINDS by providing a dedicated program to delineate subgroups of epilepsies for\nbetter stratification of current and future treatments, thereby reducing the burden of neurological disease.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-04-01T00:00:00",
+  "budget_end": "2027-03-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 496662,
+  "indirect_cost_amt": 194821,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11310175",
+  "date_added": "2026-04-11T17:04:44"
+}

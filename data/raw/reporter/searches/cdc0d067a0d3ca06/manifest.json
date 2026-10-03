@@ -1,0 +1,46 @@
+{
+  "source": "NIH RePORTER API v2",
+  "endpoint": "https://api.reporter.nih.gov/v2/projects/search",
+  "query": "SCN8A",
+  "retrieved_at": "2026-10-03T20:49:43+00:00",
+  "requests": [
+    {
+      "criteria": {
+        "advanced_text_search": {
+          "operator": "and",
+          "search_field": "all",
+          "search_text": "SCN8A"
+        },
+        "fiscal_years": [],
+        "use_relevance": true
+      },
+      "offset": 0,
+      "limit": 20
+    }
+  ],
+  "total_count": 303,
+  "application_ids": [
+    "11285465",
+    "11261066",
+    "11261040",
+    "11309107",
+    "11285278",
+    "11605225",
+    "11359624",
+    "11238558",
+    "11287725",
+    "11346833",
+    "11285170",
+    "11389665",
+    "11310175",
+    "11631660",
+    "11463970",
+    "11375422",
+    "11301017",
+    "11243541",
+    "11251761",
+    "11284046"
+  ],
+  "truncated": true,
+  "note": "Application IDs identify annual awards; core_project_num groups related award years."
+}

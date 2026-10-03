@@ -1,0 +1,188 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07494331",
+      "orgStudyIdInfo": {
+        "id": "APHP250983"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-A01511-48",
+          "type": "OTHER",
+          "domain": "ANSM"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Exploring the Physiological Mechanisms of Austism Through Organoids",
+      "officialTitle": "Exploring the Physiologicla Mechainisms of Austism Through Organoids Derived Differentiated Cells of Individuals With Autism",
+      "acronym": "EXPECT HYPE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-05-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-05-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-05-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-20",
+      "studyFirstSubmitQcDate": "2026-03-20",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder affecting approximately 1% of the population, characterized by difficulties with social interaction and communication. Studies have identified more than 200 genes linked to ASD, particularly those involved in chromatin remodeling and synaptic neuronal connectivity (CHD8, SCN2A, NLGN3-4X, SHANK1-3). The goal of the project is to decipher the biological mechanisms underlying ASD in order to develop therapeutic strategies, using innovative preclinical models such as organoids.",
+      "detailedDescription": "Each participant's involvement in this study is limited to one visit. This study requires only a blood draw (5 to 30 minutes), which will be performed at the CIC at Robert-Debré, and the completion of questionnaires for parents (SRS) and unaffected siblings (SRS, ADHD-RS, SDQ). Additional tests or questionnaires may be offered at a later stage if clinically necessary."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Autism Spectrum Disorder (ASD"
+      ],
+      "keywords": [
+        "ASD",
+        "organoid"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "Blood sample for peripheral blood monoculear cells (PBMC) extraction."
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort of patients",
+          "description": "Blood sample and quetsionnaire if required by the investigator"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Production of organoïds",
+          "description": "To study the cellular mechanisms affected by the presence of the abnormalities identified in the participant with ASD",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* A child diagnosed with an autism spectrum disorder in accordance with clinical practice guidelines\n\n  * A sibling without an autism spectrum disorder (SRS \\< 65)\n  * Biological parents\n  * Children and parents must be enrolled in a social security program, Universal Health Coverage (CMU), or an equivalent program.\n\nExclusion Criteria:\n\n* Refusal to undergo a blood test\n* Uncontrolled (unstabilized) medical condition (including psychiatric conditions) that precludes participation in the study\n* Sibling with an SRS score \\> 65 at screening or under 2 years old",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "A child with an autism spectrum disorder, a sibling over the age of 2 who does not have an autism spectrum disorder, and biological parents",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Richard DELORME, Prof",
+          "role": "CONTACT",
+          "phone": "0033(0)140034130",
+          "email": "richard.delorme@aphp.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Robert Debré Hospital",
+          "city": "Paris",
+          "zip": "75019",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Richard DELORME, Prof",
+              "role": "CONTACT",
+              "phone": "0033(0)140034130",
+              "email": "richard.delorme@aphp.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000067877",
+          "term": "Autism Spectrum Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002659",
+          "term": "Child Development Disorders, Pervasive"
+        },
+        {
+          "id": "D065886",
+          "term": "Neurodevelopmental Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

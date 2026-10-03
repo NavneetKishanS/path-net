@@ -1,0 +1,104 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/HP_0001337",
+      "lang" : "en",
+      "description" : [ "Tremor is differentiated from other involuntary movement disorders, such as chorea, athetosis, ballism, tics, and myoclonus, by its repetitive, stereotyped movements of a regular amplitude and frequency. Clonus, unlike tremor, represents a rhythmic movement, which is increased by muscle stretching.", "An unintentional, oscillating to-and-fro muscle movement about a joint axis." ],
+      "synonyms" : [ "Tremor", "Tremors" ],
+      "annotation" : {
+        "has_alternative_id" : [ "HP:0001295", "HP:0001309" ],
+        "id" : [ "HP:0001337" ]
+      },
+      "label" : "Tremor",
+      "ontology_name" : "hp",
+      "ontology_prefix" : "HP",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "HP_0001337",
+      "obo_id" : "HP:0001337",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "An unintentional, oscillating to-and-fro muscle movement about a joint axis.",
+        "oboXrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-0736-9199",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-0736-9199"
+        }, {
+          "database" : "PMID",
+          "id" : "16344298",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/16344298"
+        }, {
+          "database" : "PMID",
+          "id" : "20589866",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/20589866"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : [ {
+        "name" : "Tremor",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Tremors",
+        "scope" : "hasExactSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001337/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001337"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

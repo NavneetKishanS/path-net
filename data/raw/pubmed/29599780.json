@@ -1,0 +1,22 @@
+{
+  "pmid": "29599780",
+  "title": "Bi-Allelic Mutations in STXBP2 Reveal a Complementary Role for STXBP1 in Cytotoxic Lymphocyte Killing.",
+  "abstract": "The ability of cytotoxic lymphocytes (CL) to eliminate virus-infected or cancerous target cells through the granule exocytosis death pathway is critical to immune homeostasis. Congenital loss of CL function due to bi-allelic mutations in PRF1, UNC13D, STX11, or STXBP2 leads to a potentially fatal immune dysregulation, familial haemophagocytic lymphohistiocytosis (FHL). This occurs due to the failure of CLs to release functional pore-forming protein perforin and, therefore, inability to kill the target cell. Bi-allelic mutations in partner proteins STXBP2 or STX11 impair CL cytotoxicity due to failed docking/fusion of cytotoxic secretory granules with the plasma membrane. One unique feature of STXBP2- and STX11-deficient patient CLs is that their short-term in vitro treatment with a low concentration of IL-2 partially or completely restores natural killer (NK) cell degranulation and cytotoxicity, suggesting the existence of a secondary, yet unknown, pathway for secretory granule exocytosis. In the current report, we studied NK and T-cell function in an individual with late presentation of FHL due to hypomorphic bi-allelic mutations in STXBP2. Intriguingly, in addition to the expected alterations in the STXBP2 and STX11 proteins, we also observed a concomitant significant reduction in the expression of homologous STXBP1 protein and its partner STX1, which had never been implicated in CL function. Further analysis of human NK and T cells demonstrated a functional role for the STXBP1/STX1 axis in NK and CD8+ T-cell cytotoxicity, where it appears to be responsible for as much as 50% of their cytotoxic activity. This discovery suggests a unique and previously unappreciated interplay between STXBP/Munc proteins regulating the same essential granule exocytosis pathway.",
+  "authors": [
+    "Jamie A Lopez",
+    "Tahereh Noori",
+    "Adrian Minson",
+    "Lu Li Jovanoska",
+    "Kevin Thia",
+    "Michael S Hildebrand",
+    "Hedieh Akhlaghi",
+    "Phillip K Darcy",
+    "Michael H Kershaw",
+    "Natasha J Brown",
+    "Andrew Grigg",
+    "Joseph A Trapani",
+    "Ilia Voskoboinik"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/29599780/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

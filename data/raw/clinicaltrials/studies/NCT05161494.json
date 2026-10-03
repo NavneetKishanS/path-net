@@ -1,0 +1,356 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05161494",
+      "orgStudyIdInfo": {
+        "id": "2290"
+      },
+      "organization": {
+        "fullName": "Universiteit Antwerpen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Gait in Rare Diseases",
+      "officialTitle": "Identification of Gait Disorders in Children, Adolescents and Young Adults With Rare Genetic Diseases",
+      "acronym": "GAGA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-11-30",
+      "studyFirstSubmitQcDate": "2021-12-16",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ann Hallemans",
+        "investigatorTitle": "Department of Rehabilitation Sciences and Physiotherapy, Faculty of Medicine and Health Science, Head of the Multidisciplinary Motor Center Antwerp",
+        "investigatorAffiliation": "Universiteit Antwerpen"
+      },
+      "leadSponsor": {
+        "name": "Universiteit Antwerpen",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University Hospital, Antwerp",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this pilot study is to explore whether the knowledge and experience gained during the T-GaiD project (Treatment of Gait Disorders in Dravet Syndrome - NCT03857451) can be transferred to other populations with similar problems, i.e. motor and gait problems as a result of a genetic disorder characterized by epilepsy and developmental delay. In this pilot study, 40 people with Tuberous Sclerosis Complex and 30 people with STXBP1 will be recruited via the Antwerp University Hospital and invited for a gait analysis in the M²OCEAN movement lab. The aim of the pilot study is to evaluate the feasibility of the 3D gait analysis protocol and to determine the sensitivity of the primary (summative measure of the severity of gait abnormalities) and the secondary (spatio-temporal and kinematic gait parameters) outcome measures.",
+      "detailedDescription": "Neurodevelopmental disorders are a group of rare disorders that usually have a genetic cause, each characterized by specific clinical features. Tuberous Sclerosis Complex (TSC or Bourneville's disease), for example, is characterized by the formation of benign tumors, which can develop in almost all organs and tissues. The symptoms vary greatly from person to person, also within one and the same family. Some patients show only limited skin abnormalities, other patients have more affected organs and sometimes become heavily dependent on help. The group of developmental and epileptic encephalopathies (DEE) are genetic neurological disorders that are characterized by epileptic seizures, which usually occur at a (very) young age, and a developmental delay that often leads to an intellectual disability. STXBP1 encephalopathy (STXBP1-E) is an example of an DEE where, in addition to epileptic seizures and developmental delay, motor disorders and gait abnormalities are also frequently seen.\n\nTo date, very little is known about motor development in children with TSC and DEE such as STXBP1-RD. Prospective research in the EPISTOP cohort showed that motor development is often delayed in the first years of life, especially in children who also show characteristics of. In clinical practice, we observe progressively increasing gait problems in a number of children that can lead to loss of autonomous steps at a young adult age. A recent study in adult patients with STXBP1-RD showed that about half of the patients were able to walk in adulthood and that those who could walk often had significant gait problems, which appear to be multifactorial in nature.\n\nThe ultimate goal of this project is to characterize gait patterns in children, adolescents and young adults with rare genetic disorders, in order to gain new insights into the pathomechanisms of motor and mobility problems. In the long run, these insights will be indispensable for providing an adequate, scientifically substantiated treatment to reduce and, if possible, prevent the gait disorders."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tuberous Sclerosis",
+        "STXBP1 Encephalopathy With Epilepsy"
+      ],
+      "keywords": [
+        "gait",
+        "movement disorders",
+        "biomechanics",
+        "kinematics"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 41,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Gait Profile Score (degrees)",
+          "description": "To obtain a summary index of overall gait pathology, the Gait Profile Score will be calculated based on nine relevant lower limb joint angular time profiles collected during 3D gait analysis. These are anterior pelvic tilt, pelvic list, pelvic rotation, hip flexion and extension, hip ad- and abduction, hip rotation, knee flexion and extension, ankle dorsi- and plantar flexion and the foot progression angle. The gait profile score provides the average root mean squared error of the joint angular time profile with respect to normal walking and is presented in degrees. Higher values indicate a larger deviations from normal gait.",
+          "timeFrame": "baseline (at intake)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Lower limb kinematics during walking (degrees)",
+          "description": "The gait pattern is assessed by instrumented 3D gait analysis using the standardized Vicon Clinical Gait Model. Joint rotation angles of the major joints of the lower limbs will be described during walking.",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Functional Mobility Scale",
+          "description": "Functional mobility will be assessed during parent interview using the Functional Mobility Scale (FMS). The FMS is a 6-point scale with maximum score of 6 being the most functional outcome (independent on all surfaces) and minimum score of 1 being the least functional outcome (uses wheelchair)",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Mobility Questionnaire 28",
+          "description": "Mobility limitations during daily activities inside and outside of the house will be assessed during parent interview using the validated Dutch translation of the Mobility Questionnaire 28 (MobQuest28), Dutch version: MobiliteitsVragenlijst 28 (MoVra28). The MobQuest28/MoVra28 consists of 28 items with a 5-point rating scale (0 = without any difficulties to 4 = impossible without help). A total score (0-100) indicates the mobility limitations.",
+          "timeFrame": "baseline (at intake)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Age (years)",
+          "description": "Age of the participant in years",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Gender",
+          "description": "gender of the participant as m/f/x",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "body height in centimeters",
+          "description": "body height will be measured in standing position using a ruler and expressed in centimeters",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "weight in kilograms",
+          "description": "weight in kilograms will be measured using a calibrated scale",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "body mass index",
+          "description": "height (in centimeters) and weight (in kilograms) will be combined to determine the body mass index",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "leg length in centimeters",
+          "description": "leg length in centimeters will be measured from the anterior superior iliac spine to the medial malleolus, using a tape measure",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Passive joint range of motion",
+          "description": "Passive joint range of motion (in degrees) will be measured during clinical examination using a goniometer",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Skeletal alignment",
+          "description": "Skeletal alignment (in degrees) will be measured during clinical examination using a goniometer. Skeletal malformations such as hyperlordosis, kyphosis, bow legs, pes valgus and pes planovalgus will be recorded.",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Muscle length",
+          "description": "Hamstrings length (popliteal angle in degrees) and iliopsoas length (Thomas test in degrees) will be measured during clinical examination using a goniometer",
+          "timeFrame": "baseline (at intake)"
+        },
+        {
+          "measure": "Selective muscle strength on the Medical Research Council muscle scale",
+          "description": "The Medical Research Council muscle scale is a 6-point scale with minimum score 0 = no muscle contraction and maximum score 5 = normal muscle power.",
+          "timeFrame": "baseline (at intake)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosed with tuberous sclerosis complex according to the criteria of Northrup et al. (2012)\n* aged 6 years or older\n* being able to walk without aids for a minimum distance of 6 meters\n\nExclusion Criteria:\n\n* severe epileptic seizure (status epilepticus or tonic-clonic insult over 3 min) within the 24 hours before the assessment\n* insufficient cooperation to perform 3D gait analysis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "6 Years",
+      "maximumAge": "25 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "Children, adolescents and young adults diagnosed with Tuberous Sclerosis Complex in Belgium",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anna Jansen, MD, PhD",
+          "affiliation": "University Hospital, Antwerp",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Antwerp",
+          "city": "Antwerp",
+          "zip": "2160",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21440711",
+          "type": "BACKGROUND",
+          "citation": "Dallmeijer AJ, Scholtes VA, Becher J, Roorda LD. Measuring mobility limitations in children with cerebral palsy: Rasch model fit of a mobility questionnaire, MobQues28. Arch Phys Med Rehabil. 2011 Apr;92(4):640-5. doi: 10.1016/j.apmr.2010.11.002."
+        },
+        {
+          "pmid": "16303305",
+          "type": "BACKGROUND",
+          "citation": "Desloovere K, Molenaers G, Feys H, Huenaerts C, Callewaert B, Van de Walle P. Do dynamic and static clinical measurements correlate with gait analysis parameters in children with cerebral palsy? Gait Posture. 2006 Nov;24(3):302-13. doi: 10.1016/j.gaitpost.2005.10.008. Epub 2005 Nov 21."
+        },
+        {
+          "pmid": "15308901",
+          "type": "BACKGROUND",
+          "citation": "Graham HK, Harvey A, Rodda J, Nattrass GR, Pirpiris M. The Functional Mobility Scale (FMS). J Pediatr Orthop. 2004 Sep-Oct;24(5):514-20. doi: 10.1097/00004694-200409000-00011."
+        },
+        {
+          "pmid": "19342241",
+          "type": "BACKGROUND",
+          "citation": "Hallemans A, Beccu S, Van Loock K, Ortibus E, Truijen S, Aerts P. Visual deprivation leads to gait adaptations that are age- and context-specific: I. Step-time parameters. Gait Posture. 2009 Jul;30(1):55-9. doi: 10.1016/j.gaitpost.2009.02.018. Epub 2009 Apr 1."
+        },
+        {
+          "pmid": "19560925",
+          "type": "BACKGROUND",
+          "citation": "Hallemans A, Beccu S, Van Loock K, Ortibus E, Truijen S, Aerts P. Visual deprivation leads to gait adaptations that are age- and context-specific: II. Kinematic parameters. Gait Posture. 2009 Oct;30(3):307-11. doi: 10.1016/j.gaitpost.2009.05.017. Epub 2009 Jun 27."
+        },
+        {
+          "pmid": "29705520",
+          "type": "BACKGROUND",
+          "citation": "Hallemans A, Verbecque E, Dumas R, Cheze L, Van Hamme A, Robert T. Developmental changes in spatial margin of stability in typically developing children relate to the mechanics of gait. Gait Posture. 2018 Jun;63:33-38. doi: 10.1016/j.gaitpost.2018.04.019. Epub 2018 Apr 18."
+        },
+        {
+          "pmid": "2324857",
+          "type": "BACKGROUND",
+          "citation": "Kadaba MP, Ramakrishnan HK, Wootten ME. Measurement of lower extremity kinematics during level walking. J Orthop Res. 1990 May;8(3):383-92. doi: 10.1002/jor.1100080310."
+        },
+        {
+          "pmid": "32707402",
+          "type": "BACKGROUND",
+          "citation": "Meyns P, Van de Walle P, Desloovere K, Janssens S, Van Sever S, Hallemans A. Age-related differences in interlimb coordination during typical gait: An observational study. Gait Posture. 2020 Sep;81:109-115. doi: 10.1016/j.gaitpost.2020.07.013. Epub 2020 Jul 17."
+        },
+        {
+          "pmid": "31163675",
+          "type": "BACKGROUND",
+          "citation": "Moavero R, Benvenuto A, Emberti Gialloreti L, Siracusano M, Kotulska K, Weschke B, Riney K, Jansen FE, Feucht M, Krsek P, Nabbout R, Jansen AC, Wojdan K, Borkowska J, Sadowski K, Hertzberg C, Hulshof H, Samueli S, Benova B, Aronica E, Kwiatkowski DJ, Lagae L, Jozwiak S, Curatolo P. Early Clinical Predictors of Autism Spectrum Disorder in Infants with Tuberous Sclerosis Complex: Results from the EPISTOP Study. J Clin Med. 2019 Jun 3;8(6):788. doi: 10.3390/jcm8060788."
+        },
+        {
+          "pmid": "24053982",
+          "type": "BACKGROUND",
+          "citation": "Northrup H, Krueger DA; International Tuberous Sclerosis Complex Consensus Group. Tuberous sclerosis complex diagnostic criteria update: recommendations of the 2012 Iinternational Tuberous Sclerosis Complex Consensus Conference. Pediatr Neurol. 2013 Oct;49(4):243-54. doi: 10.1016/j.pediatrneurol.2013.08.001."
+        },
+        {
+          "pmid": "33445141",
+          "type": "BACKGROUND",
+          "citation": "Wyers L, Verheyen K, Ceulemans B, Schoonjans AS, Desloovere K, Van de Walle P, Hallemans A. The mechanics behind gait problems in patients with Dravet Syndrome. Gait Posture. 2021 Feb;84:321-328. doi: 10.1016/j.gaitpost.2020.12.029. Epub 2020 Dec 31."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014402",
+          "term": "Tuberous Sclerosis"
+        },
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006222",
+          "term": "Hamartoma"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D009378",
+          "term": "Neoplasms, Multiple Primary"
+        },
+        {
+          "id": "D009386",
+          "term": "Neoplastic Syndromes, Hereditary"
+        },
+        {
+          "id": "D065703",
+          "term": "Malformations of Cortical Development, Group I"
+        },
+        {
+          "id": "D054220",
+          "term": "Malformations of Cortical Development"
+        },
+        {
+          "id": "D009421",
+          "term": "Nervous System Malformations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D020752",
+          "term": "Neurocutaneous Syndromes"
+        },
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

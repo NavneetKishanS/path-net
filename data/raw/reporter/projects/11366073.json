@@ -1,0 +1,124 @@
+{
+  "appl_id": 11366073,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "2R01NS116747-15A1",
+  "project_serial_num": "NS116747",
+  "organization": {
+    "org_name": "WEILL MEDICAL COLL OF CORNELL UNIV",
+    "city": null,
+    "country": null,
+    "org_city": "NEW YORK",
+    "org_country": "UNITED STATES",
+    "org_state": "NY",
+    "org_state_name": null,
+    "dept_type": "BIOCHEMISTRY",
+    "fips_country_code": null,
+    "org_duns": [
+      "060217502"
+    ],
+    "org_ueis": [
+      "YNT8TCJH8FQ8"
+    ],
+    "primary_duns": "060217502",
+    "primary_uei": "YNT8TCJH8FQ8",
+    "org_fips": "US",
+    "org_ipf_code": "1514803",
+    "org_zipcode": "100654805",
+    "external_org_id": 1514803
+  },
+  "award_type": "2",
+  "activity_code": "R01",
+  "award_amount": 615206,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "2",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "116747",
+    "support_year": "15",
+    "full_support_year": "15A1",
+    "suffix_code": "A1"
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 9349014,
+      "first_name": "Jeremy",
+      "middle_name": "Samuel",
+      "last_name": "Dittman",
+      "is_contact_pi": true,
+      "full_name": "Jeremy Samuel Dittman",
+      "title": "ASSOCIATE PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "DITTMAN, JEREMY SAMUEL",
+  "program_officers": [
+    {
+      "first_name": "HEIDI",
+      "middle_name": "YANICE",
+      "last_name": "MATOS GALICIA",
+      "full_name": "HEIDI YANICE MATOS GALICIA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 615206.0,
+      "direct_cost_ic": 370099.0,
+      "indirect_cost_ic": 245107.0
+    }
+  ],
+  "cong_dist": "NY-12",
+  "spending_categories": null,
+  "project_start_date": "2020-05-01T00:00:00",
+  "project_end_date": "2031-04-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -73.9603,
+    "lat": 40.7607
+  },
+  "opportunity_number": "PA-25-301",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "BN",
+    "sra_flex_code": "H",
+    "group_code": "03",
+    "name": "Special Emphasis Panel[ZRG1 BN-H (03)]"
+  },
+  "award_notice_date": "2026-05-05T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS116747",
+  "terms": "<ASD><Assay><Autism><Autistic Disorder><Behavioral Assay><Binding><Bioassay><Biochemical><Biochemistry><Biological><Biological Assay><Biological Chemistry><Birth><Brain><Brain Nervous System><C elegans><C-terminal><C. elegans><C.elegans><C2 Domain><CRISPR approach><CRISPR based approach><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR tools><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Caenorhabditis elegans><Cas nuclease technology><Catalysis><Chaperone><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Collection><Complex><Core Protein><DNA mutation><Defect><Degenerative Neurologic Disorders><Disease><Disorder><Early Infantile Autism><Encephalon><Environment><Exocytosis><GRASP gene><GRASP protein><GRP1- Associated Scaffold Protein><Genes><Genetic><Genetic Change><Genetic Screening><Genetic defect><Genetic mutation><Goals><Health><Human><Impairment><In Vitro><In vivo analysis><Individual><Infantile Autism><Kanner's Syndrome><Knowledge><Lipid Biochemistry><MUNC13><Mammalia><Mammals><Membrane><Mental disorders><Mental health disorders><Mice><Mice Mammals><Microcephaly><Modeling><Modern Man><Molecular><Molecular Chaperones><Molecular Interaction><Molecular Modeling Nucleic Acid Biochemistry><Molecular Modeling Protein/Amino Acid Biochemistry><Molecular Models><Murine><Mus><Mutation><Myasthenia><NSF attachment protein receptor><Nerve Cells><Nerve Unit><Nervous System><Nervous System Degenerative Diseases><Nervous System Physiology><Neural Cell><Neural Degenerative Diseases><Neural Transmission><Neural degenerative Disorders><Neurocyte><Neurodegenerative Diseases><Neurodegenerative Disorders><Neurologic Body System><Neurologic Degenerative Conditions><Neurologic Organ System><Neurologic function><Neurological function><Neurons><Ortholog><Orthologous Gene><Parturition><Pathologic><Patients><Physiology><Play><Point Mutation><Property><Protein Dynamics><Proteins><Proteomics><Psychiatric Disease><Psychiatric Disorder><Regulation><Role><Route><SNAP receptor><SNARE><Shapes><Solid><Structure><Synapses><Synaptic><Synaptic Transmission><Synaptic Vesicles><System><Tamalin><Testing><UNC13><UNC13 Gene><UNC13B gene><Work><animal imaging><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><biologic><degenerative diseases of motor and sensory neurons><degenerative neurological diseases><design><designing><epileptic encephalopathies><experiment><experimental research><experimental study><experiments><gene null><genetic analysis><genome mutation><genome sequencing><hmunc13><in silico><in vivo><in vivo evaluation><in vivo testing><information processing><insight><membrane structure><mental illness><micrencephaly><microencephaly><molecular modeling><mutant><nervous system function><neurodegenerative illness><neuronal><neurotransmitter release><novel><null mutation><overexpress><overexpression><presynaptic><protein function><protein structure prediction><psychiatric illness><psychological disorder><quantitative imaging><recruit><social role><soluble N-ethylmaleimide-sensitive-factor attachment protein receptor><synapse><synapse function><synaptic function><syntaxin><syntaxin 1>",
+  "pref_terms": "Behavioral Assay;Binding;Biochemical;Biochemistry;Biological;Biological Assay;Birth;Brain;C-terminal;C2 Domain;CRISPR/Cas technology;Caenorhabditis elegans;Catalysis;Collection;Complex;Core Protein;Defect;Disease;Environment;Exocytosis;GRASP gene;Genes;Genetic;Genetic Screening;Goals;Health;Human;Impairment;In Vitro;Individual;Knowledge;Lipid Biochemistry;Mammals;Membrane;Mental disorders;Microcephaly;Modeling;Molecular;Molecular Chaperones;Mus;Mutation;Myasthenia;Nervous System;Neurodegenerative Disorders;Neurons;Orthologous Gene;Pathologic;Patients;Physiology;Play;Point Mutation;Property;Protein Dynamics;Proteins;Proteomics;Regulation;Role;Route;SNAP receptor;Shapes;Solid;Structure;Synapses;Synaptic Transmission;Synaptic Vesicles;System;Testing;UNC13B gene;Work;animal imaging;autism spectrum disorder;design;epileptic encephalopathies;experimental study;genetic analysis;genome sequencing;in silico;in vivo;in vivo evaluation;information processing;insight;molecular modeling;mutant;nervous system function;neurotransmitter release;novel;null mutation;overexpression;presynaptic;protein function;protein structure prediction;quantitative imaging;recruit;synaptic function;syntaxin;syntaxin 1",
+  "abstract_text": "Project Summary\nSynapses are fundamental to nervous system function and information processing in the normal and\npathological brain. As highly dynamic biological structures, they display a broad range of activity and plasticity.\nA detailed picture of the molecular interactions occurring within a synapse is required to understand how\nsynaptic protein dynamics ultimately shape activity in the nervous system in health and disease.\nIn this proposal, we investigate Munc13, Munc18, and the neuronal SNAREs, highly conserved proteins that\nare crucial for proper synaptic function. Mice lacking any one of these core proteins die at birth, and there are\nnumerous neurodegenerative and psychiatric disorders associated with defects in the function of these\nproteins. For instance, mutations in the human Munc13 ortholog (Unc13A) are associated with ALS,\nmyasthenia, microcephaly, and severe autism. Mutations in the Munc18 ortholog (STXBP1) are associated\nwith epileptic encephalopathies. We propose to study the molecular mechanisms underlying Munc13 and\nMunc18 function at the synapse using a unique and powerful combination of in vivo and in vitro approaches\nincluding physiology, quantitative imaging, behavioral assays, genetics, and protein/lipid biochemistry.\nMuch of the detailed mechanistic work on the core proteins of synaptic transmission has been performed in\nvitro. To move forward on these molecular models, we need an in vivo testing platform that allows precise\nmanipulations of the core machinery in their native environment with endogenous expression levels. To this\nend, we have built a collection of C. elegans mutants in the core machinery of synaptic transmission including\nthe SNARE proteins, UNC-13, UNC-18, and CPX-1 (worm orthologs of Munc13, Munc18, and complexin,\nrespectively) using CRISPR Cas9 gene editing to avoid over-expression issues that have plagued\nstructure/function studies in the past. By combining various mutations using double and triple mutants, we are\ninvestigating detailed mechanistic questions in vivo using endogenous proteins. This step is essential in\nfurthering our understanding of the molecular mechanisms underlying synaptic transmission. In addition,\nadvances in protein structure prediction have enriched our hypotheses for how the core machinery operates as\na functional unit, so we are also exploring novel interactions between these proteins with the goal of expanding\nthe current models for the molecular underpinnings of neurotransmitter release. The experiments proposed\nhere will provide new insights into the mechanisms that control neurotransmitter release, its modulation, and\nuse-dependent plasticity in the brain.",
+  "project_title": "Analysis of Synaptic Protein Dynamics",
+  "phr_text": "Project Narrative\nSynaptic connections are the fundamental building blocks of the brain. Many psychiatric and\nneurodegenerative diseases involve pathological synaptic function at the cellular and molecular level, but little\nis known about how synaptic molecules operate in health and in disease. Using a powerful combination of\ngenetics, live animal imaging, biochemistry, and physiology, we propose to study Munc18, Munc13, and the\nneuronal SNAREs, all essential proteins required for proper synapse function.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-05-01T00:00:00",
+  "budget_end": "2027-04-30T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 370099,
+  "indirect_cost_amt": 245107,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11366073",
+  "date_added": "2026-05-09T17:03:52"
+}

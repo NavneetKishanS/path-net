@@ -1,0 +1,142 @@
+{
+  "appl_id": 11285278,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS139468-03",
+  "project_serial_num": "NS139468",
+  "organization": {
+    "org_name": "TUFTS UNIVERSITY MEDFORD",
+    "city": null,
+    "country": null,
+    "org_city": "Boston",
+    "org_country": "UNITED STATES",
+    "org_state": "MA",
+    "org_state_name": null,
+    "dept_type": "ENGINEERING (ALL TYPES)",
+    "fips_country_code": null,
+    "org_duns": [
+      "073134835"
+    ],
+    "org_ueis": [
+      "WL9FLBRVPJJ7"
+    ],
+    "primary_duns": "073134835",
+    "primary_uei": "WL9FLBRVPJJ7",
+    "org_fips": "US",
+    "org_ipf_code": "8422701",
+    "org_zipcode": "021111817",
+    "external_org_id": 8422701
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 611005,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "139468",
+    "support_year": "03",
+    "full_support_year": "03",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 1939985,
+      "first_name": "CHRISTOPHER",
+      "middle_name": "B",
+      "last_name": "BURGE",
+      "is_contact_pi": false,
+      "full_name": "CHRISTOPHER B BURGE",
+      "title": ""
+    },
+    {
+      "profile_id": 9523928,
+      "first_name": "Chris",
+      "middle_name": "G",
+      "last_name": "Dulla",
+      "is_contact_pi": false,
+      "full_name": "Chris G Dulla",
+      "title": ""
+    },
+    {
+      "profile_id": 14265156,
+      "first_name": "Madeleine",
+      "middle_name": "Julie",
+      "last_name": "Oudin",
+      "is_contact_pi": true,
+      "full_name": "Madeleine Julie Oudin",
+      "title": "ASSISTANT PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "OUDIN, MADELEINE JULIE",
+  "program_officers": [
+    {
+      "first_name": "GEORGE",
+      "middle_name": "KWABENA ESSIEN",
+      "last_name": "UMANAH",
+      "full_name": "GEORGE KWABENA ESSIEN UMANAH"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 611005.0,
+      "direct_cost_ic": 459820.0,
+      "indirect_cost_ic": 151185.0
+    }
+  ],
+  "cong_dist": "MA-07",
+  "spending_categories": null,
+  "project_start_date": "2024-06-01T00:00:00",
+  "project_end_date": "2029-02-28T00:00:00",
+  "organization_type": {
+    "name": "BIOMED ENGR/COL ENGR/ENGR STA",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -71.125362,
+    "lat": 42.40117
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "DBD",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Developmental Brain Disorders Study Section[DBD]"
+  },
+  "award_notice_date": "2026-02-25T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS139468",
+  "terms": "<0-11 years old><21+ years old><ASO therapeutics><ASO therapy><ASO treatment><Accounting><Action Potentials><Adult><Adult Human><Affect><Alternate Splicing><Alternative RNA Splicing><Alternative Splicing><American><Anti-epileptic><Antisense Agent><Antisense Oligonucleotide Therapy><Antisense Oligonucleotides><Axon><Binding><Birth><Brain><Brain Nervous System><Cell Body><Cells><Child><Child Youth><Childhood><Children (0-21)><Climacteric><Complementary DNA><DNA mutation><Data><Development><Diagnosis><Disease><Disease Progression><Disorder><Dissection><Distal><Dysfunction><Electrophysiology><Electrophysiology (science)><Elements><Encephalon><Ensure><Epilepsy><Epileptic Seizures><Epileptics><Exons><FDA approved><Functional disorder><Generations><Genes><Genetic Change><Genetic defect><Genetic mutation><Genetics-Mutagenesis><Goals><Human><In Vitro><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Intractable Epilepsy><Isoforms><Knowledge><Messenger RNA><Mice><Mice Mammals><Microelectrodes><Miniaturized Electrodes><Modeling><Modern Man><Molecular Interaction><Murine><Mus><Mutagenesis><Mutagenesis Molecular Biology><Mutate><Mutation><NAV1.6><Na element><NaCh6><Neonatal><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurologic><Neurological><Neuromuscular Diseases><Neurons><Neurophysiology / Electrophysiology><Non-Polyadenylated RNA><Parturition><Pathogenicity><Patients><Pattern><Physiopathology><Post-Transcriptional Gene Silencing><Predisposition><Protein Isoforms><Proteins><QOL improvement><RNA><RNA Binding><RNA Gene Products><RNA Interference><RNA Silencing><RNA Splicing><RNA bound><RNAi><Ranvier's Nodes><Refractory><Refractory epilepsy><Regulation><Ribonucleic Acid><Role><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Sequence-Specific Posttranscriptional Gene Silencing><Slice><Sodium><Sodium Channel><Sodium Channel Blockers><Sodium Ion Channels><Splicing><Susceptibility><Therapeutic><Time><Validation><Wild Type Mouse><adulthood><anti-epileptic agents><anti-epileptic drugs><anti-sense oligonucleotide drug><anti-sense oligonucleotide therapy><anti-sense oligonucleotide treatment><anti-sense therapy><antisense drug><antisense oligo><antisense oligonucleotide therapeutic><antisense therapeutics><antisense therapy><cDNA><candidate identification><childhood epilepsy><death risk><design><designing><determine efficacy><developmental><developmental epileptic encephalopathy><disability risk><drug-resistant epilepsy><efficacy analysis><efficacy assessment><efficacy determination><efficacy evaluation><efficacy examination><efficacy testing><electrophysiological><epilepsia><epilepsy participant><epilepsy patient><epilepsy subject><epilepsy volunteer><epileptic patient><epileptic subject><epileptogenic><evaluate efficacy><examine efficacy><gain of function mutation><genome mutation><high risk><impaired intellectual functioning><improved><improvements in QOL><improvements in quality of life><in vivo><intellectual and developmental disability><intellectual and developmental disorder><kids><knock-down><knockdown><life change><limited intellectual functioning><mRNA><mortality><mortality risk><mouse model><murine model><mutant><myoneural disorder><neuroblastoma cell><neuromuscular degenerative disorder><neuromuscular disorder><neuron development><neuronal><neuronal development><neuronal excitability><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><pathophysiology><patients with epilepsy><pediatric><pediatric epilepsy><physical disability><physically disabled><physically handicapped><prevent><preventing><protein expression><protein function><quality of life improvement><response><sensor><skills><social role><sodium channel, voltage gated, type VIII, alpha subunit><validations><voltage><wildtype mouse><youngster>",
+  "pref_terms": "Accounting;Action Potentials;Adult;Affect;Alternative Splicing;American;Antisense Oligonucleotide Therapy;Antisense Oligonucleotides;Axon;Binding;Birth;Brain;Cells;Child;Childhood;Climacteric;Complementary DNA;Data;Development;Diagnosis;Disease;Disease Progression;Dissection;Distal;Electrophysiology (science);Elements;Ensure;Epilepsy;Exons;FDA approved;Functional disorder;Generations;Genes;Goals;Human;In Vitro;Intellectual functioning disability;Intractable Epilepsy;Knowledge;Messenger RNA;Microelectrodes;Modeling;Mus;Mutagenesis;Mutate;Mutation;Neonatal;Neurologic;Neuromuscular Diseases;Neurons;Pathogenicity;Patients;Pattern;Predisposition;Protein Isoforms;Proteins;RNA;RNA Binding;RNA Interference;RNA Splicing;Ranvier's Nodes;Refractory;Regulation;Role;SCN8A gene;Seizures;Slice;Sodium;Sodium Channel;Sodium Channel Blockers;Therapeutic;Time;Validation;Wild Type Mouse;anti-epileptic agents;candidate identification;childhood epilepsy;design;developmental epileptic encephalopathy;disability risk;efficacy evaluation;efficacy testing;epilepsy patient;gain of function mutation;high risk;improved;in vivo;knock-down;mortality;mortality risk;mouse model;mutant;neuroblastoma cell;neuron development;neuronal excitability;novel;novel therapeutic intervention;physically handicapped;prevent;protein expression;protein function;quality of life improvement;response;sensor;skills;voltage",
+  "abstract_text": "Project Summary\nEpilepsy is a debilitating neurological condition affecting 3.4 million Americans, with 0.6% of children dealing\nwith active epilepsy. Mutations in the four main voltage-gated sodium channels active in the brain are leading\ncauses of pediatric epilepsies, with mutations in SCN8A accounting for up to 1% of all epilepsy diagnoses.\nMany patients do not respond to current anti-epileptic drugs and current treatments focus only on treating\nseizures, but not on correcting the disorder. There is a critical need for new treatments for patients with SCN8A\nepilepsy. Exon 5 in SCN8A undergoes a highly conserved and developmentally regulated alternative splicing\nduring development, with initially higher usage of the 5N “neonatal” exon, shifting gradually to predominant\nsplicing of the 5A “adult” exon in late childhood. Recent studies show that Nav1.6 encoded by 5N-containing\ncDNA is less active than Nav1.6 encoded by 5A-containing cDNA in neuroblastoma cells, and that inclusion of\nexon 5A or 5N in SCN8A mRNAs can impact the effect of pathogenic mutations in other regions of the gene on\nNav1.6 function. There are over 40 patients with SCN8A epilepsy that have mutations in exon 5 of SCN8A,\nthat could potentially benefit from a splice-switching ASO therapy as it would prevent inclusion of the mutated\nexon, switching to the intact exon, without altering Nav1.6 protein expression. Further, the mechanism which\nregulates this switch in splicing from 5N to 5A in SCN8A remain poorly understood.\nWe have optimized ASOs that induce a switch in splicing between exon 5N and 5A in both directions and\ndeveloped a novel mouse model of SCN8A epilepsy with a pathogenic mutation in exon 5N. The ASOs we\nhave developed can be used to study the role of each exon in brain function, neuronal development and\nsusceptibility to seizures in healthy mice and as a therapeutic approach for patients with mutations in exon 5.\nWe hypothesize that the alternative splicing of Scn8a exon 5 controls Nav1.6 activity and seizure\nsusceptibility in the brain, and that ASO-driven splice switching to replace mutated exons with healthy\nexons in Scn8a mRNAs can reduce or prevent epilepsy, improve development and extend survival.\nFirst, we will evaluate the role of Scn8a exon 5 alternative splicing on brain activity, neuronal excitability, and\nseizure susceptibility. Second, we will determine the efficacy of an Scn8a splice-switching ASO in correcting\nNav1.6 function and reducing seizure activity in a mutant exon 5N Scn8a mouse model. Third, we will identify\nRNA elements and splicing factors that regulate the splicing of Scn8a exons 5N/5A and use this knowledge to\ndesign new ASOs with distinct regulatory effects.\nThese studies will shed light on the regulation of Nav1.6 activity, findings that could be applied to the other\nsodium channels in the brain, which are highly conserved and undergo a similar pattern of splicing regulation.\nThe development of a disease-modifying treatment for patients with mutations in exon 5 of SCN8A may not\nonly reduce seizures, but also aid development, increase functional skills, improve quality of life and reduce\nmortality in patients with severe DEE.",
+  "project_title": "Targeting Alternative Splicing of Sodium Channels to Treat Pediatric Developmental Epileptic Encephalopathies",
+  "phr_text": "Project narrative\nMutations in the four main voltage-gated sodium channels expressed in the brain are leading causes of\npediatric epilepsies, with mutations in SCN8A accounting for up to 1% of all diagnoses. Voltage-gated sodium\nchannels are highly conserved and undergo developmentally regulated mutually exclusive alternative splicing\nof exons 5N and 5A, which encode different versions of the voltage sensor in domain 1. The goal of this\nproposal is to investigate the function of exons 5N and 5A in Scn8a in neuronal activity and seizure\nsusceptibility using splice-switching ASOs, determine if these ASOs can be used as a treatment for mutations\nin exon 5N in a new mouse model of Scn8a, and dissect the mechanism that regulates the splicing switch.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-03-01T00:00:00",
+  "budget_end": "2027-02-28T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 459820,
+  "indirect_cost_amt": 151185,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11285278",
+  "date_added": "2026-03-07T17:04:13"
+}

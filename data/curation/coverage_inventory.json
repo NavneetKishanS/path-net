@@ -1,0 +1,120 @@
+{
+  "snapshot_date": "2026-10-03",
+  "primary_gene": "STXBP1",
+  "neighbor_genes": [
+    "SCN2A",
+    "KCNQ2",
+    "SCN8A"
+  ],
+  "backup_slice": "SCN2A, with KCNQ2 as a second public-source backup",
+  "selection_reason": "STXBP1 has sufficient curated phenotypes, abstracts, organization resources and a natural-history study for the primary journey. SCN2A supplies a documented within-gene functional counterexample.",
+  "queries": [
+    {
+      "source": "pubmed",
+      "query": "STXBP1 AND hasabstract",
+      "total_count": 599,
+      "retrieved_count": 100,
+      "retrieved_at": "2026-10-03T20:48:51+00:00",
+      "truncated": true
+    },
+    {
+      "source": "pubmed",
+      "query": "SCN8A AND hasabstract",
+      "total_count": 729,
+      "retrieved_count": 20,
+      "retrieved_at": "2026-10-03T20:49:45+00:00",
+      "truncated": true
+    },
+    {
+      "source": "pubmed",
+      "query": "KCNQ2 AND hasabstract",
+      "total_count": 1189,
+      "retrieved_count": 20,
+      "retrieved_at": "2026-10-03T20:49:43+00:00",
+      "truncated": true
+    },
+    {
+      "source": "pubmed",
+      "query": "SCN2A AND hasabstract",
+      "total_count": 1005,
+      "retrieved_count": 20,
+      "retrieved_at": "2026-10-03T20:49:41+00:00",
+      "truncated": true
+    },
+    {
+      "source": "clinicaltrials",
+      "query": "KCNQ2",
+      "total_count": 9,
+      "retrieved_count": 9,
+      "retrieved_at": "2026-10-03T20:49:43+00:00",
+      "truncated": false
+    },
+    {
+      "source": "clinicaltrials",
+      "query": "STXBP1",
+      "total_count": 12,
+      "retrieved_count": 12,
+      "retrieved_at": "2026-10-03T20:48:57+00:00",
+      "truncated": false
+    },
+    {
+      "source": "clinicaltrials",
+      "query": "SCN8A",
+      "total_count": 6,
+      "retrieved_count": 6,
+      "retrieved_at": "2026-10-03T20:49:44+00:00",
+      "truncated": false
+    },
+    {
+      "source": "clinicaltrials",
+      "query": "SCN2A",
+      "total_count": 11,
+      "retrieved_count": 11,
+      "retrieved_at": "2026-10-03T20:49:42+00:00",
+      "truncated": false
+    },
+    {
+      "source": "reporter",
+      "query": "STXBP1",
+      "total_count": 64,
+      "retrieved_count": 30,
+      "retrieved_at": "2026-10-03T20:49:04+00:00",
+      "truncated": true
+    },
+    {
+      "source": "reporter",
+      "query": "SCN2A",
+      "total_count": 292,
+      "retrieved_count": 20,
+      "retrieved_at": "2026-10-03T20:49:40+00:00",
+      "truncated": true
+    },
+    {
+      "source": "reporter",
+      "query": "SCN8A",
+      "total_count": 303,
+      "retrieved_count": 20,
+      "retrieved_at": "2026-10-03T20:49:43+00:00",
+      "truncated": true
+    },
+    {
+      "source": "reporter",
+      "query": "KCNQ2",
+      "total_count": 169,
+      "retrieved_count": 20,
+      "retrieved_at": "2026-10-03T20:49:42+00:00",
+      "truncated": true
+    }
+  ],
+  "unique_raw_counts": {
+    "pubmed": 159,
+    "clinicaltrials": 32,
+    "nih_reporter": 82
+  },
+  "limitations": [
+    "Selected sources and bounded query samples, not exhaustive disease coverage.",
+    "No missing association is treated as evidence that no association exists.",
+    "Source statuses and identifiers are pinned to the retrieval snapshot; live changes require review.",
+    "Direct organization-page retrieval was used; Bright Data backend was not exercised live."
+  ]
+}

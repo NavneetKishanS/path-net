@@ -1,0 +1,1313 @@
+{
+  "nodes": [
+    {
+      "id": "group_stxbp1_foundation",
+      "type": "patient_group",
+      "name": "STXBP1 Foundation",
+      "synonyms": [
+        "STXBP1 Disorders"
+      ],
+      "ext_ids": {},
+      "props": {
+        "url": "https://www.stxbp1disorders.org/",
+        "scope": "STXBP1-related disorders",
+        "next_step": "Use the foundation's research page to ask about study readiness and available research resources."
+      }
+    },
+    {
+      "id": "group_familiescn2a",
+      "type": "patient_group",
+      "name": "FamilieSCN2A Foundation",
+      "synonyms": [
+        "Familie SCN2A",
+        "FamilieSCN2A"
+      ],
+      "ext_ids": {},
+      "props": {
+        "url": "https://www.scn2a.org/",
+        "scope": "All SCN2A-related disorders",
+        "next_step": "Explore the foundation's research opportunities and DRAGONFLY registry information."
+      }
+    },
+    {
+      "id": "group_kcnq2_cure",
+      "type": "patient_group",
+      "name": "KCNQ2 Cure Alliance",
+      "synonyms": [
+        "KCNQ2 Cure"
+      ],
+      "ext_ids": {},
+      "props": {
+        "url": "https://www.kcnq2cure.org/",
+        "scope": "KCNQ2-related disorders",
+        "next_step": "Contact the foundation through its public site about research participation and researcher access to its biorepository."
+      }
+    },
+    {
+      "id": "asset_starr_natural_history",
+      "type": "asset",
+      "name": "STARR natural history study",
+      "synonyms": [
+        "STXBP1 Clinical Trial Ready",
+        "STARR"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT06555965"
+      },
+      "props": {
+        "asset_type": "prospective_natural_history_study",
+        "url": "https://www.stxbp1disorders.org/starr",
+        "observational": true,
+        "reuse_status": "Expert review required before adapting measurements across conditions",
+        "next_step": "Review the study's measures with its team and a clinician; confirm eligibility on the current study record."
+      }
+    },
+    {
+      "id": "asset_scn2a_dragonfly",
+      "type": "asset",
+      "name": "SCN2A DRAGONFLY registry",
+      "synonyms": [
+        "DRAGONFLY Study"
+      ],
+      "ext_ids": {},
+      "props": {
+        "asset_type": "patient_registry",
+        "url": "https://scn2a.iamrare.org/",
+        "access": "Public information; registry data require the registry's access process",
+        "reuse_status": "Framework and data-access feasibility require expert review",
+        "next_step": "Read the registry's researcher information and contact the registry team about a research question."
+      }
+    },
+    {
+      "id": "asset_kcnq2_natural_history",
+      "type": "asset",
+      "name": "KCNQ2 natural history study at Harvard/Boston Children's Hospital",
+      "synonyms": [
+        "KCNQ2 Natural History Study"
+      ],
+      "ext_ids": {},
+      "props": {
+        "asset_type": "natural_history_study",
+        "url": "https://www.kcnq2cure.org/faq/",
+        "recruitment_status": "Not independently confirmed; foundation lists the study",
+        "reuse_status": "Existence is sourced; current availability and adaptation need study-team review",
+        "next_step": "Ask the foundation or study team to confirm current availability and relevant study measures."
+      }
+    },
+    {
+      "id": "asset_kcnq2_biorepository",
+      "type": "asset",
+      "name": "KCNQ2 Cure Alliance / COMBINEDBrain biorepository",
+      "synonyms": [
+        "KCNQ2 Biorepository"
+      ],
+      "ext_ids": {},
+      "props": {
+        "asset_type": "biorepository",
+        "url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+        "access": "Academic and industry professionals request materials through the provider",
+        "reuse_status": "Material suitability, consent and access must be reviewed by the provider",
+        "next_step": "Discuss a specific KCNQ2 research question and sample requirements with the biorepository provider."
+      }
+    },
+    {
+      "id": "dis_scn2a_neonatal_epilepsy",
+      "type": "disease",
+      "name": "SCN2A-related neonatal-onset epilepsy subgroup",
+      "synonyms": [
+        "SCN2A neonatal-onset epilepsy"
+      ],
+      "ext_ids": {},
+      "props": {
+        "parent_disease": "dis_scn2a",
+        "curated_subgroup": true,
+        "subgroup_definition": "Neonatal-onset epilepsy subgroup in the 81-person cohort of PMID38651838; n=27",
+        "ontology_note": "No dedicated MONDO identifier asserted",
+        "functional_scope": "GoF and mixed effects predominated in this cohort; phenotype alone does not establish variant function"
+      }
+    },
+    {
+      "id": "dis_scn2a_autism",
+      "type": "disease",
+      "name": "SCN2A-related autism without seizures subgroup",
+      "synonyms": [
+        "SCN2A ASD without seizures",
+        "SCN2A autism subgroup"
+      ],
+      "ext_ids": {},
+      "props": {
+        "parent_disease": "dis_scn2a",
+        "curated_subgroup": true,
+        "subgroup_definition": "Autism without seizures subgroup in the 81-person cohort of PMID38651838; n=12",
+        "ontology_note": "No dedicated MONDO identifier asserted",
+        "functional_scope": "LoF association is a cohort finding; channel function requires variant-specific evidence"
+      }
+    },
+    {
+      "id": "mech_stxbp1_haploinsufficiency",
+      "type": "mechanism",
+      "name": "STXBP1 haploinsufficiency",
+      "synonyms": [
+        "Reduced MUNC18-1 dosage",
+        "STXBP1 loss of function"
+      ],
+      "ext_ids": {},
+      "props": {
+        "effect": "loss_of_function",
+        "gene": "STXBP1",
+        "scope": "Evidence from seven disease-causing variants and experimental mouse/cellular models; not a claim that every STXBP1 variant has this mechanism"
+      }
+    },
+    {
+      "id": "mech_synaptic_release",
+      "type": "mechanism",
+      "name": "Impaired inhibitory synaptic neurotransmission",
+      "synonyms": [
+        "STXBP1 synaptic vesicle release dysfunction"
+      ],
+      "ext_ids": {},
+      "props": {
+        "effect": "loss_of_function",
+        "pathway": "Presynaptic neurotransmitter release",
+        "scope": "Stxbp1 haploinsufficient mouse model, cortical inhibitory neurotransmission"
+      }
+    },
+    {
+      "id": "mech_sodium_channel_gof",
+      "type": "mechanism",
+      "name": "Voltage-gated sodium channel gain of function",
+      "synonyms": [
+        "Sodium channel GoF",
+        "Increased sodium channel activity"
+      ],
+      "ext_ids": {},
+      "props": {
+        "effect": "gain_of_function",
+        "scope": "A mechanistic class supported in specific SCN2A/Nav1.2 and SCN8A/Nav1.6 variants; shared class does not establish trial eligibility or interchangeability"
+      }
+    },
+    {
+      "id": "mech_scn2a_loss_of_function",
+      "type": "mechanism",
+      "name": "SCN2A/Nav1.2 loss of function",
+      "synonyms": [
+        "SCN2A LoF",
+        "Reduced Nav1.2 function"
+      ],
+      "ext_ids": {},
+      "props": {
+        "effect": "loss_of_function",
+        "gene": "SCN2A",
+        "scope": "Variant-specific partial or total LoF; clinical phenotypes overlap and some variants have mixed effects"
+      }
+    },
+    {
+      "id": "mech_kcnq2_loss_of_function",
+      "type": "mechanism",
+      "name": "KCNQ2/Kv7.2 potassium-current loss of function",
+      "synonyms": [
+        "KCNQ2 LoF",
+        "Reduced M-current"
+      ],
+      "ext_ids": {},
+      "props": {
+        "effect": "loss_of_function",
+        "gene": "KCNQ2",
+        "scope": "Seven de novo missense variants characterized in the PMID24318194 study; other variants require functional evidence"
+      }
+    },
+    {
+      "id": "mech_kcnq2_dominant_negative",
+      "type": "mechanism",
+      "name": "KCNQ2 dominant-negative channel effect",
+      "synonyms": [
+        "KCNQ2 dominant negative"
+      ],
+      "ext_ids": {},
+      "props": {
+        "effect": "dominant_negative",
+        "gene": "KCNQ2",
+        "scope": "Five of seven tested variants reduced heteromeric channel function in an oocyte assay"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "group_stxbp1_disease",
+      "src": "group_stxbp1_foundation",
+      "dst": "dis_stxbp1",
+      "type": "group_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Foundation serving STXBP1-related disorders; supported by the organization's public mission."
+    },
+    {
+      "id": "group_scn2a_disease",
+      "src": "group_familiescn2a",
+      "dst": "dis_scn2a",
+      "type": "group_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Foundation serving all SCN2A-related disorders, including epilepsy and autism phenotypes."
+    },
+    {
+      "id": "group_kcnq2_disease",
+      "src": "group_kcnq2_cure",
+      "dst": "dis_kcnq2",
+      "type": "group_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Foundation supports KCNQ2-related disorders, including the DEE subtype in this slice."
+    },
+    {
+      "id": "asset_starr_disease",
+      "src": "asset_starr_natural_history",
+      "dst": "dis_stxbp1",
+      "type": "asset_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "STARR is observational natural-history infrastructure for STXBP1-RD; it does not test a new therapy."
+    },
+    {
+      "id": "asset_dragonfly_disease",
+      "src": "asset_scn2a_dragonfly",
+      "dst": "dis_scn2a",
+      "type": "asset_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Registry for SCN2A-related disorders; only the public landing page is cached."
+    },
+    {
+      "id": "asset_kcnq2_nhs_disease",
+      "src": "asset_kcnq2_natural_history",
+      "dst": "dis_kcnq2",
+      "type": "asset_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The foundation lists a KCNQ2 natural-history study at Harvard/Boston Children's Hospital; current recruitment is not established by this edge."
+    },
+    {
+      "id": "asset_kcnq2_biorepository_disease",
+      "src": "asset_kcnq2_biorepository",
+      "dst": "dis_kcnq2",
+      "type": "asset_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Public KCNQ2 biological-material resource created with COMBINEDBrain; access and suitability require provider review."
+    },
+    {
+      "id": "stxbp1_haploinsufficiency",
+      "src": "dis_stxbp1",
+      "dst": "mech_stxbp1_haploinsufficiency",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Cellular and mouse-model evidence supports haploinsufficiency for the tested STXBP1 variants; variant scope and model limitations are retained."
+    },
+    {
+      "id": "stxbp1_synaptic_release",
+      "src": "dis_stxbp1",
+      "dst": "mech_synaptic_release",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Stxbp1 haploinsufficient mice show reduced cortical inhibitory neurotransmission; presynaptic release machinery is affected."
+    },
+    {
+      "id": "scn2a_neonatal_gof",
+      "src": "dis_scn2a_neonatal_epilepsy",
+      "dst": "mech_sodium_channel_gof",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "GoF and mixed function predominated in the neonatal-onset subgroup of an 81-person cohort; this is an association, not a deterministic phenotype-to-function rule."
+    },
+    {
+      "id": "scn2a_autism_lof",
+      "src": "dis_scn2a_autism",
+      "dst": "mech_scn2a_loss_of_function",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Severe/complete LoF was associated with the autism-without-seizures subgroup; LoF also occurs with later-onset epilepsy, and phenotype alone must not determine treatment."
+    },
+    {
+      "id": "scn2a_neonatal_gene",
+      "src": "dis_scn2a_neonatal_epilepsy",
+      "dst": "gene_scn2a",
+      "type": "disease_gene",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "This neonatal-onset phenotype subgroup is part of the genetically defined SCN2A-related cohort in PMID38651838; function is not inferred from the gene alone."
+    },
+    {
+      "id": "scn2a_autism_gene",
+      "src": "dis_scn2a_autism",
+      "dst": "gene_scn2a",
+      "type": "disease_gene",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "This autism-without-seizures subgroup is part of the genetically defined SCN2A-related cohort in PMID38651838; it is distinct from the neonatal-onset subgroup."
+    },
+    {
+      "id": "scn2a_single_gof_assignment_refuted",
+      "src": "dis_scn2a",
+      "dst": "mech_sodium_channel_gof",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "contradicts",
+      "status": "verified",
+      "note": "Evidence refutes assigning a single GoF mechanism to the entire broad SCN2A-related disorder. Variant effects can be mixed or LoF; this edge records contradictory evidence, not a universal supported association."
+    },
+    {
+      "id": "kcnq2_lof",
+      "src": "dis_kcnq2",
+      "dst": "mech_kcnq2_loss_of_function",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "All seven KCNQ2 missense variants in this severe-encephalopathy study showed LoF; the edge is restricted to that tested set."
+    },
+    {
+      "id": "kcnq2_dominant_negative",
+      "src": "dis_kcnq2",
+      "dst": "mech_kcnq2_dominant_negative",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Dominant-negative effects on wild-type channel subunits occurred in five of seven tested variants; other mechanisms were needed for the remainder."
+    },
+    {
+      "id": "scn8a_dee_gof",
+      "src": "dis_scn8a",
+      "dst": "mech_sodium_channel_gof",
+      "type": "disease_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Two characterized SCN8A DEE variants showed strong GoF. SCN8A LoF can also produce DEE in a minority; this edge represents the studied GoF subset."
+    },
+    {
+      "id": "scn2a_r1882q_gof",
+      "src": "var_clinvar_196039",
+      "dst": "mech_sodium_channel_gof",
+      "type": "gene_variant_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Human Nav1.2 R1882Q showed GoF in transfected HEK cells; variant identity is separately supported by ClinVar."
+    },
+    {
+      "id": "scn2a_r853q_lof",
+      "src": "var_clinvar_194555",
+      "dst": "mech_scn2a_loss_of_function",
+      "type": "gene_variant_mechanism",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Human Nav1.2 R853Q primarily showed LoF in HEK cells. In Xenopus oocytes it also produced an anomalous gating-pore current, so it is not labeled pure LoF in every model."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_group_stxbp1_disease",
+      "edge_id": "group_stxbp1_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.stxbp1disorders.org/",
+      "pmid": null,
+      "snippet": "dedicated to raising awareness and finding a cure for STXBP1-Related Disorder",
+      "retrieved_at": "2026-10-03T20:48:32Z"
+    },
+    {
+      "id": "ev_group_scn2a_disease",
+      "edge_id": "group_scn2a_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.scn2a.org/",
+      "pmid": null,
+      "snippet": "improve the lives of ALL those affected by SCN2A-Related Disorders (SRD)",
+      "retrieved_at": "2026-10-03T20:48:37Z"
+    },
+    {
+      "id": "ev_group_kcnq2_disease",
+      "edge_id": "group_kcnq2_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.kcnq2cure.org/our-role/",
+      "pmid": null,
+      "snippet": "KCNQ2 Cure Alliance provides support to those whose loved ones have been diagnosed with KCNQ2-related disorders",
+      "retrieved_at": "2026-10-03T20:48:42Z"
+    },
+    {
+      "id": "ev_asset_starr_disease",
+      "edge_id": "asset_starr_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.stxbp1disorders.org/starr",
+      "pmid": null,
+      "snippet": "is a natural history study for STXBP1-Related Disorders",
+      "retrieved_at": "2026-10-03T20:48:34Z"
+    },
+    {
+      "id": "ev_asset_dragonfly_disease",
+      "edge_id": "asset_dragonfly_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://scn2a.iamrare.org/",
+      "pmid": null,
+      "snippet": "a registry dedicated to individuals and families impacted by SCN2A-related disorders",
+      "retrieved_at": "2026-10-03T20:48:40Z"
+    },
+    {
+      "id": "ev_asset_kcnq2_nhs_disease",
+      "edge_id": "asset_kcnq2_nhs_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.kcnq2cure.org/faq/",
+      "pmid": null,
+      "snippet": "a Natural History Study at Harvard/Boston",
+      "retrieved_at": "2026-10-03T20:48:44Z"
+    },
+    {
+      "id": "ev_asset_kcnq2_biorepository_disease",
+      "edge_id": "asset_kcnq2_biorepository_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+      "pmid": null,
+      "snippet": "the KCNQ2 Cure Alliance has started to generate a collection of biological samples, called a biorepository",
+      "retrieved_at": "2026-10-03T20:48:46Z"
+    },
+    {
+      "id": "ev_stxbp1_haploinsufficiency",
+      "edge_id": "stxbp1_haploinsufficiency",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+      "pmid": "29538625",
+      "snippet": "impaired protein stability and STXBP1 haploinsufficiency explain STXBP1-encephalopathy",
+      "retrieved_at": "2026-10-03T20:51:23+00:00"
+    },
+    {
+      "id": "ev_stxbp1_synaptic_release",
+      "edge_id": "stxbp1_synaptic_release",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32073399/",
+      "pmid": "32073399",
+      "snippet": "Stxbp1 haploinsufficiency reduced cortical inhibitory neurotransmission",
+      "retrieved_at": "2026-10-03T20:48:48+00:00"
+    },
+    {
+      "id": "ev_scn2a_neonatal_gof",
+      "edge_id": "scn2a_neonatal_gof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "pmid": "38651838",
+      "snippet": "gain-of-function and mixed function variants predominated in neonatal-onset epilepsy",
+      "retrieved_at": "2026-10-03T20:49:39+00:00"
+    },
+    {
+      "id": "ev_scn2a_autism_lof",
+      "edge_id": "scn2a_autism_lof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "pmid": "38651838",
+      "snippet": "severe and complete loss of function in later-onset epilepsy and autism groups",
+      "retrieved_at": "2026-10-03T20:49:39+00:00"
+    },
+    {
+      "id": "ev_scn2a_autism_lof_limitation",
+      "edge_id": "scn2a_autism_lof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41642117/",
+      "pmid": "41642117",
+      "snippet": "Distinct SCN2A LoF phenotypes cannot be reliably linked to specific biophysical mechanisms",
+      "retrieved_at": "2026-10-03T20:51:23+00:00"
+    },
+    {
+      "id": "ev_scn2a_neonatal_gene",
+      "edge_id": "scn2a_neonatal_gene",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "pmid": "38651838",
+      "snippet": "gain-of-function and mixed function variants predominated in neonatal-onset epilepsy",
+      "retrieved_at": "2026-10-03T20:49:39+00:00"
+    },
+    {
+      "id": "ev_scn2a_autism_gene",
+      "edge_id": "scn2a_autism_gene",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "pmid": "38651838",
+      "snippet": "severe and complete loss of function in later-onset epilepsy and autism groups",
+      "retrieved_at": "2026-10-03T20:49:39+00:00"
+    },
+    {
+      "id": "ev_scn2a_single_gof_assignment_refuted",
+      "edge_id": "scn2a_single_gof_assignment_refuted",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37578743/",
+      "pmid": "37578743",
+      "snippet": "complex patterns of gain- and loss-of-functions that are difficult to classify by a simple binary scheme",
+      "retrieved_at": "2026-10-03T20:54:23+00:00"
+    },
+    {
+      "id": "ev_kcnq2_lof",
+      "edge_id": "kcnq2_lof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24318194/",
+      "pmid": "24318194",
+      "snippet": "We observed a clear loss of function for all mutations.",
+      "retrieved_at": "2026-10-03T20:51:54+00:00"
+    },
+    {
+      "id": "ev_kcnq2_dominant_negative",
+      "edge_id": "kcnq2_dominant_negative",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24318194/",
+      "pmid": "24318194",
+      "snippet": "5 of 7 mutations exhibited a drastic dominant-negative effect",
+      "retrieved_at": "2026-10-03T20:51:54+00:00"
+    },
+    {
+      "id": "ev_scn8a_dee_gof",
+      "edge_id": "scn8a_dee_gof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34431999/",
+      "pmid": "34431999",
+      "snippet": "Two variants causing developmental and epileptic encephalopathy showed a strong gain-of-function",
+      "retrieved_at": "2026-10-03T20:49:44+00:00"
+    },
+    {
+      "id": "ev_scn2a_r1882q_gof",
+      "edge_id": "scn2a_r1882q_gof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+      "pmid": "31558572",
+      "snippet": "the R1882Q mutation induced a gain-of-function phenotype",
+      "retrieved_at": "2026-10-03T20:56:37+00:00"
+    },
+    {
+      "id": "ev_scn2a_r853q_lof",
+      "edge_id": "scn2a_r853q_lof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+      "pmid": "31558572",
+      "snippet": "the R853Q mutation primarily produced loss-of-function effects",
+      "retrieved_at": "2026-10-03T20:56:37+00:00"
+    },
+    {
+      "id": "ev_scn2a_r853q_lof_limitation",
+      "edge_id": "scn2a_r853q_lof",
+      "source_type": "pubmed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+      "pmid": "31558572",
+      "snippet": "revealed a robust gating pore current",
+      "retrieved_at": "2026-10-03T20:56:37+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "id": "stxbp1_foundation",
+      "kind": "groups",
+      "url": "https://www.stxbp1disorders.org/",
+      "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only",
+      "snapshot": {
+        "source_id": "stxbp1_foundation",
+        "requested_url": "https://www.stxbp1disorders.org/",
+        "source_url": "https://www.stxbp1disorders.org/",
+        "retrieved_at": "2026-10-03T20:48:32Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "body_sha256": "e442a8f406240242caf158b8958ce12acaade4729e3a899537755cd2802fd17b",
+        "text_sha256": "b3148b18a19bc76ea8580facd35324069933fa42ff12143aa444ebab3ac0ec97",
+        "body_path": "raw/groups/stxbp1_foundation.body",
+        "text_path": "raw/groups/stxbp1_foundation.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.stxbp1disorders.org/robots.txt",
+            "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
+            "retrieved_at": "2026-10-03T20:48:30Z",
+            "allowed": true
+          }
+        ],
+        "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "stxbp1_starr",
+      "kind": "groups",
+      "url": "https://www.stxbp1disorders.org/starr",
+      "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only",
+      "snapshot": {
+        "source_id": "stxbp1_starr",
+        "requested_url": "https://www.stxbp1disorders.org/starr",
+        "source_url": "https://www.stxbp1disorders.org/starr",
+        "retrieved_at": "2026-10-03T20:48:34Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "body_sha256": "c500908aabef481634118cf1aab36837957da5eea096787679471655188722a3",
+        "text_sha256": "1fa97dcbccebb28ef33a2aab1595a2135cf71cf887ea138b3b400b1d581c7f5a",
+        "body_path": "raw/groups/stxbp1_starr.body",
+        "text_path": "raw/groups/stxbp1_starr.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.stxbp1disorders.org/robots.txt",
+            "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
+            "retrieved_at": "2026-10-03T20:48:30Z",
+            "allowed": true
+          }
+        ],
+        "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "familiescn2a",
+      "kind": "groups",
+      "url": "https://www.scn2a.org/",
+      "licence": "FamilieSCN2A Foundation copyright; no open licence verified; retain short attributable excerpts only",
+      "snapshot": {
+        "source_id": "familiescn2a",
+        "requested_url": "https://www.scn2a.org/",
+        "source_url": "https://www.scn2a.org/",
+        "retrieved_at": "2026-10-03T20:48:37Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "body_sha256": "35285fe8299fd2d1f58f66e4ef65a30c41d9adc041f9b50bd53ea252ba35f9e0",
+        "text_sha256": "d78ad8d5d9ddfa139e8f5a059d402fcac0449b857754285d88c389e35c088e25",
+        "body_path": "raw/groups/familiescn2a.body",
+        "text_path": "raw/groups/familiescn2a.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.scn2a.org/robots.txt",
+            "sha256": "5df758aaad54730b211a0dde18ab0a8d342d343aa0a380da873f0c017ed3d2f1",
+            "retrieved_at": "2026-10-03T20:48:35Z",
+            "allowed": true
+          }
+        ],
+        "licence": "FamilieSCN2A Foundation copyright; no open licence verified; retain short attributable excerpts only"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "scn2a_dragonfly",
+      "kind": "groups",
+      "url": "https://scn2a.iamrare.org/",
+      "licence": "NORD/FamilieSCN2A registry public landing page; no open licence verified; do not fetch participant data",
+      "snapshot": {
+        "source_id": "scn2a_dragonfly",
+        "requested_url": "https://scn2a.iamrare.org/",
+        "source_url": "https://scn2a.iamrare.org/",
+        "retrieved_at": "2026-10-03T20:48:40Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "body_sha256": "93aff6fda7d6981c165bf3d8d1e1ec0ec920c9f607bb1e64a70ae173901c1b82",
+        "text_sha256": "681a350e8467bfe08491ad0358014b52de63dad0b33df577e4a295f223d56304",
+        "body_path": "raw/groups/scn2a_dragonfly.body",
+        "text_path": "raw/groups/scn2a_dragonfly.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://scn2a.iamrare.org/robots.txt",
+            "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f",
+            "retrieved_at": "2026-10-03T20:48:37Z",
+            "allowed": true
+          }
+        ],
+        "licence": "NORD/FamilieSCN2A registry public landing page; no open licence verified; do not fetch participant data"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "kcnq2_cure",
+      "kind": "groups",
+      "url": "https://www.kcnq2cure.org/our-role/",
+      "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; retain short attributable excerpts only",
+      "snapshot": {
+        "source_id": "kcnq2_cure",
+        "requested_url": "https://www.kcnq2cure.org/our-role/",
+        "source_url": "https://www.kcnq2cure.org/our-role/",
+        "retrieved_at": "2026-10-03T20:48:42Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "body_sha256": "8596773c42f646f9be511f3f3f51f9b1d5a1bac6cde38877c9df335cbe3fb8fb",
+        "text_sha256": "f81e4043ef34535083d2b6f5b9fd6b86b0b9395e536801067dcdca9dcd6132d3",
+        "body_path": "raw/groups/kcnq2_cure.body",
+        "text_path": "raw/groups/kcnq2_cure.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.kcnq2cure.org/robots.txt",
+            "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
+            "retrieved_at": "2026-10-03T20:48:40Z",
+            "allowed": true
+          }
+        ],
+        "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; retain short attributable excerpts only"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "kcnq2_faq",
+      "kind": "groups",
+      "url": "https://www.kcnq2cure.org/faq/",
+      "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; retain short attributable excerpts only",
+      "snapshot": {
+        "source_id": "kcnq2_faq",
+        "requested_url": "https://www.kcnq2cure.org/faq/",
+        "source_url": "https://www.kcnq2cure.org/faq/",
+        "retrieved_at": "2026-10-03T20:48:44Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "body_sha256": "54dc570ddcb18ab35895bcf1c113e2e92025f54d74bb2d352ca4c8eebd07ebf2",
+        "text_sha256": "c75cadb29e127e65d73f496d01003997473463d93b9b6e8b3abd1a19f1f94c89",
+        "body_path": "raw/groups/kcnq2_faq.body",
+        "text_path": "raw/groups/kcnq2_faq.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.kcnq2cure.org/robots.txt",
+            "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
+            "retrieved_at": "2026-10-03T20:48:40Z",
+            "allowed": true
+          }
+        ],
+        "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; retain short attributable excerpts only"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "kcnq2_biorepository",
+      "kind": "groups",
+      "url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+      "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; public summary only; no patient records",
+      "snapshot": {
+        "source_id": "kcnq2_biorepository",
+        "requested_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+        "source_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+        "retrieved_at": "2026-10-03T20:48:46Z",
+        "status_code": 200,
+        "backend": "direct",
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "body_sha256": "80c877d04ec2db8b713bc6477fbff95ab701d64ba614a0d025974a040ab67c89",
+        "text_sha256": "ce371555e15952e17721e143033f117f954ba59dee0b2abca1b238bff0a2a1b9",
+        "body_path": "raw/groups/kcnq2_biorepository.body",
+        "text_path": "raw/groups/kcnq2_biorepository.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.kcnq2cure.org/robots.txt",
+            "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
+            "retrieved_at": "2026-10-03T20:48:40Z",
+            "allowed": true
+          }
+        ],
+        "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; public summary only; no patient records"
+      },
+      "availability": "public_landing_page"
+    },
+    {
+      "id": "pmid_29538625",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+      "pmid": "29538625",
+      "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_29538625",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+        "retrieved_at": "2026-10-03T20:51:23+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "8ed929d672147505d195728f652b2ee4ecf00e56123e48388ebb010c7a7f897c",
+        "text_sha256": "bcd2f90b805179b1ff1e9fc5c84b1e35c2d310e3a19ba5c63eb834c378c4de46",
+        "body_path": "raw/mechanisms/pmid_29538625.body",
+        "text_path": "raw/mechanisms/pmid_29538625.txt",
+        "original_cache_path": "raw/pubmed_searches/48091062942a13ce/efetch_e95be5469f89d1cb.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Protein instability, haploinsufficiency, and cortical hyper-excitability underlie STXBP1 encephalopathy."
+    },
+    {
+      "id": "pmid_32073399",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32073399/",
+      "pmid": "32073399",
+      "licence": "Chen et al. 2020 eLife; open-access paper; PubMed abstract attribution retained",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_32073399",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/32073399/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32073399/",
+        "retrieved_at": "2026-10-03T20:48:48+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "baab9a76099f8a2eec7b60523be47cb89f661866708ec11acf63c8878ebf6b89",
+        "text_sha256": "a43ef2502808ca5e56ff9de408ccf6ad40d48a52bc251782ed0e1b23988b2181",
+        "body_path": "raw/mechanisms/pmid_32073399.body",
+        "text_path": "raw/mechanisms/pmid_32073399.txt",
+        "original_cache_path": "raw/pubmed_searches/1e2723f67dbc103d/efetch_77885b27da59fce6.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "Chen et al. 2020 eLife; open-access paper; PubMed abstract attribution retained"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Stxbp1/Munc18-1 haploinsufficiency impairs inhibition and mediates key neurological features of STXBP1 encephalopathy."
+    },
+    {
+      "id": "pmid_38651838",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "pmid": "38651838",
+      "licence": "2024 The Authors/Oxford University Press; abstract copyright retained; short quotes only",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_38651838",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+        "retrieved_at": "2026-10-03T20:49:39+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "d4974e26e23385e9b99cf733859d1ffe36f5cdd433ef84714741dbbd603c5eeb",
+        "text_sha256": "ed4871770c423ee1c2d4c514ddbcf76f83f022131254a2a395c325d65688cf99",
+        "body_path": "raw/mechanisms/pmid_38651838.body",
+        "text_path": "raw/mechanisms/pmid_38651838.txt",
+        "original_cache_path": "raw/pubmed_searches/9f8e0e342db54437/efetch_24e3140cc6a3fc37.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "2024 The Authors/Oxford University Press; abstract copyright retained; short quotes only"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Expanded clinical phenotype spectrum correlates with variant function in SCN2A-related disorders."
+    },
+    {
+      "id": "pmid_41642117",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41642117/",
+      "pmid": "41642117",
+      "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_41642117",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/41642117/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/41642117/",
+        "retrieved_at": "2026-10-03T20:51:23+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "8ed929d672147505d195728f652b2ee4ecf00e56123e48388ebb010c7a7f897c",
+        "text_sha256": "8eaba58654007acd8736c63c0d79d58f225cf5568b8eb4c6bdab84b51f7f499a",
+        "body_path": "raw/mechanisms/pmid_41642117.body",
+        "text_path": "raw/mechanisms/pmid_41642117.txt",
+        "original_cache_path": "raw/pubmed_searches/48091062942a13ce/efetch_e95be5469f89d1cb.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Mechanisms of SCN2A loss of function do not predict presence or phenotype of epilepsy."
+    },
+    {
+      "id": "pmid_24318194",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24318194/",
+      "pmid": "24318194",
+      "licence": "2014 Child Neurology Society/American Neurological Association copyright; short quotes only",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_24318194",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/24318194/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/24318194/",
+        "retrieved_at": "2026-10-03T20:51:54+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "2c84be569c00e4585a2291c98b177c5b3f1cf5e2669c7f72daffad0cbd62e05b",
+        "text_sha256": "7c69093bc8cc572d39e41ac65f57328316462235bd31f3326396de62aba078e4",
+        "body_path": "raw/mechanisms/pmid_24318194.body",
+        "text_path": "raw/mechanisms/pmid_24318194.txt",
+        "original_cache_path": "raw/pubmed_searches/92a9e54ba78a4e4b/efetch_9b7ee94fb0fa3c74.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "2014 Child Neurology Society/American Neurological Association copyright; short quotes only"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Dominant-negative effects of KCNQ2 mutations are associated with epileptic encephalopathy."
+    },
+    {
+      "id": "pmid_34431999",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34431999/",
+      "pmid": "34431999",
+      "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_34431999",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/34431999/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/34431999/",
+        "retrieved_at": "2026-10-03T20:49:44+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "9be6797880c75a39d919b34e9de4bb4dffb667c750ab1f6f63efd3114a04da02",
+        "text_sha256": "ffc60febb5a01ef7492f5c620ec6420e790c1445e8c52eb66621bc4abbb7b553",
+        "body_path": "raw/mechanisms/pmid_34431999.body",
+        "text_path": "raw/mechanisms/pmid_34431999.txt",
+        "original_cache_path": "raw/pubmed_searches/5220cbe1ec8a4c6e/efetch_72636d3f2cf0585c.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Genotype-phenotype correlations in SCN8A-related disorders reveal prognostic and therapeutic implications."
+    },
+    {
+      "id": "pmid_37578743",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37578743/",
+      "pmid": "37578743",
+      "licence": "Thompson et al. 2023; publisher abstract attribution retained; short quotes only",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_37578743",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/37578743/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/37578743/",
+        "retrieved_at": "2026-10-03T20:54:23+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "ab3155eb0b3e132f6cd64d932724aef23c23a8614e753f0a9e9b22374e06ac71",
+        "text_sha256": "e59f548d1e289b30824d31565a03c8d50a159caef59ac69962cae38f3c2b2152",
+        "body_path": "raw/mechanisms/pmid_37578743.body",
+        "text_path": "raw/mechanisms/pmid_37578743.txt",
+        "original_cache_path": "raw/pubmed_searches/f8e9d970b484a87b/efetch_c58c35ef777e6d41.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "Thompson et al. 2023; publisher abstract attribution retained; short quotes only"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Epilepsy-associated SCN2A (NaV1.2) variants exhibit diverse and complex functional properties."
+    },
+    {
+      "id": "pmid_31558572",
+      "kind": "mechanisms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+      "pmid": "31558572",
+      "licence": "Mason et al. 2019, eNeuro; paper CC BY 4.0 verified on PMC6795554; attribution retained",
+      "access_method": "pubmed_cache",
+      "snapshot": {
+        "source_id": "pmid_31558572",
+        "requested_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+        "retrieved_at": "2026-10-03T20:56:37+00:00",
+        "backend": "pubmed_api_cache",
+        "content_type": "application/xml",
+        "encoding": "utf-8",
+        "body_sha256": "a598454ef596301a6f47a79daa28db394c7626b7872a0d890cd75c2018781805",
+        "text_sha256": "b6a151ffa5232b69665142eecc27b9ea5dfe383797ef3803ae7c9c5331ae4f8f",
+        "body_path": "raw/mechanisms/pmid_31558572.body",
+        "text_path": "raw/mechanisms/pmid_31558572.txt",
+        "original_cache_path": "raw/pubmed_searches/340208efc099b0e7/efetch_26cb2450e81a907f.xml",
+        "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+        "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+        "licence": "Mason et al. 2019, eNeuro; paper CC BY 4.0 verified on PMC6795554; attribution retained"
+      },
+      "availability": "public_abstract_via_documented_ncbi_api",
+      "title": "Resurgent and Gating Pore Currents Induced by De Novo SCN2A Epilepsy Mutations."
+    }
+  ],
+  "claims": [
+    {
+      "evidence_id": "ev_group_stxbp1_disease",
+      "source_id": "stxbp1_foundation",
+      "body_sha256": "e442a8f406240242caf158b8958ce12acaade4729e3a899537755cd2802fd17b",
+      "text_sha256": "b3148b18a19bc76ea8580facd35324069933fa42ff12143aa444ebab3ac0ec97",
+      "quote_start": 3207,
+      "quote_end": 3284,
+      "quote_sha256": "805c8c5b08e9cf302c12ada37d8055e3be5b2a6cd197f325b46a564fa243447f",
+      "qualifier": "Mission statement; not evidence of an available cure.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_group_scn2a_disease",
+      "source_id": "familiescn2a",
+      "body_sha256": "35285fe8299fd2d1f58f66e4ef65a30c41d9adc041f9b50bd53ea252ba35f9e0",
+      "text_sha256": "d78ad8d5d9ddfa139e8f5a059d402fcac0449b857754285d88c389e35c088e25",
+      "quote_start": 4495,
+      "quote_end": 4567,
+      "quote_sha256": "7dbfcd03b03ce6eeb959dde3bbd394f2ede339852e08c2daf65f607f28d1a686",
+      "qualifier": "Public organizational mission.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_group_kcnq2_disease",
+      "source_id": "kcnq2_cure",
+      "body_sha256": "8596773c42f646f9be511f3f3f51f9b1d5a1bac6cde38877c9df335cbe3fb8fb",
+      "text_sha256": "f81e4043ef34535083d2b6f5b9fd6b86b0b9395e536801067dcdca9dcd6132d3",
+      "quote_start": 1877,
+      "quote_end": 1988,
+      "quote_sha256": "b9e435a779ceaad62415508d244e98e3fff995dfa5477cd5b18fa5e8431c1d32",
+      "qualifier": "Public organizational support statement.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_asset_starr_disease",
+      "source_id": "stxbp1_starr",
+      "body_sha256": "c500908aabef481634118cf1aab36837957da5eea096787679471655188722a3",
+      "text_sha256": "1fa97dcbccebb28ef33a2aab1595a2135cf71cf887ea138b3b400b1d581c7f5a",
+      "quote_start": 3199,
+      "quote_end": 3254,
+      "quote_sha256": "d58348878c679a5545721a30c0e9574d32744278b5c56dda94f2c9a8aee385cf",
+      "qualifier": "The source describes prospective observations; any cross-disease reuse remains to be assessed.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_asset_dragonfly_disease",
+      "source_id": "scn2a_dragonfly",
+      "body_sha256": "93aff6fda7d6981c165bf3d8d1e1ec0ec920c9f607bb1e64a70ae173901c1b82",
+      "text_sha256": "681a350e8467bfe08491ad0358014b52de63dad0b33df577e4a295f223d56304",
+      "quote_start": 230,
+      "quote_end": 314,
+      "quote_sha256": "5b44c33f1a51221b2fc620ae89ba115539ca37e398d5c471c684bb85e2062269",
+      "qualifier": "Registry existence and disease scope; no patient-level data accessed.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_asset_kcnq2_nhs_disease",
+      "source_id": "kcnq2_faq",
+      "body_sha256": "54dc570ddcb18ab35895bcf1c113e2e92025f54d74bb2d352ca4c8eebd07ebf2",
+      "text_sha256": "c75cadb29e127e65d73f496d01003997473463d93b9b6e8b3abd1a19f1f94c89",
+      "quote_start": 9698,
+      "quote_end": 9739,
+      "quote_sha256": "50bc2ea2df3ca08ccb29738bf990877ae0c484da8d90c8983d616946a63b1cfc",
+      "qualifier": "Listed within KCNQ2 research opportunities; site status can be stale and must be checked.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_asset_kcnq2_biorepository_disease",
+      "source_id": "kcnq2_biorepository",
+      "body_sha256": "80c877d04ec2db8b713bc6477fbff95ab701d64ba614a0d025974a040ab67c89",
+      "text_sha256": "ce371555e15952e17721e143033f117f954ba59dee0b2abca1b238bff0a2a1b9",
+      "quote_start": 968,
+      "quote_end": 1074,
+      "quote_sha256": "c5b8244d237f8872371a2ea16f3a2576ef4a43fc47903541ce69e3f9d04b8b2c",
+      "qualifier": "Existence of KCNQ2 samples; no assertion that samples transfer to another disease or are openly available.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_stxbp1_haploinsufficiency",
+      "source_id": "pmid_29538625",
+      "body_sha256": "8ed929d672147505d195728f652b2ee4ecf00e56123e48388ebb010c7a7f897c",
+      "text_sha256": "bcd2f90b805179b1ff1e9fc5c84b1e35c2d310e3a19ba5c63eb834c378c4de46",
+      "quote_start": 736,
+      "quote_end": 822,
+      "quote_sha256": "cc73bf2bac9ec68088462e0ff32a8fe177112a157e7e41393ebb09933a481623",
+      "qualifier": "Seven disease-associated variants and four mouse models; this is a mechanistic experiment, not clinical efficacy evidence.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_stxbp1_synaptic_release",
+      "source_id": "pmid_32073399",
+      "body_sha256": "baab9a76099f8a2eec7b60523be47cb89f661866708ec11acf63c8878ebf6b89",
+      "text_sha256": "a43ef2502808ca5e56ff9de408ccf6ad40d48a52bc251782ed0e1b23988b2181",
+      "quote_start": 871,
+      "quote_end": 942,
+      "quote_sha256": "0e4d8c8dc1df4192d6d5d449e3c15f4998d76b1eb9ee73aae0aec248019b05f5",
+      "qualifier": "Mouse-model finding; interneuron-specific mechanisms differ and human treatment response is not inferred.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_neonatal_gof",
+      "source_id": "pmid_38651838",
+      "body_sha256": "d4974e26e23385e9b99cf733859d1ffe36f5cdd433ef84714741dbbd603c5eeb",
+      "text_sha256": "ed4871770c423ee1c2d4c514ddbcf76f83f022131254a2a395c325d65688cf99",
+      "quote_start": 1518,
+      "quote_end": 1602,
+      "quote_sha256": "e1e7955ae51dc078a4b3926f1fcf8f6488af95bf9a4b13fd2a5931e15b3026b4",
+      "qualifier": "27 neonatal-onset patients in an 81-person cohort; mixed-function variants are explicitly included.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_autism_lof",
+      "source_id": "pmid_38651838",
+      "body_sha256": "d4974e26e23385e9b99cf733859d1ffe36f5cdd433ef84714741dbbd603c5eeb",
+      "text_sha256": "ed4871770c423ee1c2d4c514ddbcf76f83f022131254a2a395c325d65688cf99",
+      "quote_start": 1674,
+      "quote_end": 1752,
+      "quote_sha256": "338fa5c1baa8ac3bca6991c5ee1c07ed5d91190ce2b2d814850c1b8bc357ca4e",
+      "qualifier": "12 autism-without-seizures patients in an 81-person cohort; the quote also includes later-onset epilepsy, not autism exclusively.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_autism_lof_limitation",
+      "source_id": "pmid_41642117",
+      "body_sha256": "8ed929d672147505d195728f652b2ee4ecf00e56123e48388ebb010c7a7f897c",
+      "text_sha256": "8eaba58654007acd8736c63c0d79d58f225cf5568b8eb4c6bdab84b51f7f499a",
+      "quote_start": 1896,
+      "quote_end": 1986,
+      "quote_sha256": "f23f1ae0cb45934b7bbdaec5e2e1863f10906b1b7e8dcf72d7942a93c76b32de",
+      "qualifier": "Neutral scope limitation: partial/total LoF spans multiple phenotypic groups; the subgroup association is not a variant-function diagnostic rule.",
+      "stance": "neutral"
+    },
+    {
+      "evidence_id": "ev_scn2a_neonatal_gene",
+      "source_id": "pmid_38651838",
+      "body_sha256": "d4974e26e23385e9b99cf733859d1ffe36f5cdd433ef84714741dbbd603c5eeb",
+      "text_sha256": "ed4871770c423ee1c2d4c514ddbcf76f83f022131254a2a395c325d65688cf99",
+      "quote_start": 1518,
+      "quote_end": 1602,
+      "quote_sha256": "e1e7955ae51dc078a4b3926f1fcf8f6488af95bf9a4b13fd2a5931e15b3026b4",
+      "qualifier": "The source abstract explicitly studies SCN2A-related disorders and defines the neonatal-onset subgroup; the reused excerpt is interpreted within that cohort context.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_autism_gene",
+      "source_id": "pmid_38651838",
+      "body_sha256": "d4974e26e23385e9b99cf733859d1ffe36f5cdd433ef84714741dbbd603c5eeb",
+      "text_sha256": "ed4871770c423ee1c2d4c514ddbcf76f83f022131254a2a395c325d65688cf99",
+      "quote_start": 1674,
+      "quote_end": 1752,
+      "quote_sha256": "338fa5c1baa8ac3bca6991c5ee1c07ed5d91190ce2b2d814850c1b8bc357ca4e",
+      "qualifier": "The source abstract explicitly studies SCN2A-related disorders and defines an autism-without-seizures subgroup; the reused excerpt is interpreted within that cohort context.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_single_gof_assignment_refuted",
+      "source_id": "pmid_37578743",
+      "body_sha256": "ab3155eb0b3e132f6cd64d932724aef23c23a8614e753f0a9e9b22374e06ac71",
+      "text_sha256": "e59f548d1e289b30824d31565a03c8d50a159caef59ac69962cae38f3c2b2152",
+      "quote_start": 1454,
+      "quote_end": 1558,
+      "quote_sha256": "9fc4672c555e4c9227fec916f66987510fd7f263db2dd5cfd70c7bd55cfd31c4",
+      "qualifier": "Contradicts a universal binary/GoF interpretation; 28 disease-associated and four common variants studied under standardized conditions.",
+      "stance": "contradicts"
+    },
+    {
+      "evidence_id": "ev_kcnq2_lof",
+      "source_id": "pmid_24318194",
+      "body_sha256": "2c84be569c00e4585a2291c98b177c5b3f1cf5e2669c7f72daffad0cbd62e05b",
+      "text_sha256": "7c69093bc8cc572d39e41ac65f57328316462235bd31f3326396de62aba078e4",
+      "quote_start": 646,
+      "quote_end": 701,
+      "quote_sha256": "bb13894a4852d7b313a23a03d0f888f5e5eab4497988a3d51614b737df793b93",
+      "qualifier": "Seven de novo missense variants tested in Xenopus oocytes; not an assertion about all possible KCNQ2 variants.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_kcnq2_dominant_negative",
+      "source_id": "pmid_24318194",
+      "body_sha256": "2c84be569c00e4585a2291c98b177c5b3f1cf5e2669c7f72daffad0cbd62e05b",
+      "text_sha256": "7c69093bc8cc572d39e41ac65f57328316462235bd31f3326396de62aba078e4",
+      "quote_start": 714,
+      "quote_end": 775,
+      "quote_sha256": "a068e0460fe4ae72864fce9c61534de413600d0ae5e1a81cd917587cec74a008",
+      "qualifier": "Explicit fraction from the functional study; dominant-negative effects are not universal.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn8a_dee_gof",
+      "source_id": "pmid_34431999",
+      "body_sha256": "9be6797880c75a39d919b34e9de4bb4dffb667c750ab1f6f63efd3114a04da02",
+      "text_sha256": "ffc60febb5a01ef7492f5c620ec6420e790c1445e8c52eb66621bc4abbb7b553",
+      "quote_start": 1389,
+      "quote_end": 1485,
+      "quote_sha256": "30e03cafb6f8ca2ed83e205f28b3e13e6bbd51008b18cf80646ac2bc402cdd3e",
+      "qualifier": "Variant-specific result from a 392-person study; not proof of an identical SCN2A mechanism or shared trial eligibility.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_r1882q_gof",
+      "source_id": "pmid_31558572",
+      "body_sha256": "a598454ef596301a6f47a79daa28db394c7626b7872a0d890cd75c2018781805",
+      "text_sha256": "b6a151ffa5232b69665142eecc27b9ea5dfe383797ef3803ae7c9c5331ae4f8f",
+      "quote_start": 608,
+      "quote_end": 664,
+      "quote_sha256": "ff6006e7865ad650c0b97e9ff3d5ff96ada078518c1c6977a5c4378d9bd1334c",
+      "qualifier": "Voltage-clamp characterization in transfected HEK cells; assay/model context retained.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_r853q_lof",
+      "source_id": "pmid_31558572",
+      "body_sha256": "a598454ef596301a6f47a79daa28db394c7626b7872a0d890cd75c2018781805",
+      "text_sha256": "b6a151ffa5232b69665142eecc27b9ea5dfe383797ef3803ae7c9c5331ae4f8f",
+      "quote_start": 816,
+      "quote_end": 878,
+      "quote_sha256": "fa2d945af6146add59ce98dfab2aa61b2d3581bf1a8509359b9d82e0e5d3539a",
+      "qualifier": "Primary effect in the HEK model; excludes a universal pure-LoF interpretation.",
+      "stance": "supports"
+    },
+    {
+      "evidence_id": "ev_scn2a_r853q_lof_limitation",
+      "source_id": "pmid_31558572",
+      "body_sha256": "a598454ef596301a6f47a79daa28db394c7626b7872a0d890cd75c2018781805",
+      "text_sha256": "b6a151ffa5232b69665142eecc27b9ea5dfe383797ef3803ae7c9c5331ae4f8f",
+      "quote_start": 1317,
+      "quote_end": 1354,
+      "quote_sha256": "cfe31c81b1c3dd119df79aac4704e0d36d4a283428b44967658278bd79e0d2f3",
+      "qualifier": "Neutral caveat: Xenopus-oocyte experiment showed a gating-pore current at negative potentials; functional effects depend on the measured property and model.",
+      "stance": "neutral"
+    }
+  ],
+  "curation_notes": [
+    "Evidence rows use only contract fields. Claims and source snapshots carry quote hashes, offsets, retrieval times, cache paths and scope qualifiers.",
+    "All B snippets are exact substrings of cached visible text or original-XML abstracts after whitespace normalization. Per-source short quotations total at most 25 words.",
+    "The component references disease and ClinVar nodes from ontology_slice.json. Two SCN2A phenotype subgroups have no dedicated MONDO identifier asserted.",
+    "A disease_mechanism edge is a source-qualified association, not proof that every variant or every patient shares the effect. A verified contradictory edge refutes assigning one GoF mechanism to the entire broad SCN2A-related disorder.",
+    "Patient organizations and research assets are verified for stated scope/existence only. Recruitment, material access, clinical eligibility and cross-disease reuse require provider/expert review.",
+    "Full source pages and API responses stay under ignored data/raw. No patient records, registry accounts, private family contacts or paid Bright Data requests were accessed.",
+    "Reproduce community pages with python pipeline/fetch_groups.py. Fetch the cited PMIDs with pipeline/fetch_pubmed.py first, then import original XML with python pipeline/fetch_groups.py --kind mechanisms. Verify curated quotes with --validate-curation."
+  ]
+}

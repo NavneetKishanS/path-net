@@ -1,0 +1,124 @@
+{
+  "appl_id": 11415500,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01AA032245-02",
+  "project_serial_num": "AA032245",
+  "organization": {
+    "org_name": "UNIVERSITY OF PITTSBURGH AT PITTSBURGH",
+    "city": null,
+    "country": null,
+    "org_city": "PITTSBURGH",
+    "org_country": "UNITED STATES",
+    "org_state": "PA",
+    "org_state_name": null,
+    "dept_type": "PSYCHIATRY",
+    "fips_country_code": null,
+    "org_duns": [
+      "004514360"
+    ],
+    "org_ueis": [
+      "MKAGLD59JRL1"
+    ],
+    "primary_duns": "004514360",
+    "primary_uei": "MKAGLD59JRL1",
+    "org_fips": "US",
+    "org_ipf_code": "2059802",
+    "org_zipcode": "152133320",
+    "external_org_id": 2059802
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 444593,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "AA",
+    "serial_num": "032245",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 12313290,
+      "first_name": "Max",
+      "middle_name": "E",
+      "last_name": "Joffe",
+      "is_contact_pi": true,
+      "full_name": "Max E Joffe",
+      "title": "ASSISTANT PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "JOFFE, MAX E",
+  "program_officers": [
+    {
+      "first_name": "CHANGHAI",
+      "middle_name": "",
+      "last_name": "CUI",
+      "full_name": "CHANGHAI  CUI"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "AA",
+    "abbreviation": "NIAAA",
+    "name": "National Institute on Alcohol Abuse and Alcoholism",
+    "admin_org_id": "12500001",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "AA",
+      "name": "National Institute on Alcohol Abuse and Alcoholism",
+      "abbreviation": "NIAAA",
+      "total_cost": 444593.0,
+      "direct_cost_ic": 289892.0,
+      "indirect_cost_ic": 154701.0
+    }
+  ],
+  "cong_dist": "PA-12",
+  "spending_categories": null,
+  "project_start_date": "2025-09-20T00:00:00",
+  "project_end_date": "2030-07-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -79.959125,
+    "lat": 40.440909
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "NAL",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Neurotoxicology and Alcohol Study Section[NAL]"
+  },
+  "award_notice_date": "2026-07-14T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01AA032245",
+  "terms": "<Ablation><Absolute ethanol><Abstinence><Acute><Affect><Affective><Alcohol Chemical Class><Alcohols><Behavior><Body Tissues><Brain><Brain Nervous System><CRISPR><CRISPR/Cas system><Cell Body><Cell Fraction><Cells><Chronic><Clustered Regularly Interspaced Short Palindromic Repeats><Connector Neuron><Data><Development><Differences between sexes><Differs between sexes><Drugs><ETOH><Electrophysiology><Electrophysiology (science)><Encephalon><Ethanol><Ethyl Alcohol><FISH Technic><FISH Technique><FISH analysis><FISH assay><Female><Fluorescence In Situ Hybridization><Fluorescent in Situ Hybridization><Gene Transfer><Genetic><Goals><Grain Alcohol><Guide RNA><Heavy Drinking><Home><Immunohistochemistry><Immunohistochemistry Cell/Tissue><Immunohistochemistry Staining Method><Intercalary Neuron><Intercalated Neurons><Interneurons><Internuncial Cell><Internuncial Neuron><Mediating><Medication><Membrane><Methylcarbinol><Mice><Mice Mammals><Modeling><Molecular><Moods><Murine><Mus><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurons><Neurophysiology / Electrophysiology><Output><Pharmaceutical Preparations><Physiology><Prefrontal Cortex><Property><Pyramidal Cells><Rodent><Rodentia><Rodents Mammals><Sex Differences><Sexual differences><Shapes><Slice><Social Interaction><Testing><Tissues><Transcript><Upregulation><VIP IN><VIP interneurons><VIP neurons><VIP-expressing interneuron><Viral><Viral Vector><affective disturbance><alcohol abuse therapy><alcohol abuse treatment><alcohol effect><alcohol response><alcohol sensitivity><alcohol treatment><alcohol use disorder><anxiety-like behavior><approach behavior><avoidance behavior><binge alcohol consumption><binge drinking><cell type><cellular targeting><chronic EtOH drinking><chronic alcohol consumption><chronic alcohol drinking><chronic alcohol ingestion><chronic alcohol use><chronic ethanol consumption><chronic ethanol drinking><chronic ethanol ingestion><chronic symptom><cohort><compound repositioning><compound repurposing><design><designing><developmental><disturbance in affect><drink heavily><drinking><drinking behavior><drug discovery><drug repositioning><drug repurposing><drug/agent><electrophysiological><emotional behavior><episodic drinking><ethanol effect><ethanol response><ethanol sensitivity><ethanol use disorder><ex vivo><excessive alcohol consumption><excessive alcohol ingestion><excessive alcohol intake><excessive drinking><excessive ethanol ingestion><extreme drinking><functional group><gRNA><heavy alcohol use><homes><improved><inhibitor><inhibitory neuron><insight><male><membrane structure><mood alteration><mood and affect disturbance><mood disturbance><mood dysfunction><neocortical><neural circuit><neural circuitry><neurocircuitry><neuronal><new therapeutic uses for existing drugs><new use of drug><new uses for an approved drug><new uses for existing drugs><next generation><patch clamp><persistent symptom><pharmacologic><pharmacological repurposing><preference><protein expression><repositioning approved drugs><repositioning existing drugs><repurpose approved drugs><repurpose approved medication><repurpose approved therapeutic><repurpose existing drugs><repurpose existing medication><repurpose existing medicine><repurpose existing therapeutics><repurpose existing therapies><repurpose medicine><repurposing a drug><repurposing agent><repurposing candidates><repurposing established drugs><repurposing established medication><repurposing existing pharmacological agents><repurposing medication><repurposing of already existing drugs><repurposing pharmaceuticals><response to alcohol><response to ethanol><selective expression><selectively expressed><sensitivity to alcohol><sensitivity to ethanol><sex><sex based differences><sex-dependent differences><sex-related differences><sex-specific differences><social><stoichiometry><synaptic circuit><synaptic circuitry><therapeutic repositioning><therapeutic repurposing><vasoactive intestinal peptide expressing interneurons><vasoactive intestinal peptide expressing neurons><vasoactive intestinal peptide inhibitory neuron><vasoactive intestinal peptide positive neuron><vasoactive intestinal peptide-positive interneuron><♀><♂>",
+  "pref_terms": "Ablation;Abstinence;Acute;Affect;Affective;Alcohols;Behavior;Brain;Cell Fraction;Cells;Chronic;Clustered Regularly Interspaced Short Palindromic Repeats;Data;Development;Electrophysiology (science);Ethanol;Female;Fluorescent in Situ Hybridization;Gene Transfer;Genetic;Goals;Guide RNA;Heavy Drinking;Home;Immunohistochemistry;Interneurons;Mediating;Membrane;Modeling;Molecular;Moods;Mus;Neurons;Output;Pharmaceutical Preparations;Physiology;Prefrontal Cortex;Property;Pyramidal Cells;Rodent;Sex Differences;Shapes;Slice;Social Interaction;Testing;Tissues;Transcript;Upregulation;Viral;Viral Vector;affective disturbance;alcohol abuse therapy;alcohol effect;alcohol response;alcohol sensitivity;alcohol use disorder;anxiety-like behavior;approach behavior;avoidance behavior;binge drinking;cell type;cellular targeting;chronic alcohol ingestion;cohort;design;drinking;drinking behavior;drug discovery;drug repurposing;emotional behavior;ex vivo;functional group;improved;inhibitor;inhibitory neuron;insight;male;neocortical;neural circuit;next generation;patch clamp;persistent symptom;pharmacologic;preference;protein expression;selective expression;sex;social;stoichiometry;vasoactive intestinal peptide expressing interneurons",
+  "abstract_text": "Abstract\nThe prefrontal cortex (PFC) is essential for moderating drinking and regulating affective changes in alcohol use\ndisorder (AUD). PFC activity is dynamically modulated by inhibitory interneurons that express vasoactive\nintestinal peptide (VIP-INs). Unique among interneurons, VIP-INs preferentially target other inhibitory neurons\nto indirectly enhance principal neuron activity. Here, we show preliminary data that chemogenetic stimulation of\nPFC VIP-INs reduces social approach behavior in control mice. Conversely, we find that chemogenetic\ninhibition of VIP-INs can enhance social preference following chronic drinking (intermitent access, IA ethanol).\nThus, we believe that VIP-INs represent an an exciting cellular target to improve social and affective behaviors\nin AUD. Towards that end, the goal of this proposal is to better define the mechanisms through which alcohol\nand drinking affects VIP-IN function. One likely mechanism through which ethanol may modulate VIP-INs is by\ninhibiting KCNQ channels. Indeed, we provide preliminary data that ex vivo ethanol enhances VIP-IN\nexcitability in prelimbic (PL)-PFC, that ethanol-induced hyperexcitability is occluded by a KCNQ channel\ninhibitor, and that ethanol directly inhibits KCNQ channel currents in VIP-INs but not pyramidal cells. KCNQ\nchannels assemble as tetramers, and the common KCNQ3 subunit preferentially forms heteromeric channels\nwith other subunits. Interestingly, we provide evidence that VIP-INs do not express KCNQ3, allowing KCNQ5\nand/or KCNQ2 subunits to form heterodimeric KCNQ2/5 or homomeric channels. In this proposal, we\nhypothesize that long-term drinking decreases VIP-IN excitability through a homeostatic upregulation of KCNQ\nchannel function. We will use CRISPR/SaCas9 molecular approaches to systematically test that unique\nexpression of KCNQ subunits (low KCNQ3 and high KCNQ5) confers VIP-INs with high sensitivity to ethanol\nand to its long-term adaptations. Finally, we will test that adaptations to VIP-INs regulate drinking and\nassociated affective disturbances.\nAim 1: Test that KCNQ subunit stoichiometry governs ethanol’s actions in distinct cell types\nAim 2: Test that long-term drinking alters KCNQ channel function on VIP-INs and ethanol sensitivity\nAim 3: Test that PL-PFC KCNQ channels drive VIP-IN hypo-excitability following IA ethanol and abstinence-\nassociated affective disturbances\nThese studies will further characterize how PFC disinhibitory interneurons mediate responses to ethanol and\ndrinking. The mechanistic CRISPR/SaCas9 approach will provide unprecedented insight into how specific\nKCNQ subunits mediate ethanol’s effects in native tissue, with potential to inform and motivate a new wave of\ndrug discovery or repurposing for AUD medication development.",
+  "project_title": "Mechanisms of alcohol's effects on prefrontal cortex circuits",
+  "phr_text": "Project Narrative\nNew treatments are desperately needed for the persistent symptoms of alcohol use disorder (AUD), including\nchanges in mood and problematic drinking. This proposal is designed to improve our understanding of how\nacute alcohol and long-term drinking affect specific cells and molecules within prefrontal cortex neural circuits.\nOur goal is to identify specific molecules that may comprise targets for the development of next-generation\nmedication treatments for AUD.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-08-01T00:00:00",
+  "budget_end": "2027-07-31T00:00:00",
+  "cfda_code": "93.273",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 289892,
+  "indirect_cost_amt": 154701,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11415500",
+  "date_added": "2026-08-01T17:03:56"
+}

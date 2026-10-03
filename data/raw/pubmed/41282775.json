@@ -1,0 +1,12 @@
+{
+  "pmid": "41282775",
+  "title": "A unified meta-regression model identifies genes associated with epilepsy.",
+  "abstract": "Epilepsy is a highly heterogeneous disorder thought to have strong genetic components. However, identifying these risk factors using whole-exome sequencing studies requires very large sample sizes and good signal-to-noise ratio in order to assess the association between rare variants in any given gene and disease. We present an approach for predicting constraint in the human genome through application of a Hidden Markov Model (HMM) to whole exome sequencing (WES) data. Using the Regeneron Genetics Center Million Exome dataset and the AllofUs whole genome sequencing data, we predict the probability of observing no variants across the population for each position in the genome. We then incorporate the predictions with the \"rejected substitutions\" (RS) score from Genomic Evolutionary Rate Profiling (GERP), pathogenicity predictions from AlphaMissense (AM), and pLoF/Missense annotations from Epi25 into a model that detects epilepsy-associated genes. We identify a set of significant ( p < 3. 4 × 10 -7 ) genes which did not meet exome-wide significance in previous studies: KCNQ2, SCN2A, STXBP1, CACNA1A, SLC6A1, DYRK1A, KCNB1, SATB1, PCDHAC2, SP4 , and RYR2 ,. Our models allow us to evaluate the contribution of constraint, protein structure based pathogenicity prediction from AM, and pLoFs jointly. We show that unifying these moderators into a single model allows us to both strengthen our evidence for genes with already-known links to epilepsy and also identify new genes with likely links to epilepsy.",
+  "authors": [
+    "Oscar Aguilar",
+    "Mijail Rivas",
+    "Manuel A Rivas"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41282775/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

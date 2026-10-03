@@ -1,0 +1,128 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/HP_0000729",
+      "lang" : "en",
+      "description" : [ "This term can be used to refer to autism spectrum disorder as a phenotypic feature that can be a component of a disease. Autism spectrum disorder range from a severe form, called autistic disorder, to a milder form, Asperger syndrome. If possible, we recommend annotating using more specific terms.", "Persistent deficits in social interaction and communication and interaction as well as a markedly restricted repertoire of activity and interest as well as repetitive patterns of behavior." ],
+      "synonyms" : [ "Pervasive developmental disorder", "ASD", "Autism spectrum disorder", "Autism spectrum disorders", "Autistic behaviors", "Autistic behaviour", "Autistic behaviours" ],
+      "annotation" : {
+        "id" : [ "HP:0000729" ]
+      },
+      "label" : "Autistic behavior",
+      "ontology_name" : "hp",
+      "ontology_prefix" : "HP",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "HP_0000729",
+      "obo_id" : "HP:0000729",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "Persistent deficits in social interaction and communication and interaction as well as a markedly restricted repertoire of activity and interest as well as repetitive patterns of behavior.",
+        "oboXrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-0736-9199",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-0736-9199"
+        }, {
+          "database" : "PMID",
+          "id" : "28879490",
+          "description" : null,
+          "url" : "https://pubmed.ncbi.nlm.nih.gov/28879490"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : [ {
+        "name" : "ASD",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Autistic behaviour",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Autism spectrum disorder",
+        "scope" : "hasRelatedSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Autism spectrum disorders",
+        "scope" : "hasRelatedSynonym",
+        "type" : "layperson term",
+        "xrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-5316-1399",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-5316-1399"
+        } ]
+      }, {
+        "name" : "Autistic behaviors",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-5316-1399",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-5316-1399"
+        } ]
+      }, {
+        "name" : "Autistic behaviours",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0000729/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0000729"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

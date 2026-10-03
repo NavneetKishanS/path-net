@@ -1,0 +1,21 @@
+{
+  "pmid": "40986432",
+  "title": "Quantitative EEG Biomarkers in the Genetic Epilepsies and Associations With Neurologic Outcomes.",
+  "abstract": "EEG plays an integral part in the diagnosis and management of children with genetic epilepsies. Nevertheless, how quantitative EEG features differ between genetic epilepsies and neurologic outcomes remains largely unknown. In this study, we aimed to identify quantitative EEG biomarkers in STXBP1-related, SCN1A-related, and SYNGAP1-related childhood epilepsy and associated neurologic outcomes. We retrospectively collected clinical scalp EEGs from the Children's Hospital of Philadelphia. After removing artifacts and epochs with excess noise or altered state from EEGs, we extracted spectral features. We validated our preprocessing pipeline by comparing automatically detected posterior dominant rhythm (PDR) with annotations from clinical EEG reports. Next, as a coarse measure of pathologic slowing, we compared the alpha-delta bandpower ratio between controls and patients with different genetic epilepsies. We then trained random forest models with localized spectral features to predict diagnoses of STXBP1, SCN1A, and SYNGAP1 and estimate seizure frequency and motor function across a broader cohort. We evaluated EEGs from individuals with pathogenic variants in STXBP1 (95 EEGs, n = 20; 40% female; mean age 3.98 years), SCN1A (154 EEGs, n = 68; 51% female; mean age 6.24 years), and SYNGAP1 (46 EEGs, n = 21; 57% female; mean age 6.97 years) and neurotypical controls (847 EEGs, n = 806; 55% female; mean age 7.08 years). There was strong agreement between the automatically calculated PDR and annotations from clinical EEG reports (R2 = 0.75). Individuals with STXBP1-related epilepsy had a significantly lower alpha-delta ratio than controls (median Cohen d = -0.95, p < 0.001) across all ages. Models accurately predicted a diagnosis of STXBP1 (area under the curve [AUC] = 0.92), SYNGAP1 (AUC = 0.86), and SCN1A (AUC = 0.85) against controls and each other (accuracy = 0.74). From these models, we isolated highly correlated biomarkers, including the alpha-theta ratio in frontal, occipital, and parietal electrodes associated with STXBP1, SYNGAP1, and SCN1A, respectively. Models were unable to predict seizure frequency (AUC = 0.53). Models predicted motor scores significantly better than age-based null models (p < 0.001). These results suggest that some genetic epilepsies and functional outcome measures have distinct quantitative EEG signatures. Furthermore, EEG spectral features are predictive of some functional outcome measures. Large-scale retrospective quantitative analysis of clinical EEGs has the potential to discover novel biomarkers and to quantify and track individuals' disease progression across development.",
+  "authors": [
+    "Peter D Galer",
+    "Jillian L McKee",
+    "Sarah M Ruggiero",
+    "Michael C Kaufman",
+    "William K S Ojemann",
+    "Ian McSalley",
+    "Shiva Ganesan",
+    "Alexander K Gonzalez",
+    "Quy Cao",
+    "Brian Litt",
+    "Ingo Helbig",
+    "Erin C Conrad"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40986432/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

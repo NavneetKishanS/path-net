@@ -1,0 +1,188 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05407727",
+      "orgStudyIdInfo": {
+        "id": "SCN2A-NH1"
+      },
+      "organization": {
+        "fullName": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+      "officialTitle": "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-04-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-03-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-05-24",
+      "studyFirstSubmitQcDate": "2022-06-01",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective observational study is designed to assess the individualized baseline disease burden in pediatric participants aged 1 year to 16 years, with early-onset SCN2A-DEE by characterizing and quantifying changes in clinical features over a period of up to 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "SCN2A-DEE",
+        "Epilepsy"
+      ],
+      "keywords": [
+        "SCN2A-DEE",
+        "Epilepsy",
+        "SCN2A variant",
+        "Pediatric epilepsy",
+        "Electroencephalogram",
+        "Developmental and Epileptic Encephalopathy",
+        "DEE"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 5,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Assess disease burden and any variation in disease progression over time, as reflected by electrographic seizures, interictal epileptiform discharges (IEDs), and spectral features, as measured on at-home video electroencephalograms (vEEGs)",
+          "timeFrame": "Up to 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in clinical seizures captured via seizure diary and EEG-based outcome measures as a function of age and SCN2A variant",
+          "description": "Clinical seizures will be captured via seizure diary and a vEEG will be performed to record brainwave activity. The change in mean seizure frequency per 28 days and changes in mean vEEG measures (including, but not limited to, background frequency, slowing, epileptiform activity, sleep architecture, and seizures) will both be calculated and evaluated as a function of age and SCN2A variant.",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "Intercurrent events as a function of age, SCN2A variant, and medications",
+          "description": "Intercurrent event assessment will include \"since last visit\" open-ended questions for the parent/guardian regarding changes in the participant's cognitive, social, and emotional development; sleep, motor, or other disease-related symptoms; and any healthcare visits or hospitalizations (whether or not related to the participant's SCN2A-DEE). Any untoward medical occurrence that is not study procedure related will be recorded, not as an adverse event (AE), but as an intercurrent event. Intercurrent events will be evaluated as a function of age, SCN2A variant, and medication history.",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "Association between age at seizure onset and dynamic clamp-based SCN2A variant characterization",
+          "description": "Assessment of medical history will be evaluated as a function of SCN2A variant characterization and age of seizure onset.",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "Frequency of seizures captured via seizure diary and EEG features at each timepoint and longitudinally",
+          "description": "The change in mean seizure frequency and change in mean vEEG measures (including, but not limited to, background frequency, slowing, epileptiform activity, sleep architecture, and seizures) will be reported at each timepoint and longitudinally.",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "Association between EEG features and seizures captured via seizure diary",
+          "description": "The change in mean seizure frequency per 28 days will be evaluated as a function of changes in mean vEEG measures (including, but not limited to, background frequency, slowing, epileptiform activity, sleep architecture, and seizures).",
+          "timeFrame": "Up to 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The participant has a documented SCN2A variant through genetic testing obtained via a laboratory accredited per Clinical Laboratory Improvement Amendments (CLIA) or College of American Pathologists (CAP) or equivalent.\n2. The participant has onset of seizures prior to 1 month of age.\n3. The participant has a phenotype consistent with a developmental and epileptic encephalopathy (DEE).\n4. The participant has a minimum of 8 countable motor seizures (as defined in the note below) in the 4 weeks prior to Screening, as reported by the parent/guardian or in the opinion of the investigator, as documented within the medical notes. (Note: Motor seizures are defined as tonic, tonic-clonic, atonic/drop attacks, focal with secondary generalization, or focal with motor symptoms. Myoclonic seizures or absence seizures only will not be considered as motor seizures for this study.)\n\nExclusion Criteria:\n\n1. The participant has any significant ongoing disease, disorder, laboratory abnormalities, alcohol or drug abuse or dependence, environmental factor, or any ongoing or history of any psychiatric, medical, or surgical condition that in the judgment of the investigator in consultation with the medical monitor and/or sponsor's designee, might jeopardize the participant's safety, impact the scientific objectives of the clinical study, or interfere with participation in the clinical study.\n2. The participant has a clinically significant genetic variant other than an SCN2A variant that may explain or contribute to the participant's epilepsy and/or developmental disorder.\n3. The participant has any other or additional etiology for epilepsy and/or DEE (eg, cortical dysplasia, encephalomalacia, etc), in the opinion of the investigator.\n4. The participant has received any experimental or investigational drug within 30 days or 5 half lives (whichever is longer) prior to Screening, including any prior use of gene therapy.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Year",
+      "maximumAge": "16 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "This trial will enroll eligible pediatric participants with confirmed early-onset SCN2A-developmental and epileptic encephalopathy.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "VP, Clinical Development",
+          "affiliation": "Praxis Precision Medicines",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Praxis Research Site",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30329",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

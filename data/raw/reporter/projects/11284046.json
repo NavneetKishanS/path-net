@@ -1,0 +1,133 @@
+{
+  "appl_id": 11284046,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01MH132226-04",
+  "project_serial_num": "MH132226",
+  "organization": {
+    "org_name": "UNIVERSITY OF TEXAS MED BR GALVESTON",
+    "city": null,
+    "country": null,
+    "org_city": "GALVESTON",
+    "org_country": "UNITED STATES",
+    "org_state": "TX",
+    "org_state_name": null,
+    "dept_type": "PHARMACOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "800771149"
+    ],
+    "org_ueis": [
+      "MSPWVMXXMN76"
+    ],
+    "primary_duns": "800771149",
+    "primary_uei": "MSPWVMXXMN76",
+    "org_fips": "US",
+    "org_ipf_code": "578406",
+    "org_zipcode": "775555302",
+    "external_org_id": 578406
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 794232,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "MH",
+    "serial_num": "132226",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 9745100,
+      "first_name": "Fernanda",
+      "middle_name": "",
+      "last_name": "Laezza",
+      "is_contact_pi": true,
+      "full_name": "Fernanda  Laezza",
+      "title": "PROFESSOR"
+    },
+    {
+      "profile_id": 8483339,
+      "first_name": "Jia",
+      "middle_name": "",
+      "last_name": "Zhou",
+      "is_contact_pi": false,
+      "full_name": "Jia  Zhou",
+      "title": "DR."
+    }
+  ],
+  "contact_pi_name": "LAEZZA, FERNANDA ",
+  "program_officers": [
+    {
+      "first_name": "YAEL",
+      "middle_name": "",
+      "last_name": "MANDELBLAT-CERF",
+      "full_name": "YAEL  MANDELBLAT-CERF"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 794232.0,
+      "direct_cost_ic": 554768.0,
+      "indirect_cost_ic": 239464.0
+    }
+  ],
+  "cong_dist": "TX-14",
+  "spending_categories": null,
+  "project_start_date": "2023-02-01T00:00:00",
+  "project_end_date": "2026-11-30T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -94.778007,
+    "lat": 29.311028
+  },
+  "opportunity_number": "PAR-21-029",
+  "full_study_section": {
+    "srg_code": "DDNS",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Drug Discovery for the Nervous System Study Section[DDNS]"
+  },
+  "award_notice_date": "2025-12-10T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01MH132226",
+  "terms": "<4-Aminobutanoic Acid><4-Aminobutyric Acid><4-amino-butanoic acid><Action Potentials><Acute><Affect><Aminalon><Aminalone><Anhedonia><Assay><BBB permeabilization><BBB permeable><Behavior><Behavioral><Binding><Bioassay><Biological><Biological Assay><Biology><Bioluminescence><Brain><Brain Diseases><Brain Disorders><Brain Nervous System><CNS agent><Cardiac><Cell Body><Cells><Central Nervous System Agents><Central Nervous System Drugs><Chemicals><Classification><Clinical><Collection><Communities><Complement><Complement Proteins><Complex><Development><Disease><Disorder><Dose><Drug Design><Drug Kinetics><Dysfunction><Electrophysiology><Electrophysiology (science)><Encephalon><Encephalon Diseases><Excretory function><FGF-14><Fluorescence><Foundations><Functional disorder><GABA><Genetic><Globus Pallidus><Goals><High Throughput Assay><Intermediary Metabolism><Intracranial CNS Disorders><Intracranial Central Nervous System Disorders><Ion Channel><Ionic Channels><Isoforms><Knowledge><Lead><Ligand Binding><Ligands><Link><Longitudinal><Luciferase Immunologic><Luciferases><Manuals><Measures><Membrane Channels><Mental disorders><Mental health disorders><Metabolic><Metabolic Processes><Metabolism><Mice><Mice Mammals><Molecular><Molecular Interaction><Molecular Probes><Motivation><Murine><Mus><NAV1.6><NaCh6><Nature><Nerve Cells><Nerve Unit><Nervous System><Neural Cell><Neurocyte><Neurologic Body System><Neurologic Organ System><Neurons><Neuropharmacology><Neurophysiology / Electrophysiology><Nucleus Accumbens><Outcome><Output><Pathway interactions><Pb element><Permeability><Pharmacokinetics><Physiopathology><Process><Protein Isoforms><Proteins><Psychiatric Disease><Psychiatric Disorder><Receptor Protein><Regulation><Research><Rewards><Role><SCN8A><SCN8A gene><Slice><Solubility><Surface Plasmon Resonance><Systematics><Therapeutic><Toxic effect><Toxicities><Transgenic Mice><Validation><Ventral Tegmental Area><absorption><addiction><addictive disorder><behavior test><behavioral test><biologic><blood-brain barrier permeabilization><blood-brain barrier permeable><bloodbrain barrier permeabilization><bloodbrain barrier permeable><cell type><centrally acting drug><chemical library><clinical efficacy><complementation><confirmatory study><corroborate studies><design><designing><developmental><drug discovery><electrophysiological><excretion><fibroblast growth factor-14><flexibility><flexible><gamma-Aminobutyric Acid><heavy metal Pb><heavy metal lead><hedonic><high throughput screening><improved><in vitro activity><in vivo><innovate><innovation><innovative><intermolecular interaction><loss of function><luminescence><mental illness><motivated behavior><mutant><nano-molar><nanomolar><neural circuit><neural circuitry><neurocircuitry><neuronal><neuronal excitability><neuropsychiatric disease><neuropsychiatric disorder><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><optogenetics><pallidum><patch clamp><pathophysiology><pathway><pre-clinical><preclinical><protein protein interaction><psychiatric illness><psychologic><psychological><psychological disorder><receptor><replicability study><replicate studies><replicate the study><replication study><reproducibility study><research replication><response><small molecule><small molecule libraries><social role><sodium channel, voltage gated, type VIII, alpha subunit><synaptic circuit><synaptic circuitry><therapeutic agent development><therapeutic development><tool><validation studies><validations><ventral tegmentum><voltage><γ-Aminobutyric Acid>",
+  "pref_terms": "Action Potentials;Acute;Affect;Anhedonia;Behavior;Behavioral;Binding;Biological;Biological Assay;Biology;Bioluminescence;Brain;Brain Diseases;Cardiac;Cells;Central Nervous System Agents;Chemicals;Classification;Clinical;Collection;Communities;Complement;Complex;Development;Disease;Dose;Drug Design;Drug Kinetics;Electrophysiology (science);Excretory function;Fluorescence;Foundations;Functional disorder;Genetic;Globus Pallidus;Goals;Ion Channel;Knowledge;Lead;Ligand Binding;Ligands;Link;Longitudinal;Luciferases;Manuals;Measures;Mental disorders;Metabolic;Metabolism;Molecular;Molecular Probes;Motivation;Mus;Nature;Nervous System;Neurons;Neuropharmacology;Nucleus Accumbens;Outcome;Output;Pathway interactions;Permeability;Process;Protein Isoforms;Proteins;Regulation;Research;Rewards;Role;SCN8A gene;Slice;Solubility;Surface Plasmon Resonance;Therapeutic;Toxic effect;Transgenic Mice;Validation;Ventral Tegmental Area;absorption;addiction;behavior test;blood-brain barrier permeabilization;cell type;clinical efficacy;design;drug discovery;fibroblast growth factor-14;flexibility;gamma-Aminobutyric Acid;hedonic;high throughput screening;improved;in vitro activity;in vivo;innovation;intermolecular interaction;loss of function;luminescence;motivated behavior;mutant;nanomolar;neural circuit;neuronal excitability;neuropsychiatric disorder;novel;novel therapeutic intervention;optogenetics;patch clamp;pre-clinical;protein protein interaction;psychologic;receptor;reproducibility study;response;small molecule;small molecule libraries;therapeutic development;tool;validation studies;voltage",
+  "abstract_text": "ABSTRACT\nPsychiatric diseases are complex brain disorders associated with maladaptive plasticity of the brain circuit for\nwhich we lack predictive preclinical measures of clinical efficacy. To fill this gap, we need to use molecular\nknowledge to inform development of novel probes in order to interrogate the mechanisms that underlie circuit\ndeficits in these disorders and drive advanced therapeutic design. Protein-protein interactions (PPI) within ion\nchannel complexes fine-tune neuronal excitability and are emerging as links to the biology of psychiatric\ndisorders. Their highly specific and flexible interfaces make protein-channel interactions ideal targets for probe\ndevelopment. Such molecular probes would provide the neuropharmacology community with optimal research\ntools to parse out brain disease complexities and enable more effective drug design.\nWe have identified the PPI between the voltage-gated Na+ (Nav) Nav1.6 channel and its accessory regulator\nprotein, fibroblast growth factor 14 (FGF14) as a functionally relevant regulator of excitability of medium spiny\nneurons (MSN) in the nucleus accumbens (NAc); a central component of the mesocorticolimbic circuit whose\ndysfunction has been associated with a wide spectrum of neuropsychiatric disorders. Through a\nbioluminescence-based high-throughput screen (HTS) and a round of chemical optimization we have identified\nthe new brain permeable probe 1028 that modulates FGF14:Nav1.6 channel complex formation and increases\nNav1.6 channel availability and MSN firing. When systemically administrated, 1028 increases accumbal\nneuron firing and promotes hedonic states in situations lacking motivation, suggesting the compound can\nmodulate reward-related behaviors within the mesocorticolimbic circuit. Here, we are proposing to further\noptimize 1028 for in vivo use by improving its potency and metabolic stability and determine its mechanism of\naction at the molecular (Aim 1), cellular (Aim 2), circuital, and behavioral levels (Aim 3). Outcomes of this\nproposed research will generate the first-in-class brain-permeant chemical probes to interrogate the reward\ncircuit, providing the foundation for pre-therapeutic development of a new class of PPI-based leads for a broad\nspectrum of psychiatric disorders.",
+  "project_title": "Probing brain circuit and behavior with protein:protein interaction modulators",
+  "phr_text": "PROJECT NARRATIVE\nInnovative and integrated approaches are needed to enhance our understanding of the biology of psychiatric\ndisorders. Toward this goal, we will synthetize and validate new chemical probes targeting a protein-channel\ninteraction complex that regulates neuronal firing. We will utilize these probes as research tools to interrogate\nthe circuitry of the nucleus accumbens and advance the molecular and cellular understanding of psychiatric\ndisorders and addiction.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2025-12-01T00:00:00",
+  "budget_end": "2026-11-30T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 554768,
+  "indirect_cost_amt": 239464,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11284046",
+  "date_added": "2025-12-13T17:03:50"
+}

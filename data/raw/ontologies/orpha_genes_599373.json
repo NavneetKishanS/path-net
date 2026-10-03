@@ -1,0 +1,85 @@
+{
+  "data": {
+    "__count": 1,
+    "__licence": {
+      "identifier": "CC-BY-4.0",
+      "link": "https://creativecommons.org/licenses/by/4.0",
+      "name": "Creative Commons Attribution 4.0 International"
+    },
+    "results": {
+      "Date": "2026-06-23 07:57:31",
+      "DisorderGeneAssociation": [
+        {
+          "DisorderGeneAssociationStatus": "Assessed",
+          "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in",
+          "Gene": {
+            "ExternalReference": [
+              {
+                "Reference": "STXBP1",
+                "Source": "ClinVar"
+              },
+              {
+                "Reference": "ENSG00000136854",
+                "Source": "Ensembl"
+              },
+              {
+                "Reference": "STXBP1",
+                "Source": "Genatlas"
+              },
+              {
+                "Reference": "11444",
+                "Source": "HGNC"
+              },
+              {
+                "Reference": "602926",
+                "Source": "OMIM"
+              },
+              {
+                "Reference": "P61764",
+                "Source": "Reactome"
+              },
+              {
+                "Reference": "P61764",
+                "Source": "SwissProt"
+              }
+            ],
+            "GeneType": "gene with protein product",
+            "Locus": [
+              {
+                "GeneLocus": "9q34.11",
+                "LocusKey": 1
+              }
+            ],
+            "Symbol": "STXBP1",
+            "Synonym": [
+              "MUNC18-1",
+              "UNC18",
+              "hUNC18",
+              "nSec1",
+              "rbSec1",
+              "syntaxin-binding protein 1"
+            ],
+            "name": "syntaxin binding protein 1"
+          },
+          "SourceOfValidation": "32643187[PMID]"
+        }
+      ],
+      "DisorderGroup": "Disorder",
+      "ORPHAcode": 599373,
+      "OrphanetURL": "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=599373",
+      "Preferred term": "STXBP1-related developmental and epileptic encephalopathy",
+      "Typology": "Disease"
+    }
+  },
+  "datasetCategory": {
+    "lang": "en",
+    "name": "Rare diseases and associated genes"
+  },
+  "parameters": {
+    "path": {
+      "ORPHAcode": 599373
+    },
+    "query": {}
+  },
+  "uri": "https://api.orphadata.com/rd-associated-genes/orphacodes/599373"
+}

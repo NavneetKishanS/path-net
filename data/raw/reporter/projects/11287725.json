@@ -1,0 +1,133 @@
+{
+  "appl_id": 11287725,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1R03TR005987-01",
+  "project_serial_num": "TR005987",
+  "organization": {
+    "org_name": "UNIVERSITY OF IOWA",
+    "city": null,
+    "country": null,
+    "org_city": "IOWA CITY",
+    "org_country": "UNITED STATES",
+    "org_state": "IA",
+    "org_state_name": null,
+    "dept_type": "PHYSIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "062761671"
+    ],
+    "org_ueis": [
+      "Z1H9VJS8NG16"
+    ],
+    "primary_duns": "062761671",
+    "primary_uei": "Z1H9VJS8NG16",
+    "org_fips": "US",
+    "org_ipf_code": "3972901",
+    "org_zipcode": "522421320",
+    "external_org_id": 3972901
+  },
+  "award_type": "1",
+  "activity_code": "R03",
+  "award_amount": 155500,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "R03",
+    "ic_code": "TR",
+    "serial_num": "005987",
+    "support_year": "01",
+    "full_support_year": "01",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 8621083,
+      "first_name": "Christopher",
+      "middle_name": "A",
+      "last_name": "Ahern",
+      "is_contact_pi": false,
+      "full_name": "Christopher A Ahern",
+      "title": "ASSOCIATE PROFESSOR"
+    },
+    {
+      "profile_id": 1872937,
+      "first_name": "ROBERT",
+      "middle_name": "C",
+      "last_name": "PIPER",
+      "is_contact_pi": true,
+      "full_name": "ROBERT C PIPER",
+      "title": "PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "PIPER, ROBERT C",
+  "program_officers": [
+    {
+      "first_name": "KARLIE",
+      "middle_name": "ROXANNE",
+      "last_name": "SHARMA",
+      "full_name": "KARLIE ROXANNE SHARMA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "TR",
+    "abbreviation": "NCATS",
+    "name": "National Center for Advancing Translational Sciences",
+    "admin_org_id": "12500062",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "TR",
+      "name": "National Center for Advancing Translational Sciences",
+      "abbreviation": "NCATS",
+      "total_cost": 155500.0,
+      "direct_cost_ic": 100000.0,
+      "indirect_cost_ic": 55500.0
+    }
+  ],
+  "cong_dist": "IA-01",
+  "spending_categories": null,
+  "project_start_date": "2026-02-01T00:00:00",
+  "project_end_date": "2027-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -91.542152,
+    "lat": 41.664405
+  },
+  "opportunity_number": "PAR-25-122",
+  "full_study_section": {
+    "srg_code": "BBM",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Biochemistry and Biophysics of Membranes Study Section[BBM]"
+  },
+  "award_notice_date": "2026-02-01T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R03TR005987",
+  "terms": "<4-Aminobutanoic Acid><4-Aminobutyric Acid><4-amino-butanoic acid><Address><Aminalon><Aminalone><Arrhythmia><Atrial Fibrillation><Auricular Fibrillation><Behavior><Body Tissues><Brugada syndrome><CNS Nervous System><Cardiac><Cardiac Arrhythmia><Cell Body><Cell Line><Cell surface><CellLine><Cells><Central Nervous System><Chlorides><Complex><Congestive Cardiomyopathy><DNA mutation><Data><Dependence><Development><Dilated Cardiomyopathy><Disease><Disorder><Dysfunction><Electrophysiology><Electrophysiology (science)><Ensure><Epilepsy><Epileptic Seizures><Epileptics><Family><Functional disorder><GABA><GABA Receptor><Genetic Change><Genetic defect><Genetic mutation><H+ element><HSAN><Haploid Cells><Heart Arrhythmias><Hereditary Sensory Autonomic Neuropathy><Hereditary Sensory and Autonomic Neuropathies><Human><Human Cell Line><Hydrogen Ions><Investigation><Isoforms><Link><Long QT Syndrome><MPZL1><MPZL1 gene><Measures><Mediating><Membrane><Modern Man><Mutation><Myelin Protein Zero-Like 1><NAV1.6><NaCh6><Nervous System><Neuraxis><Neurologic Body System><Neurologic Organ System><Neurophysiology / Electrophysiology><Orphan Disease><Outcome><PZR><Paroxysmal extreme pain disorder><Peripheral Nervous System><Pharmacology><Physiology><Physiopathology><Play><Property><Protein Isoforms><Protein Zero-Related><Proteins><Protons><Rare Diseases><Rare Disorder><Receptor Protein><Recovery><Regulation><Role><SCN8A><SCN8A encephalopathy><SCN8A gene><Seizure Disorder><Sodium Channel><Sodium Ion Channels><Strains Cell Lines><Surface><System><Tissues><Work><autosome><cardiac function><cultured cell line><density><developmental><electrophysiological><epilepsia><epileptogenic><function of the heart><gamma-Aminobutyric Acid><gamma-Aminobutyric Acid Receptors><genome mutation><heart function><human disease><insight><membrane structure><new drug treatments><new drugs><new pharmacological therapeutic><new therapeutics><new therapy><next generation therapeutics><novel><novel drug treatments><novel drugs><novel pharmaco-therapeutic><novel pharmacological therapeutic><novel therapeutics><novel therapy><orphan disorder><patch clamp><pathophysiology><protein expression><receptor><social role><sodium channel, voltage gated, type VIII, alpha subunit><stable cell line><trafficking><voltage><γ-Aminobutyric Acid>",
+  "pref_terms": "Address;Arrhythmia;Atrial Fibrillation;Behavior;Brugada syndrome;Cardiac;Cell Line;Cell surface;Cells;Central Nervous System;Chlorides;Complex;Data;Dependence;Development;Dilated Cardiomyopathy;Disease;Electrophysiology (science);Ensure;Epilepsy;Family;Functional disorder;GABA Receptor;Haploid Cells;Hereditary Sensory and Autonomic Neuropathies;Human;Human Cell Line;Investigation;Link;Long QT Syndrome;MPZL1 gene;Measures;Mediating;Membrane;Mutation;Nervous System;Outcome;Paroxysmal extreme pain disorder;Peripheral Nervous System;Pharmacology;Physiology;Play;Property;Protein Isoforms;Proteins;Protons;Rare Diseases;Recovery;Regulation;Role;SCN8A encephalopathy;SCN8A gene;Sodium Channel;Surface;System;Tissues;Work;autosome;density;gamma-Aminobutyric Acid;heart function;human disease;insight;novel;novel therapeutics;patch clamp;protein expression;receptor;stable cell line;trafficking;voltage",
+  "abstract_text": "ABSTRACT\nThis proposal addresses the need to investigate understudied proteins associated with rare diseases, such as\nBrugada Syndrome (PAR-25-122). One class of proteins highlighted in this RFA—Scn2b, Scn3b, and Scn4b—\nbelongs to a family of β subunits that associate with the large pore-forming α subunits of voltage-gated sodium\nchannels (NaV), which regulate electrical excitability throughout the body. In total, there are four distinct β\nsubunits that can mix and match with nine different α subunits. Beta subunits are widely recognized for their\nability to regulate the gating properties, trafficking, and pharmacology of Nav channel complexes. Dysfunction\nof these subunits has been linked to several human diseases, including epilepsy and cardiac arrhythmias such\nas long QT syndrome, atrial fibrillation, and Brugada syndrome. Additionally, mutations in NaV α subunits have\nbeen implicated in rare diseases, including SCN8A encephalopathy (SCN8A/ NaV 1.6), hereditary sensory and\nautonomic neuropathy type 7 (SCN11A/ NaV1.9), and dilated cardiomyopathy-1E (SCN5A/ NaV1.5).\nA critical step in understanding how beta subunits contribute to disease is elucidating their precise modulatory\neffects on NaV function. Electrophysiological studies in heterologous cells have demonstrated the ability of beta\nsubunits to influence channel gating, pharmacology, and trafficking. However, results across multiple studies\nhave been inconsistent, often due to variability in the cell lines used. A major confounding factor is that many\ncell lines endogenously express beta subunits, which can interfere with exogenously introduced β subunits\nunder investigation.\nTo overcome this limitation, we developed a specialized cell line lacking all β subunits, including Scn2b, Scn3b,\nand Scn4b, as well as Scn1b, MPZ, MPZL1, MPZL2, and MPZL3. These cells, termed beHAPe cells (beta-\neliminated haploid cells for expression), provide a controlled system to study NaV channel regulation. Our initial\nelectrophysiological studies using beHAPe cells reveal novel properties of beta subunits in modulating NaV1.5,\nthe primary α subunit in cardiac tissue. Building on these findings, we propose to produce stably-expressing\nhuman (HEK) cell lines to systematically define the roles of Scn2b, Scn3b, and Scn4b in modulating additional\nα subunits, including NaV1.6 (a key subunit in the central nervous system) and NaV1.7, NaV 1.8, and NaV 1.9\n(which are predominant in the peripheral nervous system). This work will provide deeper insights into their\nfunction in these tissues and their associated diseases. Additionally, our new data suggest that Nav1.8 plays a\npreviously unrecognized role in cardiac function alongside NaV1.5. Understanding how β subunits modulate\npore-forming subunits could provide new insights into their involvement in cardiac arrhythmias, expanding their\nknown roles beyond the nervous system. Taken together, in addition to providing new information on the\nunderstudied Scn2b, Scn3b, and Scn4b proteins, our newly generated stable cell lines will enable studies for\nthe development of novel therapeutics for isoform specific modulation of specific α- and β-subunit pairs.",
+  "project_title": "Gating properties of specific voltage-gated sodium channel complexes involved in rare disease",
+  "phr_text": "NARRATIVE\n This proposal addresses the need to investigate understudied proteins involved in rare disease Scn2b,\nScn3b, and Scn4b and the large pore-forming α subunits of voltage-gated sodium channels (PAR-25-122). We\nwill produce stably-expressing human cell lines to systematically define the roles of Scn2b, Scn3b, and Scn4b\nin modulating additional the NaV α-subunit. A key outcome of this project will be stable cell lines will advance\nmechanisms of sodium channel physiology and disease, and will enable studies for the development of novel\ntherapeutics for isoform specific modulation of specific α- and β-subunit pairs for the treatment of rare disease.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-02-01T00:00:00",
+  "budget_end": "2027-01-31T00:00:00",
+  "cfda_code": "93.350",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 100000,
+  "indirect_cost_amt": 55500,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11287725",
+  "date_added": "2026-02-07T17:04:09"
+}

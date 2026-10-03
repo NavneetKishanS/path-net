@@ -1,0 +1,27 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+  "query": "KCNQ2",
+  "retrieved_at": "2026-10-03T20:49:43+00:00",
+  "requests": [
+    {
+      "query.term": "KCNQ2",
+      "format": "json",
+      "pageSize": 50,
+      "countTotal": "true"
+    }
+  ],
+  "total_count": 9,
+  "study_ids": [
+    "NCT03043560",
+    "NCT04639310",
+    "NCT05157737",
+    "NCT03934268",
+    "NCT05450822",
+    "NCT02885389",
+    "NCT04827901",
+    "NCT04912856",
+    "NCT04802135"
+  ],
+  "truncated": false
+}

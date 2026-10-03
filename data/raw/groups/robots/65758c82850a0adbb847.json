@@ -1,0 +1,7 @@
+{
+  "url": "https://www.kcnq2cure.org/robots.txt",
+  "status_code": 200,
+  "retrieved_at": "2026-10-03T20:48:40Z",
+  "text": "Crawl-delay: 10\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.kcnq2cure.org/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+  "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae"
+}

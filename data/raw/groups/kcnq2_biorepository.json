@@ -1,0 +1,24 @@
+{
+  "source_id": "kcnq2_biorepository",
+  "requested_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+  "source_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+  "retrieved_at": "2026-10-03T20:48:46Z",
+  "status_code": 200,
+  "backend": "direct",
+  "content_type": "text/html; charset=UTF-8",
+  "encoding": "UTF-8",
+  "body_sha256": "80c877d04ec2db8b713bc6477fbff95ab701d64ba614a0d025974a040ab67c89",
+  "text_sha256": "ce371555e15952e17721e143033f117f954ba59dee0b2abca1b238bff0a2a1b9",
+  "body_path": "raw/groups/kcnq2_biorepository.body",
+  "text_path": "raw/groups/kcnq2_biorepository.txt",
+  "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+  "robots_checks": [
+    {
+      "url": "https://www.kcnq2cure.org/robots.txt",
+      "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
+      "retrieved_at": "2026-10-03T20:48:40Z",
+      "allowed": true
+    }
+  ],
+  "licence": "KCNQ2 Cure Alliance copyright; no open licence verified; public summary only; no patient records"
+}

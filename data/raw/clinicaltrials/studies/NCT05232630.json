@@ -1,0 +1,326 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05232630",
+      "orgStudyIdInfo": {
+        "id": "FENDEEP"
+      },
+      "organization": {
+        "fullName": "Hospital Ruber Internacional",
+        "class": "OTHER"
+      },
+      "briefTitle": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+      "officialTitle": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+      "acronym": "FENDEEP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-10-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-17",
+      "studyFirstSubmitQcDate": "2022-01-31",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-09-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-09-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Antonio Gil-Nagel",
+        "investigatorTitle": "Epilepsy Program Director",
+        "investigatorAffiliation": "Hospital Ruber Internacional"
+      },
+      "leadSponsor": {
+        "name": "Hospital Ruber Internacional",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Zogenix, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a pilot non-controlled clinical trial with adjunctive fenfluramine for the treatment of five different types of developmental and epileptic encephalopathies (DEEs) focused on epileptic and \"non-epileptic outcomes\": SYNGAP1 and STXBP1 encephalopathies, inv-dup(15) encephalopathy, multifocal or bilateral malformations of cortical development, and continuous spikes and waves during sleep. The main goal is to assess changes in seizure frequency comparing before and after treatment with fenfluramine in five specific types of developmental and epileptic encephalopathies (DEEs). Secondary objectives of this study are the analysis of changes in seizure intensity and duration, and \"non-epileptic outcomes\" such as variations in cognitive activity, level of alertness, impulsivity/self-control, gait stability and other alterations that might be detected during the interview and physical examination."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Refractory Epilepsy",
+        "SYNGAP1 Encephalopathy",
+        "STXBP1 Encephalopathy With Epilepsy",
+        "Inv Dup(15) Encephalopathy",
+        "Multifocal or Bilateral Malformations of Cortical Development",
+        "Continuous Spike and Waves During Slow Sleep"
+      ],
+      "keywords": [
+        "refractory epilepsy",
+        "SYNGAP1",
+        "STXBP1",
+        "Inv Dup(15)",
+        "developmental and epileptic encephalopathies",
+        "DEEs",
+        "Epilepsy",
+        "Drug Resistant Epilepsy",
+        "Intractable epilepsy",
+        "Nervous System Diseases",
+        "Genetic Diseases, Inborn"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "4 Group Assignment",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "- Group 1A.",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with genetic testing showing a pathogenic or likely pathogenic variant in main synaptopathy genes (SYNGAP1 and STXBP1)",
+          "interventionNames": [
+            "Drug: Fenfluramine"
+          ]
+        },
+        {
+          "label": "Group 1B.",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with genetic testing showing a pathogenic or likely pathogenic inverted duplication of chromosome 15 \\[inv-dup (15)\\].",
+          "interventionNames": [
+            "Drug: Fenfluramine"
+          ]
+        },
+        {
+          "label": "Group 1C.",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with neuroimaging showing multifocal or bilateral malformations of cortical development.",
+          "interventionNames": [
+            "Drug: Fenfluramine"
+          ]
+        },
+        {
+          "label": "Group 2.",
+          "type": "EXPERIMENTAL",
+          "description": "Electroclinical diagnosis of Continuous Spikes and Waves during Sleep (CSWS) syndrome, with baseline video-EEG monitoring showing epileptiform activity occupying at least 50% of slow sleep tracing, after failing at least 3 antiseizure medications",
+          "interventionNames": [
+            "Drug: Fenfluramine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fenfluramine",
+          "description": "Administration of fenfluramine. Fenfluramine treatment dose: Between 0.2 and 0.7 mg/kg/day if no concomitant Stiripentol (STP), maximum dose: 40 mg/day \\[or 0.5 mg/kg/day, maximum 30 mg/day, for subjects taking concomitant STP\\]. Dosing will be started with 0.1mg/day per one week, then 0.2mg/kg/day per one week, then as investigator clinical decision-making, up to 0.4, 0.6 or 0.7mg/kg/day, with a maximum of 0.2mg/kg/day escalation every week.\n\nVisits: There will be four visits; (visit 1) screening; (visit 2) treatment initiation, +2 weeks; (visit 3, telematic) +8 weeks; (visit 4) +14 weeks.",
+          "armGroupLabels": [
+            "- Group 1A.",
+            "Group 1B.",
+            "Group 1C.",
+            "Group 2."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Seizure frequency.",
+          "description": "Seizure diary.",
+          "timeFrame": "12 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Seizure severity.",
+          "description": "Chalfont Seizure Severity Scale (CSSS).",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Behaviour.",
+          "description": "Behaviour Rating Inventory of Executive Function.",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Gross motor function.",
+          "description": "Gross Motor Function Measure (GMFM).",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Sleep habits.",
+          "description": "Parent-reported Children's Sleep Habits Questionnaire.",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Global impression of change.",
+          "description": "Caregiver Global Impression of Change.",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Global impression of change.",
+          "description": "Clinician Clinical Global Impression of Change - Improvement (CDD-CGI-I).",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Quality of life and family impact.",
+          "description": "PedsQL 4.0.",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Epileptiform activity",
+          "description": "12h video-EEG monitoring.",
+          "timeFrame": "12 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "GENERAL INCLUSION CRITERIA:\n\n* Age between 2 and 35 years (both included).\n* Diagnosis of epilepsy associated with some degree of intellectual disability, starting before 11 years of age.\n* All patients will have a phenotype consistent with their genetic, electroclinical or neuroimaging diagnosis.\n\nSPECIFIC INCLUSION CRITERIA PER GROUP:\n\n---GROUP 1: Non-controlled epilepsy after failing at least 3 antiseizure medications, with a minimum of 4 countable seizures with motor semiology per month during the baseline period of 3 months.\n\n* Group 1A: Patients with genetic testing showing a pathogenic or likely pathogenic variant in main synaptopathy genes (SYNGAP1 and STXBP1).\n* Group 1B: Patients with genetic testing showing a pathogenic or likely pathogenic inverted duplication of chromosome 15 \\[inv-dup (15)\\].\n* Group 1C: Patients with neuroimaging showing multifocal or bilateral malformations of cortical development.\n\n  * GROUP 2:\n\nElectroclinical diagnosis of Continuous Spikes and Waves during Sleep (CSWS) syndrome, with baseline video-EEG monitoring showing epileptiform activity occupying at least 50% of slow sleep tracing, after failing at least 3 antiseizure medications.\n\nADDITIONAL INCLUSION CRITERIA:\n\nIn addition, all subjects must meet all of the following inclusion criteria to be enrolled into the study:\n\n* Subject is male or non-pregnant, non-lactating female. Female subjects of childbearing potential must not be pregnant or breast-feeding. Female subjects of childbearing potential must have a negative urine or serum pregnancy test at screening and during the study.\n* Receiving at least 1 concomitant antiseizure medications (ASMs) and up to 4 concomitant ASMs, inclusive. Ketogenic Diet (KD) and Vagus Nerve Stimulation (VNS) are permitted but do not count towards the total number of ASMs. Rescue medications for seizures are not counted towards the total number of ASMs.\n* All medications or interventions for epilepsy (including ketogenic diet and vagal nerve stimulation) must be stable for at least 4 weeks prior to screening and are expected to remain stable throughout the study.\n* Subject has been informed of the nature of the study and informed consent has been obtained from the legally responsible parent/guardian.\n* Subject has provided assent in accordance with Institutional Review Board (IRB)/Ethics Committee requirements, if capable.\n* Subject's parent/caregiver is willing and able to be compliant with diary completion, visit schedule and study drug accountability.\n\nEXCLUSION CRITERIA\n\nSubjects who meet any of the following exclusion criteria will not be enrolled into the study:\n\n* Subject has a known hypersensitivity to fenfluramine or any of the excipients in the study medication.\n* Subject has only non-motor seizures (such as absences), for group 1.\n* Subject has pulmonary arterial hypertension.\n* Subject has current or past history of cardiovascular or cerebrovascular disease.\n* Subject has current or recent history of Anorexia Nervosa, bulimia, or depression within the prior year that required medical treatment or psychological treatment for a duration greater than 1 month.\n* Subject has a current or past history of glaucoma.\n* Subject has moderate or severe renal or hepatic impairment.\n* Subject is receiving concomitant therapy with any of the following: centrally-acting anorectic agents; monoamine-oxidase inhibitors; any centrally-acting compound with clinically appreciable amount of serotonin agonist or antagonist properties, including serotonin reuptake inhibition; other centrally-acting noradrenergic agonists.\n* Subject is currently receiving an investigational product.\n* Subject has participated in another clinical trial within the past 30 days (calculated from that study's last scheduled visit).\n* Subject is at imminent risk of self-harm or harm to others.\n* Subject is unwilling or unable to comply with scheduled visits, drug administration plan, laboratory tests, other study procedures, and study restrictions.\n* Subject is institutionalized in a general nursing home (i.e., in a facility that does not provide skilled epilepsy care).\n* Subject does not have a reliable caregiver who can provide seizure diary information throughout the study.\n* Subject has a severe clinically significant condition.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "maximumAge": "35 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Antonio Gil-Nagel, MD, PHD",
+          "affiliation": "Hospital Ruber Internacional",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Ruber Internacional",
+          "city": "Madrid",
+          "state": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069279",
+          "term": "Drug Resistant Epilepsy"
+        },
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        },
+        {
+          "id": "C538039",
+          "term": "Chromosome 15q, tetrasomy"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005277",
+          "term": "Fenfluramine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010627",
+          "term": "Phenethylamines"
+        },
+        {
+          "id": "D005021",
+          "term": "Ethylamines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

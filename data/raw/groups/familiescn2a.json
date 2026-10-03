@@ -1,0 +1,24 @@
+{
+  "source_id": "familiescn2a",
+  "requested_url": "https://www.scn2a.org/",
+  "source_url": "https://www.scn2a.org/",
+  "retrieved_at": "2026-10-03T20:48:37Z",
+  "status_code": 200,
+  "backend": "direct",
+  "content_type": "text/html; charset=UTF-8",
+  "encoding": "UTF-8",
+  "body_sha256": "35285fe8299fd2d1f58f66e4ef65a30c41d9adc041f9b50bd53ea252ba35f9e0",
+  "text_sha256": "d78ad8d5d9ddfa139e8f5a059d402fcac0449b857754285d88c389e35c088e25",
+  "body_path": "raw/groups/familiescn2a.body",
+  "text_path": "raw/groups/familiescn2a.txt",
+  "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+  "robots_checks": [
+    {
+      "url": "https://www.scn2a.org/robots.txt",
+      "sha256": "5df758aaad54730b211a0dde18ab0a8d342d343aa0a380da873f0c017ed3d2f1",
+      "retrieved_at": "2026-10-03T20:48:35Z",
+      "allowed": true
+    }
+  ],
+  "licence": "FamilieSCN2A Foundation copyright; no open licence verified; retain short attributable excerpts only"
+}

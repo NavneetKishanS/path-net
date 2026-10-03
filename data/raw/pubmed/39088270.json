@@ -1,0 +1,22 @@
+{
+  "pmid": "39088270",
+  "title": "Exosomal TNF-α mediates voltage-gated Na+ channel 1.6 overexpression and contributes to brain tumor-induced neuronal hyperexcitability.",
+  "abstract": "Patients affected by glioma frequently experience epileptic discharges; however, the causes of brain tumor-related epilepsy (BTRE) are still not completely understood. We investigated the mechanisms underlying BTRE by analyzing the effects of exosomes released by U87 glioma cells and by patient-derived glioma cells. Rat hippocampal neurons incubated for 24 hours with these exosomes exhibited increased spontaneous firing, while their resting membrane potential shifted positively by 10-15 mV. Voltage clamp recordings demonstrated that the activation of the Na+ current shifted toward more hyperpolarized voltages by 10-15 mV. To understand the factors inducing hyperexcitability, we focused on exosomal cytokines. Western blot and ELISAs showed that TNF-α was present inside glioma-derived exosomes. Remarkably, incubation with TNF-α fully mimicked the phenotype induced by exosomes, with neurons firing continuously, while their resting membrane potential shifted positively. Real-time PCR revealed that both exosomes and TNF-α induced overexpression of the voltage-gated Na+ channel Nav1.6, a low-threshold Na+ channel responsible for hyperexcitability. When neurons were preincubated with infliximab, a specific TNF-α inhibitor, the hyperexcitability induced by exosomes and TNF-α was drastically reduced. We propose that infliximab, an FDA-approved drug to treat rheumatoid arthritis, could ameliorate the conditions of glioma patients with BTRE.",
+  "authors": [
+    "Cesar Adolfo Sanchez Trivino",
+    "Renza Spelat",
+    "Federica Spada",
+    "Camilla D'Angelo",
+    "Ivana Manini",
+    "Irene Giulia Rolle",
+    "Tamara Ius",
+    "Pietro Parisse",
+    "Anna Menini",
+    "Daniela Cesselli",
+    "Miran Skrap",
+    "Fabrizia Cesca",
+    "Vincent Torre"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39088270/",
+  "retrieved_at": "2026-10-03T20:49:44+00:00"
+}

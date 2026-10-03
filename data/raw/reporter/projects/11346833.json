@@ -1,0 +1,124 @@
+{
+  "appl_id": 11346833,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1R01NS148505-01",
+  "project_serial_num": "NS148505",
+  "organization": {
+    "org_name": "STANFORD UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "STANFORD",
+    "org_country": "UNITED STATES",
+    "org_state": "CA",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "009214214"
+    ],
+    "org_ueis": [
+      "HJD6G4D6TJY5"
+    ],
+    "primary_duns": "009214214",
+    "primary_uei": "HJD6G4D6TJY5",
+    "org_fips": "US",
+    "org_ipf_code": "8046501",
+    "org_zipcode": "943052004",
+    "external_org_id": 8046501
+  },
+  "award_type": "1",
+  "activity_code": "R01",
+  "award_amount": 614510,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "148505",
+    "support_year": "01",
+    "full_support_year": "01",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 7021997,
+      "first_name": "JULIET",
+      "middle_name": "KLASING",
+      "last_name": "KNOWLES",
+      "is_contact_pi": true,
+      "full_name": "JULIET KLASING KNOWLES",
+      "title": "ASSISTANT PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "KNOWLES, JULIET KLASING",
+  "program_officers": [
+    {
+      "first_name": "SEVERN",
+      "middle_name": "BORDEN",
+      "last_name": "CHURN",
+      "full_name": "SEVERN BORDEN CHURN"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 614510.0,
+      "direct_cost_ic": 397420.0,
+      "indirect_cost_ic": 217090.0
+    }
+  ],
+  "cong_dist": "CA-16",
+  "spending_categories": null,
+  "project_start_date": "2026-09-01T00:00:00",
+  "project_end_date": "2031-08-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -122.17047,
+    "lat": 37.426852
+  },
+  "opportunity_number": "PA-25-301",
+  "full_study_section": {
+    "srg_code": "CMBG",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Cellular and Molecular Biology of Glia Study Section[CMBG]"
+  },
+  "award_notice_date": "2026-07-30T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS148505",
+  "terms": "<3-ethyl-3-methyl-2,5-pyrrolidinedione><Affect><Anterior><Assay><BDNF><BDNF Receptor><BDNF/NT-3 Growth Factors Receptor><Basal Transcription Factor><Basal transcription factor genes><Bilateral><Bioassay><Biological Assay><Brain><Brain Nervous System><Brain-Derived Neurotrophic Factor><Brain-Derived Neurotrophic Factor Receptor><Caring><Cell Body><Cell Communication and Signaling><Cell Differentiation><Cell Differentiation process><Cell Growth in Number><Cell Maturation><Cell Multiplication><Cell Proliferation><Cell Signaling><Cells><Cellular Proliferation><Cessation of life><Corpus Callosum><Corpus Callosums><Data><Death><Demyelinations><Drugs><EEG><Electroencephalogram><Electroencephalography><Electron Microscopy><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Ethosuccimid><Ethosuximide><Ethylmethylsuccimide><Exhibits><Fiber><GP145-TRKB><Gene Transcription><General Transcription Factor Gene><General Transcription Factors><Generalized Epilepsy><Generalized Seizure Disorder><Genes><Genetic><Genetic Models><Genetic Transcription><Glia><Glial Cells><Histology><In vivo two-photon calcium imaging><Intracellular Communication and Signaling><Kolliker's reticulum><Learning><Longitudinal><Lysolecithins><Lysophosphatidylcholines><MR Imaging><MR Tomography><MRI><MRIs><Magnetic Resonance Imaging><Maps><Medical Imaging, Magnetic Resonance / Nuclear Magnetic Resonance><Medication><Methods><Mice><Mice Mammals><Modeling><Molecular><Morbidity><Murine><Mus><Myelin><Myelin Sheath><NAV1.6><NMR Imaging><NMR Tomography><NTRK2 Receptor><NaCh6><Nature><Nerve Cells><Nerve Unit><Neural Cell><Neural Transmission><Neurocyte><Neuroglia><Neuroglial Cells><Neurons><Neurosciences><Neurotrophic Tyrosine Kinase Receptor Type 2><Non-neuronal cell><Nonneuronal cell><Nuclear Magnetic Resonance Imaging><Oligodendrocytes><Oligodendrocytus><Oligodendroglia><Oligodendroglia Cell><Pathogenicity><Persons><Pharmaceutical Preparations><Physiology><Pilot Projects><Process><RNA Expression><Recurrence><Recurrent><Role><SCN8A><SCN8A gene><STAT3><STAT3 gene><Seizure Disorder><Seizures><Side><Signal Transduction><Signal Transduction Systems><Signaling><Single-Nucleus Sequencing><Site><Slice><Structure><Synaptic Transmission><TRKB Tyrosine Kinase><Testing><Therapeutic Intervention><Time><Transcription><Transcription Factor Proto-Oncogene><Transcription factor genes><Transcriptional Control><Transcriptional Regulation><Work><Zeugmatography><biological signal transduction><cell type><cellular differentiation><cost><demyelinate><drug/agent><epilepsia><epileptogenic><experiment><experimental research><experimental study><experiments><imaging approach><imaging based approach><in vivo><in vivo calcium imaging><innovate><innovation><innovative><intervention therapy><mortality><mouse model><murine model><myelination><nerve cement><neural circuit><neural circuitry><neural imaging><neuro-imaging><neurocircuitry><neuroimaging><neurological imaging><neuronal><neuronal excitability><neuronal patterning><neurophysiological><neurophysiology><novel><oligodendrocyte precursor><oligodendrocyte precursor cell><oligodendrocyte progenitor><oligodendrocyte stem cell><pharmacologic><pilot study><prevent><preventing><sNuc-Seq><single nucleus RNA-sequencing><single nucleus seq><single-nucleus RNA-seq><snRNA sequencing><snRNA-seq><social role><sodium channel, voltage gated, type VIII, alpha subunit><somatosensory><spatial RNA sequencing><spatial gene expression analysis><spatial gene expression profiling><spatial resolved transcriptome sequencing><spatial transcriptome analysis><spatial transcriptome profiling><spatial transcriptome sequencing><spatial transcriptomics><spatially resolved transcriptomics><spatio transcriptomics><synaptic circuit><synaptic circuitry><targeted drug therapy><targeted drug treatments><targeted therapeutic><targeted therapeutic agents><targeted therapy><targeted treatment><transcription factor><trkB Receptor><trkB(gp145) Protein>",
+  "pref_terms": "Affect;Anterior;Bilateral;Biological Assay;Brain;Brain-Derived Neurotrophic Factor;Caring;Cell Differentiation process;Cell Maturation;Cell Proliferation;Cells;Cessation of life;Corpus Callosum;Data;Demyelinations;Electroencephalography;Electron Microscopy;Epilepsy;Ethosuximide;Exhibits;Fiber;Generalized Epilepsy;Genes;Genetic;Genetic Models;Genetic Transcription;Histology;Learning;Longitudinal;Lysophosphatidylcholines;Magnetic Resonance Imaging;Maps;Methods;Modeling;Molecular;Morbidity;Mus;Myelin;Myelin Sheath;Nature;Neuroglia;Neurons;Neurosciences;Neurotrophic Tyrosine Kinase Receptor Type 2;Oligodendroglia;Pathogenicity;Persons;Pharmaceutical Preparations;Physiology;Pilot Projects;Process;Recurrence;Role;SCN8A gene;STAT3 gene;Seizures;Side;Signal Transduction;Site;Slice;Structure;Synaptic Transmission;Testing;Therapeutic Intervention;Time;Transcriptional Regulation;Work;cell type;cost;experimental study;imaging approach;in vivo;in vivo calcium imaging;innovation;mortality;mouse model;myelination;neural circuit;neuroimaging;neuronal excitability;neuronal patterning;neurophysiology;novel;oligodendrocyte progenitor;pharmacologic;prevent;single nucleus RNA-sequencing;somatosensory;spatial transcriptomics;targeted treatment;transcription factor",
+  "abstract_text": "Project Summary / Abstract\nEpilepsy, defined by recurrent, unprovoked seizures, affects 1 in 26 people. Generalized epilepsy, which is\n20% of all epilepsy, involves seizures that begin in both sides of the brain at once. These seizures have spike\nwave discharge correlates on electroencephalogram (EEG), in which the spikes reflect neuronal\nhypersynchrony (excessively correlated firing of neurons, both within and between the bilateral cortices).\nSevere forms of generalized epilepsy involve seizures that become more frequent over time (epilepsy\nprogression), which is thought to result from hypersynchrony. Standard therapies targeting neuronal excitability\nand synaptic transmission are only partially effective, leading to gaps in care and early mortality. We\ndiscovered that seizure-induced myelin plasticity can promote generalized epilepsy progression\n(Knowles et al, Nature Neuroscience, 2022). Myelin plasticity occurs when repetitive patterns of neuronal\nactivity induce changes in myelin sheath structure. In the healthy brain, myelin plasticity is required for learning\nand adaptation. However, we found that in a mouse model of progressive generalized epilepsy (Scn8a+/-),\nrepetitive seizures also induce myelination, primarily in the corpus callosum. Suppression of myelin plasticity\nby selective deletion of TrkB receptors from oligodendrocyte precursor cells (OPCs) in Scn8a+/- TrkB OPC\ncKO mice prevented epilepsy progression. Seizure-induced myelination through oligodendroglial BDNF-to-\nTrkB signaling (which induces OPC proliferation and differentiation to oligodendrocytes) may thus be a\nfundamental mechanism in multiple forms of epilepsy. We hypothesize that seizure-induced callosal\nmyelination promotes cortical hypersynchrony and generalized epilepsy progression, through BDNF-\ninduced transcription in OPCs. In Aim 1, we will test the role of seizure-induced callosal myelin plasticity in\ncortical hypersynchrony, using innovative brain slice physiology and in vivo calcium imaging approaches. In\nAim 2, we will use single nucleus RNA sequencing and spatial transcriptomics to determine transcriptional\nregulation of seizure-induced oligodendrogenesis and epilepsy progression. In Aim 3, we will determine\nwhether seizure-induced myelin plasticity promotes epilepsy progression in a second genetic model of severe\ngeneralized epilepsy, Gabrb3+/D120N, using MRI myelin mapping and conditional, inducible deletion of TrkB\nreceptors from OPCs. This work will establish myelin plasticity as a novel pathogenic mechanism in severe\ngeneralized epilepsy, opening new avenues for therapeutic intervention.",
+  "project_title": "Myelin Plasticity: A Novel Mechanism of Generalized Epilepsy",
+  "phr_text": "Project Narrative\nSevere generalized epilepsy involves repeated, unprovoked seizures that become more frequent over time\n(epilepsy progression), which can lead to early death. We previously discovered a new mechanism of epilepsy\nprogression in the Scn8a+/- mouse model of generalized epilepsy: seizures induce new myelination within the\nseizure network, and seizure-induced myelination promotes further seizures. To determine how this process\noccurs, how it may be stopped and the applicability of seizure-induced myelination in multiple genetic forms of\ngeneralized epilepsy, we propose experiments to: (1) determine how seizure-induced myelination influences\nneural circuit dynamics, (2) identify underlying transcriptional mechanisms in oligodendroglial cells, and (3)\ndetermine whether seizure-induced myelination occurs in a second genetic model of generalized epilepsy,\nGabrb3+/D120N.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-09-01T00:00:00",
+  "budget_end": "2027-08-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 397420,
+  "indirect_cost_amt": 217090,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11346833",
+  "date_added": "2026-09-05T17:04:02"
+}

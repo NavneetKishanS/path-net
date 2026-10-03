@@ -1,0 +1,35 @@
+{
+  "source": "PubMed E-utilities",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "query": "29538625[PMID] OR 32073399[PMID] OR 38651838[PMID] OR 36301686[PMID] OR 41642117[PMID]",
+  "request": {
+    "db": "pubmed",
+    "term": "29538625[PMID] OR 32073399[PMID] OR 38651838[PMID] OR 36301686[PMID] OR 41642117[PMID]",
+    "retmax": 5,
+    "retmode": "json",
+    "sort": "relevance",
+    "datetype": "pdat",
+    "mindate": "1800/01/01",
+    "maxdate": "2026/10/03"
+  },
+  "retrieved_at": "2026-10-03T20:51:24+00:00",
+  "total_count": 5,
+  "returned_pmids": [
+    "32073399",
+    "29538625",
+    "38651838",
+    "36301686",
+    "41642117"
+  ],
+  "cached_pmids": [
+    "32073399",
+    "29538625",
+    "38651838",
+    "41642117"
+  ],
+  "missing_abstract_pmids": [],
+  "note": "Ranked search snapshot; only nonempty abstracts enter the P2 input directory.",
+  "excluded_pmids": {
+    "36301686": "Unrelated LVAD heart-failure paper; rejected after source inspection; retained only in original API response."
+  }
+}

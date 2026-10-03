@@ -1,0 +1,12 @@
+{
+  "pmid": "39637139",
+  "title": "Functional Exploration of Epilepsy Genes in Patient-Derived Cells",
+  "abstract": "Advances in human induced pluripotent stem cell (iPSC) approaches have greatly expanded the use of patient-derived cellular models, including cortical-like neurons and brain organoids, to study genetic epilepsies. New protocols to differentiate iPSCs into various neural cell types, and to generate brain region-specific organoids, have accelerated progress. In addition, the application of gene editing techniques adds rigor to these studies and offers the opportunity to model rare genetic epilepsies by enabling correction or insertion of mutations to generate isogenic controls or virtual patients, respectively. Studies using patient-derived cells have provided insight into the mechanisms underlying seizures and associated comorbidities for an increasing number of epilepsy gene variants. In this chapter, methods for generating iPSCs, the culture and gene editing of human pluripotent stem cells (hPSCs; both iPSCs and human embryonic stem cells), and differentiation strategies to derive cortical-like neurons are described. Next, physiological assays that can be applied to study hPSC-derived neuronal and network activity are discussed. Finally, the chapter reviews studies interrogating the functional effects of specific epilepsy gene variants using hPSC-derived 2D neural and 3D brain organoid cultures, as well as the use of iPSC-derived cardiac myocytes to study the most devastating epilepsy complication, sudden unexpected death in epilepsy (SUDEP).The chapter ends with a description of current challenges and future directions for hPSC modeling of genetic epilepsies.",
+  "authors": [
+    "Maria C. Varela",
+    "Ranmal Samarasinghe",
+    "Jack M. Parent"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39637139/",
+  "retrieved_at": "2026-10-03T20:48:51+00:00"
+}

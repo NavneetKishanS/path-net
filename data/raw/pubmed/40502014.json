@@ -1,0 +1,16 @@
+{
+  "pmid": "40502014",
+  "title": "PQBP1-dependent alternative RNA splicing underlies high calorie diet-induced cognitive impairment.",
+  "abstract": "High calorie-high fat diet (HFD) has been implicated as a pathological modifier of brain diseases including neurodegenerative dementias, but the detailed molecular mechanisms remain largely unknown. Here we report that HFD suppresses PPARγ-mediated transcriptional expression of PQBP1 , a RNA splicing factor implicated in human intellectual disability and Alzheimer's disease. RNAseq-based comprehensive analyses of alternative RNA splicing (AS) in HFD-fed mice for 1 or 6 weeks and in PQBP1-cKO mice reveal their common changes, which weigh on synapse-related genes. Betweenness-based extraction of core molecules from the common changes reveals CASK, Cacnb1 and Cyfip2 as key molecules of the network. Both CASK and Cacnb1 regulate STXBP1, a causative gene for infantile epilepsy syndrome and an essential factor for synapse vesicle release, via their direct interaction. In addition, our analysis suggests that Syt1 plays a role specifically in HFD for 1 week. HFD-induced AS isoforms of CASK, Cacnb1, Cyfip2 and Syt1 impair pre-synapse vesicle release in primary neurons. AAV-PQBP1, AAV-CASK, AAV-Cacnb1, AAV-Cyfip2 or AAV-Syt1 rescues synapse and/or cognitive dysfunctions in HFD mice, genetically supporting the pathological PQBP1-presynase axis in HFD. Moreover, immunohistochemistry experiments suggest that the pathological axis plays roles not only in excitatory neurons, but also in inhibitory neurons of the brain. Collectively, our results unravel a novel molecular mechanism for brain dysfunction when mice are exposed to a HFD.",
+  "authors": [
+    "Yong Huang",
+    "Hidenori Homma",
+    "Xigui Chen",
+    "Hikari Tanaka",
+    "Kyota Fujita",
+    "Albert R La Spada",
+    "Hitoshi Okazawa"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40502014/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

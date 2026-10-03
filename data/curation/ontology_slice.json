@@ -1,0 +1,3829 @@
+{
+  "schema_version": 1,
+  "genes": [
+    {
+      "id": "gene_stxbp1",
+      "type": "gene",
+      "name": "STXBP1",
+      "synonyms": [
+        "MUNC18-1",
+        "UNC18",
+        "hUNC18",
+        "nSec1",
+        "rbSec1",
+        "syntaxin binding protein 1"
+      ],
+      "ext_ids": {
+        "HGNC": "HGNC:11444",
+        "NCBIGene": "6812",
+        "Ensembl": "ENSG00000136854"
+      },
+      "props": {
+        "description": "syntaxin binding protein 1",
+        "source_id": "hgnc_stxbp1",
+        "hgnc_modified": "2025-04-24T00:00:00Z"
+      }
+    },
+    {
+      "id": "gene_scn2a",
+      "type": "gene",
+      "name": "SCN2A",
+      "synonyms": [
+        "HBSCI",
+        "HBSCII",
+        "Nav1.2",
+        "sodium voltage-gated channel alpha subunit 2"
+      ],
+      "ext_ids": {
+        "HGNC": "HGNC:10588",
+        "NCBIGene": "6326",
+        "Ensembl": "ENSG00000136531"
+      },
+      "props": {
+        "description": "sodium voltage-gated channel alpha subunit 2",
+        "source_id": "hgnc_scn2a",
+        "hgnc_modified": "2025-04-24T00:00:00Z"
+      }
+    },
+    {
+      "id": "gene_kcnq2",
+      "type": "gene",
+      "name": "KCNQ2",
+      "synonyms": [
+        "BFNC",
+        "ENB1",
+        "HNSPC",
+        "KCNA11",
+        "Kv7.2",
+        "potassium voltage-gated channel subfamily Q member 2"
+      ],
+      "ext_ids": {
+        "HGNC": "HGNC:6296",
+        "NCBIGene": "3785",
+        "Ensembl": "ENSG00000075043"
+      },
+      "props": {
+        "description": "potassium voltage-gated channel subfamily Q member 2",
+        "source_id": "hgnc_kcnq2",
+        "hgnc_modified": "2023-01-20T00:00:00Z"
+      }
+    },
+    {
+      "id": "gene_scn8a",
+      "type": "gene",
+      "name": "SCN8A",
+      "synonyms": [
+        "CIAT",
+        "CerIII",
+        "NaCh6",
+        "Nav1.6",
+        "PN4",
+        "sodium voltage-gated channel alpha subunit 8"
+      ],
+      "ext_ids": {
+        "HGNC": "HGNC:10596",
+        "NCBIGene": "6334",
+        "Ensembl": "ENSG00000196876"
+      },
+      "props": {
+        "description": "sodium voltage-gated channel alpha subunit 8",
+        "source_id": "hgnc_scn8a",
+        "hgnc_modified": "2023-01-20T00:00:00Z"
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "id": "dis_stxbp1",
+      "type": "disease",
+      "name": "developmental and epileptic encephalopathy, 4",
+      "synonyms": [
+        "DEE4",
+        "EIEE4",
+        "STXBP1 early infantile epileptic encephalopathy",
+        "STXBP1-related encephalopathy",
+        "developmental and epileptic encephalopathy 4",
+        "developmental and epileptic encephalopathy, 4",
+        "early infantile epileptic encephalopathy 4",
+        "early infantile epileptic encephalopathy caused by mutation in STXBP1",
+        "epileptic encephalopathy, early infantile, 4"
+      ],
+      "ext_ids": {
+        "MONDO": "MONDO:0012812",
+        "MEDGEN": "436917",
+        "OMIM": "612164",
+        "Orphanet": "599373"
+      },
+      "props": {
+        "description": "Early infantile epileptic encephalopathy 4 (EIEE4) is a form of early infantile epileptic encephalopathy, which refers to a group of neurological conditions characterized by severe seizures beginning in infancy. EIEE4, specifically, is often associated with partial complex or tonic-clonic seizures, although other seizure types have been reported. Other signs and symptoms mayinclude intellectual disability, reduced muscle tone (hypotonia), hypsarrhythmia (an irregular pattern seen on EEG), dyskinesia (involuntary movement of the body), and spastic di- or quadriplegia. EIEE4 is caused by changes (mutations) in the STXBP1 gene and is inherited in an autosomal dominant manner. Treatment is based on the signs and symptoms present in each person. For example, certain medications are often prescribed to help control seizures, although they are not always effective in all people with the condition.",
+        "gene_symbol": "STXBP1",
+        "source_id": "mondo_0012812",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "STXBP1-related early-onset encephalopathy",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "epileptic encephalopathy, early infantile, type 4",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dis_scn2a",
+      "type": "disease",
+      "name": "SCN2A-related disorder",
+      "synonyms": [
+        "SCN2A disorders",
+        "SCN2A related conditions",
+        "SCN2A-RD"
+      ],
+      "ext_ids": {
+        "MONDO": "MONDO:1060245"
+      },
+      "props": {
+        "description": "Any nervous system disorder in which the cause of the disease is a variation in the SCN2A gene, which encodes the Nav1.2 sodium channel critical for neuronal function. SCN2A-related disorders span a broad phenotypic spectrum, from self-limited familial neonatal-infantile epilepsy through severe early-onset epileptic encephalopathies to later-onset epilepsy, autism spectrum disorder and intellectual disability without seizures, and episodic ataxia. Because Nav1.2 is essential for brain development as well as neuronal excitability, the presentation is predominantly neurodevelopmental where developmental delay, intellectual disability, and autism spectrum disorder are the most consistent features across the spectrum, present even in the absence of seizures. Clinical severity is broadly associated with the functional effect of the variant on the Nav1.2 channel, with gain-of-function changes typically linked to early severe epilepsy and loss-of-function changes more often associated with autism spectrum disorder and intellectual disability or intellectual disability, although these relationships are complex and not fully understood.",
+        "gene_symbol": "SCN2A",
+        "source_id": "mondo_1060245",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": []
+      }
+    },
+    {
+      "id": "dis_scn2a_dee",
+      "type": "disease",
+      "name": "developmental and epileptic encephalopathy, 11",
+      "synonyms": [
+        "DEE11",
+        "EIEE11",
+        "SCN2A early infantile epileptic encephalopathy",
+        "developmental and epileptic encephalopathy 11",
+        "early infantile epileptic encephalopathy caused by mutation in SCN2A",
+        "epileptic encephalopathy, early infantile, 11"
+      ],
+      "ext_ids": {
+        "MONDO": "MONDO:0013388",
+        "MEDGEN": "462337",
+        "OMIM": "613721"
+      },
+      "props": {
+        "description": "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN2A gene.",
+        "gene_symbol": "SCN2A",
+        "source_id": "mondo_0013388",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": []
+      }
+    },
+    {
+      "id": "dis_kcnq2",
+      "type": "disease",
+      "name": "developmental and epileptic encephalopathy, 7",
+      "synonyms": [
+        "DEE7",
+        "EIEE7",
+        "KCNQ2-NEE",
+        "developmental and epileptic encephalopathy 7",
+        "epileptic encephalopathy, early infantile, 7"
+      ],
+      "ext_ids": {
+        "MONDO": "MONDO:0013387",
+        "MEDGEN": "462336",
+        "Orphanet": "439218"
+      },
+      "props": {
+        "description": "KCNQ2-related epileptic encephalopathy is a severe form of neonatal epilepsy that usually manifests in newborns during the first week of life with seizures (that affect alternatively both sides of the body), often accompanied by clonic jerking or more complex motor behavior, as well as signs of encephalopathy such as diffuse hypotonia, limb spasticity, lack of visual fixation and tracking and mild to moderate intellectual deficiency. The severity can range from controlled to intractable seizures and mild/moderate to severe intellectual disability.",
+        "gene_symbol": "KCNQ2",
+        "source_id": "mondo_0013387",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "KCNQ2-related disorders",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "epileptic encephalopathy, early infantile, type 7",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dis_scn8a",
+      "type": "disease",
+      "name": "developmental and epileptic encephalopathy, 13",
+      "synonyms": [
+        "DEE13",
+        "EIEE13",
+        "SCN8A early infantile epileptic encephalopathy",
+        "developmental and epileptic encephalopathy 13",
+        "early infantile epileptic encephalopathy caused by mutation in SCN8A",
+        "early infantile epileptic encephalopathy-13",
+        "epileptic encephalopathy, early infantile, 13"
+      ],
+      "ext_ids": {
+        "MONDO": "MONDO:0013801",
+        "MEDGEN": "482821",
+        "OMIM": "614558"
+      },
+      "props": {
+        "description": "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN8A gene.",
+        "gene_symbol": "SCN8A",
+        "source_id": "mondo_0013801",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "SCN8A encephalopathy",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "SCN8A epilepsy",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "epileptic encephalopathy, early infantile, type 13",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    }
+  ],
+  "phenotypes": [
+    {
+      "id": "hp_0001249",
+      "type": "phenotype",
+      "name": "Intellectual disability",
+      "synonyms": [
+        "Intellectual disability",
+        "Mental deficiency",
+        "Mental retardation",
+        "Mental retardation, nonspecific",
+        "Mental-retardation"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0001249"
+      },
+      "props": {
+        "source_id": "hp_0001249",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Low intelligence",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Poor school performance",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Dull intelligence",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Nonprogressive intellectual disability",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Nonprogressive mental retardation",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0001250",
+      "type": "phenotype",
+      "name": "Seizure",
+      "synonyms": [
+        "Seizures"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0001250"
+      },
+      "props": {
+        "source_id": "hp_0001250",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Epilepsy",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Epileptic seizure",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0001263",
+      "type": "phenotype",
+      "name": "Global developmental delay",
+      "synonyms": [
+        "GDD"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0001263"
+      },
+      "props": {
+        "source_id": "hp_0001263",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Cognitive delay",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Delayed cognitive development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Delayed development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Delayed developmental milestones",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Delayed intellectual development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Delayed milestones",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Delayed psychomotor development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Developmental delay",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Developmental delay in early childhood",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Developmental delay, global",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Developmental retardation",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Lack of psychomotor development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Mental and motor retardation",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Motor and developmental delay",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Motormental retardation",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor delay",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor development deficiency",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor development failure",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor developmental delay",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Retarded development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Retarded mental development",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Retarded psychomotor development",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0001252",
+      "type": "phenotype",
+      "name": "Hypotonia",
+      "synonyms": [
+        "Low muscle tone",
+        "Low or weak muscle tone"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0001252"
+      },
+      "props": {
+        "source_id": "hp_0001252",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Central hypotonia",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Muscle hypotonia",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Muscular hypotonia",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Peripheral hypotonia",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0000729",
+      "type": "phenotype",
+      "name": "Autistic behavior",
+      "synonyms": [
+        "ASD",
+        "Autistic behaviour"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0000729"
+      },
+      "props": {
+        "source_id": "hp_0000729",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Autism spectrum disorder",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Autism spectrum disorders",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Autistic behaviors",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Autistic behaviours",
+            "scope": "hasRelatedSynonym"
+          },
+          {
+            "name": "Pervasive developmental disorder",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0001251",
+      "type": "phenotype",
+      "name": "Ataxia",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0001251"
+      },
+      "props": {
+        "source_id": "hp_0001251",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Cerebellar ataxia",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0001332",
+      "type": "phenotype",
+      "name": "Dystonia",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0001332"
+      },
+      "props": {
+        "source_id": "hp_0001332",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Dystonic disease",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Dystonic movements",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0001337",
+      "type": "phenotype",
+      "name": "Tremor",
+      "synonyms": [
+        "Tremor",
+        "Tremors"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0001337"
+      },
+      "props": {
+        "source_id": "hp_0001337",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": []
+      }
+    },
+    {
+      "id": "hp_0001344",
+      "type": "phenotype",
+      "name": "Absent speech",
+      "synonyms": [
+        "Absent speech development",
+        "Lack of language development",
+        "Lack of speech",
+        "No speech development",
+        "No speech or language development",
+        "Nonverbal"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0001344"
+      },
+      "props": {
+        "source_id": "hp_0001344",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": []
+      }
+    },
+    {
+      "id": "hp_0002376",
+      "type": "phenotype",
+      "name": "Developmental regression",
+      "synonyms": [
+        "Loss of developmental milestones",
+        "Mental deterioration in childhood"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0002376"
+      },
+      "props": {
+        "source_id": "hp_0002376",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Loss of acquired milestones",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Loss of milestones",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Neurodevelopmental regression",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor regression",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor regression beginning in infancy",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor regression in infants",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Psychomotor regression, progressive",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0011097",
+      "type": "phenotype",
+      "name": "Epileptic spasm",
+      "synonyms": [
+        "Epileptic spasms",
+        "Salaam convulsions",
+        "Salaam seizures"
+      ],
+      "ext_ids": {
+        "HPO": "HP:0011097"
+      },
+      "props": {
+        "source_id": "hp_0011097",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Salaam convulsion",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "Salaam seizure",
+            "scope": "untyped_in_ols_response"
+          },
+          {
+            "name": "West syndrome",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp_0002521",
+      "type": "phenotype",
+      "name": "Hypsarrhythmia",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002521"
+      },
+      "props": {
+        "source_id": "hp_0002521",
+        "ontology_version": "2026-09-01",
+        "ontology_synonyms": [
+          {
+            "name": "Hypsarrhythmia by EEG",
+            "scope": "untyped_in_ols_response"
+          }
+        ]
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "var_clinvar_196039",
+      "type": "variant",
+      "name": "NM_001040142.2(SCN2A):c.5645G>A (p.Arg1882Gln)",
+      "synonyms": [
+        "R1882Q"
+      ],
+      "ext_ids": {
+        "ClinVar": "VCV000196039.26",
+        "ClinVarVariation": "196039"
+      },
+      "props": {
+        "gene_id": "gene_scn2a",
+        "gene_symbol": "SCN2A",
+        "effect": "unknown",
+        "classification": "Pathogenic/Likely pathogenic",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2026/08/13 00:00",
+        "molecular_consequences": [
+          "missense variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/196039/",
+        "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function."
+      },
+      "provenance": {
+        "source_id": "clinvar_scn2a",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=196039,194555&retmode=json",
+        "retrieved_at": "2026-10-03T20:50:28.670856+00:00",
+        "cache_path": "raw/ontologies/clinvar_scn2a.json",
+        "raw_sha256": "6931126aec9293989c3644003af57d0cbf17276618612ee8b26c1020eec9d26a",
+        "source_record_locator": "result.196039",
+        "snippet": "NM_001040142.2(SCN2A):c.5645G>A (p.Arg1882Gln)",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "196039",
+          "obj_type": "single nucleotide variant",
+          "accession": "VCV000196039",
+          "accession_version": "VCV000196039.26",
+          "title": "NM_001040142.2(SCN2A):c.5645G>A (p.Arg1882Gln)",
+          "variation_set": [
+            {
+              "measure_id": "193200",
+              "variation_xrefs": [
+                {
+                  "db_source": "ClinGen",
+                  "db_id": "CA202100"
+                },
+                {
+                  "db_source": "OMIM",
+                  "db_id": "182390.0020"
+                },
+                {
+                  "db_source": "dbSNP",
+                  "db_id": "794727444"
+                }
+              ],
+              "variation_name": "NM_001040142.2(SCN2A):c.5645G>A (p.Arg1882Gln)",
+              "cdna_change": "c.5645G>A",
+              "aliases": [
+                "p.R1882Q:CGA>CAA"
+              ],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "2",
+                  "band": "2q24.3",
+                  "start": "165389451",
+                  "stop": "165389451",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "165389451",
+                  "display_stop": "165389451",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "2",
+                  "band": "2q24.3",
+                  "start": "166245961",
+                  "stop": "166245961",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "166245961",
+                  "display_stop": "166245961",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "single nucleotide variant",
+              "canonical_spdi": "NC_000002.12:165389450:G:A",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV001371871",
+              "SCV000807296",
+              "SCV001443540",
+              "SCV000494507",
+              "SCV002099507",
+              "SCV002106995",
+              "SCV000228475",
+              "SCV005061853",
+              "SCV002605499",
+              "SCV003524742",
+              "SCV000242813"
+            ],
+            "rcv": [
+              "RCV000176763",
+              "RCV000189181",
+              "RCV000417008",
+              "RCV001265414",
+              "RCV001847815",
+              "RCV001849328",
+              "RCV002516714"
+            ]
+          },
+          "germline_classification": {
+            "description": "Pathogenic/Likely pathogenic",
+            "last_evaluated": "2026/08/13 00:00",
+            "review_status": "criteria provided, multiple submitters, no conflicts",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "Orphanet",
+                    "db_id": "140927"
+                  },
+                  {
+                    "db_source": "Orphanet",
+                    "db_id": "306"
+                  },
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C1843140"
+                  },
+                  {
+                    "db_source": "MONDO",
+                    "db_id": "MONDO:0011904"
+                  },
+                  {
+                    "db_source": "OMIM",
+                    "db_id": "607745"
+                  }
+                ],
+                "trait_name": "Seizures, benign familial infantile, 3"
+              },
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "Orphanet",
+                    "db_id": "1934"
+                  },
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C3150987"
+                  },
+                  {
+                    "db_source": "MONDO",
+                    "db_id": "MONDO:0013388"
+                  },
+                  {
+                    "db_source": "OMIM",
+                    "db_id": "613721"
+                  }
+                ],
+                "trait_name": "Developmental and epileptic encephalopathy, 11"
+              },
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C3661900"
+                  }
+                ],
+                "trait_name": "not provided"
+              },
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "Orphanet",
+                    "db_id": "1934"
+                  },
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C3150987"
+                  },
+                  {
+                    "db_source": "MONDO",
+                    "db_id": "MONDO:0013388"
+                  },
+                  {
+                    "db_source": "OMIM",
+                    "db_id": "613721"
+                  }
+                ],
+                "trait_name": "Developmental and epileptic encephalopathy, 11"
+              },
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C0036572"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0001250"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0001275"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0001303"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002125"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002182"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002279"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002306"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002348"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002391"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002417"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002430"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002431"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002432"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002434"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002437"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002466"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002479"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0002794"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0006997"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0010520"
+                  }
+                ],
+                "trait_name": "Seizure"
+              },
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C0543888"
+                  },
+                  {
+                    "db_source": "Human Phenotype Ontology",
+                    "db_id": "HP:0200134"
+                  }
+                ],
+                "trait_name": "Epileptic encephalopathy"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "SCN2A",
+          "chr_sort": "02",
+          "location_sort": "00000000000165389451",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "SCN2A",
+              "geneid": "6326",
+              "strand": "+",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "missense variant"
+          ],
+          "protein_change": "R1882Q",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "13ac3a7e134dcff773ea643d3ad9e9e7ec058fd6deb556b41518a5f603121b79"
+      }
+    },
+    {
+      "id": "var_clinvar_194555",
+      "type": "variant",
+      "name": "NM_001040142.2(SCN2A):c.2558G>A (p.Arg853Gln)",
+      "synonyms": [
+        "R853Q"
+      ],
+      "ext_ids": {
+        "ClinVar": "VCV000194555.34",
+        "ClinVarVariation": "194555"
+      },
+      "props": {
+        "gene_id": "gene_scn2a",
+        "gene_symbol": "SCN2A",
+        "effect": "unknown",
+        "classification": "Pathogenic",
+        "review_status": "reviewed by expert panel",
+        "last_evaluated": "2023/05/09 00:00",
+        "molecular_consequences": [
+          "missense variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/194555/",
+        "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function."
+      },
+      "provenance": {
+        "source_id": "clinvar_scn2a",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=196039,194555&retmode=json",
+        "retrieved_at": "2026-10-03T20:50:28.670856+00:00",
+        "cache_path": "raw/ontologies/clinvar_scn2a.json",
+        "raw_sha256": "6931126aec9293989c3644003af57d0cbf17276618612ee8b26c1020eec9d26a",
+        "source_record_locator": "result.194555",
+        "snippet": "NM_001040142.2(SCN2A):c.2558G>A (p.Arg853Gln)",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "194555",
+          "obj_type": "single nucleotide variant",
+          "accession": "VCV000194555",
+          "accession_version": "VCV000194555.34",
+          "title": "NM_001040142.2(SCN2A):c.2558G>A (p.Arg853Gln)",
+          "variation_set": [
+            {
+              "measure_id": "191718",
+              "variation_xrefs": [
+                {
+                  "db_source": "ClinGen",
+                  "db_id": "CA210022"
+                },
+                {
+                  "db_source": "UniProtKB",
+                  "db_id": "Q99250#VAR_070001"
+                },
+                {
+                  "db_source": "OMIM",
+                  "db_id": "182390.0019"
+                },
+                {
+                  "db_source": "dbSNP",
+                  "db_id": "794727152"
+                }
+              ],
+              "variation_name": "NM_001040142.2(SCN2A):c.2558G>A (p.Arg853Gln)",
+              "cdna_change": "c.2558G>A",
+              "aliases": [
+                "p.R853Q:CGG>CAG",
+                "NM_021007.3:c.2558G>A"
+              ],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "2",
+                  "band": "2q24.3",
+                  "start": "165342465",
+                  "stop": "165342465",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "165342465",
+                  "display_stop": "165342465",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "2",
+                  "band": "2q24.3",
+                  "start": "166198975",
+                  "stop": "166198975",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "166198975",
+                  "display_stop": "166198975",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "single nucleotide variant",
+              "canonical_spdi": "NC_000002.12:165342464:G:A",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV000611316",
+              "SCV000843638",
+              "SCV001426566",
+              "SCV001371870",
+              "SCV002099514",
+              "SCV000242746",
+              "SCV000226350",
+              "SCV000255457",
+              "SCV000586759",
+              "SCV001443390",
+              "SCV000950141",
+              "SCV005061656",
+              "SCV005905322",
+              "SCV002605501",
+              "SCV006302700",
+              "SCV007596733",
+              "SCV007599106"
+            ],
+            "rcv": [
+              "RCV000174944",
+              "RCV000197677",
+              "RCV000515237",
+              "RCV001265273",
+              "RCV001847809"
+            ]
+          },
+          "germline_classification": {
+            "description": "Pathogenic",
+            "last_evaluated": "2023/05/09 00:00",
+            "review_status": "reviewed by expert panel",
+            "fda_recognized_database": "true",
+            "trait_set": [
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "Orphanet",
+                    "db_id": "528084"
+                  },
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "C5568766"
+                  },
+                  {
+                    "db_source": "MONDO",
+                    "db_id": "MONDO:0100038"
+                  }
+                ],
+                "trait_name": "Complex neurodevelopmental disorder"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "SCN2A",
+          "chr_sort": "02",
+          "location_sort": "00000000000165342465",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "SCN2A",
+              "geneid": "6326",
+              "strand": "+",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "missense variant"
+          ],
+          "protein_change": "R853Q",
+          "fda_recognized_database": "true"
+        },
+        "record_sha256": "d25b12e0166e075c6aaa4054e9029d09b69e559b686871fd3efdb68b3612370f"
+      }
+    }
+  ],
+  "disease_genes": [
+    {
+      "src": "dis_stxbp1",
+      "dst": "gene_stxbp1",
+      "type": "disease_gene",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "evidence": {
+        "source_id": "orpha_genes_599373",
+        "source_type": "orphadata",
+        "source_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/599373",
+        "retrieved_at": "2026-10-03T20:49:34.280762+00:00",
+        "cache_path": "raw/ontologies/orpha_genes_599373.json",
+        "raw_sha256": "c3e93720bd1c608d5c28042b2aa7050f1e158e7618599f58490e22ef8306efe3",
+        "source_record_locator": "data.results.DisorderGeneAssociation[Gene.Symbol=STXBP1]",
+        "snippet": "Disease-causing germline mutation(s) in",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "DisorderGeneAssociationStatus": "Assessed",
+          "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in",
+          "Gene": {
+            "ExternalReference": [
+              {
+                "Reference": "STXBP1",
+                "Source": "ClinVar"
+              },
+              {
+                "Reference": "ENSG00000136854",
+                "Source": "Ensembl"
+              },
+              {
+                "Reference": "STXBP1",
+                "Source": "Genatlas"
+              },
+              {
+                "Reference": "11444",
+                "Source": "HGNC"
+              },
+              {
+                "Reference": "602926",
+                "Source": "OMIM"
+              },
+              {
+                "Reference": "P61764",
+                "Source": "Reactome"
+              },
+              {
+                "Reference": "P61764",
+                "Source": "SwissProt"
+              }
+            ],
+            "GeneType": "gene with protein product",
+            "Locus": [
+              {
+                "GeneLocus": "9q34.11",
+                "LocusKey": 1
+              }
+            ],
+            "Symbol": "STXBP1",
+            "Synonym": [
+              "MUNC18-1",
+              "UNC18",
+              "hUNC18",
+              "nSec1",
+              "rbSec1",
+              "syntaxin-binding protein 1"
+            ],
+            "name": "syntaxin binding protein 1"
+          },
+          "SourceOfValidation": "32643187[PMID]"
+        },
+        "record_sha256": "b9b866b25c6fb3e0317bfddf06bd30d8f2d6c7e8fbfe48028ce069990f922413"
+      }
+    },
+    {
+      "src": "dis_scn2a",
+      "dst": "gene_scn2a",
+      "type": "disease_gene",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "evidence": {
+        "source_id": "mondo_1060245",
+        "source_type": "mondo",
+        "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245",
+        "retrieved_at": "2026-10-03T20:49:35.532806+00:00",
+        "cache_path": "raw/ontologies/mondo_1060245.json",
+        "raw_sha256": "870942c45cd0586d387c6ce81e6468e35c45c50144fd565c22d7f45ed5990652",
+        "source_record_locator": "_embedded.terms[0].description[0]",
+        "snippet": "Any nervous system disorder in which the cause of the disease is a variation in the SCN2A gene, which encodes the Nav1.2 sodium channel critical for neuronal function. SCN2A-related disorders span a broad phenotypic spectrum, from self-limited familial neonatal-infantile epilepsy through severe early-onset epileptic encephalopathies to later-onset epilepsy, autism spectrum disorder and intellectual disability without seizures, and episodic ataxia. Because Nav1.2 is essential for brain development as well as neuronal excitability, the presentation is predominantly neurodevelopmental where developmental delay, intellectual disability, and autism spectrum disorder are the most consistent features across the spectrum, present even in the absence of seizures. Clinical severity is broadly associated with the functional effect of the variant on the Nav1.2 channel, with gain-of-function changes typically linked to early severe epilepsy and loss-of-function changes more often associated with autism spectrum disorder and intellectual disability or intellectual disability, although these relationships are complex and not fully understood.",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "iri": "http://purl.obolibrary.org/obo/MONDO_1060245",
+          "lang": "en",
+          "description": [
+            "Any nervous system disorder in which the cause of the disease is a variation in the SCN2A gene, which encodes the Nav1.2 sodium channel critical for neuronal function. SCN2A-related disorders span a broad phenotypic spectrum, from self-limited familial neonatal-infantile epilepsy through severe early-onset epileptic encephalopathies to later-onset epilepsy, autism spectrum disorder and intellectual disability without seizures, and episodic ataxia. Because Nav1.2 is essential for brain development as well as neuronal excitability, the presentation is predominantly neurodevelopmental where developmental delay, intellectual disability, and autism spectrum disorder are the most consistent features across the spectrum, present even in the absence of seizures. Clinical severity is broadly associated with the functional effect of the variant on the Nav1.2 channel, with gain-of-function changes typically linked to early severe epilepsy and loss-of-function changes more often associated with autism spectrum disorder and intellectual disability or intellectual disability, although these relationships are complex and not fully understood."
+          ],
+          "synonyms": [
+            "SCN2A disorders",
+            "SCN2A related conditions",
+            "SCN2A-RD"
+          ],
+          "annotation": {
+            "Creator": [
+              "https://orcid.org/0000-0002-7638-4659"
+            ],
+            "id": [
+              "MONDO:1060245"
+            ],
+            "term tracker item": [
+              "https://github.com/monarch-initiative/mondo/issues/10205"
+            ]
+          },
+          "label": "SCN2A-related disorder",
+          "ontology_name": "mondo",
+          "ontology_prefix": "MONDO",
+          "ontology_iri": "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+          "is_obsolete": false,
+          "term_replaced_by": null,
+          "is_defining_ontology": true,
+          "has_children": true,
+          "is_root": false,
+          "short_form": "MONDO_1060245",
+          "obo_id": "MONDO:1060245",
+          "in_subset": null,
+          "obo_definition_citation": [
+            {
+              "definition": "Any nervous system disorder in which the cause of the disease is a variation in the SCN2A gene, which encodes the Nav1.2 sodium channel critical for neuronal function. SCN2A-related disorders span a broad phenotypic spectrum, from self-limited familial neonatal-infantile epilepsy through severe early-onset epileptic encephalopathies to later-onset epilepsy, autism spectrum disorder and intellectual disability without seizures, and episodic ataxia. Because Nav1.2 is essential for brain development as well as neuronal excitability, the presentation is predominantly neurodevelopmental where developmental delay, intellectual disability, and autism spectrum disorder are the most consistent features across the spectrum, present even in the absence of seizures. Clinical severity is broadly associated with the functional effect of the variant on the Nav1.2 channel, with gain-of-function changes typically linked to early severe epilepsy and loss-of-function changes more often associated with autism spectrum disorder and intellectual disability or intellectual disability, although these relationships are complex and not fully understood.",
+              "oboXrefs": [
+                {
+                  "database": "PMID",
+                  "id": "28379373",
+                  "description": null,
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/28379373"
+                },
+                {
+                  "database": "PMID",
+                  "id": "31904126",
+                  "description": null,
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/31904126"
+                },
+                {
+                  "database": "PMID",
+                  "id": "31924505",
+                  "description": null,
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/31924505"
+                },
+                {
+                  "database": "PMID",
+                  "id": "38651838",
+                  "description": null,
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/38651838"
+                },
+                {
+                  "database": "PMID",
+                  "id": "40694750",
+                  "description": null,
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/40694750"
+                },
+                {
+                  "database": null,
+                  "id": "https://orcid.org/0000-0001-9310-0163",
+                  "description": null,
+                  "url": "https://orcid.org/0000-0001-9310-0163"
+                },
+                {
+                  "database": null,
+                  "id": "https://scn2a.org/pdf/scn2arelated_disorders.pdf",
+                  "description": null,
+                  "url": "https://scn2a.org/pdf/scn2arelated_disorders.pdf"
+                }
+              ]
+            }
+          ],
+          "obo_xref": null,
+          "obo_synonym": [
+            {
+              "name": "SCN2A disorders",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": null,
+                  "id": "https://orcid.org/0000-0001-9310-0163",
+                  "description": null,
+                  "url": "https://orcid.org/0000-0001-9310-0163"
+                }
+              ]
+            },
+            {
+              "name": "SCN2A related conditions",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": null,
+                  "id": "https://orcid.org/0000-0001-9310-0163",
+                  "description": null,
+                  "url": "https://orcid.org/0000-0001-9310-0163"
+                },
+                {
+                  "database": null,
+                  "id": "https://www.rarechromo.org/media/information/Chromosome%20%202/SCN2A%20related%20conditions%20FTNW.pdf",
+                  "description": null,
+                  "url": "https://www.rarechromo.org/media/information/Chromosome%20%202/SCN2A%20related%20conditions%20FTNW.pdf"
+                }
+              ]
+            },
+            {
+              "name": "SCN2A-RD",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": null,
+                  "id": "https://orcid.org/0000-0001-9310-0163",
+                  "description": null,
+                  "url": "https://orcid.org/0000-0001-9310-0163"
+                }
+              ]
+            }
+          ],
+          "is_preferred_root": false,
+          "_links": {
+            "self": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245?lang=en"
+            },
+            "parents": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/parents"
+            },
+            "ancestors": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/ancestors"
+            },
+            "hierarchicalParents": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalParents"
+            },
+            "hierarchicalAncestors": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalAncestors"
+            },
+            "jstree": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/jstree"
+            },
+            "children": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/children"
+            },
+            "descendants": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/descendants"
+            },
+            "hierarchicalChildren": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalChildren"
+            },
+            "hierarchicalDescendants": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/hierarchicalDescendants"
+            },
+            "graph": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/graph"
+            },
+            "has_material_basis_in_germline_mutation_in": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_1060245/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+            }
+          }
+        },
+        "record_sha256": "6d89ee3639ac5e4b5d05209fd5aebdc1f34d11f0f5d9f158c9ca881e1a4df1f4"
+      }
+    },
+    {
+      "src": "dis_scn2a_dee",
+      "dst": "gene_scn2a",
+      "type": "disease_gene",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "evidence": {
+        "source_id": "mondo_0013388",
+        "source_type": "mondo",
+        "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013388",
+        "retrieved_at": "2026-10-03T20:50:08.646355+00:00",
+        "cache_path": "raw/ontologies/mondo_0013388.json",
+        "raw_sha256": "60c1134ed36edb55b4f789e006029f23c9ca24840d3763571bf0de7e315e64a9",
+        "source_record_locator": "_embedded.terms[0].description[0]",
+        "snippet": "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN2A gene.",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "iri": "http://purl.obolibrary.org/obo/MONDO_0013388",
+          "lang": "en",
+          "description": [
+            "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN2A gene."
+          ],
+          "synonyms": [
+            "DEE11",
+            "EIEE11",
+            "SCN2A early infantile epileptic encephalopathy",
+            "developmental and epileptic encephalopathy 11",
+            "early infantile epileptic encephalopathy caused by mutation in SCN2A",
+            "epileptic encephalopathy, early infantile, 11"
+          ],
+          "annotation": {
+            "curated content resource": [
+              "https://www.malacards.org/card/developmental_and_epileptic_encephalopathy_11"
+            ],
+            "database_cross_reference": [
+              "DOID:0080421",
+              "GARD:0015699",
+              "MEDGEN:462337",
+              "OMIM:613721",
+              "UMLS:C3150987"
+            ],
+            "has exact match": [
+              "http://identifiers.org/medgen/462337",
+              "http://linkedlifedata.com/resource/umls/id/C3150987",
+              "http://purl.obolibrary.org/obo/DOID_0080421",
+              "https://omim.org/entry/613721"
+            ],
+            "id": [
+              "MONDO:0013388"
+            ],
+            "term tracker item": [
+              "https://github.com/monarch-initiative/mondo/issues/10205",
+              "https://github.com/monarch-initiative/mondo/issues/4521"
+            ]
+          },
+          "label": "developmental and epileptic encephalopathy, 11",
+          "ontology_name": "mondo",
+          "ontology_prefix": "MONDO",
+          "ontology_iri": "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+          "is_obsolete": false,
+          "term_replaced_by": null,
+          "is_defining_ontology": true,
+          "has_children": false,
+          "is_root": false,
+          "short_form": "MONDO_0013388",
+          "obo_id": "MONDO:0013388",
+          "in_subset": [
+            "gard_rare",
+            "nord_rare",
+            "rare"
+          ],
+          "obo_definition_citation": [
+            {
+              "definition": "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN2A gene.",
+              "oboXrefs": [
+                {
+                  "database": "MONDO",
+                  "id": "patterns/disease_series_by_gene",
+                  "description": null,
+                  "url": null
+                }
+              ]
+            }
+          ],
+          "obo_xref": [
+            {
+              "database": "DOID",
+              "id": "0080421",
+              "description": "MONDO:equivalentTo",
+              "url": "http://purl.obolibrary.org/obo/DOID_0080421"
+            },
+            {
+              "database": "GARD",
+              "id": "0015699",
+              "description": "MONDO:GARD",
+              "url": "https://rarediseases.info.nih.gov/?gard_id=0015699"
+            },
+            {
+              "database": "MEDGEN",
+              "id": "462337",
+              "description": "MONDO:equivalentTo",
+              "url": "https://www.ncbi.nlm.nih.gov/medgen/462337"
+            },
+            {
+              "database": "OMIM",
+              "id": "613721",
+              "description": "MONDO:equivalentTo",
+              "url": "https://omim.org/entry/613721"
+            },
+            {
+              "database": "UMLS",
+              "id": "C3150987",
+              "description": "MONDO:equivalentTo",
+              "url": "https://uts.nlm.nih.gov/uts/umls/concept/C3150987"
+            }
+          ],
+          "obo_synonym": [
+            {
+              "name": "DEE11",
+              "scope": "hasExactSynonym",
+              "type": "abbreviation",
+              "xrefs": [
+                {
+                  "database": "DOID",
+                  "id": "0080421",
+                  "description": null,
+                  "url": "http://purl.obolibrary.org/obo/DOID_0080421"
+                },
+                {
+                  "database": "OMIM",
+                  "id": "613721",
+                  "description": null,
+                  "url": "https://omim.org/entry/613721"
+                }
+              ]
+            },
+            {
+              "name": "EIEE11",
+              "scope": "hasExactSynonym",
+              "type": "abbreviation",
+              "xrefs": [
+                {
+                  "database": "OMIM",
+                  "id": "613721",
+                  "description": null,
+                  "url": "https://omim.org/entry/613721"
+                }
+              ]
+            },
+            {
+              "name": "SCN2A early infantile epileptic encephalopathy",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "MONDO",
+                  "id": "design_pattern",
+                  "description": null,
+                  "url": null
+                },
+                {
+                  "database": "MONDO",
+                  "id": "patterns/disease_series_by_gene",
+                  "description": null,
+                  "url": null
+                }
+              ]
+            },
+            {
+              "name": "developmental and epileptic encephalopathy 11",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "DOID",
+                  "id": "0080421",
+                  "description": null,
+                  "url": "http://purl.obolibrary.org/obo/DOID_0080421"
+                },
+                {
+                  "database": "OMIM",
+                  "id": "613721",
+                  "description": null,
+                  "url": "https://omim.org/entry/613721"
+                }
+              ]
+            },
+            {
+              "name": "early infantile epileptic encephalopathy caused by mutation in SCN2A",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "MONDO",
+                  "id": "design_pattern",
+                  "description": null,
+                  "url": null
+                }
+              ]
+            },
+            {
+              "name": "epileptic encephalopathy, early infantile, 11",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "OMIM",
+                  "id": "613721",
+                  "description": null,
+                  "url": "https://omim.org/entry/613721"
+                }
+              ]
+            }
+          ],
+          "is_preferred_root": false,
+          "_links": {
+            "self": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388?lang=en"
+            },
+            "parents": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/parents"
+            },
+            "ancestors": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/ancestors"
+            },
+            "hierarchicalParents": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/hierarchicalParents"
+            },
+            "hierarchicalAncestors": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/hierarchicalAncestors"
+            },
+            "jstree": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/jstree"
+            },
+            "graph": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013388/graph"
+            }
+          }
+        },
+        "record_sha256": "b264825f98dab97ab6ec5b330ef39e28ddffe227bae80a2afc0c7971eac8029d"
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "gene_kcnq2",
+      "type": "disease_gene",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "evidence": {
+        "source_id": "orpha_genes_439218",
+        "source_type": "orphadata",
+        "source_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/439218",
+        "retrieved_at": "2026-10-03T20:50:10.488373+00:00",
+        "cache_path": "raw/ontologies/orpha_genes_439218.json",
+        "raw_sha256": "651e8bb3962ce745e317239c661e6a45cad0040ea324658fb63da74f47565dd7",
+        "source_record_locator": "data.results.DisorderGeneAssociation[Gene.Symbol=KCNQ2]",
+        "snippet": "Disease-causing germline mutation(s) in",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "DisorderGeneAssociationStatus": "Assessed",
+          "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in",
+          "Gene": {
+            "ExternalReference": [
+              {
+                "Reference": "KCNQ2",
+                "Source": "ClinVar"
+              },
+              {
+                "Reference": "ENSG00000075043",
+                "Source": "Ensembl"
+              },
+              {
+                "Reference": "KCNQ2",
+                "Source": "Genatlas"
+              },
+              {
+                "Reference": "6296",
+                "Source": "HGNC"
+              },
+              {
+                "Reference": "561",
+                "Source": "IUPHAR"
+              },
+              {
+                "Reference": "602235",
+                "Source": "OMIM"
+              },
+              {
+                "Reference": "O43526",
+                "Source": "Reactome"
+              },
+              {
+                "Reference": "O43526",
+                "Source": "SwissProt"
+              }
+            ],
+            "GeneType": "gene with protein product",
+            "Locus": [
+              {
+                "GeneLocus": "20q13.33",
+                "LocusKey": 1
+              }
+            ],
+            "Symbol": "KCNQ2",
+            "Synonym": [
+              "BFNC",
+              "ENB1",
+              "HNSPC",
+              "KCNA11",
+              "Kv7.2"
+            ],
+            "name": "potassium voltage-gated channel subfamily Q member 2"
+          },
+          "SourceOfValidation": "23621294[PMID]_20437616[PMID]"
+        },
+        "record_sha256": "f331bc16ff6698ea4cc37fffc94cd86e4c041fd2dfc5a9dd6a5a20bc4b230d29"
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "gene_scn8a",
+      "type": "disease_gene",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "evidence": {
+        "source_id": "mondo_0013801",
+        "source_type": "mondo",
+        "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013801",
+        "retrieved_at": "2026-10-03T20:50:12.453914+00:00",
+        "cache_path": "raw/ontologies/mondo_0013801.json",
+        "raw_sha256": "ee31494df9e1e25537e6f14d6360b7605ecd0747b99f9c312d26ce6da5a0d2ee",
+        "source_record_locator": "_embedded.terms[0].description[0]",
+        "snippet": "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN8A gene.",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "iri": "http://purl.obolibrary.org/obo/MONDO_0013801",
+          "lang": "en",
+          "description": [
+            "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN8A gene."
+          ],
+          "synonyms": [
+            "epileptic encephalopathy, early infantile, type 13",
+            "DEE13",
+            "EIEE13",
+            "SCN8A early infantile epileptic encephalopathy",
+            "SCN8A encephalopathy",
+            "SCN8A epilepsy",
+            "developmental and epileptic encephalopathy 13",
+            "early infantile epileptic encephalopathy caused by mutation in SCN8A",
+            "early infantile epileptic encephalopathy-13",
+            "epileptic encephalopathy, early infantile, 13"
+          ],
+          "annotation": {
+            "curated content resource": [
+              "https://www.malacards.org/card/developmental_and_epileptic_encephalopathy_13"
+            ],
+            "database_cross_reference": [
+              "DOID:0080445",
+              "GARD:0013085",
+              "MEDGEN:482821",
+              "OMIM:614558",
+              "SCTID:765170001",
+              "UMLS:C3281191"
+            ],
+            "has exact match": [
+              "http://identifiers.org/medgen/482821",
+              "http://identifiers.org/snomedct/765170001",
+              "http://linkedlifedata.com/resource/umls/id/C3281191",
+              "http://purl.obolibrary.org/obo/DOID_0080445",
+              "https://omim.org/entry/614558"
+            ],
+            "id": [
+              "MONDO:0013801"
+            ],
+            "term tracker item": [
+              "https://github.com/monarch-initiative/mondo/issues/4521"
+            ]
+          },
+          "label": "developmental and epileptic encephalopathy, 13",
+          "ontology_name": "mondo",
+          "ontology_prefix": "MONDO",
+          "ontology_iri": "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+          "is_obsolete": false,
+          "term_replaced_by": null,
+          "is_defining_ontology": true,
+          "has_children": false,
+          "is_root": false,
+          "short_form": "MONDO_0013801",
+          "obo_id": "MONDO:0013801",
+          "in_subset": [
+            "gard_rare",
+            "nord_rare",
+            "rare"
+          ],
+          "obo_definition_citation": [
+            {
+              "definition": "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN8A gene.",
+              "oboXrefs": [
+                {
+                  "database": "MONDO",
+                  "id": "patterns/disease_series_by_gene",
+                  "description": null,
+                  "url": null
+                }
+              ]
+            }
+          ],
+          "obo_xref": [
+            {
+              "database": "DOID",
+              "id": "0080445",
+              "description": "MONDO:equivalentTo",
+              "url": "http://purl.obolibrary.org/obo/DOID_0080445"
+            },
+            {
+              "database": "GARD",
+              "id": "0013085",
+              "description": "MONDO:GARD",
+              "url": "https://rarediseases.info.nih.gov/?gard_id=0013085"
+            },
+            {
+              "database": "MEDGEN",
+              "id": "482821",
+              "description": "MONDO:equivalentTo",
+              "url": "https://www.ncbi.nlm.nih.gov/medgen/482821"
+            },
+            {
+              "database": "OMIM",
+              "id": "614558",
+              "description": "MONDO:equivalentTo",
+              "url": "https://omim.org/entry/614558"
+            },
+            {
+              "database": "SCTID",
+              "id": "765170001",
+              "description": "MONDO:equivalentTo",
+              "url": "http://purl.bioontology.org/ontology/SNOMEDCT/765170001"
+            },
+            {
+              "database": "UMLS",
+              "id": "C3281191",
+              "description": "MONDO:equivalentTo",
+              "url": "https://uts.nlm.nih.gov/uts/umls/concept/C3281191"
+            }
+          ],
+          "obo_synonym": [
+            {
+              "name": "DEE13",
+              "scope": "hasExactSynonym",
+              "type": "abbreviation",
+              "xrefs": [
+                {
+                  "database": "DOID",
+                  "id": "0080445",
+                  "description": null,
+                  "url": "http://purl.obolibrary.org/obo/DOID_0080445"
+                },
+                {
+                  "database": "OMIM",
+                  "id": "614558",
+                  "description": null,
+                  "url": "https://omim.org/entry/614558"
+                }
+              ]
+            },
+            {
+              "name": "EIEE13",
+              "scope": "hasExactSynonym",
+              "type": "abbreviation",
+              "xrefs": [
+                {
+                  "database": "OMIM",
+                  "id": "614558",
+                  "description": null,
+                  "url": "https://omim.org/entry/614558"
+                }
+              ]
+            },
+            {
+              "name": "SCN8A early infantile epileptic encephalopathy",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "MONDO",
+                  "id": "design_pattern",
+                  "description": null,
+                  "url": null
+                },
+                {
+                  "database": "MONDO",
+                  "id": "patterns/disease_series_by_gene",
+                  "description": null,
+                  "url": null
+                }
+              ]
+            },
+            {
+              "name": "developmental and epileptic encephalopathy 13",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "DOID",
+                  "id": "0080445",
+                  "description": null,
+                  "url": "http://purl.obolibrary.org/obo/DOID_0080445"
+                },
+                {
+                  "database": "OMIM",
+                  "id": "614558",
+                  "description": null,
+                  "url": "https://omim.org/entry/614558"
+                }
+              ]
+            },
+            {
+              "name": "early infantile epileptic encephalopathy caused by mutation in SCN8A",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "MONDO",
+                  "id": "design_pattern",
+                  "description": null,
+                  "url": null
+                }
+              ]
+            },
+            {
+              "name": "early infantile epileptic encephalopathy-13",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "GARD",
+                  "id": "0013085",
+                  "description": null,
+                  "url": "https://rarediseases.info.nih.gov/?gard_id=0013085"
+                }
+              ]
+            },
+            {
+              "name": "epileptic encephalopathy, early infantile, 13",
+              "scope": "hasExactSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "OMIM",
+                  "id": "614558",
+                  "description": null,
+                  "url": "https://omim.org/entry/614558"
+                }
+              ]
+            },
+            {
+              "name": "SCN8A encephalopathy",
+              "scope": "hasRelatedSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "GARD",
+                  "id": "0013085",
+                  "description": null,
+                  "url": "https://rarediseases.info.nih.gov/?gard_id=0013085"
+                }
+              ]
+            },
+            {
+              "name": "SCN8A epilepsy",
+              "scope": "hasRelatedSynonym",
+              "type": null,
+              "xrefs": [
+                {
+                  "database": "GARD",
+                  "id": "0013085",
+                  "description": null,
+                  "url": "https://rarediseases.info.nih.gov/?gard_id=0013085"
+                }
+              ]
+            }
+          ],
+          "is_preferred_root": false,
+          "_links": {
+            "self": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801?lang=en"
+            },
+            "parents": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/parents"
+            },
+            "ancestors": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/ancestors"
+            },
+            "hierarchicalParents": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/hierarchicalParents"
+            },
+            "hierarchicalAncestors": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/hierarchicalAncestors"
+            },
+            "jstree": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/jstree"
+            },
+            "graph": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/graph"
+            },
+            "has_material_basis_in_germline_mutation_in": {
+              "href": "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+            }
+          }
+        },
+        "record_sha256": "e8e5655e0ca516e1491d56d511d0e17768488e19b54c7d52b3c1056c8d1277fa"
+      }
+    }
+  ],
+  "disease_phenotypes": [
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0002521",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:28746",
+        "snippet": "OMIM:612164\tDevelopmental and epileptic encephalopathy 4\t\tHP:0002521\tOMIM:612164\tPCS\t\t\t\t\tP\tHPO:probinson[2012-04-11]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:612164",
+          "disease_name": "Developmental and epileptic encephalopathy 4",
+          "qualifier": "",
+          "hpo_id": "HP:0002521",
+          "reference": "OMIM:612164",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:probinson[2012-04-11]"
+        },
+        "record_sha256": "7c7eba0773af1e86b785a402fc06fd5216dfc56c6c61954657b6606b3b0ec2e2",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001252",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "12/15",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:28751",
+        "snippet": "OMIM:612164\tDevelopmental and epileptic encephalopathy 4\t\tHP:0001252\tOMIM:612164;PMID:18469812\tPCS\t\t12/15\t\t\tP\tHPO:probinson[2022-12-13];HPO:skoehler[2014-11-26]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:612164",
+          "disease_name": "Developmental and epileptic encephalopathy 4",
+          "qualifier": "",
+          "hpo_id": "HP:0001252",
+          "reference": "OMIM:612164;PMID:18469812",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "12/15",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:probinson[2022-12-13];HPO:skoehler[2014-11-26]"
+        },
+        "record_sha256": "8896a60460b161d2896eb354762a9bcce85f36008cc8c7b9285ad2158a2d8d2e",
+        "pmids": [
+          "18469812"
+        ]
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001344",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "2/5",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:28759",
+        "snippet": "OMIM:612164\tDevelopmental and epileptic encephalopathy 4\t\tHP:0001344\tPMID:18469812\tPCS\t\t2/5\t\t\tP\tHPO:probinson[2012-04-11];HPO:probinson[2022-12-13]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:612164",
+          "disease_name": "Developmental and epileptic encephalopathy 4",
+          "qualifier": "",
+          "hpo_id": "HP:0001344",
+          "reference": "PMID:18469812",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "2/5",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:probinson[2012-04-11];HPO:probinson[2022-12-13]"
+        },
+        "record_sha256": "c3b6e8cf00ebb16e0297641e8bde072b274572a4b67d26d4b92713966c123f07",
+        "pmids": [
+          "18469812"
+        ]
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0002376",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:28761",
+        "snippet": "OMIM:612164\tDevelopmental and epileptic encephalopathy 4\t\tHP:0002376\tOMIM:612164\tTAS\t\t\t\t\tP\tHPO:skoehler[2014-10-06]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:612164",
+          "disease_name": "Developmental and epileptic encephalopathy 4",
+          "qualifier": "",
+          "hpo_id": "HP:0002376",
+          "reference": "OMIM:612164",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2014-10-06]"
+        },
+        "record_sha256": "525cf8e4349647b5fc3d48476bb8adf01b7582a84a693fe87db07b1062c18f80",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0011097",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "4/5",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:28767",
+        "snippet": "OMIM:612164\tDevelopmental and epileptic encephalopathy 4\t\tHP:0011097\tPMID:18469812\tPCS\t\t4/5\t\t\tP\tHPO:probinson[2012-04-11];HPO:probinson[2022-12-13]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:612164",
+          "disease_name": "Developmental and epileptic encephalopathy 4",
+          "qualifier": "",
+          "hpo_id": "HP:0011097",
+          "reference": "PMID:18469812",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "4/5",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:probinson[2012-04-11];HPO:probinson[2022-12-13]"
+        },
+        "record_sha256": "1476c815c500dae9f3dd95601ede035ce24727daea3873947e40fd9aeeccd21a",
+        "pmids": [
+          "18469812"
+        ]
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001337",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:28771",
+        "snippet": "OMIM:612164\tDevelopmental and epileptic encephalopathy 4\t\tHP:0001337\tOMIM:612164\tTAS\t\t\t\t\tP\tHPO:skoehler[2013-05-03]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:612164",
+          "disease_name": "Developmental and epileptic encephalopathy 4",
+          "qualifier": "",
+          "hpo_id": "HP:0001337",
+          "reference": "OMIM:612164",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2013-05-03]"
+        },
+        "record_sha256": "c02f86982299ccdbcc0528d7c2df160a10c79034f1833c89df8778d94abf8a7d",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_scn2a_dee",
+      "dst": "hp_0001263",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:38217",
+        "snippet": "OMIM:613721\tEpileptic encephalopathy, early infantile, 11\t\tHP:0001263\tOMIM:613721\tTAS\t\t\t\t\tP\tHPO:skoehler[2012-10-17]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:613721",
+          "disease_name": "Epileptic encephalopathy, early infantile, 11",
+          "qualifier": "",
+          "hpo_id": "HP:0001263",
+          "reference": "OMIM:613721",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2012-10-17]"
+        },
+        "record_sha256": "d14c4cc3e452338433f30ae5c3573eff6f60f697a35b3329582fb0ee2e1a7912",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "hp_0001252",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "4/7",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:49335",
+        "snippet": "OMIM:614558\tEpileptic encephalopathy, early infantile, 13\t\tHP:0001252\tPMID:24888894\tPCS\t\t4/7\t\t\tP\tHPO:skoehler[2014-11-26];HPO:probinson[2022-06-04]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:614558",
+          "disease_name": "Epileptic encephalopathy, early infantile, 13",
+          "qualifier": "",
+          "hpo_id": "HP:0001252",
+          "reference": "PMID:24888894",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "4/7",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2014-11-26];HPO:probinson[2022-06-04]"
+        },
+        "record_sha256": "bef0f833470018bf7c2d51065bf2fe4cab15bf5e5b0acecfd4d6a16fb0894aa8",
+        "pmids": [
+          "24888894"
+        ]
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "hp_0001249",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "1/1",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:49342",
+        "snippet": "OMIM:614558\tEpileptic encephalopathy, early infantile, 13\t\tHP:0001249\tPMID:22365152\tPCS\t\t1/1\t\t\tP\tHPO:skoehler[2012-10-17];HPO:probinson[2022-06-04]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:614558",
+          "disease_name": "Epileptic encephalopathy, early infantile, 13",
+          "qualifier": "",
+          "hpo_id": "HP:0001249",
+          "reference": "PMID:22365152",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "1/1",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2012-10-17];HPO:probinson[2022-06-04]"
+        },
+        "record_sha256": "06c31642a79ee0e5762c26f1409f85475f6788974d9d3254aad593ff9cebb6fa",
+        "pmids": [
+          "22365152"
+        ]
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "hp_0002376",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "4/9",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:49348",
+        "snippet": "OMIM:614558\tEpileptic encephalopathy, early infantile, 13\t\tHP:0002376\tPMID:25239001;PMID:24888894;PMID:22365152\tPCS\t\t4/9\t\t\tP\tHPO:skoehler[2015-01-04];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:614558",
+          "disease_name": "Epileptic encephalopathy, early infantile, 13",
+          "qualifier": "",
+          "hpo_id": "HP:0002376",
+          "reference": "PMID:25239001;PMID:24888894;PMID:22365152",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "4/9",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2015-01-04];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04]"
+        },
+        "record_sha256": "75a3207b8aca3465cd5a2495b77980659c7a1b8ca5275c3ad37207ca6c3d130b",
+        "pmids": [
+          "25239001",
+          "24888894",
+          "22365152"
+        ]
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "hp_0001263",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "9/9",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:49350",
+        "snippet": "OMIM:614558\tEpileptic encephalopathy, early infantile, 13\t\tHP:0001263\tPMID:25239001;PMID:24888894;PMID:22365152\tPCS\t\t9/9\t\t\tP\tHPO:skoehler[2012-10-17];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:614558",
+          "disease_name": "Epileptic encephalopathy, early infantile, 13",
+          "qualifier": "",
+          "hpo_id": "HP:0001263",
+          "reference": "PMID:25239001;PMID:24888894;PMID:22365152",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "9/9",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2012-10-17];HPO:probinson[2022-06-04];HPO:probinson[2022-06-04]"
+        },
+        "record_sha256": "46b59f6067005caa3cef0be905dd635af13f6d27491e3588dad44271dd5ebb61",
+        "pmids": [
+          "25239001",
+          "24888894",
+          "22365152"
+        ]
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "hp_0011097",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "1/1",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:49355",
+        "snippet": "OMIM:614558\tEpileptic encephalopathy, early infantile, 13\t\tHP:0011097\tPMID:22365152\tPCS\t\t1/1\t\t\tP\tHPO:skoehler[2012-10-17];HPO:probinson[2022-06-04]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:614558",
+          "disease_name": "Epileptic encephalopathy, early infantile, 13",
+          "qualifier": "",
+          "hpo_id": "HP:0011097",
+          "reference": "PMID:22365152",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "1/1",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:skoehler[2012-10-17];HPO:probinson[2022-06-04]"
+        },
+        "record_sha256": "40dbf78dec3501e840ed5e9e7bb23427afcb391cd5ab16e79d6e78ef42ea9230",
+        "pmids": [
+          "22365152"
+        ]
+      }
+    },
+    {
+      "src": "dis_scn8a",
+      "dst": "hp_0000729",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "1/1",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:49356",
+        "snippet": "OMIM:614558\tEpileptic encephalopathy, early infantile, 13\t\tHP:0000729\tPMID:22365152\tPCS\t\t1/1\t\t\tP\tHPO:probinson[2022-06-04];HPO:probinson[2022-06-04]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "OMIM:614558",
+          "disease_name": "Epileptic encephalopathy, early infantile, 13",
+          "qualifier": "",
+          "hpo_id": "HP:0000729",
+          "reference": "PMID:22365152",
+          "evidence": "PCS",
+          "onset": "",
+          "frequency": "1/1",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "HPO:probinson[2022-06-04];HPO:probinson[2022-06-04]"
+        },
+        "record_sha256": "6fccc64d05b11efc57a727b8c746fa0c6d85d36e35c0b9bb5f093c547c00030c",
+        "pmids": [
+          "22365152"
+        ]
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001249",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192526",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001249\tORPHA:599373\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001249",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "94c5f619738cc8bc8ef688e289e892daac6f1575544e074c6093a9e1e81e6886",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001250",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192527",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001250\tORPHA:599373\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001250",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "96cb21e9d3f47b370b8942c1bfca04cf6b7745fa68fd5158a38f79d82bc36c58",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001263",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192528",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001263\tORPHA:599373\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001263",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "375e77dc74051702c9f96e21fcf2721e71450226d62d3d94c44dd78bcd3a5c7f",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0000729",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192530",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0000729\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0000729",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "c6a232ef44c5fe1c5dda97e42d7c48d279d0279c31c4c8e7f2e8d4185f5cb3b5",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001251",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192533",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001251\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001251",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "3dccc20b439ebf3c303e99916e2019dc568d6f0db84c203213a4b65aceb492ed",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001252",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192534",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001252\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001252",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "61e176b151e022a0b875a51fbdf9e3a68320e579b60577b49a2162e57b4290d8",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001337",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192535",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001337\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001337",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "747dfca28fea00ccc9ba18281bebf2529dfce098416690b68dd7dcdef3cca42a",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001344",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192536",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001344\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001344",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "c7d92914a97e6efd04159eb48899525676ded0ae0a6e8a0df2481586fd243f46",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0002376",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192538",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0002376\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0002376",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "685e2c2b7c30739fcbc334987aaca08917301b8caa2c0a4821fb554a88dc0b24",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0002521",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192540",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0002521\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0002521",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "bae36a7c3575712cb1684a7223c660ed6326b9b17f982d4e941836c8c3594f8c",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0011097",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192545",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0011097\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0011097",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "8cdf079958aed3ca81c30cc30b4cd3fc0a9f5dabf925b74d5f42e40f865df8ce",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_stxbp1",
+      "dst": "hp_0001332",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040284",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:192552",
+        "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001332\tORPHA:599373\tTAS\t\tHP:0040284\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:599373",
+          "disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001332",
+          "reference": "ORPHA:599373",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040284",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "56e4f4c9bbcdf733f77eeeb4f01d0a80b6ad44ff5e7b96a38692ed6e1a9ca72f",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0001249",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040280",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246591",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001249\tORPHA:439218\tTAS\t\tHP:0040280\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001249",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040280",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "65cdb09d455281b590b10820f0698423a7ea7340a8e152290430de647904d556",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0001263",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040281",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246592",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001263\tORPHA:439218\tTAS\t\tHP:0040281\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001263",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040281",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "fd33dd4b63244e805ffcd9107b7f9f6ceee3e59e97a26b7c21924cdf33adb601",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0001250",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246599",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001250\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001250",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "8f58f9eafcab8858599cbb94f7009fbab81bb286121df661e6ebe1dfd9f938ab",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0001252",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246600",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001252\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001252",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "7c973d7bcecc3d222137df3f8c088b14f7bc15b8ee42b1e8f85ca5fa5f4aaffb",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0001332",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246601",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001332\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0001332",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "a63f2a69281cc28296c49e439c4d2e9fd5b53cdefc72a42538c65ecc66e44625",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0011097",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040282",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246607",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0011097\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0011097",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040282",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "67b2aeacb746c0dc534c4bff08c2b8e22d2de4d0d7bf9c9328ea07b0df616e03",
+        "pmids": []
+      }
+    },
+    {
+      "src": "dis_kcnq2",
+      "dst": "hp_0002521",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": 1.0,
+      "stance": "supports",
+      "status": "verified",
+      "qualifier": "",
+      "frequency": "HP:0040283",
+      "evidence": {
+        "source_id": "phenotype",
+        "source_type": "hpo",
+        "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+        "cache_path": "raw/ontologies/phenotype.hpoa",
+        "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "source_record_locator": "line:246612",
+        "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0002521\tORPHA:439218\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "database_id": "ORPHA:439218",
+          "disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+          "qualifier": "",
+          "hpo_id": "HP:0002521",
+          "reference": "ORPHA:439218",
+          "evidence": "TAS",
+          "onset": "",
+          "frequency": "HP:0040283",
+          "sex": "",
+          "modifier": "",
+          "aspect": "P",
+          "biocuration": "ORPHA:orphadata[2026-09-02]"
+        },
+        "record_sha256": "da7401fd226719dc5ae3d8f94e235fd28247b76a273c40f65ccad090149e368f",
+        "pmids": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "clinvar_scn2a",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=196039,194555&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=196039,194555&retmode=json",
+      "retrieved_at": "2026-10-03T20:50:28.670856+00:00",
+      "cache_path": "raw/ontologies/clinvar_scn2a.json",
+      "raw_sha256": "6931126aec9293989c3644003af57d0cbf17276618612ee8b26c1020eec9d26a",
+      "bytes": 7570,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV000196039.26, VCV000194555.34"
+    },
+    {
+      "source_id": "hgnc_kcnq2",
+      "provider": "HGNC",
+      "source_url": "https://rest.genenames.org/fetch/symbol/KCNQ2",
+      "resolved_url": "https://rest.genenames.org/fetch/symbol/KCNQ2",
+      "retrieved_at": "2026-10-03T20:49:31.947906+00:00",
+      "cache_path": "raw/ontologies/hgnc_kcnq2.json",
+      "raw_sha256": "3a9bed7b94704285c40637cab95ddf5d4001149cc79c991cdc31d1fd0b30f634",
+      "bytes": 1293,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC0",
+      "license_url": "https://www.genenames.org/about/license/",
+      "version": "2023-01-20T00:00:00Z"
+    },
+    {
+      "source_id": "hgnc_scn2a",
+      "provider": "HGNC",
+      "source_url": "https://rest.genenames.org/fetch/symbol/SCN2A",
+      "resolved_url": "https://rest.genenames.org/fetch/symbol/SCN2A",
+      "retrieved_at": "2026-10-03T20:49:31.501651+00:00",
+      "cache_path": "raw/ontologies/hgnc_scn2a.json",
+      "raw_sha256": "5060acc8637a5dbd58b202c6fe150cddd002cbaf047f5c122d2e1b4dc170b043",
+      "bytes": 1413,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC0",
+      "license_url": "https://www.genenames.org/about/license/",
+      "version": "2025-04-24T00:00:00Z"
+    },
+    {
+      "source_id": "hgnc_scn8a",
+      "provider": "HGNC",
+      "source_url": "https://rest.genenames.org/fetch/symbol/SCN8A",
+      "resolved_url": "https://rest.genenames.org/fetch/symbol/SCN8A",
+      "retrieved_at": "2026-10-03T20:49:32.454461+00:00",
+      "cache_path": "raw/ontologies/hgnc_scn8a.json",
+      "raw_sha256": "c7f2c1c0bd601d306aa82dbcc5c5a5aa8f5e53897a2b765b721f7102ac07b073",
+      "bytes": 1411,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC0",
+      "license_url": "https://www.genenames.org/about/license/",
+      "version": "2023-01-20T00:00:00Z"
+    },
+    {
+      "source_id": "hgnc_stxbp1",
+      "provider": "HGNC",
+      "source_url": "https://rest.genenames.org/fetch/symbol/STXBP1",
+      "resolved_url": "https://rest.genenames.org/fetch/symbol/STXBP1",
+      "retrieved_at": "2026-10-03T20:49:31.056434+00:00",
+      "cache_path": "raw/ontologies/hgnc_stxbp1.json",
+      "raw_sha256": "c46586662bc2d836fa55b9060f51b745aa184dfe72dd2055c5e920a54dd70756",
+      "bytes": 1092,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC0",
+      "license_url": "https://www.genenames.org/about/license/",
+      "version": "2025-04-24T00:00:00Z"
+    },
+    {
+      "source_id": "hp_0000729",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0000729",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0000729",
+      "retrieved_at": "2026-10-03T20:50:16.401497+00:00",
+      "cache_path": "raw/ontologies/hp_0000729.json",
+      "raw_sha256": "b684b5e24c8c8039ee8285fcf8229dfb6cef67942ca97d05a9aaa30282af78a5",
+      "bytes": 5568,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001249",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001249",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001249",
+      "retrieved_at": "2026-10-03T20:50:13.168950+00:00",
+      "cache_path": "raw/ontologies/hp_0001249.json",
+      "raw_sha256": "07fed3e1f6f64d4d5d9dfe1efac224800a00a0d37423fdb324eb5cfabae0f6a0",
+      "bytes": 7048,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001250",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001250",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001250",
+      "retrieved_at": "2026-10-03T20:50:14.855937+00:00",
+      "cache_path": "raw/ontologies/hp_0001250.json",
+      "raw_sha256": "09b749c79adc51b841866a3f3c444efcc57fb7c451fc10331ad7cbec44fb157e",
+      "bytes": 4789,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001251",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001251",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001251",
+      "retrieved_at": "2026-10-03T20:50:16.876648+00:00",
+      "cache_path": "raw/ontologies/hp_0001251.json",
+      "raw_sha256": "e84b24c2a0442562ab58ea3f4116deebebca608bb41c61a2f0920e9dcde155c8",
+      "bytes": 4695,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001252",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001252",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001252",
+      "retrieved_at": "2026-10-03T20:50:15.879826+00:00",
+      "cache_path": "raw/ontologies/hp_0001252.json",
+      "raw_sha256": "d6fec5163a5acbb633fe19471105211bb9d45ff6155cda49abae1dd446b17849",
+      "bytes": 5945,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001263",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001263",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001263",
+      "retrieved_at": "2026-10-03T20:50:15.401674+00:00",
+      "cache_path": "raw/ontologies/hp_0001263.json",
+      "raw_sha256": "5a1fb6aa5f78ad9787f8cd62c38f3c8bf67dbda80e602bc1c68c81c514632e98",
+      "bytes": 5670,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001332",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001332",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001332",
+      "retrieved_at": "2026-10-03T20:50:17.694269+00:00",
+      "cache_path": "raw/ontologies/hp_0001332.json",
+      "raw_sha256": "58cec5644d2c5003c2ca363a40281907d98f1ff05bec13109c0ef436d6b2b095",
+      "bytes": 3804,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001337",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001337",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001337",
+      "retrieved_at": "2026-10-03T20:50:18.664401+00:00",
+      "cache_path": "raw/ontologies/hp_0001337.json",
+      "raw_sha256": "69850943418527cc540c8382e1609db5d94a338466799c0e055e2a46f37cb937",
+      "bytes": 4453,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0001344",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001344",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001344",
+      "retrieved_at": "2026-10-03T20:50:19.144029+00:00",
+      "cache_path": "raw/ontologies/hp_0001344.json",
+      "raw_sha256": "4f5f6ecc125960589e485532d48ffeff6980f41e6f0841aa76f995326f5394b4",
+      "bytes": 4033,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0002376",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0002376",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0002376",
+      "retrieved_at": "2026-10-03T20:50:20.216890+00:00",
+      "cache_path": "raw/ontologies/hp_0002376.json",
+      "raw_sha256": "77497a1dc6063aeb0c3575497722de666328fc150dbe66162ceb2e19ca90e64a",
+      "bytes": 4439,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0002521",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0002521",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0002521",
+      "retrieved_at": "2026-10-03T20:50:22.357320+00:00",
+      "cache_path": "raw/ontologies/hp_0002521.json",
+      "raw_sha256": "4765982ef7aee18a12b240fb4fc2e9bc3739d27d29ed6f339151d1fb50b44257",
+      "bytes": 3175,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_0011097",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0011097",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0011097",
+      "retrieved_at": "2026-10-03T20:50:21.879525+00:00",
+      "cache_path": "raw/ontologies/hp_0011097.json",
+      "raw_sha256": "3ea9067dc3563efc4a6441717afc6f4f5b9644f904db8d81898f5bdb864a7093",
+      "bytes": 5342,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "hp_version",
+      "provider": "HPO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/hp",
+      "retrieved_at": "2026-10-03T20:49:30.531648+00:00",
+      "cache_path": "raw/ontologies/hp_version.json",
+      "raw_sha256": "a45ca87ff10f8922547ee2430183d6b0c09572dd47dde8a7c28f7d1aabe3fdaa",
+      "bytes": 1980,
+      "etag": null,
+      "last_modified": null,
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-01",
+      "version_iri": "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp-international.owl"
+    },
+    {
+      "source_id": "mondo_0012812",
+      "provider": "MONDO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0012812",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0012812",
+      "retrieved_at": "2026-10-03T20:49:33.528134+00:00",
+      "cache_path": "raw/ontologies/mondo_0012812.json",
+      "raw_sha256": "64884c3dec1c8bf995e4687c7ad563f1d281dc10b49c176814dfd8b5eb1fc05a",
+      "bytes": 12241,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "mondo_0013387",
+      "provider": "MONDO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013387",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013387",
+      "retrieved_at": "2026-10-03T20:50:09.741258+00:00",
+      "cache_path": "raw/ontologies/mondo_0013387.json",
+      "raw_sha256": "7656d06380c78534f3bf8179f7ea64350cb571ecce54d3ea7a3310f0ee38c985",
+      "bytes": 7725,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "mondo_0013388",
+      "provider": "MONDO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013388",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013388",
+      "retrieved_at": "2026-10-03T20:50:08.646355+00:00",
+      "cache_path": "raw/ontologies/mondo_0013388.json",
+      "raw_sha256": "60c1134ed36edb55b4f789e006029f23c9ca24840d3763571bf0de7e315e64a9",
+      "bytes": 6866,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "mondo_0013801",
+      "provider": "MONDO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013801",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013801",
+      "retrieved_at": "2026-10-03T20:50:12.453914+00:00",
+      "cache_path": "raw/ontologies/mondo_0013801.json",
+      "raw_sha256": "ee31494df9e1e25537e6f14d6360b7605ecd0747b99f9c312d26ce6da5a0d2ee",
+      "bytes": 8416,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "mondo_1060245",
+      "provider": "MONDO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245",
+      "retrieved_at": "2026-10-03T20:49:35.532806+00:00",
+      "cache_path": "raw/ontologies/mondo_1060245.json",
+      "raw_sha256": "870942c45cd0586d387c6ce81e6468e35c45c50144fd565c22d7f45ed5990652",
+      "bytes": 8524,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE",
+      "version": "2026-09-01"
+    },
+    {
+      "source_id": "mondo_version",
+      "provider": "MONDO",
+      "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo",
+      "resolved_url": "https://www.ebi.ac.uk/ols4/api/ontologies/mondo",
+      "retrieved_at": "2026-10-03T20:49:30.061776+00:00",
+      "cache_path": "raw/ontologies/mondo_version.json",
+      "raw_sha256": "64ad4444fd7d90d3fae08b48a5769926f3a22ce7092288fad80422bc033f66c8",
+      "bytes": 1900,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE",
+      "version": "2026-09-01",
+      "version_iri": "http://purl.obolibrary.org/obo/mondo/releases/2026-09-01/mondo-international.owl"
+    },
+    {
+      "source_id": "orpha_genes_439218",
+      "provider": "Orphadata",
+      "source_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/439218",
+      "resolved_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/439218",
+      "retrieved_at": "2026-10-03T20:50:10.488373+00:00",
+      "cache_path": "raw/ontologies/orpha_genes_439218.json",
+      "raw_sha256": "651e8bb3962ce745e317239c661e6a45cad0040ea324658fb63da74f47565dd7",
+      "bytes": 2469,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://api.orphadata.com/openapi.json",
+      "version": "2026-06-23 07:57:31"
+    },
+    {
+      "source_id": "orpha_genes_599373",
+      "provider": "Orphadata",
+      "source_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/599373",
+      "resolved_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/599373",
+      "retrieved_at": "2026-10-03T20:49:34.280762+00:00",
+      "cache_path": "raw/ontologies/orpha_genes_599373.json",
+      "raw_sha256": "c3e93720bd1c608d5c28042b2aa7050f1e158e7618599f58490e22ef8306efe3",
+      "bytes": 2378,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://api.orphadata.com/openapi.json",
+      "version": "2026-06-23 07:57:31"
+    },
+    {
+      "source_id": "orpha_phenotypes_439218",
+      "provider": "Orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "resolved_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "retrieved_at": "2026-10-03T20:50:11.251412+00:00",
+      "cache_path": "raw/ontologies/orpha_phenotypes_439218.json",
+      "raw_sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+      "bytes": 6214,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://api.orphadata.com/openapi.json",
+      "version": "2026-06-23 07:57:18"
+    },
+    {
+      "source_id": "orpha_phenotypes_599373",
+      "provider": "Orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "resolved_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "retrieved_at": "2026-10-03T20:49:35.036091+00:00",
+      "cache_path": "raw/ontologies/orpha_phenotypes_599373.json",
+      "raw_sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+      "bytes": 8317,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://api.orphadata.com/openapi.json",
+      "version": "2026-06-23 07:57:18"
+    },
+    {
+      "source_id": "phenotype",
+      "provider": "HPO",
+      "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/41063438/30a413da-5d1f-4476-b219-03dc6507f153",
+      "retrieved_at": "2026-10-03T20:50:27.570862+00:00",
+      "cache_path": "raw/ontologies/phenotype.hpoa",
+      "raw_sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "bytes": 35816037,
+      "etag": "\"0x8DF0936DA47C46B\"",
+      "last_modified": "Wed, 02 Sep 2026 21:12:10 GMT",
+      "license": "HPO license; attribution, version and integrity requirements",
+      "license_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/LICENSE.md",
+      "license_explanation_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "2026-09-02",
+      "hpo_version": "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json"
+    }
+  ],
+  "limitations": [
+    "This is a deliberately selected disease/phenotype slice, not a complete disease catalogue or prevalence estimate.",
+    "OMIM identifiers are retained only as exact MONDO mappings to public HPO annotations; no OMIM database content was fetched.",
+    "No ontology ID is assigned to an SCN2A autism/intellectual-disability subgroup. Autosomal dominant intellectual disability 29 is SETBP1-related, not SCN2A-related.",
+    "ClinVar records establish variant identity/classification only. Functional direction requires separate assay or publication evidence.",
+    "Explicit HPO NOT qualifiers become contradicting evidence, not positive phenotype edges. Absence of a row is not negative evidence."
+  ],
+  "versions": {
+    "mondo": "2026-09-01",
+    "hp": "2026-09-01"
+  },
+  "attribution": [
+    "This service uses the Human Phenotype Ontology, ontology version 2026-09-01, HPO annotation release 2026-09-02.",
+    "Mondo Disease Ontology version 2026-09-01, Monarch Initiative, CC BY 4.0.",
+    "Orphanet / INSERM, Orphadata disease-gene and phenotype records, CC BY 4.0; record release dates are retained.",
+    "HUGO Gene Nomenclature Committee (HGNC), CC0; approved gene symbols and identifiers are retained.",
+    "NCBI ClinVar; variant accession versions and original supporting submission identifiers are retained in provenance."
+  ]
+}

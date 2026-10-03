@@ -1,0 +1,14 @@
+{
+  "source_id": "orpha_genes_599373",
+  "provider": "Orphadata",
+  "source_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/599373",
+  "resolved_url": "https://api.orphadata.com/rd-associated-genes/orphacodes/599373",
+  "retrieved_at": "2026-10-03T20:49:34.280762+00:00",
+  "cache_path": "raw/ontologies/orpha_genes_599373.json",
+  "raw_sha256": "c3e93720bd1c608d5c28042b2aa7050f1e158e7618599f58490e22ef8306efe3",
+  "bytes": 2378,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC-BY-4.0",
+  "license_url": "https://api.orphadata.com/openapi.json"
+}

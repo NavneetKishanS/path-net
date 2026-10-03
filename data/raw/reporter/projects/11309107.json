@@ -1,0 +1,124 @@
+{
+  "appl_id": 11309107,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5F31NS143361-02",
+  "project_serial_num": "NS143361",
+  "organization": {
+    "org_name": "COLUMBIA UNIVERSITY HEALTH SCIENCES",
+    "city": null,
+    "country": null,
+    "org_city": "NEW YORK",
+    "org_country": "UNITED STATES",
+    "org_state": "NY",
+    "org_state_name": null,
+    "dept_type": "NEUROLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "621889815"
+    ],
+    "org_ueis": [
+      "QHF5ZZ114M72"
+    ],
+    "primary_duns": "621889815",
+    "primary_uei": "QHF5ZZ114M72",
+    "org_fips": "US",
+    "org_ipf_code": "1833205",
+    "org_zipcode": "100323725",
+    "external_org_id": 1833205
+  },
+  "award_type": "5",
+  "activity_code": "F31",
+  "award_amount": 50114,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F31",
+    "ic_code": "NS",
+    "serial_num": "143361",
+    "support_year": "02",
+    "full_support_year": "02",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 78316333,
+      "first_name": "Jack",
+      "middle_name": "Thomas",
+      "last_name": "Whiteley",
+      "is_contact_pi": true,
+      "full_name": "Jack Thomas Whiteley",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "WHITELEY, JACK THOMAS",
+  "program_officers": [
+    {
+      "first_name": "MARGUERITE",
+      "middle_name": "",
+      "last_name": "MATTHEWS",
+      "full_name": "MARGUERITE  MATTHEWS"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 50114.0,
+      "direct_cost_ic": 50114.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "NY-13",
+  "spending_categories": null,
+  "project_start_date": "2025-07-01T00:00:00",
+  "project_end_date": "2027-12-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -73.9414,
+    "lat": 40.8415
+  },
+  "opportunity_number": "PA-23-272",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F03B",
+    "sra_flex_code": "B",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F03B-B(20)L]"
+  },
+  "award_notice_date": "2026-06-16T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31NS143361",
+  "terms": "<2-photon><3-D><3-Dimensional><3D><AAV delivered><AAV delivery><AAV-based delivery><AAV-based viral delivery><AAV-mediated delivery><Address><Adeno-associated-virus-based delivery><Affect><Animal Model><Animal Models and Related Studies><Attention><Behavioral><Binding><Biologic Models><Biological Models><Brain><Brain Nervous System><Brain region><CRISPR approach><CRISPR based approach><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR tools><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Calcium><Cas nuclease technology><Causality><Cell Body><Cell Line><Cell Nucleus><Cell model><CellLine><Cells><Cellular model><Characteristics><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Cognition><Cognitive><Cognitive Disturbance><Cognitive Impairment><Cognitive decline><Cognitive function abnormal><Complex><Cyclicity><DNA Therapy><DNA mutation><Development><Disease><Disorder><Disturbance in cognition><Drug Therapy><Drugs><Dysfunction><Electrophysiology><Electrophysiology (science)><Encephalon><Engineering><Epilepsy><Epileptic Seizures><Epileptics><Etiology><Event><Exhibits><Functional disorder><Gene Expression><Gene Transfer Clinical><Generations><Genes><Genetic><Genetic Change><Genetic Intervention><Genetic defect><Genetic mutation><Glutamates><Health><Human><Hyperactivity><Image><Imaging Procedures><Imaging Technics><Imaging Techniques><Immunohistochemistry><Immunohistochemistry Cell/Tissue><Immunohistochemistry Staining Method><Impaired cognition><Impairment><Intellectual impairment><Intervention><Kinetics><L-Glutamate><Laboratories><Lead><Learning><Link><Lytotoxicity><Mediating><Medication><Messenger RNA><Model System><Modeling><Modern Man><Molecular Interaction><Motor><Mutation><NAV1.6><Na element><NaCh6><Nerve Cells><Nerve Unit><Nervous System><Neural Cell><Neurocyte><Neurologic Body System><Neurologic Organ System><Neurons><Neurophysiology / Electrophysiology><Nucleus><Organoids><Pathogenesis><Pathologic><Pathology><Patients><Pb element><Peptides><Periodicity><Pharmaceutical Preparations><Pharmacological Treatment><Pharmacotherapy><Phenotype><Physiologic><Physiological><Physiology><Physiopathology><Process><QOL improvement><Research><Rhythmicity><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Sensory><Sleep><Sodium><Sodium Channel><Sodium Ion Channels><Specific qualifier value><Specified><Strains Cell Lines><Synapses><Synaptic><System><Testing><Thalamic structure><Thalamus><Time><Treatment Efficacy><Work><adeno-associated viral vector delivery><adeno-associated virus delivery><adeno-associated virus mediated delivery><adenovirus mediated delivery><behavioral impairment><causation><co-morbid><co-morbidity><cognitive dysfunction><cognitive loss><comorbidity><cultured cell line><cytotoxicity><delivered with AAV><delivery with AAV><developmental><disease causation><disease phenotype><drug intervention><drug treatment><drug/agent><effective therapy><effective treatment><electrophysiological><epilepsia><epileptic encephalopathies><epileptiform><epileptogenic><gene repair therapy><gene therapy><gene-based therapy><gene-based treatment><gene-directed therapy><gene-targeted therapy><gene-targeted treatment><genetic therapy><genome mutation><genomic therapy><glutamatergic><heavy metal Pb><heavy metal lead><hiPSC><human iPS><human iPSC><human induced pluripotent cell><human induced pluripotent stem cells><human inducible pluripotent stem cells><human inducible stem cells><iPSC technology><imaging><impaired behavior><impairment in intelligence><improved><improvements in QOL><improvements in quality of life><in vivo><induced human pluripotent stem cells><induced pluripotent stem cell technology><insight><intervention efficacy><knock-down><knockdown><mRNA><model of animal><motor impairment><mouse model><movement impairment><movement limitation><murine model><mutant><neural><neuronal><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><patch clamp><pathophysiology><pharmaceutical intervention><pharmacologic><pharmacological intervention><pharmacological therapy><pharmacology intervention><pharmacology treatment><pharmacotherapeutics><quality of life improvement><shRNA><short hairpin RNA><small hairpin RNA><sodium channel, voltage gated, type VIII, alpha subunit><stem cell organoids><stem cell-derived organoids><synapse><thalamic><therapeutic efficacy><therapy efficacy><three dimensional><training opportunity><transcriptomics><two-photon><voltage>",
+  "pref_terms": "3-Dimensional;Address;Affect;Animal Model;Attention;Behavioral;Binding;Biological Models;Brain;Brain region;CRISPR/Cas technology;Calcium;Cell Line;Cell Nucleus;Cell model;Cells;Characteristics;Cognition;Cognitive;Complex;Development;Disease;Electrophysiology (science);Engineering;Epilepsy;Etiology;Event;Exhibits;Functional disorder;Gene Expression;Generations;Genes;Genetic;Glutamates;Health;Human;Hyperactivity;Image;Imaging Techniques;Immunohistochemistry;Impaired cognition;Impairment;Intellectual impairment;Intervention;Kinetics;Laboratories;Lead;Learning;Link;Mediating;Messenger RNA;Modeling;Motor;Mutation;Nervous System;Neurons;Organoids;Pathogenesis;Pathologic;Pathology;Patients;Peptides;Periodicity;Pharmaceutical Preparations;Pharmacotherapy;Phenotype;Physiological;Physiology;Process;Research;SCN8A gene;Seizures;Sensory;Sleep;Sodium;Sodium Channel;Specific qualifier value;Synapses;System;Testing;Thalamic structure;Time;Treatment Efficacy;Work;adenovirus mediated delivery;behavioral impairment;comorbidity;cytotoxicity;disease phenotype;effective therapy;epileptic encephalopathies;epileptiform;gene therapy;gene-targeted therapy;human induced pluripotent stem cells;improved;in vivo;induced pluripotent stem cell technology;insight;knock-down;motor impairment;mouse model;mutant;neural;novel;novel therapeutic intervention;patch clamp;pharmacologic;quality of life improvement;small hairpin RNA;stem cell organoids;training opportunity;transcriptomics;two-photon;voltage",
+  "abstract_text": "PROJECT SUMMARY/ABSTRACT\n Mutations in the voltage-gated sodium channel (VGSC) gene, SCN8A, are associated with\ndevelopmental and epileptic encephalopathy (DEE). DEE is a severe condition, characterized by\nneurodevelopmental delay, behavioral and intellectual impairment, and seizures. Despite the availability of\nseveral VGSC-targeting pharmacological agents, no effective treatment exists for patients with SCN8A-DEE.\nAdditionally, seizure-altering medication rarely ameliorates DEE-associated cognitive and behavioral\ncomorbidities. To better understand the etiology of SCN8A-DEE and to test novel gene therapy approaches as\nalternatives to pharmacological interventions, I have generated a novel human induced pluripotent stem cell\n(hiPSC)-derived organoid model of the thalamocortical circuit (hTCO). This human cellular thalamocortical\nsystem produces rhythmic oscillations that resemble those that are affected in animal models of Scn8a-\nassociated epilepsy. Here, I will interrogate the underlying physiology of altered thalamocortical cellular and\nnetwork activity using whole-cell patch-clamp and two-photon calcium imaging techniques, as well as\nimmunohistochemical and transcriptomic analysis of control and SCN8A-DEE mutant hTCOs. My preliminary\nwork has already established that cells required for thalamocortical rhythm generation are present in hTCOs and\nthat hTCOs exhibit mature thalamocortical-like network activity. Using this model, I will test the hypothesis that\nSCN8A-DEE hTCOs demonstrate hypersynchronous oscillatory activity and delayed neural maturation in\ncomparison to control hTCOs. In addition to assessing circuit physiology, I will also examine the effects of two\nSCN8A-targeted gene therapies on neuronal and network physiology in SCN8A-DEE and control hTCOs. The\nfirst approach uses short hairpin RNAs (shRNAs) to knockdown SCN8A gene expression in order to reduce the\namount of hyperactive mutant SCN8A within neurons. The second approach involves the use of a novel peptide\nthat interacts with the intracellular inactivation gate to reduce SCN8A-DEE-associated increased persistent\nsodium current. This study will provide valuable training opportunities for me to learn cutting-edge approaches\nwhile I interrogate the mechanisms that lead to SCN8A-DEE. Exploration of SCN8A-DEE pathogenesis and\nexaminations of genetic therapeutic efficacy to treat SCN8A-DEE pathologies in a construct-valid, human cellular\nmodel system have strong potential to yield insights into SCN8A-DEE and improve the quality of life for patients\nliving with genetic epilepsies.",
+  "project_title": "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit",
+  "phr_text": "PROJECT NARRATIVE\nDevelopmental and epileptic encephalopathy (DEE) is a severe and complex disease characterized by\nneurodevelopmental delay, behavioral and intellectual impairment, and seizures. Mutations in the voltage-gated\nsodium channel (VGSC) gene, SCN8A, can cause DEE. This proposed work will use a novel human cellular\nmodel of a part of the nervous system that is impaired in SCN8A-DEE to understand how the disease affects\nbrain function and to test novel therapeutic approaches.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-07-01T00:00:00",
+  "budget_end": "2027-06-30T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 50114,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11309107",
+  "date_added": "2026-07-04T17:03:59"
+}

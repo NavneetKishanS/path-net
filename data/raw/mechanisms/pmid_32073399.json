@@ -1,0 +1,17 @@
+{
+  "source_id": "pmid_32073399",
+  "requested_url": "https://pubmed.ncbi.nlm.nih.gov/32073399/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/32073399/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00",
+  "backend": "pubmed_api_cache",
+  "content_type": "application/xml",
+  "encoding": "utf-8",
+  "body_sha256": "baab9a76099f8a2eec7b60523be47cb89f661866708ec11acf63c8878ebf6b89",
+  "text_sha256": "a43ef2502808ca5e56ff9de408ccf6ad40d48a52bc251782ed0e1b23988b2181",
+  "body_path": "raw/mechanisms/pmid_32073399.body",
+  "text_path": "raw/mechanisms/pmid_32073399.txt",
+  "original_cache_path": "raw/pubmed_searches/1e2723f67dbc103d/efetch_77885b27da59fce6.xml",
+  "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+  "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+  "licence": "Chen et al. 2020 eLife; open-access paper; PubMed abstract attribution retained"
+}

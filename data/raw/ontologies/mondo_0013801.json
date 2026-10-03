@@ -1,0 +1,213 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0013801",
+      "lang" : "en",
+      "description" : [ "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN8A gene." ],
+      "synonyms" : [ "epileptic encephalopathy, early infantile, type 13", "DEE13", "EIEE13", "SCN8A early infantile epileptic encephalopathy", "SCN8A encephalopathy", "SCN8A epilepsy", "developmental and epileptic encephalopathy 13", "early infantile epileptic encephalopathy caused by mutation in SCN8A", "early infantile epileptic encephalopathy-13", "epileptic encephalopathy, early infantile, 13" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/developmental_and_epileptic_encephalopathy_13" ],
+        "database_cross_reference" : [ "DOID:0080445", "GARD:0013085", "MEDGEN:482821", "OMIM:614558", "SCTID:765170001", "UMLS:C3281191" ],
+        "has exact match" : [ "http://identifiers.org/medgen/482821", "http://identifiers.org/snomedct/765170001", "http://linkedlifedata.com/resource/umls/id/C3281191", "http://purl.obolibrary.org/obo/DOID_0080445", "https://omim.org/entry/614558" ],
+        "id" : [ "MONDO:0013801" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/4521" ]
+      },
+      "label" : "developmental and epileptic encephalopathy, 13",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0013801",
+      "obo_id" : "MONDO:0013801",
+      "in_subset" : [ "gard_rare", "nord_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "Any early infantile epileptic encephalopathy in which the cause of the disease is a mutation in the SCN8A gene.",
+        "oboXrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/disease_series_by_gene",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0080445",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0080445"
+      }, {
+        "database" : "GARD",
+        "id" : "0013085",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/?gard_id=0013085"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "482821",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/482821"
+      }, {
+        "database" : "OMIM",
+        "id" : "614558",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://omim.org/entry/614558"
+      }, {
+        "database" : "SCTID",
+        "id" : "765170001",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.bioontology.org/ontology/SNOMEDCT/765170001"
+      }, {
+        "database" : "UMLS",
+        "id" : "C3281191",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C3281191"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "DEE13",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080445",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080445"
+        }, {
+          "database" : "OMIM",
+          "id" : "614558",
+          "description" : null,
+          "url" : "https://omim.org/entry/614558"
+        } ]
+      }, {
+        "name" : "EIEE13",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "614558",
+          "description" : null,
+          "url" : "https://omim.org/entry/614558"
+        } ]
+      }, {
+        "name" : "SCN8A early infantile epileptic encephalopathy",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/disease_series_by_gene",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "developmental and epileptic encephalopathy 13",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080445",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080445"
+        }, {
+          "database" : "OMIM",
+          "id" : "614558",
+          "description" : null,
+          "url" : "https://omim.org/entry/614558"
+        } ]
+      }, {
+        "name" : "early infantile epileptic encephalopathy caused by mutation in SCN8A",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "early infantile epileptic encephalopathy-13",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0013085",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/?gard_id=0013085"
+        } ]
+      }, {
+        "name" : "epileptic encephalopathy, early infantile, 13",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "614558",
+          "description" : null,
+          "url" : "https://omim.org/entry/614558"
+        } ]
+      }, {
+        "name" : "SCN8A encephalopathy",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0013085",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/?gard_id=0013085"
+        } ]
+      }, {
+        "name" : "SCN8A epilepsy",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0013085",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/?gard_id=0013085"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/graph"
+        },
+        "has_material_basis_in_germline_mutation_in" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0013801/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013801"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pmid": "41714804",
+  "title": "Crotonylation of STXBP1 exacerbates seizure susceptibility by impairing GABAergic synaptic transmission.",
+  "abstract": "Temporal lobe epilepsy (TLE) is the most common and severe form of epilepsy in adults; however, the underlying pathological mechanisms remain unclear. Post-translational modifications (PTMs) of proteins are increasingly recognized to contribute to the development and maintenance of epilepsy; however, the functional significance of lysine crotonylation (Kcr) in epilepsy formation is still unclear. Herein we found that high levels crotonylation promote seizure susceptibility. Through quantitative analysis of global crotonylome in the hippocampus of control and epileptic mice, we identified a significant decrease in K98 crotonylation (K98cr) of syntaxin-binding protein 1 (STXBP1) in epileptic mice hippocampus. In Stxbp1K98Q knock-in mice, the upregulation of STXBP1 K98cr reduces the binding with syntaxin-1B(STX1B), leading to a decreased assembly of soluble NSF attachment protein receptors (SNAREs) in presynaptic active zone and subsequent inhibition vesicle release, thereby promoting epilepsy formation. Additionally, we found that reduced E1A-binding protein p300 (p300)-mediated crotonylation is a major cause of the altered STXBP1 crotonylation in the hippocampus of epileptic mice. Furthermore, chemically inhibiting the generation of crotonyl-CoA alleviate the seizure susceptibility of mice. In summary, our results indicate that crotonylation is an important regulatory factor in the process of epilepsy formation and modulating crotonylation may provide new insights for epilepsy treatment.",
+  "authors": [
+    "Yan Liu",
+    "Fei Song",
+    "Yanlin Guo",
+    "Sijiu Xu",
+    "Liqin Hu",
+    "Ziwei Yuan",
+    "Ran Duan",
+    "Yuan Meng",
+    "Pingyang Ke",
+    "Xin Tian",
+    "Fei Xiao"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41714804/",
+  "retrieved_at": "2026-10-03T20:48:46+00:00"
+}

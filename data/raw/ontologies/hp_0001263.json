@@ -1,0 +1,94 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/HP_0001263",
+      "lang" : "en",
+      "description" : [ "Developmental retardation is any significant lag in development in the any or all of the physical, cognitive, behavioral, emotional, or social spheres. Note that the term intellectual disability (mental retardation) refers to not merely a delay in development but rather a permanent limitation. Note that the term 'psychomotor retardation' is also used in some contexts to refer to a slowing of thought and physical movements as a result of major depression or intoxication.", "A delay in the achievement of motor or mental milestones in the domains of development of a child, including motor skills, speech and language, cognitive skills, and social and emotional skills. This term should only be used to describe children younger than five years of age." ],
+      "synonyms" : [ "Cognitive delay", "Delayed cognitive development", "Delayed development", "Delayed developmental milestones", "Delayed intellectual development", "Delayed milestones", "Delayed psychomotor development", "Developmental delay in early childhood", "Developmental delay", "Developmental delay, global", "Developmental retardation", "Lack of psychomotor development", "Mental and motor retardation", "Motor and developmental delay", "Motormental retardation", "Psychomotor delay", "Psychomotor development deficiency", "Psychomotor development failure", "Psychomotor developmental delay", "Retarded development", "Retarded mental development", "Retarded psychomotor development", "GDD" ],
+      "annotation" : {
+        "has_alternative_id" : [ "HP:0000754", "HP:0001255", "HP:0001277", "HP:0001292", "HP:0002433", "HP:0002473", "HP:0002532", "HP:0006793", "HP:0006867", "HP:0006885", "HP:0006935", "HP:0007005", "HP:0007094", "HP:0007106", "HP:0007174", "HP:0007224", "HP:0007228", "HP:0007342", "HP:0025356" ],
+        "id" : [ "HP:0001263" ]
+      },
+      "label" : "Global developmental delay",
+      "ontology_name" : "hp",
+      "ontology_prefix" : "HP",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "HP_0001263",
+      "obo_id" : "HP:0001263",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "A delay in the achievement of motor or mental milestones in the domains of development of a child, including motor skills, speech and language, cognitive skills, and social and emotional skills. This term should only be used to describe children younger than five years of age.",
+        "oboXrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-6410-0882",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-6410-0882"
+        }, {
+          "database" : null,
+          "id" : "https://orcid.org/0009-0006-4530-3154",
+          "description" : null,
+          "url" : "https://orcid.org/0009-0006-4530-3154"
+        } ]
+      } ],
+      "obo_xref" : null,
+      "obo_synonym" : [ {
+        "name" : "GDD",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001263/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP:0001263"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

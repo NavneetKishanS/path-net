@@ -1,0 +1,142 @@
+{
+  "appl_id": 11600294,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "3R01MH126960-06S1",
+  "project_serial_num": "MH126960",
+  "organization": {
+    "org_name": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+    "city": null,
+    "country": null,
+    "org_city": "ANN ARBOR",
+    "org_country": "UNITED STATES",
+    "org_state": "MI",
+    "org_state_name": null,
+    "dept_type": "PHARMACOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "073133571"
+    ],
+    "org_ueis": [
+      "GNJ7BBP73WE9"
+    ],
+    "primary_duns": "073133571",
+    "primary_uei": "GNJ7BBP73WE9",
+    "org_fips": "US",
+    "org_ipf_code": "1506502",
+    "org_zipcode": "481081364",
+    "external_org_id": 1506502
+  },
+  "award_type": "3",
+  "activity_code": "R01",
+  "award_amount": 86029,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "3",
+    "activity_code": "R01",
+    "ic_code": "MH",
+    "serial_num": "126960",
+    "support_year": "06",
+    "full_support_year": "06S1",
+    "suffix_code": "S1"
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 9297223,
+      "first_name": "Nadav",
+      "middle_name": "",
+      "last_name": "Ahituv",
+      "is_contact_pi": false,
+      "full_name": "Nadav  Ahituv",
+      "title": ""
+    },
+    {
+      "profile_id": 8843508,
+      "first_name": "Kevin",
+      "middle_name": "J",
+      "last_name": "Bender",
+      "is_contact_pi": false,
+      "full_name": "Kevin J Bender",
+      "title": ""
+    },
+    {
+      "profile_id": 8719167,
+      "first_name": "Paul",
+      "middle_name": "Michael",
+      "last_name": "Jenkins",
+      "is_contact_pi": true,
+      "full_name": "Paul Michael Jenkins",
+      "title": "ASSOCIATE PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "JENKINS, PAUL MICHAEL",
+  "program_officers": [
+    {
+      "first_name": "JAMIE",
+      "middle_name": "DANIELLE",
+      "last_name": "DRISCOLL",
+      "full_name": "JAMIE DANIELLE DRISCOLL"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 86029.0,
+      "direct_cost_ic": 60484.0,
+      "indirect_cost_ic": 25545.0
+    }
+  ],
+  "cong_dist": "MI-06",
+  "spending_categories": null,
+  "project_start_date": "2021-05-14T00:00:00",
+  "project_end_date": "2027-02-28T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -83.743038,
+    "lat": 42.275494
+  },
+  "opportunity_number": "PAR-25-038",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "BN",
+    "sra_flex_code": "P",
+    "group_code": "57",
+    "name": "Special Emphasis Panel[ZRG1-BN-P(57)]"
+  },
+  "award_notice_date": "2026-08-14T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01MH126960",
+  "terms": "<ANK2><ANK2 gene><ASD><Action Potentials><Affect><Allelic Loss><Ammon Horn><Anatomic Sites><Anatomic structures><Anatomy><Animals><Ankyrin 2><Ankyrin-B><Ankyrins><Autism><Autistic Disorder><Axon><Brain Ankyrin><Brain region><Cell Body><Cells><Compensation><Cornu Ammonis><Data><Dendrites><Development><Disease><Disorder><Distal><Dysfunction><Early Infantile Autism><Failure><Family><Family member><Functional disorder><Funding><Gene Transcription><Genes><Genetic Transcription><Goals><Health><Hippocampus><Human><Human Genome><Impairment><Individual><Infantile Autism><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Kanner's Syndrome><Life><Link><Loss of Heterozygosity><Mass Photometry/Spectrum Analysis><Mass Spectrometry><Mass Spectroscopy><Mass Spectrum><Mass Spectrum Analyses><Mass Spectrum Analysis><Membrane><Messenger RNA><Mice><Mice Mammals><Modern Man><Molecular><Murine><Mus><Nav1.2><Neocortex><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurodevelopmental Disorder><Neurological Development Disorder><Neuronal Ankyrin><Neurons><Nonerythroid Ankyrin><Phosphorylation><Physiopathology><Population><Post-Translational Modification Protein/Amino Acid Biochemistry><Post-Translational Modification Site><Post-Translational Modifications><Post-Translational Protein Modification><Post-Translational Protein Processing><Posttranslational Modification Site><Posttranslational Modifications><Posttranslational Protein Processing><Process><Protein Modification><Protein Phosphorylation><Proteins><Pyramidal Cells><RNA Expression><Ranvier's Nodes><Regulation><Reporting><Role><SCN2A protein><Scaffolding Protein><Sequence Homology><Site><Sodium Channel><Sodium Ion Channels><Specificity><Synapses><Synaptic><Testing><Therapeutic><Therapeutic Intervention><Transcription><Variant><Variation><Work><autism causation><autism cause><autism etiology><autism predisposition><autism risk><autism risk allele><autism risk genes><autism risk locus><autism risk variant><autism spectral disorder><autism spectrum disorder><autism spectrum disorder causation><autism spectrum disorder cause><autism spectrum disorder etiology><autism spectrum disorder predisposition><autism spectrum disorder risk><autism spectrum disorder risk allele><autism spectrum disorder risk genes><autism spectrum disorder risk locus><autism spectrum disorder risk variant><autism spectrum disorder susceptibility><autism spectrum disorder susceptibility genes><autism spectrum risk genes><autism susceptibility genes><autistic spectrum disorder><cell type><co-morbid><co-morbidity><comorbidity><developmental><early onset><epileptic encephalopathies><etiology underlying autism spectrum disorder><exome sequencing><exome-seq><gene product><hippocampal><homotypical cortex><human whole genome><impaired intellectual functioning><intellectual and developmental disability><intellectual and developmental disorder><interest><intervention therapy><isocortex><limited intellectual functioning><loss of function><mRNA><member><membrane structure><mouse model><murine model><na(v)1.2><neocortical><neopallium><neurodevelopmental disease><neuronal><neuronal excitability><overexpress><overexpression><palmitoylation><pathophysiology><repetitive behavior><risk genes implicated in autism><risk genes in autism><scaffold><scaffolding><social communication><social role><synapse><voltage>",
+  "pref_terms": "ANK2 gene;Action Potentials;Affect;Anatomy;Animals;Ankyrins;Axon;Brain region;Cells;Compensation;Data;Dendrites;Development;Disease;Distal;Failure;Family;Family member;Functional disorder;Funding;Genes;Genetic Transcription;Goals;Health;Hippocampus;Human;Human Genome;Impairment;Individual;Intellectual functioning disability;Life;Link;Loss of Heterozygosity;Mass Spectrum Analysis;Membrane;Messenger RNA;Molecular;Mus;Neocortex;Neurodevelopmental Disorder;Neurons;Phosphorylation;Population;Post-Translational Modification Site;Post-Translational Protein Processing;Process;Proteins;Pyramidal Cells;Ranvier's Nodes;Regulation;Reporting;Role;SCN2A protein;Scaffolding Protein;Sequence Homology;Site;Sodium Channel;Specificity;Synapses;Testing;Therapeutic;Therapeutic Intervention;Variant;Work;autism etiology;autism risk;autism risk genes;autism spectrum disorder;cell type;comorbidity;early onset;epileptic encephalopathies;exome sequencing;gene product;interest;loss of function;member;mouse model;neocortical;neuronal excitability;overexpression;palmitoylation;repetitive behavior;scaffold;social communication;voltage",
+  "abstract_text": "Voltage-gated sodium channels (NaVs) are fundamental for the control of neuronal excitability, with classical\nroles in action potential (AP) initiation and propagation. Decades of work have shown that APs are initiated by\nNaVs clustered at the axon initial segment (AIS) and propagated to release sites by NaVs along axons, at times\nclustered within nodes of Ranvier (NoR). We and others have shown that NaVs are also critical for other aspects\nof neuron excitability, including integration of synaptic activity in dendritic compartments. Individual neurons\nexpress multiple NaV channel α subunit subtypes, with each localizing to specific subcellular compartments. This\nprecision is mirrored by specificity in the NaV scaffolding proteins ankyrins, with individual ankyrin subtypes\nlocalizing to specialized neuronal compartments with little to no overlap with other ankyrins. This mechanism is\nso well regulated that dysfunction in one Nav or ankyrin subtype often cannot be compensated for by other family\nmembers. But how individual NaVs and ankyrins localize and interact to regulate different aspects of excitability\nremains unclear. This process has major implications for human health, as dysfunction in NaV-ankyrin\ninteractions has been implicated in multiple neurodevelopmental disorders, including autism spectrum disorder\n(ASD), intellectual disability (ID), and developmental and epileptic encephalopathy, in which ASD and ID are co-\nmorbidities. Our overarching hypothesis is that the unique combination of scaffolding partners, combined with\npost-translational modifications (PMTs) to both NaV1.2 and ankyrin-B, determines where these proteins localize\nand who they localize with. Understanding these control points is critical to human health, as these mechanisms\nare failure points in NDDs and potentially exploitable points of leverage for therapeutic intervention.",
+  "project_title": "Convergent mechanisms for neurodevelopmental disorder genes",
+  "phr_text": "Narrative\nAutism spectrum disorder is an early onset, life-long disorder that affects approximately 1% of the population,\nand is defined by fundamental impairments in social communication and restricted or repetitive behavior or\ninterests. This work focuses on the regulation of interaction of two autism-linked genes ANK2 and SCN2A. This\nproject will shed light on the cellular and molecular mechanisms that contribute to the disorder, and potentially\nidentify new avenues for therapeutic intervention.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-08-01T00:00:00",
+  "budget_end": "2027-02-28T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 60484,
+  "indirect_cost_amt": 25545,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11600294",
+  "date_added": "2026-08-15T17:03:56"
+}

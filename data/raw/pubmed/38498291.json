@@ -1,0 +1,21 @@
+{
+  "pmid": "38498291",
+  "title": "DYT-THAP1: exploring gene expression in fibroblasts for potential biomarker discovery.",
+  "abstract": "Dystonia due to pathogenic variants in the THAP1 gene (DYT-THAP1) shows variable expressivity and reduced penetrance of ~ 50%. Since THAP1 encodes a transcription factor, modifiers influencing this variability likely operate at the gene expression level. This study aimed to assess the transferability of differentially expressed genes (DEGs) in neuronal cells related to pathogenic variants in the THAP1 gene, which were previously identified by transcriptome analyses. For this, we performed quantitative (qPCR) and Digital PCR (dPCR) in cultured fibroblasts. RNA was extracted from THAP1 manifesting (MMCs) and non-manifesting mutation carriers (NMCs) as well as from healthy controls. The expression profiles of ten of 14 known neuronal DEGs demonstrated differences in fibroblasts between these three groups. This included transcription factors and targets (ATF4, CLN3, EIF2A, RRM1, YY1), genes involved in G protein-coupled receptor signaling (BDKRB2, LPAR1), and a gene linked to apoptosis and DNA replication/repair (CRADD), which all showed higher expression levels in MMCs and NMCs than in controls. Moreover, the analysis of genes linked to neurological disorders (STXBP1, TOR1A) unveiled differences in expression patterns between MMCs and controls. Notably, the genes CUEDC2, DRD4, ECH1, and SIX2 were not statistically significantly differentially expressed in fibroblast cultures. With > 70% of the tested genes being DEGs also in fibroblasts, fibroblasts seem to be a suitable model for DYT-THAP1 research despite some restrictions. Furthermore, at least some of these DEGs may potentially also serve as biomarkers of DYT-THAP1 and influence its penetrance and expressivity.",
+  "authors": [
+    "Sokhna Haissatou Diaw",
+    "Sylvie Delcambre",
+    "Christoph Much",
+    "Fabian Ott",
+    "Vladimir S Kostic",
+    "Agata Gajos",
+    "Alexander Münchau",
+    "Simone Zittel",
+    "Hauke Busch",
+    "Anne Grünewald",
+    "Christine Klein",
+    "Katja Lohmann"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38498291/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

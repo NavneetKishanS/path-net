@@ -1,0 +1,40 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "729",
+    "retmax": "20",
+    "retstart": "0",
+    "idlist": [
+      "33531663",
+      "27830185",
+      "34431999",
+      "29655203",
+      "28212175",
+      "23708187",
+      "27559564",
+      "34177764",
+      "31904118",
+      "40381613",
+      "35501379",
+      "28235671",
+      "22905747",
+      "38802994",
+      "42227234",
+      "32090326",
+      "37160367",
+      "39435659",
+      "36750385",
+      "39088270"
+    ],
+    "translationset": [
+      {
+        "from": "SCN8A",
+        "to": "\"scn8a protein, human\"[Supplementary Concept] OR \"scn8a protein, human\"[All Fields] OR \"scn8a\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"scn8a protein human\"[Supplementary Concept] OR \"scn8a protein human\"[All Fields] OR \"scn8a\"[All Fields]) AND \"hasabstract\"[All Fields] AND 1800/01/01:2026/10/03[Date - Publication]"
+  }
+}

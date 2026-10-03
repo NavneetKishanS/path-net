@@ -1,0 +1,124 @@
+{
+  "appl_id": 11261040,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS034509-29",
+  "project_serial_num": "NS034509",
+  "organization": {
+    "org_name": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+    "city": null,
+    "country": null,
+    "org_city": "ANN ARBOR",
+    "org_country": "UNITED STATES",
+    "org_state": "MI",
+    "org_state_name": null,
+    "dept_type": "GENETICS",
+    "fips_country_code": null,
+    "org_duns": [
+      "073133571"
+    ],
+    "org_ueis": [
+      "GNJ7BBP73WE9"
+    ],
+    "primary_duns": "073133571",
+    "primary_uei": "GNJ7BBP73WE9",
+    "org_fips": "US",
+    "org_ipf_code": "1506502",
+    "org_zipcode": "481081364",
+    "external_org_id": 1506502
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 465915,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "034509",
+    "support_year": "29",
+    "full_support_year": "29",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 1863377,
+      "first_name": "MIRIAM",
+      "middle_name": "H",
+      "last_name": "MEISLER",
+      "is_contact_pi": true,
+      "full_name": "MIRIAM H MEISLER",
+      "title": "PROFESSOR OF HUMAN GENETICS"
+    }
+  ],
+  "contact_pi_name": "MEISLER, MIRIAM H",
+  "program_officers": [
+    {
+      "first_name": "GEORGE",
+      "middle_name": "KWABENA ESSIEN",
+      "last_name": "UMANAH",
+      "full_name": "GEORGE KWABENA ESSIEN UMANAH"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 465915.0,
+      "direct_cost_ic": 305164.0,
+      "indirect_cost_ic": 160751.0
+    }
+  ],
+  "cong_dist": "MI-06",
+  "spending_categories": null,
+  "project_start_date": "1996-05-01T00:00:00",
+  "project_end_date": "2027-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -83.743038,
+    "lat": 42.275494
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "CNNT",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Clinical Neuroplasticity and Neurotransmitters Study Section[CNNT]"
+  },
+  "award_notice_date": "2026-02-24T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS034509",
+  "terms": "<0-11 years old><AAV vector><AAV-based vector><ASO therapeutics><ASO therapy><ASO treatment><Action Potentials><Affect><Alleles><Allelomorphs><Ammon Horn><Antisense Agent><Antisense Oligonucleotide Therapy><Antisense Oligonucleotides><Ataxia><Ataxy><Brain><Brain Nervous System><Brain region><CRISPR><CRISPR approach><CRISPR based approach><CRISPR based therapeutics><CRISPR based treatment><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR therapeutics><CRISPR tools><CRISPR treatment><CRISPR-CAS-9><CRISPR-Cas based therapeutics><CRISPR-based disease therapeutics><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based therapy><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas system><CRISPR/Cas technology><CRISPR/Cas therapeutics><CRISPR/Cas9><CRISPR/Cas9 technology><CRISPR/Cas9 therapeutics><CRISPR/Cas9 therapy><CRISPR/Cas9 treatment><CRISPR/Cas9-based therapy><Cas nuclease technology><Cas9 based therapeutics><Cerebellum><Child><Child Youth><Children (0-21)><Clinical><Clustered Regularly Interspaced Short Palindromic Repeats><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats based therapeutics><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Clustered Regularly Interspaced Short Palindromic Repeats therapeutics><Cognition><Cognitive><Coordination Impairment><Cornu Ammonis><DNA Therapy><DNA mutation><Decreased Muscle Tone><Dependence><Development><Disease><Disorder><Dorsal><Down-Regulation><Drug Therapy><Drugs><Dysfunction><Dyssynergia><EEG><Effectiveness><Electroencephalogram><Electroencephalography><Encephalon><Engineering><Entorhinal Area><Epilepsy><Epileptic Seizures><Epileptics><Fore-Brain><Forebrain><Functional disorder><Funding><Future><Gene Alteration><Gene Mutation><Gene Transfer Clinical><Genes><Genetic><Genetic Change><Genetic Intervention><Genetic defect><Genetic mutation><Goals><Heterozygote><Hippocampus><Human><Hypomyotonia><Hypotonia><Impairment><In Vitro><Increase lifespan><Individual><Injections><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Intervention><Investigators><Knock-out><Knockout><Length><Life><LoxP-flanked allele><Medication><Mice><Mice Mammals><Missense Mutation><Modern Man><Motor><Movement><Murine><Mus><Muscle Hypotony><Muscle Tone Poor><Muscle hypotonia><Muscular Hypotonia><Mutation><Myoclonic Jerk><Myoclonus><NAV1.6><NaCh6><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neurocyte><Neurologic Disorders><Neurological Disorders><Neurons><Nucleotides><Pathogenicity><Pathology><Patients><Pharmaceutical Preparations><Pharmacological Treatment><Pharmacotherapy><Physiopathology><Property><Prosencephalon><Purkinje Cells><Purkinje's Corpuscles><Recurrence><Recurrent><Reporting><Research Personnel><Researchers><Role><SCN8A><SCN8A gene><Seizure Disorder><Seizures><Sodium Channel><Sodium Ion Channels><Source><Sudden Death><Syndrome><Thalamic structure><Thalamus><Therapeutic><Therapeutic Effect><Therapeutic Intervention><Transcript><Transgenic Organisms><Treatment Efficacy><Variant><Variation><Viral><Viral Vector><Work><adeno-associated viral vector><adeno-associated virus vector><anti-sense oligonucleotide drug><anti-sense oligonucleotide therapy><anti-sense oligonucleotide treatment><anti-sense therapy><antisense drug><antisense oligo><antisense oligonucleotide therapeutic><antisense therapeutics><antisense therapy><assess effectiveness><auditory stimulus><body movement><boost longevity><cerebellar Purkinje cell><co-morbid><co-morbidity><comorbidity><determine effectiveness><developmental><developmental disease><developmental disorder><developmental epileptic encephalopathy><disease causing variant><disease-causing allele><disease-causing mutation><drug intervention><drug treatment><drug/agent><early onset><effective therapy><effective treatment><effectiveness assessment><effectiveness evaluation><elongating the lifespan><enhance longevity><entorhinal cortex><epilepsia><epileptic encephalopathies><epileptogenic><evaluate effectiveness><examine effectiveness><excitatory neuron><exome sequencing><exome-seq><experience><experiment><experimental research><experimental study><experiments><extend life span><extend lifespan><extend longevity><floxed><floxed allele><foster longevity><gain of function mutation><gene defect><gene repair therapy><gene therapy><gene-based therapy><genetic therapy><genome mutation><genomic therapy><heterozygosity><hippocampal><impaired intellectual functioning><improve lifespan><improve longevity><improved><insight><intellectual and developmental disability><intellectual and developmental disorder><intervention efficacy><intervention therapy><kids><lifespan extension><limited intellectual functioning><missense single nucleotide polymorphism><missense single nucleotide variant><missense variant><motor impairment><mouse model><movement impairment><movement limitation><murine model><mutant><mutant allele><neurological disease><neuronal><neuronal excitability><new approaches><new drug treatments><new drugs><new pharmacological therapeutic><new therapeutics><new therapy><next generation therapeutics><novel approaches><novel drug treatments><novel drugs><novel pharmaco-therapeutic><novel pharmacological therapeutic><novel strategies><novel strategy><novel therapeutics><novel therapy><pathogenic allele><pathogenic variant><pathophysiology><pharmaceutical intervention><pharmacological intervention><pharmacological therapy><pharmacology intervention><pharmacology treatment><pharmacotherapeutics><pre-clinical><preclinical><prevent><preventing><prolong lifespan><prolong longevity><promote lifespan><promote longevity><response><shRNA><short hairpin RNA><side effect><small hairpin RNA><social role><sodium channel, voltage gated, type VIII, alpha subunit><standard care><standard treatment><support longevity><thalamic><therapeutic effectiveness><therapeutic efficacy><therapeutically effective><therapy efficacy><transgenic><translational opportunities><translational potential><voltage><youngster>",
+  "pref_terms": "Action Potentials;Affect;Alleles;Antisense Oligonucleotide Therapy;Antisense Oligonucleotides;Ataxia;Brain;Brain region;CRISPR therapeutics;CRISPR/Cas technology;Cerebellum;Child;Clinical;Clustered Regularly Interspaced Short Palindromic Repeats;Cognition;Cognitive;Dependence;Development;Disease;Dorsal;Down-Regulation;Effectiveness;Electroencephalography;Engineering;Epilepsy;Functional disorder;Funding;Future;Gene Mutation;Genes;Genetic;Goals;Heterozygote;Hippocampus;Human;Impairment;In Vitro;Individual;Injections;Intellectual functioning disability;Intervention;Knock-out;Length;Life;LoxP-flanked allele;Missense Mutation;Motor;Movement;Mus;Muscle hypotonia;Mutation;Myoclonus;Nervous System Disorder;Neurons;Nucleotides;Pathogenicity;Pathology;Patients;Pharmaceutical Preparations;Pharmacotherapy;Property;Prosencephalon;Purkinje Cells;Recurrence;Reporting;Research Personnel;Role;SCN8A gene;Seizures;Sodium Channel;Source;Sudden Death;Syndrome;Thalamic structure;Therapeutic;Therapeutic Effect;Therapeutic Intervention;Transcript;Transgenic Organisms;Treatment Efficacy;Variant;Viral;Viral Vector;Work;adeno-associated viral vector;auditory stimulus;comorbidity;developmental disease;developmental epileptic encephalopathy;disease-causing mutation;early onset;effective therapy;effectiveness evaluation;entorhinal cortex;epileptic encephalopathies;excitatory neuron;exome sequencing;experience;experimental study;extend lifespan;gain of function mutation;gene therapy;improved;insight;motor impairment;mouse model;mutant;neuronal excitability;novel strategies;novel therapeutics;pre-clinical;prevent;response;side effect;small hairpin RNA;standard care;therapeutic effectiveness;therapeutically effective;translational potential;voltage",
+  "abstract_text": "ABSTRACT\nDuring the previous funding period, we generated a conditional mouse model of the recurrent sodium channel\nmutation SCN8A-p.R1872W that is responsible for the rare, devastating disorder Developmental Epileptic\nEncephalopathy (DEE). We demonstrated that expression of the mutant channel in excitatory neurons of the\nforebrain reproduces the seizures and sudden death of the human disorder. We also developed an effective\ntreatment for Scn8a-DEE by intracerebroventricular administration of an antisense oligonucleotide (ASO) that\nreduced both mutant and wildtype transcript level throughout the brain, resulting in delayed seizure onset and\nextended lifespan. We will build on this important preclinical result by developing improved, longeracting\ntreatments that will minimize the side effects of excess Scn8a reduction. First, AAV viral delivery of an Scn8a-\nshRNA will limit effects to specific brain regions only. Second, the multiple nucleotide substitutions in our\nengineered Scn8a-N1768D mutant make it feasible to specifically inactivate the mutant allele by CRISPR/Cas\ntargeting. The goal of these experiments is to minimize the potential side effects of Scn8a deficiency and to\navoid the repeated treatments required for ASO therapy. Finally, expression of Scn8aR1872W in cerebellar\nPurkinje cells results in elevated neuronal excitability. We will characterize mice with specific expression of the\nmutant allele in Purkinje cells to gain insight into the role of the cerebellum in the movement and cognitive co-\nmorbidities that accompany SCN8A-DEE. The work described here will extend basic understanding of SCN8A\npathophysiology and provide pre-clinical evidence regarding future translational potential of regional or mutant-\nallele-specific down-regulation of pathogenic variants of SCN8A.",
+  "project_title": "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+  "phr_text": "LAY NARRATIVE\nMutations in the sodium channel gene SCN8A result in a severe epileptic syndrome designated SCN8A-DEE,\nDevelopmental and Epileptic Encephalopathy, that is characterized by early onset seizures, profound\nintellectual disability, and impaired movement. We pioneered an antisense-oligonucleotide (ASO) drug\ntreatment that prevents seizures and extends lifespan in a preclinical mouse model. We propose to develop\nimproved viral and CRISPR treatments with longer-term effectiveness and reduced potential for side effects,\nand to elucidate the unexplored role of the cerebellum in the co-morbidities of movement and cognition in\nobserved in individuals with SCN8A-DEE.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-02-01T00:00:00",
+  "budget_end": "2027-01-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 305164,
+  "indirect_cost_amt": 160751,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11261040",
+  "date_added": "2026-02-28T17:04:01"
+}

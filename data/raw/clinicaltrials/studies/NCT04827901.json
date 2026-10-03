@@ -1,0 +1,363 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04827901",
+      "orgStudyIdInfo": {
+        "id": "GCO 16-0374-02"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "4R33MH111932-03",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/4R33MH111932-03"
+        }
+      ],
+      "organization": {
+        "fullName": "Icahn School of Medicine at Mount Sinai",
+        "class": "OTHER"
+      },
+      "briefTitle": "XEN1101 for Major Depressive Disorder",
+      "officialTitle": "A Proof of Concept Randomized Controlled Trial of XEN1101 for the Treatment of Major Depressive Disorder"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-10-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-03-30",
+      "studyFirstSubmitQcDate": "2021-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "James Murrough",
+        "investigatorTitle": "Associate Professor, Psychiatry",
+        "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+      },
+      "leadSponsor": {
+        "name": "James Murrough",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Baylor College of Medicine",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute of Mental Health (NIMH)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project is designed to examine the neuronal KCNQ2/3 potassium (K+) channel subtype as a novel treatment target for mood disorders through the administration of the KCNQ-selective channel opener XEN1101 (Xenon Pharmaceuticals)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorder"
+      ],
+      "keywords": [
+        "depression",
+        "anhedonia",
+        "major depressive disorder",
+        "investigational medication",
+        "potassium channel",
+        "KCNQ"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a phase II, randomized, parallel-arm, placebo-controlled clinical trial were 60 patients with major depressive disorder will be randomized in 1:1 fashion to XEN1101 (N=30) or matching placebo (N=30).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "XEN1101",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects will take two 10 mg capsules of XEN1101 daily for 8 weeks for a total daily dose of 20 mg.",
+          "interventionNames": [
+            "Drug: XEN1101"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Subjects will take a matching placebo daily for eight weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "XEN1101",
+          "description": "two 10 mg capsules",
+          "armGroupLabels": [
+            "XEN1101"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "matching placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in activation within the reward circuit by fMRI",
+          "description": "The change in activation within the bilateral ventral striatum (VS) from baseline (week 0) to end of treatment (week 8) as measured by fMRI during an Incentive Flanker Task.",
+          "timeFrame": "Baseline (week 0), End of treatment (week 8)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Montgomery-Åsberg Depression Rating Scale Score",
+          "description": "The Montgomery-Åsberg Depression Rating Scale (MADARS) is a 10-item instrument used for the evaluation of depressive symptoms in adults and for the assessment of any changes to those symptoms. Each of the 10 items is rated on a scale of 0 to 6, with differing descriptors for each item. These individual item scores are added together to form a total score, which can range between 0 and 60 points, higher score indicating poorer health outcomes. The MADRS provides a measure of the overall level of depression.",
+          "timeFrame": "Baseline (week 0), End of treatment (week 8)"
+        },
+        {
+          "measure": "Change in Quick Inventory of Depressive Symptomatology, Self-Report [QIDS-SR] Score",
+          "description": "The Quick Inventory of Depressive Symptomatology, Self-Report (QIDS-SR) is a 16-item self-rated instrument designed to assess the severity of depressive symptoms. The 16 items cover the nine symptom domains of major depression and are rated on a scale of 0-3. Total score ranges from 0 to 27, with ranges of 0-5 (normal), 6-10 (mild), 11-15 (moderate), 16-20 (moderate to severe), and 21+ (severe).",
+          "timeFrame": "Baseline (week 0), End of treatment (week 8)"
+        },
+        {
+          "measure": "Change in Snaith-Hamilton Pleasure Scale (SHAPS)",
+          "description": "The Snaith-Hamilton Pleasure Scale (SHAPS) is a well-validated 14-item self-report questionnaire commonly used to assess anhedonia. Each item on the SHAPS is worded so that higher scores indicate greater pleasure capacity. A total score can be derived by summing the responses to each item. Items answered with \"strongly agree\" are coded as \"1\", while a \"strongly disagree\" response was assigned a score of \"4.\" Total scores on the SHAPS can range from 14 to 56, with higher scores corresponding to higher levels of anhedonia.",
+          "timeFrame": "Baseline (week 0), End of treatment (week 8)"
+        },
+        {
+          "measure": "Change in Temporal Experience of Pleasure Scale",
+          "description": "The Temporal Experience of Pleasure Scale (TEPS) is an 18-item self-report measurement of anhedonia which consists of a series of statements that must be rated according to how accurate they are for the individual. The scale produces a sub-score that differentiates the role of anticipatory pleasure ('wanting') and is derived of 10 items. Total scores range is 16-108. Lower scores indicate greater levels of anhedonia.",
+          "timeFrame": "Baseline (week 0), End of treatment (week 8)"
+        },
+        {
+          "measure": "Change in Clinical Global Impression Scale",
+          "description": "This is a widely administered clinician rated scale that assesses the subject overall illness severity and the degree of improvement from the initial assessment.\n\nIllness severity is rated on a 1-7 scale where 1 corresponds to \"Normal, Not at All Ill\", 2 is \"Borderline Mentally Ill\", the anchor for 3 is \"Mildly Ill\", the anchor for 4 is \"Moderately Ill\", 5 is \"Markedly Ill\", 6 is \"Severely Ill\", and 7 is \"Among the Most Extremely Ill Patients\".\n\nThe degree of improvement is rated on a 1-7 scale where 1 corresponds to \"Very Much Improved\", 2 is \"Much Improved\", the anchor for 3 is \"Minimally Improved\", the anchor for 4 is \"No Change\", 5 is \"Minimally Worse\", 6 is \"Much Worse\", and 7 is \"Very Much Worse\".",
+          "timeFrame": "Baseline (week 0), End of treatment (week 8)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. Written informed consent (and assent when applicable) obtained from subject\n2. Ability for subject to comply with the requirements of the study as determined by the PI;\n3. Men and women, age 18-65 years;\n4. Participants must meet DSM-5 criteria for current depressive disorder (major depressive disorder \\[MDD\\]) in a major depressive episode (MDE) as determined by a study psychiatrist and confirmed using the Structured Clinical Interview for DSM-5 Research Version (SCID-5-RV);\n5. Clinically significant anhedonia as determined by a SHAPS score ≥ 20 at screening;\n6. Current illness severity is at least moderate, defined as a score of ≥4 on the CGI-S Scale;\n7. If female of childbearing potential, must agree to use of a medically accepted form of contraception, or else agree to abstinence until 6 months after the last dose of study drug.\n\nExclusion Criteria\n\n1. A primary psychiatric diagnosis other than MDD as defined by DSM-5;\n2. Has a history of schizophrenia or other psychotic disorder, major depressive disorder with psychotic features, or bipolar I or II disorder.\n3. History of non-response to \\>4 adequate antidepressant trials in the current episode as determined by the Antidepressant Treatment Response Questionnaire (ATRQ);\n4. History of non-response to electroconvulsive therapy in the current depressive episode;\n5. A current diagnosis of depression with peripartum onset;\n6. Diagnosis of a major neurocognitive disorder;\n7. Meets criteria for a substance use disorder within the past 6 months, with the exception of nicotine use disorder;\n8. Patient shows signs of retinal macular disease, or retinal pigment epithelium abnormality prior to randomization.\n9. Male patients, if heterosexually active with partner who is female of childbearing potential, pregnant, or breastfeeding, who are unwilling to agree to barrier contraception for the treatment period and for at least 6 months after the last dose of study drug. Female partners of male participants who are unwilling to use at least one form of highly effective contraception starting at least one cycle prior to male patient study drug initiation until 6 months after the last dose of study drug.\n10. Female participants who are pregnant, breastfeeding, or may become pregnant, or unwilling to practice birth control during participation in the study or the 6 months following;\n11. Inability to swallow capsules;\n12. Any contraindication to MRI including claustrophobia, any trauma or surgery which may have left magnetic material in the body, magnetic implants or pacemakers, and inability to lie still for 1 hour or more;\n13. Positive urine toxicology screen for drugs of abuse at the time of screening\\*;\n14. Use of any dis-allowed medication according to the study protocol\\*\\*;\n15. Serious and imminent risk of self-harm or violence as determined by the PI;\n16. Extreme illness severity as defined by a CGI-S score \\>=6;\n17. Any current active suicidal ideation as measured by a Columbia Suicide Severity Rating Scale \\[C-SSRS\\] score of greater than 2 during the past month at the time of screening\n18. History of suicide attempt in past 2 years;\n19. Any unstable medical condition, including as follows; 19.1. History of skin or retinal pigment epithelium abnormalities caused by ezogabine; 19.2. Family history of sudden death of unknown cause; 19.3. Clinically significant abnormalities of laboratory tests, physical examination, or ECG; 19.4. History or presence of long QT syndrome; 19.5. QT corrected by Fridericia's formula (QTcF) \\> 450 msec; 19.6. Alanine transferase (ALT; SGPT) or aspartate transferase (AST; SGOT) levels \\>3 times the upper limit of normal (ULN) at screening;\n20. Presence of a condition or abnormality that in the opinion of the Investigator would compromise the safety of the patient or the quality of the data.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "James W Murrough, MD, PhD",
+          "affiliation": "Icahn School of Medicine at Mount Sinai",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41001561",
+          "type": "DERIVED",
+          "citation": "Murrough J, Fremont R, Neukam P, Govindarajulu U, Ables J, Hameed S, Corwin M, Hargrove M, Chang H, Boukezzi S, Kelly C, Swann A, Salas R, Amarneh D, Engelhardt J, Weyland A, Bagiella E, Morris L, Mathew S. A Randomized, Controlled Trial of the Novel, Potent Kv7 Channel Opener Azetukalner in Individuals with Major Depressive Disorder and Anhedonia: Neural Response to Reward, Clinical Outcomes, and Safety. Res Sq [Preprint]. 2025 Sep 15:rs.3.rs-7448148. doi: 10.21203/rs.3.rs-7448148/v1."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All of the individual participant data collected during the trial, after deidentification.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Immediately following publication. No end date.",
+      "accessCriteria": "Investigators whose proposed use of the data has been approved by an independent review committee identified for this purpose. Any purpose. Other NDCT Database",
+      "url": "https://nda.nih.gov"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-11-01",
+          "uploadDate": "2025-03-05T13:37",
+          "filename": "ICF_002.pdf",
+          "size": 736860
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2026-03-30",
+        "submissionInfos": [
+          {
+            "releaseDate": "2026-03-30",
+            "resetDate": "2026-04-16",
+            "mcpReleaseN": 11
+          },
+          {
+            "releaseDate": "2026-04-21",
+            "resetDate": "2026-05-12",
+            "mcpReleaseN": 12
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003865",
+          "term": "Depressive Disorder, Major"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D059445",
+          "term": "Anhedonia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000710655",
+          "term": "XEN1101"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

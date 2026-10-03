@@ -1,0 +1,124 @@
+{
+  "appl_id": 11238558,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS122834-05",
+  "project_serial_num": "NS122834",
+  "organization": {
+    "org_name": "UNIVERSITY OF VIRGINIA",
+    "city": null,
+    "country": null,
+    "org_city": "CHARLOTTESVILLE",
+    "org_country": "UNITED STATES",
+    "org_state": "VA",
+    "org_state_name": null,
+    "dept_type": "ANESTHESIOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "065391526"
+    ],
+    "org_ueis": [
+      "JJG6HU8PA4S5"
+    ],
+    "primary_duns": "065391526",
+    "primary_uei": "JJG6HU8PA4S5",
+    "org_fips": "US",
+    "org_ipf_code": "1526402",
+    "org_zipcode": "229044195",
+    "external_org_id": 1526402
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 398971,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "122834",
+    "support_year": "05",
+    "full_support_year": "05",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 6980698,
+      "first_name": "MANOJ",
+      "middle_name": "K",
+      "last_name": "PATEL",
+      "is_contact_pi": true,
+      "full_name": "MANOJ K PATEL",
+      "title": "ASSOCIATE PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "PATEL, MANOJ K",
+  "program_officers": [
+    {
+      "first_name": "VICKY",
+      "middle_name": "R",
+      "last_name": "WHITTEMORE",
+      "full_name": "VICKY R WHITTEMORE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 398971.0,
+      "direct_cost_ic": 250000.0,
+      "indirect_cost_ic": 148971.0
+    }
+  ],
+  "cong_dist": "VA-05",
+  "spending_categories": null,
+  "project_start_date": "2022-02-15T00:00:00",
+  "project_end_date": "2026-12-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -78.500531,
+    "lat": 38.050527
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "ANIE",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Acute Neural Injury and Epilepsy Study Section[ANIE]"
+  },
+  "award_notice_date": "2026-01-14T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS122834",
+  "terms": "<Address><Apnea><Apoplexy><Asystole><Autoregulation><Benchmarking><Best Practice Analysis><Bradycardia><Brain Stem><Brain Vascular Accident><Brainstem><Breathing><CO2><Carbon Dioxide><Carbonic Anhydride><Cardiac><Cardiac Arrest><Cause of Death><Cell Nucleus><Cerebral Stroke><Cerebrovascular Apoplexy><Cerebrovascular Stroke><Cessation of life><Clinical><Complex><Convulsive Seizures><DNA mutation><Death><Development><Diaphragm><EEG><Electroencephalogram><Electroencephalography><Electrophysiology><Electrophysiology (science)><Epilepsy><Epileptic Seizures><Epileptics><Failure><Genetic Change><Genetic defect><Genetic mutation><Heart Arrest><Homeostasis><Impairment><Mice><Mice Mammals><Monitor><Motor Seizures><Murine><Mus><Muscle><Muscle Tissue><Mutation><NAV1.6><NINDS><NaCh6><National Institute of Neurological Diseases and Stroke><National Institute of Neurological Disorders and Stroke><Nerve Cells><Nerve Unit><Neural Cell><Neurocyte><Neurologic><Neurological><Neurons><Neurophysiology / Electrophysiology><Nucleus><O element><O2 element><Oxygen><Pathology><Patients><Persons><Phase><Physiological Homeostasis><Population><Preventative strategy><Prevention strategy><Preventive strategy><Process><Recovery><Refractory><Reporting><Research><Respiration Disorders><Respiratory Aspiration><Respiratory Diaphragm><Respiratory Disorder><Respiratory Inspiration><Risk><Risk Factors><Role><SCN8A><SCN8A encephalopathy><SCN8A gene><SUDEP><Seizure Disorder><Seizures><Sodium Channel><Sodium Ion Channels><Stroke><Symptoms><Techniques><Testing><Time><Tonic - clonic seizures><Viral><Vulnerable Populations><benchmark><brain attack><breathing disorder><cardiac function><cardiac pacing><cerebral vascular accident><cerebrovascular accident><clinical relevance><clinically relevant><developmental><electrophysiological><epilepsia><epilepsy monitoring><epilepsy participant><epilepsy patient><epilepsy recording><epilepsy subject><epilepsy tracking><epilepsy volunteer><epileptic encephalopathies><epileptic monitoring><epileptic patient><epileptic recording><epileptic subject><epileptiform monitoring><epileptiform recording><epileptiform tracking><epileptogenic><epileptogenic monitoring><expiration><function of the heart><gain of function mutation><genome mutation><grand mal seizure><heart function><in vivo><ineffective therapies><ineffective treatment><insight><inspiration><knock-down><knockdown><life year loss><mortality><mouse model><murine model><muscular><neural circuit><neural circuitry><neural control><neural regulation><neurocircuitry><neuromodulation><neuromodulatory><neuronal><neuroregulation><new drug target><new drug treatments><new druggable target><new drugs><new pharmacological therapeutic><new pharmacotherapy target><new therapeutic target><new therapeutics><new therapy><new therapy target><next generation therapeutics><novel><novel drug target><novel drug treatments><novel druggable target><novel drugs><novel pharmaco-therapeutic><novel pharmacological therapeutic><novel pharmacotherapy target><novel therapeutic target><novel therapeutics><novel therapy><novel therapy target><optogenetics><patient population><patients with epilepsy><prevent><preventing><respiratory><respiratory dysfunction><seizure detection><seizure monitoring><seizure recording><seizure tracking><shRNA><short hairpin RNA><small hairpin RNA><social role><sodium channel, voltage gated, type VIII, alpha subunit><stroked><strokes><sudden unexpected death in epilepsy><synaptic circuit><synaptic circuitry><ventilation><vulnerable group><vulnerable individual><vulnerable people><years of life lost>",
+  "pref_terms": "Address;Apnea;Benchmarking;Bradycardia;Brain Stem;Breathing;Carbon Dioxide;Cardiac;Cause of Death;Cell Nucleus;Cessation of life;Clinical;Complex;Development;Electroencephalography;Electrophysiology (science);Epilepsy;Failure;Heart Arrest;Homeostasis;Impairment;Monitor;Motor Seizures;Mus;Muscle;Mutation;National Institute of Neurological Disorders and Stroke;Neurologic;Neurons;Oxygen;Pathology;Patients;Persons;Phase;Population;Prevention strategy;Process;Recovery;Refractory;Reporting;Research;Respiration Disorders;Respiratory Diaphragm;Risk;Risk Factors;Role;SCN8A encephalopathy;SCN8A gene;Seizures;Sodium Channel;Stroke;Symptoms;Techniques;Testing;Time;Tonic - clonic seizures;Viral;Vulnerable Populations;cardiac pacing;clinically relevant;epilepsy monitoring;epilepsy patient;epileptic encephalopathies;expiration;gain of function mutation;heart function;in vivo;ineffective therapies;insight;knock-down;mortality;mouse model;neural circuit;neuroregulation;new therapeutic target;novel;novel therapeutics;optogenetics;patient population;prevent;respiratory;small hairpin RNA;sudden unexpected death in epilepsy;ventilation;years of life lost",
+  "abstract_text": "Sudden Unexpected Death in Epilepsy (SUDEP) is defined as the sudden, unexpected, and unexplained\ndeath of a person with epilepsy. SUDEP accounts for between 8 and 17% of all epilepsy-related deaths, rising\nto 50% in patients for which current therapies are ineffective. Amongst all neurological conditions, it is second\nonly to stroke for number of life-years lost. Increasing evidence supports apnea (breathing cessation) as the\nprimary cause of death following a seizure. Apnea and oxygen desaturation have been reported in a large\npercentage of patients during and after convulsive seizures, and of the 9 SUDEP cases that were monitored by\nvideo-EEG in epilepsy monitoring units (EMUs) at the time of death, all involved respiratory arrest occurring\nbefore terminal asystole (MORTEMUS study). A better understanding of the key processes involved in\nrespiratory dysfunction and subsequent SUDEP would allow for the development of novel rescue therapies.\n SUDEP occurs across numerous epilepsy populations. One such vulnerable population are patients with\nSCN8A epileptic encephalopathy (EE), who have a gain of function mutation in the NaV1.6 sodium channel.\nOur mice models harbor Scn8a mutations identified in patients that suffered SUDEP, and produce many of the\nclinical symptoms of the patients, including spontaneous generalized tonic-clonic seizures, apnea, and\nSUDEP. Using these clinically relevant mice models we will test our CENTRAL HYPOTHESIS that SUDEP\noccurs when breathing ceases after a seizure, as a result of constant tonic inspiratory activity, and\nfailure of breathing recovery is due to impaired cardiorespiratory homeostasis. AIM 1: We will determine\nthe role of the Bötzinger complex (BötC) and retrotrapezoid nucleus (RTN) brainstem neurons on coordinating\ninspiratory activity during seizure-induced apnea using optogenetic techniques. AIM 2: Epilepsy patients at risk\nfor SUDEP have impaired central chemosensitivity. We show that our SCN8A EE mice also have impaired\ncentral chemosensitivity. We propose to assess in vivo CO2-sensitivity at developmental time points leading up\nto SUDEP and determine if inhibition of sodium channel (INa) currents can rescue CO2-sensitivity. We will\ndetermine changes in RTN neurons to determine their CO2/H+-sensitivity, intrinsic excitability, and INa currents.\nFinally, we will use shRNA to knockdown NaV1.6 in the RTN and assess its contribution to in vivo CO2-\nsensitivity and SUDEP. AIM 3: Impaired cardiac control is a contributor of SUDEP, and we find that\nbradycardia occurs immediately prior to SUDEP. We will determine in vivo parasympathetic cardiac drive\nleading up to SUDEP and determine effects of INa inhibition. We will make recordings from parasympathetic\ncardiovagal neurons and determine the effects of NaV1.6 knockdown on bradycardia and SUDEP. These\nstudies will significantly impact our current understanding of the cardiorespiratory alterations that lead to\nSUDEP and could provide important insight into novel therapeutic targets to prevent SUDEP.",
+  "project_title": "Role of brainstem cardiorespiratory neurons in SUDEP",
+  "phr_text": "Sudden Unexpected Death in Epilepsy (SUDEP) is defined as the sudden, unexpected, and unexplained death\nof a person with epilepsy and accounts for between 8 and 17% of all epilepsy-related deaths. Increasing\nevidence supports breathing cessation as a primary cause of death following a seizure. Using a novel mouse\nmodel of SUDEP, we propose to elucidate the underlying mechanisms of breathing cessation during and after\nseizures, possibly creating new therapeutic avenues for SUDEP.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-01-01T00:00:00",
+  "budget_end": "2026-12-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 250000,
+  "indirect_cost_amt": 148971,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11238558",
+  "date_added": "2026-01-17T17:03:44"
+}

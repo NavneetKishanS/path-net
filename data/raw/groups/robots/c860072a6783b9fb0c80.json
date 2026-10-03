@@ -1,0 +1,7 @@
+{
+  "url": "https://scn2a.iamrare.org/robots.txt",
+  "status_code": 200,
+  "retrieved_at": "2026-10-03T20:48:37Z",
+  "text": "User-agent: *\nDisallow:\n",
+  "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+}

@@ -1,0 +1,133 @@
+{
+  "appl_id": 11438335,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1R03NS151500-01",
+  "project_serial_num": "NS151500",
+  "organization": {
+    "org_name": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+    "city": null,
+    "country": null,
+    "org_city": "ANN ARBOR",
+    "org_country": "UNITED STATES",
+    "org_state": "MI",
+    "org_state_name": null,
+    "dept_type": "PHARMACOLOGY",
+    "fips_country_code": null,
+    "org_duns": [
+      "073133571"
+    ],
+    "org_ueis": [
+      "GNJ7BBP73WE9"
+    ],
+    "primary_duns": "073133571",
+    "primary_uei": "GNJ7BBP73WE9",
+    "org_fips": "US",
+    "org_ipf_code": "1506502",
+    "org_zipcode": "481081364",
+    "external_org_id": 1506502
+  },
+  "award_type": "1",
+  "activity_code": "R03",
+  "award_amount": 156000,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "R03",
+    "ic_code": "NS",
+    "serial_num": "151500",
+    "support_year": "01",
+    "full_support_year": "01",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 1904093,
+      "first_name": "Lori",
+      "middle_name": "L.",
+      "last_name": "Isom",
+      "is_contact_pi": true,
+      "full_name": "Lori L. Isom",
+      "title": "MAURICE H. SEEVERS PROFESSOR AND CHAIR"
+    },
+    {
+      "profile_id": 8719167,
+      "first_name": "Paul",
+      "middle_name": "Michael",
+      "last_name": "Jenkins",
+      "is_contact_pi": false,
+      "full_name": "Paul Michael Jenkins",
+      "title": "ASSOCIATE PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "ISOM, LORI L.",
+  "program_officers": [
+    {
+      "first_name": "HEIDI",
+      "middle_name": "YANICE",
+      "last_name": "MATOS GALICIA",
+      "full_name": "HEIDI YANICE MATOS GALICIA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 156000.0,
+      "direct_cost_ic": 100000.0,
+      "indirect_cost_ic": 56000.0
+    }
+  ],
+  "cong_dist": "MI-06",
+  "spending_categories": null,
+  "project_start_date": "2026-09-09T00:00:00",
+  "project_end_date": "2028-08-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -83.743038,
+    "lat": 42.275494
+  },
+  "opportunity_number": "PA-25-302",
+  "full_study_section": {
+    "srg_code": "DBD",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Developmental Brain Disorders Study Section[DBD]"
+  },
+  "award_notice_date": "2026-09-09T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R03NS151500",
+  "terms": "<ARNT><ARNT gene><Address><Alleles><Allelomorphs><Antibodies><Antibody Affinity><Antigenic Determinants><Antisense Agent><Antisense Oligonucleotides><Area><Aryl Hydrocarbon Receptor Nuclear Translocator><Axon><Benchmarking><Best Practice Analysis><Binding Determinants><Biology><Brain><Brain Nervous System><Breeding><C-terminal><CRISPR approach><CRISPR based approach><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR tools><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Cas nuclease technology><Causality><Cell membrane><Cellular biology><Childhood><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Co-Immunoprecipitations><Code><Coding System><Communities><Complex><Connector Neuron><Cytoplasmic Membrane><Data><Dendrites><Deposit><Deposition><Development><Dioxin Receptor, Nuclear Translocator><Disease><Disease Progression><Disorder><Encephalon><Ensure><Epilepsy><Epileptic Seizures><Epileptics><Epileptogenesis><Epitopes><Etiology><Exons><Familial Hemiplegic Migraine><Febrile Convulsion Seizure><Febrile Convulsions><Febrile Fit><Febrile Seizures><Fever Convulsion><Fever Seizure><Future><Future Generations><Generations><Genes><Genetic><Genetic study><Goals><HIF-1 Beta Gene><HIF-1Beta Gene><HIF-1beta><HIF1-Beta Gene><HIF1B><HIF1B Gene><HIF1Beta><HIF1beta Gene><Human><Hypoxia-Inducible Factor 1 Beta Gene><Hypoxia-Inducible Factor 1, Beta subunit><Immunoblotting><Immunofluorescence><Immunofluorescence Immunologic><Intercalary Neuron><Intercalated Neurons><Interneurons><Internuncial Cell><Internuncial Neuron><Investigators><Link><Metabolic><Mice><Mice Mammals><Minority><Modeling><Modern Man><Modification><Mouse Strains><Murine><Mus><NINDS><Na element><Na(v)1.1><National Institute of Neurological Diseases and Stroke><National Institute of Neurological Disorders and Stroke><Nav1.1><Nav1.2><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neurocyte><Neurologic Disorders><Neurological Disorders><Neurons><Nuclear Translocator Gene Dioxin Receptor><Phenotype><Plasma Membrane><Property><Proteins><Proteomics><Pyrexial Convulsion><Pyrexial Seizure><Ranvier's Nodes><Regulation><Research><Research Personnel><Researchers><SCN1A protein><SCN2A protein><SUDEP><Seizure Disorder><Seizures><Sodium><Sodium Channel><Sodium Ion Channels><Stop Codon><TANGO><Termination Codon><Terminator Codon><The Jackson Laboratory><Therapeutic Agents><Toxic effect><Toxicities><Transgenic Mice><Translation Stop Signal><Variant><Variation><Visualization><Western Blotting><Western Immunoblotting><Wild Type Mouse><Work><antigen antibody affinity><antisense oligo><benchmark><causation><cell biology><cohort><confocal imaging><density><depository><develop therapy><developmental><disease causation><dravet syndrome><epilepsia><epilepsy prevention><epileptic encephalopathies><epileptogenic><gain of function><high definition><high resolution imaging><high-resolution><imaging capabilities><improved><infancy><infantile><intervention development><mouse model><murine model><na(v)1.2><neurological disease><neuronal><neuronal excitability><novel><pediatric><plasmalemma><polypeptide><pre-clinical therapy><preclinical therapy><premature><prematurity><prevent><preventable epilepsy><preventing><protein blotting><repository><severe myoclonic epilepsy of infancy><sudden unexpected death in epilepsy><therapy development><tool><treatment development><voltage><wildtype mouse>",
+  "pref_terms": "ARNT gene;Address;Alleles;Antibodies;Antibody Affinity;Antisense Oligonucleotides;Area;Axon;Benchmarking;Biology;Brain;Breeding;C-terminal;CRISPR/Cas technology;Cell membrane;Cellular biology;Childhood;Co-Immunoprecipitations;Code;Communities;Complex;Data;Dendrites;Deposition;Development;Disease;Disease Progression;Ensure;Epilepsy;Epileptogenesis;Epitopes;Etiology;Exons;Familial Hemiplegic Migraine;Febrile Convulsions;Future;Future Generations;Generations;Genes;Genetic;Genetic study;Goals;Human;Immunofluorescence Immunologic;Interneurons;Link;Metabolic;Minority;Modeling;Modification;Mouse Strains;Mus;National Institute of Neurological Disorders and Stroke;Nervous System Disorder;Neurons;Phenotype;Property;Proteins;Proteomics;Ranvier's Nodes;Regulation;Research;Research Personnel;SCN1A protein;SCN2A protein;Seizures;Sodium;Sodium Channel;Terminator Codon;The Jackson Laboratory;Therapeutic Agents;Toxic effect;Transgenic Mice;Variant;Visualization;Western Blotting;Wild Type Mouse;Work;cohort;confocal imaging;density;dravet syndrome;epileptic encephalopathies;gain of function;high resolution imaging;high-resolution;imaging capabilities;improved;infancy;mouse model;neuronal excitability;novel;polypeptide;pre-clinical therapy;premature;prevent;preventable epilepsy;repository;sudden unexpected death in epilepsy;therapy development;tool;voltage",
+  "abstract_text": "SCN1A, encoding the voltage-gated sodium channel (VGSC) Nav1.1, is a major target in neurological disease.\nMonoallelic SCN1A variants that result in Nav1.1 haploinsufficiency cause the Developmental and Epileptic\nEncephalopathy (DEE) Dravet syndrome (DS) or the less severe Genetic Epilepsy with Febrile Seizures plus\n(GEFS+). Gain-of-function SCN1A variants are linked to a more severe, early infantile DEE as well as to Familial\nHemiplegic Migraine Type 3 (FHM3). Despite the importance of SCN1A in the regulation of neuronal excitability,\nvery little is known about the cell biology of Nav1.1, largely due to the dearth of reliable probes to specifically\nlocalize Nav1.1 channels against the background of other VGSCs in brain neurons at high resolution. Important\nquestions remain in VGSC cell biology. For example, during brain development, the majority (70%) of newly\nsynthesized VGSC a subunits enter a metabolically stable intracellular pool while the minority (30%) covalently\nassociate with VGSC b2 subunits and insert into the plasma membrane. It was proposed that intracellular pools\nof newly synthesized a subunits are localized at axon initial segment (AIS) domains and nodes of Ranvier, but\nthis hypothesis was not tested due to lack of appropriate tools. The existence of a large pool of newly synthesized\nVGSC a subunits in neurons raises important questions about why haploinsufficiency matters in pediatric\nneurological disease. Our work has demonstrated that treatment of DS mice with the TANGO antisense\noligonucleotide STK-001 corrects Nav1.1 haploinsufficiency and sodium current density as well as restores\nneuronal excitability. Administration of STK-001 to wildtype mice also increases Nav1.1 expression and sodium\ncurrent density but does not alter the firing properties of interneurons or result in toxicity. Why not? Where are\nthese newly synthesized VGSCs located in neurons? Finally, the specific composition of the “channelome” is\ncritical for the regulation of neuronal excitability, e.g. a particular VGSC a subunit subtype located at the AIS may\nfunction differently than the same a subunit located at dendrites due to the differential cohort of modulatory\nproteins with which the channel associates in these subcellular domains. Future work requires high resolution\nimaging of Nav1.1 and proteomic identification of Nav1.1 interacting proteins at specific subcellular neuronal\ndomains. A critical unmet need in VGSC biology is the availability of reliable mouse models expressing epitope-\ntagged VGSC subunits. We have successfully generated transgenic mouse models expressing epitope-tagged\nNav1.2 and b1 subunits, respectively, but a tagged Nav1.1 model is not currently available. Thus, this R03\nproposal contains a single aim: To generate and validate an epitope-tagged Nav1.1 transgenic mouse line\nthat can be made widely available to the VGSC field through deposition in the Jackson Laboratories\nRepository. This novel mouse strain will be invaluable to researchers studying DS, GEFS+, and FHM3.",
+  "project_title": "Development of an epitope-tagged Nav1.1 transgenic mouse model",
+  "phr_text": "SCN1A, encoding the voltage-gated sodium channel (VGSC) Nav1.1, is a major target in neurological disease.\nA critical unmet need in VGSC biology is the availability of reliable mouse models expressing epitope-tagged\nVGSC subunits. The goal of this R03 proposal is to generate and validate an epitope-tagged Nav1.1 transgenic\nmouse line that can be made widely available to the VGSC field through deposition in the Jackson Laboratories\nRepository.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-09-09T00:00:00",
+  "budget_end": "2028-08-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 100000,
+  "indirect_cost_amt": 56000,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11438335",
+  "date_added": "2026-09-12T17:04:08"
+}

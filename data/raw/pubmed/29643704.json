@@ -1,0 +1,15 @@
+{
+  "pmid": "29643704",
+  "title": "Bioinformatic Analysis of the Possible Regulative Network of miR-30a/e in Cardiomyocytes 2 Days Post Myocardial Infarction.",
+  "abstract": "Both miR-30a and miR-30e are significantly downregulated in cardiomyocytes (CMs) 2 days (d) post myocardial infarction (MI). This study aimed to identify their possible regulative network in CMs 2d post-MI. The dysregulated mRNAs in left ventricle tissues 2d post-MI in mice model were retrieved from one previous publication. The verified target genes of miR-30a/e and the predicted targets (upregulated 2d post-MI) were subjected to analysis of the involvement in biological processes according to their enrichment in gene ontology (GO) terms. The known targets of miR-30a/e can regulate cellular responses to glucose starvation via targeting TP53, BECH1 and HSPA5, and also control cardiac epithelial to mesenchymal transition via targeting ETS-related gene (ERG), SNAI1 and NOTCH1. Bioinformatic prediction further showed that miR-30a might regulate some biological processes related to CM responses to MI via some other potential targets, such as platelet aggregation (possibly via ITGB3 and STXBP1), regulation of intrinsic apoptotic signaling pathway in response to deoxyribonucleic acid damage (possibly via SNAI1) and positive regulation of tyrosine phosphorylation of Stat3 protein (possibly via LYN, SOCS3 and SLCF1). Considering the importance of these genes in cellular responses to MI, it is meaningful to further investigate the regulative effect of miR-30a/e on their expression, as well as their regulative network in CMs.",
+  "authors": [
+    "Yiping Wang",
+    "Yingqiong Huang",
+    "Min Zhang",
+    "Xiaoqin Zhang",
+    "Xuemei Tang",
+    "Yan Kang"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/29643704/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

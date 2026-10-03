@@ -1,0 +1,17 @@
+{
+  "source_id": "pmid_29538625",
+  "requested_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+  "retrieved_at": "2026-10-03T20:51:23+00:00",
+  "backend": "pubmed_api_cache",
+  "content_type": "application/xml",
+  "encoding": "utf-8",
+  "body_sha256": "8ed929d672147505d195728f652b2ee4ecf00e56123e48388ebb010c7a7f897c",
+  "text_sha256": "bcd2f90b805179b1ff1e9fc5c84b1e35c2d310e3a19ba5c63eb834c378c4de46",
+  "body_path": "raw/mechanisms/pmid_29538625.body",
+  "text_path": "raw/mechanisms/pmid_29538625.txt",
+  "original_cache_path": "raw/pubmed_searches/48091062942a13ce/efetch_e95be5469f89d1cb.xml",
+  "text_normalization": "Target PMID abstract from original EFetch XML, inline text preserved, whitespace collapsed",
+  "access_policy": "Offline import from documented NCBI E-utilities API collector; website scraping is not used",
+  "licence": "Research abstract may be copyrighted by its publisher; no blanket open licence assumed; short quotes only"
+}

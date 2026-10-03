@@ -1,0 +1,213 @@
+{
+  "data": {
+    "__count": 1,
+    "__licence": {
+      "identifier": "CC-BY-4.0",
+      "link": "https://creativecommons.org/licenses/by/4.0",
+      "name": "Creative Commons Attribution 4.0 International"
+    },
+    "results": {
+      "Date": "2026-06-23 07:57:18",
+      "Disorder": {
+        "DisorderGroup": "Disorder",
+        "HPODisorderAssociation": [
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001249",
+              "HPOTerm": "Intellectual disability"
+            },
+            "HPOFrequency": "Obligate (100%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001263",
+              "HPOTerm": "Global developmental delay"
+            },
+            "HPOFrequency": "Very frequent (99-80%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002500",
+              "HPOTerm": "Abnormal cerebral white matter morphology"
+            },
+            "HPOFrequency": "Very frequent (99-80%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0010818",
+              "HPOTerm": "Generalized tonic seizure"
+            },
+            "HPOFrequency": "Very frequent (99-80%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0010851",
+              "HPOTerm": "EEG with burst suppression"
+            },
+            "HPOFrequency": "Very frequent (99-80%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0200134",
+              "HPOTerm": "Epileptic encephalopathy"
+            },
+            "HPOFrequency": "Very frequent (99-80%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0000980",
+              "HPOTerm": "Pallor"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001041",
+              "HPOTerm": "Facial erythema"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001250",
+              "HPOTerm": "Seizure"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001252",
+              "HPOTerm": "Hypotonia"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0001332",
+              "HPOTerm": "Dystonia"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002104",
+              "HPOTerm": "Apnea"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002181",
+              "HPOTerm": "Cerebral edema"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002453",
+              "HPOTerm": "Abnormal globus pallidus morphology"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002540",
+              "HPOTerm": "Inability to walk"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0007015",
+              "HPOTerm": "Poor gross motor coordination"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0011097",
+              "HPOTerm": "Epileptic spasm"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0011968",
+              "HPOTerm": "Feeding difficulties"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0012736",
+              "HPOTerm": "Profound global developmental delay"
+            },
+            "HPOFrequency": "Frequent (79-30%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002059",
+              "HPOTerm": "Cerebral atrophy"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002079",
+              "HPOTerm": "Hypoplasia of the corpus callosum"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          },
+          {
+            "DiagnosticCriteria": null,
+            "HPO": {
+              "HPOId": "HP:0002521",
+              "HPOTerm": "Hypsarrhythmia"
+            },
+            "HPOFrequency": "Occasional (29-5%)"
+          }
+        ],
+        "ORPHAcode": 439218,
+        "OrphanetURL": "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=439218",
+        "Preferred term": "KCNQ2-related developmental and epileptic encephalopathy",
+        "Typology": "Disease"
+      },
+      "Online": "y",
+      "Source": "23621294[PMID]_12742592[PMID]",
+      "ValidationDate": "2017-03-24 00:00:00.0",
+      "ValidationStatus": "y"
+    }
+  },
+  "datasetCategory": {
+    "lang": "en",
+    "name": "Rare diseases and associated phenotypes"
+  },
+  "parameters": {
+    "path": {
+      "ORPHAcode": 439218
+    },
+    "query": {}
+  },
+  "uri": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218"
+}

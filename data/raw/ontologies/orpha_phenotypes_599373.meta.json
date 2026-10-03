@@ -1,0 +1,14 @@
+{
+  "source_id": "orpha_phenotypes_599373",
+  "provider": "Orphadata",
+  "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+  "resolved_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+  "retrieved_at": "2026-10-03T20:49:35.036091+00:00",
+  "cache_path": "raw/ontologies/orpha_phenotypes_599373.json",
+  "raw_sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+  "bytes": 8317,
+  "etag": null,
+  "last_modified": null,
+  "license": "CC-BY-4.0",
+  "license_url": "https://api.orphadata.com/openapi.json"
+}

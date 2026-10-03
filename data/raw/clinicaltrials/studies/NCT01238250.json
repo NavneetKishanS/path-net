@@ -1,0 +1,645 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01238250",
+      "orgStudyIdInfo": {
+        "id": "2023-1257"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "Simons Searchlight",
+          "type": "OTHER",
+          "domain": "Simons Foundation"
+        },
+        {
+          "id": "Simons VIP",
+          "type": "OTHER",
+          "domain": "Simons Foundation"
+        },
+        {
+          "id": "Simons VIP Connect",
+          "type": "OTHER",
+          "domain": "Simons Foundation"
+        }
+      ],
+      "organization": {
+        "fullName": "Simons Searchlight",
+        "class": "OTHER"
+      },
+      "briefTitle": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+      "officialTitle": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2050-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2050-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2010-11-09",
+      "studyFirstSubmitQcDate": "2010-11-09",
+      "studyFirstPostDateStruct": {
+        "date": "2010-11-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2026-07-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Simons Searchlight",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Geisinger Clinic",
+          "class": "OTHER"
+        },
+        {
+          "name": "Boston Children's Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Simons Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Simons Searchlight is an observational, online, international research program for families with rare genetic variants that cause neurodevelopmental disorders and may be associated with autism. Simons Searchlight collects medical, behavioral, learning, and developmental information from people who have these rare genetic changes. The goal of this study is to improve the clinical care and treatment for these people. Simons Searchlight partners with families to collect data and distribute it to qualified researchers.",
+      "detailedDescription": "Simons Searchlight has expanded over the last several years to include additional gene changes and participation through remote formats, either online or by phone. This allows English and Spanish-speaking families from across the world to participate at times that are convenient to their schedule. Participants can donate blood, saliva, or both. These samples are then linked to medical, behavioral, learning, and developmental data in order to understand the effects of specific gene changes.\n\nInformation provided by participants will be stripped of any personal identifying information and made available to qualified scientists around the world.\n\nThe Simons Foundation, a New York-based private foundation, is committed to finding science-based solutions and working towards the development of targeted treatments to improve the lives of people who have genetic and developmental differences."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "16P11.2 Deletion Syndrome",
+        "16p11.2 Duplications",
+        "1Q21.1 Deletion",
+        "1Q21.1 Microduplication Syndrome (Disorder)",
+        "ACTL6B",
+        "ADNP",
+        "AHDC1",
+        "ANK2",
+        "ANKRD11",
+        "ARID1B",
+        "ASH1L",
+        "BCL11A",
+        "CHAMP1",
+        "CHD2",
+        "CHD8",
+        "CSNK2A1",
+        "CTBP1",
+        "CTNNB1 Gene Mutation",
+        "CUL3",
+        "DDX3X",
+        "DNMT3A",
+        "DSCAM",
+        "DYRK1A",
+        "FOXP1",
+        "GRIN2A",
+        "GRIN2B",
+        "HIVEP2-Related Intellectual Disability",
+        "HNRNPH2",
+        "KATNAL2",
+        "KDM5B",
+        "KDM6B",
+        "KMT2C Gene Mutation",
+        "KMT2E",
+        "KMT5B",
+        "MBD5",
+        "MED13L",
+        "PACS1",
+        "PPP2R5D-Related Intellectual Disability",
+        "PTCHD1",
+        "REST",
+        "SCN2A Encephalopathy",
+        "SETBP1 Gene Mutation",
+        "SETD5",
+        "SMARCA4 Gene Mutation",
+        "SMARCC2",
+        "STXBP1 Encephalopathy With Epilepsy",
+        "SYNGAP1-Related Intellectual Disability",
+        "TBR1",
+        "ARHGEF9",
+        "HNRNPU",
+        "PPP3CA",
+        "PPP2R1A",
+        "SLC6A1",
+        "2p16.3 Deletions",
+        "5q35 Deletions",
+        "5q35 Duplications",
+        "7q11.23 Duplications",
+        "15Q13.3 Deletion Syndrome",
+        "16p11.2 Triplications",
+        "16P12.2 Microdeletion",
+        "16P13.11 Microdeletion Syndrome (Disorder)",
+        "17Q12 Microdeletion Syndrome (Disorder)",
+        "17Q12 Duplication Syndrome",
+        "17Q21.31 Deletion Syndrome",
+        "17q21.3 Duplications",
+        "ACTB",
+        "ADSL",
+        "AFF2",
+        "ALDH5A1",
+        "ANK3",
+        "ARX",
+        "ATRX Gene Mutation",
+        "AUTS2 Syndrome",
+        "BCKDK",
+        "BRSK2",
+        "CACNA1C",
+        "CAPRIN1",
+        "CASK",
+        "CASZ1",
+        "CHD3",
+        "CIC",
+        "CNOT3",
+        "CREBBP Gene Mutation",
+        "CSDE1",
+        "CTCF",
+        "DEAF1",
+        "DHCR7",
+        "DLG4",
+        "EBF3",
+        "EHMT1",
+        "EP300 Gene Mutation",
+        "GIGYF1",
+        "GRIN1",
+        "GRIN2D",
+        "IQSEC2-Related Syndromic Intellectual Disability",
+        "IRF2BPL",
+        "KANSL1",
+        "KCNB1",
+        "KDM3B",
+        "NEXMIF",
+        "KMT2A",
+        "MBOAT7",
+        "MEIS2",
+        "MYT1L",
+        "NAA15",
+        "NBEA",
+        "NCKAP1",
+        "NIPBL",
+        "NLGN2",
+        "NLGN3",
+        "NLGN4X",
+        "NR4A2",
+        "NRXN1",
+        "NRXN2",
+        "NSD1 Gene Mutation",
+        "PHF21A",
+        "PHF3",
+        "PHIP",
+        "PSMD12",
+        "RELN",
+        "RERE",
+        "RFX3",
+        "RIMS1",
+        "RORB",
+        "SCN1A",
+        "SETD2 Gene Mutation",
+        "SHANK2",
+        "SIN3A",
+        "SLC9A6",
+        "SON",
+        "SOX5",
+        "SPAST",
+        "SRCAP",
+        "TAOK1",
+        "TANC2",
+        "TCF20",
+        "TLK2",
+        "TRIO",
+        "TRIP12",
+        "UPF3B",
+        "USP9X",
+        "VPS13B",
+        "WAC",
+        "WDFY3",
+        "ZBTB20",
+        "ZNF292",
+        "ZNF462",
+        "2Q37 Deletion Syndrome",
+        "9q34 Duplications",
+        "15q15 Deletions",
+        "15Q24 Deletion",
+        "NR3C2",
+        "SYNCRIP",
+        "2q37.3 Deletion",
+        "6q16 Deletion",
+        "15q11.2 BP1-BP2 Deletion",
+        "16p13.3 Deletion",
+        "17Q11.2 Microduplication Syndrome (Disorder)",
+        "17p13.3",
+        "Xq28 Duplication",
+        "CLCN4",
+        "CSNK2B",
+        "DYNC1H1",
+        "EIF3F",
+        "GNB1",
+        "MED13",
+        "MEF2C",
+        "RALGAPB",
+        "SCN1B",
+        "YY1",
+        "Xp11.22 Duplication",
+        "PACS2",
+        "MAOA",
+        "MAOB",
+        "HNRNPC",
+        "HNRNPD",
+        "HNRNPK",
+        "HNRNPR",
+        "HNRNPUL2",
+        "5P Deletion Syndrome",
+        "TCF7L2 Gene Mutation",
+        "HECW2",
+        "PPM1D",
+        "RNU4-2",
+        "SNAP25",
+        "FOXP2",
+        "ITSN1"
+      ],
+      "keywords": [
+        "16p11.2",
+        "16p11.2 del",
+        "16p11.2 deletion",
+        "16p11.2 dup",
+        "16p11.2 duplication",
+        "chromosome 16",
+        "chromosome 16p",
+        "chromosome 16p11",
+        "chromosome 16p11.2",
+        "1q21.1",
+        "1q21.1 del",
+        "1q21.1 deletion",
+        "1q21.1 dup",
+        "1q21.1 duplication",
+        "chromosome 1",
+        "chromosome 1q",
+        "chromosome 1q21",
+        "chromosome 1q21.1",
+        "genetic mutation",
+        "genetic variant",
+        "gene variant",
+        "ADNP",
+        "ANKRD11",
+        "ARID1B",
+        "ASXL3",
+        "ACTL6B",
+        "AHDC1",
+        "BAF190",
+        "ANK2",
+        "ASH1L",
+        "BCL11A",
+        "CHD2",
+        "CHD8",
+        "CTNNB1",
+        "CUL3",
+        "DYRK1A",
+        "FOXP1",
+        "GRIN2B",
+        "KDM6B",
+        "KMT2E",
+        "MBD5",
+        "MED13L",
+        "REST",
+        "SCN2A",
+        "SMARCC2",
+        "SYNGAP1",
+        "HIVEP2",
+        "HNRNPH2",
+        "PPP2R5D",
+        "CHAMP1",
+        "CSNK2A1",
+        "CTBP1",
+        "DDX3X",
+        "DNMT3A",
+        "DSCAM",
+        "GRIN2A",
+        "KATNAL2",
+        "KDM5B",
+        "KMT2C",
+        "KMT5B",
+        "SUV420H1",
+        "PACS1",
+        "PTCHD1",
+        "SETBP1",
+        "SETD5",
+        "SMARCA4",
+        "STXBP1",
+        "TBR1",
+        "ARHGEF9",
+        "HNRNPU",
+        "PPP2B",
+        "PPP2R1A",
+        "SLC6A1",
+        "PACS2",
+        "MAOA",
+        "MAOB",
+        "HNRNPC",
+        "HNRNPD",
+        "HNRNPK",
+        "HNRNPR",
+        "HNRNPUL2",
+        "5P Deletion Syndrome",
+        "TCF7L2",
+        "HECW2",
+        "PPM1D",
+        "RNU4-2",
+        "SNAP25",
+        "FOXP2",
+        "ITSN1"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "FAMILY_BASED",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Whole blood, and sometimes saliva, may be collected for the purposes of DNA analysis. Some samples will be used to establish a cell line to be used for research-related purposes."
+      },
+      "enrollmentInfo": {
+        "count": 100000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Copy Number Variants",
+          "description": "Individuals with documented pathogenic or likely pathogenic copy number variants related to neurodevelopmental disorders."
+        },
+        {
+          "label": "Gene Variants",
+          "description": "Individuals with documented pathogenic or likely pathogenic variants in a gene related to neurodevelopmental disorders."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Baseline comprehensive collection of medical, behavioral, learning, and developmental information of people who have documented gene changes that are associated with features of autism and other neurodevelopmental disorders.",
+          "description": "Families with people who have specific documented gene changes that are associated with features of autism and other neurodevelopmental disorders will report detailed medical and family history information by phone. Online research surveys will be used to collect information about behavioral and learning characteristics, with the goal of improving clinical care and treatment for these people.",
+          "timeFrame": "Baseline data is collected over the course of one month, on average."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Longitudinal, or long-term, comprehensive collection of medical, behavioral, learning, and developmental information from people who have documented gene changes that are associated with features of autism and other neurodevelopmental disorders.",
+          "description": "To monitor and document the development of people who have gene changes that are related to autism and other neurodevelopmental disorders, online research surveys and updates to the family and medical history will be collected on an annual basis.",
+          "timeFrame": "Repeat data collection will occur on a regular basis and will be obtained over the course of one month, on average"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects of any age with a genetic condition on our eligible list along with their biological family members. Current list can be found at: https://www.simonssearchlight.org/research/what-we-study/\n* Must be fluent in English or a supported language. Current supported languages are Spanish, French, and Dutch, with more to come.\n* Able to register and participate through our online platform, which can be accessed through any device able to connect to the internet.\n* Able and willing to provide consent.\n\nExclusion Criteria:\n\n-Some genetic changes that we study have regions or variants that are not eligible for our research. This is determined during our laboratory review that is completed by trained and certified genetic counselors. These specific ineligible regions or variants can change frequently.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study continues to enroll and collect data from people who have the copy number variants, also called CNVs, and gene changes, specified above. Data is also collected from matched sibling control subjects and parents.\n\nThis study has already collected data on approximately 7,000 participants, including approximately 4,000 carriers. Participants include people who have a gene change and at least one parent or guardian. Participants can also include multiple people who have a gene change and are within the same family. Study aims to enroll up to 100,000 participants.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Simons Searchlight Study Coordinator",
+          "role": "CONTACT",
+          "phone": "855-329-5638",
+          "email": "coordinator@SimonsSearchlight.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Cora Taylor, PhD",
+          "affiliation": "Geisinger Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Wendy Chung, MD PhD",
+          "affiliation": "Boston Children's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Boston Children's Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Wendy Chung, MD PhD",
+              "role": "CONTACT",
+              "phone": "855-329-5638"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Geisinger Health System",
+          "status": "RECRUITING",
+          "city": "Lewisburg",
+          "state": "Pennsylvania",
+          "zip": "17837",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cora Taylor, PhD",
+              "role": "CONTACT",
+              "phone": "855-329-5638"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.96453,
+            "lon": -76.88441
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18184952",
+          "type": "BACKGROUND",
+          "citation": "Weiss LA, Shen Y, Korn JM, Arking DE, Miller DT, Fossdal R, Saemundsen E, Stefansson H, Ferreira MA, Green T, Platt OS, Ruderfer DM, Walsh CA, Altshuler D, Chakravarti A, Tanzi RE, Stefansson K, Santangelo SL, Gusella JF, Sklar P, Wu BL, Daly MJ; Autism Consortium. Association between microdeletion and microduplication at 16p11.2 and autism. N Engl J Med. 2008 Feb 14;358(7):667-75. doi: 10.1056/NEJMoa075974. Epub 2008 Jan 9."
+        },
+        {
+          "pmid": "22445335",
+          "type": "BACKGROUND",
+          "citation": "Simons Vip Consortium. Simons Variation in Individuals Project (Simons VIP): a genetics-first approach to studying autism spectrum and related neurodevelopmental disorders. Neuron. 2012 Mar 22;73(6):1063-7. doi: 10.1016/j.neuron.2012.02.014. Epub 2012 Mar 21."
+        },
+        {
+          "pmid": "23054248",
+          "type": "BACKGROUND",
+          "citation": "Zufferey F, Sherr EH, Beckmann ND, Hanson E, Maillard AM, Hippolyte L, Mace A, Ferrari C, Kutalik Z, Andrieux J, Aylward E, Barker M, Bernier R, Bouquillon S, Conus P, Delobel B, Faucett WA, Goin-Kochel RP, Grant E, Harewood L, Hunter JV, Lebon S, Ledbetter DH, Martin CL, Mannik K, Martinet D, Mukherjee P, Ramocki MB, Spence SJ, Steinman KJ, Tjernagel J, Spiro JE, Reymond A, Beckmann JS, Chung WK, Jacquemont S; Simons VIP Consortium; 16p11.2 European Consortium. A 600 kb deletion syndrome at 16p11.2 leads to energy imbalance and neuropsychiatric disorders. J Med Genet. 2012 Oct;49(10):660-8. doi: 10.1136/jmedgenet-2012-101203."
+        },
+        {
+          "pmid": "25493922",
+          "type": "BACKGROUND",
+          "citation": "Moreno-De-Luca A, Evans DW, Boomer KB, Hanson E, Bernier R, Goin-Kochel RP, Myers SM, Challman TD, Moreno-De-Luca D, Slane MM, Hare AE, Chung WK, Spiro JE, Faucett WA, Martin CL, Ledbetter DH. The role of parental cognitive, behavioral, and motor profiles in clinical variability in individuals with chromosome 16p11.2 deletions. JAMA Psychiatry. 2015 Feb;72(2):119-26. doi: 10.1001/jamapsychiatry.2014.2147."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Visit our website to register and for more information on this research study.",
+          "url": "https://simonssearchlight.org/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Identifiers will be removed from data which will be stored in a secure database; qualified researchers can request access through the Simons Foundation Autism Research Initiative (www.SFARI.org)"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C579850",
+          "term": "16p11.2 Deletion Syndrome"
+        },
+        {
+          "id": "C567291",
+          "term": "Chromosome 1q21.1 Deletion Syndrome, 1.35-Mb"
+        },
+        {
+          "id": "C567290",
+          "term": "Chromosome 1q21.1 Duplication Syndrome"
+        },
+        {
+          "id": "D009477",
+          "term": "Hereditary Sensory and Autonomic Neuropathies"
+        },
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        },
+        {
+          "id": "C565158",
+          "term": "Cornea Plana 1"
+        },
+        {
+          "id": "C567439",
+          "term": "Chromosome 15q13.3 Microdeletion Syndrome"
+        },
+        {
+          "id": "C566476",
+          "term": "Chromosome 17q21.31 Deletion Syndrome"
+        },
+        {
+          "id": "C538317",
+          "term": "Chromosome 2q37 deletion syndrome"
+        },
+        {
+          "id": "C579849",
+          "term": "15q24 Microdeletion"
+        },
+        {
+          "id": "D003410",
+          "term": "Cri-du-Chat Syndrome"
+        },
+        {
+          "id": "C567643",
+          "term": "Rhabdoid Tumor Predisposition Syndrome 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009421",
+          "term": "Nervous System Malformations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D011115",
+          "term": "Polyneuropathies"
+        },
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D008607",
+          "term": "Intellectual Disability"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D000015",
+          "term": "Abnormalities, Multiple"
+        },
+        {
+          "id": "D025063",
+          "term": "Chromosome Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

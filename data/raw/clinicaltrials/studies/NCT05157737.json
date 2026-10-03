@@ -1,0 +1,232 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05157737",
+      "orgStudyIdInfo": {
+        "id": "2020-520"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Clinical Phenotype and Omics Study of KCNQ2-related Epilepsy",
+      "officialTitle": "Clinical Phenotype and Omics Study of KCNQ2-related Epilepsy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-01",
+      "studyFirstSubmitQcDate": "2021-12-01",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-12-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-12-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yi Wang",
+        "investigatorTitle": "Professer",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aims of study on KCNQ2-related epilepsy: (1) establish phenotype database and sample database of KCNQ2-related epilepsy; (2) to establish genotype-phenotype association of KCNQ2-related epilepsy; (3) to study the brain network of KCNQ2-related epilepsy based on multi-modal brain image and EEG data; (4) to find prognostic biomarkers of KCNQ2-related epilepsy based on omics study.",
+      "detailedDescription": "1. Participant recruitment: participants are recruited from Chinese KCNQ2-related epilepsy patients group (http://www.kcnq2.cn/). According to the clinical phenotype, the participants will be divided into benign familial neonatal seizures (BFNS) group and Developmental and epileptic encephalopathy (DEE) group.\n2. Genotype-phenotype association: electrophysiological detection of KCNQ2 mutation will be performed using patch clamp technique in an in vitro cell model. The association between phenotype (such as epileptic phenotype, developmental assessment and drug response) and genotype will be analyzed.\n3. Brain network analysis: participants who provide informed consent will be scaned by brain magnetic resonance imaging (MRI) or positron emission tomography-computed tomography (PET-CT) and monitored by the electroencephalogram (EEG). The Brain Network of KCNQ2-related epilepsy will be analyzed based on multi-modal brain image and EEG between BFNS and DEE group.\n4. Omics Study: after informed consent, blood, urine and feces samples of participants will be taken. The samples were tested for omics study including proteomics, metabolomics, transcriptomics, to analysis the difference of BFNS and DEE group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "KCNQ2-related Epilepsy"
+      ],
+      "keywords": [
+        "KCNQ2-related epilepsy",
+        "Benign familial neonatal seizures",
+        "Developmental and epileptic encephalopathy",
+        "Genotype-phenotype association",
+        "Brain network",
+        "Omics study"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "3 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Biospecimen include whole blood 4ml (isolate plasma and blood cells), urine 15ml, feces 3-5g."
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BFNS group",
+          "description": "(1) Epileptic seizure in neonatal period; (2) Epileptic seizure duration is short, which under spontaneous control in 4\\~6 months; (3) The patient was in normal state of feeding, physical examination and psychomotor development; (4) There were no signs of hypsarrhythmia or burst suppression in EEG.",
+          "interventionNames": [
+            "Other: Electrophysiological detection of KCNQ2 mutation",
+            "Other: Multi-modal brain image and EEG",
+            "Other: Omics testing"
+          ]
+        },
+        {
+          "label": "DEE group",
+          "description": "(1) Epileptic seizures occur within a week after birth and recur frequently; (2) Epilepsy is refractory; (3) Feeding difficulties, accompanied by moderate to severe mental retardation and psychomotor retardation; (4) The EEG showed hypsarrhythmia or burst suppression.",
+          "interventionNames": [
+            "Other: Electrophysiological detection of KCNQ2 mutation",
+            "Other: Multi-modal brain image and EEG",
+            "Other: Omics testing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Electrophysiological detection of KCNQ2 mutation",
+          "description": "Electrophysiological detection of KCNQ2 mutation performed using patch clamp technique in an in vitro cell model. Analyze the association between phenotype and genotype.",
+          "armGroupLabels": [
+            "BFNS group",
+            "DEE group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Multi-modal brain image and EEG",
+          "description": "Multi-modal brain image include brain magnetic resonance imaging (MRI) or positron emission tomography-computed tomography (PET-CT). The electroencephalogram (EEG) incuding video electroencephalogram (VEEG) and sleep electroencephalogram (SEEG).",
+          "armGroupLabels": [
+            "BFNS group",
+            "DEE group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Omics testing",
+          "description": "Omics testing include proteomics, metabolomics, transcriptomics.",
+          "armGroupLabels": [
+            "BFNS group",
+            "DEE group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Establish the phenotype database and genotype-phenotype association of KCNQ2-related Epilepsy",
+          "description": "Analysis of Clinical information of KCNQ2-related Epilepsy such as phenotype, genotype, brain image ,EEG, living quality and comorbidity.",
+          "timeFrame": "0-18 years old"
+        },
+        {
+          "measure": "Study on the brain network of KCNQ2-related epilepsy",
+          "description": "Analysis of brain network of KCNQ2-related epilepsy based on multi-modal brain image and EEG",
+          "timeFrame": "0-18 years old"
+        },
+        {
+          "measure": "Study on the omics testing of KCNQ2-related epilepsy",
+          "description": "Analysis of prognostic biomarker of KCNQ2-related epilepsy based on proteomics, metabolomics, transcriptomics.",
+          "timeFrame": "0-18 years old"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* KCNQ2 mutation was confirmed by WES, Panel and other gene tests;\n* Clinically diagnosed as epilepsy;\n* KCNQ2 mutation was identified as pathogenic or possibly pathogenic according to ACMG pathogenicity rating standard;\n* Age and gender are not limited;\n* No abnormal birth history;\n* Informed consent and willingness to follow up\n\nExclusion Criteria:\n\n* Patients with KCNQ2 mutation without epilepsy;\n* Other possible pathogenic gene mutations except KCNQ2;\n* Large cross-gene deletions or duplications including KCNQ2;\n* Unable to participate in the study follow-up",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "The patients of KCNQ2-related epilepsy who meet the clinical and genetic diagnosis criteria.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yi Wang, Dr",
+          "role": "CONTACT",
+          "phone": "13564766228",
+          "email": "yiwang@shmu.edu.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Yi Wang, Dr",
+          "affiliation": "Children's Hospital of Fudan University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Children's Hospital of Fudan University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200232",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yi Wang, Dr.",
+              "role": "CONTACT",
+              "phone": "+8613564766228",
+              "email": "yiwang@shmu.edu.cn"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C535466",
+          "term": "Convulsions benign familial neonatal dominant form"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

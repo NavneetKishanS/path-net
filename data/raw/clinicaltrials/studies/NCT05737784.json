@@ -1,0 +1,432 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05737784",
+      "orgStudyIdInfo": {
+        "id": "PRAX-222-111"
+      },
+      "organization": {
+        "fullName": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+      "officialTitle": "A Seamless, Clinical Trial to Investigate the Safety and Efficacy of Multiple Doses of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2028-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-10",
+      "studyFirstSubmitQcDate": "2023-02-10",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-08-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Praxis Precision Medicines",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this trial is to learn about the effect of PRAX-222 in pediatric participants with early onset SCN2A developmental and epileptic encephalopathy (DEE), aged 2 to 18 years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "SCN2A-DEE",
+        "Epilepsy"
+      ],
+      "keywords": [
+        "Antisense Oligonucleotide",
+        "NaV1.2 Voltage-Gated Sodium Channel",
+        "Voltage-Gated Sodium Channel Blockers",
+        "SCN2A variant",
+        "Pediatric epilepsy",
+        "Developmental and Epileptic Encephalopathy",
+        "DEE"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Seamless study design with sequential study parts, including an open-label safety part; a double-blind, randomized dose-escalation part; a double-blind, randomized confirmatory part; and an open-label extension part.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "No masking in the 2 open-label parts, masking as indicated in the 2 double-blind, randomized parts.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Preliminary Safety",
+          "type": "EXPERIMENTAL",
+          "description": "Open-label PRAX-222",
+          "interventionNames": [
+            "Drug: PRAX-222 - Initial Dose"
+          ]
+        },
+        {
+          "label": "Dose Escalation - PRAX-222",
+          "type": "EXPERIMENTAL",
+          "description": "Initial dose escalation consisting of double-blind ascending doses of PRAX-222",
+          "interventionNames": [
+            "Drug: PRAX-222 - Initial Ascending Doses"
+          ]
+        },
+        {
+          "label": "Dose Escalation - Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Double-blind placebo procedure",
+          "interventionNames": [
+            "Procedure: Placebo"
+          ]
+        },
+        {
+          "label": "Optional Dose Escalation - PRAX-222",
+          "type": "EXPERIMENTAL",
+          "description": "Optional dose escalation consisting of double-blind ascending doses of PRAX-222",
+          "interventionNames": [
+            "Drug: PRAX-222 - Optional Ascending Doses"
+          ]
+        },
+        {
+          "label": "Optional Dose Escalation - Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Double-blind placebo procedure",
+          "interventionNames": [
+            "Procedure: Placebo"
+          ]
+        },
+        {
+          "label": "Confirmatory Dosing - PRAX-222",
+          "type": "EXPERIMENTAL",
+          "description": "Double-blind fixed-dose PRAX-222",
+          "interventionNames": [
+            "Drug: PRAX-222 - Fixed Doses"
+          ]
+        },
+        {
+          "label": "Confirmatory Dosing - Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Double-blind placebo procedure",
+          "interventionNames": [
+            "Procedure: Placebo"
+          ]
+        },
+        {
+          "label": "Open-label PRAX-222",
+          "type": "EXPERIMENTAL",
+          "description": "Open-label PRAX-222",
+          "interventionNames": [
+            "Drug: PRAX-222 - Fixed Doses"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PRAX-222 - Initial Dose",
+          "description": "PRAX-222",
+          "armGroupLabels": [
+            "Preliminary Safety"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PRAX-222 - Initial Ascending Doses",
+          "description": "Ascending doses of PRAX-222",
+          "armGroupLabels": [
+            "Dose Escalation - PRAX-222"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PRAX-222 - Optional Ascending Doses",
+          "description": "Escalation of PRAX-222 dose(s)",
+          "armGroupLabels": [
+            "Optional Dose Escalation - PRAX-222"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PRAX-222 - Fixed Doses",
+          "description": "Fixed-dose(s) of PRAX-222 not to exceed the maximum tolerated dose of PRAX-222",
+          "armGroupLabels": [
+            "Confirmatory Dosing - PRAX-222",
+            "Open-label PRAX-222"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Placebo",
+          "description": "Placebo procedure",
+          "armGroupLabels": [
+            "Confirmatory Dosing - Placebo",
+            "Dose Escalation - Placebo",
+            "Optional Dose Escalation - Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with treatment-emergent adverse events (Preliminary Safety, Dose Escalation)",
+          "description": "The number of participants with treatment-emergent adverse events will be reported by severity and preferred term.",
+          "timeFrame": "Screening (-8 weeks) through up to 92 weeks"
+        },
+        {
+          "measure": "Seizure frequency (Confirmatory Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following the 6th dose administration in the confirmatory phase.",
+          "timeFrame": "36 to 40 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Seizure frequency (Preliminary Safety)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following the 4th dose administration in the preliminary safety phase.",
+          "timeFrame": "12 to 16 weeks"
+        },
+        {
+          "measure": "Seizure frequency (Preliminary Safety)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the preliminary safety phase.",
+          "timeFrame": "0 to 4 weeks, 4 to 8 weeks, 8 to 12 weeks"
+        },
+        {
+          "measure": "Percent change in seizure frequency (Preliminary Safety)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the preliminary safety phase. Percent change in seizure frequency will be calculated using a 4-week baseline observation period during Screening as the baseline measure.",
+          "timeFrame": "0 to 4 weeks, 4 to 8 weeks, 8 to 12 weeks"
+        },
+        {
+          "measure": "Number of participants with a treatment response (Preliminary Safety)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the preliminary safety phase. Percent change in seizure frequency will be calculated using a 4-week baseline observation period during Screening as the baseline measure. Treatment response will be defined as a \\>=50% reduction in seizure frequency.",
+          "timeFrame": "0 to 4 weeks, 4 to 8 weeks, 8 to 12 weeks"
+        },
+        {
+          "measure": "Seizure frequency (Dose Escalation Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following the 6th dose administration in the dose escalation phase.",
+          "timeFrame": "24 to 28 weeks (Group 1), 30 to 34 weeks (Group 2, optional)"
+        },
+        {
+          "measure": "Seizure frequency (Dose Escalation Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the dose escalation phase.",
+          "timeFrame": "0 to 4 weeks, 4 to 8 weeks, 8 to 12 weeks, 12 to 16 weeks, 18 to 22 weeks, 30 to 34 weeks (Group 1, optional), 36 to 40 weeks (Group 1, optional), 42 to 46 weeks (Group 1, optional), 48 to 52 weeks (Group 1, optional), 54 to 58 weeks (Group 1, optional)"
+        },
+        {
+          "measure": "Seizure frequency (Confirmatory Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the confirmatory phase.",
+          "timeFrame": "0 to 4 weeks, 6 to 10 weeks, 12 to 16 weeks, 18 to 22 weeks, 24 to 28 weeks"
+        },
+        {
+          "measure": "Percent change in seizure frequency (Dose Escalation Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the dose escalation phase. Percent change in seizure frequency will be calculated using a 4-week baseline observation period during Screening as the baseline measure.",
+          "timeFrame": "0 to 4 weeks, 4 to 8 weeks, 8 to 12 weeks, 12 to 16 weeks, 18 to 22 weeks, 30 to 34 weeks (optional), 36 to 40 weeks (optional), 42 to 46 weeks (optional), 48 to 52 weeks (optional), 54 to 58 weeks (optional)"
+        },
+        {
+          "measure": "Percent change in seizure frequency (Confirmatory Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the confirmatory phase. Percent change in seizure frequency will be calculated using a 4-week baseline observation period during Screening as the baseline measure.",
+          "timeFrame": "0 to 4 weeks, 6 to 10 weeks, 12 to 16 weeks, 18 to 22 weeks, 24 to 28 weeks"
+        },
+        {
+          "measure": "Number of participants with a treatment response (Dose Escalation Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the dose escalation phase. Percent change in seizure frequency will be calculated using a 4-week baseline observation period during Screening as the baseline measure. Treatment response will be defined as a \\>=50% reduction in seizure frequency.",
+          "timeFrame": "0 to 4 weeks, 4 to 8 weeks, 8 to 12 weeks, 12 to 16 weeks, 18 to 22 weeks, 30 to 34 weeks (optional), 36 to 40 weeks (optional), 42 to 46 weeks (optional), 48 to 52 weeks (optional), 54 to 58 weeks (optional)"
+        },
+        {
+          "measure": "Number of participants with a treatment response (Confirmatory Phase)",
+          "description": "Seizure frequency will be captured by a seizure diary and outcomes will be measured by summing the seizure frequency over a 28-day time period following each dose administration in the confirmatory phase. Percent change in seizure frequency will be calculated using a 4-week baseline observation period during Screening as the baseline measure. Treatment response will be defined as a \\>=50% reduction in seizure frequency.",
+          "timeFrame": "0 to 4 weeks, 6 to 10 weeks, 12 to 16 weeks, 18 to 22 weeks, 24 to 28 weeks"
+        },
+        {
+          "measure": "Changes in EEG-based outcome measures (Confirmatory Phase)",
+          "description": "A vEEG will be performed to record brainwave activity. Changes in mean vEEG measures (including, but not limited to, background frequency, slowing, epileptiform activity, sleep architecture, and seizures) will be calculated",
+          "timeFrame": "Week 2, Week 42"
+        },
+        {
+          "measure": "Change from baseline in Clinical Global Impression-Severity (CGI-S) score (Confirmatory Phase)",
+          "description": "The CGI-S assesses the clinician's impression of the participant's current epilepsy symptoms. The clinician should use his/her total clinical experience with this patient population and rate the current severity of the participant's symptoms on a 7-point scale from 1 (Normal, not at all affected) to 7 (Among the most extremely affected patients)",
+          "timeFrame": "6 weeks, 12 weeks, 18 weeks, 24 weeks, 36 weeks, 60 weeks"
+        },
+        {
+          "measure": "Change from baseline in Caregiver Global Impression-Severity (CgGI-S) score (Confirmatory Phase)",
+          "description": "The CgGI-S assesses the caregiver's impression of the participant's current epilepsy symptoms. The caregiver will rate the current severity of the participant's symptoms on a 7-point scale from 1 (Normal, not at all affected) to 7 (Extremely affected)",
+          "timeFrame": "6 weeks, 12 weeks, 18 weeks, 24 weeks, 36 weeks, 60 weeks"
+        },
+        {
+          "measure": "Clinical Global Impression-Improvement (CGI-I) score (Confirmatory Phase)",
+          "description": "The CGI-I assesses the participant's improvement (or worsening). The clinician is required to assess the participant's condition relative to Baseline (Day 1) on a 7-point scale from 1 (Very much improved) to 7 (Very much worse).",
+          "timeFrame": "6 weeks, 12 weeks, 18 weeks, 24 weeks, 36 weeks, 60 weeks"
+        },
+        {
+          "measure": "Caregiver Global Impression-Improvement (CgGI-I) score (Confirmatory Phase)",
+          "description": "The CgGI-I assesses the participant's improvement (or worsening). The caregiver is required to assess the participant's condition relative to Baseline (Day 1) on a 7-point scale from 1 (Very much improved) to 7 (Very much worse).",
+          "timeFrame": "6 weeks, 12 weeks, 18 weeks, 24 weeks, 36 weeks, 60 weeks"
+        },
+        {
+          "measure": "Developmental milestones (Confirmatory Phase)",
+          "description": "Developmental milestones will be assessed using the Bayley Scales of Infant Development - Fourth Edition (Bayley-4) domain and subtest scores or the Wechsler Preschool and Primary Scales of Intelligence - Fourth Edition (WPPSI-IV). The Bayley-4 is a standardized neurodevelopmental assessment measure used by clinicians to evaluate key domains in early childhood development for individuals between 16 days and 42 months after birth. Each domain includes a variable number of items for assessing development. Each item is scored as a 0, 1, or 2 based on the child's response to the rater's prompt or instruction. Higher scores on the Bayley-4 indicate more advanced development. The WPPSI-IV is a comprehensive test used to assess cognitive function in children from the age of 2 years 6 months to 7 years 7 months. Higher scores on the WPPSI-IV indicate more advanced development.",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Quality of life as assessed by Quality of Life Inventory-Disability (Confirmatory Phase)",
+          "description": "The QI-Disability is a parent-report measure for children with intellectual disabilities. Parents report on engagement in and enjoyment of activities and behaviors related to health and well-being, feelings and emotions, family and friends, activities and the outdoors, and daily life. 32 items are rated on a 5-point scale from 0 (Never) to 4 (Very often). Higher scores on the QI-Disability indicate more frequent and more enjoyable behavior and activity.",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Behavior as assessed by Vineland Adaptive Behavior Scale-3rd edition (Vineland-3; Confirmatory Phase)",
+          "description": "The Vineland-3 is a clinician-assessed measure of adaptive behavior in individuals with intellectual disabilities using information obtained via interview of a caregiver or parent. Individuals are assessed on frequency of adaptive behaviors in the following domains: communication, daily living skills, socialization, and motor skills. Each domain has a variable number of items. Each item is scored on a 2 or 3-point scale from 0 (Never) to 2 (Usually). Higher scores indicate more frequent behaviors.",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Behavior as assessed by Aberrant Behaviors Checklist-2nd edition (ABC-2; Confirmatory Phase)",
+          "description": "The ABC-2 is a clinician-assessed rating scale consisting of 58 items that measure the severity of a range of problem behaviors commonly observed in individuals with intellectual disabilities, including irritability, social withdrawal, stereotypic behavior, hyperactivity, and inappropriate speech. Items are rated on a 4-point scale from 0 (not at all a problem) to 3 (the problem is severe in degree). Higher scores indicate more aberrant behaviors.",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Sleep as assessed by Sleep Disturbance Scale for Children (Confirmatory Phase)",
+          "description": "The parent-reported Sleep Disturbance Scale for Children (SDSC) is a 26-item scale designed to categorize sleep disorders in children. In addition to an overall score, the instrument provides 5 sub-scores for the following: disorders of initiating and maintaining sleep, sleep breathing disorders, disorders of arousal or sleep-wake transition disorders, disorders of excessive somnolence, and sleep hyperhidrosis. Most items are scored on a 5-point scale from 1 (Never) to 5 (Always). The amount of time spent asleep and the length of time taken to fall asleep is also used in calculating the score. Higher scores on the SDSC indicate more sleep disturbances.",
+          "timeFrame": "36 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Has onset of seizures prior to 3 months of age.\n* Has a minimum weight of at least 10 kg at screening.\n* Has a documented SCN2A variant through genetic testing obtained via a laboratory accredited per Clinical Laboratory Improvement Amendments (CLIA) or College of American Pathologists (CAP) or equivalent.\n* Additional inclusion criteria apply and will be assessed by the study team\n\nExclusion Criteria:\n\n* Has any clinically significant or known pathogenic genetic variant other than in the SCN2A gene, or a genetic variant that may explain or contribute to the participant's epilepsy and/or developmental disorder.\n* Is taking more than 2 sodium channel blocking anti-seizure medications\n* Additional exclusion criteria apply and will be assessed by the study team",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Medical Director",
+          "affiliation": "Praxis Precision Medicines",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Le Bonheur Childrens Hospital",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "Hospital de Clinicas de Porto Alegre",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-003",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Praxis Research Site",
+          "city": "São Paulo",
+          "zip": "05403-010",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "http://www.embravestudy.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

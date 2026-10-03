@@ -1,0 +1,16 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "31558572"
+    ],
+    "translationset": [],
+    "querytranslation": "31558572[UID] AND 1800/01/01:2026/10/03[Date - Publication]"
+  }
+}

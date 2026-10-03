@@ -1,0 +1,18 @@
+{
+  "pmid": "38412857",
+  "title": "Impaired cerebellar plasticity hypersensitizes sensory reflexes in SCN2A-associated ASD.",
+  "abstract": "Children diagnosed with autism spectrum disorder (ASD) commonly present with sensory hypersensitivity or abnormally strong reactions to sensory stimuli. Such hypersensitivity can be overwhelming, causing high levels of distress that contribute markedly to the negative aspects of the disorder. Here, we identify a mechanism that underlies hypersensitivity in a sensorimotor reflex found to be altered in humans and in mice with loss of function in the ASD risk-factor gene SCN2A. The cerebellum-dependent vestibulo-ocular reflex (VOR), which helps maintain one's gaze during movement, was hypersensitized due to deficits in cerebellar synaptic plasticity. Heterozygous loss of SCN2A-encoded NaV1.2 sodium channels in granule cells impaired high-frequency transmission to Purkinje cells and long-term potentiation, a form of synaptic plasticity important for modulating VOR gain. VOR plasticity could be rescued in mice via a CRISPR-activator approach that increases Scn2a expression, demonstrating that evaluation of a simple reflex can be used to assess and quantify successful therapeutic intervention.",
+  "authors": [
+    "Chenyu Wang",
+    "Kimberly D Derderian",
+    "Elizabeth Hamada",
+    "Xujia Zhou",
+    "Andrew D Nelson",
+    "Henry Kyoung",
+    "Nadav Ahituv",
+    "Guy Bouvier",
+    "Kevin J Bender"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38412857/",
+  "retrieved_at": "2026-10-03T20:49:39+00:00"
+}

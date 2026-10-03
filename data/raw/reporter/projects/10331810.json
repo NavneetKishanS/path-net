@@ -1,0 +1,136 @@
+{
+  "appl_id": 10331810,
+  "subproject_id": null,
+  "fiscal_year": 2022,
+  "project_num": "5R01NS096976-07",
+  "project_serial_num": "NS096976",
+  "organization": {
+    "org_name": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+    "city": null,
+    "country": null,
+    "org_city": "SAN FRANCISCO",
+    "org_country": "UNITED STATES",
+    "org_state": "CA",
+    "org_state_name": null,
+    "dept_type": "NEUROSURGERY",
+    "fips_country_code": null,
+    "org_duns": [
+      "094878337"
+    ],
+    "org_ueis": [
+      "KMH5K9V7S518"
+    ],
+    "primary_duns": "094878337",
+    "primary_uei": "KMH5K9V7S518",
+    "org_fips": "US",
+    "org_ipf_code": "577508",
+    "org_zipcode": "941432510",
+    "external_org_id": 577508
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 510261,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "096976",
+    "support_year": "07",
+    "full_support_year": "07",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 1932549,
+      "first_name": "Scott",
+      "middle_name": "C",
+      "last_name": "Baraban",
+      "is_contact_pi": true,
+      "full_name": "Scott C Baraban",
+      "title": "PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "BARABAN, SCOTT C",
+  "program_officers": [
+    {
+      "first_name": "VICKY",
+      "middle_name": "R",
+      "last_name": "WHITTEMORE",
+      "full_name": "VICKY R WHITTEMORE"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2022,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 510261.0,
+      "direct_cost_ic": 315951.0,
+      "indirect_cost_ic": 194310.0
+    }
+  ],
+  "cong_dist": "CA-11",
+  "spending_categories": [
+    101,
+    108,
+    118,
+    255,
+    276,
+    453,
+    520,
+    525,
+    556,
+    679,
+    729
+  ],
+  "project_start_date": "2016-04-01T00:00:00",
+  "project_end_date": "2025-01-31T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -122.413937,
+    "lat": 37.767442
+  },
+  "opportunity_number": "PA-19-056",
+  "full_study_section": {
+    "srg_code": "DBD",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Developmental Brain Disorders Study Section[DBD]"
+  },
+  "award_notice_date": "2021-12-21T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS096976",
+  "terms": "<0-11 years old><5-HT><5-Hydroxytryptamine><5HT><Agonist><Assay><Award><Behavior><Behavioral><Benchmarking><Best Practice Analysis><Bioassay><Biologic Assays><Biological Assay><Blinded><Brachydanio rerio><Brain><Brain Nervous System><CRISPR approach><CRISPR based approach><CRISPR method><CRISPR methodology><CRISPR technique><CRISPR technology><CRISPR tools><CRISPR-CAS-9><CRISPR-based method><CRISPR-based technique><CRISPR-based technology><CRISPR-based tool><CRISPR/CAS approach><CRISPR/Cas method><CRISPR/Cas technology><CRISPR/Cas9><CRISPR/Cas9 technology><Calcium><Cas nuclease technology><Causality><Cell Body><Cells><Child><Child Youth><Children (0-21)><Clinical><Clustered Regularly Interspaced Short Palindromic Repeats approach><Clustered Regularly Interspaced Short Palindromic Repeats method><Clustered Regularly Interspaced Short Palindromic Repeats methodology><Clustered Regularly Interspaced Short Palindromic Repeats technique><Clustered Regularly Interspaced Short Palindromic Repeats technology><Colorado><Communities><Danio rerio><Development><Development and Research><Disease><Disorder><Drug resistance><Drugs><Dysfunction><Electrodes><Electrophysiology><Electrophysiology (science)><Elements><Encephalon><Enteramine><Epilepsy><Epileptic Seizures><Epileptics><Etiology><Exhibits><Failure><Family><Functional disorder><Gene Alteration><Gene Mutation><Generations><Genetic><Genetic Alteration><Genetic Change><Genetic defect><Goals><Hippophaine><Human><Image><Imaging Procedures><Imaging Technics><Imaging Techniques><Impairment><Investigation><Larva><Libraries><Locomotion><Medication><Medicinal Chemistry><Metabolic dysfunction><Microfluidics><Modeling><Modern Man><Mutation><NINDS><National Institute of Neurological Diseases and Stroke><National Institute of Neurological Disorders and Stroke><Neurophysiology / Electrophysiology><Patients><Pharmaceutic Chemistry><Pharmaceutic Preparations><Pharmaceutical Chemistry><Pharmaceutical Preparations><Pharmacological Study><Pharmacology><Pharmacology Study><Phenotype><Physiopathology><R & D><R&D><Receptor Protein><Research><Resistance><Resolution><SUDEP><Seizure Disorder><Seizures><Serotonin><Signal Pathway><Social Development><Sodium Channel><Sodium Ion Channels><Techniques><Technology><Time><Transgenic Organisms><Work><Zebra Danio><Zebra Fish><Zebrafish><analog><analysis pipeline><base><blind><calcium indicator><causation><childhood epilepsy><co-morbid><co-morbidity><comorbidity><confocal imaging><de novo mutation><de novo variant><design><designing><developmental><disease causation><dravet syndrome><drug candidate><drug development><drug discovery><drug resistant><drug use screening><drug/agent><effective therapy><effective treatment><electrophysiological><epilepsia><epileptiform><epileptogenic><excitatory neuron><genome editing><genome mutation><genomic editing><high risk><high-throughput drug screening><imaging><improved><in vivo><inhibitory neuron><insight><kinase inhibitor><loss of function><multidisciplinary><mutant><neural network><novel><pathophysiology><pediatric epilepsy><pre-clinical development><pre-clinical study><preclinical development><preclinical study><receptor><research and development><resistance to Drug><resistant><resistant to Drug><screening><severe intellectual disability><severe myoclonic epilepsy of infancy><side effect><sudden unexpected death in epilepsy><tool><transgenic><voltage><youngster><µfluidic>",
+  "pref_terms": "Agonist;Award;Behavior;Behavioral;Benchmarking;Biological Assay;Blinded;Brain;CRISPR/Cas technology;Calcium;Cells;Child;Clinical;Colorado;Communities;Development;Disease;Drug resistance;Electrodes;Electrophysiology (science);Elements;Epilepsy;Etiology;Exhibits;Failure;Family;Functional disorder;Gene Mutation;Generations;Genetic;Goals;Human;Image;Imaging Techniques;Impairment;Investigation;Larva;Libraries;Locomotion;Metabolic dysfunction;Microfluidics;Modeling;Mutation;National Institute of Neurological Disorders and Stroke;Patients;Pharmaceutical Chemistry;Pharmaceutical Preparations;Pharmacology;Pharmacology Study;Phenotype;Research;Resistance;Resolution;Seizures;Serotonin;Signal Pathway;Social Development;Sodium Channel;Techniques;Technology;Time;Transgenic Organisms;Work;Zebrafish;analog;analysis pipeline;base;blind;calcium indicator;childhood epilepsy;comorbidity;confocal imaging;de novo mutation;design;dravet syndrome;drug candidate;drug development;drug discovery;drug use screening;effective therapy;excitatory neuron;genome editing;high risk;high-throughput drug screening;improved;in vivo;inhibitory neuron;insight;kinase inhibitor;loss of function;multidisciplinary;mutant;neural network;novel;preclinical development;preclinical study;receptor;research and development;screening;severe intellectual disability;side effect;sudden unexpected death in epilepsy;tool;voltage",
+  "abstract_text": "Project Summary/Abstract\nDravet syndrome (DS), a catastrophic childhood epilepsy, is associated with severe intellectual disability,\nimpaired social development, persistent drug-resistant seizures and a high risk of sudden unexpected death in\nepilepsy. Our recent investigation of zebrafish mutants featuring a loss-of-function sodium channel (scn1a)\nmutation (e.g., a gene mutation identified in ~80% of DS patients) focused on drug discovery and\ndevelopment, metabolic dysfunction and behavioral comorbidities. Using a high-throughput phenotype-based\nscreening strategy and medicinal chemistry, we screened nearly 3000 drugs, successfully identified a\nserotonin (5HT) receptor mechanism underlying anti-seizure activity of clemizole and developed three novel\nclemizole analogs. Using CRISPR/Cas9 genome editing technology we generated new zebrafish mutant lines\nfor chd2, gabrb3, pcdh19 and stxbp1 (e.g., de novo mutations seen in ~20% of DS patients). Interestingly,\nstxbp1 and gabrb3 mutants exhibit epileptic phenotypes. We also designed and manufactured a microfluidic,\nmulti-channel electrode-integrated platform for long-term non-invasive electrophysiology on larval zebrafish\n(Hong et al. 2016) and developed a calcium imaging-analysis pipeline for studying seizure macro- and micro-\nnetworks in vivo (Liu and Baraban 2019). The proposed work will leverage these unique tools. Three specific\naims are proposed: (i) to resolve neural networks responsible for seizures in larval DS zebrafish, (ii) to perform\nhigh-throughput drug screening using zebrafish and (iii) to further evaluate clemizole and related anti-seizure\ncompounds. Techniques will include automated locomotion tracking, in vivo zebrafish electrophysiology,\npharmacology, and fast calcium imaging using genetically encoded calcium- and voltage-sensitive indicators.\nOur results promise to simultaneously advance our long-term goals (i) to better understand the\npathophysiology of genetic epilepsies and (ii) identify promising new treatment options for these intractable\nconditions.",
+  "project_title": "ZEBRAFISH MODELS FOR DRAVET SYNDROME RESEARCH AND DISCOVERY",
+  "phr_text": "Project Narrative\nWith nearly 40,000 children suffering from Dravet Syndrome in desperate need of more effective therapies, and\nfamilies moving to Colorado based almost on a blind hope for a new treatment, our proposal is squarely focused\non a timely and significant unmet need in the pediatric epilepsy community. Combining multiple levels of analysis\nacross several zebrafish models of DS, this proposal aims to provide new insights and treatment for this\ncondition.",
+  "spending_categories_desc": "Bioengineering; Biotechnology; Brain Disorders; Epilepsy; Genetics; Intellectual and Developmental Disabilities (IDD); Neurodegenerative; Neurosciences; Orphan Drug; Pediatric; Rare Diseases",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2022-02-01T00:00:00",
+  "budget_end": "2023-01-31T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 315951,
+  "indirect_cost_amt": 194310,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10331810",
+  "date_added": "2022-02-05T13:35:34"
+}

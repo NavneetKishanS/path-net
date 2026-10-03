@@ -1,0 +1,234 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05226780",
+      "orgStudyIdInfo": {
+        "id": "NBI-921352-DEE2013"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-004393-62",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Neurocrine Biosciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+      "officialTitle": "A Prospective, Long-Term, Interventional, Active Extension Study to Evaluate the Safety and Tolerability of NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "This study was prematurely terminated due to sponsor decision.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-11-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-26",
+      "studyFirstSubmitQcDate": "2022-01-26",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Neurocrine Biosciences",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Extension study to evaluate how safe and tolerable the drug NBI-921352 is when used as adjunctive therapy in participants with SCN8A developmental and epileptic encephalopathy syndrome (SCN8A-DEE)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "SCN8A Developmental and Epileptic Encephalopathy Syndrome"
+      ],
+      "keywords": [
+        "Epilepsy",
+        "Sodium channel",
+        "voltage-gated",
+        "type VIII",
+        "alpha subunit (SCN8A)",
+        "NaV1.6 inhibitor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "NBI-921352",
+          "type": "EXPERIMENTAL",
+          "description": "NBI-921352 administered for up to 164 weeks.",
+          "interventionNames": [
+            "Drug: NBI-921352"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NBI-921352",
+          "description": "Administered orally",
+          "armGroupLabels": [
+            "NBI-921352"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants with Serious treatment-emergent adverse events (TEAEs), TEAEs Leading to Discontinuation and Fatal TEAEs",
+          "timeFrame": "Day 1 to Week 168"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage Change from Baseline in 28-day Seizure Frequency for Countable Motor Seizures",
+          "timeFrame": "Baseline, up to Week 162"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\nFor Participants Who Participated in NBI-921352-DEE2012:\n\n* Written or oral pediatric assent from the participant and written informed consent from the participant's parent(s) or legal guardian(s) for pediatric participants and adult participants who are not capable of providing consent. Adult participant who are ≥18 years of age and capable of providing consent should sign an Informed Consent Form (ICF).\n* Completed 16 weeks of treatment in Study NBI-921352-DEE2012.\n* Continue to use a nocturnal alerting system or practice consistent with standards of care for the duration of the study.\n* Have an adequate rescue medication regimen per the investigator's judgment in place for the duration of the study.\n\nFor Participants Who did not Participate in NBI-921352-DEE2012:\n\n* Written or oral pediatric assent from the participant if deemed capable of providing assent and written informed consent from the participant's parent(s) or legal guardian(s) for pediatric participants and for adult participants who are not capable of providing consent. Adult participants who are capable of providing consent should sign an ICF.\n* Be a male or female 2 to 21 years of age, inclusive.\n* Have a diagnosis of SCN8A-DEE supported by both clinical and genetic findings.\n* Have on average at least 1 countable motor seizure per week and not be seizure-free for more than 20 consecutive days.\n* Being treated with at least 1 other antiseizure medication (ASM), but no more than 4 ASMs.\n* Have failed to achieve seizure freedom with at least 2 ASMs.\n* Have a body weight of at least 10 kilograms.\n\nKey Exclusion Criteria\n\nFor Participants Who Participated in NBI-921352-DEE2012:\n\n\\- Have developed any other disorder for which the treatment takes priority over treatment of SCN8A-DEE or is likely to interfere with study treatment or impair treatment compliance.\n\nFor Participants Who did not Participate in NBI-921352-DEE2012:\n\n* Have symptoms that would be more consistent with another epilepsy disorder such as Dravet syndrome (for example, fever-induced episodes of status epilepticus, frequent myoclonic seizures, worsening on sodium channel blockers, absence seizures with generalized spike-and-wave electroencephalogram \\[EEG\\] as the sole seizure type).\n* Currently receiving cannabinoids or medical marijuana except Epidiolex/Epidyolex, unless approved by the Sponsor.\n* Currently taking systemic steroids (excluding inhaled medication for asthma treatments and intranasal steroids for allergies) such as adrenocorticotropin hormone, high-dose prednisolone for epileptic spasms. If participant has received these medications in the past, they must be off these medications for at least 3 months prior to the screening visit and these drugs may not be initiated during the duration of the study. Intermittent steroids to treat non-epilepsy-related diseases (such as allergies or dermatological conditions) are not exclusionary.\n* Have a history of moderate or severe head trauma or other neurological disorders or systemic medical diseases that are, in the investigator's opinion, likely to affect nervous system functioning.\n* Have a clinically significant medical condition or chronic disease, that in the opinion of the investigator would preclude the participant from participating in and completing the study or that could confound interpretation of study outcome.\n* Have clinically significant abnormal vital signs at the screening visit, as determined by the investigator.\n* Have one or more clinical laboratory test values outside the reference range, based on blood samples taken at the screening visit, that are of potential risk to the participants safety as determined by the investigator.\n* Have, at the screening visit, an electrocardiogram (ECG) finding of a corrected QT interval using Fridericia's formula (QTcF) \\> 450 milliseconds (msec) or presence of any significant cardiac abnormality.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "maximumAge": "22 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Development Lead",
+          "affiliation": "Neurocrine Biosciences",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UCSF Medical Center",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Children's National Hospital",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "University of Rochester",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Cook Children's Medical Center",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

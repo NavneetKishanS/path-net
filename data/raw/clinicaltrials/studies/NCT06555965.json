@@ -1,0 +1,333 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06555965",
+      "orgStudyIdInfo": {
+        "id": "23-021140"
+      },
+      "organization": {
+        "fullName": "Children's Hospital of Philadelphia",
+        "class": "OTHER"
+      },
+      "briefTitle": "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+      "officialTitle": "STXBP1 and SYNGAP1 Related Disorders (RD) Natural History Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-08-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-08-13",
+      "studyFirstSubmitQcDate": "2024-08-13",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Children's Hospital of Philadelphia",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "STXBP1 Foundation",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to find out more about STXBP1 and SYNGAP1 related disorders. The information gathered by this study will be used to prepare for clinical treatment trials. The primary objective of the study is to better define and outline the clinical spectrum of STXBP1 and SYNGAP1 through detailed developmental, seizure, and quality of life assessments as an extension of routine clinical care.",
+      "detailedDescription": "STXBP1 and SYNGAP1 related disorders are genetic disorders that cause differences in the synaptic transmission of the brain. Disease-causing variants in these genes lead to a spectrum of developmental delay that is most often severe, epileptic encephalopathies, and complex behavioral and psychiatric disorders. As there are multiple targeted therapies in development for these conditions, there is an urgent need to push forward a prospective natural history study in order to define specific disease outcomes in these genetic conditions.\n\nParticipation may last up to five years and will involve up to 10 study visits. Detailed questions about health and medical history, physical exams, electrographic encephalogram (EEG) or quantitative EEG (qEEG) and some age-appropriate assessments of neurodevelopmental and behavioral function are some of the study procedures. Study procedures will occur during regularly scheduled clinic visits. Participants will undergo assessments at baseline visit and semi-annually (every 6 months for 2-5 years).\n\nThe primary objective of the study is to better define and outline the clinical spectrum of STXBP1 and SYNGAP1 through detailed developmental, seizure, and quality of life assessments as an extension of routine clinical care.\n\nThe secondary objectives of the study are listed below:\n\n* To evaluate changes in neurodevelopmental and behavioral parameters as assessed by instruments appropriate to the study population.\n* To assess the burden of disease by quality-of-life instruments appropriate to the study population.\n* To assess the burden of performing multiple outcome measures and scales on the caregiver, participant, and clinical personnel.\n* To assess health care resource utilization"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Genetic Disease",
+        "STXBP1 Encephalopathy With Epilepsy",
+        "SYNGAP1-Related Intellectual Disability"
+      ],
+      "keywords": [
+        "STXBP1",
+        "Natural History",
+        "Clinical Research",
+        "SYNGAP1"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "STXBP1 cohort",
+          "interventionNames": [
+            "Other: Non-interventional study"
+          ]
+        },
+        {
+          "label": "SYNGAP1 cohort",
+          "interventionNames": [
+            "Other: Non-interventional study"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Non-interventional study",
+          "description": "There is no planned intervention in this study",
+          "armGroupLabels": [
+            "STXBP1 cohort",
+            "SYNGAP1 cohort"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in percentiles recorded on clinical assessments over time",
+          "description": "The primary analysis will include all subjects meeting all inclusion and exclusion criteria and completing Visit 1. For each subject, the percentage of items performed correctly on the clinical assessments will be recorded. Changes in percentiles over time will be analyzed using a linear mixed effects model, to account for repeated measures for each patient.",
+          "timeFrame": "Every 6 months upto 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female of any age.\n* Presence of a STXBP1 or SYNGAP1 gene mutation. The variant in STXBP1 or SYNGAP1 must be classified as causative based on clinical and variant classification criteria. Historical documentation is sufficient to support eligibility for the study. Confirmatory testing will be obtained, if necessary, at baseline and performed by a CLIA certified laboratory.\n\nExclusion Criteria:\n\n* The presence of a confirmed mutation in a gene other than STXBP1 or SYNGAP1 that is known to contribute to a neurodevelopmental disability. This includes full gene deletions of STXBP1 or SYNGAP1 that include other genes beyond STXBP1 or SYNGAP1.\n* The presence of a significant non-STXBP1-RD or non-SYNGAP1-RD related central nervous impairment/behavioral disturbance that would confound the scientific rigor or interpretation of results of the study.\n* History of intraventricular hemorrhage, structural brain deficit or congenital heart disease\n* The presence of a clinical comorbidity deemed by the investigator to potentially confound the typical presentation of STXBP1-RD or SYNGAP1-RD.\n* Pregnant women or females of age of menarche who are found to be pregnant upon urine pregnancy testing.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Participating individuals must have a confirmed genetic diagnosis of STXBP1 or SYNGAP1 related disorders. Participants can be any age and present with any disease severity",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Joeylynn Nolan, RRT NPS AE-C",
+          "role": "CONTACT",
+          "phone": "2674411813",
+          "email": "COYNEJ@chop.edu"
+        },
+        {
+          "name": "Victoria Chisari, BA, NS",
+          "role": "CONTACT",
+          "email": "ChisariV@chop.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Ingo Helbig, MD",
+          "affiliation": "Children's Hospital of Philadelphia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Stanford Medicine Children's Health",
+          "status": "RECRUITING",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Swetapadma Patnaik",
+              "role": "CONTACT",
+              "email": "sweta@stanford.edu"
+            },
+            {
+              "name": "Juliet Knowles, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "Children's Hospital Colorado",
+          "status": "RECRUITING",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80011",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Megan Stringfellow",
+              "role": "CONTACT",
+              "email": "Megan.Stringfellow@childrenscolorado.org"
+            },
+            {
+              "name": "Andrea Miele, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Millie Stone",
+              "role": "CONTACT",
+              "email": "aks4017@med.cornell.edu"
+            },
+            {
+              "name": "Zachary Grinspan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "The Children's Hospital of Philadelphia",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19403",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joeylynn Nolan",
+              "role": "CONTACT",
+              "email": "coynej@chop.edu"
+            },
+            {
+              "name": "Ingo Helbig, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Texas Children's Hospital",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ekaterina Sanchez Romero",
+              "role": "CONTACT",
+              "email": "chao-lab@bcm.edu"
+            },
+            {
+              "name": "Hsiao-Tuan Chao, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35190816",
+          "type": "BACKGROUND",
+          "citation": "Xian J, Parthasarathy S, Ruggiero SM, Balagura G, Fitch E, Helbig K, Gan J, Ganesan S, Kaufman MC, Ellis CA, Lewis-Smith D, Galer P, Cunningham K, O'Brien M, Cosico M, Baker K, Darling A, Veiga de Goes F, El Achkar CM, Doering JH, Furia F, Garcia-Cazorla A, Gardella E, Geertjens L, Klein C, Kolesnik-Taylor A, Lammertse H, Lee J, Mackie A, Misra-Isrie M, Olson H, Sexton E, Sheidley B, Smith L, Sotero L, Stamberger H, Syrbe S, Thalwitzer KM, van Berkel A, van Haelst M, Yuskaitis C, Weckhuysen S, Prosser B, Son Rigby C, Demarest S, Pierce S, Zhang Y, Moller RS, Bruining H, Poduri A, Zara F, Verhage M, Striano P, Helbig I. Assessing the landscape of STXBP1-related disorders in 534 individuals. Brain. 2022 Jun 3;145(5):1668-1683. doi: 10.1093/brain/awab327."
+        },
+        {
+          "pmid": "35002943",
+          "type": "BACKGROUND",
+          "citation": "Yang P, Broadbent R, Prasad C, Levin S, Goobie S, Knoll JH, Prasad AN. De novo STXBP1 Mutations in Two Patients With Developmental Delay With or Without Epileptic Seizures. Front Neurol. 2021 Dec 24;12:804078. doi: 10.3389/fneur.2021.804078. eCollection 2021."
+        },
+        {
+          "pmid": "17012639",
+          "type": "BACKGROUND",
+          "citation": "Wang HH, Liao HF, Hsieh CL. Reliability, sensitivity to change, and responsiveness of the peabody developmental motor scales-second edition for children with cerebral palsy. Phys Ther. 2006 Oct;86(10):1351-9. doi: 10.2522/ptj.20050259."
+        },
+        {
+          "pmid": "31147226",
+          "type": "BACKGROUND",
+          "citation": "Demarest S, Pestana-Knight EM, Olson HE, Downs J, Marsh ED, Kaufmann WE, Partridge CA, Leonard H, Gwadry-Sridhar F, Frame KE, Cross JH, Chin RFM, Parikh S, Panzer A, Weisenberg J, Utley K, Jaksha A, Amin S, Khwaja O, Devinsky O, Neul JL, Percy AK, Benke TA. Severity Assessment in CDKL5 Deficiency Disorder. Pediatr Neurol. 2019 Aug;97:38-42. doi: 10.1016/j.pediatrneurol.2019.03.017. Epub 2019 Mar 27."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-02"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "C567404",
+          "term": "Epileptic Encephalopathy, Early Infantile, 4"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

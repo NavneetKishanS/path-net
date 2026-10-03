@@ -1,0 +1,21 @@
+{
+  "pmid": "37622116",
+  "title": "Identification of cuproptosis and immune-related gene prognostic signature in lung adenocarcinoma.",
+  "abstract": "Cuproptosis is a novel form of programmed cell death that differs from other types such as pyroptosis, ferroptosis, and autophagy. It is a promising new target for cancer therapy. Additionally, immune-related genes play a crucial role in cancer progression and patient prognosis. Therefore, our study aimed to create a survival prediction model for lung adenocarcinoma patients based on cuproptosis and immune-related genes. This model can be utilized to enhance personalized treatment for patients. RNA sequencing (RNA-seq) data of lung adenocarcinoma (LUAD) patients were collected from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) databases. The levels of immune cell infiltration in the GSE68465 cohort were determined using gene set variation analysis (GSVA), and immune-related genes (IRGs) were identified using weighted gene coexpression network analysis (WGCNA). Additionally, cuproptosis-related genes (CRGs) were identified using unsupervised clustering. Univariate COX regression analysis and least absolute shrinkage selection operator (LASSO) regression analysis were performed to develop a risk prognostic model for cuproptosis and immune-related genes (CIRGs), which was subsequently validated. Various algorithms were utilized to explore the relationship between risk scores and immune infiltration levels, and model genes were analyzed based on single-cell sequencing. Finally, the expression of signature genes was confirmed through quantitative real-time PCR (qRT-PCR), immunohistochemistry (IHC), and Western blotting (WB). We have identified 5 Oncogenic Driver Genes namely CD79B, PEBP1, PTK2B, STXBP1, and ZNF671, and developed proportional hazards regression models. The results of the study indicate significantly reduced survival rates in both the training and validation sets among the high-risk group. Additionally, the high-risk group displayed lower levels of immune cell infiltration and expression of immune checkpoint compared to the low-risk group.",
+  "authors": [
+    "Wentao Zhang",
+    "Haizeng Qu",
+    "Xiaoqing Ma",
+    "Liang Li",
+    "Yanjun Wei",
+    "Ye Wang",
+    "Renya Zeng",
+    "Yuanliu Nie",
+    "Chenggui Zhang",
+    "Ke Yin",
+    "Fengge Zhou",
+    "Zhe Yang"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37622116/",
+  "retrieved_at": "2026-10-03T20:48:48+00:00"
+}

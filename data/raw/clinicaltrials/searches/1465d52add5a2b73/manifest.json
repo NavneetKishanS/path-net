@@ -1,0 +1,30 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+  "query": "STXBP1",
+  "retrieved_at": "2026-10-03T20:48:57+00:00",
+  "requests": [
+    {
+      "query.term": "STXBP1",
+      "format": "json",
+      "pageSize": 50,
+      "countTotal": "true"
+    }
+  ],
+  "total_count": 12,
+  "study_ids": [
+    "NCT06625112",
+    "NCT02885389",
+    "NCT05161494",
+    "NCT05232630",
+    "NCT05462054",
+    "NCT06555965",
+    "NCT06967727",
+    "NCT06585605",
+    "NCT06356233",
+    "NCT04937062",
+    "NCT01238250",
+    "NCT06983158"
+  ],
+  "truncated": false
+}

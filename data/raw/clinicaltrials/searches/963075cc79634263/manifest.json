@@ -1,0 +1,24 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+  "query": "SCN8A",
+  "retrieved_at": "2026-10-03T20:49:44+00:00",
+  "requests": [
+    {
+      "query.term": "SCN8A",
+      "format": "json",
+      "pageSize": 50,
+      "countTotal": "true"
+    }
+  ],
+  "total_count": 6,
+  "study_ids": [
+    "NCT05226780",
+    "NCT05450822",
+    "NCT04873869",
+    "NCT05818553",
+    "NCT06967727",
+    "NCT06585605"
+  ],
+  "truncated": false
+}

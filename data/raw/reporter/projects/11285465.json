@@ -1,0 +1,124 @@
+{
+  "appl_id": 11285465,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "5R01NS126392-04",
+  "project_serial_num": "NS126392",
+  "organization": {
+    "org_name": "EMORY UNIVERSITY",
+    "city": null,
+    "country": null,
+    "org_city": "ATLANTA",
+    "org_country": "UNITED STATES",
+    "org_state": "GA",
+    "org_state_name": null,
+    "dept_type": "GENETICS",
+    "fips_country_code": null,
+    "org_duns": [
+      "066469933"
+    ],
+    "org_ueis": [
+      "S352L5PJLMP8"
+    ],
+    "primary_duns": "066469933",
+    "primary_uei": "S352L5PJLMP8",
+    "org_fips": "US",
+    "org_ipf_code": "2384501",
+    "org_zipcode": "303221007",
+    "external_org_id": 2384501
+  },
+  "award_type": "5",
+  "activity_code": "R01",
+  "award_amount": 523154,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "R01",
+    "ic_code": "NS",
+    "serial_num": "126392",
+    "support_year": "04",
+    "full_support_year": "04",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 7347049,
+      "first_name": "Andrew",
+      "middle_name": "P",
+      "last_name": "Escayg",
+      "is_contact_pi": true,
+      "full_name": "Andrew P Escayg",
+      "title": "PROFESSOR"
+    }
+  ],
+  "contact_pi_name": "ESCAYG, ANDREW P",
+  "program_officers": [
+    {
+      "first_name": "HEIDI",
+      "middle_name": "YANICE",
+      "last_name": "MATOS GALICIA",
+      "full_name": "HEIDI YANICE MATOS GALICIA"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "NS",
+    "abbreviation": "NINDS",
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "admin_org_id": "12500053",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "NS",
+      "name": "National Institute of Neurological Disorders and Stroke",
+      "abbreviation": "NINDS",
+      "total_cost": 523154.0,
+      "direct_cost_ic": 401993.0,
+      "indirect_cost_ic": 121161.0
+    }
+  ],
+  "cong_dist": "GA-05",
+  "spending_categories": null,
+  "project_start_date": "2023-03-01T00:00:00",
+  "project_end_date": "2028-02-29T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -84.3249,
+    "lat": 33.791247
+  },
+  "opportunity_number": "PA-20-185",
+  "full_study_section": {
+    "srg_code": "DBD",
+    "srg_flex": null,
+    "sra_designator_code": null,
+    "sra_flex_code": null,
+    "group_code": null,
+    "name": "Developmental Brain Disorders Study Section[DBD]"
+  },
+  "award_notice_date": "2026-02-05T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "RP",
+  "core_project_num": "R01NS126392",
+  "terms": "<ASD><Address><Ammon Horn><Anti-epileptic><Assay><Autism><Autistic Disorder><Basic Research><Basic Science><Behavior><Behavioral><Behavioral Assay><Bioassay><Biological Assay><Biological Markers><Biophysics><Brain><Brain Nervous System><Brain region><CNS Nervous System><Causality><Cell Body><Cells><Central Nervous System><Clinical><Complex><Connector Neuron><Cornu Ammonis><Cyclic Somatostatin><DNA mutation><Development><Developmental Delay><Developmental Delay Disorders><Disease><Disorder><Drugs><Dysfunction><Early Infantile Autism><Electrophysiology><Electrophysiology (science)><Encephalon><Epilepsy><Epileptic Seizures><Epileptics><Etiology><Face><Frequencies><Functional disorder><Future><Gene Expression Inhibitor><Gene Family><Generations><Genes><Genetic Change><Genetic defect><Genetic mutation><Growth Hormone Inhibiting Factors><Growth Hormone-Inhibiting Hormone><Heterozygote><Hippocampus><Human><In Vitro><Individual><Infantile Autism><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Intercalary Neuron><Intercalated Neurons><Interneurons><Internuncial Cell><Internuncial Neuron><Intractable Epilepsy><KI mice><Kanner's Syndrome><Knock-in><Knock-in Mouse><Lead><Medication><Mice><Mice Mammals><Modeling><Modern Man><Murine><Mus><Mutation><NAV1.6><NaCh6><Nervous System Diseases><Nervous System Disorder><Neuraxis><Neurologic Disorders><Neurological Disorders><Neurophysiology / Electrophysiology><PHM27><Parvalbumins><Pathogenicity><Pathologic><Pathology><Patients><Pb element><Pharmaceutical Preparations><Phenotype><Physiology><Physiopathology><Play><Predisposition><Preparation><Recurrence><Recurrent><Refractory epilepsy><Resistance><Risk><Role><SCN8A><SCN8A encephalopathy><SCN8A gene><SOM INs><SOM interneuron><SRIH><SRIH-14><SST interneuron><SST neurons><SUDEP><Seizure Disorder><Seizures><Severities><Slice><Sodium Channel><Sodium Ion Channels><Somatostatin><Somatostatin-14><Somatotropin Release Inhibiting Factors><Somatotropin Release-Inhibiting Hormone><Specific Child Development Disorders><Susceptibility><Testing><Thalamic structure><Thalamus><Therapeutic><Translational Research><Translational Science><VIP IN><VIP interneurons><VIP neurons><VIP-expressing interneuron><Variant><Variation><Vasoactive Intestinal Peptide><Vasoactive Intestinal Polypeptide><Vasointestinal Peptide><anti-epileptic agents><anti-epileptic drugs><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><behavior phenotype><behavioral phenotyping><bio-markers><biologic marker><biomarker><biophysical foundation><biophysical principles><biophysical sciences><causation><cell type><childhood epilepsy><clinical heterogeneity><clinical phenotype><develop therapy><developmental><disease causation><disease mechanisms study><drug candidate><drug-resistant epilepsy><drug/agent><effective therapy><effective treatment><electrophysiological><epilepsia><epileptic encephalopathies><epileptogenic><excitatory neuron><experiment><experimental research><experimental study><experiments><faces><facial><gain of function><genetic approach><genetic inhibitor><genetic strategy><genome mutation><growth hormone release inhibiting factor><heavy metal Pb><heavy metal lead><heterozygosity><hippocampal><impaired intellectual functioning><improved><in vivo><inhibitory neuron><intellectual and developmental disability><intellectual and developmental disorder><intervention development><knockin><knockin mice><limited intellectual functioning><loss of function><mammalian genome><mouse model><murine model><mutant><neurological disease><new therapeutic approach><new therapeutic intervention><new therapeutic strategies><new therapy approaches><new treatment approach><new treatment strategy><novel therapeutic approach><novel therapeutic intervention><novel therapeutic strategies><novel therapy approach><pathophysiology><pediatric epilepsy><personalization of treatment><personalized medicine><personalized therapy><personalized treatment><pharmacologic><pre-clinical study><preclinical study><premature><prematurity><preparations><resistant><respiratory><response><selective expression><selectively expressed><social defects><social deficits><social disorders><social dysfunction><social role><sodium channel, voltage gated, type VIII, alpha subunit><somatostatin expressing INs><somatostatin expressing inhibitory neurons><somatostatin expressing interneurons><somatostatin expressing neurons><somatostatin interneurons><somatostatin positive interneurons><somatostatin positive neurons><somatostatinergic neurons><sudden unexpected death in epilepsy><thalamic><therapeutic agent development><therapeutic development><therapy development><therapy optimization><translation research><translational investigation><treatment development><treatment optimization><treatment strategy><vasoactive intestinal peptide expressing interneurons><vasoactive intestinal peptide expressing neurons><vasoactive intestinal peptide inhibitory neuron><vasoactive intestinal peptide positive neuron><vasoactive intestinal peptide-positive interneuron><voltage>",
+  "pref_terms": "Address;Basic Science;Behavior;Behavioral;Behavioral Assay;Biological Assay;Biological Markers;Biophysics;Brain;Brain region;Cells;Central Nervous System;Clinical;Complex;Development;Developmental Delay Disorders;Disease;Electrophysiology (science);Epilepsy;Etiology;Face;Frequencies;Functional disorder;Future;Gene Family;Generations;Genes;Heterozygote;Hippocampus;Human;In Vitro;Individual;Intellectual functioning disability;Interneurons;Intractable Epilepsy;Knock-in;Knock-in Mouse;Lead;Modeling;Mus;Mutation;Nervous System Disorder;Parvalbumins;Pathogenicity;Pathologic;Pathology;Patients;Pharmaceutical Preparations;Phenotype;Physiology;Play;Predisposition;Preparation;Recurrence;Resistance;Risk;Role;SCN8A encephalopathy;SCN8A gene;Seizures;Severities;Slice;Sodium Channel;Somatostatin;Testing;Thalamic structure;Therapeutic;Translational Research;Variant;Vasoactive Intestinal Peptide;anti-epileptic agents;autism spectrum disorder;behavioral phenotyping;cell type;childhood epilepsy;clinical heterogeneity;clinical phenotype;disease mechanisms study;drug candidate;effective therapy;epileptic encephalopathies;excitatory neuron;experimental study;gain of function;genetic approach;genetic inhibitor;improved;in vivo;inhibitory neuron;loss of function;mammalian genome;mouse model;mutant;novel therapeutic intervention;personalized medicine;pharmacologic;preclinical study;premature;respiratory;response;selective expression;social deficits;somatostatin expressing interneurons;sudden unexpected death in epilepsy;therapeutic development;therapy development;treatment optimization;treatment strategy;vasoactive intestinal peptide expressing interneurons;voltage",
+  "abstract_text": "PROJECT SUMMARY\nThe mammalian genome contains four voltage-gated sodium channels that are expressed at high levels in the\ncentral nervous system: SCN1A, SCN2A, SCN3A and SCN8A. This gene family plays an important role in the\netiology of human epilepsy and mutations in each gene are associated with different types of epilepsy. However,\nthe relationship between altered SCN8A function and epilepsy appears more complex. While we have shown\nthat mice with loss-of-function Scn8a mutations are more resistant to induced seizures, many de novo gain-of-\nfunction SCN8A mutations have been identified in patients with a range of clinical features including catastrophic\nchildhood epilepsy, autism, intellectual disability and developmental delay. Individuals with SCN8A mutations\nalso face an increased risk for sudden unexpected death in epilepsy (SUDEP). The mechanisms by which\nSCN8A mutations lead to the observed range of clinically challenging features remain poorly understood, and\ncurrent therapies are often woefully inadequate. Our central hypothesis is that the development of the most\neffective therapy for SCN8A disorders requires a mechanistic understanding of the precise cell types\nand brain regions underlying SCN8A pathologies. Our proposal builds on our recent studies in which we\ndecoupled the cell types, circuits, and regions underlying seizure generation versus seizure resistance due to\nScn8a haploinsufficiency. We will expand on these findings by studying three different SCN8A variants: R850Q\n– one of the most severe and recurrent SCN8A mutations, R1620L – a mutation associated with relatively mild\nepilepsy, yet intellectual disability and social dysfunction, and N1768D – a mutation associated with epileptic\nencephalopathy. We will study the R850Q mutation in Aim 1 by using a conditional knock-in (CKI) mouse line to\nenable cell- and region-selective expression of this variant, which until now was not possible to study due to the\nsevere phenotype and premature lethality when globally expressed in mice. The CKI R850Q line will be used to\nestablish the contribution of different cell types to the seizure, behavioral, and biophysical phenotypes associated\nwith SCN8A dysfunction. In Aim 2, we will implement two parallel approaches to guide the identification of more\nefficacious SCN8A therapies using pharmacological and cell-specific manipulations in both the R1620L and\nN1768D lines, thereby spanning the range of SCN8A clinical presentations. Given the lack of optimized treatment\nstrategies for patients with SCN8A mutations, we will conduct the first systematic comparison of selected\nantiepileptic and candidate drugs for their ability to decrease spontaneous seizures and SUDEP risk, and\nnormalize behavior. We will also use a chemogenetic approach to further interrogate cell type-specific\ncontributions to disease mechanisms and establish the therapeutic potential of selectively modulating the\nexcitability of excitatory neurons, as well as parvalbumin, somatostatin, and vasoactive intestinal peptide-\nexpressing interneurons. The proposed experiments provide a path towards personalized medicine for SCN8A\npatients and a blueprint for treatment development in other neurological disorders.",
+  "project_title": "SCN8A encephalopathy: disease mechanisms and treatment",
+  "phr_text": "PROJECT NARRATIVE\nA growing number of mutations in the voltage-gated sodium channel SCN8A are being identified in patients\nwith severe epilepsy and other neurological disorders such as autism. However, the mechanisms by which\nthese mutations lead to the observed clinical features are poorly understood, and current therapies are often\ninadequate. To address these gaps, we will study disease mechanisms and explore new treatment strategies\nusing mice expressing human SCN8A mutations.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-03-01T00:00:00",
+  "budget_end": "2027-02-28T00:00:00",
+  "cfda_code": "93.853",
+  "funding_mechanism": "Non-SBIR/STTR",
+  "direct_cost_amt": 401993,
+  "indirect_cost_amt": 121161,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11285465",
+  "date_added": "2026-03-07T17:04:13"
+}

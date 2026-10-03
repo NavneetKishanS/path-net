@@ -1,0 +1,130 @@
+{
+  "appl_id": 10451793,
+  "subproject_id": null,
+  "fiscal_year": 2022,
+  "project_num": "5F30HD100096-03",
+  "project_serial_num": "HD100096",
+  "organization": {
+    "org_name": "WEILL MEDICAL COLL OF CORNELL UNIV",
+    "city": null,
+    "country": null,
+    "org_city": "NEW YORK",
+    "org_country": "UNITED STATES",
+    "org_state": "NY",
+    "org_state_name": null,
+    "dept_type": "INTERNAL MEDICINE/MEDICINE",
+    "fips_country_code": null,
+    "org_duns": [
+      "060217502"
+    ],
+    "org_ueis": [
+      "YNT8TCJH8FQ8"
+    ],
+    "primary_duns": "060217502",
+    "primary_uei": "YNT8TCJH8FQ8",
+    "org_fips": "US",
+    "org_ipf_code": "1514803",
+    "org_zipcode": "100654805",
+    "external_org_id": 1514803
+  },
+  "award_type": "5",
+  "activity_code": "F30",
+  "award_amount": 46261,
+  "is_active": false,
+  "project_num_split": {
+    "appl_type_code": "5",
+    "activity_code": "F30",
+    "ic_code": "HD",
+    "serial_num": "100096",
+    "support_year": "03",
+    "full_support_year": "03",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 14175517,
+      "first_name": "Debra",
+      "middle_name": "",
+      "last_name": "Abramov",
+      "is_contact_pi": true,
+      "full_name": "Debra  Abramov",
+      "title": "MD/PHD TRAINEE"
+    }
+  ],
+  "contact_pi_name": "ABRAMOV, DEBRA ",
+  "program_officers": [
+    {
+      "first_name": "MELISSA",
+      "middle_name": "",
+      "last_name": "PARISI",
+      "full_name": "MELISSA  PARISI"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "HD",
+    "abbreviation": "NICHD",
+    "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+    "admin_org_id": "12500030",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2022,
+      "code": "HD",
+      "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "abbreviation": "NICHD",
+      "total_cost": 46261.0,
+      "direct_cost_ic": 46261.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "NY-12",
+  "spending_categories": [
+    118,
+    255,
+    276,
+    520,
+    525
+  ],
+  "project_start_date": "2020-08-03T00:00:00",
+  "project_end_date": "2023-05-18T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -73.9603,
+    "lat": 40.7607
+  },
+  "opportunity_number": "PA-19-191",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F03A",
+    "sra_flex_code": "N",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1-F03A-N(20)L]"
+  },
+  "award_notice_date": "2022-08-01T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F30HD100096",
+  "terms": "<0-11 years old><Address><Affect><Assay><Ataxia><Ataxy><Autism><Autistic Disorder><Binding><Bioassay><Biochemical><Biologic Assays><Biological><Biological Assay><Cell Body><Cells><Child><Child Youth><Children (0-21)><Complex><Coordination Impairment><Cytoskeletal Gene><Cytoskeletal Proteins><DNA Alteration><DNA Sequence Alteration><DNA mutation><Data><Defect><Development><Disease><Disorder><Dysfunction><Dyssynergia><Early Infantile Autism><Epilepsy><Epileptic Seizures><Epileptics><Functional disorder><Future><Genetic><Genetic Alteration><Genetic Change><Genetic defect><Genetic mutation><Golgi><Golgi Apparatus><Golgi Complex><Impairment><Induced DNA Alteration><Induced Mutation><Induced Sequence Alteration><Infantile Autism><Intellectual disability><Intellectual functioning disability><Intellectual limitation><Intractable Epilepsy><Isoforms><KO mice><Kanner's Syndrome><Knock-out Mice><Knockout Mice><LB pathology><Lead><Lewy body pathology><Lewy pathology><Link><Metabolic Glycosylation><Methods><Missense Mutation><Molecular><Molecular Interaction><Morphology><Mutation><NAC precursor><NSF attachment protein receptor><Nature><Nerve Cells><Nerve Unit><Neural Cell><Neurites><Neurocyte><Neurologic Manifestations><Neurologic Signs and Symptoms><Neurologic Symptoms><Neurological Manifestations><Neurological Signs and Symptoms><Neuronal Dysfunction><Neurons><Null Mouse><PARK1 protein><PARK4 protein><Pathogenesis><Patients><Pb element><Phenotype><Physical condensation><Physiopathology><Process><Protein Isoforms><Protein Trafficking><Proteins><Refractory epilepsy><Research><Role><SLT-I><SLTI><SNAP receptor><SNARE><SNCA><SNCA protein><Seizure Disorder><Seizures><Sequence Alteration><Shiga Toxin 1><Shiga-Like Toxin I><Specificity><Stx1 Protein><Symptoms><Synapses><Synaptic><Syndrome><Testing><Therapeutic><VSV><VT1 Cytotoxin><Vero Cytotoxin VT1><Verocytotoxin 1><Verotoxin I><Vesicular Stomatitis Virus><Vesicular stomatitis Indiana virus><Work><a-syn><a-synuclein><alpha synuclein><alphaSP22><asyn><autism spectrum disorder><autistic spectrum disorder><base><biologic><cohort><condensation><developmental><drug-resistant epilepsy><effective therapy><effective treatment><epilepsia><epileptic encephalopathies><epileptiform><epileptogenic><experiment><experimental research><experimental study><genome mutation><genomic alteration><glycosylation><heavy metal Pb><heavy metal lead><infancy><infantile><innovate><innovation><innovative><insight><intellectual and developmental disability><interdisciplinary approach><knock-down><knockdown><loss of function><multidisciplinary approach><mutant><neural dysfunction><neural manifestation><neuronal><neurotransmitter release><non A-beta component of AD amyloid><non A4 component of amyloid precursor><novel><pathophysiology><protein transport><severe intellectual disability><shRNA><short hairpin RNA><small hairpin RNA><social role><soluble N-ethylmaleimide-sensitive-factor attachment protein receptor><stx1><synapse><syntaxin 1><syntaxin 5><trafficking><treatment strategy><youngster><α-syn><α-synuclein>",
+  "pref_terms": "Address;Affect;Ataxia;Binding;Biochemical;Biological;Biological Assay;Cells;Child;Complex;Cytoskeletal Proteins;DNA Sequence Alteration;Data;Defect;Development;Disease;Epilepsy;Functional disorder;Future;Genetic;Golgi Apparatus;Impairment;Induced Mutation;Intellectual functioning disability;Intractable Epilepsy;Knockout Mice;Lead;Lewy body pathology;Link;Methods;Missense Mutation;Molecular;Morphology;Mutation;Nature;Neurites;Neurologic Symptoms;Neuronal Dysfunction;Neurons;Pathogenesis;Patients;Phenotype;Physical condensation;Process;Protein Isoforms;Proteins;Research;Role;SNAP receptor;Seizures;Shiga-Like Toxin I;Specificity;Symptoms;Synapses;Syndrome;Testing;Therapeutic;Vesicular stomatitis Indiana virus;Work;alpha synuclein;autism spectrum disorder;base;cohort;effective therapy;epileptic encephalopathies;experimental study;glycosylation;infancy;innovation;insight;interdisciplinary approach;knock-down;loss of function;mutant;neurotransmitter release;novel;protein transport;severe intellectual disability;small hairpin RNA;syntaxin 1;syntaxin 5;trafficking;treatment strategy",
+  "abstract_text": "PROJECT SUMMARY/ABSTRACT\nMutations in Munc18-1 (also called STXBP1) lead to devastating infantile epileptic encephalopathies with\nprofound intellectual disability, intractable seizures, ataxia, and numerous other symptoms. Munc18-1 controls\nneurotransmitter release at the synapse, but recent evidence demonstrates that a non-synaptic Munc18-1-\ndependent process, a role in general secretory trafficking, is also perturbed with Munc18-1 loss. Yet, the\ncausative molecular mechanism for the mistrafficking seen in Munc18-1-/- neurons remains unclear. Preliminary\ndata reveal that mutations in Munc18-1 cause reduced levels of the Golgi SNARE protein syntaxin-5 (stx5) and\nstx5-containing SNARE complexes, as well as an abnormal Golgi morphology. The central hypothesis of this\nproposal, based on strong preliminary data, is Munc18-1 mutations cause syntaxin-1 mislocalization and\ninduce loss of function of stx5, leading to trafficking defects in the Golgi and subsequent non-synaptic\nneuronal dysfunction. This impairment in secretory trafficking may partly trigger the developmental dysfunction\nseen in Munc18-1 related syndromes. The objective of this proposal to demonstrate how loss of stx5 leads to\nneuronal, non-synaptic dysfunction. The rationale for these studies is that revealing the role of stx5 in maintaining\nneuronal function will have translational importance in the development of rational treatments for Munc18-1\nlinked syndromes. Guided by strong preliminary data, this hypothesis will be tested in two specific aims: Aim 1)\nDetermine how mutant Munc18-1 causes an abnormal Golgi phenotype, and Aim 2) Determine how the stx5\nreduction seen in Munc18-1-/- and mutant Munc18-1 neurons affects intracellular protein trafficking and neuron\nactivity. In the first aim, the nature and cause of this abnormal Golgi morphology will be determined using primary\nneurons. First, changes to resident Golgi, ER, and cytoskeletal proteins will be characterized in Munc18-1-/- and\nmutant Munc18-1 neurons. Additionally, the effect of stx5 reduction on the Golgi phenotype will be determined,\nas well as the effect of syntaxin-1 mislocalization. In the second aim, changes to secretory cargo mistrafficking\ndue to reduction in stx5 will be determined. Furthermore, the effect of stx5 reduction on neuronal function and\nneurite and synapse morphology will be examined. This research is significant, because it will determine the\nmechanisms and importance of disturbed secretory trafficking in neurons and the role of stx5 in particular, and\nwill have translational importance in the development of new treatment strategies. This research is innovative,\nbecause of (1) its novel hypothesis that non-synaptic dysfunction of Munc18-1 contributes to these syndromes,\nand (2) its multidisciplinary approach combining biochemical and cell biological approaches to gain insight into\nhow mutations in Munc18-1 lead to non-synaptic dysfunction.",
+  "project_title": "Munc18-1 mutations disrupt syntaxin-5 stability and general secretory trafficking",
+  "phr_text": "PROJECT NARRATIVE\nDespite a known genetic cause, no effective treatments exist for Munc18-1 related disorders, which cause\nintractable epilepsy, severe intellectual disability, and other severe neurologic symptoms in children. The aim\nof this proposal is to investigate the non-synaptic neuronal deficits that are caused by these genetic mutations.\nAn understanding of these deficits will be essential to testing future corrective strategies for these devastating\ndiseases and others caused by similar mechanisms.",
+  "spending_categories_desc": "Brain Disorders; Epilepsy; Genetics; Neurodegenerative; Neurosciences",
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2022-08-03T00:00:00",
+  "budget_end": "2023-05-18T00:00:00",
+  "cfda_code": "93.865",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 46261,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/10451793",
+  "date_added": "2022-08-06T16:14:36"
+}

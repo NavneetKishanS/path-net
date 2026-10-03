@@ -1,0 +1,124 @@
+{
+  "appl_id": 11458751,
+  "subproject_id": null,
+  "fiscal_year": 2026,
+  "project_num": "1F31MH145830-01",
+  "project_serial_num": "MH145830",
+  "organization": {
+    "org_name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+    "city": null,
+    "country": null,
+    "org_city": "BIRMINGHAM",
+    "org_country": "UNITED STATES",
+    "org_state": "AL",
+    "org_state_name": null,
+    "dept_type": "GENETICS",
+    "fips_country_code": null,
+    "org_duns": [
+      "063690705"
+    ],
+    "org_ueis": [
+      "YND4PLMC9AN7"
+    ],
+    "primary_duns": "063690705",
+    "primary_uei": "YND4PLMC9AN7",
+    "org_fips": "US",
+    "org_ipf_code": "1288803",
+    "org_zipcode": "352940001",
+    "external_org_id": 1288803
+  },
+  "award_type": "1",
+  "activity_code": "F31",
+  "award_amount": 41809,
+  "is_active": true,
+  "project_num_split": {
+    "appl_type_code": "1",
+    "activity_code": "F31",
+    "ic_code": "MH",
+    "serial_num": "145830",
+    "support_year": "01",
+    "full_support_year": "01",
+    "suffix_code": ""
+  },
+  "principal_investigators": [
+    {
+      "profile_id": 79832904,
+      "first_name": "Ashlyn",
+      "middle_name": "",
+      "last_name": "Anderson",
+      "is_contact_pi": true,
+      "full_name": "Ashlyn  Anderson",
+      "title": ""
+    }
+  ],
+  "contact_pi_name": "ANDERSON, ASHLYN ",
+  "program_officers": [
+    {
+      "first_name": "ASHLEE",
+      "middle_name": "VICTORIA",
+      "last_name": "VAN'T VEER",
+      "full_name": "ASHLEE VICTORIA VAN'T VEER"
+    }
+  ],
+  "agency_ic_admin": {
+    "code": "MH",
+    "abbreviation": "NIMH",
+    "name": "National Institute of Mental Health",
+    "admin_org_id": "12500050",
+    "admin_funding_url": ""
+  },
+  "agency_ic_fundings": [
+    {
+      "fy": 2026,
+      "code": "MH",
+      "name": "National Institute of Mental Health",
+      "abbreviation": "NIMH",
+      "total_cost": 41809.0,
+      "direct_cost_ic": 41809.0,
+      "indirect_cost_ic": 0.0
+    }
+  ],
+  "cong_dist": "AL-07",
+  "spending_categories": null,
+  "project_start_date": "2026-08-14T00:00:00",
+  "project_end_date": "2029-08-13T00:00:00",
+  "organization_type": {
+    "name": "SCHOOLS OF MEDICINE",
+    "code": "10",
+    "is_other": false
+  },
+  "geo_lat_lon": {
+    "lon": -86.799772,
+    "lat": 33.50591
+  },
+  "opportunity_number": "PA-25-422",
+  "full_study_section": {
+    "srg_code": "ZRG1",
+    "srg_flex": null,
+    "sra_designator_code": "F08",
+    "sra_flex_code": "L",
+    "group_code": "20",
+    "name": "Special Emphasis Panel[ZRG1 F08-L (20)]"
+  },
+  "award_notice_date": "2026-08-11T00:00:00",
+  "is_new": false,
+  "mechanism_code_dc": "TR",
+  "core_project_num": "F31MH145830",
+  "terms": "<ASD><Ablation><Acceleration><Address><Alabama><Alleles><Allelomorphs><Assay><Autism><Autistic Disorder><Basal Transcription Factor><Basal transcription factor genes><Base Sequence><Binding><Bioassay><Biological Assay><Biology><Biotech><Biotechnology><Brain><Brain Nervous System><Business-Friendly Atmosphere><CIS Gene><CIS protein><CIS-1 Gene><CIS-1 Protein><CISH Protein><CISH gene><CRISPR><CRISPR interference><CRISPR-dCas9-mediated repression><CRISPR/Cas system><CRISPR/dCas9 interference><CRISPR/dCas9-mediated transcriptional inhibition><CRISPRi><Categories><Cell Communication and Signaling><Cell Nucleus><Cell Signaling><Chimp><Chimpanzee><Clustered Regularly Interspaced Short Palindromic Repeats><Clustered Regularly Interspaced Short Palindromic Repeats interference><Code><Coding System><Cytokine Inducible SH2-Containing Protein><Cytokine-Inducible Inhibitor of Signaling Type 1B><Cytokine-Inducible Inhibitor of Signaling Type 1B Gene><Cytokine-Inducible SH2-Containing Protein Gene><Data><Development><Dimensions><Disease><Disorder><Early Infantile Autism><Elements><Encephalon><Enhancers><Epilepsy><Epileptic Seizures><Epileptics><Evolution><FNBP2><Fellowship><Formin-Binding Protein 2><Foundations><Functional RNA><Future><G18><G18 Gene><Gene Action Regulation><Gene Expression><Gene Expression Regulation><Gene Regulation><Gene Regulation Process><Gene Transcription><General Transcription Factor Gene><General Transcription Factors><Genes><Genetic><Genetic Diseases><Genetic Transcription><Genome><Genomics><Human><Human Activities><Human Genetics><Induced pluripotent stem cell derived human neuron><Induced pluripotent stem cell derived neurons><Infantile Autism><Intracellular Communication and Signaling><KIAA0456><Kanner's Syndrome><Left><Link><Macaca><Macaque><Mammalia><Mammals><Mental disorders><Mental health disorders><Mentorship><Modeling><Modern Man><Molecular Interaction><Nerve Cells><Nerve Unit><Nervous System Diseases><Nervous System Disorder><Neural Cell><Neural Development><Neural Stem Cell><Neurocyte><Neurodevelopmental Disorder><Neurologic Disorders><Neurological Development Disorder><Neurological Disorders><Neuron from iPSC><Neuron from induced pluripotent stem cells><Neurons><Noncoding RNA><Nontranslated RNA><Nucleotide Sequence><Nucleus><Orphan Disease><Ortholog><Orthologous Gene><Primates><Primates Mammals><Proteins><Psychiatric Disease><Psychiatric Disorder><RNA Expression><RNA Seq><RNA sequencing><RNAseq><Rare Diseases><Rare Disorder><Regulatory Element><Reporter><Repression><Research><Risk><Role><SLIT-ROBO GAP 2><SOCS Gene><SRGAP2><SRGAP2 gene><SRGAP2A><Seizure Disorder><Shapes><Signal Transduction><Signal Transduction Systems><Signaling><Slit-ROBO RHO GTPase-Activating Protein 2><Suppressor of Cytokine Signaling><Suppressor of Cytokine Signaling Gene><Symptoms><Synapses><Synaptic><Testing><Training><Transcription><Transcription Factor Proto-Oncogene><Transcription factor genes><Universities><Untranslated RNA><Variant><Variation><Work><autism spectral disorder><autism spectrum disorder><autistic spectrum disorder><biological signal transduction><brain cell><business-friendly environment><cell type><clinical sequencing><cohort><collaborative atmosphere><collaborative environment><density><developmental><disease risk><disorder risk><epilepsia><epileptogenic><falls><functional genomics><gene conservation><genetic condition><genetic disorder><hiPSC-derived neurons><human disease><human iPSC-derived sensory neuron><human induced pluripotent stem cell derived sensory neuron><iPS neurons><iPSC derived-neurons><iPSC-derived human neuron><improved><induced pluripotent stem cell neurons><inducible pluripotent stem cell derived human neuron><inducible pluripotent stem cell derived human sensory neuron><interactive atmosphere><interactive environment><interdisciplinary atmosphere><interdisciplinary environment><interest><low-frequency mutation><mental illness><multiomics><multiple omics><nerve stem cell><neural precursor><neural precursor cell><neural progenitor><neural progenitor cells><neural stem and progenitor cells><neurodevelopment><neurodevelopmental disease><neurogenesis><neurogenic progenitors><neurogenic stem cell><neurological disease><neuron progenitors><neuronal><neuronal progenitor><neuronal progenitor cells><neuronal stem cells><neurons derived from induced pluripotent stem cells><neurons differentiated from human induced pluripotent stem cells><neurons differentiated from induced pluripotent stem cells><neuroprogenitor><noncoding><novel><nucleic acid sequence><orphan disorder><panomics><peer-group atmosphere><peer-group environment><personalized diagnosis><personalized diagnostics><precise diagnostics><precision diagnostics><progenitor and neural stem cells><programs><psychiatric illness><psychological disorder><rare allele><rare mutation><rare variant><repressing CRISPR-dCas9 system><social role><spatial and temporal><spatial temporal><spatiotemporal><synapse><trait><transcription factor><transcriptome sequencing><transcriptomic sequencing><translational study>",
+  "pref_terms": "Ablation;Acceleration;Address;Alabama;Alleles;Base Sequence;Binding;Biological Assay;Biology;Biotechnology;Brain;CISH gene;CRISPR interference;Categories;Cell Nucleus;Chimpanzee;Clustered Regularly Interspaced Short Palindromic Repeats;Code;Data;Development;Dimensions;Disease;Elements;Enhancers;Epilepsy;Evolution;Fellowship;Foundations;Future;Gene Expression;Gene Expression Regulation;Genes;Genetic;Genetic Diseases;Genetic Transcription;Genome;Genomics;Human;Human Activities;Human Genetics;Induced pluripotent stem cell derived human neuron;Induced pluripotent stem cell derived neurons;Left;Link;Macaca;Mammals;Mental disorders;Mentorship;Modeling;Nervous System Disorder;Neurodevelopmental Disorder;Neurons;Orthologous Gene;Primates;Proteins;Rare Diseases;Regulatory Element;Reporter;Repression;Research;Risk;Role;SRGAP2 gene;Shapes;Signal Transduction;Symptoms;Synapses;Testing;Training;Universities;Untranslated RNA;Variant;Work;autism spectrum disorder;brain cell;cell type;clinical sequencing;cohort;collaborative environment;density;disorder risk;falls;functional genomics;gene conservation;human disease;improved;interest;multiple omics;nerve stem cell;neurodevelopment;neurogenesis;novel;personalized diagnostics;programs;rare variant;spatiotemporal;trait;transcription factor;transcriptome sequencing;translational study",
+  "abstract_text": "Project Abstract\nCis-regulatory elements (CREs) control the spatial and temporal expression of genes and are central to brain\ndevelopment. Disruption of these elements contributes to neurological diseases, yet the functional landscape of\nnon-coding variation remains poorly defined. Human brain evolution is marked by regulatory divergence, but\nprior studies have largely focused on accelerated substitutions or enhancer gain. To address the unexplored\ndimension of enhancer loss, this project builds upon our recent cross-species single-nucleus multiomic work that\nidentified 1,091 human-lost CREs, which are deeply conserved enhancers active across other mammals but\ninactive in the human brain. These elements are enriched in neuronal CREs, occur near genes such as SRGAP2\nand SCN2A, and harbor derived substitutions predicted to disrupt transcription factor binding, suggesting\nadaptive regulatory inactivation. The proposed research will test the hypothesis that enhancer loss contributes\nto human-specific brain traits and that rare variants in these loci influence risk for neurodevelopmental disorders\n(NDDs). Aim 1 will perform rare variant burden analyses across human-lost CREs and other classes of human-\nspecific regulatory changes to assess whether enhancer loss and gain differentially contribute to disease risk.\nAim 2 will employ massively parallel reporter assays in human iPSC-derived neurons and neural progenitor cells\nto assess regulatory activity of human and chimpanzee orthologous sequences and to evaluate rare variants\nidentified in NDD cohorts. Loci with differential activity will undergo CRISPR inhibition in chimpanzee neurons to\ndetermine the ancestral role of these CREs.\n The fellowship provides comprehensive training in experimental and computational genomics at the\nUniversity of Alabama at Birmingham and the HudsonAlpha Institute for Biotechnology. Under the mentorship of\nDrs. Nicholas Cochran and Gregory Cooper, the candidate will gain expertise in functional genomics, variant\ninterpretation, and statistical genetics, within a collaborative environment that integrates human disease genetics\nwith evolutionary biology. This work will determine how enhancer loss has shaped human brain evolution and\nhow its disruption contributes to neurodevelopmental disease.",
+  "project_title": "Loss of Conserved Regulatory Elements in Human Brain Evolution",
+  "phr_text": "Project Narrative\nThis research investigates how the loss of deeply conserved gene regulatory elements shaped human brain\nevolution and contributes to neurological disorders such as autism and epilepsy. By integrating evolutionary\ngenomics, high-throughput functional assays, and human genetic data, the project will identify regulatory variants\nthat alter brain development. Understanding these mechanisms will improve interpretation of non-coding variants\nin clinical sequencing and advance precision diagnostics for neurological diseases.",
+  "spending_categories_desc": null,
+  "agency_code": "NIH",
+  "covid_response": null,
+  "arra_funded": "N",
+  "budget_start": "2026-08-14T00:00:00",
+  "budget_end": "2027-08-13T00:00:00",
+  "cfda_code": "93.242",
+  "funding_mechanism": "Training, Individual",
+  "direct_cost_amt": 41809,
+  "indirect_cost_amt": 0,
+  "project_detail_url": "https://reporter.nih.gov/project-details/11458751",
+  "date_added": "2026-09-12T17:04:08"
+}
