@@ -49,6 +49,7 @@ Slice: **developmental and epileptic encephalopathies around STXBP1, SCN2A, KCNQ
 /search?q=             Global search results, synonym resolution, no-route state
 /explore               Graph canvas + cluster list + table alternative; ?node= ?edge=
 /disease/[id]          Disease profile: summary, closest connections, community, assets
+/node/[id]             Any other record (gene, mechanism, symptom, group, person, award) and its cited links
 /route?from=&to=       "Why connected": step-by-step explanation, evidence beside each step
 /action/[id]           Patient action view: viable leads vs unsupported, assets, partners,
                        next experiments, draft outreach ("Do this week")

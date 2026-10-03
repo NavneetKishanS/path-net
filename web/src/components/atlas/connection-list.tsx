@@ -106,7 +106,16 @@ function ConnectionRow({
             {c.sharedPhenotypes.map((p, i) => (
               <span key={p.node.id}>
                 {i > 0 && ', '}
-                <span className={p.informative ? 'text-ink-2' : undefined}>{p.node.name}</span>
+                <AppLink
+                  href={`/node/${p.node.id}`}
+                  className={
+                    p.informative
+                      ? 'text-ink-2 underline decoration-line-strong underline-offset-2 hover:text-ink'
+                      : 'underline decoration-line underline-offset-2 hover:text-ink'
+                  }
+                >
+                  {p.node.name}
+                </AppLink>
                 {technical && (
                   <Ident className="text-ink-3">
                     {' '}
