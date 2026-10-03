@@ -1,0 +1,6 @@
+.next
+node_modules
+public/graph.json
+src/data/slice/*.json
+playwright-report
+test-results
