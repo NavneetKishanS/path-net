@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "primary_journey": {
+    "search": "STXBP1",
+    "disease_id": "dis_stxbp1",
+    "partner_id": "group_stxbp1_foundation",
+    "asset_id": "asset_starr_natural_history",
+    "study_id": "study_nct06555965",
+    "ordered_path_edge_ids": [
+      "group_stxbp1_disease",
+      "asset_starr_disease"
+    ],
+    "supporting_edge_ids": [
+      "stxbp1_haploinsufficiency",
+      "stxbp1_synaptic_release",
+      "e_study_disease_study_nct06555965_dis_stxbp1"
+    ],
+    "next_step": "Review STARR's public protocol and outcome measures with the STXBP1 Foundation and study team. Confirm the current registry status and eligibility before discussing participation.",
+    "expert_review_questions": [
+      "Does the proposed research population match the study's inclusion criteria?",
+      "Are the outcome measures appropriate for the specific research question?",
+      "What permissions and safeguards apply to any data or material reuse?"
+    ]
+  },
+  "same_gene_different_mechanism": {
+    "gene_id": "gene_scn2a",
+    "gain_variant_id": "var_clinvar_196039",
+    "loss_variant_id": "var_clinvar_194555",
+    "gain_edge_id": "scn2a_r1882q_gof",
+    "loss_edge_id": "scn2a_r853q_lof",
+    "contradicting_edge_id": "scn2a_single_gof_assignment_refuted",
+    "expected_cluster_ids": [
+      "c_sodium_gof",
+      "c_scn2a_lof"
+    ],
+    "scope": "Variant-specific assay results. R853Q mainly showed loss of function in HEK cells but also a gating-pore current in Xenopus oocytes; phenotype does not uniquely determine mechanism."
+  },
+  "network_overlap": {
+    "investigator_id": "person_nih_15318049",
+    "ordered_path_edge_ids": [
+      "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "e_investigator_disease_person_nih_15318049_dis_scn2a"
+    ],
+    "scope": "Both awards name the investigator and describe the research team's gene-specific work. This supports discovering shared expertise, not inferring shared treatment response."
+  },
+  "no_route": {
+    "query": "no supported match in this slice",
+    "expected_status": "no_supported_route",
+    "scope": "The fixture tests an unknown query. It is not a claim that a named disease lacks research."
+  },
+  "interpretation": "Paths may traverse a relationship in either direction for discovery; retain its original src/dst/type and scope when explaining it. Never use contradicting edges as positive route support.",
+  "graph_sha256": "508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf"
+}

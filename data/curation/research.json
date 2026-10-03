@@ -1,0 +1,1539 @@
+{
+  "nodes": [
+    {
+      "id": "asset_nih_11261066",
+      "type": "asset",
+      "name": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11261066",
+        "NIHProject": "5R01NS131319-03"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN8A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11261066",
+        "source_url": "https://reporter.nih.gov/project-details/11261066",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "R01NS131319",
+        "project_start_date": "2024-02-21T00:00:00",
+        "project_end_date": "2029-01-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 373396.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "OHIO STATE UNIVERSITY",
+        "investigator_ids": [
+          "person_nih_10351324"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "asset_nih_11317220",
+      "type": "asset",
+      "name": "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11317220",
+        "NIHProject": "5K08NS121601-05"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN2A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11317220",
+        "source_url": "https://reporter.nih.gov/project-details/11317220",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "K08NS121601",
+        "project_start_date": "2022-07-01T00:00:00",
+        "project_end_date": "2027-04-30T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 225180.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "NORTHWESTERN UNIVERSITY",
+        "investigator_ids": [
+          "person_nih_10318768"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "asset_nih_11322512",
+      "type": "asset",
+      "name": "Disease mechanism and genetic therapy for a pathogenic STXBP1 variant",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11322512",
+        "NIHProject": "5F31NS141322-02"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying STXBP1; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11322512",
+        "source_url": "https://reporter.nih.gov/project-details/11322512",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "F31NS141322",
+        "project_start_date": "2024-12-16T00:00:00",
+        "project_end_date": "2026-05-22T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 31201.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "BAYLOR COLLEGE OF MEDICINE",
+        "investigator_ids": [
+          "person_nih_78265993"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "asset_nih_11381904",
+      "type": "asset",
+      "name": "Pathophysiology of KCNQ2-related Disorders",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11381904",
+        "NIHProject": "5R01NS137587-02"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying KCNQ2; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11381904",
+        "source_url": "https://reporter.nih.gov/project-details/11381904",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "R01NS137587",
+        "project_start_date": "2025-08-01T00:00:00",
+        "project_end_date": "2030-07-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 874739.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "NORTHWESTERN UNIVERSITY",
+        "investigator_ids": [
+          "person_nih_6574463",
+          "person_nih_11673518",
+          "person_nih_8880930"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "person_nih_10318768",
+      "type": "person",
+      "name": "SCOTT K. ADNEY",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "10318768"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "NORTHWESTERN UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11317220",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_10351324",
+      "type": "person",
+      "name": "Jacy Lee Wagnon",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "10351324"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "OHIO STATE UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11261066",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_11673518",
+      "type": "person",
+      "name": "Evangelos Kiskinis",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "11673518"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "NORTHWESTERN UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11381904",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_15318049",
+      "type": "person",
+      "name": "Ingo Helbig",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "15318049"
+      },
+      "props": {
+        "plain": "Publicly listed NIH investigator whose cited projects describe longitudinal phenotyping across these gene-related disorders.",
+        "award_recipient_organization": "CHILDREN'S HOSP OF PHILADELPHIA",
+        "source_url": "https://reporter.nih.gov/project-details/11301017",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_6574463",
+      "type": "person",
+      "name": "Alfred L. George",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "6574463"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "NORTHWESTERN UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11381904",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_78265993",
+      "type": "person",
+      "name": "Brooke Horist",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "78265993"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "BAYLOR COLLEGE OF MEDICINE",
+        "source_url": "https://reporter.nih.gov/project-details/11322512",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_8880930",
+      "type": "person",
+      "name": "Anastasios Tzingounis",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "8880930"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "NORTHWESTERN UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11381904",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "study_nct04873869",
+      "type": "study",
+      "name": "NBI-921352 SCN8A-DEE study",
+      "synonyms": [
+        "Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)",
+        "NCT04873869"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT04873869"
+      },
+      "props": {
+        "plain": "A registered study relevant to SCN8A. Recorded status: terminated.",
+        "url": "https://clinicaltrials.gov/study/NCT04873869",
+        "source_url": "https://clinicaltrials.gov/study/NCT04873869",
+        "study_type": "INTERVENTIONAL",
+        "status": "TERMINATED",
+        "status_verified_date": "2025-09",
+        "last_update_posted": "2025-10-16",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Neurocrine Biosciences",
+        "conditions": [
+          "SCN8A Developmental and Epileptic Encephalopathy Syndrome"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct05157737",
+      "type": "study",
+      "name": "KCNQ2 clinical phenotype and omics study",
+      "synonyms": [
+        "Clinical Phenotype and Omics Study of KCNQ2-related Epilepsy",
+        "NCT05157737"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05157737"
+      },
+      "props": {
+        "plain": "A registered study relevant to KCNQ2. Recorded status: unknown.",
+        "url": "https://clinicaltrials.gov/study/NCT05157737",
+        "source_url": "https://clinicaltrials.gov/study/NCT05157737",
+        "study_type": "OBSERVATIONAL",
+        "status": "UNKNOWN",
+        "status_verified_date": "2021-12",
+        "last_update_posted": "2021-12-15",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Fudan University",
+        "conditions": [
+          "KCNQ2-related Epilepsy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct05737784",
+      "type": "study",
+      "name": "PRAX-222 early-onset SCN2A-DEE study",
+      "synonyms": [
+        "A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+        "NCT05737784"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05737784"
+      },
+      "props": {
+        "plain": "A registered study relevant to SCN2A. Recorded status: active not recruiting.",
+        "url": "https://clinicaltrials.gov/study/NCT05737784",
+        "source_url": "https://clinicaltrials.gov/study/NCT05737784",
+        "study_type": "INTERVENTIONAL",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "status_verified_date": "2026-07",
+        "last_update_posted": "2026-08-03",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Praxis Precision Medicines",
+        "conditions": [
+          "SCN2A-DEE",
+          "Epilepsy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct06555965",
+      "type": "study",
+      "name": "STARR natural history study",
+      "synonyms": [
+        "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+        "NCT06555965"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT06555965"
+      },
+      "props": {
+        "plain": "A registered study relevant to STXBP1. Recorded status: recruiting.",
+        "url": "https://clinicaltrials.gov/study/NCT06555965",
+        "source_url": "https://clinicaltrials.gov/study/NCT06555965",
+        "study_type": "OBSERVATIONAL",
+        "status": "RECRUITING",
+        "status_verified_date": "2025-10",
+        "last_update_posted": "2025-10-29",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Children's Hospital of Philadelphia",
+        "conditions": [
+          "Genetic Disease",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "SYNGAP1-Related Intellectual Disability"
+        ],
+        "next_step": "Review the public protocol and outcome measures with the patient organization or research team. Confirm the current study status and eligibility on the source page.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct06983158",
+      "type": "study",
+      "name": "CAP-002 STXBP1 gene-therapy study",
+      "synonyms": [
+        "A Clinical Trial of CAP-002 Gene Therapy in Pediatric Patients With Syntaxin-Binding Protein 1 (STXBP1) Encephalopathy",
+        "NCT06983158"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT06983158"
+      },
+      "props": {
+        "plain": "A registered study relevant to STXBP1. Recorded status: terminated.",
+        "url": "https://clinicaltrials.gov/study/NCT06983158",
+        "source_url": "https://clinicaltrials.gov/study/NCT06983158",
+        "study_type": "INTERVENTIONAL",
+        "status": "TERMINATED",
+        "status_verified_date": "2026-06",
+        "last_update_posted": "2026-06-10",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Capsida Biotherapeutics, Inc.",
+        "conditions": [
+          "Developmental and Epileptic Encephalopathy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_study_disease_study_nct06555965_dis_stxbp1",
+      "src": "study_nct06555965",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct05737784_dis_scn2a_dee",
+      "src": "study_nct05737784",
+      "dst": "dis_scn2a_dee",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: ACTIVE_NOT_RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct05157737_dis_kcnq2",
+      "src": "study_nct05157737",
+      "dst": "dis_kcnq2",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name KCNQ2. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: UNKNOWN."
+    },
+    {
+      "id": "e_study_disease_study_nct04873869_dis_scn8a",
+      "src": "study_nct04873869",
+      "dst": "dis_scn8a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN8A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
+    },
+    {
+      "id": "e_study_disease_study_nct06983158_dis_stxbp1",
+      "src": "study_nct06983158",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11322512_dis_stxbp1",
+      "src": "asset_nih_11322512",
+      "dst": "dis_stxbp1",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_78265993_dis_stxbp1",
+      "src": "person_nih_78265993",
+      "dst": "dis_stxbp1",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11317220_dis_scn2a_dee",
+      "src": "asset_nih_11317220",
+      "dst": "dis_scn2a_dee",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_10318768_dis_scn2a_dee",
+      "src": "person_nih_10318768",
+      "dst": "dis_scn2a_dee",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11381904_dis_kcnq2",
+      "src": "asset_nih_11381904",
+      "dst": "dis_kcnq2",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_6574463_dis_kcnq2",
+      "src": "person_nih_6574463",
+      "dst": "dis_kcnq2",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_11673518_dis_kcnq2",
+      "src": "person_nih_11673518",
+      "dst": "dis_kcnq2",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_8880930_dis_kcnq2",
+      "src": "person_nih_8880930",
+      "dst": "dis_kcnq2",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11261066_dis_scn8a",
+      "src": "asset_nih_11261066",
+      "dst": "dis_scn8a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_10351324_dis_scn8a",
+      "src": "person_nih_10351324",
+      "dst": "dis_scn8a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "src": "person_nih_15318049",
+      "dst": "dis_stxbp1",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The award identifies this PI and explicitly describes the team's research on the named gene-related disorders. Shared investigators are a discovery opportunity, not proof of a shared disease mechanism."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_15318049_dis_scn2a",
+      "src": "person_nih_15318049",
+      "dst": "dis_scn2a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The award identifies this PI and explicitly describes the team's research on the named gene-related disorders. Shared investigators are a discovery opportunity, not proof of a shared disease mechanism."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_15318049_dis_scn8a",
+      "src": "person_nih_15318049",
+      "dst": "dis_scn8a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The award identifies this PI and explicitly describes the team's research on the named gene-related disorders. Shared investigators are a discovery opportunity, not proof of a shared disease mechanism."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_study_disease_study_nct06555965_dis_stxbp1",
+      "edge_id": "e_study_disease_study_nct06555965_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT06555965",
+      "pmid": null,
+      "snippet": "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05737784_dis_scn2a_dee",
+      "edge_id": "e_study_disease_study_nct05737784_dis_scn2a_dee",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05737784",
+      "pmid": null,
+      "snippet": "A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05157737_dis_kcnq2",
+      "edge_id": "e_study_disease_study_nct05157737_dis_kcnq2",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05157737",
+      "pmid": null,
+      "snippet": "Clinical Phenotype and Omics Study of KCNQ2-related Epilepsy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct04873869_dis_scn8a",
+      "edge_id": "e_study_disease_study_nct04873869_dis_scn8a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT04873869",
+      "pmid": null,
+      "snippet": "Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct06983158_dis_stxbp1",
+      "edge_id": "e_study_disease_study_nct06983158_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT06983158",
+      "pmid": null,
+      "snippet": "A Clinical Trial of CAP-002 Gene Therapy in Pediatric Patients With Syntaxin-Binding Protein 1 (STXBP1) Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11322512_dis_stxbp1",
+      "edge_id": "e_asset_disease_asset_nih_11322512_dis_stxbp1",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11322512",
+      "pmid": null,
+      "snippet": "Disease mechanism and genetic therapy for a pathogenic STXBP1 variant",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_78265993_dis_stxbp1",
+      "edge_id": "e_investigator_disease_person_nih_78265993_dis_stxbp1",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11322512",
+      "pmid": null,
+      "snippet": "Brooke  Horist — Disease mechanism and genetic therapy for a pathogenic STXBP1 variant",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11317220_dis_scn2a_dee",
+      "edge_id": "e_asset_disease_asset_nih_11317220_dis_scn2a_dee",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11317220",
+      "pmid": null,
+      "snippet": "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_10318768_dis_scn2a_dee",
+      "edge_id": "e_investigator_disease_person_nih_10318768_dis_scn2a_dee",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11317220",
+      "pmid": null,
+      "snippet": "SCOTT K. ADNEY — Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11381904_dis_kcnq2",
+      "edge_id": "e_asset_disease_asset_nih_11381904_dis_kcnq2",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "pmid": null,
+      "snippet": "Pathophysiology of KCNQ2-related Disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_6574463_dis_kcnq2",
+      "edge_id": "e_investigator_disease_person_nih_6574463_dis_kcnq2",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "pmid": null,
+      "snippet": "Alfred L. George — Pathophysiology of KCNQ2-related Disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_11673518_dis_kcnq2",
+      "edge_id": "e_investigator_disease_person_nih_11673518_dis_kcnq2",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "pmid": null,
+      "snippet": "Evangelos  Kiskinis — Pathophysiology of KCNQ2-related Disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_8880930_dis_kcnq2",
+      "edge_id": "e_investigator_disease_person_nih_8880930_dis_kcnq2",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "pmid": null,
+      "snippet": "Anastasios  Tzingounis — Pathophysiology of KCNQ2-related Disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11261066_dis_scn8a",
+      "edge_id": "e_asset_disease_asset_nih_11261066_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11261066",
+      "pmid": null,
+      "snippet": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_10351324_dis_scn8a",
+      "edge_id": "e_investigator_disease_person_nih_10351324_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11261066",
+      "pmid": null,
+      "snippet": "Jacy Lee Wagnon — Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "pmid": null,
+      "snippet": "Ingo  Helbig — SCN2A-related disorders and to STXBP1-\nrelated disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_15318049_dis_scn2a",
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "pmid": null,
+      "snippet": "Ingo  Helbig — SCN2A-related disorders and to STXBP1-\nrelated disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_15318049_dis_scn8a",
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11310175",
+      "pmid": null,
+      "snippet": "Ingo  Helbig — STXBP1- and SCN8A-related disorders",
+      "retrieved_at": "2026-10-03"
+    }
+  ],
+  "provenance": {
+    "ev_study_disease_study_nct06555965_dis_stxbp1": {
+      "source_url": "https://clinicaltrials.gov/study/NCT06555965",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT06555965",
+        "briefTitle": "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+        "conditions": [
+          "Genetic Disease",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "SYNGAP1-Related Intellectual Disability"
+        ],
+        "overallStatus": "RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT06555965.json",
+          "sha256": "645d469e29a496922f97f1c86b491633aa9fbbe1f01b429dd095793df3351131",
+          "contains": [
+            "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+            "RECRUITING"
+          ]
+        }
+      ]
+    },
+    "ev_study_disease_study_nct05737784_dis_scn2a_dee": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05737784",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05737784",
+        "briefTitle": "A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+        "conditions": [
+          "SCN2A-DEE",
+          "Epilepsy"
+        ],
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05737784.json",
+          "sha256": "e98739a23aa0abb84acb1c195d5ac0851649e38ec6ced05ac98151c93535d78b",
+          "contains": [
+            "A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+            "ACTIVE_NOT_RECRUITING"
+          ]
+        }
+      ]
+    },
+    "ev_study_disease_study_nct05157737_dis_kcnq2": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05157737",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05157737",
+        "briefTitle": "Clinical Phenotype and Omics Study of KCNQ2-related Epilepsy",
+        "conditions": [
+          "KCNQ2-related Epilepsy"
+        ],
+        "overallStatus": "UNKNOWN"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05157737.json",
+          "sha256": "9194c8a3596a9a494d4e6b1b93fc38176f2f3b50f85d674d0c6436d5c0cc7050",
+          "contains": [
+            "Clinical Phenotype and Omics Study of KCNQ2-related Epilepsy",
+            "UNKNOWN"
+          ]
+        }
+      ]
+    },
+    "ev_study_disease_study_nct04873869_dis_scn8a": {
+      "source_url": "https://clinicaltrials.gov/study/NCT04873869",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT04873869",
+        "briefTitle": "Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)",
+        "conditions": [
+          "SCN8A Developmental and Epileptic Encephalopathy Syndrome"
+        ],
+        "overallStatus": "TERMINATED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT04873869.json",
+          "sha256": "db96e47b138975c0f86d7521cc92776d7d7f3f3299ca6ccecf8b370a913f6593",
+          "contains": [
+            "Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)",
+            "TERMINATED"
+          ]
+        }
+      ]
+    },
+    "ev_study_disease_study_nct06983158_dis_stxbp1": {
+      "source_url": "https://clinicaltrials.gov/study/NCT06983158",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT06983158",
+        "briefTitle": "A Clinical Trial of CAP-002 Gene Therapy in Pediatric Patients With Syntaxin-Binding Protein 1 (STXBP1) Encephalopathy",
+        "conditions": [
+          "Developmental and Epileptic Encephalopathy"
+        ],
+        "overallStatus": "TERMINATED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT06983158.json",
+          "sha256": "823b51be645d2eb59a34ed39628483f1ecfcc1362303dfe8df6f3ad8d7828344",
+          "contains": [
+            "A Clinical Trial of CAP-002 Gene Therapy in Pediatric Patients With Syntaxin-Binding Protein 1 (STXBP1) Encephalopathy",
+            "TERMINATED"
+          ]
+        }
+      ]
+    },
+    "ev_asset_disease_asset_nih_11322512_dis_stxbp1": {
+      "source_url": "https://reporter.nih.gov/project-details/11322512",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11322512,
+        "project_title": "Disease mechanism and genetic therapy for a pathogenic STXBP1 variant",
+        "principal_investigators": [
+          {
+            "profile_id": 78265993,
+            "first_name": "Brooke",
+            "middle_name": "",
+            "last_name": "Horist",
+            "is_contact_pi": true,
+            "full_name": "Brooke  Horist",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 31201.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11322512.json",
+          "sha256": "02955b43663c1fc6518b7e4e973773752fe01b9ff5f9406a16a2d533e359253f",
+          "contains": [
+            "Disease mechanism and genetic therapy for a pathogenic STXBP1 variant"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_78265993_dis_stxbp1": {
+      "source_url": "https://reporter.nih.gov/project-details/11322512",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=78265993]; project_title",
+      "source_record": {
+        "appl_id": 11322512,
+        "project_title": "Disease mechanism and genetic therapy for a pathogenic STXBP1 variant",
+        "principal_investigators": [
+          {
+            "profile_id": 78265993,
+            "first_name": "Brooke",
+            "middle_name": "",
+            "last_name": "Horist",
+            "is_contact_pi": true,
+            "full_name": "Brooke  Horist",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 31201.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11322512.json",
+          "sha256": "02955b43663c1fc6518b7e4e973773752fe01b9ff5f9406a16a2d533e359253f",
+          "contains": [
+            "Brooke  Horist",
+            "Disease mechanism and genetic therapy for a pathogenic STXBP1 variant"
+          ]
+        }
+      ]
+    },
+    "ev_asset_disease_asset_nih_11317220_dis_scn2a_dee": {
+      "source_url": "https://reporter.nih.gov/project-details/11317220",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11317220,
+        "project_title": "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants",
+        "principal_investigators": [
+          {
+            "profile_id": 10318768,
+            "first_name": "SCOTT",
+            "middle_name": "K.",
+            "last_name": "ADNEY",
+            "is_contact_pi": true,
+            "full_name": "SCOTT K. ADNEY",
+            "title": "INSTRUCTOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 225180.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11317220.json",
+          "sha256": "195031ad98846be4c62c0328fef1a4adf70141dd61833eee4eb63c6f87e7e6ce",
+          "contains": [
+            "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_10318768_dis_scn2a_dee": {
+      "source_url": "https://reporter.nih.gov/project-details/11317220",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=10318768]; project_title",
+      "source_record": {
+        "appl_id": 11317220,
+        "project_title": "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants",
+        "principal_investigators": [
+          {
+            "profile_id": 10318768,
+            "first_name": "SCOTT",
+            "middle_name": "K.",
+            "last_name": "ADNEY",
+            "is_contact_pi": true,
+            "full_name": "SCOTT K. ADNEY",
+            "title": "INSTRUCTOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 225180.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11317220.json",
+          "sha256": "195031ad98846be4c62c0328fef1a4adf70141dd61833eee4eb63c6f87e7e6ce",
+          "contains": [
+            "SCOTT K. ADNEY",
+            "Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function variants"
+          ]
+        }
+      ]
+    },
+    "ev_asset_disease_asset_nih_11381904_dis_kcnq2": {
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11381904,
+        "project_title": "Pathophysiology of KCNQ2-related Disorders",
+        "principal_investigators": [
+          {
+            "profile_id": 6574463,
+            "first_name": "Alfred",
+            "middle_name": "L.",
+            "last_name": "George",
+            "is_contact_pi": true,
+            "full_name": "Alfred L. George",
+            "title": "PROFESSOR AND CHAIR OF PHARMACOLOGY"
+          },
+          {
+            "profile_id": 11673518,
+            "first_name": "Evangelos",
+            "middle_name": "",
+            "last_name": "Kiskinis",
+            "is_contact_pi": false,
+            "full_name": "Evangelos  Kiskinis",
+            "title": "ASSISTANT PROFESSOR OF NEUROLOGY"
+          },
+          {
+            "profile_id": 8880930,
+            "first_name": "Anastasios",
+            "middle_name": "",
+            "last_name": "Tzingounis",
+            "is_contact_pi": false,
+            "full_name": "Anastasios  Tzingounis",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 874739.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11381904.json",
+          "sha256": "e35b6882e4c0e411eb0319a9475388994569e964dd056777cfc2d72faae7e023",
+          "contains": [
+            "Pathophysiology of KCNQ2-related Disorders"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_6574463_dis_kcnq2": {
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=6574463]; project_title",
+      "source_record": {
+        "appl_id": 11381904,
+        "project_title": "Pathophysiology of KCNQ2-related Disorders",
+        "principal_investigators": [
+          {
+            "profile_id": 6574463,
+            "first_name": "Alfred",
+            "middle_name": "L.",
+            "last_name": "George",
+            "is_contact_pi": true,
+            "full_name": "Alfred L. George",
+            "title": "PROFESSOR AND CHAIR OF PHARMACOLOGY"
+          },
+          {
+            "profile_id": 11673518,
+            "first_name": "Evangelos",
+            "middle_name": "",
+            "last_name": "Kiskinis",
+            "is_contact_pi": false,
+            "full_name": "Evangelos  Kiskinis",
+            "title": "ASSISTANT PROFESSOR OF NEUROLOGY"
+          },
+          {
+            "profile_id": 8880930,
+            "first_name": "Anastasios",
+            "middle_name": "",
+            "last_name": "Tzingounis",
+            "is_contact_pi": false,
+            "full_name": "Anastasios  Tzingounis",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 874739.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11381904.json",
+          "sha256": "e35b6882e4c0e411eb0319a9475388994569e964dd056777cfc2d72faae7e023",
+          "contains": [
+            "Alfred L. George",
+            "Pathophysiology of KCNQ2-related Disorders"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_11673518_dis_kcnq2": {
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=11673518]; project_title",
+      "source_record": {
+        "appl_id": 11381904,
+        "project_title": "Pathophysiology of KCNQ2-related Disorders",
+        "principal_investigators": [
+          {
+            "profile_id": 6574463,
+            "first_name": "Alfred",
+            "middle_name": "L.",
+            "last_name": "George",
+            "is_contact_pi": true,
+            "full_name": "Alfred L. George",
+            "title": "PROFESSOR AND CHAIR OF PHARMACOLOGY"
+          },
+          {
+            "profile_id": 11673518,
+            "first_name": "Evangelos",
+            "middle_name": "",
+            "last_name": "Kiskinis",
+            "is_contact_pi": false,
+            "full_name": "Evangelos  Kiskinis",
+            "title": "ASSISTANT PROFESSOR OF NEUROLOGY"
+          },
+          {
+            "profile_id": 8880930,
+            "first_name": "Anastasios",
+            "middle_name": "",
+            "last_name": "Tzingounis",
+            "is_contact_pi": false,
+            "full_name": "Anastasios  Tzingounis",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 874739.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11381904.json",
+          "sha256": "e35b6882e4c0e411eb0319a9475388994569e964dd056777cfc2d72faae7e023",
+          "contains": [
+            "Evangelos  Kiskinis",
+            "Pathophysiology of KCNQ2-related Disorders"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_8880930_dis_kcnq2": {
+      "source_url": "https://reporter.nih.gov/project-details/11381904",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=8880930]; project_title",
+      "source_record": {
+        "appl_id": 11381904,
+        "project_title": "Pathophysiology of KCNQ2-related Disorders",
+        "principal_investigators": [
+          {
+            "profile_id": 6574463,
+            "first_name": "Alfred",
+            "middle_name": "L.",
+            "last_name": "George",
+            "is_contact_pi": true,
+            "full_name": "Alfred L. George",
+            "title": "PROFESSOR AND CHAIR OF PHARMACOLOGY"
+          },
+          {
+            "profile_id": 11673518,
+            "first_name": "Evangelos",
+            "middle_name": "",
+            "last_name": "Kiskinis",
+            "is_contact_pi": false,
+            "full_name": "Evangelos  Kiskinis",
+            "title": "ASSISTANT PROFESSOR OF NEUROLOGY"
+          },
+          {
+            "profile_id": 8880930,
+            "first_name": "Anastasios",
+            "middle_name": "",
+            "last_name": "Tzingounis",
+            "is_contact_pi": false,
+            "full_name": "Anastasios  Tzingounis",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 874739.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11381904.json",
+          "sha256": "e35b6882e4c0e411eb0319a9475388994569e964dd056777cfc2d72faae7e023",
+          "contains": [
+            "Anastasios  Tzingounis",
+            "Pathophysiology of KCNQ2-related Disorders"
+          ]
+        }
+      ]
+    },
+    "ev_asset_disease_asset_nih_11261066_dis_scn8a": {
+      "source_url": "https://reporter.nih.gov/project-details/11261066",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11261066,
+        "project_title": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+        "principal_investigators": [
+          {
+            "profile_id": 10351324,
+            "first_name": "Jacy",
+            "middle_name": "Lee",
+            "last_name": "Wagnon",
+            "is_contact_pi": true,
+            "full_name": "Jacy Lee Wagnon",
+            "title": "ASSISTANT PROFESSOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 373396.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11261066.json",
+          "sha256": "2d6bacca0c185f0892360d5ac268eded2fef7b8b0c551fac08d94b40c67ffeeb",
+          "contains": [
+            "Understanding the role of SCN8A in developmental and epileptic encephalopathy"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_10351324_dis_scn8a": {
+      "source_url": "https://reporter.nih.gov/project-details/11261066",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=10351324]; project_title",
+      "source_record": {
+        "appl_id": 11261066,
+        "project_title": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+        "principal_investigators": [
+          {
+            "profile_id": 10351324,
+            "first_name": "Jacy",
+            "middle_name": "Lee",
+            "last_name": "Wagnon",
+            "is_contact_pi": true,
+            "full_name": "Jacy Lee Wagnon",
+            "title": "ASSISTANT PROFESSOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 373396.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11261066.json",
+          "sha256": "2d6bacca0c185f0892360d5ac268eded2fef7b8b0c551fac08d94b40c67ffeeb",
+          "contains": [
+            "Jacy Lee Wagnon",
+            "Understanding the role of SCN8A in developmental and epileptic encephalopathy"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_15318049_dis_stxbp1": {
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=15318049]; abstract_text",
+      "source_record": {
+        "appl_id": 11301017,
+        "principal_investigator": {
+          "profile_id": 15318049,
+          "first_name": "Ingo",
+          "middle_name": "",
+          "last_name": "Helbig",
+          "is_contact_pi": true,
+          "full_name": "Ingo  Helbig",
+          "title": "ASSISTANT PROFESSOR, ATTENDING PHYSICIAN"
+        },
+        "abstract_excerpt": "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11301017.json",
+          "sha256": "43b8fc9001df760d21afad38b7b8e92661324fd297f25d1a4fbc5ce75470d764",
+          "contains": [
+            "Ingo  Helbig",
+            "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_15318049_dis_scn2a": {
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=15318049]; abstract_text",
+      "source_record": {
+        "appl_id": 11301017,
+        "principal_investigator": {
+          "profile_id": 15318049,
+          "first_name": "Ingo",
+          "middle_name": "",
+          "last_name": "Helbig",
+          "is_contact_pi": true,
+          "full_name": "Ingo  Helbig",
+          "title": "ASSISTANT PROFESSOR, ATTENDING PHYSICIAN"
+        },
+        "abstract_excerpt": "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11301017.json",
+          "sha256": "43b8fc9001df760d21afad38b7b8e92661324fd297f25d1a4fbc5ce75470d764",
+          "contains": [
+            "Ingo  Helbig",
+            "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+          ]
+        }
+      ]
+    },
+    "ev_investigator_disease_person_nih_15318049_dis_scn8a": {
+      "source_url": "https://reporter.nih.gov/project-details/11310175",
+      "curation_file": "curation/research.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=15318049]; abstract_text",
+      "source_record": {
+        "appl_id": 11310175,
+        "principal_investigator": {
+          "profile_id": 15318049,
+          "first_name": "Ingo",
+          "middle_name": "",
+          "last_name": "Helbig",
+          "is_contact_pi": true,
+          "full_name": "Ingo  Helbig",
+          "title": "ASSISTANT PROFESSOR, ATTENDING PHYSICIAN"
+        },
+        "abstract_excerpt": "STXBP1- and SCN8A-related disorders"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11310175.json",
+          "sha256": "61d5d31bf82e3814924d14c793bc3feaaa749564ecd3d77eebd57f7649a39f78",
+          "contains": [
+            "Ingo  Helbig",
+            "STXBP1- and SCN8A-related disorders"
+          ]
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "NCT06555965",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT06555965",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT06555965.json"
+    },
+    {
+      "id": "NCT05737784",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05737784",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05737784.json"
+    },
+    {
+      "id": "NCT05157737",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05157737",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05157737.json"
+    },
+    {
+      "id": "NCT04873869",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT04873869",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT04873869.json"
+    },
+    {
+      "id": "NCT06983158",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT06983158",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT06983158.json"
+    },
+    {
+      "id": "11322512",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11322512",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11322512.json"
+    },
+    {
+      "id": "11317220",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11317220",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11317220.json"
+    },
+    {
+      "id": "11381904",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11381904",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11381904.json"
+    },
+    {
+      "id": "11261066",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11261066",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11261066.json"
+    },
+    {
+      "id": "11301017",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11301017",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11301017.json"
+    },
+    {
+      "id": "11310175",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11310175",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11310175.json"
+    }
+  ]
+}

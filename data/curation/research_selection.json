@@ -1,0 +1,20 @@
+{
+  "studies": [
+    {"id": "NCT06555965", "gene": "STXBP1", "disease": "dis_stxbp1", "label": "STARR natural history study"},
+    {"id": "NCT05737784", "gene": "SCN2A", "disease": "dis_scn2a_dee", "label": "PRAX-222 early-onset SCN2A-DEE study"},
+    {"id": "NCT05157737", "gene": "KCNQ2", "disease": "dis_kcnq2", "label": "KCNQ2 clinical phenotype and omics study"},
+    {"id": "NCT04873869", "gene": "SCN8A", "disease": "dis_scn8a", "label": "NBI-921352 SCN8A-DEE study"},
+    {"id": "NCT06983158", "gene": "STXBP1", "disease": "dis_stxbp1", "label": "CAP-002 STXBP1 gene-therapy study"}
+  ],
+  "awards": [
+    {"id": "11322512", "gene": "STXBP1", "disease": "dis_stxbp1"},
+    {"id": "11317220", "gene": "SCN2A", "disease": "dis_scn2a_dee"},
+    {"id": "11381904", "gene": "KCNQ2", "disease": "dis_kcnq2"},
+    {"id": "11261066", "gene": "SCN8A", "disease": "dis_scn8a"}
+  ],
+  "investigator_links": [
+    {"award_id": "11301017", "profile_id": "15318049", "targets": ["dis_stxbp1", "dis_scn2a"], "excerpt": "SCN2A-related disorders and to STXBP1-\nrelated disorders"},
+    {"award_id": "11310175", "profile_id": "15318049", "targets": ["dis_scn8a"], "excerpt": "STXBP1- and SCN8A-related disorders"}
+  ],
+  "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+}
