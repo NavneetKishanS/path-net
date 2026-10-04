@@ -19,7 +19,10 @@ interface RoleContextValue {
 const RoleContext = createContext<RoleContextValue | null>(null)
 
 export function RoleProvider({ children }: { children: ReactNode }) {
-  const [urlRole, setUrlRole] = useQueryState('role', roleParam.withOptions({ history: 'replace' }))
+  const [urlRole, setUrlRole] = useQueryState(
+    'role',
+    roleParam.withOptions({ history: 'replace', clearOnDefault: false }),
+  )
   const params = useSearchParams()
   const account = useAccount()
   const preferredRole = account.ready ? account.profile.role : urlRole
