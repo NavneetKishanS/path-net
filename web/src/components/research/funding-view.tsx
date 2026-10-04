@@ -7,6 +7,7 @@ import { ExternalLink } from '@/components/action/action-parts'
 import { Ident } from '@/components/atlas/node-bits'
 import { useFunding } from '@/lib/queries'
 import { formatMoney } from '@/lib/copy'
+import { FundingChart } from './funding-chart'
 
 /** NIH awards linked to conditions in the slice, and the conditions with none linked. */
 export function FundingView() {
@@ -78,6 +79,7 @@ export function FundingView() {
             </tbody>
           </table>
         </div>
+        {!lite && <FundingChart records={records} />}
       </Section>
 
       {gaps.length > 0 && (
