@@ -32,6 +32,8 @@ export interface RoleConfig {
   panels: PanelId[] | 'all'
   /** Subset of panels rendered in their reduced form. */
   lite: PanelId[]
+  /** Shows the "Ask the atlas" chat. */
+  assistant: boolean
 }
 
 export const ROLE_CONFIG: Record<Role, RoleConfig> = {
@@ -56,6 +58,7 @@ export const ROLE_CONFIG: Record<Role, RoleConfig> = {
       'nextStep',
     ],
     lite: ['people', 'funding'],
+    assistant: true,
   },
   patient: {
     label: 'Patient / Caregiver',
@@ -64,6 +67,7 @@ export const ROLE_CONFIG: Record<Role, RoleConfig> = {
     detail: 'plain',
     panels: ['search', 'explain', 'evidence', 'noRoute', 'community', 'action', 'nextStep'],
     lite: ['search', 'evidence', 'action', 'nextStep'],
+    assistant: false,
   },
   scout: {
     label: 'Biotech Scout',
@@ -86,6 +90,7 @@ export const ROLE_CONFIG: Record<Role, RoleConfig> = {
       'nextStep',
     ],
     lite: ['graph', 'explain', 'community'],
+    assistant: false,
   },
   researcher: {
     label: 'Researcher',
@@ -107,6 +112,7 @@ export const ROLE_CONFIG: Record<Role, RoleConfig> = {
       'nextStep',
     ],
     lite: ['explain', 'community'],
+    assistant: true,
   },
   admin: {
     label: 'Admin',
@@ -115,6 +121,7 @@ export const ROLE_CONFIG: Record<Role, RoleConfig> = {
     detail: 'technical',
     panels: 'all',
     lite: [],
+    assistant: false,
   },
 }
 

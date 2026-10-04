@@ -39,6 +39,13 @@ const compact = isLite('people') // reduced form of a panel
 | `MechanismIndex`, `PeopleView`, `FundingView` | Researcher views; `isLite` trims them for the leader.                                                             |
 | `AdminView`                                   | Builder status, review queue, synonyms, threshold, coverage.                                                      |
 
+## Chat (`chat/`)
+
+- `ChatDock` sits in the header and renders only when `config.assistant` is true (Patient Group Leader, Researcher). It opens a non-modal sidebar; the page stays usable and citations open the shared evidence drawer.
+- Answers come from `answerQuestion()` in `src/lib/chat/answer.ts`: it finds the condition, gene or mechanism in the question, picks an intent, and calls the `ApiClient`. Every listed item carries the edges behind it. Unknown terms get the "not in this atlas" answer, never a guess.
+- `suggestedQuestions()` gives three questions per role about the page in focus. Clicking one fills the box; it does not send.
+- The conversation lives in `useChat` (Zustand, session only).
+
 ## Graph (`graph/`)
 
 - `LazyGraph` loads Cytoscape only when rendered. Always put it inside `GraphFrame height={n}` so the space is reserved.
