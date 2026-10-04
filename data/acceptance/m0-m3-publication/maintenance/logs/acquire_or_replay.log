@@ -1,0 +1,24 @@
+Curated 16 research nodes and 18 source-backed relationships.
+{"output": "D:\\Hack_Nation\\path-net-p1-publish\\.runtime\\clean-export\\.runtime\\publication-maintenance\\data\\curation\\ontology_slice.json", "genes": 4, "diseases": 5, "phenotypes": 12, "variants": 5, "disease_genes": 5, "disease_phenotypes": 32, "sources": 32}
+Cached stxbp1_foundation (brightdata, 200)
+Cached stxbp1_starr (brightdata, 200)
+Cached familiescn2a (brightdata, 200)
+Cached scn2a_dragonfly (brightdata, 200)
+Cached kcnq2_cure (brightdata, 200)
+Cached kcnq2_faq (brightdata, 200)
+Cached kcnq2_biorepository (brightdata, 200)
+Cached pmid_29538625 (pubmed_api_cache, original API response)
+Cached pmid_32073399 (pubmed_api_cache, original API response)
+Cached pmid_38651838 (pubmed_api_cache, original API response)
+Cached pmid_41642117 (pubmed_api_cache, original API response)
+Cached pmid_24318194 (pubmed_api_cache, original API response)
+Cached pmid_34431999 (pubmed_api_cache, original API response)
+Cached pmid_37578743 (pubmed_api_cache, original API response)
+Cached pmid_31558572 (pubmed_api_cache, original API response)
+Cached stxbp1_rarex (brightdata, 200)
+Refreshed provenance for 22 unchanged curated quotes
+Verified 22 curated quotes against raw snapshots
+Verified 159 pinned PubMed records for P2; all content digests match.
+Verified 32 pinned clinicaltrials records.
+Verified 82 pinned reporter records.
+Selected source acquisition complete. Review changed curation files, then run build_graph.py and validate_graph.py --check-raw.

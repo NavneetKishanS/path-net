@@ -8,7 +8,7 @@
     "curation/pubmed_manifest.json": "cbda298ec7cac9cdf4781446071d4e6aa0c4b697e2a6b58e6163d4c70b423659",
     "curation/research_cache_manifest.json": "b06652b553e0389797673f1192716388262dc5c7ea353486adaadf82b09d4fca",
     "curation/coverage_inventory.json": "db7f9090cecc4f46f2e79ad6ec1c6caf6cda3010f76605636c4f7c16222ca2fc",
-    "curation/demo_spec.json": "8772cdba938c135721430640d6c953ccfc80ec080ac97427f1e15035bdeb7c76"
+    "curation/demo_spec.json": "a0f2dcf6fef3ed5598deb55678febde0cc77fdde41597070c2d84e7110dd8ee2"
   },
   "nodes": {
     "gene_stxbp1": {

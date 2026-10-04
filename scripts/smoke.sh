@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 # Quick check that the docker stack is serving data. Run after `bash run.sh up` has settled.
 set -uo pipefail
-API="${API_URL:-http://localhost:3001}"
-WEB="${WEB_URL:-http://localhost:5173}"
+API="${API_URL:-}"
+WEB="${WEB_URL:-}"
+# Compose resolves both process and .env port/project settings. Check this stack.
+if [ -z "$API" ]; then API="http://$(docker compose port api 3000)" || exit 1; fi
+if [ -z "$WEB" ]; then WEB="http://$(docker compose port web 5173)" || exit 1; fi
 FAIL=0
 
 count() { # table -> row count from PostgREST's Content-Range header
   curl -s -I -H 'Prefer: count=exact' "$API/$1?limit=1" | tr -d '\r' | awk -F/ 'tolower($0) ~ /^content-range/ {print $2}'
 }
 
-for t in nodes edges evidence clusters; do
+for t in nodes edges evidence clusters node_cluster explanation_cache coverage_cache; do
   n="$(count "$t")"
   if [ -n "${n:-}" ] && [ "$n" -gt 0 ] 2>/dev/null; then
     printf '  ok   %-10s %s rows\n' "$t" "$n"

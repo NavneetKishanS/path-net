@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-04T01:16:05.808954+00:00",
+  "mode": "read_only_rest_comparison",
+  "graph_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "tables": {
+    "nodes": {
+      "expected": 58,
+      "actual": 58,
+      "exact_match": true
+    },
+    "edges": {
+      "expected": 69,
+      "actual": 69,
+      "exact_match": true
+    },
+    "evidence": {
+      "expected": 77,
+      "actual": 77,
+      "exact_match": true
+    },
+    "clusters": {
+      "expected": 4,
+      "actual": 4,
+      "exact_match": true
+    },
+    "node_cluster": {
+      "expected": 70,
+      "actual": 70,
+      "exact_match": true
+    }
+  },
+  "status": "passed",
+  "database_writes": false
+}

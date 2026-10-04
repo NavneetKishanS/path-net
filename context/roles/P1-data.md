@@ -1,16 +1,14 @@
 # P1: Data lead
 
-Shared integration: this checkout contains the current 58-node M1 snapshot and serves it from the existing persistent Docker database. The accepted M1 snapshot and required platform dependencies are bundled in publication branch `p1/data`; historical local acceptance is recorded in [P1-INTEGRATION.md](../P1-INTEGRATION.md).
-
 Owner: ______________ · Sleeps 01:00 to 05:00 · Read `context/00-PROJECT.md` first.
 
-Status updated: **2026-10-04 (Europe/Berlin)**. Checked boxes have recorded evidence. This `p1/data` publication bundles the pinned 58-node snapshot that was accepted in the shared `p4/platform` checkout and persistent Docker database. [Publication scope](../P1-PUBLICATION.md) separates the bundled M1 work from external M2 completion. See [milestone status](../P1-TASK-STATUS.md), [native M1 history](../P1-M1-EXECUTION.md) and [shared M1 integration record](../P1-INTEGRATION.md).
+Status updated: **2026-10-04 (Europe/Berlin)**. Checked boxes have recorded evidence. M1 is published on `p1/data`; The completed M2/M3 follow-ups are included in this branch snapshot. The 58-node graph is integrated into the shared checkout and running Docker database. See [milestone status](../P1-TASK-STATUS.md), [M3 execution](../P1-M3-EXECUTION.md) and [shared M1 integration record](../P1-INTEGRATION.md).
 
 ## Mission
 Turn public sources into a small, correct, well-sourced graph slice. The judges score evidence integrity, so a short graph you can defend beats a big one you cannot.
 
 ## You own
-`data/seed/graph.json`, `data/raw/` (the reviewed M1 refresh is bundled in publication branch `p1/data`), source fetch scripts in `pipeline/` (add new `fetch_*.py` files; `fetch_pubmed.py` exists), the BrightData scrape, asset records, and verifying every edge on the demo path.
+`data/seed/graph.json`, `data/raw/` (the M1 snapshot was published at the user's request), P1 source scripts in `pipeline/`, the BrightData scrape, asset records, administrative funding sidecar and verification of every demo-path edge.
 
 ## Start in 5 minutes
 ```bash
@@ -34,16 +32,22 @@ The real P1 slice is in `data/seed/graph.json`, using the same five-table shape 
 - [x] Functional seed-and-app check: 58 real nodes loaded twice into native PostgreSQL 16.14/PostgREST 12.2.3; five-table SQL/REST comparisons and the database-backed browser checks passed.
 - [x] Exact Docker entry point: `bash run.sh seed`, then check the app. The literal command and smoke check passed in the shared checkout; PostgreSQL 16.15/PostgREST 12.2.3, exact five-table reads and the database-backed browser were verified. See [shared M1 integration record](../P1-INTEGRATION.md).
 
-**M2 (original schedule: 01:00 to 05:00; separate foreground source-worktree scope)** The user waived nighttime/unattended execution on 2026-10-04. The separate P1 source delivery reports completed replay/build/raw validation/cache audit and a five-line handoff. Its runner, tests and execution receipts are not bundled or certified by this M1 publication. The source snapshot remains organized here, and this branch's [handoff](../HANDOFF.md) describes M1 integration and remaining owners. No M2 background scraper or schedule is configured by this publication.
+**M2 (original schedule: 01:00 to 05:00, asleep; adapted to foreground execution)** The user waived nighttime/unattended execution on 2026-10-04 and requested immediate execution. Complete one source-maintenance pass, leave `data/raw/` tidy and write the handoff.
+
+- [x] Foreground maintenance: `pipeline/run_m2.py` actually replayed all source families offline, rebuilt the graph, validated raw evidence and audited the cache. Four steps passed, with no candidate or release changes; see [M2 execution](../P1-M2-EXECUTION.md).
+- [x] Organized source caches: 451 raw files, including 449 data/cache/receipt files, `.gitkeep` and the historical helper. Exact hashes, pinned 159/32/82-record membership and 421 references passed the read-only audit.
+- [x] Five-line handoff: `context/HANDOFF.md` records M2 completion, outputs, interfaces and next owners.
+
+M2 is complete within the user-approved foreground scope. Its original run was `2026-10-04T00:21:07Z` to `00:21:44Z`, without credentials/network requests; all four seed outputs stayed byte-identical. Historical M2 clean-export readiness ran 112 tests (111 passed, one skip). M3 adds optional funding maintenance: the actual five-step, 464-file pass and 125-test suite passed. This branch snapshot includes completed M0-M3 delivery. See [M3 execution](../P1-M3-EXECUTION.md) and [historical M2 publication scope](../P1-M2-PUBLICATION.md).
 
 **M3 (05:00 to 10:00)**
 - [x] Grow to 40 to 60 nodes and add assets with URLs: 58 nodes and nine assets, including STARR, DRAGONFLY, a biorepository, NIH resources and RARE-X.
 - [x] Add investigator associations: nine `investigator_disease` edges across seven public investigators.
-- [ ] Complete the funder association portion of the original investigator/funder task. Four award assets retain actual `props.funder` metadata; a traversable funder relation or approved projection still requires P4 agreement.
+- [x] Complete funder associations through the existing contract's award-metadata projection. `funding_overlap.json` joins four FY2026 NIH/NINDS applications and four distinct core projects to existing assets/diseases/edges/evidence, with original hashes and funding locators. No graph enum, SQL or API change. See [funding interface](../P1-FUNDING-INTERFACE.md).
 - [x] Source-check every demo-path relationship and set verified status. Source/context review is documented, all 69 edges are verified, and all 77 evidence rows pass raw-source checks. M4 role-owner peer acceptance remains separate.
 
 **M4 (10:00 to 13:00)**
-- [ ] Swap with P2: fact-check each other's demo-path edges against the source pages.
+- [ ] Swap with P2: fact-check each other's demo-path edges against the source pages. A machine-assisted P2-perspective review of all 69 edges/77 evidence records is recorded, including ten detailed demo-edge contexts and one resolved wording correction. Human P2 and reciprocal P2-artifact review remain pending; see [review](../P1-M4-PEER-REVIEW.md).
 - [x] Write the data provenance section and exact reproduce commands: `context/P1-DATA.md`, `context/P1-M1-EXECUTION.md` and the ready-to-paste `context/P1-README-SECTION.md`. Clean-source reproduction and native acceptance are recorded.
 - [x] P4 integration acceptance: the shared root README now documents the 58-node M1 snapshot, live Bright Data acquisition and exact reproduction commands; rebuilding/auditing and database-backed app reads were verified in the integrated checkout. See [shared M1 integration record](../P1-INTEGRATION.md).
 
@@ -59,7 +63,7 @@ Produce: `data/seed/graph.json` (P3 and P4 load it), raw caches (P2 reads `data/
 ## Done means
 `bash run.sh seed` loads without errors, the demo path edges have real sources and `verified` status, the README reproduce steps work from a clean checkout.
 
-Current acceptance: sourced/verified demo edges, credential-free reproduction, native acceptance, the literal Docker seed/app check and current root README integration are recorded. Approved funder representation, P1/P2 M4 peer review and cloud/Auth/deployed-product acceptance remain open. M0 approval is not M4 peer sign-off; The separate source-worktree M2 completion is outside this publication and is not certified here.
+Current P1 acceptance: M0-M3 delivery is complete, including source-checked administrative funding projection under the existing contract. Provenance/README and machine-assisted M4 review are recorded. Human P1/P2 M4 reciprocal acceptance remains open. Cloud/Auth/deployed-product gates remain with P4/P3; M0 approval is not M4 peer sign-off.
 
 ## Prompt to paste into Claude Code
 "I am P1 (data) on PathNet. Read context/00-PROJECT.md and context/roles/P1-data.md. Help me write fetchers for ClinicalTrials.gov v2, NIH RePORTER and HPO annotations into data/raw, then convert them into graph.json edges with real source URLs. Do not invent any identifiers."

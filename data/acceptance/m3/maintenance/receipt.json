@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-04T01:18:22Z",
+  "status": "complete",
+  "mode": "offline_replay",
+  "requested_group_backend": "direct",
+  "project_root": "D:\\Hack_Nation\\path-net-p1-m1",
+  "stage_root": "D:\\Hack_Nation\\path-net-p1-m1\\.runtime\\m3-verification",
+  "release_unchanged": true,
+  "steps": [
+    {
+      "name": "acquire_or_replay",
+      "status": "passed",
+      "started_at": "2026-10-04T01:18:38Z",
+      "returncode": 0,
+      "log": "logs/acquire_or_replay.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:18:46Z"
+    },
+    {
+      "name": "build_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T01:18:46Z",
+      "returncode": 0,
+      "log": "logs/build_candidate.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:18:47Z"
+    },
+    {
+      "name": "validate_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T01:18:47Z",
+      "returncode": 0,
+      "log": "logs/validate_candidate.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:18:50Z"
+    },
+    {
+      "name": "build_funding_projection",
+      "status": "passed",
+      "started_at": "2026-10-04T01:18:50Z",
+      "returncode": 0,
+      "log": "logs/build_funding_projection.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:18:51Z"
+    },
+    {
+      "name": "audit_cache",
+      "status": "passed",
+      "started_at": "2026-10-04T01:18:51Z",
+      "returncode": 0,
+      "log": "logs/audit_cache.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:18:58Z"
+    }
+  ],
+  "candidate_changes": [],
+  "publication": "never_automatic",
+  "scope": "One finite foreground pass; overnight unattended execution was waived by the user",
+  "network_policy": "Socket connections and name resolution denied in every staged Python child",
+  "release_changes": [],
+  "source_changes": [],
+  "completed_at": "2026-10-04T01:18:59Z",
+  "release_file_count": 464,
+  "candidate_file_count": 464,
+  "format_only_restoration_count": 0
+}

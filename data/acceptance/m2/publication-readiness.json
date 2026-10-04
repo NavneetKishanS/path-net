@@ -1,0 +1,33 @@
+{
+  "status": "ready_for_review",
+  "base_commit": "0e1a04d8e7da222892b06595e014ffb388e77aaf",
+  "target_branch": "p1/data",
+  "publication": "not_committed_or_pushed",
+  "checks": {
+    "clean-export": {
+      "receipt": "clean-export/receipt.json",
+      "status": "complete",
+      "completed_at": "2026-10-04T00:55:12Z",
+      "release_file_count": 463,
+      "format_only_restoration_count": 0
+    },
+    "clean-export-lf": {
+      "receipt": "clean-export-lf/receipt.json",
+      "status": "complete",
+      "completed_at": "2026-10-04T00:58:02Z",
+      "release_file_count": 463,
+      "format_only_restoration_count": 3
+    }
+  },
+  "current_test_suite": {
+    "run": 112,
+    "passed": 111,
+    "skipped": 1,
+    "failed": 0,
+    "exit_code": 0,
+    "log": "publication-tests.log"
+  },
+  "tooling_synced_to_shared_checkout": true,
+  "source_data_or_database_updated_by_this_sync": false,
+  "new_json_newline_policy": "Restore exact staged baseline bytes only when CRLF/LF is the sole difference; record every restoration; never normalize source bodies or silently accept changed data."
+}

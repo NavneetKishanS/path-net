@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-04T00:47:49Z",
+  "status": "complete",
+  "mode": "offline_replay",
+  "requested_group_backend": "direct",
+  "project_root": "D:\\Hack_Nation\\path-net",
+  "stage_root": "D:\\Hack_Nation\\path-net\\.runtime\\m2\\run-20261004T004748Z-19e253db",
+  "release_unchanged": true,
+  "steps": [
+    {
+      "name": "acquire_or_replay",
+      "status": "passed",
+      "started_at": "2026-10-04T00:47:57Z",
+      "returncode": 0,
+      "log": "logs/acquire_or_replay.log",
+      "completed_at": "2026-10-04T00:48:01Z"
+    },
+    {
+      "name": "build_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T00:48:01Z",
+      "returncode": 0,
+      "log": "logs/build_candidate.log",
+      "completed_at": "2026-10-04T00:48:02Z"
+    },
+    {
+      "name": "validate_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T00:48:02Z",
+      "returncode": 0,
+      "log": "logs/validate_candidate.log",
+      "completed_at": "2026-10-04T00:48:04Z"
+    },
+    {
+      "name": "audit_cache",
+      "status": "passed",
+      "started_at": "2026-10-04T00:48:04Z",
+      "returncode": 0,
+      "log": "logs/audit_cache.log",
+      "completed_at": "2026-10-04T00:48:09Z"
+    }
+  ],
+  "candidate_changes": [],
+  "publication": "never_automatic",
+  "scope": "One finite foreground pass; overnight unattended execution was waived by the user",
+  "network_policy": "Socket connections and name resolution denied in every staged Python child",
+  "release_changes": [],
+  "source_changes": [],
+  "completed_at": "2026-10-04T00:48:09Z",
+  "release_file_count": 463,
+  "candidate_file_count": 463
+}

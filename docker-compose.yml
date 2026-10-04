@@ -1,7 +1,7 @@
 # Prototype v0 stack: Postgres + REST API (PostgREST) + seed loader + web dev server.
 #   `bash run.sh up`      start everything      http://localhost:5173
 #   `bash run.sh reset`   wipe the database and start clean
-# The seed service applies numbered migrations before upserting the reviewed graph.
+# The seed service applies migrations and loads reviewed graph + generated caches.
 name: pathnet
 
 services:
@@ -12,14 +12,23 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: pathnet
     ports:
-      - "127.0.0.1:54322:5432"
+      - "127.0.0.1:${PATHNET_DB_PORT:-54322}:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d pathnet"]
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U postgres -d pathnet"]
       interval: 3s
       timeout: 3s
       retries: 20
+
+  cache-build:
+    image: node:24-alpine
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace:ro
+      - bootstrap_cache:/cache
+    command: node scripts/build_platform_cache.mjs --output /cache/platform.json
+    restart: "no"
 
   seed:
     build: ./pipeline
@@ -27,12 +36,15 @@ services:
     depends_on:
       db:
         condition: service_healthy
+      cache-build:
+        condition: service_completed_successfully
     environment:
       DATABASE_URL: postgresql://postgres:postgres@db:5432/pathnet
       DATA_DIR: /workspace/data
     volumes:
       - ./:/workspace:ro
-    command: sh -c "python scripts/platform.py migrate && python scripts/platform.py seed"
+      - bootstrap_cache:/cache:ro
+    command: sh -c "python scripts/platform.py migrate && python scripts/platform.py seed && python scripts/platform.py cache --input /cache/platform.json"
     restart: "no"
 
   api:
@@ -46,13 +58,13 @@ services:
       PGRST_DB_SCHEMAS: public
       PGRST_DB_ANON_ROLE: anon
     ports:
-      - "127.0.0.1:3001:3000"
+      - "127.0.0.1:${PATHNET_API_PORT:-3001}:3000"
 
   web:
     image: node:22-alpine
     restart: unless-stopped
     working_dir: /app/web
-    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    command: sh -c "npm ci && npm run build && npm run dev -- --host 0.0.0.0"
     depends_on:
       api:
         condition: service_started
@@ -60,14 +72,15 @@ services:
         condition: service_completed_successfully
     environment:
       VITE_DATA_SOURCE: rest
-      VITE_API_URL: http://localhost:3001
+      VITE_API_URL: http://localhost:${PATHNET_API_PORT:-3001}
       CHOKIDAR_USEPOLLING: "true"
     volumes:
       - ./:/app
       - web_node_modules:/app/web/node_modules
     ports:
-      - "127.0.0.1:5173:5173"
+      - "127.0.0.1:${PATHNET_WEB_PORT:-5173}:5173"
 
 volumes:
   pgdata:
   web_node_modules:
+  bootstrap_cache:

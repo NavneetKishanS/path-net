@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "execution_receipt": "receipt.json",
+  "cache_audit": "cache-audit.json",
+  "source_snapshot_files": 463,
+  "independent_data_and_interface_files": 470,
+  "independent_before_after_sha256": "876bb59330275b8f7673bedab7ae9b67713e8ad2a01a39d7470400aed3240bbf",
+  "test_suite": {
+    "run": 108,
+    "passed": 107,
+    "skipped": 1,
+    "failed": 0,
+    "exit_code": 0,
+    "skip_reason": "Windows denied unprivileged creation of a physical test symlink; non-symlink path and reference checks ran",
+    "note": "Final suite includes pre-copy Windows junction rejection; the earlier four-step execution receipt remains unchanged."
+  },
+  "seed_file_sha256": {
+    "coverage.json": "843a88d6f5ab758bf68f13bfc48735826d25ebfc3394f5bf2ddaf016ff84620b",
+    "demo_paths.json": "74c94bf35d6bb4eda3b1f47ab343246bcbce6acca758dc97e1850ab7fbe836e0",
+    "graph.json": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+    "provenance.json": "e80bf30a129a2ba83933cee6aa9923dcc75592e472ae91302453ef69f562116b"
+  },
+  "published": false,
+  "handoff_scope": "P1 M2 foreground maintenance completed under the explicit user waiver; P2/P4 milestone gates remain separate",
+  "checked_at": "2026-10-04T00:34:44Z",
+  "source_execution_completed_at": "2026-10-04T00:21:44Z"
+}

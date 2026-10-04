@@ -94,6 +94,10 @@ Local graph/REST/browser acceptance does not provision real Supabase Auth, run t
 
 ## Operator workflow
 
+The default local path is `bash run.sh up` with Docker Desktop running and Bash available. Node.js 24 Alpine generates the deterministic bundle in `bootstrap_cache`; seed waits for database health and cache-build completion, then runs migrations, upsert and cache import from `/cache/platform.json`. API/web gate on seed success; web runs locked install, production build and Vite dev. `bash run.sh seed` repeats the cache build/import automatically. Host Python/Node.js and model/cloud credentials are unnecessary for this container workflow. Fresh staged-archive startup, exact graph/cache/frontend reads, automatic refresh and warm preservation checks passed; see [P4-BOOTSTRAP.md](P4-BOOTSTRAP.md) and [m1-bootstrap.json](../data/acceptance/m1-bootstrap.json).
+
+The commands below are an optional direct operator workflow for a deliberately selected database. They require the stated host Python/Node.js prerequisites; they are not additional steps for normal Docker startup.
+
 Copy `.env.example` to the ignored root `.env`. `scripts/platform.py` loads simple `KEY=value` entries; process environment variables take precedence. Run `python scripts/platform.py doctor` to report presence of configuration without printing values or contacting services.
 
 After choosing an intended prototype database in `DATABASE_URL`:
@@ -105,9 +109,9 @@ python scripts/platform.py seed
 
 `migrate` applies numbered SQL once and records canonical-content checksums in `pathnet_private.migrations`. Change an applied schema by adding another migration; editing an already applied file fails the ledger check. `seed` validates and upserts P1 rows and coverage; rows absent from the seed, such as approved contributions, are retained. Deliberate deletion of obsolete seed rows is therefore a separate reviewed operation.
 
-The Docker seed service uses this migration/upsert sequence. The original `pipeline/load_seed.py` remains unchanged for P1 compatibility and replaces the five graph tables. `bash run.sh reset` deletes the Docker database volume; it is unnecessary for applying migrations with the operator workflow.
+The Docker seed service runs migration, graph/coverage upsert and automatic cache import after its cache-build dependency succeeds. The original `pipeline/load_seed.py` remains unchanged for P1 compatibility and replaces the five graph tables. `bash run.sh reset` deletes the Docker volumes; it is unnecessary for applying migrations or refreshing graph/caches with the operator workflow.
 
-Offline explanation caches can be built and then loaded into the intended database:
+For the optional direct operator workflow, offline explanation caches can be built and then loaded into the intended database:
 
 ```bash
 node scripts/build_platform_cache.mjs
