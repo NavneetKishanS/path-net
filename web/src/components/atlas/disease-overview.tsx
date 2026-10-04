@@ -17,6 +17,7 @@ import { cn } from '@/lib/cn'
 import { ConnectionList } from './connection-list'
 import { NoRouteState } from './no-route'
 import { ClusterTag, ExternalIds, Ident, TypeLabel } from './node-bits'
+import { PageNav, StatStrip, type Stat } from './page-overview'
 import { MiniMap } from '@/components/graph/mini-map'
 
 /** Condition page: what it is, how it is caused, who serves it, what it connects to, what to do. */
@@ -47,6 +48,56 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
   // Render in one pass so sections do not push each other down as their queries resolve.
   if (conns.isLoading || plan.isLoading || !workflowReady) return <Pending label="Loading condition" lines={8} />
   const routable = (conns.data ?? []).filter((c) => c.kind !== 'phenotype')
+  const showSymptoms = phen.length > 0 && (role !== 'patient' || !plain)
+  const showDtw = can('nextStep') && !!plan.data && plan.data.doThisWeek.length > 0
+  const nMech = routable.filter((c) => c.kind === 'mechanism').length
+  const nInv = routable.filter((c) => c.kind === 'investigator').length
+  const nObserved = d.edges.filter((e) => e.basis === 'observed').length
+  const nInferred = d.edges.filter((e) => e.basis === 'inferred').length
+  const nAgainst = d.edges.filter((e) => e.stance === 'contradicts').length
+  const joinHint = (parts: [number, string][]) =>
+    parts
+      .filter(([n]) => n > 0)
+      .map(([n, t]) => `${n} ${t}`)
+      .join(' · ') || undefined
+  const stats: Stat[] = [
+    {
+      label: plain ? 'Related conditions' : 'Connections',
+      value: routable.length,
+      hint: joinHint([
+        [nMech, 'shared mechanism'],
+        [nInv, 'shared investigator'],
+      ]),
+      href: 'connections',
+    },
+    ...(can('community')
+      ? [
+          {
+            label: 'Patient groups',
+            value: groups.length,
+            hint: groups.length === 0 ? 'None for this exact condition' : undefined,
+            href: 'community',
+          },
+        ]
+      : []),
+    {
+      label: 'Links in the atlas',
+      value: d.edges.length,
+      hint: joinHint([
+        [nObserved, 'observed'],
+        [nInferred, 'inferred'],
+        [nAgainst, 'contradicting'],
+      ]),
+    },
+    ...(showSymptoms ? [{ label: 'Recorded symptoms', value: phen.length, href: 'symptoms' }] : []),
+  ]
+  const pageNav = [
+    ...(can('community') ? [{ id: 'community', label: plain ? 'Families and groups' : 'Patient community' }] : []),
+    ...(showDtw ? [{ id: 'dtw', label: 'Do this week' }] : []),
+    { id: 'connections', label: plain ? 'Related conditions' : 'Connections' },
+    ...(can('graph') ? [{ id: 'map', label: 'Map' }] : []),
+    ...(showSymptoms ? [{ id: 'symptoms', label: 'Symptoms' }] : []),
+  ]
   return (
     <div className="space-y-10">
       <header className="title-band -mt-8 pt-8 pb-8 md:-mt-10 md:pt-10">
@@ -114,6 +165,8 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
             <ExternalIds node={node} />
           </div>
         )}
+        <StatStrip stats={stats} />
+        <PageNav items={pageNav} />
       </header>
 
       {can('community') && (
@@ -140,7 +193,7 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
         </Section>
       )}
 
-      {can('nextStep') && plan.data && plan.data.doThisWeek.length > 0 && (
+      {showDtw && plan.data && (
         <Section
           title="Do this week"
           id="dtw"
@@ -192,7 +245,7 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
         )}
       </div>
 
-      {phen.length > 0 && (role !== 'patient' || !plain) && (
+      {showSymptoms && (
         <Section title="Recorded symptoms" id="symptoms" aside={`${phen.length} recorded features`}>
           <ul className="grid gap-x-8 gap-y-1.5 text-ui sm:grid-cols-2 lg:grid-cols-3">
             {phen.slice(0, detail === 'technical' ? undefined : 12).map((e) => (

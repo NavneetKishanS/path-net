@@ -4,6 +4,7 @@ import type { Coverage, NoRoute } from '@/lib/model'
 import { useRole } from '@/components/role/role-provider'
 import { formatDate } from '@/lib/copy'
 import { Ident } from './node-bits'
+import { SourceChart } from './source-chart'
 
 interface Props {
   /** Known condition with no supported route. */
@@ -104,6 +105,7 @@ export function NoRouteState({ noRoute, query, coverage }: Props) {
               ))}
             </tbody>
           </table>
+          <SourceChart coverage={coverage} />
         </div>
       )}
     </section>

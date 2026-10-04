@@ -11,6 +11,7 @@ import { edgeSentence } from '@/lib/copy'
 import { plainEdgeSentence } from '@/lib/plain-language'
 import { cn } from '@/lib/cn'
 import { useMediaQuery } from '@/lib/use-media-query'
+import { RouteDiagram } from './route-diagram'
 
 /**
  * "Why connected": each step is one cited edge. The selected step's evidence sits beside it
@@ -43,6 +44,8 @@ export function RouteExplainer({ route }: { route: Route }) {
             </p>
           </div>
         )}
+
+        <RouteDiagram route={route} selected={selected} onSelect={setSelected} plain={plain} />
 
         <StepList
           title={plain ? 'How the atlas got there' : 'Why: each step and its source'}

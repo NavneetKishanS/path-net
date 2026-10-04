@@ -62,7 +62,7 @@ export function Section({
   return (
     <section aria-labelledby={id} className={cn('border-t border-line pt-5', className)}>
       <div className="mb-4 flex items-baseline justify-between gap-4">
-        <h2 id={id} className="text-h3 text-ink">
+        <h2 id={id} className="scroll-mt-24 text-h3 text-ink">
           {title}
         </h2>
         {aside && <div className="text-label text-ink-3">{aside}</div>}
