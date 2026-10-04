@@ -24,22 +24,33 @@ from common import DATA_DIR, load_seed, save_json
 W_MECHANISM, W_PHENOTYPE = 3, 1
 
 
-def cluster(seed: dict) -> list[dict]:
-    types = {n["id"]: n["type"] for n in seed["nodes"]}
+def build_links(seed: dict) -> tuple[dict, list[dict]]:
+    """disease -> kind ('mech'/'pheno'/'investigator') -> {target ids}, from non-contradicting edges.
+    Also returns the contradicting disease_mechanism claims, kept separate rather than dropped.
+    Shared by cluster() and bridge_edges.py so both see the same notion of "supported link".
+    """
     names = {n["id"]: n["name"] for n in seed["nodes"]}
-    links = defaultdict(lambda: defaultdict(set))  # disease -> kind -> {target ids}
+    links = defaultdict(lambda: defaultdict(set))
     contradictions = []
     for e in seed["edges"]:
         if e["type"] == "disease_mechanism" and e["stance"] == "contradicts":
             contradictions.append({"disease": names.get(e["src"], e["src"]), "mechanism": names.get(e["dst"], e["dst"]), "edge_id": e["id"]})
             continue
-        if e["stance"] == "contradicts":
+        if e["stance"] != "supports" or e["status"] != "verified":
             continue
         if e["type"] == "disease_mechanism":
             links[e["src"]]["mech"].add(e["dst"])
         elif e["type"] == "disease_phenotype":
             links[e["src"]]["pheno"].add(e["dst"])
+        elif e["type"] == "investigator_disease":
+            links[e["dst"]]["investigator"].add(e["src"])
+    return links, contradictions
 
+
+def cluster(seed: dict) -> list[dict]:
+    types = {n["id"]: n["type"] for n in seed["nodes"]}
+    names = {n["id"]: n["name"] for n in seed["nodes"]}
+    links, contradictions = build_links(seed)
     diseases = [i for i, t in types.items() if t == "disease"]
     g = nx.Graph()
     g.add_nodes_from(diseases)
