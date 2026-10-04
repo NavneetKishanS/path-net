@@ -1,13 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { ArrowRight, ExternalLink, Waypoints } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { useMeta } from '@/lib/queries'
+import { useLanding } from './landing-store'
 import { HowItWorksSection, PersonasSection, ProblemSection, SourcesSection, TechSection } from './sections'
 
-const SEEN_KEY = 'pathnet.seen-splash.v1'
 const REPO_URL = 'https://github.com/NavneetKishanS/path-net'
 const CLUSTER_COLORS = ['var(--c0)', 'var(--c1)', 'var(--c2)', 'var(--c3)'] as const
 
@@ -111,22 +111,17 @@ function FinalCta({ onEnter }: { onEnter: () => void }) {
 
 export function LandingSplash() {
   const pathname = usePathname()
-  const [visible, setVisible] = useState(false)
+  const visible = useLanding((s) => s.visible)
+  const show = useLanding((s) => s.show)
+  const hide = useLanding((s) => s.hide)
   const meta = useMeta()
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- localStorage is only known after hydration
-    if (pathname === '/' && !localStorage.getItem(SEEN_KEY)) setVisible(true)
-  }, [pathname])
-
-  const dismiss = () => {
-    try {
-      localStorage.setItem(SEEN_KEY, '1')
-    } catch {
-      // Private browsing or blocked storage: still dismiss for this visit.
-    }
-    setVisible(false)
-  }
+    // Every fresh load of "/" shows the splash again -- not persisted, so a reload always
+    // brings it back. The logo (app-shell.tsx) calls show() directly for the same effect
+    // without a reload, since navigating to a pathname you're already on doesn't re-fire this.
+    if (pathname === '/') show()
+  }, [pathname, show])
 
   if (!visible) return null
   const counts = meta.data?.counts ?? { nodes: 0, edges: 0, evidence: 0 }
@@ -137,18 +132,18 @@ export function LandingSplash() {
           <Waypoints className="size-5 text-accent-ink" aria-hidden />
           PathNet
         </span>
-        <Button variant="primary" size="sm" onClick={dismiss}>
+        <Button variant="primary" size="sm" onClick={hide}>
           Explore the Atlas
           <ArrowRight className="size-3.5" aria-hidden />
         </Button>
       </header>
-      <Hero onEnter={dismiss} />
+      <Hero onEnter={hide} />
       {counts.nodes > 0 && <SourcesSection counts={counts} />}
       <ProblemSection />
       <HowItWorksSection />
       <PersonasSection />
       <TechSection />
-      <FinalCta onEnter={dismiss} />
+      <FinalCta onEnter={hide} />
     </div>
   )
 }
