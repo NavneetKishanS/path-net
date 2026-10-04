@@ -11,6 +11,8 @@ import { useMeta } from '@/lib/queries'
 import { formatDate } from '@/lib/copy'
 import type { PanelId } from '@/lib/roles'
 import { cn } from '@/lib/cn'
+import { ChatDock, CHAT_WIDTH } from '@/components/chat/chat-dock'
+import { useChat } from '@/components/chat/chat-store'
 import { RoleSwitcher } from './role-switcher'
 import { ThemeToggle } from './theme-toggle'
 
@@ -23,11 +25,12 @@ const NAV: { href: string; label: string; panel: PanelId }[] = [
 ]
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const { can, role, detail } = useRole()
+  const { can, role, detail, config } = useRole()
   const path = usePathname()
+  const chatOpen = useChat((s) => s.open) && config.assistant
   const nav = NAV.filter((n) => can(n.panel))
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className={cn('flex min-h-dvh flex-col', chatOpen && CHAT_WIDTH)}>
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-paper focus:px-3 focus:py-2"
@@ -56,6 +59,7 @@ export function AppShell({ children }: { children: ReactNode }) {
                 <span className="sr-only sm:hidden">New search</span>
               </AppLink>
             )}
+            <ChatDock />
             <RoleSwitcher />
             <ThemeToggle />
           </div>
