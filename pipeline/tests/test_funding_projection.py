@@ -71,20 +71,26 @@ class FundingProjectionTests(unittest.TestCase):
         }
         return asset, edge, evidence, original
 
-    def test_current_four_awards_use_exact_sources_without_mutating_inputs(self):
+    def test_reviewed_awards_use_exact_sources_and_preserve_original_four(self):
         paths = [p for folder in ("raw", "curation") for p in (ROOT / "data" / folder).rglob("*") if p.is_file()]
         paths += [ROOT / "data/seed" / name for name in ("graph.json", "provenance.json", "coverage.json", "demo_paths.json")]
         before = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
         report = build_funding_projection(ROOT / "data")
-        self.assertEqual(report["summary"], {"funding_groups": 1, "supporting_memberships": 4,
-                                            "application_count": 4, "core_project_count": 4})
-        group = report["groups"][0]
+        expanded = (ROOT / "data/curation/expansion_selection.json").is_file()
+        count = 11 if expanded else 4
+        self.assertEqual(report["summary"], {"funding_groups": 2 if expanded else 1, "supporting_memberships": count,
+                                            "application_count": count, "core_project_count": count})
+        group = next(g for g in report["groups"] if g["funding_ic_code"] == "NS")
         self.assertEqual((group["agency_code"], group["funding_ic_code"], group["fiscal_year"]), ("NIH", "NS", 2026))
-        self.assertEqual({(row["application_id"], row["disease_id"]) for row in group["members"]}, {
+        original_members = {
             ("11261066", "dis_scn8a"), ("11317220", "dis_scn2a_dee"),
             ("11322512", "dis_stxbp1"), ("11381904", "dis_kcnq2"),
-        })
-        for member in group["members"]:
+        }
+        members = {(row["application_id"], row["disease_id"]) for row in group["members"]}
+        self.assertTrue(original_members <= members)
+        if not expanded:
+            self.assertEqual(original_members, members)
+        for member in [m for g in report["groups"] for m in g["members"]]:
             self.assertEqual(member["funding_source"]["locators"], ["agency_ic_fundings[0]"])
             self.assertEqual(len(member["edge_ids"]), 1)
             self.assertEqual(len(member["evidence_ids"]), 1)

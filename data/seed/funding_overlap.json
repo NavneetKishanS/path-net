@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "kind": "administrative_funding_overlap",
-  "graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b",
-  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
-  "provenance_sha256": "afecfdacf09dc6de8e1822ac66b0e838f5c70723da6ac816da2d45b000227201",
-  "provenance_file_sha256": "7ccff345a76633c6c8ac1bf3f687ba94f1727de3c3e9b0a1e9ee5602e19883bd",
+  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2",
+  "graph_file_sha256": "670ed3d4cb63dc8a69ee99e2aeb0fd666310037385863d9028b35ddc2aa75e70",
+  "provenance_sha256": "770b9356bda4741bfa817db98b0b17d9a2b645c0e6d30e693f962775fe2c99c6",
+  "provenance_file_sha256": "f73e8e06cfd302ce91fb61008ebcbd96bea3f7924b05adb24d651896fe63140c",
   "summary": {
-    "funding_groups": 1,
-    "supporting_memberships": 4,
-    "application_count": 4,
-    "core_project_count": 4
+    "funding_groups": 2,
+    "supporting_memberships": 11,
+    "application_count": 11,
+    "core_project_count": 11
   },
   "count_units": {
     "application_count": "Distinct NIH appl_id values, including annual applications, supplements and subprojects.",
@@ -20,11 +20,83 @@
     {
       "provider": "NIH RePORTER",
       "agency_code": "NIH",
+      "funding_ic_code": "MH",
+      "funding_ic_name": "National Institute of Mental Health",
+      "funding_ic_abbreviation": "NIMH",
+      "fiscal_year": 2026,
+      "members": [
+        {
+          "application_id": "11289342",
+          "asset_id": "asset_nih_11289342",
+          "disease_id": "dis_scn2a",
+          "core_project_num": "R01MH136475",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11289342_dis_scn2a"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11289342_dis_scn2a_reporter_11289342"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11289342",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11289342.json",
+            "raw_sha256": "89e389a30a731ef493874f6ce15478c51454aae352a3cf9ad9ebf74680ccc54f",
+            "raw_record_sha256": "d1cf0fca72bdf669239f24306a07116f711d9af9850646953402ec909b028d5e",
+            "source_record_sha256": "b48cc3da3b0066876dd1f7979b065152aae494009af1be70fe18967be8f7d846",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
+        }
+      ],
+      "application_ids": [
+        "11289342"
+      ],
+      "core_project_numbers": [
+        "R01MH136475"
+      ],
+      "application_count": 1,
+      "core_project_count": 1
+    },
+    {
+      "provider": "NIH RePORTER",
+      "agency_code": "NIH",
       "funding_ic_code": "NS",
       "funding_ic_name": "National Institute of Neurological Disorders and Stroke",
       "funding_ic_abbreviation": "NINDS",
       "fiscal_year": 2026,
       "members": [
+        {
+          "application_id": "11261040",
+          "asset_id": "asset_nih_11261040",
+          "disease_id": "dis_scn8a",
+          "core_project_num": "R01NS034509",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11261040_dis_scn8a"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11261040_dis_scn8a_reporter_11261040"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11261040",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11261040.json",
+            "raw_sha256": "edcee1051ee1740f36c6511ad2d6a089259dbed5af0061834cab8354955caefe",
+            "raw_record_sha256": "f841d40f0898b995d86938597fcf73ad61062fb3817624cc170dd5c4cd5edea4",
+            "source_record_sha256": "30de92c001db7b3c21c39a447ee88f1b98cd4b4a19016d197dd4407398f4223b",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
+        },
         {
           "application_id": "11261066",
           "asset_id": "asset_nih_11261066",
@@ -47,6 +119,87 @@
             "raw_sha256": "2d6bacca0c185f0892360d5ac268eded2fef7b8b0c551fac08d94b40c67ffeeb",
             "raw_record_sha256": "21765fd5186b7e419cf8174c10d7399601489384e4cee19950243100e783f9f6",
             "source_record_sha256": "b3fc760d786bc62114b16b0fdc3f2d5f7de4a141b5099be29efba602af4dd06c",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
+        },
+        {
+          "application_id": "11285465",
+          "asset_id": "asset_nih_11285465",
+          "disease_id": "dis_scn8a",
+          "core_project_num": "R01NS126392",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11285465_dis_scn8a"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11285465_dis_scn8a_reporter_11285465"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11285465",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11285465.json",
+            "raw_sha256": "23fddf67d92df6955db531eb8d0e67c448256b6711cb61588fe88395f4b71efd",
+            "raw_record_sha256": "a44579ac03cd667ac12a666376d7b64cc70727b5f223fdf65e343f2b10922f55",
+            "source_record_sha256": "8988124ec93b45744c9976a5946bf1408f1b27ecc51ecff236a6a1511918cfa2",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
+        },
+        {
+          "application_id": "11309107",
+          "asset_id": "asset_nih_11309107",
+          "disease_id": "dis_scn8a",
+          "core_project_num": "F31NS143361",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11309107_dis_scn8a"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11309107_dis_scn8a_reporter_11309107"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11309107",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11309107.json",
+            "raw_sha256": "f7960ed61f311b9bdbc718d5d3045dd27e52a77624a5cf279c98525d114c1b83",
+            "raw_record_sha256": "e3628e569912351abb18f00a64aa762c405092c4d7074f99c7584fba35c7cede",
+            "source_record_sha256": "11080b4f9c912665424b4c6c9067af61f0acd35c690898558b0b9ad1187e220a",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
+        },
+        {
+          "application_id": "11312585",
+          "asset_id": "asset_nih_11312585",
+          "disease_id": "dis_kcnq2",
+          "core_project_num": "F31NS135753",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11312585_dis_kcnq2"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11312585_dis_kcnq2_reporter_11312585"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11312585",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11312585.json",
+            "raw_sha256": "72eebe59a26bc76024b3680c217d29471ebb2cad6f4064ad2f34723c65d7b772",
+            "raw_record_sha256": "49033dfb87cb7d5382feead89fc79fefbfe646c03aa74ae05011159ff31e7634",
+            "source_record_sha256": "85028f7851a681d7555aef1e8d3c59e1d4e408e3fe2c0c0501b7b6b84c397479",
             "locators": [
               "agency_ic_fundings[0]"
             ]
@@ -132,22 +285,88 @@
               "agency_ic_fundings[0]"
             ]
           }
+        },
+        {
+          "application_id": "11436758",
+          "asset_id": "asset_nih_11436758",
+          "disease_id": "dis_scn2a",
+          "core_project_num": "K99NS151036",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11436758_dis_scn2a"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11436758_dis_scn2a_reporter_11436758"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11436758",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11436758.json",
+            "raw_sha256": "c6731abe26e0bd3c22b464b109ac614866e73c1ec23c47970779de32c4777dde",
+            "raw_record_sha256": "5da29b220c25670272a7c1630b24ac1dfa966f060aaf24d9ca2236c5739524f4",
+            "source_record_sha256": "f0de0022ba41dc0ed367ac2fe754768e270e46f75e3b965cf5380b6b1c5667f1",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
+        },
+        {
+          "application_id": "11594149",
+          "asset_id": "asset_nih_11594149",
+          "disease_id": "dis_scn2a",
+          "core_project_num": "R56NS144233",
+          "application_fiscal_year": 2026,
+          "edge_ids": [
+            "e_asset_disease_asset_nih_11594149_dis_scn2a"
+          ],
+          "evidence_ids": [
+            "ev_asset_disease_asset_nih_11594149_dis_scn2a_reporter_11594149"
+          ],
+          "edge_scope_notes": [
+            "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+          ],
+          "source_url": "https://reporter.nih.gov/project-details/11594149",
+          "retrieved_at": "2026-10-03",
+          "funding_source": {
+            "raw_path": "raw/reporter/projects/11594149.json",
+            "raw_sha256": "79abb8d8c97c3aa2a13d24f6f2ea7c515122e1502d77f4549b4a12c9ce1cd02a",
+            "raw_record_sha256": "edb2389549ccc90af9458777dc9b561b7b6d24b688a0ebbe73a10af72369c938",
+            "source_record_sha256": "5368f675c253a3067c112b44cab6af180ad4b59b831470e364bceab8ab788a16",
+            "locators": [
+              "agency_ic_fundings[0]"
+            ]
+          }
         }
       ],
       "application_ids": [
+        "11261040",
         "11261066",
+        "11285465",
+        "11309107",
+        "11312585",
         "11317220",
         "11322512",
-        "11381904"
+        "11381904",
+        "11436758",
+        "11594149"
       ],
       "core_project_numbers": [
+        "F31NS135753",
         "F31NS141322",
+        "F31NS143361",
         "K08NS121601",
+        "K99NS151036",
+        "R01NS034509",
+        "R01NS126392",
         "R01NS131319",
-        "R01NS137587"
+        "R01NS137587",
+        "R56NS144233"
       ],
-      "application_count": 4,
-      "core_project_count": 4
+      "application_count": 10,
+      "core_project_count": 10
     }
   ],
   "limitations": [

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "scope": "Published graph/provenance/raw integrity; working-tree boundaries not checked",
+  "source_checkout_checked": false,
+  "source_checkout": "D:\\Hack_Nation\\path-net",
+  "baseline_counts": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "candidate_counts": {
+    "nodes": 120,
+    "edges": 135,
+    "evidence": 162,
+    "clusters": 4,
+    "node_cluster": 147
+  },
+  "retained_exact_records": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "graph_file_sha256": "670ed3d4cb63dc8a69ee99e2aeb0fd666310037385863d9028b35ddc2aa75e70",
+  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2",
+  "changed_files": [],
+  "added_files": [],
+  "errors": []
+}

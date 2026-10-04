@@ -1,0 +1,321 @@
+{
+  "status": "passed",
+  "base_commit": "b856a547dcc211c1f4e6692e349855f965ef353d",
+  "included_candidate_files": [
+    {
+      "path": "context/P1-EXPANSION.md",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "34a27ecb2b70f0ec7bac0207438a8fc644d490c4d5012760b436d0715557a428",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/baseline.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "b7a5e7b021fe122550dde6e7b035e9a3743084ae1a5dc2360b9dd7354f20ef0e",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/baseline_graph.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/boundaries.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "e682e8938245445c2fa01275323d0b891f34d84b3903d9ae3db3cd6c018796f4",
+      "receipt_regenerated": true
+    },
+    {
+      "path": "data/acceptance/expansion/cache-audit.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "9dea2273b845e65407627aa3f7ce2cf230c4895a04bfe4ef6f40366ffb342667",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/consumers.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "cdf0984bff3674d93f4e130c18c25c9e3be078ade2aaddd839ae008296423ea2",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/database.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "666e966e59a59c4b662811bfeb9d651381df1ef39d1a5753798df57190f1c1e8",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/database.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "666e966e59a59c4b662811bfeb9d651381df1ef39d1a5753798df57190f1c1e8",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/delivery-checks.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "5533ace80e3f27ce71b39594f12813bd7fc7068b078b8cfd83800f895e48815f",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/human-review.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "5f5a730c785a02ffbc114b60e7ae26880019c9586aef1648bfc65b365c231b0a",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/live-source-checks.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "b3dfd5324c3aad1877cf191ca4d2ac3e49bbea450e4b4cb6a3c2244cefe68368",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-acquire_or_replay.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "b9021286eb12210e0b9e38b668ed090221db286b964ff98b9d3b110b066e7012",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-audit_cache.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "b7f73423efce5ed2aa9d29765e6d4c433accdb36cf5c8825e5f1e4eb75fea652",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-build_candidate.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "514de2fe32a93cb1e568903ca32c308986580a4a4de4fa1f6daf76fcc4bb609a",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-build_funding_projection.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "85914d8d9d1956f8102d5357556ed24fa0420f1d6eb814415f21d332dec51962",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-candidate_inventory.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "8c275e867303067c196cd55752b66022eaa71b3d4351d82a34626fc2ad2f24a0",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-receipt.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "ecead1a58bf54dd800eecc664dfbdaeb033ce5ac44089416c327bcf88e2ca861",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-release_inventory.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "8c275e867303067c196cd55752b66022eaa71b3d4351d82a34626fc2ad2f24a0",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-release_inventory_after.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "8c275e867303067c196cd55752b66022eaa71b3d4351d82a34626fc2ad2f24a0",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/maintenance-validate_candidate.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "b8604c6b5d4078b32591071c6ef0fedfbf1f64028a9a244079be0ae610adf5e0",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/phenotype-review.md",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "6f59cf02308e00b2fc91730480e612a6c06dc2acdbb57b20ea5ea53d388d9ea3",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/replay.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "c2127909dbf9eecf2500f652a845d8fa0e6b4d6f9888ca2d66dd14536643c9d0",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/review-findings.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "00caacc50463fecab36eb9390ac66677ad2ea1edcb932d0e289abdec2cacd876",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/review.md",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "f9f857332fbe0cbf545530be193e192a4687874d1c9e4d2c7f855fb90a3efc20",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/source-review-checker.py",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "7a905b83cb7fe56f7bb4855ef3565c7f1c6f3b769e8f31a8b7eec3b549d26635",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/source-review.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "5db06b3774a0d285d15e526c83d2c4810422defca4c68457eb955f50edb2b4a7",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/tests.log",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "6d6aa1504e3dc99e2b7267b966a440923b6b8da7653634b224572bf8a31bbcf3",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/acceptance/expansion/verification.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "7289046e60ce5bf4cbcf7d0a84523f250c4e5e43bab6829c50c97b5f514a88ce",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/curation/coverage_inventory.json",
+      "baseline_comparison": "same text; checkout line endings differ",
+      "candidate_sha256": "198c66da64868b8821311d7056a036ff4f565c0445327d28df6557f94d668faa",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/curation/expansion.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "fcac19925fa78445759cfcab4c078da06ab2588ae726b913080f14c30480ff78",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/curation/expansion_selection.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "a61475994104d659ead95d4bcaa84621b99502e8f84ce62ba5fa3b1d98fe586d",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/seed/coverage.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "706f488674a6d8b08c15f7802059429811fa13ed1eb66b0c7e7234194b2b3c98",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/seed/demo_paths.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "f12c16a09144ec822214fef131f584f0d2ba87fbea6fcbef4712e600ba1a544d",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/seed/funding_overlap.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "98012bcabd1e5f122aa476eae6c053634261c4ebfb79c2eba4e7e7bfa59f3038",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/seed/graph.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "1dee1870b96dbaed1e32fa2cf55510661e4f6d5f2aa27966e9b3d5f8ae86ce4b",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "data/seed/provenance.json",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "e711d9cb5089d2fbf476c805831e44ae43f4d54c22158a97ab133b1085f3befc",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/build_graph.py",
+      "baseline_comparison": "same text; checkout line endings differ",
+      "candidate_sha256": "f7d0c4f8b946c1707e65a7d0fd9d1224b318fc315bd30fdf39d78baec68e0a43",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/expand_slice.py",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "91795e1624398f9a87932e418af47e6d66b61c3211cf2f7fb4ec44bdb2fbbd5c",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/fetch_slice.py",
+      "baseline_comparison": "same text; checkout line endings differ",
+      "candidate_sha256": "cf53992ffd137767340d8d217d5493f519c6c738478c6eb2dfc79018bc4db66f",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/tests/check_expansion_consumers.mjs",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "025bf18a01fd9f6eaff735f39de041645080e8a5345643c6afc93bcfc545893d",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/tests/check_expansion_database.py",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "03bc8c34d53814501da01474fca5071c30bda4ee3c4bd55667e8e27c224d9d1a",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/tests/test_expansion.py",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "5e010a68846994a1ef4e40491b8767cd3b907deed257de6749cca85020f8cbcb",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/tests/test_funding_projection.py",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "00c0f712a25fc377997422217d00be3cdd9a490fa023f7016f5e469275f25745",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/tests/test_release.py",
+      "baseline_comparison": "same text; checkout line endings differ",
+      "candidate_sha256": "6f74377e0910d789cae09df221e8d172d42fd17814d7e161bc1f6099bdb45f35",
+      "receipt_regenerated": false
+    },
+    {
+      "path": "pipeline/verify_expansion.py",
+      "baseline_comparison": "exact bytes",
+      "candidate_sha256": "d0eaef60e7c692388c45bafd570c94408662f319ba6c27067cbd9b30aa4ce097",
+      "receipt_regenerated": false
+    }
+  ],
+  "excluded_local_browser_artifacts": [
+    "data/acceptance/expansion/browser/identifier-no-match.jpg",
+    "data/acceptance/expansion/browser/identifier-no-match.txt",
+    "data/acceptance/expansion/browser/nih-preclinical-asset.jpg",
+    "data/acceptance/expansion/browser/nih-preclinical-asset.txt",
+    "data/acceptance/expansion/browser/no-route.jpg",
+    "data/acceptance/expansion/browser/no-route.txt",
+    "data/acceptance/expansion/browser/original-contradiction.jpg",
+    "data/acceptance/expansion/browser/original-contradiction.txt",
+    "data/acceptance/expansion/browser/original-foundation-evidence.jpg",
+    "data/acceptance/expansion/browser/original-foundation-evidence.txt",
+    "data/acceptance/expansion/browser/original-investigator-overlap.jpg",
+    "data/acceptance/expansion/browser/original-investigator-overlap.txt",
+    "data/acceptance/expansion/browser/original-scn2a-gof-variant.jpg",
+    "data/acceptance/expansion/browser/original-scn2a-gof-variant.txt",
+    "data/acceptance/expansion/browser/original-scn2a-lof-evidence.jpg",
+    "data/acceptance/expansion/browser/original-scn2a-lof-evidence.txt",
+    "data/acceptance/expansion/browser/original-scn2a-lof-variant.jpg",
+    "data/acceptance/expansion/browser/original-scn2a-lof-variant.txt",
+    "data/acceptance/expansion/browser/original-starr-evidence.jpg",
+    "data/acceptance/expansion/browser/original-starr-evidence.txt",
+    "data/acceptance/expansion/browser/original-starr-registry.jpg",
+    "data/acceptance/expansion/browser/original-starr-registry.txt",
+    "data/acceptance/expansion/browser/phenotype-frequency.jpg",
+    "data/acceptance/expansion/browser/phenotype-frequency.txt",
+    "data/acceptance/expansion/browser/public-investigator.jpg",
+    "data/acceptance/expansion/browser/public-investigator.txt",
+    "data/acceptance/expansion/browser/search-truncation.jpg",
+    "data/acceptance/expansion/browser/search-truncation.txt",
+    "data/acceptance/expansion/browser/single-participant-after-viewport-reset.jpg",
+    "data/acceptance/expansion/browser/single-participant-after-viewport-reset.txt",
+    "data/acceptance/expansion/browser/single-participant-before.jpg",
+    "data/acceptance/expansion/browser/single-participant-study.jpg",
+    "data/acceptance/expansion/browser/single-participant-study.txt",
+    "data/acceptance/expansion/browser/status-NCT03934268.txt",
+    "data/acceptance/expansion/browser/status-NCT05161494.txt",
+    "data/acceptance/expansion/browser/status-NCT05462054.txt",
+    "data/acceptance/expansion/browser/status-NCT06356233.txt",
+    "data/acceptance/expansion/browser/status-NCT06625112.txt",
+    "data/acceptance/expansion/browser/terminated-study.jpg",
+    "data/acceptance/expansion/browser/terminated-study.txt",
+    "data/acceptance/expansion/browser-review.json"
+  ],
+  "image_files_added": 0,
+  "scope": "P1 expansion only; all target baseline changes checked before copying; boundary receipt regenerated by the current recheck"
+}

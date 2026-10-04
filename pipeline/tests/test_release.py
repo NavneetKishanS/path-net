@@ -26,7 +26,9 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(self.graph, json.loads((ROOT / "data/seed/graph.json").read_text(encoding="utf-8")))
         self.assertEqual(validate_graph(self.graph), [])
         self.assertEqual(validate_provenance(self.graph, self.provenance, ROOT / "data"), [])
-        self.assertTrue(40 <= len(self.graph["nodes"]) <= 60)
+        expansion = ROOT / "data/curation/expansion_selection.json"
+        minimum, maximum = json.loads(expansion.read_text(encoding="utf-8"))["target_node_range"] if expansion.is_file() else (40, 60)
+        self.assertTrue(minimum <= len(self.graph["nodes"]) <= maximum)
 
     def test_all_demo_paths_have_connected_verified_support(self):
         for name in ("primary_journey", "network_overlap"):
@@ -61,11 +63,20 @@ class ReleaseTests(unittest.TestCase):
         ontology = json.loads((ROOT / "data/curation/ontology_slice.json").read_text(encoding="utf-8"))
         relations = ontology["disease_phenotypes"]
         keys = {(r["src"], r["dst"], r["stance"]) for r in relations}
+        self.assertGreater(len(relations), len(keys))
         graph_edges = [e for e in self.graph["edges"] if e["type"] == "disease_phenotype"]
+        expansion = ROOT / "data/curation/expansion.json"
+        extra_evidence = []
+        if expansion.is_file():
+            extra = json.loads(expansion.read_text(encoding="utf-8"))
+            keys.update((e["src"], e["dst"], e["stance"])
+                        for e in extra["edges"]
+                        if e["type"] == "disease_phenotype")
+            extra_evidence = extra["evidence"]
         self.assertEqual(len(graph_edges), len(keys))
         ids = {e["id"] for e in graph_edges}
-        self.assertEqual(sum(ev["edge_id"] in ids for ev in self.graph["evidence"]), len(relations))
-        self.assertGreater(len(relations), len(keys))
+        self.assertEqual(sum(ev["edge_id"] in ids for ev in self.graph["evidence"]),
+                         len(relations) + sum(ev["edge_id"] in ids for ev in extra_evidence))
 
     def test_trial_statuses_and_person_identity_are_not_promoted(self):
         self.assertEqual(self.nodes["study_nct06983158"]["props"]["status"], "TERMINATED")

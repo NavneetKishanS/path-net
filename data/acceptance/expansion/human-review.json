@@ -1,0 +1,38 @@
+{
+  "kind": "human_peer_acceptance_worksheet",
+  "created_at": "2026-10-04T03:08:50.756453+00:00",
+  "graph_file_sha256": "670ed3d4cb63dc8a69ee99e2aeb0fd666310037385863d9028b35ddc2aa75e70",
+  "status": "pending",
+  "delivery_language": "English",
+  "user_confirmed_p2_artifacts_not_generated": true,
+  "gold_set_owner": "P2; context/roles/P2-ai-graph.md M0 explicitly requires five hand-labelled abstracts",
+  "p1_support": "Supply pinned abstracts, provenance and selection context; fact-check P2 labels and outputs when available.",
+  "reviewers": {
+    "P1": {
+      "name": null,
+      "reviewed_at": null,
+      "decision": "pending",
+      "notes": null
+    },
+    "P2": {
+      "name": null,
+      "reviewed_at": null,
+      "decision": "pending",
+      "notes": null
+    }
+  },
+  "required_checks": [
+    "P1 reviews exact disease/HPO frequency mappings and dated clinical/NIH metadata.",
+    "P2 reviews discovery links versus mechanism/efficacy interpretations and the 10 original demo edges.",
+    "P2 prepares and manually approves the five-abstract gold set, evaluates extraction, and supplies gold/extracted/explanation artifacts.",
+    "P1 performs reciprocal source checking of P2 artifacts using claim, quote and edge IDs and explicit model limitations.",
+    "P2/P3 resolve or explicitly record decisions on R1-R6 and repeat affected acceptance checks."
+  ],
+  "note": "No human sign-off has been recorded. Reviewer identities and decisions require actual reviewer input.",
+  "p1_agent_review": {
+    "status": "passed",
+    "reviewed_at": "2026-10-04T03:40:03.692598+00:00",
+    "receipt": "../p1-data-v2/verification.json",
+    "publication_gate": "User requested P1-only review; P2/M4 gates remain separate"
+  }
+}

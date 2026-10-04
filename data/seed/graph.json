@@ -39,6 +39,44 @@
       }
     },
     {
+      "id": "asset_nih_11261040",
+      "type": "asset",
+      "name": "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11261040",
+        "NIHProject": "5R01NS034509-29"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN8A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11261040",
+        "source_url": "https://reporter.nih.gov/project-details/11261040",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "R01NS034509",
+        "project_start_date": "1996-05-01T00:00:00",
+        "project_end_date": "2027-01-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 465915.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+        "investigator_ids": [
+          "person_nih_1863377"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
       "id": "asset_nih_11261066",
       "type": "asset",
       "name": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
@@ -74,6 +112,159 @@
         ],
         "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
         "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "asset_nih_11285465",
+      "type": "asset",
+      "name": "SCN8A encephalopathy: disease mechanisms and treatment",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11285465",
+        "NIHProject": "5R01NS126392-04"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN8A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11285465",
+        "source_url": "https://reporter.nih.gov/project-details/11285465",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "R01NS126392",
+        "project_start_date": "2023-03-01T00:00:00",
+        "project_end_date": "2028-02-29T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 523154.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "EMORY UNIVERSITY",
+        "investigator_ids": [
+          "person_nih_7347049"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "asset_nih_11289342",
+      "type": "asset",
+      "name": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11289342",
+        "NIHProject": "5R01MH136475-03"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN2A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11289342",
+        "source_url": "https://reporter.nih.gov/project-details/11289342",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "R01MH136475",
+        "project_start_date": "2024-04-01T00:00:00",
+        "project_end_date": "2029-01-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "MH",
+            "name": "National Institute of Mental Health",
+            "abbreviation": "NIMH",
+            "total_cost": 672761.0
+          }
+        ],
+        "administering_institute": "National Institute of Mental Health",
+        "organization": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+        "investigator_ids": [
+          "person_nih_8843508",
+          "person_nih_1858291"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "asset_nih_11309107",
+      "type": "asset",
+      "name": "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11309107",
+        "NIHProject": "5F31NS143361-02"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN8A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11309107",
+        "source_url": "https://reporter.nih.gov/project-details/11309107",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "F31NS143361",
+        "project_start_date": "2025-07-01T00:00:00",
+        "project_end_date": "2027-12-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 50114.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "COLUMBIA UNIVERSITY HEALTH SCIENCES",
+        "investigator_ids": [
+          "person_nih_78316333"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "asset_nih_11312585",
+      "type": "asset",
+      "name": "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11312585",
+        "NIHProject": "5F31NS135753-03"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying KCNQ2; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11312585",
+        "source_url": "https://reporter.nih.gov/project-details/11312585",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "F31NS135753",
+        "project_start_date": "2024-04-01T00:00:00",
+        "project_end_date": "2027-01-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 46477.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "NORTHWESTERN UNIVERSITY",
+        "investigator_ids": [
+          "person_nih_78318543"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
       }
     },
     {
@@ -190,6 +381,82 @@
         ],
         "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
         "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "asset_nih_11436758",
+      "type": "asset",
+      "name": "Examining Scn2a loss of function in sensory perception",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11436758",
+        "NIHProject": "1K99NS151036-01"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN2A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11436758",
+        "source_url": "https://reporter.nih.gov/project-details/11436758",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "K99NS151036",
+        "project_start_date": "2026-08-15T00:00:00",
+        "project_end_date": "2028-07-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 117747.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+        "investigator_ids": [
+          "person_nih_14132242"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "asset_nih_11594149",
+      "type": "asset",
+      "name": "Dual-AAV gene replacement for SCN2A disorders",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHRePORTER": "11594149",
+        "NIHProject": "1R56NS144233-01A1"
+      },
+      "props": {
+        "plain": "An NIH-supported research project studying SCN2A; this record describes planned work, not proven treatment benefit.",
+        "kind": "funded_research_project",
+        "url": "https://reporter.nih.gov/project-details/11594149",
+        "source_url": "https://reporter.nih.gov/project-details/11594149",
+        "retrieved_at": "2026-10-03",
+        "fiscal_year": 2026,
+        "core_project_num": "R56NS144233",
+        "project_start_date": "2026-08-04T00:00:00",
+        "project_end_date": "2027-07-31T00:00:00",
+        "source_is_active": true,
+        "funder": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 545644.0
+          }
+        ],
+        "administering_institute": "National Institute of Neurological Disorders and Stroke",
+        "organization": "PURDUE UNIVERSITY",
+        "investigator_ids": [
+          "person_nih_12032778"
+        ],
+        "next_step": "Review the funded aims and linked publications to assess whether methods or models can be reused. Verify availability with the research institution.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
       }
     },
     {
@@ -630,6 +897,62 @@
       }
     },
     {
+      "id": "hp_0000750",
+      "type": "phenotype",
+      "name": "Delayed speech and language development",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0000750"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Delayed speech and language development. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0000752",
+      "type": "phenotype",
+      "name": "Hyperactivity",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0000752"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Hyperactivity. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0000980",
+      "type": "phenotype",
+      "name": "Pallor",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0000980"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Pallor. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0001041",
+      "type": "phenotype",
+      "name": "Facial erythema",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0001041"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Facial erythema. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
       "id": "hp_0001249",
       "type": "phenotype",
       "name": "Intellectual disability",
@@ -750,6 +1073,20 @@
           }
         ],
         "plain": "A recorded clinical feature: Hypotonia. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0001257",
+      "type": "phenotype",
+      "name": "Spasticity",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0001257"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Spasticity. A disease-level annotation does not mean every person has this feature."
       }
     },
     {
@@ -923,6 +1260,76 @@
       }
     },
     {
+      "id": "hp_0002059",
+      "type": "phenotype",
+      "name": "Cerebral atrophy",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002059"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Cerebral atrophy. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002079",
+      "type": "phenotype",
+      "name": "Hypoplasia of the corpus callosum",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002079"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Hypoplasia of the corpus callosum. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002104",
+      "type": "phenotype",
+      "name": "Apnea",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002104"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Apnea. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002123",
+      "type": "phenotype",
+      "name": "Generalized myoclonic seizure",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002123"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Generalized myoclonic seizure. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002181",
+      "type": "phenotype",
+      "name": "Cerebral edema",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002181"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Cerebral edema. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
       "id": "hp_0002376",
       "type": "phenotype",
       "name": "Developmental regression",
@@ -970,6 +1377,62 @@
       }
     },
     {
+      "id": "hp_0002384",
+      "type": "phenotype",
+      "name": "Focal impaired awareness seizure",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002384"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Focal impaired awareness seizure. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002453",
+      "type": "phenotype",
+      "name": "Abnormal globus pallidus morphology",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002453"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Abnormal globus pallidus morphology. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002500",
+      "type": "phenotype",
+      "name": "Abnormal cerebral white matter morphology",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002500"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Abnormal cerebral white matter morphology. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002510",
+      "type": "phenotype",
+      "name": "Spastic tetraplegia",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002510"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Spastic tetraplegia. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
       "id": "hp_0002521",
       "type": "phenotype",
       "name": "Hypsarrhythmia",
@@ -987,6 +1450,118 @@
           }
         ],
         "plain": "A recorded clinical feature: Hypsarrhythmia. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0002540",
+      "type": "phenotype",
+      "name": "Inability to walk",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0002540"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Inability to walk. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0006989",
+      "type": "phenotype",
+      "name": "Dysplastic corpus callosum",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0006989"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Dysplastic corpus callosum. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0007015",
+      "type": "phenotype",
+      "name": "Poor gross motor coordination",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0007015"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Poor gross motor coordination. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0007334",
+      "type": "phenotype",
+      "name": "Bilateral tonic-clonic seizure with focal onset",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0007334"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Bilateral tonic-clonic seizure with focal onset. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0010818",
+      "type": "phenotype",
+      "name": "Generalized tonic seizure",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0010818"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Generalized tonic seizure. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0010819",
+      "type": "phenotype",
+      "name": "Atonic seizure",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0010819"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Atonic seizure. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0010841",
+      "type": "phenotype",
+      "name": "Multifocal epileptiform discharges",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0010841"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Multifocal epileptiform discharges. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0010851",
+      "type": "phenotype",
+      "name": "EEG with burst suppression",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0010851"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: EEG with burst suppression. A disease-level annotation does not mean every person has this feature."
       }
     },
     {
@@ -1019,6 +1594,146 @@
           }
         ],
         "plain": "A recorded clinical feature: Epileptic spasm. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0011153",
+      "type": "phenotype",
+      "name": "Focal motor seizure",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0011153"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Focal motor seizure. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0011185",
+      "type": "phenotype",
+      "name": "EEG with focal epileptiform discharges",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0011185"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: EEG with focal epileptiform discharges. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0011203",
+      "type": "phenotype",
+      "name": "EEG with abnormally slow frequencies",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0011203"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: EEG with abnormally slow frequencies. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0011968",
+      "type": "phenotype",
+      "name": "Feeding difficulties",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0011968"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Feeding difficulties. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0012448",
+      "type": "phenotype",
+      "name": "Delayed myelination",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0012448"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Delayed myelination. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0012469",
+      "type": "phenotype",
+      "name": "Infantile spasms",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0012469"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Infantile spasms. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0012736",
+      "type": "phenotype",
+      "name": "Profound global developmental delay",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0012736"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_439218",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Profound global developmental delay. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0012762",
+      "type": "phenotype",
+      "name": "Cerebral white matter atrophy",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0012762"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Cerebral white matter atrophy. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0100660",
+      "type": "phenotype",
+      "name": "Dyskinesia",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0100660"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Dyskinesia. A disease-level annotation does not mean every person has this feature."
+      }
+    },
+    {
+      "id": "hp_0200134",
+      "type": "phenotype",
+      "name": "Epileptic encephalopathy",
+      "synonyms": [],
+      "ext_ids": {
+        "HPO": "HP:0200134"
+      },
+      "props": {
+        "source_id": "orpha_phenotypes_599373",
+        "ontology_version": "Orphadata record 2026-06-23 07:57:18",
+        "plain": "A recorded clinical feature: Epileptic encephalopathy. A disease-level annotation does not mean every person has this feature."
       }
     },
     {
@@ -1160,6 +1875,36 @@
       }
     },
     {
+      "id": "person_nih_12032778",
+      "type": "person",
+      "name": "Yang Yang",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "12032778"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "PURDUE UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11594149",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_14132242",
+      "type": "person",
+      "name": "Kathryn Anne Salvati",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "14132242"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+        "source_url": "https://reporter.nih.gov/project-details/11436758",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
       "id": "person_nih_15318049",
       "type": "person",
       "name": "Ingo Helbig",
@@ -1171,6 +1916,36 @@
         "plain": "Publicly listed NIH investigator whose cited projects describe longitudinal phenotyping across these gene-related disorders.",
         "award_recipient_organization": "CHILDREN'S HOSP OF PHILADELPHIA",
         "source_url": "https://reporter.nih.gov/project-details/11301017",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_1858291",
+      "type": "person",
+      "name": "Daniel Feldman",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "1858291"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+        "source_url": "https://reporter.nih.gov/project-details/11289342",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_1863377",
+      "type": "person",
+      "name": "MIRIAM H MEISLER",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "1863377"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
+        "source_url": "https://reporter.nih.gov/project-details/11261040",
         "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
       }
     },
@@ -1190,6 +1965,21 @@
       }
     },
     {
+      "id": "person_nih_7347049",
+      "type": "person",
+      "name": "Andrew P Escayg",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "7347049"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "EMORY UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11285465",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
       "id": "person_nih_78265993",
       "type": "person",
       "name": "Brooke Horist",
@@ -1201,6 +1991,51 @@
         "plain": "Publicly listed principal investigator on the cited NIH award.",
         "award_recipient_organization": "BAYLOR COLLEGE OF MEDICINE",
         "source_url": "https://reporter.nih.gov/project-details/11322512",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_78316333",
+      "type": "person",
+      "name": "Jack Thomas Whiteley",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "78316333"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "COLUMBIA UNIVERSITY HEALTH SCIENCES",
+        "source_url": "https://reporter.nih.gov/project-details/11309107",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_78318543",
+      "type": "person",
+      "name": "Dalton Jun-Da Huey",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "78318543"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "NORTHWESTERN UNIVERSITY",
+        "source_url": "https://reporter.nih.gov/project-details/11312585",
+        "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "person_nih_8843508",
+      "type": "person",
+      "name": "Kevin J Bender",
+      "synonyms": [],
+      "ext_ids": {
+        "NIHProfile": "8843508"
+      },
+      "props": {
+        "plain": "Publicly listed principal investigator on the cited NIH award.",
+        "award_recipient_organization": "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+        "source_url": "https://reporter.nih.gov/project-details/11289342",
         "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
       }
     },
@@ -1217,6 +2052,290 @@
         "award_recipient_organization": "NORTHWESTERN UNIVERSITY",
         "source_url": "https://reporter.nih.gov/project-details/11381904",
         "contact_policy": "Use institutional/public source links. Email and phone fields are omitted; P4 owns any restricted contact view."
+      }
+    },
+    {
+      "id": "study_nct01238250",
+      "type": "study",
+      "name": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+      "synonyms": [
+        "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+        "NCT01238250"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT01238250"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT01238250",
+        "source_url": "https://clinicaltrials.gov/study/NCT01238250",
+        "study_type": "OBSERVATIONAL",
+        "status": "RECRUITING",
+        "status_verified_date": "2026-07",
+        "last_update_posted": "2026-07-23",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Simons Searchlight",
+        "conditions": [
+          "16P11.2 Deletion Syndrome",
+          "16p11.2 Duplications",
+          "1Q21.1 Deletion",
+          "1Q21.1 Microduplication Syndrome (Disorder)",
+          "ACTL6B",
+          "ADNP",
+          "AHDC1",
+          "ANK2",
+          "ANKRD11",
+          "ARID1B",
+          "ASH1L",
+          "BCL11A",
+          "CHAMP1",
+          "CHD2",
+          "CHD8",
+          "CSNK2A1",
+          "CTBP1",
+          "CTNNB1 Gene Mutation",
+          "CUL3",
+          "DDX3X",
+          "DNMT3A",
+          "DSCAM",
+          "DYRK1A",
+          "FOXP1",
+          "GRIN2A",
+          "GRIN2B",
+          "HIVEP2-Related Intellectual Disability",
+          "HNRNPH2",
+          "KATNAL2",
+          "KDM5B",
+          "KDM6B",
+          "KMT2C Gene Mutation",
+          "KMT2E",
+          "KMT5B",
+          "MBD5",
+          "MED13L",
+          "PACS1",
+          "PPP2R5D-Related Intellectual Disability",
+          "PTCHD1",
+          "REST",
+          "SCN2A Encephalopathy",
+          "SETBP1 Gene Mutation",
+          "SETD5",
+          "SMARCA4 Gene Mutation",
+          "SMARCC2",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "SYNGAP1-Related Intellectual Disability",
+          "TBR1",
+          "ARHGEF9",
+          "HNRNPU",
+          "PPP3CA",
+          "PPP2R1A",
+          "SLC6A1",
+          "2p16.3 Deletions",
+          "5q35 Deletions",
+          "5q35 Duplications",
+          "7q11.23 Duplications",
+          "15Q13.3 Deletion Syndrome",
+          "16p11.2 Triplications",
+          "16P12.2 Microdeletion",
+          "16P13.11 Microdeletion Syndrome (Disorder)",
+          "17Q12 Microdeletion Syndrome (Disorder)",
+          "17Q12 Duplication Syndrome",
+          "17Q21.31 Deletion Syndrome",
+          "17q21.3 Duplications",
+          "ACTB",
+          "ADSL",
+          "AFF2",
+          "ALDH5A1",
+          "ANK3",
+          "ARX",
+          "ATRX Gene Mutation",
+          "AUTS2 Syndrome",
+          "BCKDK",
+          "BRSK2",
+          "CACNA1C",
+          "CAPRIN1",
+          "CASK",
+          "CASZ1",
+          "CHD3",
+          "CIC",
+          "CNOT3",
+          "CREBBP Gene Mutation",
+          "CSDE1",
+          "CTCF",
+          "DEAF1",
+          "DHCR7",
+          "DLG4",
+          "EBF3",
+          "EHMT1",
+          "EP300 Gene Mutation",
+          "GIGYF1",
+          "GRIN1",
+          "GRIN2D",
+          "IQSEC2-Related Syndromic Intellectual Disability",
+          "IRF2BPL",
+          "KANSL1",
+          "KCNB1",
+          "KDM3B",
+          "NEXMIF",
+          "KMT2A",
+          "MBOAT7",
+          "MEIS2",
+          "MYT1L",
+          "NAA15",
+          "NBEA",
+          "NCKAP1",
+          "NIPBL",
+          "NLGN2",
+          "NLGN3",
+          "NLGN4X",
+          "NR4A2",
+          "NRXN1",
+          "NRXN2",
+          "NSD1 Gene Mutation",
+          "PHF21A",
+          "PHF3",
+          "PHIP",
+          "PSMD12",
+          "RELN",
+          "RERE",
+          "RFX3",
+          "RIMS1",
+          "RORB",
+          "SCN1A",
+          "SETD2 Gene Mutation",
+          "SHANK2",
+          "SIN3A",
+          "SLC9A6",
+          "SON",
+          "SOX5",
+          "SPAST",
+          "SRCAP",
+          "TAOK1",
+          "TANC2",
+          "TCF20",
+          "TLK2",
+          "TRIO",
+          "TRIP12",
+          "UPF3B",
+          "USP9X",
+          "VPS13B",
+          "WAC",
+          "WDFY3",
+          "ZBTB20",
+          "ZNF292",
+          "ZNF462",
+          "2Q37 Deletion Syndrome",
+          "9q34 Duplications",
+          "15q15 Deletions",
+          "15Q24 Deletion",
+          "NR3C2",
+          "SYNCRIP",
+          "2q37.3 Deletion",
+          "6q16 Deletion",
+          "15q11.2 BP1-BP2 Deletion",
+          "16p13.3 Deletion",
+          "17Q11.2 Microduplication Syndrome (Disorder)",
+          "17p13.3",
+          "Xq28 Duplication",
+          "CLCN4",
+          "CSNK2B",
+          "DYNC1H1",
+          "EIF3F",
+          "GNB1",
+          "MED13",
+          "MEF2C",
+          "RALGAPB",
+          "SCN1B",
+          "YY1",
+          "Xp11.22 Duplication",
+          "PACS2",
+          "MAOA",
+          "MAOB",
+          "HNRNPC",
+          "HNRNPD",
+          "HNRNPK",
+          "HNRNPR",
+          "HNRNPUL2",
+          "5P Deletion Syndrome",
+          "TCF7L2 Gene Mutation",
+          "HECW2",
+          "PPM1D",
+          "RNU4-2",
+          "SNAP25",
+          "FOXP2",
+          "ITSN1"
+        ],
+        "next_step": "Review the public protocol and outcome measures with the patient organization or research team. Confirm the current study status and eligibility on the source page.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct03934268",
+      "type": "study",
+      "name": "A Cohort Study on the Prognosis of Neonatal KCNQ2 Gene-associated Epileptic Encephalopathy",
+      "synonyms": [
+        "A Cohort Study on the Prognosis of Neonatal KCNQ2 Gene-associated Epileptic Encephalopathy",
+        "NCT03934268"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT03934268"
+      },
+      "props": {
+        "plain": "A registered research record relevant to KCNQ2. Retrieved 2026-10-03. Recorded status: unknown. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT03934268",
+        "source_url": "https://clinicaltrials.gov/study/NCT03934268",
+        "study_type": "OBSERVATIONAL",
+        "status": "UNKNOWN",
+        "status_verified_date": "2023-09",
+        "last_update_posted": "2023-09-21",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Children's Hospital of Fudan University",
+        "conditions": [
+          "Seizures",
+          "Seizure Disorder",
+          "Seizure Newborn",
+          "Seizures, Generalized",
+          "Epileptic Encephalopathy",
+          "Epileptic Encephalopathy, Neonatal-onset",
+          "Epileptic Encephalopathy, Infant-onset",
+          "KCNQ2"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct04639310",
+      "type": "study",
+      "name": "XEN496 (Ezogabine) in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+      "synonyms": [
+        "XEN496 (Ezogabine) in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+        "NCT04639310"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT04639310"
+      },
+      "props": {
+        "plain": "A registered research record relevant to KCNQ2. Retrieved 2026-10-03. Recorded status: terminated. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT04639310",
+        "source_url": "https://clinicaltrials.gov/study/NCT04639310",
+        "study_type": "INTERVENTIONAL",
+        "status": "TERMINATED",
+        "status_verified_date": "2024-08",
+        "last_update_posted": "2024-08-23",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Xenon Pharmaceuticals Inc.",
+        "conditions": [
+          "Epilepsy",
+          "Epilepsy in Children",
+          "Epilepsy; Seizure",
+          "Disease",
+          "Brain Diseases",
+          "Central Nervous System Diseases",
+          "Nervous System Diseases",
+          "Epileptic Syndromes"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
       }
     },
     {
@@ -1248,6 +2367,70 @@
       }
     },
     {
+      "id": "study_nct04912856",
+      "type": "study",
+      "name": "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+      "synonyms": [
+        "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+        "NCT04912856"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT04912856"
+      },
+      "props": {
+        "plain": "A registered research record relevant to KCNQ2. Retrieved 2026-10-03. Recorded status: terminated. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT04912856",
+        "source_url": "https://clinicaltrials.gov/study/NCT04912856",
+        "study_type": "INTERVENTIONAL",
+        "status": "TERMINATED",
+        "status_verified_date": "2024-12",
+        "last_update_posted": "2025-02-14",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Xenon Pharmaceuticals Inc.",
+        "conditions": [
+          "Epilepsy",
+          "Epilepsy in Children",
+          "Epilepsy; Seizure",
+          "Disease",
+          "Brain Diseases",
+          "Central Nervous System Diseases",
+          "Nervous System Diseases",
+          "Epileptic Syndromes"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct04937062",
+      "type": "study",
+      "name": "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
+      "synonyms": [
+        "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
+        "NCT04937062"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT04937062"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: active not recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT04937062",
+        "source_url": "https://clinicaltrials.gov/study/NCT04937062",
+        "study_type": "INTERVENTIONAL",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "status_verified_date": "2026-01",
+        "last_update_posted": "2026-01-22",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Weill Medical College of Cornell University",
+        "conditions": [
+          "STXBP1 Encephalopathy With Epilepsy, SLC6A1 Neurodevelopmental Disorder",
+          "Developmental and Epileptic Encephalopathy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
       "id": "study_nct05157737",
       "type": "study",
       "name": "KCNQ2 clinical phenotype and omics study",
@@ -1273,6 +2456,153 @@
         ],
         "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
         "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct05161494",
+      "type": "study",
+      "name": "Gait in Rare Diseases",
+      "synonyms": [
+        "Gait in Rare Diseases",
+        "NCT05161494"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05161494"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: completed. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT05161494",
+        "source_url": "https://clinicaltrials.gov/study/NCT05161494",
+        "study_type": "OBSERVATIONAL",
+        "status": "COMPLETED",
+        "status_verified_date": "2026-04",
+        "last_update_posted": "2026-05-07",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Universiteit Antwerpen",
+        "conditions": [
+          "Tuberous Sclerosis",
+          "STXBP1 Encephalopathy With Epilepsy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct05226780",
+      "type": "study",
+      "name": "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+      "synonyms": [
+        "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+        "NCT05226780"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05226780"
+      },
+      "props": {
+        "plain": "A registered research record relevant to SCN8A. Retrieved 2026-10-03. Recorded status: terminated. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT05226780",
+        "source_url": "https://clinicaltrials.gov/study/NCT05226780",
+        "study_type": "INTERVENTIONAL",
+        "status": "TERMINATED",
+        "status_verified_date": "2026-05",
+        "last_update_posted": "2026-05-27",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Neurocrine Biosciences",
+        "conditions": [
+          "SCN8A Developmental and Epileptic Encephalopathy Syndrome"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct05232630",
+      "type": "study",
+      "name": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+      "synonyms": [
+        "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+        "NCT05232630"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05232630"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: completed. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT05232630",
+        "source_url": "https://clinicaltrials.gov/study/NCT05232630",
+        "study_type": "INTERVENTIONAL",
+        "status": "COMPLETED",
+        "status_verified_date": "2024-12",
+        "last_update_posted": "2026-09-29",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Hospital Ruber Internacional",
+        "conditions": [
+          "Refractory Epilepsy",
+          "SYNGAP1 Encephalopathy",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "Inv Dup(15) Encephalopathy",
+          "Multifocal or Bilateral Malformations of Cortical Development",
+          "Continuous Spike and Waves During Slow Sleep"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct05407727",
+      "type": "study",
+      "name": "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+      "synonyms": [
+        "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+        "NCT05407727"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05407727"
+      },
+      "props": {
+        "plain": "A registered research record relevant to SCN2A. Retrieved 2026-10-03. Recorded status: completed. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT05407727",
+        "source_url": "https://clinicaltrials.gov/study/NCT05407727",
+        "study_type": "OBSERVATIONAL",
+        "status": "COMPLETED",
+        "status_verified_date": "2024-01",
+        "last_update_posted": "2024-01-10",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Praxis Precision Medicines",
+        "conditions": [
+          "SCN2A-DEE",
+          "Epilepsy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct05462054",
+      "type": "study",
+      "name": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+      "synonyms": [
+        "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+        "NCT05462054"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05462054"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: withdrawn. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT05462054",
+        "source_url": "https://clinicaltrials.gov/study/NCT05462054",
+        "study_type": "OBSERVATIONAL",
+        "status": "WITHDRAWN",
+        "status_verified_date": "2024-10",
+        "last_update_posted": "2024-10-18",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Capsida Biotherapeutics, Inc.",
+        "conditions": [
+          "STXBP1 Encephalopathy with Epilepsy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
       }
     },
     {
@@ -1302,6 +2632,91 @@
         ],
         "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
         "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct05818553",
+      "type": "study",
+      "name": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "synonyms": [
+        "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+        "NCT05818553"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT05818553"
+      },
+      "props": {
+        "plain": "A registered research record relevant to SCN2A. Retrieved 2026-10-03. Recorded status: active not recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT05818553",
+        "source_url": "https://clinicaltrials.gov/study/NCT05818553",
+        "study_type": "INTERVENTIONAL",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "status_verified_date": "2025-01",
+        "last_update_posted": "2026-01-29",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Praxis Precision Medicines",
+        "conditions": [
+          "SCN2A Encephalopathy",
+          "SCN8A Encephalopathy"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct06314490",
+      "type": "study",
+      "name": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+      "synonyms": [
+        "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+        "NCT06314490"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT06314490"
+      },
+      "props": {
+        "plain": "An individualized research protocol for one pediatric participant with SCN2A-associated developmental epileptic encephalopathy; not a general enrollment opportunity. Retrieved 2026-10-03. Recorded status: active not recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT06314490",
+        "source_url": "https://clinicaltrials.gov/study/NCT06314490",
+        "study_type": "INTERVENTIONAL",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "status_verified_date": "2025-03",
+        "last_update_posted": "2025-04-01",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "University of California, San Diego",
+        "conditions": [
+          "Genetic Disease"
+        ],
+        "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
+      "id": "study_nct06356233",
+      "type": "study",
+      "name": "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+      "synonyms": [
+        "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+        "NCT06356233"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT06356233"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: not yet recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT06356233",
+        "source_url": "https://clinicaltrials.gov/study/NCT06356233",
+        "study_type": "OBSERVATIONAL",
+        "status": "NOT_YET_RECRUITING",
+        "status_verified_date": "2024-04",
+        "last_update_posted": "2024-04-10",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Fundación Iniciativa para las Neurociencias (FINCE)",
+        "conditions": [
+          "STXBP1 Encephalopathy With Epilepsy"
+        ],
+        "next_step": "Review the public protocol and outcome measures with the patient organization or research team. Confirm the current study status and eligibility on the source page.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
       }
     },
     {
@@ -1335,6 +2750,34 @@
       }
     },
     {
+      "id": "study_nct06625112",
+      "type": "study",
+      "name": "A Multicentric European Study to Promote Clinical Trial Readiness for STXBP1-related Disorders",
+      "synonyms": [
+        "A Multicentric European Study to Promote Clinical Trial Readiness for STXBP1-related Disorders",
+        "NCT06625112"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT06625112"
+      },
+      "props": {
+        "plain": "A registered research record relevant to STXBP1. Retrieved 2026-10-03. Recorded status: recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT06625112",
+        "source_url": "https://clinicaltrials.gov/study/NCT06625112",
+        "study_type": "OBSERVATIONAL",
+        "status": "RECRUITING",
+        "status_verified_date": "2026-02",
+        "last_update_posted": "2026-02-06",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "European STXBP1 Consortium",
+        "conditions": [
+          "STXBP1 Encephalopathy With Epilepsy"
+        ],
+        "next_step": "Review the public protocol and outcome measures with the patient organization or research team. Confirm the current study status and eligibility on the source page.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
+      }
+    },
+    {
       "id": "study_nct06983158",
       "type": "study",
       "name": "CAP-002 STXBP1 gene-therapy study",
@@ -1360,6 +2803,35 @@
         ],
         "next_step": "Review the public study record as a research resource. Do not present it as an open enrollment opportunity; check the current official status.",
         "scope_note": "Reviewed discovery links for these gene-related conditions. A study or grant can cover a wider spectrum than the MONDO disease node; each edge states this limitation. These links do not establish treatment efficacy, individual eligibility, or functional effects."
+      }
+    },
+    {
+      "id": "study_nct07019922",
+      "type": "study",
+      "name": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+      "synonyms": [
+        "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+        "NCT07019922"
+      ],
+      "ext_ids": {
+        "ClinicalTrials.gov": "NCT07019922"
+      },
+      "props": {
+        "plain": "A registered research record relevant to SCN2A. Retrieved 2026-10-03. Recorded status: recruiting. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+        "url": "https://clinicaltrials.gov/study/NCT07019922",
+        "source_url": "https://clinicaltrials.gov/study/NCT07019922",
+        "study_type": "INTERVENTIONAL",
+        "status": "RECRUITING",
+        "status_verified_date": "2026-07",
+        "last_update_posted": "2026-08-03",
+        "retrieved_at": "2026-10-03",
+        "sponsor": "Praxis Precision Medicines",
+        "conditions": [
+          "Epileptic Encephalopathy",
+          "SCN2A Encephalopathy"
+        ],
+        "next_step": "Review the public protocol and outcome measures with the patient organization or research team. Confirm the current study status and eligibility on the source page.",
+        "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction."
       }
     },
     {
@@ -1556,9 +3028,64 @@
       "note": "Foundation describes an STXBP1 patient-owned data-collection program enabled by RARE-X; clinical efficacy and current data availability are not established."
     },
     {
+      "id": "e_asset_disease_asset_nih_11261040_dis_scn8a",
+      "src": "asset_nih_11261040",
+      "dst": "dis_scn8a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
       "id": "e_asset_disease_asset_nih_11261066_dis_scn8a",
       "src": "asset_nih_11261066",
       "dst": "dis_scn8a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11285465_dis_scn8a",
+      "src": "asset_nih_11285465",
+      "dst": "dis_scn8a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11289342_dis_scn2a",
+      "src": "asset_nih_11289342",
+      "dst": "dis_scn2a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11309107_dis_scn8a",
+      "src": "asset_nih_11309107",
+      "dst": "dis_scn8a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11312585_dis_kcnq2",
+      "src": "asset_nih_11312585",
+      "dst": "dis_kcnq2",
       "type": "asset_disease",
       "tier": "A",
       "confidence": null,
@@ -1592,6 +3119,28 @@
       "id": "e_asset_disease_asset_nih_11381904_dis_kcnq2",
       "src": "asset_nih_11381904",
       "dst": "dis_kcnq2",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11436758_dis_scn2a",
+      "src": "asset_nih_11436758",
+      "dst": "dis_scn2a",
+      "type": "asset_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Funded project relevant to this gene-related condition. Funding is represented as asset metadata because the shared contract has no funder node/edge type. Award years must not be summed as independent projects."
+    },
+    {
+      "id": "e_asset_disease_asset_nih_11594149_dis_scn2a",
+      "src": "asset_nih_11594149",
+      "dst": "dis_scn2a",
       "type": "asset_disease",
       "tier": "A",
       "confidence": null,
@@ -1655,6 +3204,28 @@
       "note": "Curated database association; source identity and exact ontology mappings are preserved in provenance.json."
     },
     {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0000980_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0000980",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0001041_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0001041",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
       "id": "e_disease_phenotype_dis_kcnq2_hp_0001249_supports",
       "src": "dis_kcnq2",
       "dst": "hp_0001249",
@@ -1710,6 +3281,72 @@
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
     },
     {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002059_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002059",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002079_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002079",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002104_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002104",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002181_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002181",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002453_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002453",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002500_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002500",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very frequent (99-80%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
       "id": "e_disease_phenotype_dis_kcnq2_hp_0002521_supports",
       "src": "dis_kcnq2",
       "dst": "hp_0002521",
@@ -1721,6 +3358,50 @@
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
     },
     {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0002540_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0002540",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0007015_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0007015",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0010818_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0010818",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very frequent (99-80%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0010851_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0010851",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very frequent (99-80%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
       "id": "e_disease_phenotype_dis_kcnq2_hp_0011097_supports",
       "src": "dis_kcnq2",
       "dst": "hp_0011097",
@@ -1730,6 +3411,39 @@
       "stance": "supports",
       "status": "verified",
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0011968_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0011968",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0012736_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0012736",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_kcnq2_hp_0200134_supports",
+      "src": "dis_kcnq2",
+      "dst": "hp_0200134",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very frequent (99-80%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
     },
     {
       "id": "e_disease_phenotype_dis_scn2a_dee_hp_0001263_supports",
@@ -1820,6 +3534,28 @@
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
     },
     {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0000750_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0000750",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0000752_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0000752",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
       "id": "e_disease_phenotype_dis_stxbp1_hp_0001249_supports",
       "src": "dis_stxbp1",
       "dst": "hp_0001249",
@@ -1862,6 +3598,17 @@
       "stance": "supports",
       "status": "verified",
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0001257_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0001257",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very rare (<4-1%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
     },
     {
       "id": "e_disease_phenotype_dis_stxbp1_hp_0001263_supports",
@@ -1908,6 +3655,17 @@
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
     },
     {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0002123_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0002123",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
       "id": "e_disease_phenotype_dis_stxbp1_hp_0002376_supports",
       "src": "dis_stxbp1",
       "dst": "hp_0002376",
@@ -1917,6 +3675,28 @@
       "stance": "supports",
       "status": "verified",
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0002384_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0002384",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0002510_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0002510",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very rare (<4-1%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
     },
     {
       "id": "e_disease_phenotype_dis_stxbp1_hp_0002521_supports",
@@ -1930,6 +3710,61 @@
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
     },
     {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0002540_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0002540",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0006989_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0006989",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0007334_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0007334",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very rare (<4-1%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0010819_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0010819",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0010841_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0010841",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
       "id": "e_disease_phenotype_dis_stxbp1_hp_0011097_supports",
       "src": "dis_stxbp1",
       "dst": "hp_0011097",
@@ -1939,6 +3774,94 @@
       "stance": "supports",
       "status": "verified",
       "note": "A disease-level phenotype annotation, not a statement that every affected person has this feature. See the source row for frequency, onset, and evidence code."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0011153_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0011153",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0011185_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0011185",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Frequent (79-30%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0011203_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0011203",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0012448_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0012448",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very rare (<4-1%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0012469_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0012469",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0012762_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0012762",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0100660_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0100660",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Very rare (<4-1%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
+    },
+    {
+      "id": "e_disease_phenotype_dis_stxbp1_hp_0200134_supports",
+      "src": "dis_stxbp1",
+      "dst": "hp_0200134",
+      "type": "disease_phenotype",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Orphadata disease-level annotation; recorded frequency: Occasional (29-5%). Not every affected person has this feature; frequency is a source band, not individual risk. Exact HPO label is retained from the dated Orphadata response; no new HPO release validation is claimed."
     },
     {
       "id": "e_investigator_disease_person_nih_10318768_dis_scn2a_dee",
@@ -1966,6 +3889,28 @@
       "id": "e_investigator_disease_person_nih_11673518_dis_kcnq2",
       "src": "person_nih_11673518",
       "dst": "dis_kcnq2",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_12032778_dis_scn2a",
+      "src": "person_nih_12032778",
+      "dst": "dis_scn2a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_14132242_dis_scn2a",
+      "src": "person_nih_14132242",
+      "dst": "dis_scn2a",
       "type": "investigator_disease",
       "tier": "A",
       "confidence": null,
@@ -2007,9 +3952,42 @@
       "note": "The award identifies this PI and explicitly describes the team's research on the named gene-related disorders. Shared investigators are a discovery opportunity, not proof of a shared disease mechanism."
     },
     {
+      "id": "e_investigator_disease_person_nih_1858291_dis_scn2a",
+      "src": "person_nih_1858291",
+      "dst": "dis_scn2a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_1863377_dis_scn8a",
+      "src": "person_nih_1863377",
+      "dst": "dis_scn8a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
       "id": "e_investigator_disease_person_nih_6574463_dis_kcnq2",
       "src": "person_nih_6574463",
       "dst": "dis_kcnq2",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_7347049_dis_scn8a",
+      "src": "person_nih_7347049",
+      "dst": "dis_scn8a",
       "type": "investigator_disease",
       "tier": "A",
       "confidence": null,
@@ -2029,6 +4007,39 @@
       "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
     },
     {
+      "id": "e_investigator_disease_person_nih_78316333_dis_scn8a",
+      "src": "person_nih_78316333",
+      "dst": "dis_scn8a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_78318543_dis_kcnq2",
+      "src": "person_nih_78318543",
+      "dst": "dis_kcnq2",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_investigator_disease_person_nih_8843508_dis_scn2a",
+      "src": "person_nih_8843508",
+      "dst": "dis_scn2a",
+      "type": "investigator_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
       "id": "e_investigator_disease_person_nih_8880930_dis_kcnq2",
       "src": "person_nih_8880930",
       "dst": "dis_kcnq2",
@@ -2038,6 +4049,50 @@
       "stance": "supports",
       "status": "verified",
       "note": "Structured association: the source lists this person as a PI on the cited gene-related research award. It does not imply clinical availability, an endorsement, or a collaboration agreement."
+    },
+    {
+      "id": "e_study_disease_study_nct01238250_dis_scn2a",
+      "src": "study_nct01238250",
+      "dst": "dis_scn2a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct01238250_dis_stxbp1",
+      "src": "study_nct01238250",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct03934268_dis_kcnq2",
+      "src": "study_nct03934268",
+      "dst": "dis_kcnq2",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name KCNQ2. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: UNKNOWN."
+    },
+    {
+      "id": "e_study_disease_study_nct04639310_dis_kcnq2",
+      "src": "study_nct04639310",
+      "dst": "dis_kcnq2",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name KCNQ2. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
     },
     {
       "id": "e_study_disease_study_nct04873869_dis_scn8a",
@@ -2051,6 +4106,28 @@
       "note": "The registry title/conditions explicitly name SCN8A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
     },
     {
+      "id": "e_study_disease_study_nct04912856_dis_kcnq2",
+      "src": "study_nct04912856",
+      "dst": "dis_kcnq2",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name KCNQ2. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
+    },
+    {
+      "id": "e_study_disease_study_nct04937062_dis_stxbp1",
+      "src": "study_nct04937062",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: ACTIVE_NOT_RECRUITING."
+    },
+    {
       "id": "e_study_disease_study_nct05157737_dis_kcnq2",
       "src": "study_nct05157737",
       "dst": "dis_kcnq2",
@@ -2060,6 +4137,61 @@
       "stance": "supports",
       "status": "verified",
       "note": "The registry title/conditions explicitly name KCNQ2. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: UNKNOWN."
+    },
+    {
+      "id": "e_study_disease_study_nct05161494_dis_stxbp1",
+      "src": "study_nct05161494",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: COMPLETED."
+    },
+    {
+      "id": "e_study_disease_study_nct05226780_dis_scn8a",
+      "src": "study_nct05226780",
+      "dst": "dis_scn8a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN8A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
+    },
+    {
+      "id": "e_study_disease_study_nct05232630_dis_stxbp1",
+      "src": "study_nct05232630",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: COMPLETED."
+    },
+    {
+      "id": "e_study_disease_study_nct05407727_dis_scn2a",
+      "src": "study_nct05407727",
+      "dst": "dis_scn2a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: COMPLETED."
+    },
+    {
+      "id": "e_study_disease_study_nct05462054_dis_stxbp1",
+      "src": "study_nct05462054",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: WITHDRAWN."
     },
     {
       "id": "e_study_disease_study_nct05737784_dis_scn2a_dee",
@@ -2073,8 +4205,63 @@
       "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: ACTIVE_NOT_RECRUITING."
     },
     {
+      "id": "e_study_disease_study_nct05818553_dis_scn2a",
+      "src": "study_nct05818553",
+      "dst": "dis_scn2a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: ACTIVE_NOT_RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct05818553_dis_scn8a",
+      "src": "study_nct05818553",
+      "dst": "dis_scn8a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN8A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: ACTIVE_NOT_RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct06314490_dis_scn2a",
+      "src": "study_nct06314490",
+      "dst": "dis_scn2a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: ACTIVE_NOT_RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct06356233_dis_stxbp1",
+      "src": "study_nct06356233",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: NOT_YET_RECRUITING."
+    },
+    {
       "id": "e_study_disease_study_nct06555965_dis_stxbp1",
       "src": "study_nct06555965",
+      "dst": "dis_stxbp1",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: RECRUITING."
+    },
+    {
+      "id": "e_study_disease_study_nct06625112_dis_stxbp1",
+      "src": "study_nct06625112",
       "dst": "dis_stxbp1",
       "type": "study_disease",
       "tier": "A",
@@ -2093,6 +4280,17 @@
       "stance": "supports",
       "status": "verified",
       "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: TERMINATED."
+    },
+    {
+      "id": "e_study_disease_study_nct07019922_dis_scn2a",
+      "src": "study_nct07019922",
+      "dst": "dis_scn2a",
+      "type": "study_disease",
+      "tier": "A",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "The registry title/conditions explicitly name SCN2A. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: RECRUITING."
     },
     {
       "id": "group_kcnq2_disease",
@@ -2262,12 +4460,57 @@
   ],
   "evidence": [
     {
+      "id": "ev_asset_disease_asset_nih_11261040_dis_scn8a_reporter_11261040",
+      "edge_id": "e_asset_disease_asset_nih_11261040_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11261040",
+      "pmid": null,
+      "snippet": "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_asset_disease_asset_nih_11261066_dis_scn8a",
       "edge_id": "e_asset_disease_asset_nih_11261066_dis_scn8a",
       "source_type": "nih_reporter",
       "source_url": "https://reporter.nih.gov/project-details/11261066",
       "pmid": null,
       "snippet": "Understanding the role of SCN8A in developmental and epileptic encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11285465_dis_scn8a_reporter_11285465",
+      "edge_id": "e_asset_disease_asset_nih_11285465_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11285465",
+      "pmid": null,
+      "snippet": "SCN8A encephalopathy: disease mechanisms and treatment",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11289342_dis_scn2a_reporter_11289342",
+      "edge_id": "e_asset_disease_asset_nih_11289342_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "pmid": null,
+      "snippet": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11309107_dis_scn8a_reporter_11309107",
+      "edge_id": "e_asset_disease_asset_nih_11309107_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11309107",
+      "pmid": null,
+      "snippet": "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11312585_dis_kcnq2_reporter_11312585",
+      "edge_id": "e_asset_disease_asset_nih_11312585_dis_kcnq2",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11312585",
+      "pmid": null,
+      "snippet": "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2295,6 +4538,24 @@
       "source_url": "https://reporter.nih.gov/project-details/11381904",
       "pmid": null,
       "snippet": "Pathophysiology of KCNQ2-related Disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11436758_dis_scn2a_reporter_11436758",
+      "edge_id": "e_asset_disease_asset_nih_11436758_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11436758",
+      "pmid": null,
+      "snippet": "Examining Scn2a loss of function in sensory perception",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_asset_disease_asset_nih_11594149_dis_scn2a_reporter_11594149",
+      "edge_id": "e_asset_disease_asset_nih_11594149_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11594149",
+      "pmid": null,
+      "snippet": "Dual-AAV gene replacement for SCN2A disorders",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2388,12 +4649,39 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0000980_supports_orpha_439218_6",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0000980_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Pallor (HP:0000980); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0001041_supports_orpha_439218_7",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001041_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Facial erythema (HP:0001041); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_kcnq2_hp_0001249_supports_72e4b214b5",
       "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001249_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001249\tORPHA:439218\tTAS\t\tHP:0040280\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0001249_supports_orpha_439218_0",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001249_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Intellectual disability (HP:0001249); recorded Orphadata frequency: Obligate (100%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2406,12 +4694,30 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0001250_supports_orpha_439218_8",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001250_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Seizure (HP:0001250); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_kcnq2_hp_0001252_supports_cce988afef",
       "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001252_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001252\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0001252_supports_orpha_439218_9",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001252_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Hypotonia (HP:0001252); recorded Orphadata frequency: Frequent (79-30%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2424,12 +4730,84 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0001263_supports_orpha_439218_1",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001263_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Global developmental delay (HP:0001263); recorded Orphadata frequency: Very frequent (99-80%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_kcnq2_hp_0001332_supports_1392f78a7f",
       "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001332_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0001332\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0001332_supports_orpha_439218_10",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001332_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Dystonia (HP:0001332); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002059_supports_orpha_439218_19",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002059_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Cerebral atrophy (HP:0002059); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002079_supports_orpha_439218_20",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002079_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Hypoplasia of the corpus callosum (HP:0002079); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002104_supports_orpha_439218_11",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002104_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Apnea (HP:0002104); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002181_supports_orpha_439218_12",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002181_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Cerebral edema (HP:0002181); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002453_supports_orpha_439218_13",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002453_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Abnormal globus pallidus morphology (HP:0002453); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002500_supports_orpha_439218_2",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002500_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Abnormal cerebral white matter morphology (HP:0002500); recorded Orphadata frequency: Very frequent (99-80%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2442,12 +4820,93 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002521_supports_orpha_439218_21",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002521_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Hypsarrhythmia (HP:0002521); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0002540_supports_orpha_439218_14",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002540_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Inability to walk (HP:0002540); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0007015_supports_orpha_439218_15",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0007015_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Poor gross motor coordination (HP:0007015); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0010818_supports_orpha_439218_3",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0010818_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Generalized tonic seizure (HP:0010818); recorded Orphadata frequency: Very frequent (99-80%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0010851_supports_orpha_439218_4",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0010851_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "EEG with burst suppression (HP:0010851); recorded Orphadata frequency: Very frequent (99-80%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_kcnq2_hp_0011097_supports_0585a0caf3",
       "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0011097_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:439218\tKCNQ2-related developmental and epileptic encephalopathy\t\tHP:0011097\tORPHA:439218\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0011097_supports_orpha_439218_16",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0011097_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Epileptic spasm (HP:0011097); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0011968_supports_orpha_439218_17",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0011968_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Feeding difficulties (HP:0011968); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0012736_supports_orpha_439218_18",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0012736_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Profound global developmental delay (HP:0012736); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_kcnq2_hp_0200134_supports_orpha_439218_5",
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0200134_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "pmid": null,
+      "snippet": "Epileptic encephalopathy (HP:0200134); recorded Orphadata frequency: Very frequent (99-80%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2523,12 +4982,48 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0000729_supports_orpha_599373_4",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0000729_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Autistic behavior (HP:0000729); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0000750_supports_orpha_599373_5",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0000750_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Delayed speech and language development (HP:0000750); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0000752_supports_orpha_599373_6",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0000752_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Hyperactivity (HP:0000752); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0001249_supports_b35531768e",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001249_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001249\tORPHA:599373\tTAS\t\tHP:0040282\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001249_supports_orpha_599373_0",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001249_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Intellectual disability (HP:0001249); recorded Orphadata frequency: Frequent (79-30%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2541,12 +5036,30 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001250_supports_orpha_599373_1",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001250_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Seizure (HP:0001250); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0001251_supports_24e48c0d32",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001251_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001251\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001251_supports_orpha_599373_7",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001251_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Ataxia (HP:0001251); recorded Orphadata frequency: Occasional (29-5%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2568,6 +5081,24 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001252_supports_orpha_599373_8",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001252_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Hypotonia (HP:0001252); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001257_supports_orpha_599373_25",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001257_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Spasticity (HP:0001257); recorded Orphadata frequency: Very rare (<4-1%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0001263_supports_b44a108c1a",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001263_supports",
       "source_type": "hpo",
@@ -2577,12 +5108,30 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001263_supports_orpha_599373_2",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001263_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Global developmental delay (HP:0001263); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0001332_supports_37330df38e",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001332_supports",
       "source_type": "hpo",
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001332\tORPHA:599373\tTAS\t\tHP:0040284\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001332_supports_orpha_599373_26",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001332_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Dystonia (HP:0001332); recorded Orphadata frequency: Very rare (<4-1%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2604,6 +5153,15 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001337_supports_orpha_599373_9",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001337_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Tremor (HP:0001337); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0001344_supports_01fe082cd4",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001344_supports",
       "source_type": "hpo",
@@ -2619,6 +5177,24 @@
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0001344\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0001344_supports_orpha_599373_10",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001344_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Absent speech (HP:0001344); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0002123_supports_orpha_599373_11",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002123_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Generalized myoclonic seizure (HP:0002123); recorded Orphadata frequency: Occasional (29-5%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2640,6 +5216,33 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0002376_supports_orpha_599373_12",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002376_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Developmental regression (HP:0002376); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0002384_supports_orpha_599373_13",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002384_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Focal impaired awareness seizure (HP:0002384); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0002510_supports_orpha_599373_27",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002510_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Spastic tetraplegia (HP:0002510); recorded Orphadata frequency: Very rare (<4-1%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0002521_supports_9e884cd4ae",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002521_supports",
       "source_type": "hpo",
@@ -2658,6 +5261,60 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0002521_supports_orpha_599373_14",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002521_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Hypsarrhythmia (HP:0002521); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0002540_supports_orpha_599373_15",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002540_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Inability to walk (HP:0002540); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0006989_supports_orpha_599373_16",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0006989_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Dysplastic corpus callosum (HP:0006989); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0007334_supports_orpha_599373_28",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0007334_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Bilateral tonic-clonic seizure with focal onset (HP:0007334); recorded Orphadata frequency: Very rare (<4-1%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0010819_supports_orpha_599373_17",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0010819_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Atonic seizure (HP:0010819); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0010841_supports_orpha_599373_18",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0010841_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Multifocal epileptiform discharges (HP:0010841); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_phenotype_dis_stxbp1_hp_0011097_supports_c44886cb1d",
       "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0011097_supports",
       "source_type": "hpo",
@@ -2673,6 +5330,87 @@
       "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
       "pmid": null,
       "snippet": "ORPHA:599373\tSTXBP1-related developmental and epileptic encephalopathy\t\tHP:0011097\tORPHA:599373\tTAS\t\tHP:0040283\t\t\tP\tORPHA:orphadata[2026-09-02]",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0011097_supports_orpha_599373_19",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0011097_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Epileptic spasm (HP:0011097); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0011153_supports_orpha_599373_20",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0011153_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Focal motor seizure (HP:0011153); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0011185_supports_orpha_599373_3",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0011185_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "EEG with focal epileptiform discharges (HP:0011185); recorded Orphadata frequency: Frequent (79-30%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0011203_supports_orpha_599373_21",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0011203_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "EEG with abnormally slow frequencies (HP:0011203); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0012448_supports_orpha_599373_29",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0012448_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Delayed myelination (HP:0012448); recorded Orphadata frequency: Very rare (<4-1%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0012469_supports_orpha_599373_22",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0012469_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Infantile spasms (HP:0012469); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0012762_supports_orpha_599373_23",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0012762_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Cerebral white matter atrophy (HP:0012762); recorded Orphadata frequency: Occasional (29-5%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0100660_supports_orpha_599373_30",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0100660_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Dyskinesia (HP:0100660); recorded Orphadata frequency: Very rare (<4-1%).",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_disease_phenotype_dis_stxbp1_hp_0200134_supports_orpha_599373_24",
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0200134_supports",
+      "source_type": "orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "pmid": null,
+      "snippet": "Epileptic encephalopathy (HP:0200134); recorded Orphadata frequency: Occasional (29-5%).",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2730,6 +5468,24 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_investigator_disease_person_nih_12032778_dis_scn2a_reporter_11594149",
+      "edge_id": "e_investigator_disease_person_nih_12032778_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11594149",
+      "pmid": null,
+      "snippet": "Yang  Yang — Dual-AAV gene replacement for SCN2A disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_14132242_dis_scn2a_reporter_11436758",
+      "edge_id": "e_investigator_disease_person_nih_14132242_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11436758",
+      "pmid": null,
+      "snippet": "Kathryn Anne Salvati — Examining Scn2a loss of function in sensory perception",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_investigator_disease_person_nih_15318049_dis_scn2a",
       "edge_id": "e_investigator_disease_person_nih_15318049_dis_scn2a",
       "source_type": "nih_reporter",
@@ -2757,6 +5513,24 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_investigator_disease_person_nih_1858291_dis_scn2a_reporter_11289342",
+      "edge_id": "e_investigator_disease_person_nih_1858291_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "pmid": null,
+      "snippet": "Daniel  Feldman — CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_1863377_dis_scn8a_reporter_11261040",
+      "edge_id": "e_investigator_disease_person_nih_1863377_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11261040",
+      "pmid": null,
+      "snippet": "MIRIAM H MEISLER — Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_investigator_disease_person_nih_6574463_dis_kcnq2",
       "edge_id": "e_investigator_disease_person_nih_6574463_dis_kcnq2",
       "source_type": "nih_reporter",
@@ -2766,12 +5540,48 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_investigator_disease_person_nih_7347049_dis_scn8a_reporter_11285465",
+      "edge_id": "e_investigator_disease_person_nih_7347049_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11285465",
+      "pmid": null,
+      "snippet": "Andrew P Escayg — SCN8A encephalopathy: disease mechanisms and treatment",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_investigator_disease_person_nih_78265993_dis_stxbp1",
       "edge_id": "e_investigator_disease_person_nih_78265993_dis_stxbp1",
       "source_type": "nih_reporter",
       "source_url": "https://reporter.nih.gov/project-details/11322512",
       "pmid": null,
       "snippet": "Brooke  Horist — Disease mechanism and genetic therapy for a pathogenic STXBP1 variant",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_78316333_dis_scn8a_reporter_11309107",
+      "edge_id": "e_investigator_disease_person_nih_78316333_dis_scn8a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11309107",
+      "pmid": null,
+      "snippet": "Jack Thomas Whiteley — Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_78318543_dis_kcnq2_reporter_11312585",
+      "edge_id": "e_investigator_disease_person_nih_78318543_dis_kcnq2",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11312585",
+      "pmid": null,
+      "snippet": "Dalton Jun-Da Huey — Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_investigator_disease_person_nih_8843508_dis_scn2a_reporter_11289342",
+      "edge_id": "e_investigator_disease_person_nih_8843508_dis_scn2a",
+      "source_type": "nih_reporter",
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "pmid": null,
+      "snippet": "Kevin J Bender — CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2892,12 +5702,66 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_study_disease_study_nct01238250_dis_scn2a_clinicaltrials_nct01238250",
+      "edge_id": "e_study_disease_study_nct01238250_dis_scn2a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT01238250",
+      "pmid": null,
+      "snippet": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct01238250_dis_stxbp1_clinicaltrials_nct01238250",
+      "edge_id": "e_study_disease_study_nct01238250_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT01238250",
+      "pmid": null,
+      "snippet": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct03934268_dis_kcnq2_clinicaltrials_nct03934268",
+      "edge_id": "e_study_disease_study_nct03934268_dis_kcnq2",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT03934268",
+      "pmid": null,
+      "snippet": "A Cohort Study on the Prognosis of Neonatal KCNQ2 Gene-associated Epileptic Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct04639310_dis_kcnq2_clinicaltrials_nct04639310",
+      "edge_id": "e_study_disease_study_nct04639310_dis_kcnq2",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT04639310",
+      "pmid": null,
+      "snippet": "XEN496 (Ezogabine) in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_study_disease_study_nct04873869_dis_scn8a",
       "edge_id": "e_study_disease_study_nct04873869_dis_scn8a",
       "source_type": "clinicaltrials",
       "source_url": "https://clinicaltrials.gov/study/NCT04873869",
       "pmid": null,
       "snippet": "Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct04912856_dis_kcnq2_clinicaltrials_nct04912856",
+      "edge_id": "e_study_disease_study_nct04912856_dis_kcnq2",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT04912856",
+      "pmid": null,
+      "snippet": "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct04937062_dis_stxbp1_clinicaltrials_nct04937062",
+      "edge_id": "e_study_disease_study_nct04937062_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT04937062",
+      "pmid": null,
+      "snippet": "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2910,12 +5774,93 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_study_disease_study_nct05161494_dis_stxbp1_clinicaltrials_nct05161494",
+      "edge_id": "e_study_disease_study_nct05161494_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05161494",
+      "pmid": null,
+      "snippet": "Gait in Rare Diseases",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05226780_dis_scn8a_clinicaltrials_nct05226780",
+      "edge_id": "e_study_disease_study_nct05226780_dis_scn8a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05226780",
+      "pmid": null,
+      "snippet": "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05232630_dis_stxbp1_clinicaltrials_nct05232630",
+      "edge_id": "e_study_disease_study_nct05232630_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05232630",
+      "pmid": null,
+      "snippet": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05407727_dis_scn2a_clinicaltrials_nct05407727",
+      "edge_id": "e_study_disease_study_nct05407727_dis_scn2a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05407727",
+      "pmid": null,
+      "snippet": "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05462054_dis_stxbp1_clinicaltrials_nct05462054",
+      "edge_id": "e_study_disease_study_nct05462054_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05462054",
+      "pmid": null,
+      "snippet": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_study_disease_study_nct05737784_dis_scn2a_dee",
       "edge_id": "e_study_disease_study_nct05737784_dis_scn2a_dee",
       "source_type": "clinicaltrials",
       "source_url": "https://clinicaltrials.gov/study/NCT05737784",
       "pmid": null,
       "snippet": "A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05818553_dis_scn2a_clinicaltrials_nct05818553",
+      "edge_id": "e_study_disease_study_nct05818553_dis_scn2a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05818553",
+      "pmid": null,
+      "snippet": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct05818553_dis_scn8a_clinicaltrials_nct05818553",
+      "edge_id": "e_study_disease_study_nct05818553_dis_scn8a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT05818553",
+      "pmid": null,
+      "snippet": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct06314490_dis_scn2a_clinicaltrials_nct06314490",
+      "edge_id": "e_study_disease_study_nct06314490_dis_scn2a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT06314490",
+      "pmid": null,
+      "snippet": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct06356233_dis_stxbp1_clinicaltrials_nct06356233",
+      "edge_id": "e_study_disease_study_nct06356233_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT06356233",
+      "pmid": null,
+      "snippet": "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -2928,12 +5873,30 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_study_disease_study_nct06625112_dis_stxbp1_clinicaltrials_nct06625112",
+      "edge_id": "e_study_disease_study_nct06625112_dis_stxbp1",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT06625112",
+      "pmid": null,
+      "snippet": "A Multicentric European Study to Promote Clinical Trial Readiness for STXBP1-related Disorders",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_study_disease_study_nct06983158_dis_stxbp1",
       "edge_id": "e_study_disease_study_nct06983158_dis_stxbp1",
       "source_type": "clinicaltrials",
       "source_url": "https://clinicaltrials.gov/study/NCT06983158",
       "pmid": null,
       "snippet": "A Clinical Trial of CAP-002 Gene Therapy in Pediatric Patients With Syntaxin-Binding Protein 1 (STXBP1) Encephalopathy",
+      "retrieved_at": "2026-10-03"
+    },
+    {
+      "id": "ev_study_disease_study_nct07019922_dis_scn2a_clinicaltrials_nct07019922",
+      "edge_id": "e_study_disease_study_nct07019922_dis_scn2a",
+      "source_type": "clinicaltrials",
+      "source_url": "https://clinicaltrials.gov/study/NCT07019922",
+      "pmid": null,
+      "snippet": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
       "retrieved_at": "2026-10-03"
     },
     {
@@ -3017,8 +5980,32 @@
       "cluster_id": "c_kcnq2_channel"
     },
     {
+      "node_id": "asset_nih_11261040",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
       "node_id": "asset_nih_11261066",
       "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "asset_nih_11285465",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "asset_nih_11289342",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "asset_nih_11289342",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "asset_nih_11309107",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "asset_nih_11312585",
+      "cluster_id": "c_kcnq2_channel"
     },
     {
       "node_id": "asset_nih_11322512",
@@ -3027,6 +6014,22 @@
     {
       "node_id": "asset_nih_11381904",
       "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "asset_nih_11436758",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "asset_nih_11436758",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "asset_nih_11594149",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "asset_nih_11594149",
+      "cluster_id": "c_sodium_gof"
     },
     {
       "node_id": "asset_scn2a_dragonfly",
@@ -3117,6 +6120,22 @@
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "hp_0000750",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0000752",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0000980",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0001041",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
       "node_id": "hp_0001249",
       "cluster_id": "c_kcnq2_channel"
     },
@@ -3153,6 +6172,10 @@
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "hp_0001257",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
       "node_id": "hp_0001263",
       "cluster_id": "c_kcnq2_channel"
     },
@@ -3181,11 +6204,47 @@
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "hp_0002059",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0002079",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0002104",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0002123",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0002181",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
       "node_id": "hp_0002376",
       "cluster_id": "c_sodium_gof"
     },
     {
       "node_id": "hp_0002376",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0002384",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0002453",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0002500",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0002510",
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
@@ -3197,6 +6256,42 @@
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "hp_0002540",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0002540",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0006989",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0007015",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0007334",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0010818",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0010819",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0010841",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0010851",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
       "node_id": "hp_0011097",
       "cluster_id": "c_kcnq2_channel"
     },
@@ -3206,6 +6301,50 @@
     },
     {
       "node_id": "hp_0011097",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0011153",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0011185",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0011203",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0011968",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0012448",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0012469",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0012736",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0012762",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0100660",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "hp_0200134",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "hp_0200134",
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
@@ -3241,6 +6380,22 @@
       "cluster_id": "c_kcnq2_channel"
     },
     {
+      "node_id": "person_nih_12032778",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "person_nih_12032778",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "person_nih_14132242",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "person_nih_14132242",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
       "node_id": "person_nih_15318049",
       "cluster_id": "c_scn2a_lof"
     },
@@ -3253,15 +6408,67 @@
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "person_nih_1858291",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "person_nih_1858291",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "person_nih_1863377",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
       "node_id": "person_nih_6574463",
       "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "person_nih_7347049",
+      "cluster_id": "c_sodium_gof"
     },
     {
       "node_id": "person_nih_78265993",
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "person_nih_78316333",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "person_nih_78318543",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "person_nih_8843508",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "person_nih_8843508",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
       "node_id": "person_nih_8880930",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "study_nct01238250",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "study_nct01238250",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "study_nct01238250",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "study_nct03934268",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "study_nct04639310",
       "cluster_id": "c_kcnq2_channel"
     },
     {
@@ -3269,16 +6476,80 @@
       "cluster_id": "c_sodium_gof"
     },
     {
+      "node_id": "study_nct04912856",
+      "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "study_nct04937062",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
       "node_id": "study_nct05157737",
       "cluster_id": "c_kcnq2_channel"
+    },
+    {
+      "node_id": "study_nct05161494",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "study_nct05226780",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "study_nct05232630",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "study_nct05407727",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "study_nct05407727",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "study_nct05462054",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "study_nct05818553",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "study_nct05818553",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "study_nct06314490",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "study_nct06314490",
+      "cluster_id": "c_sodium_gof"
+    },
+    {
+      "node_id": "study_nct06356233",
+      "cluster_id": "c_stxbp1_synaptic"
     },
     {
       "node_id": "study_nct06555965",
       "cluster_id": "c_stxbp1_synaptic"
     },
     {
+      "node_id": "study_nct06625112",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
       "node_id": "study_nct06983158",
       "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "study_nct07019922",
+      "cluster_id": "c_scn2a_lof"
+    },
+    {
+      "node_id": "study_nct07019922",
+      "cluster_id": "c_sodium_gof"
     },
     {
       "node_id": "var_clinvar_194555",

@@ -1,5 +1,7 @@
 # P1 task status by milestone
 
+**Current additive release:** `p1/data_v2` contains 120 nodes, 135 edges and 162 evidence records with four unchanged provisional groups. The P1-only source/raw/replay review passed; see [data_v2 scope and reproduction](P1-EXPANSION.md). Historical M0-M3 sections below describe the preserved 58-node baseline. P2/M4 human, product and shared-database gates remain separate.
+
 Status date: **2026-10-04 (Europe/Berlin)**. Checklist: [P1-data.md](roles/P1-data.md). M1 was published on `origin/p1/data` at `0e1a04d`; the reviewed publication base is `3b38ca0` with P4 startup improvements. The completed M2/M3 tools, data reports and receipts are included in this M0-M3 publication.
 
 This status describes the P1 delivery worktree. Its 58-node data/source snapshot is integrated into the active shared `D:\Hack_Nation\path-net` checkout on `p4/platform` and the existing Docker database. Shared P4 work has been retained. M1 integration was published; this snapshot adds the completed M2/M3 updates. See [shared M1 integration record](P1-INTEGRATION.md).

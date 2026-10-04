@@ -28,7 +28,7 @@ CLUSTERS = [
 ]
 
 
-def build(curation_dir: Path):
+def build(curation_dir: Path, include_expansion: bool = True):
     ontology = read(curation_dir / "ontology_slice.json")
     community = read(curation_dir / "community.json")
     research = read(curation_dir / "research.json")
@@ -126,6 +126,24 @@ def build(curation_dir: Path):
         }
     provenance["evidence"].update(copy.deepcopy(research["provenance"]))
     provenance["sources"] = ontology["sources"] + community["sources"] + research["sources"]
+
+    # Optional P1-only additive curation; the consumer graph contract is unchanged.
+    expansion_path = curation_dir / "expansion.json"
+    if include_expansion and expansion_path.is_file():
+        expansion = read(expansion_path)
+        for name in ("expansion.json", "expansion_selection.json"):
+            provenance["curation_inputs"][f"curation/{name}"] = digest(read(curation_dir / name))
+        for node in expansion["nodes"]:
+            add_node(node, "curation/expansion.json")
+        for table in ("edges", "evidence"):
+            existing_ids = {row["id"] for row in graph[table]}
+            if any(row["id"] in existing_ids for row in expansion[table]):
+                raise ValueError(f"Expansion cannot overwrite existing {table}")
+            graph[table].extend(copy.deepcopy(expansion[table]))
+        if provenance["evidence"].keys() & expansion["provenance"].keys():
+            raise ValueError("Expansion cannot overwrite existing evidence provenance")
+        provenance["evidence"].update(copy.deepcopy(expansion["provenance"]))
+        provenance["sources"].extend(copy.deepcopy(expansion["sources"]))
 
     memberships = defaultdict(set)
     for cluster in CLUSTERS:

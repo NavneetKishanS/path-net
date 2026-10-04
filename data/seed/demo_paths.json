@@ -49,5 +49,5 @@
     "scope": "The fixture tests an unknown query. It is not a claim that a named disease lacks research."
   },
   "interpretation": "Paths may traverse a relationship in either direction for discovery; retain its original src/dst/type and scope when explaining it. Never use contradicting edges as positive route support.",
-  "graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b"
+  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2"
 }

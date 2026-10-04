@@ -1,0 +1,31 @@
+{
+  "kind": "read_only_official_page_spot_checks",
+  "checked_at": "2026-10-04T02:56:48.176Z",
+  "dataset_snapshot_refreshed": false,
+  "pages": [
+    {
+      "url": "https://clinicaltrials.gov/study/NCT06314490",
+      "observed_status": "ACTIVE_NOT_RECRUITING",
+      "observed_last_update": "2025-04-01",
+      "observed_actual_enrollment": 1,
+      "interpretation": "Single pediatric participant; detailed description specifies gain of function. Official page agrees with the cached status and scope."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT04639310",
+      "observed_status": "TERMINATED",
+      "observed_last_update": "2024-08-23",
+      "interpretation": "Official page agrees with cached terminated status; do not treat as open enrollment."
+    },
+    {
+      "url": "https://reporter.nih.gov/project-details/11289342",
+      "observed_project_number": "5R01MH136475-03",
+      "observed_fiscal_year": 2026,
+      "observed_pis": [
+        "BENDER, KEVIN J",
+        "FELDMAN, DANIEL"
+      ],
+      "interpretation": "Official title and abstract describe a Scn2a+/- mouse model and planned CRISPRa work; PI fields agree with the cached record."
+    }
+  ],
+  "limitation": "Three live primary pages only; the full candidate was compared with dated caches. Live requests were confined to this review and did not update raw or seed."
+}

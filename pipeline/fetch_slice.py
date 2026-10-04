@@ -122,6 +122,8 @@ def main():
         run("fetch_groups.py", "--kind", "all", "--backend", args.group_backend, *(["--force"] if args.refresh else ["--offline"] if args.offline else []))
         run("fetch_groups.py", "--refresh-provenance")
         run("fetch_groups.py", "--validate-curation")
+    if (DATA_DIR / "curation/expansion_selection.json").is_file():
+        run("expand_slice.py")
     print("Selected source acquisition complete. Review changed curation files, then run build_graph.py and validate_graph.py --check-raw.")
 
 
