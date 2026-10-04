@@ -12,4 +12,5 @@ __pycache__/
 # Keep generated model output and runtime artifacts out of version control.
 data/extracted/
 data/seed/clusters.generated.json
+data/seed/bridge_edges.generated.json
 .runtime/
