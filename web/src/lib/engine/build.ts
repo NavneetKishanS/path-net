@@ -352,10 +352,21 @@ function curatedLinks(nodes: Map<string, AtlasNode>, edges: Edge[]): Edge[] {
 
 const pairKey = (a: string, b: string) => (a < b ? [a, b] : [b, a]) as [string, string]
 
-/** Graph-derived hypotheses. Always tier C, basis 'inferred'. */
+/** Graph-derived hypotheses. Always tier C, basis 'inferred'.
+ * Skips a pair already covered by a real shares_mechanism_with/shares_investigator edge from
+ * the seed (e.g. pipeline/bridge_edges.py's Jaccard-confidence, evidence-backed version) --
+ * otherwise this would also synthesize a confidence-null duplicate for the same pair. Both
+ * would currently resolve correctly by array order alone (real edges are pushed before these),
+ * but that's incidental, not guaranteed, and the synthetic duplicate is still wasted work. */
 function inferredLinks(nodes: Map<string, AtlasNode>, edges: Edge[], overrides: Overrides): Edge[] {
   const out: Edge[] = []
   const usable = (e: Edge) => e.stance === 'supports' && e.status !== 'rejected'
+  // At this point `edges` holds only real seed/curated edges -- this function's own synthetic
+  // output is appended by the caller afterward, so no basis check is needed here.
+  const realPair = (relation: 'shares_mechanism_with' | 'shares_investigator') =>
+    new Set(edges.filter((e) => e.relation === relation).map((e) => pairKey(e.from, e.to).join('__')))
+  const realMechPairs = realPair('shares_mechanism_with')
+  const realInvestigatorPairs = realPair('shares_investigator')
 
   const byMechanism = new Map<string, Edge[]>()
   for (const e of edges) {
@@ -367,7 +378,7 @@ function inferredLinks(nodes: Map<string, AtlasNode>, edges: Edge[], overrides: 
     for (let i = 0; i < list.length; i++) {
       for (let j = i + 1; j < list.length; j++) {
         const [a, b] = pairKey(list[i]!.from, list[j]!.from)
-        if (a === b) continue
+        if (a === b || realMechPairs.has(`${a}__${b}`)) continue
         const id = `inf_mech_${a}__${b}__${mechId}`
         out.push({
           id,
@@ -402,7 +413,7 @@ function inferredLinks(nodes: Map<string, AtlasNode>, edges: Edge[], overrides: 
     for (let i = 0; i < list.length; i++) {
       for (let j = i + 1; j < list.length; j++) {
         const [a, b] = pairKey(list[i]!.to, list[j]!.to)
-        if (a === b) continue
+        if (a === b || realInvestigatorPairs.has(`${a}__${b}`)) continue
         const id = `inf_inv_${a}__${b}__${personId}`
         out.push({
           id,
