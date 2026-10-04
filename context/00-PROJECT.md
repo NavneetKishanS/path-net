@@ -52,5 +52,5 @@ Sleep: P1 and P3 01:00 to 05:00. P2 and P4 05:00 to 09:00.
 ## Run it
 `bash run.sh up` then http://localhost:5173. `bash run.sh web` runs the app alone on the seed file. See README.md.
 
-## Known gaps in v0
-Seed data is placeholder. Role switcher only changes a label. No auth, no RLS, no explain-path, no voice. The no-route panel is a static message.
+## Current integration status (2026-10-04)
+P1 has delivered and locally integrated the current 58-node, 69-edge graph with 77 evidence records, four provisional clusters, 70 memberships and offline source replay. The shared Docker PostgreSQL/PostgREST/app now serves that snapshot with persistent storage; literal seed, database/REST comparisons, browser checks and root README reproduction are recorded in [P1 integration](P1-INTEGRATION.md). P4 backend role policies, contribution review, API boundaries and operator checks are retained; see [platform notes](P4-PLATFORM.md) and [task status](P4-TASK-STATUS.md). The frontend role selector remains presentation-only and no-route coverage requires P3 wiring. Supabase/Auth, Edge Runtime/cloud deployment, browser logins, persona/action/admin UI, voice, videos and deployed acceptance remain outstanding. P2 owns final model evaluation, calibrated scoring and algorithmic clustering; P1/P2 M4 peer review and funder projection acceptance remain separate. Concurrent M2 work is not certified by this M1 integration.

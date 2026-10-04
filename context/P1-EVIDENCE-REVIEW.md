@@ -4,9 +4,9 @@ Review date: **2026-10-03 (Europe/Berlin)**. This is a **machine-assisted source
 
 Packaging note: **2026-10-04**. The original raw snapshot used for this review is now tracked in `data/raw/` and included in a fresh checkout. `python pipeline/validate_graph.py --check-raw` and `python pipeline/restore_pubmed.py --check` can run offline against those bundled caches. Packaging does not change the 2026-10-03 review/source dates, scientific findings or source-specific copyright and licence terms in `SOURCES.md`.
 
-Reviewed `data/seed/graph.json` against original cached webpage bodies, complete PubMed abstracts and their original EFetch XML, ClinVar variant identities, ClinicalTrials.gov protocol records, and NIH RePORTER project records. The review covered **37 mechanism/community/research-discovery edges and 39 evidence rows**. Every referenced raw-cache hash and reviewed text/structured-record locator matched. Surrounding source context was inspected, rather than treating a matching substring as sufficient evidence.
+The original 54-node baseline was reviewed against original cached webpage bodies, complete PubMed abstracts and their original EFetch XML, ClinVar variant identities, ClinicalTrials.gov protocol records, and NIH RePORTER project records. The review covered **37 mechanism/community/research-discovery edges and 39 evidence rows**. Every referenced raw-cache hash and reviewed text/structured-record locator matched. Surrounding source context was inspected, rather than treating a matching substring as sufficient evidence.
 
-Canonical graph SHA-256 (`provenance.graph_sha256`, independent of JSON field ordering): `508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf`.
+Original 54-node canonical graph SHA-256 (`provenance.graph_sha256`, independent of JSON field ordering): `508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf`.
 
 No incorrect SCN2A variant identity or swapped GoF/LoF assignment was found. Broad-source versus narrow-disease scope and source availability require the qualifications below. A verified edge means the cited source supports the stated, qualified association; it does not establish treatment efficacy, personal eligibility, or expert endorsement. All A/B confidence values are null because no calibrated probability model is defined.
 
@@ -47,3 +47,11 @@ No incorrect SCN2A variant identity or swapped GoF/LoF assignment was found. Bro
 - Provisional cluster membership organizes records. Shared genes, symptoms, investigators or an ion-channel functional class do not establish common treatment, clinical compatibility, or a 10x acceleration. Those would require additional expert review and evidence.
 
 The graph and builder were not modified during this audit. Cached pages and complete API responses are preserved in the bundled, tracked raw snapshot; the review paraphrases source context and adds no new clinical claims.
+
+## M1 source-audit addendum — 2026-10-04
+
+The `p1/data` publication snapshot bundles 58 nodes, 69 edges and 77 evidence rows; [P1-PUBLICATION.md](P1-PUBLICATION.md) records its scope separately from the historical local acceptance. Its all-row raw-source/ClinVar identity checks are recorded in [P1-M1-EXECUTION.md](P1-M1-EXECUTION.md). The 37-edge/39-row context audit and canonical digest above describe the original 54-node baseline; they are retained as historical evidence rather than silently relabelled as a new peer review.
+
+Eight public group/resource pages were reacquired through live Bright Data with target HTTP 200 and exact reviewed quotes. The RARE-X addition retains a qualified patient-owned data-collection description. Three added ClinVar identity-only examples are STXBP1 VCV004904548.1, KCNQ2 VCV004945793.1 and SCN8A VCV004916868.1; each retains unknown functional effect and no new mechanism edge. Clinical classification does not supply functional direction. All earlier source-scope and contradictory-evidence qualifications remain applicable.
+
+P1/P2's final M4 source-context peer review remains outstanding. Automated raw-source validation and runtime integration do not certify that role-owner review.

@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Checks that the tools are installed and creates .env on first run. Safe to re-run.
 set -euo pipefail
-cd "$(dirname "$0")/.."
+script_dir=.
+if [[ "${BASH_SOURCE[0]}" == */* ]]; then script_dir="${BASH_SOURCE[0]%/*}"; fi
+cd -- "$script_dir/.."
 
 ok() { printf '  ok   %s\n' "$1"; }
 bad() { printf '  MISSING  %s\n' "$1"; MISSING=1; }

@@ -46,6 +46,17 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(self.nodes[spec["gain_variant_id"]]["ext_ids"]["ClinVarVariation"], "196039")
         self.assertIn("Xenopus", self.nodes[spec["loss_variant_id"]]["props"]["functional_scope"])
 
+    def test_clinvar_identity_coverage_does_not_invent_functional_edges(self):
+        variants = [n for n in self.graph["nodes"] if n["type"] == "variant"]
+        self.assertEqual({n["props"]["gene_symbol"] for n in variants}, {"STXBP1", "SCN2A", "KCNQ2", "SCN8A"})
+        for variant in variants:
+            self.assertEqual(self.nodes[variant["props"]["gene_id"]]["type"], "gene")
+            if variant["props"]["gene_symbol"] != "SCN2A":
+                self.assertEqual(variant["props"]["effect"], "unknown")
+                self.assertNotIn("effect_evidence_edge_ids", variant["props"])
+                self.assertFalse(any(e["src"] == variant["id"] and e["type"] == "gene_variant_mechanism"
+                                     for e in self.graph["edges"]))
+
     def test_independent_hpo_annotations_share_edges_without_losing_evidence(self):
         ontology = json.loads((ROOT / "data/curation/ontology_slice.json").read_text(encoding="utf-8"))
         relations = ontology["disease_phenotypes"]

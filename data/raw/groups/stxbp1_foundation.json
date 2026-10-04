@@ -2,9 +2,9 @@
   "source_id": "stxbp1_foundation",
   "requested_url": "https://www.stxbp1disorders.org/",
   "source_url": "https://www.stxbp1disorders.org/",
-  "retrieved_at": "2026-10-03T20:48:32Z",
+  "retrieved_at": "2026-10-03T23:18:32Z",
   "status_code": 200,
-  "backend": "direct",
+  "backend": "brightdata",
   "content_type": "text/html;charset=utf-8",
   "encoding": "utf-8",
   "body_sha256": "e442a8f406240242caf158b8958ce12acaade4729e3a899537755cd2802fd17b",
@@ -16,7 +16,7 @@
     {
       "url": "https://www.stxbp1disorders.org/robots.txt",
       "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
-      "retrieved_at": "2026-10-03T20:48:30Z",
+      "retrieved_at": "2026-10-03T23:16:35Z",
       "allowed": true
     }
   ],

@@ -39,7 +39,15 @@ PHENOTYPES = (
     "HP:0000729", "HP:0001251", "HP:0001332", "HP:0001337",
     "HP:0001344", "HP:0002376", "HP:0011097", "HP:0002521",
 )
-CLINVAR_IDS = ("196039", "194555")
+# Curator-selected identity examples, not a representative or exhaustive sample.
+# Pin Variation IDs instead of re-running a ranking-dependent discovery search.
+# Clinical classifications/consequences never establish functional direction.
+CLINVAR_IDS_BY_GENE = {
+    "SCN2A": ("196039", "194555"),
+    "STXBP1": ("4904548",),
+    "KCNQ2": ("4945793",),
+    "SCN8A": ("4916868",),
+}
 LICENSES = {
     "HGNC": {"license": "CC0", "license_url": "https://www.genenames.org/about/license/"},
     "MONDO": {"license": "CC-BY-4.0", "license_url": "https://github.com/monarch-initiative/mondo/blob/master/LICENSE"},
@@ -211,14 +219,33 @@ def parse_hpoa(text, disease_lookup, selected_terms):
     return rows, metadata
 
 
-def normalize_clinvar(record, genes):
-    matched = [g for g in record.get("genes", []) if g["symbol"] in genes]
-    if len(matched) != 1 or str(matched[0]["geneid"]) != genes[matched[0]["symbol"]]["ext_ids"]["NCBIGene"]:
+def clinvar_records(payload, expected_ids):
+    """Fail closed on missing, substituted, duplicated or unexpected summaries."""
+    records = payload.get("result", {})
+    returned = records.get("uids", [])
+    if (len(returned) != len(expected_ids) or set(returned) != set(expected_ids)
+            or any(not isinstance(records.get(uid), dict) or records[uid].get("uid") != uid
+                   for uid in expected_ids)):
+        raise ValueError("ClinVar returned IDs do not match the pinned request")
+    return [records[uid] for uid in expected_ids]
+
+
+def normalize_clinvar(record, genes, expected_symbol=None):
+    uid = record.get("uid", "")
+    accession = re.fullmatch(r"VCV(\d+)\.([1-9]\d*)", record.get("accession_version", ""))
+    if not re.fullmatch(r"[1-9]\d*", uid) or not accession or int(accession[1]) != int(uid):
+        raise ValueError(f"ClinVar accession/Variation ID mismatch: {uid}")
+    if not isinstance(record.get("title"), str) or not record["title"].strip():
+        raise ValueError(f"Missing ClinVar variant title: {uid}")
+    matched = [g for g in record.get("genes", []) if g.get("symbol") in genes]
+    if (len(record.get("genes", [])) != 1 or len(matched) != 1
+            or (expected_symbol is not None and matched[0]["symbol"] != expected_symbol)
+            or str(matched[0].get("geneid")) != genes[matched[0]["symbol"]]["ext_ids"]["NCBIGene"]):
         raise ValueError(f"ClinVar gene identity mismatch: {record.get('uid')}")
     cls = record.get("germline_classification", {})
     return {
         "id": "var_clinvar_" + record["uid"], "type": "variant", "name": record["title"],
-        "synonyms": [record.get("protein_change", "")],
+        "synonyms": [record["protein_change"]] if record.get("protein_change") else [],
         "ext_ids": {"ClinVar": record["accession_version"], "ClinVarVariation": record["uid"]},
         "props": {"gene_id": genes[matched[0]["symbol"]]["id"],
                   "gene_symbol": matched[0]["symbol"], "effect": "unknown",
@@ -227,7 +254,7 @@ def normalize_clinvar(record, genes):
                   "last_evaluated": cls.get("last_evaluated", ""),
                   "molecular_consequences": record.get("molecular_consequence_list", []),
                   "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/" + record["uid"] + "/",
-                  "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function."},
+                  "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function."},
     }
 
 
@@ -312,14 +339,15 @@ def build_slice(cache):
         annotation["evidence"] = evidence(meta, raw_line, f"line:{line}", record)
         annotation["evidence"]["pmids"] = re.findall(r"PMID:(\d+)", record.get("reference", ""))
         result["disease_phenotypes"].append(annotation)
-    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=" + ",".join(CLINVAR_IDS) + "&retmode=json"
-    data, meta = cache.json("clinvar_scn2a", url, "ClinVar")
-    meta["version"] = ", ".join(data["result"][identifier]["accession_version"] for identifier in CLINVAR_IDS)
-    for identifier in CLINVAR_IDS:
-        record = data["result"][identifier]
-        variant = normalize_clinvar(record, genes)
-        variant["provenance"] = evidence(meta, record["title"], "result." + identifier, record)
-        result["variants"].append(variant)
+    for symbol, identifiers in CLINVAR_IDS_BY_GENE.items():
+        url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=" + ",".join(identifiers) + "&retmode=json"
+        data, meta = cache.json("clinvar_" + symbol.lower(), url, "ClinVar")
+        records = clinvar_records(data, identifiers)
+        meta["version"] = ", ".join(record["accession_version"] for record in records)
+        for record in records:
+            variant = normalize_clinvar(record, genes, expected_symbol=symbol)
+            variant["provenance"] = evidence(meta, record["title"], "result." + record["uid"], record)
+            result["variants"].append(variant)
     result["sources"] = sorted(cache.sources.values(), key=lambda source: source["source_id"])
     result["versions"] = versions
     result["attribution"] = [
@@ -334,6 +362,7 @@ def build_slice(cache):
         "OMIM identifiers are retained only as exact MONDO mappings to public HPO annotations; no OMIM database content was fetched.",
         "No ontology ID is assigned to an SCN2A autism/intellectual-disability subgroup. Autosomal dominant intellectual disability 29 is SETBP1-related, not SCN2A-related.",
         "ClinVar records establish variant identity/classification only. Functional direction requires separate assay or publication evidence.",
+        "ClinVar coverage is two selected SCN2A records and one identity-only example each for STXBP1, KCNQ2 and SCN8A; it is not a variant catalogue. No variant-gene edge or unsupported mechanism edge is inferred.",
         "Explicit HPO NOT qualifiers become contradicting evidence, not positive phenotype edges. Absence of a row is not negative evidence.",
     ]
     return result

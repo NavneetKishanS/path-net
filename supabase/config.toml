@@ -1,0 +1,10 @@
+project_id = "pathnet"
+
+# Handlers validate user JWTs through Auth and always use caller-scoped REST reads.
+# Public read endpoints also work with anon/publishable access; extraction requires Auth.
+[functions.explain-path]
+verify_jwt = false
+[functions.no-route]
+verify_jwt = false
+[functions.extract-abstract]
+verify_jwt = false

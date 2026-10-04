@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # One entry point for the team:  bash run.sh <command>
 set -euo pipefail
-cd "$(dirname "$0")"
+if [[ "${BASH_SOURCE[0]}" == */* ]]; then
+  cd -- "${BASH_SOURCE[0]%/*}"
+fi
 
 case "${1:-help}" in
   setup) bash scripts/setup.sh ;;
@@ -13,10 +15,16 @@ case "${1:-help}" in
   web)   cd web && npm install && npm run dev ;;
   smoke) bash scripts/smoke.sh ;;
   data)
-    echo "Run these from pipeline/ (pip install -r requirements.txt first):"
-    echo "  python fetch_pubmed.py \"YOUR QUERY\" --max 50"
-    echo "  python extract.py"
-    echo "  python cluster.py"
+    "${PYTHON:-python}" pipeline/build_graph.py
+    "${PYTHON:-python}" pipeline/validate_graph.py --check-raw
+    ;;
+  migrate) "${PYTHON:-python}" scripts/platform.py migrate ;;
+  platform-seed) "${PYTHON:-python}" scripts/platform.py seed ;;
+  platform-test)
+    node scripts/tests/check_rls.mjs
+    node scripts/tests/check_platform.mjs
+    node --experimental-strip-types --test supabase/functions/tests/*.test.ts
+    "${PYTHON:-python}" -m unittest discover -s scripts/tests -p 'test_*.py'
     ;;
   *)
     echo "bash run.sh setup   check tools, create .env"
@@ -26,7 +34,10 @@ case "${1:-help}" in
     echo "bash run.sh logs    follow logs"
     echo "bash run.sh seed    reload data/seed/graph.json into Postgres"
     echo "bash run.sh web     run the web app alone, no backend (static data)"
-    echo "bash run.sh data    pipeline steps (see context/roles/P2-ai-graph.md)"
+    echo "bash run.sh data    rebuild and audit the reviewed P1 baseline offline"
+    echo "bash run.sh migrate apply pending migrations using DATABASE_URL"
+    echo "bash run.sh platform-seed upsert reviewed graph and coverage without deleting contributions"
+    echo "bash run.sh platform-test isolated database/role and endpoint checks"
     echo "bash run.sh smoke   check that the stack answers"
     ;;
 esac

@@ -693,7 +693,7 @@
           "missense variant"
         ],
         "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/196039/",
-        "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function."
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function."
       },
       "provenance": {
         "source_id": "clinvar_scn2a",
@@ -1046,7 +1046,7 @@
           "missense variant"
         ],
         "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/194555/",
-        "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function."
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function."
       },
       "provenance": {
         "source_id": "clinvar_scn2a",
@@ -1223,6 +1223,453 @@
           "fda_recognized_database": "true"
         },
         "record_sha256": "d25b12e0166e075c6aaa4054e9029d09b69e559b686871fd3efdb68b3612370f"
+      }
+    },
+    {
+      "id": "var_clinvar_4904548",
+      "type": "variant",
+      "name": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+      "synonyms": [
+        "C552F, C538F, C516F, C549F"
+      ],
+      "ext_ids": {
+        "ClinVar": "VCV004904548.1",
+        "ClinVarVariation": "4904548"
+      },
+      "props": {
+        "gene_id": "gene_stxbp1",
+        "gene_symbol": "STXBP1",
+        "effect": "unknown",
+        "classification": "Likely pathogenic",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2020/10/07 00:00",
+        "molecular_consequences": [
+          "missense variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4904548/",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function."
+      },
+      "provenance": {
+        "source_id": "clinvar_stxbp1",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4904548&retmode=json",
+        "retrieved_at": "2026-10-03T23:08:29.560686+00:00",
+        "cache_path": "raw/ontologies/clinvar_stxbp1.json",
+        "raw_sha256": "35cce333bb9d3322d1afabc89386f90a98c1b4a66bc3e1ff06e8f0738e03c3e2",
+        "source_record_locator": "result.4904548",
+        "snippet": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "4904548",
+          "obj_type": "single nucleotide variant",
+          "accession": "VCV004904548",
+          "accession_version": "VCV004904548.1",
+          "title": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+          "variation_set": [
+            {
+              "measure_id": "5011775",
+              "variation_xrefs": [],
+              "variation_name": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+              "cdna_change": "c.1655G>T",
+              "aliases": [],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "9",
+                  "band": "9q34.11",
+                  "start": "127682513",
+                  "stop": "127682513",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "127682513",
+                  "display_stop": "127682513",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "9",
+                  "band": "9q34.11",
+                  "start": "130444792",
+                  "stop": "130444792",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "130444792",
+                  "display_stop": "130444792",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "single nucleotide variant",
+              "canonical_spdi": "NC_000009.12:127682512:G:T",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV007731343"
+            ],
+            "rcv": [
+              "RCV006798283"
+            ]
+          },
+          "germline_classification": {
+            "description": "Likely pathogenic",
+            "last_evaluated": "2020/10/07 00:00",
+            "review_status": "criteria provided, single submitter",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [],
+                "trait_name": "STXBP1-related disorder"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "STXBP1",
+          "chr_sort": "09",
+          "location_sort": "00000000000127682513",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "STXBP1",
+              "geneid": "6812",
+              "strand": "+",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "missense variant"
+          ],
+          "protein_change": "C552F, C538F, C516F, C549F",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "549ebae18ac049d3bb631f05df8f3eb9f11a2ad2e021f9ed1930df057fc27c5e"
+      }
+    },
+    {
+      "id": "var_clinvar_4945793",
+      "type": "variant",
+      "name": "NM_172107.4(KCNQ2):c.387+2del",
+      "synonyms": [],
+      "ext_ids": {
+        "ClinVar": "VCV004945793.1",
+        "ClinVarVariation": "4945793"
+      },
+      "props": {
+        "gene_id": "gene_kcnq2",
+        "gene_symbol": "KCNQ2",
+        "effect": "unknown",
+        "classification": "Pathogenic",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2024/11/22 00:00",
+        "molecular_consequences": [
+          "splice donor variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4945793/",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function."
+      },
+      "provenance": {
+        "source_id": "clinvar_kcnq2",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4945793&retmode=json",
+        "retrieved_at": "2026-10-03T23:08:30.264334+00:00",
+        "cache_path": "raw/ontologies/clinvar_kcnq2.json",
+        "raw_sha256": "222b1936270ef0416afe0a5ab947d6685019854557f75ef16207f2c4309c5fae",
+        "source_record_locator": "result.4945793",
+        "snippet": "NM_172107.4(KCNQ2):c.387+2del",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "4945793",
+          "obj_type": "Deletion",
+          "accession": "VCV004945793",
+          "accession_version": "VCV004945793.1",
+          "title": "NM_172107.4(KCNQ2):c.387+2del",
+          "variation_set": [
+            {
+              "measure_id": "5052871",
+              "variation_xrefs": [],
+              "variation_name": "NM_172107.4(KCNQ2):c.387+2del",
+              "cdna_change": "NM_172107.4(KCNQ2):c.387+2del",
+              "aliases": [],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "20",
+                  "band": "20q13.33",
+                  "start": "63446745",
+                  "stop": "63446745",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "63446745",
+                  "display_stop": "63446745",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "20",
+                  "band": "20q13.33",
+                  "start": "62078098",
+                  "stop": "62078098",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "62078098",
+                  "display_stop": "62078098",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "Deletion",
+              "canonical_spdi": "NC_000020.11:63446744:A:",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV007873689"
+            ],
+            "rcv": [
+              "RCV006907512"
+            ]
+          },
+          "germline_classification": {
+            "description": "Pathogenic",
+            "last_evaluated": "2024/11/22 00:00",
+            "review_status": "criteria provided, single submitter",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "CN169299"
+                  }
+                ],
+                "trait_name": "KCNQ2-Related Disorders"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "KCNQ2",
+          "chr_sort": "20",
+          "location_sort": "00000000000063446745",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "KCNQ2",
+              "geneid": "3785",
+              "strand": "-",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "splice donor variant"
+          ],
+          "protein_change": "",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "0c98d7c04a7bdb603833a0e151921bb613c8e03d5f85a42f94b6315a456c38ae"
+      }
+    },
+    {
+      "id": "var_clinvar_4916868",
+      "type": "variant",
+      "name": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+      "synonyms": [
+        "S1730R, S1689R"
+      ],
+      "ext_ids": {
+        "ClinVar": "VCV004916868.1",
+        "ClinVarVariation": "4916868"
+      },
+      "props": {
+        "gene_id": "gene_scn8a",
+        "gene_symbol": "SCN8A",
+        "effect": "unknown",
+        "classification": "Likely pathogenic",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2023/09/12 00:00",
+        "molecular_consequences": [
+          "missense variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4916868/",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function."
+      },
+      "provenance": {
+        "source_id": "clinvar_scn8a",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4916868&retmode=json",
+        "retrieved_at": "2026-10-03T23:08:30.968257+00:00",
+        "cache_path": "raw/ontologies/clinvar_scn8a.json",
+        "raw_sha256": "c26ac7a672ea8532c7da4bff8cd6588f755d924ec6496ba4a3a447a885e99345",
+        "source_record_locator": "result.4916868",
+        "snippet": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "4916868",
+          "obj_type": "single nucleotide variant",
+          "accession": "VCV004916868",
+          "accession_version": "VCV004916868.1",
+          "title": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+          "variation_set": [
+            {
+              "measure_id": "5025315",
+              "variation_xrefs": [],
+              "variation_name": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+              "cdna_change": "c.5190T>A",
+              "aliases": [],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "12",
+                  "band": "12q13.13",
+                  "start": "51806676",
+                  "stop": "51806676",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "51806676",
+                  "display_stop": "51806676",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "12",
+                  "band": "12q13.13",
+                  "start": "52200460",
+                  "stop": "52200460",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "52200460",
+                  "display_stop": "52200460",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "single nucleotide variant",
+              "canonical_spdi": "NC_000012.12:51806675:T:A",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV007774840"
+            ],
+            "rcv": [
+              "RCV006840932"
+            ]
+          },
+          "germline_classification": {
+            "description": "Likely pathogenic",
+            "last_evaluated": "2023/09/12 00:00",
+            "review_status": "criteria provided, single submitter",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [],
+                "trait_name": "SCN8A-related disorder"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "SCN8A",
+          "chr_sort": "12",
+          "location_sort": "00000000000051806676",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "SCN8A",
+              "geneid": "6334",
+              "strand": "+",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "missense variant"
+          ],
+          "protein_change": "S1730R, S1689R",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "762327adf466fdd3f01682c7f17160de7d5d9f70cf16e619c6c9d8572f22d151"
       }
     }
   ],
@@ -3356,6 +3803,21 @@
   ],
   "sources": [
     {
+      "source_id": "clinvar_kcnq2",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4945793&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4945793&retmode=json",
+      "retrieved_at": "2026-10-03T23:08:30.264334+00:00",
+      "cache_path": "raw/ontologies/clinvar_kcnq2.json",
+      "raw_sha256": "222b1936270ef0416afe0a5ab947d6685019854557f75ef16207f2c4309c5fae",
+      "bytes": 2127,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV004945793.1"
+    },
+    {
       "source_id": "clinvar_scn2a",
       "provider": "ClinVar",
       "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=196039,194555&retmode=json",
@@ -3369,6 +3831,36 @@
       "license": "Public NCBI database; cite ClinVar and original submitters",
       "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
       "version": "VCV000196039.26, VCV000194555.34"
+    },
+    {
+      "source_id": "clinvar_scn8a",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4916868&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4916868&retmode=json",
+      "retrieved_at": "2026-10-03T23:08:30.968257+00:00",
+      "cache_path": "raw/ontologies/clinvar_scn8a.json",
+      "raw_sha256": "c26ac7a672ea8532c7da4bff8cd6588f755d924ec6496ba4a3a447a885e99345",
+      "bytes": 2151,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV004916868.1"
+    },
+    {
+      "source_id": "clinvar_stxbp1",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4904548&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4904548&retmode=json",
+      "retrieved_at": "2026-10-03T23:08:29.560686+00:00",
+      "cache_path": "raw/ontologies/clinvar_stxbp1.json",
+      "raw_sha256": "35cce333bb9d3322d1afabc89386f90a98c1b4a66bc3e1ff06e8f0738e03c3e2",
+      "bytes": 2171,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV004904548.1"
     },
     {
       "source_id": "hgnc_kcnq2",
@@ -3813,6 +4305,7 @@
     "OMIM identifiers are retained only as exact MONDO mappings to public HPO annotations; no OMIM database content was fetched.",
     "No ontology ID is assigned to an SCN2A autism/intellectual-disability subgroup. Autosomal dominant intellectual disability 29 is SETBP1-related, not SCN2A-related.",
     "ClinVar records establish variant identity/classification only. Functional direction requires separate assay or publication evidence.",
+    "ClinVar coverage is two selected SCN2A records and one identity-only example each for STXBP1, KCNQ2 and SCN8A; it is not a variant catalogue. No variant-gene edge or unsupported mechanism edge is inferred.",
     "Explicit HPO NOT qualifiers become contradicting evidence, not positive phenotype edges. Absence of a row is not negative evidence."
   ],
   "versions": {

@@ -1,0 +1,9 @@
+{
+  "url": "https://globalgenes.org/robots.txt",
+  "status_code": 403,
+  "retrieved_at": "2026-10-03T23:08:28Z",
+  "text": "User-agent: *\nDisallow: /\n",
+  "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+  "rules_source": "local_policy_for_http_403",
+  "sha256_scope": "policy_text"
+}

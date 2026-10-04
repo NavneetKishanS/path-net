@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "curation_inputs": {
-    "curation/ontology_slice.json": "f800f51641eb09eb54e27033d7c7142f2f7cac02bc83f1bd5d47b56db64dc14e",
-    "curation/community.json": "0a29ead6c38c65d13dcfac39508066739cff64eaaa111fa7e647ea03bf92266b",
+    "curation/ontology_slice.json": "e91d628f3f6e8e42cd7201d8947b23873523757d8f7e15d138ebe34582476e06",
+    "curation/community.json": "eab2fa4d33555e02223931e03ebf2ffe84559234ee6034a529c36ba08916cd7d",
     "curation/research.json": "55c5575dd934cbd94d37fbbeb824d9c8ab95c416ce6cd7f34b0796a27c4d3a73",
     "curation/research_selection.json": "b3b04d1f2bc9f13b9b9f024bd3be9dc952727abb0b6d0443fb6c27239b26ecf2",
     "curation/pubmed_manifest.json": "cbda298ec7cac9cdf4781446071d4e6aa0c4b697e2a6b58e6163d4c70b423659",
     "curation/research_cache_manifest.json": "b06652b553e0389797673f1192716388262dc5c7ea353486adaadf82b09d4fca",
-    "curation/coverage_inventory.json": "bd345545b8051bb3f33774c364b0b14d3e9d92dc9799d193c0e1a7136e2e5f4c",
+    "curation/coverage_inventory.json": "db7f9090cecc4f46f2e79ad6ec1c6caf6cda3010f76605636c4f7c16222ca2fc",
     "curation/demo_spec.json": "8772cdba938c135721430640d6c953ccfc80ec080ac97427f1e15035bdeb7c76"
   },
   "nodes": {
@@ -584,6 +584,389 @@
         "record_sha256": "d25b12e0166e075c6aaa4054e9029d09b69e559b686871fd3efdb68b3612370f"
       }
     },
+    "var_clinvar_4904548": {
+      "curation_file": "curation/ontology_slice.json",
+      "source_record": {
+        "source_id": "clinvar_stxbp1",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4904548&retmode=json",
+        "retrieved_at": "2026-10-03T23:08:29.560686+00:00",
+        "cache_path": "raw/ontologies/clinvar_stxbp1.json",
+        "raw_sha256": "35cce333bb9d3322d1afabc89386f90a98c1b4a66bc3e1ff06e8f0738e03c3e2",
+        "source_record_locator": "result.4904548",
+        "snippet": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "4904548",
+          "obj_type": "single nucleotide variant",
+          "accession": "VCV004904548",
+          "accession_version": "VCV004904548.1",
+          "title": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+          "variation_set": [
+            {
+              "measure_id": "5011775",
+              "variation_xrefs": [],
+              "variation_name": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+              "cdna_change": "c.1655G>T",
+              "aliases": [],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "9",
+                  "band": "9q34.11",
+                  "start": "127682513",
+                  "stop": "127682513",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "127682513",
+                  "display_stop": "127682513",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "9",
+                  "band": "9q34.11",
+                  "start": "130444792",
+                  "stop": "130444792",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "130444792",
+                  "display_stop": "130444792",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "single nucleotide variant",
+              "canonical_spdi": "NC_000009.12:127682512:G:T",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV007731343"
+            ],
+            "rcv": [
+              "RCV006798283"
+            ]
+          },
+          "germline_classification": {
+            "description": "Likely pathogenic",
+            "last_evaluated": "2020/10/07 00:00",
+            "review_status": "criteria provided, single submitter",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [],
+                "trait_name": "STXBP1-related disorder"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "STXBP1",
+          "chr_sort": "09",
+          "location_sort": "00000000000127682513",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "STXBP1",
+              "geneid": "6812",
+              "strand": "+",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "missense variant"
+          ],
+          "protein_change": "C552F, C538F, C516F, C549F",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "549ebae18ac049d3bb631f05df8f3eb9f11a2ad2e021f9ed1930df057fc27c5e"
+      }
+    },
+    "var_clinvar_4945793": {
+      "curation_file": "curation/ontology_slice.json",
+      "source_record": {
+        "source_id": "clinvar_kcnq2",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4945793&retmode=json",
+        "retrieved_at": "2026-10-03T23:08:30.264334+00:00",
+        "cache_path": "raw/ontologies/clinvar_kcnq2.json",
+        "raw_sha256": "222b1936270ef0416afe0a5ab947d6685019854557f75ef16207f2c4309c5fae",
+        "source_record_locator": "result.4945793",
+        "snippet": "NM_172107.4(KCNQ2):c.387+2del",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "4945793",
+          "obj_type": "Deletion",
+          "accession": "VCV004945793",
+          "accession_version": "VCV004945793.1",
+          "title": "NM_172107.4(KCNQ2):c.387+2del",
+          "variation_set": [
+            {
+              "measure_id": "5052871",
+              "variation_xrefs": [],
+              "variation_name": "NM_172107.4(KCNQ2):c.387+2del",
+              "cdna_change": "NM_172107.4(KCNQ2):c.387+2del",
+              "aliases": [],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "20",
+                  "band": "20q13.33",
+                  "start": "63446745",
+                  "stop": "63446745",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "63446745",
+                  "display_stop": "63446745",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "20",
+                  "band": "20q13.33",
+                  "start": "62078098",
+                  "stop": "62078098",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "62078098",
+                  "display_stop": "62078098",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "Deletion",
+              "canonical_spdi": "NC_000020.11:63446744:A:",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV007873689"
+            ],
+            "rcv": [
+              "RCV006907512"
+            ]
+          },
+          "germline_classification": {
+            "description": "Pathogenic",
+            "last_evaluated": "2024/11/22 00:00",
+            "review_status": "criteria provided, single submitter",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [
+                  {
+                    "db_source": "MedGen",
+                    "db_id": "CN169299"
+                  }
+                ],
+                "trait_name": "KCNQ2-Related Disorders"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "KCNQ2",
+          "chr_sort": "20",
+          "location_sort": "00000000000063446745",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "KCNQ2",
+              "geneid": "3785",
+              "strand": "-",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "splice donor variant"
+          ],
+          "protein_change": "",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "0c98d7c04a7bdb603833a0e151921bb613c8e03d5f85a42f94b6315a456c38ae"
+      }
+    },
+    "var_clinvar_4916868": {
+      "curation_file": "curation/ontology_slice.json",
+      "source_record": {
+        "source_id": "clinvar_scn8a",
+        "source_type": "clinvar",
+        "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4916868&retmode=json",
+        "retrieved_at": "2026-10-03T23:08:30.968257+00:00",
+        "cache_path": "raw/ontologies/clinvar_scn8a.json",
+        "raw_sha256": "c26ac7a672ea8532c7da4bff8cd6588f755d924ec6496ba4a3a447a885e99345",
+        "source_record_locator": "result.4916868",
+        "snippet": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+        "snippet_kind": "verbatim",
+        "source_record": {
+          "uid": "4916868",
+          "obj_type": "single nucleotide variant",
+          "accession": "VCV004916868",
+          "accession_version": "VCV004916868.1",
+          "title": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+          "variation_set": [
+            {
+              "measure_id": "5025315",
+              "variation_xrefs": [],
+              "variation_name": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+              "cdna_change": "c.5190T>A",
+              "aliases": [],
+              "variation_loc": [
+                {
+                  "status": "current",
+                  "assembly_name": "GRCh38",
+                  "chr": "12",
+                  "band": "12q13.13",
+                  "start": "51806676",
+                  "stop": "51806676",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "51806676",
+                  "display_stop": "51806676",
+                  "assembly_acc_ver": "GCF_000001405.38",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                },
+                {
+                  "status": "previous",
+                  "assembly_name": "GRCh37",
+                  "chr": "12",
+                  "band": "12q13.13",
+                  "start": "52200460",
+                  "stop": "52200460",
+                  "inner_start": "",
+                  "inner_stop": "",
+                  "outer_start": "",
+                  "outer_stop": "",
+                  "display_start": "52200460",
+                  "display_stop": "52200460",
+                  "assembly_acc_ver": "GCF_000001405.25",
+                  "annotation_release": "",
+                  "alt": "",
+                  "ref": ""
+                }
+              ],
+              "allele_freq_set": [],
+              "variant_type": "single nucleotide variant",
+              "canonical_spdi": "NC_000012.12:51806675:T:A",
+              "common_name": ""
+            }
+          ],
+          "supporting_submissions": {
+            "scv": [
+              "SCV007774840"
+            ],
+            "rcv": [
+              "RCV006840932"
+            ]
+          },
+          "germline_classification": {
+            "description": "Likely pathogenic",
+            "last_evaluated": "2023/09/12 00:00",
+            "review_status": "criteria provided, single submitter",
+            "fda_recognized_database": "",
+            "trait_set": [
+              {
+                "trait_xrefs": [],
+                "trait_name": "SCN8A-related disorder"
+              }
+            ]
+          },
+          "clinical_impact_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "oncogenicity_classification": {
+            "description": "",
+            "last_evaluated": "1/01/01 00:00",
+            "review_status": "",
+            "fda_recognized_database": "",
+            "trait_set": []
+          },
+          "record_status": "",
+          "gene_sort": "SCN8A",
+          "chr_sort": "12",
+          "location_sort": "00000000000051806676",
+          "variation_set_name": "",
+          "variation_set_id": "",
+          "genes": [
+            {
+              "symbol": "SCN8A",
+              "geneid": "6334",
+              "strand": "+",
+              "source": "submitted"
+            }
+          ],
+          "molecular_consequence_list": [
+            "missense variant"
+          ],
+          "protein_change": "S1730R, S1689R",
+          "fda_recognized_database": ""
+        },
+        "record_sha256": "762327adf466fdd3f01682c7f17160de7d5d9f70cf16e619c6c9d8572f22d151"
+      }
+    },
     "group_stxbp1_foundation": {
       "curation_file": "curation/community.json"
     },
@@ -627,6 +1010,9 @@
       "curation_file": "curation/community.json"
     },
     "mech_kcnq2_dominant_negative": {
+      "curation_file": "curation/community.json"
+    },
+    "asset_stxbp1_rarex": {
       "curation_file": "curation/community.json"
     },
     "asset_nih_11261066": {
@@ -2610,7 +2996,7 @@
       "raw_checks": [
         {
           "path": "raw/groups/familiescn2a.body",
-          "sha256": "35285fe8299fd2d1f58f66e4ef65a30c41d9adc041f9b50bd53ea252ba35f9e0"
+          "sha256": "3d9b4646992cd864fe11f113912a163f2985a37cf502dc583340a6125c222100"
         },
         {
           "path": "raw/groups/familiescn2a.txt",
@@ -2634,7 +3020,7 @@
       "raw_checks": [
         {
           "path": "raw/groups/kcnq2_cure.body",
-          "sha256": "8596773c42f646f9be511f3f3f51f9b1d5a1bac6cde38877c9df335cbe3fb8fb"
+          "sha256": "644299acca3a5f7d0484b75f39803aaf574e12d36b4098093a15a807c1ed969e"
         },
         {
           "path": "raw/groups/kcnq2_cure.txt",
@@ -2658,7 +3044,7 @@
       "raw_checks": [
         {
           "path": "raw/groups/stxbp1_starr.body",
-          "sha256": "c500908aabef481634118cf1aab36837957da5eea096787679471655188722a3"
+          "sha256": "9114a93eaa833e35e5fa8296650c7dc0fa9647b7d9acb0fe076b0b718787073a"
         },
         {
           "path": "raw/groups/stxbp1_starr.txt",
@@ -2682,7 +3068,7 @@
       "raw_checks": [
         {
           "path": "raw/groups/scn2a_dragonfly.body",
-          "sha256": "93aff6fda7d6981c165bf3d8d1e1ec0ec920c9f607bb1e64a70ae173901c1b82"
+          "sha256": "72e9191b86886b8a9caa81e86494a6d21fc21ef91cc3607a5e1d19eb4cbe1e4c"
         },
         {
           "path": "raw/groups/scn2a_dragonfly.txt",
@@ -2706,7 +3092,7 @@
       "raw_checks": [
         {
           "path": "raw/groups/kcnq2_faq.body",
-          "sha256": "54dc570ddcb18ab35895bcf1c113e2e92025f54d74bb2d352ca4c8eebd07ebf2"
+          "sha256": "87afd07f45f36ebc220ef0323a1f3bae721b2d1969647cbb6b0484abf2e6fba1"
         },
         {
           "path": "raw/groups/kcnq2_faq.txt",
@@ -2730,7 +3116,7 @@
       "raw_checks": [
         {
           "path": "raw/groups/kcnq2_biorepository.body",
-          "sha256": "80c877d04ec2db8b713bc6477fbff95ab701d64ba614a0d025974a040ab67c89"
+          "sha256": "d05b90be20563f2186ecc82c44e16ed31890fda1524b92ce1df8160eded99aee"
         },
         {
           "path": "raw/groups/kcnq2_biorepository.txt",
@@ -3077,6 +3463,30 @@
         }
       ],
       "evidence_sha256": "a27d8e034218500077f581377b8f089150c6994446d90325a5de5eb7929d50ab"
+    },
+    "ev_asset_stxbp1_rarex_disease": {
+      "source_url": "https://www.stxbp1disorders.org/rare-x",
+      "curation_file": "curation/community.json",
+      "verification": "verbatim",
+      "source_id": "stxbp1_rarex",
+      "quote_start": 3599,
+      "quote_end": 3699,
+      "qualifier": "Public program description only. No patient records were accessed; access eligibility and current availability need program-team confirmation.",
+      "evidence_stance": "supports",
+      "raw_checks": [
+        {
+          "path": "raw/groups/stxbp1_rarex.body",
+          "sha256": "36053331d285e8c396492daf68654bda820e11510e660f874ae5c7b8e3d8e928"
+        },
+        {
+          "path": "raw/groups/stxbp1_rarex.txt",
+          "sha256": "944b03d05b5ecdc2a91107a29672b553ba25ea512656cbdad716be02e4d5dae4",
+          "contains": [
+            "The STXBP1 Disorders Data Collection Program will be patient-owned but enabled by RARE-X technology."
+          ]
+        }
+      ],
+      "evidence_sha256": "8266f96feeff7b8ba60774ed579625d612f3819bf2533c97c1b27d59458e156e"
     },
     "ev_study_disease_study_nct06555965_dis_stxbp1": {
       "source_url": "https://clinicaltrials.gov/study/NCT06555965",
@@ -3805,6 +4215,21 @@
   },
   "sources": [
     {
+      "source_id": "clinvar_kcnq2",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4945793&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4945793&retmode=json",
+      "retrieved_at": "2026-10-03T23:08:30.264334+00:00",
+      "cache_path": "raw/ontologies/clinvar_kcnq2.json",
+      "raw_sha256": "222b1936270ef0416afe0a5ab947d6685019854557f75ef16207f2c4309c5fae",
+      "bytes": 2127,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV004945793.1"
+    },
+    {
       "source_id": "clinvar_scn2a",
       "provider": "ClinVar",
       "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=196039,194555&retmode=json",
@@ -3818,6 +4243,36 @@
       "license": "Public NCBI database; cite ClinVar and original submitters",
       "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
       "version": "VCV000196039.26, VCV000194555.34"
+    },
+    {
+      "source_id": "clinvar_scn8a",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4916868&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4916868&retmode=json",
+      "retrieved_at": "2026-10-03T23:08:30.968257+00:00",
+      "cache_path": "raw/ontologies/clinvar_scn8a.json",
+      "raw_sha256": "c26ac7a672ea8532c7da4bff8cd6588f755d924ec6496ba4a3a447a885e99345",
+      "bytes": 2151,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV004916868.1"
+    },
+    {
+      "source_id": "clinvar_stxbp1",
+      "provider": "ClinVar",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4904548&retmode=json",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4904548&retmode=json",
+      "retrieved_at": "2026-10-03T23:08:29.560686+00:00",
+      "cache_path": "raw/ontologies/clinvar_stxbp1.json",
+      "raw_sha256": "35cce333bb9d3322d1afabc89386f90a98c1b4a66bc3e1ff06e8f0738e03c3e2",
+      "bytes": 2171,
+      "etag": null,
+      "last_modified": null,
+      "license": "Public NCBI database; cite ClinVar and original submitters",
+      "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "version": "VCV004904548.1"
     },
     {
       "source_id": "hgnc_kcnq2",
@@ -4265,9 +4720,9 @@
         "source_id": "stxbp1_foundation",
         "requested_url": "https://www.stxbp1disorders.org/",
         "source_url": "https://www.stxbp1disorders.org/",
-        "retrieved_at": "2026-10-03T20:48:32Z",
+        "retrieved_at": "2026-10-03T23:18:32Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html;charset=utf-8",
         "encoding": "utf-8",
         "body_sha256": "e442a8f406240242caf158b8958ce12acaade4729e3a899537755cd2802fd17b",
@@ -4279,7 +4734,7 @@
           {
             "url": "https://www.stxbp1disorders.org/robots.txt",
             "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
-            "retrieved_at": "2026-10-03T20:48:30Z",
+            "retrieved_at": "2026-10-03T23:16:35Z",
             "allowed": true
           }
         ],
@@ -4296,12 +4751,12 @@
         "source_id": "stxbp1_starr",
         "requested_url": "https://www.stxbp1disorders.org/starr",
         "source_url": "https://www.stxbp1disorders.org/starr",
-        "retrieved_at": "2026-10-03T20:48:34Z",
+        "retrieved_at": "2026-10-03T23:19:10Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html;charset=utf-8",
         "encoding": "utf-8",
-        "body_sha256": "c500908aabef481634118cf1aab36837957da5eea096787679471655188722a3",
+        "body_sha256": "9114a93eaa833e35e5fa8296650c7dc0fa9647b7d9acb0fe076b0b718787073a",
         "text_sha256": "1fa97dcbccebb28ef33a2aab1595a2135cf71cf887ea138b3b400b1d581c7f5a",
         "body_path": "raw/groups/stxbp1_starr.body",
         "text_path": "raw/groups/stxbp1_starr.txt",
@@ -4310,7 +4765,7 @@
           {
             "url": "https://www.stxbp1disorders.org/robots.txt",
             "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
-            "retrieved_at": "2026-10-03T20:48:30Z",
+            "retrieved_at": "2026-10-03T23:16:35Z",
             "allowed": true
           }
         ],
@@ -4327,12 +4782,12 @@
         "source_id": "familiescn2a",
         "requested_url": "https://www.scn2a.org/",
         "source_url": "https://www.scn2a.org/",
-        "retrieved_at": "2026-10-03T20:48:37Z",
+        "retrieved_at": "2026-10-03T23:19:17Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html; charset=UTF-8",
-        "encoding": "UTF-8",
-        "body_sha256": "35285fe8299fd2d1f58f66e4ef65a30c41d9adc041f9b50bd53ea252ba35f9e0",
+        "encoding": "utf-8",
+        "body_sha256": "3d9b4646992cd864fe11f113912a163f2985a37cf502dc583340a6125c222100",
         "text_sha256": "d78ad8d5d9ddfa139e8f5a059d402fcac0449b857754285d88c389e35c088e25",
         "body_path": "raw/groups/familiescn2a.body",
         "text_path": "raw/groups/familiescn2a.txt",
@@ -4341,7 +4796,7 @@
           {
             "url": "https://www.scn2a.org/robots.txt",
             "sha256": "5df758aaad54730b211a0dde18ab0a8d342d343aa0a380da873f0c017ed3d2f1",
-            "retrieved_at": "2026-10-03T20:48:35Z",
+            "retrieved_at": "2026-10-03T23:19:11Z",
             "allowed": true
           }
         ],
@@ -4358,12 +4813,12 @@
         "source_id": "scn2a_dragonfly",
         "requested_url": "https://scn2a.iamrare.org/",
         "source_url": "https://scn2a.iamrare.org/",
-        "retrieved_at": "2026-10-03T20:48:40Z",
+        "retrieved_at": "2026-10-03T23:19:23Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html; charset=UTF-8",
-        "encoding": "UTF-8",
-        "body_sha256": "93aff6fda7d6981c165bf3d8d1e1ec0ec920c9f607bb1e64a70ae173901c1b82",
+        "encoding": "utf-8",
+        "body_sha256": "72e9191b86886b8a9caa81e86494a6d21fc21ef91cc3607a5e1d19eb4cbe1e4c",
         "text_sha256": "681a350e8467bfe08491ad0358014b52de63dad0b33df577e4a295f223d56304",
         "body_path": "raw/groups/scn2a_dragonfly.body",
         "text_path": "raw/groups/scn2a_dragonfly.txt",
@@ -4372,7 +4827,7 @@
           {
             "url": "https://scn2a.iamrare.org/robots.txt",
             "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f",
-            "retrieved_at": "2026-10-03T20:48:37Z",
+            "retrieved_at": "2026-10-03T23:19:17Z",
             "allowed": true
           }
         ],
@@ -4389,12 +4844,12 @@
         "source_id": "kcnq2_cure",
         "requested_url": "https://www.kcnq2cure.org/our-role/",
         "source_url": "https://www.kcnq2cure.org/our-role/",
-        "retrieved_at": "2026-10-03T20:48:42Z",
+        "retrieved_at": "2026-10-03T23:19:32Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html; charset=UTF-8",
-        "encoding": "UTF-8",
-        "body_sha256": "8596773c42f646f9be511f3f3f51f9b1d5a1bac6cde38877c9df335cbe3fb8fb",
+        "encoding": "utf-8",
+        "body_sha256": "644299acca3a5f7d0484b75f39803aaf574e12d36b4098093a15a807c1ed969e",
         "text_sha256": "f81e4043ef34535083d2b6f5b9fd6b86b0b9395e536801067dcdca9dcd6132d3",
         "body_path": "raw/groups/kcnq2_cure.body",
         "text_path": "raw/groups/kcnq2_cure.txt",
@@ -4403,7 +4858,7 @@
           {
             "url": "https://www.kcnq2cure.org/robots.txt",
             "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
-            "retrieved_at": "2026-10-03T20:48:40Z",
+            "retrieved_at": "2026-10-03T23:19:23Z",
             "allowed": true
           }
         ],
@@ -4420,12 +4875,12 @@
         "source_id": "kcnq2_faq",
         "requested_url": "https://www.kcnq2cure.org/faq/",
         "source_url": "https://www.kcnq2cure.org/faq/",
-        "retrieved_at": "2026-10-03T20:48:44Z",
+        "retrieved_at": "2026-10-03T23:19:36Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html; charset=UTF-8",
-        "encoding": "UTF-8",
-        "body_sha256": "54dc570ddcb18ab35895bcf1c113e2e92025f54d74bb2d352ca4c8eebd07ebf2",
+        "encoding": "utf-8",
+        "body_sha256": "87afd07f45f36ebc220ef0323a1f3bae721b2d1969647cbb6b0484abf2e6fba1",
         "text_sha256": "c75cadb29e127e65d73f496d01003997473463d93b9b6e8b3abd1a19f1f94c89",
         "body_path": "raw/groups/kcnq2_faq.body",
         "text_path": "raw/groups/kcnq2_faq.txt",
@@ -4434,7 +4889,7 @@
           {
             "url": "https://www.kcnq2cure.org/robots.txt",
             "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
-            "retrieved_at": "2026-10-03T20:48:40Z",
+            "retrieved_at": "2026-10-03T23:19:23Z",
             "allowed": true
           }
         ],
@@ -4451,12 +4906,12 @@
         "source_id": "kcnq2_biorepository",
         "requested_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
         "source_url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
-        "retrieved_at": "2026-10-03T20:48:46Z",
+        "retrieved_at": "2026-10-03T23:19:42Z",
         "status_code": 200,
-        "backend": "direct",
+        "backend": "brightdata",
         "content_type": "text/html; charset=UTF-8",
-        "encoding": "UTF-8",
-        "body_sha256": "80c877d04ec2db8b713bc6477fbff95ab701d64ba614a0d025974a040ab67c89",
+        "encoding": "utf-8",
+        "body_sha256": "d05b90be20563f2186ecc82c44e16ed31890fda1524b92ce1df8160eded99aee",
         "text_sha256": "ce371555e15952e17721e143033f117f954ba59dee0b2abca1b238bff0a2a1b9",
         "body_path": "raw/groups/kcnq2_biorepository.body",
         "text_path": "raw/groups/kcnq2_biorepository.txt",
@@ -4465,7 +4920,7 @@
           {
             "url": "https://www.kcnq2cure.org/robots.txt",
             "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
-            "retrieved_at": "2026-10-03T20:48:40Z",
+            "retrieved_at": "2026-10-03T23:19:23Z",
             "allowed": true
           }
         ],
@@ -4690,6 +5145,37 @@
       "title": "Resurgent and Gating Pore Currents Induced by De Novo SCN2A Epilepsy Mutations."
     },
     {
+      "id": "stxbp1_rarex",
+      "kind": "groups",
+      "url": "https://www.stxbp1disorders.org/rare-x",
+      "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only",
+      "snapshot": {
+        "source_id": "stxbp1_rarex",
+        "requested_url": "https://www.stxbp1disorders.org/rare-x",
+        "source_url": "https://www.stxbp1disorders.org/rare-x",
+        "retrieved_at": "2026-10-03T23:19:49Z",
+        "status_code": 200,
+        "backend": "brightdata",
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "body_sha256": "36053331d285e8c396492daf68654bda820e11510e660f874ae5c7b8e3d8e928",
+        "text_sha256": "944b03d05b5ecdc2a91107a29672b553ba25ea512656cbdad716be02e4d5dae4",
+        "body_path": "raw/groups/stxbp1_rarex.body",
+        "text_path": "raw/groups/stxbp1_rarex.txt",
+        "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+        "robots_checks": [
+          {
+            "url": "https://www.stxbp1disorders.org/robots.txt",
+            "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
+            "retrieved_at": "2026-10-03T23:16:35Z",
+            "allowed": true
+          }
+        ],
+        "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only"
+      },
+      "availability": "public_landing_page"
+    },
+    {
       "id": "NCT06555965",
       "source_type": "clinicaltrials",
       "url": "https://clinicaltrials.gov/study/NCT06555965",
@@ -4774,7 +5260,7 @@
     "HUGO Gene Nomenclature Committee (HGNC), CC0; approved gene symbols and identifiers are retained.",
     "NCBI ClinVar; variant accession versions and original supporting submission identifiers are retained in provenance."
   ],
-  "graph_sha256": "508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf",
+  "graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b",
   "confidence_policy": "Null means not calibrated. Verified means checked against the cited source within the stated scope, not clinical certainty.",
   "release_date": "2026-10-03"
 }

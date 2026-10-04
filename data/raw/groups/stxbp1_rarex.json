@@ -1,0 +1,24 @@
+{
+  "source_id": "stxbp1_rarex",
+  "requested_url": "https://www.stxbp1disorders.org/rare-x",
+  "source_url": "https://www.stxbp1disorders.org/rare-x",
+  "retrieved_at": "2026-10-03T23:19:49Z",
+  "status_code": 200,
+  "backend": "brightdata",
+  "content_type": "text/html;charset=utf-8",
+  "encoding": "utf-8",
+  "body_sha256": "36053331d285e8c396492daf68654bda820e11510e660f874ae5c7b8e3d8e928",
+  "text_sha256": "944b03d05b5ecdc2a91107a29672b553ba25ea512656cbdad716be02e4d5dae4",
+  "body_path": "raw/groups/stxbp1_rarex.body",
+  "text_path": "raw/groups/stxbp1_rarex.txt",
+  "text_normalization": "HTML entities decoded; visible text; whitespace collapsed; punctuation and case preserved",
+  "robots_checks": [
+    {
+      "url": "https://www.stxbp1disorders.org/robots.txt",
+      "sha256": "a909c8da433f7734ac68481ee314b86a9a1de2229cd7a805f80351f40d8b79f8",
+      "retrieved_at": "2026-10-03T23:16:35Z",
+      "allowed": true
+    }
+  ],
+  "licence": "STXBP1 Foundation copyright; all rights reserved; retain short attributable excerpts only"
+}

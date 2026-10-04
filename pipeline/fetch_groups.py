@@ -108,6 +108,7 @@ class PublicFetcher:
         max_age_hours: float = 24,
         retries: int = 2,
         interval: float = 1.0,
+        offline: bool = False,
         session=None,
         sleeper=time.sleep,
         clock=time.time,
@@ -115,9 +116,10 @@ class PublicFetcher:
         if backend not in {"direct", "brightdata"}:
             raise ValueError("backend must be direct or brightdata")
         self.backend = backend
+        self.offline = offline
         self.key = os.environ.get("BRIGHTDATA_API_KEY", "").strip()
         self.zone = os.environ.get("BRIGHTDATA_UNLOCKER_ZONE", "").strip()
-        if backend == "brightdata" and not (self.key and self.zone):
+        if backend == "brightdata" and not offline and not (self.key and self.zone):
             raise FetchError("Bright Data requires BRIGHTDATA_API_KEY and BRIGHTDATA_UNLOCKER_ZONE; no API request sent")
         self.raw_dir = Path(raw_dir)
         self.max_age_seconds = max_age_hours * 3600
@@ -145,6 +147,8 @@ class PublicFetcher:
         self.last_request[origin] = self.clock()
 
     def _request(self, method: str, url: str, **kwargs):
+        if self.offline:
+            raise FetchError("Offline mode prohibits network requests")
         origin = self._check_url(url)
         for attempt in range(self.retries + 1):
             self._throttle(origin)
@@ -195,7 +199,9 @@ class PublicFetcher:
             else:
                 # Unknown robots policy is not permission to scrape or use a proxy.
                 raise FetchError(f"Cannot establish robots policy at {robot_url}: HTTP {status}")
-            record = {"url": robot_url, "status_code": status, "retrieved_at": utc_now(), "text": rules, "sha256": sha256(rules)}
+            rules_source = "response_text" if 200 <= status < 300 else f"local_policy_for_http_{status}"
+            record = {"url": robot_url, "status_code": status, "retrieved_at": utc_now(), "text": rules,
+                      "sha256": sha256(rules), "rules_source": rules_source, "sha256_scope": "policy_text"}
             save_json(cache, record)
         if sha256(record["text"]) != record["sha256"]:
             raise FetchError(f"Robots cache hash mismatch for {origin}")
@@ -207,9 +213,49 @@ class PublicFetcher:
     def _permission(self, url: str) -> dict:
         parser, record = self._robots_for(url)
         if not parser.can_fetch(USER_AGENT, url):
+            if record["status_code"] in {401, 403}:
+                raise RobotsDenied(f"robots.txt returned HTTP {record['status_code']} for {url}; permission is not established, no page or proxy request sent")
             raise RobotsDenied(f"robots.txt disallows {url}; no page or proxy request sent")
         self._throttle(self._check_url(url), parser.crawl_delay(USER_AGENT) or 0)
         return {"url": record["url"], "sha256": record["sha256"], "retrieved_at": record["retrieved_at"], "allowed": True}
+
+    @staticmethod
+    def _provider_response(response) -> tuple[int, dict, bytes]:
+        """Validate the documented structured response without exposing its body.
+
+        Bright Data examples use status for synchronous JSON responses and
+        status_code for asynchronous responses. Accept both without treating the
+        provider's outer HTTP 200 as proof of successful target retrieval.
+        """
+        try:
+            result = response.json()
+            if not isinstance(result, dict):
+                raise ValueError
+            status = result.get("status", result.get("status_code"))
+            if isinstance(status, bool) or not str(status).isdigit():
+                raise ValueError
+            status = int(status)
+            if not 100 <= status <= 599:
+                raise ValueError
+            if "status" in result and "status_code" in result and str(result["status"]) != str(result["status_code"]):
+                raise ValueError
+            headers, body = result.get("headers", {}), result.get("body")
+            if not isinstance(headers, dict) or not isinstance(body, str):
+                raise ValueError
+            normalized_headers = {}
+            for key, value in headers.items():
+                if not isinstance(key, str):
+                    raise ValueError
+                # The live structured API returns arrays for repeated headers.
+                # Keep the client independent of singleton/repeated encoding.
+                if isinstance(value, list) and all(isinstance(item, str) for item in value):
+                    value = ", ".join(value)
+                if not isinstance(value, str):
+                    raise ValueError
+                normalized_headers[key.lower()] = value
+        except (ValueError, TypeError):
+            raise FetchError("Bright Data returned a malformed structured target response; no snapshot saved") from None
+        return status, normalized_headers, body.encode("utf-8")
 
     def fetch(self, source: dict, force: bool = False) -> dict:
         source_id = source["id"]
@@ -224,11 +270,15 @@ class PublicFetcher:
         meta_path = folder / f"{source_id}.json"
         body_path = folder / f"{source_id}.body"
         text_path = folder / f"{source_id}.txt"
-        if not force and meta_path.exists() and self.clock() - meta_path.stat().st_mtime <= self.max_age_seconds:
+        if not force and meta_path.exists() and (self.offline or self.clock() - meta_path.stat().st_mtime <= self.max_age_seconds):
             record = json.loads(meta_path.read_text(encoding="utf-8"))
             if record["requested_url"] == source["url"] and body_path.exists() and text_path.exists():
+                if not self.offline and self.backend == "brightdata" and record.get("backend") != self.backend:
+                    raise FetchError("Cached backend differs from requested backend; use --force or a separate --raw-dir for an explicit fresh retrieval")
                 self.verify_record(record, body_path.read_bytes(), text_path.read_text(encoding="utf-8"))
                 return record
+        if self.offline:
+            raise FetchError(f"Offline cache is missing or incomplete for {source_id}; no network request sent")
         current = source["url"]
         robots_checks = []
         for _ in range(6):
@@ -241,10 +291,7 @@ class PublicFetcher:
                 )
                 if response.status_code != 200:
                     raise FetchError(f"Bright Data request failed: HTTP {response.status_code}")
-                result = response.json()
-                status = int(result["status"])
-                target_headers = {str(k).lower(): v for k, v in result.get("headers", {}).items()}
-                body = result.get("body", "").encode("utf-8")
+                status, target_headers, body = self._provider_response(response)
                 encoding = "utf-8"
             else:
                 response = self._request("GET", current)
@@ -419,31 +466,54 @@ def main():
     parser.add_argument("--kind", choices=["groups", "mechanisms", "all"], default="groups")
     parser.add_argument("--backend", choices=["direct", "brightdata"], default="direct")
     parser.add_argument("--curation", type=Path, default=CURATION_FILE)
+    parser.add_argument("--source-id", action="append", help="Fetch only this curated source ID; repeat for a bounded selection")
+    parser.add_argument("--raw-dir", type=Path, default=RAW_DIR, help="Use a separate cache root for provider validation without replacing reviewed snapshots")
+    parser.add_argument("--report", type=Path, help="Write an acquisition outcome inventory without credentials or provider bodies")
     parser.add_argument("--max-age-hours", type=float, default=24)
+    parser.add_argument("--retries", type=int, default=2, help="Retries per HTTP request; use 0 for a single-attempt provider smoke check")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--offline", action="store_true", help="Require existing hash-verified caches, regardless of age; prohibit network fallback")
     parser.add_argument("--validate-curation", action="store_true", help="Offline exact quote, URL, date and hash checks")
     parser.add_argument("--refresh-provenance", action="store_true", help="Update snapshot metadata from local caches only after every unchanged quote matches")
     args = parser.parse_args()
+    if args.retries < 0:
+        parser.error("--retries must be nonnegative")
+    if args.offline and args.force:
+        parser.error("--offline cannot be combined with --force")
     curation = json.loads(args.curation.read_text(encoding="utf-8"))
+    if args.source_id and (args.refresh_provenance or args.validate_curation):
+        parser.error("--source-id selects acquisition only; provenance validation covers the complete curation")
     if args.refresh_provenance:
-        updated = refresh_provenance(curation)
+        updated = refresh_provenance(curation, args.raw_dir)
         save_json(args.curation, updated)
         print(f"Refreshed provenance for {len(updated['evidence'])} unchanged curated quotes")
         return
     if args.validate_curation:
-        print(f"Verified {validate_curation(curation)} curated quotes against raw snapshots")
+        print(f"Verified {validate_curation(curation, args.raw_dir)} curated quotes against raw snapshots")
         return
-    fetcher = PublicFetcher(backend=args.backend, max_age_hours=args.max_age_hours)
+    selected = [source for source in curation["sources"] if args.kind == "all" or source["kind"] == args.kind]
+    if args.source_id:
+        unknown = set(args.source_id) - {source["id"] for source in selected}
+        if unknown:
+            parser.error(f"Unknown source IDs for selected kind: {', '.join(sorted(unknown))}")
+        selected = [source for source in selected if source["id"] in args.source_id]
+    fetcher = PublicFetcher(raw_dir=args.raw_dir, backend=args.backend, max_age_hours=args.max_age_hours, retries=args.retries, offline=args.offline)
     failures = []
-    for source in curation["sources"]:
-        if args.kind != "all" and source["kind"] != args.kind:
-            continue
+    outcomes = []
+    for source in selected:
         try:
             result = fetcher.fetch(source, force=args.force)
+            outcomes.append({"source_id": source["id"], "url": source["url"], "outcome": "cached",
+                             "backend": result["backend"], "retrieved_at": result["retrieved_at"],
+                             "body_sha256": result["body_sha256"], "text_sha256": result["text_sha256"]})
             print(f"Cached {source['id']} ({result['backend']}, {result.get('status_code', 'original API response')})")
         except FetchError as exc:
             failures.append(source["id"])
+            outcomes.append({"source_id": source["id"], "url": source["url"], "outcome": "unavailable", "reason": str(exc)})
             print(f"Skipped {source['id']}: {exc}")
+    if args.report:
+        save_json(args.report, {"completed_at": utc_now(), "requested_backend": args.backend,
+                              "force": args.force, "max_retries": args.retries, "sources": outcomes})
     if failures:
         raise SystemExit(f"Failed sources: {', '.join(failures)}")
 

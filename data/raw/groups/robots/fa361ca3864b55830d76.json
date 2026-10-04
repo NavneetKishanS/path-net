@@ -1,7 +1,7 @@
 {
   "url": "https://www.scn2a.org/robots.txt",
   "status_code": 200,
-  "retrieved_at": "2026-10-03T20:48:35Z",
+  "retrieved_at": "2026-10-03T23:19:11Z",
   "text": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.scn2a.org/wp-sitemap.xml\n",
   "sha256": "5df758aaad54730b211a0dde18ab0a8d342d343aa0a380da873f0c017ed3d2f1"
 }

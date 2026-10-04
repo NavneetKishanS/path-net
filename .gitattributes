@@ -1,2 +1,3 @@
 # Preserve exact cached response bytes and provenance hashes on every platform.
 data/raw/** -text
+data/seed/*.json -text

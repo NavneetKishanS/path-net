@@ -2,12 +2,12 @@
   "source_id": "kcnq2_faq",
   "requested_url": "https://www.kcnq2cure.org/faq/",
   "source_url": "https://www.kcnq2cure.org/faq/",
-  "retrieved_at": "2026-10-03T20:48:44Z",
+  "retrieved_at": "2026-10-03T23:19:36Z",
   "status_code": 200,
-  "backend": "direct",
+  "backend": "brightdata",
   "content_type": "text/html; charset=UTF-8",
-  "encoding": "UTF-8",
-  "body_sha256": "54dc570ddcb18ab35895bcf1c113e2e92025f54d74bb2d352ca4c8eebd07ebf2",
+  "encoding": "utf-8",
+  "body_sha256": "87afd07f45f36ebc220ef0323a1f3bae721b2d1969647cbb6b0484abf2e6fba1",
   "text_sha256": "c75cadb29e127e65d73f496d01003997473463d93b9b6e8b3abd1a19f1f94c89",
   "body_path": "raw/groups/kcnq2_faq.body",
   "text_path": "raw/groups/kcnq2_faq.txt",
@@ -16,7 +16,7 @@
     {
       "url": "https://www.kcnq2cure.org/robots.txt",
       "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
-      "retrieved_at": "2026-10-03T20:48:40Z",
+      "retrieved_at": "2026-10-03T23:19:23Z",
       "allowed": true
     }
   ],

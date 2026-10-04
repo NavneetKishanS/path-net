@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-04T00:37:07+00:00",
+  "scope": "Clean M1 publication snapshot and required P4 integration dependencies; independent M2 runner/tests excluded.",
+  "branch": "p1/data",
+  "base_commit": "a1eba9df4ed149629d7cc2251d95646135cd10cc",
+  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "counts": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "checks": {
+    "pipeline_tests_passed": 87,
+    "raw_evidence_checks_passed": 77,
+    "pinned_pubmed_records_verified": 159,
+    "dataset_matches_live_integration_receipt": true,
+    "configured_credentials_absent": true,
+    "four_seed_outputs_rebuild_byte_identically": true,
+    "pinned_raw_and_seed_git_blobs_exact": 455,
+    "fresh_git_archive_pipeline_tests_passed": 87,
+    "fresh_git_archive_pinned_data_exact": true
+  },
+  "status": "passed"
+}

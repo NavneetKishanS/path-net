@@ -1,0 +1,14 @@
+{
+  "source_id": "clinvar_candidates_kcnq2",
+  "provider": "ClinVar",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4975780,4974601,4945801,4945794,4945793&retmode=json",
+  "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4975780,4974601,4945801,4945794,4945793&retmode=json",
+  "retrieved_at": "2026-10-03T23:05:59.665316+00:00",
+  "cache_path": "raw/ontologies/clinvar_candidates_kcnq2.json",
+  "raw_sha256": "37eae92324f77909fd546e6abc2611d5f2b1165176224b0a2af41c56c79943ea",
+  "bytes": 10692,
+  "etag": null,
+  "last_modified": null,
+  "license": "Public NCBI database; cite ClinVar and original submitters",
+  "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/"
+}

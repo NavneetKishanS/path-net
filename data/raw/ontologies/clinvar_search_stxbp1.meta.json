@@ -1,0 +1,14 @@
+{
+  "source_id": "clinvar_search_stxbp1",
+  "provider": "ClinVar",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=STXBP1%5Bgene%5D+AND+pathogenic%5BClinical+significance%5D+AND+single_gene%5Bprop%5D&retmode=json&retmax=5",
+  "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=STXBP1%5Bgene%5D+AND+pathogenic%5BClinical+significance%5D+AND+single_gene%5Bprop%5D&retmode=json&retmax=5",
+  "retrieved_at": "2026-10-03T23:05:17.392321+00:00",
+  "cache_path": "raw/ontologies/clinvar_search_stxbp1.json",
+  "raw_sha256": "b64bfea210fa6ccf929203ff57aa184ef41058395a907036b2d7d69772c07c6d",
+  "bytes": 588,
+  "etag": null,
+  "last_modified": null,
+  "license": "Public NCBI database; cite ClinVar and original submitters",
+  "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/"
+}

@@ -1,20 +1,20 @@
 # Prototype v0 stack: Postgres + REST API (PostgREST) + seed loader + web dev server.
 #   `bash run.sh up`      start everything      http://localhost:5173
 #   `bash run.sh reset`   wipe the database and start clean
-# The database schema in supabase/migrations/ runs only on a fresh volume (use `bash run.sh reset` after editing it).
+# The seed service applies numbered migrations before upserting the reviewed graph.
 name: pathnet
 
 services:
   db:
     image: postgres:16-alpine
+    restart: unless-stopped
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: pathnet
     ports:
-      - "54322:5432"
+      - "127.0.0.1:54322:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./supabase/migrations:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d pathnet"]
       interval: 3s
@@ -23,32 +23,34 @@ services:
 
   seed:
     build: ./pipeline
+    working_dir: /workspace
     depends_on:
       db:
         condition: service_healthy
     environment:
       DATABASE_URL: postgresql://postgres:postgres@db:5432/pathnet
-      DATA_DIR: /data
+      DATA_DIR: /workspace/data
     volumes:
-      - ./pipeline:/app
-      - ./data:/data
-    command: python load_seed.py
+      - ./:/workspace:ro
+    command: sh -c "python scripts/platform.py migrate && python scripts/platform.py seed"
     restart: "no"
 
   api:
     image: postgrest/postgrest:v12.2.3
+    restart: unless-stopped
     depends_on:
-      db:
-        condition: service_healthy
+      seed:
+        condition: service_completed_successfully
     environment:
       PGRST_DB_URI: postgres://postgres:postgres@db:5432/pathnet
       PGRST_DB_SCHEMAS: public
       PGRST_DB_ANON_ROLE: anon
     ports:
-      - "3001:3000"
+      - "127.0.0.1:3001:3000"
 
   web:
     image: node:22-alpine
+    restart: unless-stopped
     working_dir: /app/web
     command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
     depends_on:
@@ -64,7 +66,7 @@ services:
       - ./:/app
       - web_node_modules:/app/web/node_modules
     ports:
-      - "5173:5173"
+      - "127.0.0.1:5173:5173"
 
 volumes:
   pgdata:

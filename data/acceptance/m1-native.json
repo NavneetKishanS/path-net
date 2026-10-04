@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-03T23:29:12+00:00",
+  "runtime": "native PostgreSQL; not PGlite or Docker",
+  "binary_version": "postgres (PostgreSQL) 16.14",
+  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "counts": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "loads": [
+    {
+      "attempt": 1,
+      "loader_output": "Loaded graph.json: 58 nodes, 69 edges, 77 evidence rows, 4 clusters.",
+      "all_five_tables_exact": true,
+      "anon_reads_passed": true
+    },
+    {
+      "attempt": 2,
+      "loader_output": "Loaded graph.json: 58 nodes, 69 edges, 77 evidence rows, 4 clusters.",
+      "all_five_tables_exact": true,
+      "anon_reads_passed": true
+    }
+  ],
+  "api_url": "http://127.0.0.1:55475",
+  "runtime_dir": "D:\\Hack_Nation\\tmp\\pathnet-p1-m1-acceptance\\p1-native-zfryvhsp",
+  "server_version": "PostgreSQL 16.14, compiled by Visual C++ build 1944, 64-bit",
+  "server_version_num": 160014,
+  "postgrest_version": "PostgREST 12.2.3 (519615d)",
+  "postgrest_all_five_tables_exact": true,
+  "app_loader_probe": "PASS: actual web/src/api.ts loadGraph(rest), all five tables exact, at least 15 real nodes.",
+  "status": "passed"
+}

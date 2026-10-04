@@ -1,0 +1,65 @@
+{
+  "scope": "Supplementary named community-source coverage for P1 M1",
+  "sources": [
+    {
+      "source_id": "nord_stxbp1",
+      "url": "https://rarediseases.org/rare-diseases/stxbp1-disorders/",
+      "retrieved_at": "2026-10-03T23:08:28Z",
+      "backend": "direct",
+      "target_status": 200,
+      "outcome": "retrieved_local_audit_only",
+      "body_sha256": "5f8ff021a10b7b10c5fd4282265ae93d513fcbef6e1a24bc02ce2fe44a68c9bb",
+      "text_sha256": "e7fcedcf401ab9332a75da34d5457cbe2bd81ad09f144b2761fa7910fc005eeb",
+      "bundled_body": false,
+      "production_evidence": false,
+      "restriction": "The page footer prohibits reproduction, adaptation, distribution or reuse without prior written permission from NORD. Full responses are retained outside the repository for local audit only.",
+      "terms_url": "https://rarediseases.org/terms-conditions/"
+    },
+    {
+      "source_id": "nord_stxbp1_foundation",
+      "url": "https://rarediseases.org/organizations/stxbp1-foundation/",
+      "retrieved_at": "2026-10-03T23:10:38Z",
+      "backend": "direct",
+      "target_status": 200,
+      "outcome": "retrieved_local_audit_only",
+      "body_sha256": "815cc06e35d7f61a433cea2c26dd77d8498aaac2767b47ee4647365c6a6402e0",
+      "text_sha256": "a2e8256c599a3c0fa3ecfa4ca64b0b900374389d0d64ee764d55d82e936c0c4f",
+      "bundled_body": false,
+      "production_evidence": false,
+      "restriction": "The page footer prohibits reproduction, adaptation, distribution or reuse without prior written permission from NORD. Full responses are retained outside the repository for local audit only.",
+      "terms_url": "https://rarediseases.org/terms-conditions/"
+    },
+    {
+      "source_id": "global_genes_alliance",
+      "url": "https://globalgenes.org/about-us/global-advocacy-alliance/",
+      "checked_at": "2026-10-03T23:08:28Z",
+      "outcome": "not_fetched_robots_permission",
+      "target_status": null,
+      "robots_status": 403,
+      "robots_url": "https://globalgenes.org/robots.txt",
+      "robots_policy_sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "robots_record": "raw/groups/robots/a83ad21dbc5104de7b1e.json",
+      "reason": "Robots access returned HTTP403. Permission could not be established; no target-page or proxy request was sent. The cached denial text is a conservative local policy, not a publisher-authored rule.",
+      "bundled_body": false,
+      "production_evidence": false
+    },
+    {
+      "source_id": "orphanet_stxbp1_groups",
+      "url": "https://www.orpha.net/en/patient-organisations?diseaseName=STXBP1-related+developmental+and+epileptic+encephalopathy&orphaCode=599373",
+      "checked_at": "2026-10-03T23:10:38Z",
+      "outcome": "not_fetched_robots_permission",
+      "target_status": null,
+      "robots_status": 200,
+      "robots_url": "https://www.orpha.net/robots.txt",
+      "robots_policy_sha256": "2e9c73cebb2d87b01d1608dea3c2b34ab7ed077daf0787fdc4416cadde99921c",
+      "robots_record": "raw/groups/robots/fec3467d5912d8f11bb4.json",
+      "reason": "HTTP200 robots rules deny this research crawler. No target-page or proxy request was sent. Existing Orphadata API ontology records are a separate source and do not substitute for community-directory scraping.",
+      "bundled_body": false,
+      "production_evidence": false
+    }
+  ],
+  "accepted_sources_receipt": "raw/groups/brightdata_acquisition.json",
+  "accepted_group_source_count": 8,
+  "accepted_extra_source": "stxbp1_rarex",
+  "policy": "Bright Data is used only after target robots permission is established. It does not bypass source restrictions. A retrieved page is not automatically a verified graph claim."
+}
