@@ -17,6 +17,8 @@ import { RoleSwitcher } from './role-switcher'
 import { ThemeToggle } from './theme-toggle'
 import { AccountMenu } from '@/components/account/account-menu'
 import { Onboarding } from '@/components/account/onboarding'
+import { LandingSplash } from '@/components/landing/landing-splash'
+import { useLanding } from '@/components/landing/landing-store'
 
 const NAV: { href: string; label: string; panel: PanelId; fullOnly?: boolean }[] = [
   { href: '/action', label: 'Action plan', panel: 'action', fullOnly: true },
@@ -42,7 +44,12 @@ export function AppShell({ children }: { children: ReactNode }) {
       </a>
       <header className="sticky top-0 z-20 border-t-4 border-b border-t-accent border-b-line bg-paper">
         <div className="mx-auto flex h-16 max-w-[1280px] items-center gap-2 px-4 md:gap-4 md:px-6">
-          <AppLink href="/" className="flex shrink-0 items-center gap-2.5" aria-label="PathNet home">
+          <AppLink
+            href="/"
+            onClick={() => useLanding.getState().show()}
+            className="flex shrink-0 items-center gap-2.5"
+            aria-label="PathNet home"
+          >
             <span aria-hidden className="grid size-8 place-items-center rounded-sm bg-accent text-paper">
               <Waypoints className="size-5" strokeWidth={2.25} />
             </span>
@@ -98,6 +105,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <DataFooter plain={detail === 'plain'} />
       <EvidenceDrawer />
       <Onboarding />
+      <LandingSplash />
     </div>
   )
 }
