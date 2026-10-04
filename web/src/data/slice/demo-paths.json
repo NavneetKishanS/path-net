@@ -41,7 +41,7 @@
    "e_investigator_disease_person_nih_15318049_dis_stxbp1",
    "e_investigator_disease_person_nih_15318049_dis_scn2a"
   ],
-  "scope": "Both awards name the investigator and describe the research team's gene-specific work. This supports discovering shared expertise, not inferring shared treatment response."
+  "scope": "The cited award names the investigator and describes the team's prior SCN2A- and STXBP1-specific research. These two links use the same application record and support discovering shared expertise, not inferring shared treatment response."
  },
  "no_route": {
   "query": "no supported match in this slice",
@@ -49,5 +49,5 @@
   "scope": "The fixture tests an unknown query. It is not a claim that a named disease lacks research."
  },
  "interpretation": "Paths may traverse a relationship in either direction for discovery; retain its original src/dst/type and scope when explaining it. Never use contradicting edges as positive route support.",
- "graph_sha256": "508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf"
+ "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2"
 }

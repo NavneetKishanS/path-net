@@ -7,7 +7,7 @@ describe('mock ApiClient', () => {
     const api = createMockClient(memoryOverrideStore())
     const meta = await api.meta()
     expect(meta.source).toBe('mock')
-    expect(meta.counts.nodes).toBe(54)
+    expect(meta.counts.nodes).toBe(120)
     expect(meta.sourceCommit).toMatch(/^[0-9a-f]{40}$/)
   })
 
