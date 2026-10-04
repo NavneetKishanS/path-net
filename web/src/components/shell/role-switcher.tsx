@@ -17,7 +17,7 @@ export function RoleSwitcher() {
           aria-labelledby="role-label"
           aria-label={`Viewing as ${config.label}`}
           data-testid="role-switcher"
-          className="inline-flex h-8 items-center gap-2 rounded-sm border border-line-strong bg-paper px-2.5 text-label font-medium text-ink hover:bg-surface"
+          className="inline-flex h-9 items-center gap-2 rounded-sm border border-line-strong bg-paper px-2.5 text-label font-medium whitespace-nowrap text-ink hover:bg-surface"
         >
           <Select.Value>{config.label}</Select.Value>
           <Select.Icon>

@@ -38,7 +38,7 @@ function Finder({ p }: { p: ActionPlan }) {
 
   return (
     <div className="space-y-10">
-      <header>
+      <header className="title-band -mt-8 pt-8 pb-8 md:-mt-10 md:pt-10">
         <p className="meta-label mb-1">Condition</p>
         <h1 className="text-h2 text-ink md:text-h1" data-testid="disease-title">
           {name}
@@ -56,7 +56,7 @@ function Finder({ p }: { p: ActionPlan }) {
           <ul className="mt-3 space-y-4">
             {[...direct, ...viaParent].map((c) => (
               <li key={c.group.id} className="border-l-2 border-supports pl-4">
-                <p className="font-serif text-[19px] font-semibold text-ink">{c.group.name}</p>
+                <p className="text-[20px] font-semibold text-ink">{c.group.name}</p>
                 <p className="mt-0.5 text-ui text-ink-2">
                   {c.viaParent
                     ? `This group serves everyone with ${c.viaParent.name}, which includes ${p.disease.name}.`
@@ -172,7 +172,7 @@ function RelatedRow({ fromId, c }: { fromId: string; c: ActionPlan['viable'][num
   const r = route.data
   return (
     <li className="border-l-2 border-dashed border-inferred pl-4">
-      <p className="font-serif text-[17px] font-semibold text-ink">{displayName(c.disease, true)}</p>
+      <p className="text-[18px] font-semibold text-ink">{displayName(c.disease, true)}</p>
       {r?.inferredEdge && (
         <p className="mt-0.5 text-ui text-ink-2">{edgeSentence(r.inferredEdge, r.from, r.to, true)}</p>
       )}

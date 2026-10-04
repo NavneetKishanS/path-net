@@ -33,20 +33,22 @@ function ConditionPicker({ onPick }: { onPick: (id: string) => void }) {
   const { config } = useRole()
   return (
     <Page narrow className="md:py-16">
-      <p className="meta-label mb-2">{config.label}</p>
-      <h1 className="text-h2 text-ink md:text-h1">Which condition does your group serve?</h1>
-      <p className="mt-3 max-w-[60ch] text-body text-ink-2">
-        Start from your condition. The atlas shows which other communities share its mechanism, the evidence for each
-        link, and what you could do this week.
-      </p>
-      <div className="mt-8">
-        <GlobalSearch
-          size="hero"
-          types={['disease']}
-          placeholder="Condition name, synonym or gene"
-          onPick={(n) => onPick(n.id)}
-          autoFocus
-        />
+      <div className="title-band -mt-8 pt-8 pb-10 md:-mt-16 md:pt-16 md:pb-12">
+        <p className="meta-label mb-2">{config.label}</p>
+        <h1 className="text-h2 text-ink md:text-h1">Which condition does your group serve?</h1>
+        <p className="mt-3 max-w-[60ch] text-body text-ink-2">
+          Start from your condition. The atlas shows which other communities share its mechanism, the evidence for each
+          link, and what you could do this week.
+        </p>
+        <div className="mt-8">
+          <GlobalSearch
+            size="hero"
+            types={['disease']}
+            placeholder="Condition name, synonym or gene"
+            onPick={(n) => onPick(n.id)}
+            autoFocus
+          />
+        </div>
       </div>
       <section className="mt-10" aria-labelledby="in-atlas">
         <h2 id="in-atlas" className="meta-label mb-3">

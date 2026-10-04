@@ -33,7 +33,7 @@ export function PageHeader({
   actions?: ReactNode
 }) {
   return (
-    <header className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+    <header className="title-band -mt-8 mb-8 flex flex-col gap-4 pt-8 pb-7 md:-mt-10 md:flex-row md:items-end md:justify-between md:pt-10">
       <div className="min-w-0">
         {kicker && <div className="mb-2 text-label text-ink-3">{kicker}</div>}
         <h1 className="text-h2 text-ink md:text-h1">{title}</h1>

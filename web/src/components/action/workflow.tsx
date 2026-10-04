@@ -57,7 +57,7 @@ export function Workflow({ plan }: { plan: ActionPlan }) {
               className={cn(
                 'rounded-sm border px-2.5 py-1 text-label',
                 show === f
-                  ? 'border-ink bg-ink text-paper'
+                  ? 'border-accent bg-accent text-paper'
                   : 'border-line text-ink-2 hover:border-line-strong hover:text-ink',
               )}
             >
@@ -133,7 +133,7 @@ function Progress({ sum }: { sum: ReturnType<typeof summarise> }) {
         aria-valuenow={pct}
         className="mt-2 h-1.5 overflow-hidden rounded-full bg-surface"
       >
-        <div className="h-full bg-ink-2 transition-[width] duration-300" style={{ width: `${pct}%` }} />
+        <div className="h-full bg-accent transition-[width] duration-300" style={{ width: `${pct}%` }} />
       </div>
     </div>
   )
@@ -183,7 +183,7 @@ function TaskRow({
           <label
             htmlFor={closed ? undefined : id}
             className={cn(
-              'block font-serif text-[17px] leading-snug font-semibold',
+              'block text-[18px] leading-snug font-semibold',
               closed || done ? 'text-ink-3' : 'text-ink',
               done && 'line-through decoration-ink-3/60',
               !closed && 'cursor-pointer',

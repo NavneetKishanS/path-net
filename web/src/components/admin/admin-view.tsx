@@ -210,7 +210,7 @@ function SynonymEditor() {
               id="syn-value"
               value={value}
               onChange={(e) => setValue(e.target.value)}
-              className="h-9 min-w-0 flex-1 rounded-sm border border-line-strong bg-paper px-2 text-ui text-ink focus:border-accent focus:outline-none"
+              className="h-9 min-w-0 flex-1 rounded-sm border border-line-strong bg-paper px-2 text-ui text-ink focus:border-accent"
             />
             <Button
               type="submit"

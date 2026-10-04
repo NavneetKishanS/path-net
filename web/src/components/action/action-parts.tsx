@@ -70,7 +70,7 @@ export function DoThisWeek({
           <div className="min-w-0">
             <p
               className={cn(
-                'font-serif text-[17px] leading-snug font-semibold',
+                'text-[18px] leading-snug font-semibold',
                 doneIds.includes(a.id) ? 'text-ink-3 line-through decoration-ink-3/60' : 'text-ink',
               )}
             >

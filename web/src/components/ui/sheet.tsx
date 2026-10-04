@@ -33,7 +33,7 @@ export function Sheet({
         >
           <div className="flex items-start justify-between gap-4 border-b border-line px-5 py-4">
             <div className="min-w-0">
-              <Dialog.Title className="font-serif text-h3 text-ink">{title}</Dialog.Title>
+              <Dialog.Title className="text-h3 text-ink">{title}</Dialog.Title>
               {description ? (
                 <Dialog.Description className="mt-1 text-label text-ink-3">{description}</Dialog.Description>
               ) : (

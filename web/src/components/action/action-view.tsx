@@ -174,10 +174,7 @@ function ConnectionBrief({ items, fromId }: { items: Connection[]; fromId: strin
       {items.map((c) => (
         <li key={c.disease.id}>
           <div className="flex flex-wrap items-center gap-2">
-            <AppLink
-              href={`/disease/${c.disease.id}`}
-              className="font-serif text-[17px] font-semibold text-ink hover:underline"
-            >
+            <AppLink href={`/disease/${c.disease.id}`} className="text-[18px] font-semibold text-ink hover:underline">
               {c.disease.name}
             </AppLink>
             {c.supported && detail !== 'plain' && <SupportedBadge>Every step cited</SupportedBadge>}

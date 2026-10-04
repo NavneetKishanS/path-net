@@ -11,13 +11,6 @@ const sans = localFont({
   display: 'swap',
   adjustFontFallback: 'Arial',
 })
-const serif = localFont({
-  src: '../../node_modules/@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2',
-  variable: '--font-source-serif',
-  weight: '200 900',
-  display: 'swap',
-  adjustFontFallback: 'Times New Roman',
-})
 const mono = localFont({
   src: [
     { path: '../../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2', weight: '400' },
@@ -36,8 +29,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#fbfcfd' },
-    { media: '(prefers-color-scheme: dark)', color: '#16191d' },
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#0e1824' },
   ],
 }
 
@@ -46,7 +39,7 @@ export const dynamic = 'force-dynamic'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${sans.variable} ${serif.variable} ${mono.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${sans.variable} ${mono.variable}`}>
       <body>
         <Providers>
           <AppShell>{children}</AppShell>

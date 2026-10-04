@@ -74,10 +74,7 @@ function ConnectionRow({
     <li className="grid gap-3 py-4 md:grid-cols-[minmax(0,1fr)_auto]">
       <div className="min-w-0 space-y-1.5">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-          <AppLink
-            href={`/disease/${c.disease.id}`}
-            className="font-serif text-[17px] font-semibold text-ink hover:underline"
-          >
+          <AppLink href={`/disease/${c.disease.id}`} className="text-[18px] font-semibold text-ink hover:underline">
             {c.disease.name}
           </AppLink>
           <span className="text-label text-ink-3">{KIND_LABEL[c.kind]}</span>

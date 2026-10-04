@@ -121,7 +121,7 @@ function ChatPanel() {
     >
       <div className="flex items-start justify-between gap-4 border-b border-line px-5 py-4">
         <div className="min-w-0">
-          <Dialog.Title className="font-serif text-h3 text-ink">Ask the atlas</Dialog.Title>
+          <Dialog.Title className="text-h3 text-ink">Ask the atlas</Dialog.Title>
           <Dialog.Description className="mt-1 text-label text-ink-3">
             Answers come only from cited links in this atlas. They are research leads, not medical advice.
           </Dialog.Description>
