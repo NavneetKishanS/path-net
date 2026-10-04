@@ -14,19 +14,19 @@ From the repository root, with Docker Desktop running and Bash available:
 bash run.sh up
 ```
 
-This foreground command runs the database, deterministic cache builder, migration/seed/cache import, REST API and web app. Host Python, Node.js and AI/cloud keys are unnecessary for this local startup. First startup downloads container images and locked frontend dependencies. Keep this terminal open for logs; once ready, run `bash run.sh smoke` in a second terminal to check the graph, family explanations, current coverage and web response.
+This foreground command runs the database, deterministic cache builder, migration/seed/cache import, REST API and web app. Host Python, Node.js and AI/cloud keys are unnecessary for this local startup. First startup downloads container images and locked frontend dependencies. Keep this terminal open for logs; once ready, run `bash run.sh smoke` in a second terminal to check the graph, family explanations, current coverage, web response and account service configuration.
 
-The one-shot `cache-build` service uses Node.js 24 Alpine to create 20 role-scoped explanations and one coverage snapshot in the dedicated `bootstrap_cache` Docker volume. The seed service waits for a healthy database and successful cache build, then runs migrations, graph upsert and cache import. API/web startup depends on successful seeding. The frontend runs `npm ci`, a production build and then the Vite development server; this local server is not a production deployment.
+The one-shot `cache-build` service uses Node.js 24 Alpine to create 20 role-scoped explanations and one coverage snapshot in the dedicated `bootstrap_cache` Docker volume. The seed service waits for a healthy database and successful cache build, then runs all migrations, graph upsert and cache import, including account storage. API/web startup depends on successful seeding. The frontend runs `npm ci`, a production build and then the Next.js development server with the account service connected to the database. This local server is not a production deployment.
 
 `bash run.sh seed` also rebuilds/imports the current caches automatically. Re-running seed retains platform records and approved graph contributions. `bash run.sh down` stops the stack and retains its volumes. `bash run.sh reset` deletes those local volumes and recreates the stack; use it only to deliberately discard that database.
 
 | Service | Local address | Purpose |
 | --- | --- | --- |
-| Web | http://localhost:5173 | React/Vite app |
+| Web | http://localhost:5173 | Next.js app and account API |
 | REST API | http://localhost:3001 | PostgREST over the five graph tables |
 | Database | localhost:54322 | Local PostgreSQL, database `pathnet` |
 
-PostgreSQL uses a persistent `pgdata` Docker volume; db/api/web use `restart: unless-stopped` while Docker is available. This does not configure Windows or Docker boot startup. The earlier shared-stack acceptance remains in [P1-INTEGRATION.md](context/P1-INTEGRATION.md). The new one-command bootstrap passed from a clean staged Git archive with initially empty volumes; [P4-BOOTSTRAP.md](context/P4-BOOTSTRAP.md) and [its receipt](data/acceptance/m1-bootstrap.json) record fresh startup, automatic cache refresh and warm restart/preservation checks.
+PostgreSQL uses a persistent `pgdata` Docker volume; db/api/web use `restart: unless-stopped` while Docker is available. This does not configure Windows or Docker boot startup. The earlier shared-stack acceptance remains in [P1-INTEGRATION.md](context/P1-INTEGRATION.md). The graph bootstrap was tested from a clean staged Git archive with initially empty volumes before the account startup changes; [P4-BOOTSTRAP.md](context/P4-BOOTSTRAP.md) and [its receipt](data/acceptance/m1-bootstrap.json) record that earlier fresh startup, automatic cache refresh and warm restart/preservation verification.
 
 For an isolated parallel stack, export these optional values in the terminal used for startup and smoke:
 
@@ -40,7 +40,20 @@ bash run.sh up
 
 Defaults are `pathnet`, 54322, 3001 and 5173 respectively. Different project names isolate Docker volumes; different ports avoid conflicts. The browser API URL and smoke checks follow the selected ports.
 
-For a static-only app without Docker, install Node.js and run `npm --prefix web ci` followed by `npm --prefix web run dev`. Static mode reads the bundled graph and does not exercise the database, cache import, authentication or row-level security.
+To run the frontend directly on your computer after cloning, install Node.js and keep Docker Desktop running, then run:
+
+```bash
+npm --prefix web ci
+npm --prefix web run dev
+```
+
+When no account database connection is configured, the development command starts the repository's Docker database, cache/seed services and REST API, initializes account storage, and creates the ignored `web/.env.local` if it does not exist. It uses the ports and project settings resolved by Docker Compose from the root `.env` and your terminal environment. Registration and saved preferences work on first startup; no host Python or cloud keys are required. Subsequent starts preserve the database and accounts. Without Docker, configure an existing PostgreSQL database as described in [Accounts and onboarding](docs/frontend/accounts.md).
+
+The generated configuration includes `PATHNET_ACCOUNT_LOCAL=true`, so later development starts also restart the managed database after it has been stopped. When replacing that generated connection with an independently managed database, set `PATHNET_ACCOUNT_LOCAL=false`. An account URL supplied directly in your terminal always takes precedence over the generated configuration.
+
+Automatic local startup also uses the Compose web port (`PATHNET_WEB_PORT`, default 5173) for the frontend running on your computer; `PORT` takes precedence if set. With an independently managed database, use `PORT` to select that frontend port. To smoke-check the managed stack while its frontend runs outside Docker, set its actual origin explicitly, for example `WEB_URL=http://localhost:5173 bash run.sh smoke`.
+
+Set `PATHNET_ACCOUNT_BOOTSTRAP=false` to skip automatic database preparation for a guest-only or independently managed workflow. A guest-only app should also leave the account database URL unset and disable the account proxy. `npm run build` never provisions or starts a database.
 
 ## Architecture and shared interfaces
 
@@ -164,4 +177,4 @@ The [one-minute demo script](context/P4-DEMO-SCRIPT.md) is a recording plan grou
 
 ## Local accounts and onboarding
 
-The frontend supports native local accounts and saved profile preferences without changing graph contracts. Configure the server-only `PATHNET_ACCOUNT_DATABASE_URL` and `NEXT_PUBLIC_ACCOUNT_PROXY=true` using `web/.env.example`, then run `npm run accounts:setup` from `web/`. This adapter supplements the existing Supabase integration; it does not replace Supabase Auth. See [Accounts and onboarding](docs/frontend/accounts.md) for role assignment, guest access, simple language, and the boundary between database-backed preferences and browser-only action progress.
+The frontend supports native local accounts and saved profile preferences without changing graph contracts. Both `bash run.sh up` and the fresh-clone development commands above configure the account database and initialize its storage automatically. Existing database installations can supply the server-only `PATHNET_ACCOUNT_DATABASE_URL` using `web/.env.example`; development startup then checks account storage without replacing saved users. `npm run accounts:setup` remains available for an explicit setup check. This adapter supplements the existing Supabase integration; it does not replace Supabase Auth. See [Accounts and onboarding](docs/frontend/accounts.md) for role assignment, guest access, simple language, and the boundary between database-backed preferences and browser-only action progress.
