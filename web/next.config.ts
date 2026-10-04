@@ -5,6 +5,8 @@ const dataSource = process.env.NEXT_PUBLIC_DATA_SOURCE ?? process.env.VITE_DATA_
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? process.env.VITE_API_URL ?? 'http://localhost:3001'
 
 const config: NextConfig = {
+  // Optional isolated preview output; the normal project build stays in .next.
+  distDir: process.env.PATHNET_NEXT_DIST_DIR ?? '.next',
   reactStrictMode: true,
   poweredByHeader: false,
   // Otherwise `next dev` appends its own block to the team's CLAUDE.md.

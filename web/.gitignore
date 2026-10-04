@@ -1,4 +1,6 @@
 .next/
+.next-account-dev/
+.next-account-build/
 next-env.d.ts
 *.tsbuildinfo
 test-results/

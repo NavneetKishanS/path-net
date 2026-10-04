@@ -2,7 +2,7 @@
 
 Hack-Nation × OpenAI × Buffalo Initiative, Challenge 05. A mechanism-first knowledge graph that helps a patient-group leader find a cited connection, an existing research resource, a potential partner and a concrete question to take to an expert. A coverage gap is shown as a gap in this selected dataset.
 
-**Local prototype, 2026-10-04.** P1 has delivered the real STXBP1 slice with SCN2A, KCNQ2 and SCN8A neighbours. P4 supplies the platform against that release. No Supabase project or deployment platform is configured. The current role selector changes presentation only; authenticated role homes, deployed acceptance and videos remain outstanding. See [P4 task status](context/P4-TASK-STATUS.md) for the verification boundary.
+**Local prototype, 2026-10-04.** P1 has delivered the real STXBP1 slice with SCN2A, KCNQ2 and SCN8A neighbours. P4 supplies the platform against that release. No Supabase project or deployment platform is configured. Native PostgreSQL accounts support onboarding, saved preferences and operator-assigned protected roles; the public role selector remains a presentation preference. Cloud authentication, deployed acceptance and videos remain outstanding. See [P4 task status](context/P4-TASK-STATUS.md) for the earlier platform verification boundary and [Accounts and onboarding](docs/frontend/accounts.md) for the local account adapter.
 
 Publication scope: branch `p1/data` bundles the 58-node M1 source/data snapshot, English integration documentation and the platform dependencies needed to reproduce the accepted local database/app workflow. The user has authorized committing and pushing this existing branch. The historical local acceptance and separate publication checks are distinguished in [P1 publication scope](context/P1-PUBLICATION.md); no cloud deployment or submission is claimed.
 
@@ -161,3 +161,7 @@ Recruitment statuses are dated observations: the selected CAP-002 and NBI-921352
 | `context/` | Role briefs, handoffs and acceptance evidence |
 
 The [one-minute demo script](context/P4-DEMO-SCRIPT.md) is a recording plan grounded in the delivered fixture. It is not a claim that the planned screens or a video already exist.
+
+## Local accounts and onboarding
+
+The frontend supports native local accounts and saved profile preferences without changing graph contracts. Configure the server-only `PATHNET_ACCOUNT_DATABASE_URL` and `NEXT_PUBLIC_ACCOUNT_PROXY=true` using `web/.env.example`, then run `npm run accounts:setup` from `web/`. This adapter supplements the existing Supabase integration; it does not replace Supabase Auth. See [Accounts and onboarding](docs/frontend/accounts.md) for role assignment, guest access, simple language, and the boundary between database-backed preferences and browser-only action progress.

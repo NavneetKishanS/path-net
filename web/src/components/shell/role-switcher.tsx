@@ -4,9 +4,19 @@ import { Select } from 'radix-ui'
 import { Check, ChevronDown } from 'lucide-react'
 import { ROLE_CONFIG, ROLES, isRole } from '@/lib/roles'
 import { useRole } from '@/components/role/role-provider'
+import { useAccount } from '@/components/account/account-provider'
+
+const SHORT_LABEL = {
+  patient: 'Patient',
+  leader: 'Group leader',
+  scout: 'Scout',
+  researcher: 'Researcher',
+  admin: 'Admin',
+}
 
 export function RoleSwitcher() {
   const { role, config, setRole } = useRole()
+  const { permissions } = useAccount()
   return (
     <div className="flex items-center gap-2">
       <span id="role-label" className="hidden text-label text-ink-3 lg:inline">
@@ -19,7 +29,10 @@ export function RoleSwitcher() {
           data-testid="role-switcher"
           className="inline-flex h-9 items-center gap-2 rounded-sm border border-line-strong bg-paper px-2.5 text-label font-medium whitespace-nowrap text-ink hover:bg-surface"
         >
-          <Select.Value>{config.label}</Select.Value>
+          <Select.Value>
+            <span className="sm:hidden">{SHORT_LABEL[role]}</span>
+            <span className="hidden sm:inline">{config.label}</span>
+          </Select.Value>
           <Select.Icon>
             <ChevronDown className="size-3.5 text-ink-3" aria-hidden />
           </Select.Icon>
@@ -32,7 +45,7 @@ export function RoleSwitcher() {
             className="z-50 w-[300px] rounded-md border border-line bg-paper p-1 shadow-[0_8px_24px_-12px_oklch(0.2_0.02_255/0.3)]"
           >
             <Select.Viewport>
-              {ROLES.map((r) => (
+              {ROLES.filter((r) => r !== 'admin' || permissions.canAdmin).map((r) => (
                 <Select.Item
                   key={r}
                   value={r}

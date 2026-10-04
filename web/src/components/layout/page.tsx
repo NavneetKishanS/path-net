@@ -4,6 +4,8 @@ import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useRole } from '@/components/role/role-provider'
+import { useAccount } from '@/components/account/account-provider'
+import { Button } from '@/components/ui/button'
 import { ROLE_CONFIG, roleWithFull, type PanelId } from '@/lib/roles'
 import { cn } from '@/lib/cn'
 
@@ -90,8 +92,27 @@ export function ErrorNote({ error }: { error: unknown }) {
 /** Shown when the current role does not include a panel. Points to a role that has it. */
 export function NotInView({ panel, what }: { panel: PanelId; what: string }) {
   const { config } = useRole()
+  const account = useAccount()
   const path = usePathname()
   const other = roleWithFull(panel)
+  if (panel === 'admin')
+    return (
+      <Page narrow>
+        <h1 className="text-h2 text-ink">Administration requires an assigned role</h1>
+        <p className="mt-3 text-body text-ink-2">
+          This area is available to signed-in accounts with an administrator role. Changing a viewing preference does
+          not grant access.
+        </p>
+        {!account.user && (
+          <Button className="mt-5" onClick={() => account.openOnboarding('login')}>
+            Sign in
+          </Button>
+        )}
+        <Link href="/" className="link mt-5 ml-4 inline-block">
+          Return home
+        </Link>
+      </Page>
+    )
   return (
     <Page narrow>
       <h1 className="text-h2 text-ink">{what} is not part of this view</h1>

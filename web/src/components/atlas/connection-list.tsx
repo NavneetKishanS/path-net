@@ -7,6 +7,7 @@ import { AppLink } from '@/components/role/app-link'
 import { CitationMarker } from '@/components/evidence/citation'
 import { BasisBadge, ContradictsBadge, SupportedBadge } from '@/components/evidence/badges'
 import { edgeSentence } from '@/lib/copy'
+import { plainEdgeSentence, plainNodeLabel } from '@/lib/plain-language'
 import { useGraph } from '@/lib/queries'
 import { Ident } from './node-bits'
 
@@ -83,18 +84,17 @@ function ConnectionRow({
         </div>
         <p className="text-ui text-ink-2">
           {plain && c.inferredEdge
-            ? edgeSentence(
+            ? plainEdgeSentence(
                 c.inferredEdge,
                 nodes.find((n) => n.id === c.inferredEdge!.from) ?? c.disease,
                 nodes.find((n) => n.id === c.inferredEdge!.to) ?? c.disease,
-                true,
               )
             : c.reason}{' '}
           {c.inferredEdge && <CitationMarker edge={c.inferredEdge} />}
         </p>
         {c.kind === 'mechanism' && (
           <p className="text-label text-ink-3">
-            Through <span className="text-ink-2">{c.via[0]!.name}</span>
+            Through <span className="text-ink-2">{plain ? plainNodeLabel(c.via[0]!) : c.via[0]!.name}</span>
           </p>
         )}
         {c.sharedPhenotypes.length > 0 && !plain && (
@@ -138,7 +138,7 @@ function ConnectionRow({
             ))}
           </p>
         )}
-        {c.qualifiers.length > 0 && !plain && (
+        {c.qualifiers.length > 0 && (
           <div className="flex flex-wrap items-start gap-2 pt-1">
             <ContradictsBadge label="Limited by" />
             <span className="min-w-0 flex-1 text-label text-ink-2">
@@ -147,7 +147,8 @@ function ConnectionRow({
                 const b = nodes.find((n) => n.id === q.to)
                 return (
                   <span key={q.id} className="block">
-                    {a && b ? edgeSentence(q, a, b, false) : q.id} <CitationMarker edge={q} />
+                    {a && b ? (plain ? plainEdgeSentence(q, a, b) : edgeSentence(q, a, b, false)) : q.id}{' '}
+                    <CitationMarker edge={q} />
                   </span>
                 )
               })}

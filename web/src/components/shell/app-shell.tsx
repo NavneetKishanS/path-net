@@ -15,6 +15,8 @@ import { ChatDock, CHAT_WIDTH } from '@/components/chat/chat-dock'
 import { useChat } from '@/components/chat/chat-store'
 import { RoleSwitcher } from './role-switcher'
 import { ThemeToggle } from './theme-toggle'
+import { AccountMenu } from '@/components/account/account-menu'
+import { Onboarding } from '@/components/account/onboarding'
 
 const NAV: { href: string; label: string; panel: PanelId; fullOnly?: boolean }[] = [
   { href: '/action', label: 'Action plan', panel: 'action', fullOnly: true },
@@ -39,12 +41,12 @@ export function AppShell({ children }: { children: ReactNode }) {
         Skip to content
       </a>
       <header className="sticky top-0 z-20 border-t-4 border-b border-t-accent border-b-line bg-paper">
-        <div className="mx-auto flex h-16 max-w-[1280px] items-center gap-4 px-4 md:px-6">
+        <div className="mx-auto flex h-16 max-w-[1280px] items-center gap-2 px-4 md:gap-4 md:px-6">
           <AppLink href="/" className="flex shrink-0 items-center gap-2.5" aria-label="PathNet home">
             <span aria-hidden className="grid size-8 place-items-center rounded-sm bg-accent text-paper">
               <Waypoints className="size-5" strokeWidth={2.25} />
             </span>
-            <span className="flex flex-col leading-none">
+            <span className="hidden flex-col leading-none min-[460px]:flex">
               <span className="text-[20px] font-bold tracking-tight text-accent-ink">PathNet</span>
               <span className="mt-0.5 hidden text-meta text-ink-2 sm:inline">Rare disease atlas</span>
             </span>
@@ -67,6 +69,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             )}
             <ChatDock />
             <RoleSwitcher />
+            <AccountMenu />
             <ThemeToggle />
           </div>
         </div>
@@ -89,11 +92,12 @@ export function AppShell({ children }: { children: ReactNode }) {
         )}
       </header>
       {/* Content arrives after hydration; keeping the footer below the fold avoids a layout shift. */}
-      <main id="main" className="min-h-dvh flex-1">
+      <main id="main" className="min-h-dvh flex-1 overflow-x-clip">
         {children}
       </main>
       <DataFooter plain={detail === 'plain'} />
       <EvidenceDrawer />
+      <Onboarding />
     </div>
   )
 }
