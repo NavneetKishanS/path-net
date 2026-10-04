@@ -6,24 +6,19 @@ Hack-Nation × OpenAI × Buffalo Initiative, Challenge 05. A mechanism-first kno
 
 Publication scope: branch `p1/data` bundles the 58-node M1 source/data snapshot, English integration documentation and the platform dependencies needed to reproduce the accepted local database/app workflow. The user has authorized committing and pushing this existing branch. The historical local acceptance and separate publication checks are distinguished in [P1 publication scope](context/P1-PUBLICATION.md); no cloud deployment or submission is claimed.
 
-## Run the local app
+## Start the complete local stack
 
-For the existing app using the bundled public graph, install Node.js and run from the repository root:
-
-```bash
-npm --prefix web install
-npm --prefix web run dev
-```
-
-Open [localhost:5173](http://localhost:5173). Search `STXBP1` and inspect a relationship's evidence. Static mode needs no database or API keys and does not exercise authentication or row-level security.
-
-With Docker Desktop and Bash available:
+From the repository root, with Docker Desktop running and Bash available:
 
 ```bash
 bash run.sh up
 ```
 
-The stack runs the database, seed loader, REST API and web app. Once ready, use `bash run.sh smoke` in a second terminal. `bash run.sh down` stops the stack while preserving its volume. `bash run.sh reset` deletes that local database volume and recreates it; use it only when you intend to discard that database.
+This foreground command runs the database, deterministic cache builder, migration/seed/cache import, REST API and web app. Host Python, Node.js and AI/cloud keys are unnecessary for this local startup. First startup downloads container images and locked frontend dependencies. Keep this terminal open for logs; once ready, run `bash run.sh smoke` in a second terminal to check the graph, family explanations, current coverage and web response.
+
+The one-shot `cache-build` service uses Node.js 24 Alpine to create 20 role-scoped explanations and one coverage snapshot in the dedicated `bootstrap_cache` Docker volume. The seed service waits for a healthy database and successful cache build, then runs migrations, graph upsert and cache import. API/web startup depends on successful seeding. The frontend runs `npm ci`, a production build and then the Vite development server; this local server is not a production deployment.
+
+`bash run.sh seed` also rebuilds/imports the current caches automatically. Re-running seed retains platform records and approved graph contributions. `bash run.sh down` stops the stack and retains its volumes. `bash run.sh reset` deletes those local volumes and recreates the stack; use it only to deliberately discard that database.
 
 | Service | Local address | Purpose |
 | --- | --- | --- |
@@ -31,7 +26,21 @@ The stack runs the database, seed loader, REST API and web app. Once ready, use 
 | REST API | http://localhost:3001 | PostgREST over the five graph tables |
 | Database | localhost:54322 | Local PostgreSQL, database `pathnet` |
 
-The local Docker stack has been verified with the 58-node M1 snapshot and remains running. PostgreSQL uses the existing persistent `pathnet_pgdata` volume; db/api/web use `restart: unless-stopped` while Docker is available. This does not configure Windows or Docker boot startup. `bash run.sh down` stops services and retains the database. See [integration evidence and service commands](context/P1-INTEGRATION.md).
+PostgreSQL uses a persistent `pgdata` Docker volume; db/api/web use `restart: unless-stopped` while Docker is available. This does not configure Windows or Docker boot startup. The earlier shared-stack acceptance remains in [P1-INTEGRATION.md](context/P1-INTEGRATION.md). The new one-command bootstrap passed from a clean staged Git archive with initially empty volumes; [P4-BOOTSTRAP.md](context/P4-BOOTSTRAP.md) and [its receipt](data/acceptance/m1-bootstrap.json) record fresh startup, automatic cache refresh and warm restart/preservation checks.
+
+For an isolated parallel stack, export these optional values in the terminal used for startup and smoke:
+
+```bash
+export COMPOSE_PROJECT_NAME=pathnet-p4
+export PATHNET_DB_PORT=54323
+export PATHNET_API_PORT=3002
+export PATHNET_WEB_PORT=5174
+bash run.sh up
+```
+
+Defaults are `pathnet`, 54322, 3001 and 5173 respectively. Different project names isolate Docker volumes; different ports avoid conflicts. The browser API URL and smoke checks follow the selected ports.
+
+For a static-only app without Docker, install Node.js and run `npm --prefix web ci` followed by `npm --prefix web run dev`. Static mode reads the bundled graph and does not exercise the database, cache import, authentication or row-level security.
 
 ## Architecture and shared interfaces
 
@@ -107,7 +116,9 @@ python pipeline/restore_pubmed.py --check
 
 These verify original raw-file hashes, quoted content and the pinned abstract corpus. The `p1/data` publication snapshot includes these reviewed caches and all four seed sidecars. See [publication scope and checks](context/P1-PUBLICATION.md) for the branch boundary. Re-fetching a changing source creates a new snapshot and may require renewed curation; it is not guaranteed to reproduce the original response hashes. [P1's integration guide](context/P1-DATA.md) describes selective retrieval and pinned replay. New Bright Data requests require `BRIGHTDATA_API_KEY` and `BRIGHTDATA_UNLOCKER_ZONE`; the eight reviewed page snapshots replay offline without credentials. [Provider receipts](data/raw/groups/brightdata_acquisition.json) record target statuses, source hashes and evidence IDs. Source access restrictions and local-only NORD responses remain documented in [SOURCES.md](context/SOURCES.md).
 
-## Platform setup and verification
+## Optional direct operator setup and verification
+
+The normal Docker bootstrap performs these migrations and cache steps automatically. The following commands are for a separate, deliberately configured database and require host Python/Node.js.
 
 Copy `.env.example` to a local `.env` and keep secrets out of version control. Inspect configuration without contacting services:
 
@@ -126,7 +137,7 @@ node scripts/build_platform_cache.mjs
 python scripts/platform.py cache --input .venv/p4-platform-cache.json
 ```
 
-The literal `bash run.sh seed` and smoke check passed for this M1 integration. [The durable receipt](data/acceptance/m1-docker-integration.json) records graph hashes, exact live row checks and browser evidence. The platform seed command validates and upserts the reviewed rows, retaining other rows such as approved contributions. Docker's `bash run.sh seed` now uses the migration and platform upsert path too. The unchanged P1 command `python pipeline/load_seed.py` replaces the graph tables; use it only for deliberate baseline replacement, since that removes approved contribution edges even though platform audit records remain.
+These direct operator commands require host Python/Node.js and a deliberately configured `DATABASE_URL`; they are optional alternatives to the complete Docker bootstrap. `bash run.sh up` and `bash run.sh seed` build/import the deterministic bundle inside containers automatically. The earlier M1 seed/smoke run is recorded in [the historical integration receipt](data/acceptance/m1-docker-integration.json). Fresh one-command bootstrap acceptance is tracked in [P4-BOOTSTRAP.md](context/P4-BOOTSTRAP.md). Graph upsert retains other rows such as approved contributions. The unchanged P1 command `python pipeline/load_seed.py` replaces the graph tables; use it only for deliberate baseline replacement, since that removes approved contribution edges even though platform audit records remain.
 
 Role-policy, endpoint and CLI tests run locally without Supabase credentials; see [exact prerequisites and commands](context/P4-PLATFORM.md#local-verification). Once Supabase Auth exists, `python scripts/platform.py demo-users` provisions the five configured demo identities, and `python scripts/platform.py smoke-auth` checks their real API sessions. Neither command has been run against a configured project in this delivery, and they do not constitute browser/UI acceptance.
 

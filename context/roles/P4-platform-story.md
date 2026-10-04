@@ -11,10 +11,15 @@ Own the foundation (schema, roles, deploy) and the story (README, demo script, v
 `supabase/`, `contract/`, `docker-compose.yml`, `scripts/`, `run.sh`, `README.md`, `.env.example`, deploy, demo script, videos, submission.
 
 ## Start in 5 minutes
+
+For the complete local path, only running Docker Desktop and Bash are host requirements; no AI/cloud keys are needed. [P4-BOOTSTRAP.md](../P4-BOOTSTRAP.md) documents the automatic Node.js 24 cache build, migration/seed/cache import, locked frontend install/build and optional project/port settings. Fresh staged-archive startup, automatic seed/cache refresh and warm preservation checks passed in [m1-bootstrap.json](../../data/acceptance/m1-bootstrap.json); historical local checks remain in their original receipts.
+
 ```bash
 bash run.sh up        # db, api, seed, web at http://localhost:5173
-bash run.sh smoke     # prints row counts and checks the web server
+bash run.sh smoke     # second terminal: graph, family explanations, coverage, web
 ```
+
+`bash run.sh seed` refreshes the graph and deterministic caches automatically. Local upsert and scoped cache replacement retain platform records, approved contributions and unrelated cache paths. Use the same optional `COMPOSE_PROJECT_NAME` and `PATHNET_*_PORT` settings for startup/smoke/seed/down. Real Supabase Auth, the Edge Runtime and five identity sign-ins remain separate checklist work below.
 
 ## Checklist
 **M0 (Sat 20:30)**

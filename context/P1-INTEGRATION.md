@@ -48,28 +48,34 @@ The cache refresh initially exposed older explanation keys surviving beside curr
 
 ## Repeat the integrated workflow
 
-Run from the shared repository root with Docker Desktop and Bash available:
+The publication checkout now supplies the complete container bootstrap below. It replaces the earlier manual cache-build/import startup sequence. Fresh startup and automatic cache refresh passed from a clean staged Git archive with initially empty volumes; warm restart retained populated roles/contributions and unrelated caches. The historical acceptance tables and receipts above remain unchanged; the new checks are separately recorded in [P4-BOOTSTRAP.md](P4-BOOTSTRAP.md) and [m1-bootstrap.json](../data/acceptance/m1-bootstrap.json).
+
+Run from the repository root with Docker Desktop running and Bash available:
 
 ```bash
-bash run.sh seed
-docker compose up -d db api web
+bash run.sh up
+```
+
+Keep the foreground terminal open for logs. Once ready, in another terminal:
+
+```bash
 bash run.sh smoke
 ```
 
-The seed command applies pending migrations and upserts the reviewed graph and coverage. It retains graph rows absent from the seed, including approved contributions. It uses the existing database volume. Use the [root README](../README.md) for Python environment setup and offline source rebuilding/auditing.
+The Node.js 24 Alpine `cache-build` service writes 20 role-scoped explanations and one coverage snapshot to `/cache/platform.json` in the shared `bootstrap_cache` volume. Seed waits for a healthy database and successful cache build, then runs migration, graph/coverage upsert and cache import. API/web start only after successful seed completion; web installs locked dependencies with `npm ci`, builds production assets and starts the Vite development server. Host Python/Node.js and AI/cloud keys are unnecessary for this bootstrap.
 
-After a graph change, rebuild and load the deterministic explanation bundle using Node.js 24 and the configured operator Python environment:
+For a reviewed data refresh, `bash run.sh seed` rebuilds/imports caches automatically. Upsert retains graph rows absent from the seed, including approved contributions, and preserves platform records. Smoke checks all five graph tables, anonymous family explanations, current coverage and the web response. Use the [root README](../README.md) for optional host-based source rebuilding/auditing.
+
+For a separate, deliberately configured database, these direct operator commands remain optional and require host Node.js 24/Python:
 
 ```bash
 node scripts/build_platform_cache.mjs
 python scripts/platform.py cache --input .venv/p4-platform-cache.json
 ```
 
-`DATABASE_URL` must select the intended database for a direct operator command. Alternatively, use the Docker seed service's already configured local connection:
+`DATABASE_URL` must select the intended database for that direct operator workflow. The Docker bootstrap and normal Docker seed refresh automatically use `/cache/platform.json`; they need neither these host commands nor a manually prepared `.venv` cache file.
 
-```bash
-docker compose run --rm seed python scripts/platform.py cache --input .venv/p4-platform-cache.json
-```
+Optional `PATHNET_DB_PORT`, `PATHNET_API_PORT` and `PATHNET_WEB_PORT` default to 54322, 3001 and 5173. Use a distinct `COMPOSE_PROJECT_NAME` plus available ports for a parallel stack; browser API configuration and smoke follow those values. Use the same exports for startup, seed, smoke and down. See [the parallel-stack example](P4-BOOTSTRAP.md#safe-rerun-and-parallel-stacks).
 
 `bash run.sh down` stops services and retains the database volume. Starting db/api/web again resumes that data. Use ordinary seeding and cache import for updates; a volume reset is unnecessary. The original `pipeline/load_seed.py` intentionally replaces all five graph tables and can remove approved graph contributions, so it is retained for deliberate baseline replacement rather than integrated refresh.
 

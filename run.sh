@@ -28,11 +28,11 @@ case "${1:-help}" in
     ;;
   *)
     echo "bash run.sh setup   check tools, create .env"
-    echo "bash run.sh up      start db, api, seed, web (http://localhost:5173)"
+    echo "bash run.sh up      build caches + web, load database, start API and app"
     echo "bash run.sh down    stop everything (keeps data)"
     echo "bash run.sh reset   wipe the database and start clean"
     echo "bash run.sh logs    follow logs"
-    echo "bash run.sh seed    reload data/seed/graph.json into Postgres"
+    echo "bash run.sh seed    refresh reviewed graph, explanations and coverage"
     echo "bash run.sh web     run the web app alone, no backend (static data)"
     echo "bash run.sh data    rebuild and audit the reviewed P1 baseline offline"
     echo "bash run.sh migrate apply pending migrations using DATABASE_URL"

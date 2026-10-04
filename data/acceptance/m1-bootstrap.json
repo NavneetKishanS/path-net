@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-10-04T00:55:48+00:00",
+  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "counts": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "checks": {
+    "exact_five_sql_and_rest_tables": true,
+    "automatic_caches_match_independent_rebuild": true,
+    "anonymous_cache_scope_and_protected_table_denial": true,
+    "production_build_web_rest_configuration_and_cors": true,
+    "completed_bootstrap_jobs_and_persistent_runtime": true,
+    "warm_start_preserves_roles_approved_contribution_and_unrelated_cache": true,
+    "stale_cache_keys_replaced_and_migrations_idempotent": true,
+    "clean_git_export_without_env_or_dependencies": true,
+    "initial_empty_database_and_cache_volumes": true,
+    "literal_one_command_up": true,
+    "actual_frontend_loadGraph_rest_exact": true,
+    "literal_smoke_and_seed_passed": true,
+    "dotenv_only_project_and_port_settings_verified": true,
+    "repeat_seed_cache_refresh_idempotent": true,
+    "tested_export_code_matches_git_blobs_after_newline_normalization": true
+  },
+  "cache_counts": {
+    "explanations": 20,
+    "coverage": 1
+  },
+  "server_version": "16.15",
+  "services": {
+    "db": {
+      "running": true,
+      "exit_code": 0,
+      "restart_policy": "unless-stopped"
+    },
+    "api": {
+      "running": true,
+      "exit_code": 0,
+      "restart_policy": "unless-stopped"
+    },
+    "web": {
+      "running": true,
+      "exit_code": 0,
+      "restart_policy": "unless-stopped"
+    },
+    "seed": {
+      "running": false,
+      "exit_code": 0,
+      "restart_policy": "no"
+    },
+    "cache-build": {
+      "running": false,
+      "exit_code": 0,
+      "restart_policy": "no"
+    }
+  },
+  "status": "passed",
+  "warm_counts": {
+    "edges": 70,
+    "explanations": 21,
+    "contributions": 1,
+    "admin_roles": 1
+  },
+  "completed_at": "2026-10-04T00:57:45+00:00",
+  "branch": "p1/data",
+  "base_commit": "0e1a04d8e7da222892b06595e014ffb388e77aaf",
+  "clean_git_export_tree": "5c746c33ee34c478b78a3f9d326368d324505ee3",
+  "test_project": "pathnet-p1-bootstrap-20261004",
+  "test_ports": {
+    "database": 54323,
+    "api": 3002,
+    "web": 5174
+  },
+  "preexisting_test_volumes": 0,
+  "clean_export_exact_raw_seed_files": 455,
+  "commands": [
+    "bash run.sh up",
+    "bash run.sh smoke",
+    "bash run.sh seed",
+    "bash run.sh down",
+    "bash run.sh up",
+    "bash run.sh smoke",
+    "bash run.sh seed"
+  ],
+  "regressions": {
+    "pipeline_tests": 87,
+    "raw_evidence_checks": 77
+  },
+  "frontend_build": {
+    "command": "npm ci && npm run build",
+    "transformed_modules": 1064,
+    "passed": true
+  },
+  "code_files_sha256": {
+    "docker-compose.yml": "8439254b947aa4fc3023a2b0976d600184e7f2ad28ad68e98501316e0ff54534",
+    "run.sh": "6e7c4e0f50666ca4976a2ef90426d972c729ee7f9f24de32e64c3e7ad94cf9ff",
+    "scripts/smoke.sh": "ec84bfc522619d41791a20097b5ea811fea4b0cddb9c068a124d05d4708618b8",
+    ".env.example": "a0a0302594b33670423ddb4ac10f1f9c74eda9c8b64622ba57693a38bcc0ea97",
+    "scripts/build_platform_cache.mjs": "4bede842055cc64e58627a4bfd18ea98ae5fac73300b984695fd08f5e805589c",
+    "scripts/platform.py": "dbfa6290cc191e59ec0ca392be8a8e008a6e9482c1fd0b44e261747c2fa6f99b",
+    "pipeline/Dockerfile": "5671b1790acdb1df6fd936bef9c742a3bf066bf9517e1e284d3c63f84ac8fc39"
+  },
+  "scope": "Local Docker PostgreSQL/PostgREST/cache/frontend bootstrap from a clean Git export with empty volumes. Existing image build cache was allowed. Synthetic preservation fixtures existed only in the isolated test database; they are not source evidence.",
+  "remaining_gates": [
+    "Supabase Auth and five real demo logins",
+    "Edge Runtime and cloud deployment",
+    "P3 persona/action/admin integration",
+    "Deployed product acceptance"
+  ],
+  "shared_project_sync": {
+    "checked_at": "2026-10-04T00:59:22+00:00",
+    "database_volume": "pathnet_pgdata",
+    "all_graph_and_protected_rows_preserved": true,
+    "automatic_cache_import_matches_rebuild": true,
+    "web_build_and_runtime_passed": true
+  },
+  "tested_export_files_sha256": {
+    "docker-compose.yml": "f236b1a3bace77e1b51b8226cfe663528e0455522ad65267b062163c7a5f7a05",
+    "run.sh": "11c773930b53a4643bc048d3df0176eaf7e4b15d06adbf50bc7002c8a6b30d47",
+    "scripts/smoke.sh": "580787bd2a3e0da3c03deddbe9deef8f5e0860354fd196e2715daca9f4537dcd",
+    ".env.example": "d0f523e2687af285a59b807082939e4d6bffda182e84feb519244fa73a34d065",
+    "scripts/build_platform_cache.mjs": "d9708f9b64c4838bf0970663371749cf8d8edd288ca0b1cd096efe12bf78dbc8",
+    "scripts/platform.py": "42720016e77bed49d5f8a65d4fac0e36fcc6a94be26ace93c35cb3e1cf8513ea",
+    "pipeline/Dockerfile": "6ef0ccb2c79e696c077aad5ac7cdb800afcd7089bd6603f4962c1925c035e92c"
+  },
+  "hash_basis": {
+    "code_files_sha256": "Exact staged Git blob bytes",
+    "tested_export_files_sha256": "Exact tested export bytes; Windows text line endings may differ from Git blobs. Raw and seed bytes remain exact."
+  }
+}
