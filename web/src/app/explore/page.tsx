@@ -18,6 +18,7 @@ import { useGraph } from '@/lib/queries'
 import { edgeParam, nodeParam } from '@/lib/url-state'
 import { edgeSentence } from '@/lib/copy'
 import { cn } from '@/lib/cn'
+import { useAccount } from '@/components/account/account-provider'
 
 const FILTERS: { id: string; label: string; types: NodeType[]; on: boolean }[] = [
   { id: 'disease', label: 'Conditions', types: ['disease'], on: true },
@@ -39,12 +40,14 @@ export default function ExplorePage() {
 
 function Explore() {
   const graph = useGraph()
+  const { profile } = useAccount()
   const { isLite, can } = useRole()
   const [node, setNode] = useQueryState('node', nodeParam)
   const [edge, setEdge] = useQueryState('edge', edgeParam)
   const [on, setOn] = useState(() => new Set(FILTERS.filter((f) => f.on).map((f) => f.id)))
   const [inferred, setInferred] = useState(true)
-  const [asTable, setAsTable] = useState(false)
+  const [viewOverride, setViewOverride] = useState<boolean | null>(null)
+  const asTable = viewOverride ?? profile.graphView === 'table'
   const lite = isLite('graph')
 
   const view = useMemo<GraphData | null>(() => {
@@ -98,7 +101,7 @@ function Explore() {
           <button
             type="button"
             className="link ml-auto text-label"
-            onClick={() => setAsTable((v) => !v)}
+            onClick={() => setViewOverride(!asTable)}
             aria-pressed={asTable}
           >
             {asTable ? 'Show as map' : 'Show as table'}

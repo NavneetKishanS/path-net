@@ -12,10 +12,11 @@ import { useActionPlan, useConnections, useCoverage, useGraph, useNode } from '@
 import { statusOf, summarise, tasksFor, useWorkflow, useWorkflowReady } from '@/lib/workflow'
 import type { ActionPlan } from '@/lib/model'
 import { EFFECT_LABEL, effectOf } from '@/lib/copy'
+import { plainNodeLabel } from '@/lib/plain-language'
 import { cn } from '@/lib/cn'
 import { ConnectionList } from './connection-list'
 import { NoRouteState } from './no-route'
-import { ClusterTag, ExternalIds, Ident, TypeLabel, mechanismPlain } from './node-bits'
+import { ClusterTag, ExternalIds, Ident, TypeLabel } from './node-bits'
 import { MiniMap } from '@/components/graph/mini-map'
 
 /** Condition page: what it is, how it is caused, who serves it, what it connects to, what to do. */
@@ -71,7 +72,7 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
               <AppLink href={`/node/${gene.to}`} className="link">
                 <Ident>{nb(gene.to)!.name}</Ident>
               </AppLink>{' '}
-              {!plain && <CitationMarker edge={gene} />}
+              <CitationMarker edge={gene} />
             </Fact>
           )}
           {parent && nb(parent.to) && (
@@ -79,7 +80,7 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
               <AppLink href={`/disease/${parent.to}`} className="link">
                 {nb(parent.to)!.name}
               </AppLink>{' '}
-              {!plain && <CitationMarker edge={parent} />}
+              <CitationMarker edge={parent} />
             </Fact>
           )}
           {mech.length > 0 && (
@@ -90,17 +91,17 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
                   if (!m) return null
                   return (
                     <li key={e.id} className="flex flex-wrap items-center gap-1.5">
-                      {e.stance === 'contradicts' && !plain && <ContradictsBadge label="Evidence against" />}
+                      {e.stance === 'contradicts' && <ContradictsBadge label="Evidence against" />}
                       <AppLink
                         href={`/node/${m.id}`}
                         className={cn('link', e.stance === 'contradicts' && 'text-ink-2')}
                       >
-                        {plain ? mechanismPlain(m) : m.name}
+                        {plain ? plainNodeLabel(m) : m.name}
                       </AppLink>
                       {!plain && detail === 'technical' && (
                         <span className="text-label text-ink-3">({EFFECT_LABEL[effectOf(m)]})</span>
                       )}
-                      {!plain && <CitationMarker edge={e} />}
+                      <CitationMarker edge={e} />
                     </li>
                   )
                 })}
@@ -124,7 +125,7 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
                   <AppLink href={`/node/${g.from}`} className="link">
                     {nb(g.from)?.name}
                   </AppLink>{' '}
-                  {!plain && <CitationMarker edge={g} />}
+                  <CitationMarker edge={g} />
                 </li>
               ))}
             </ul>
@@ -191,12 +192,12 @@ function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
         )}
       </div>
 
-      {phen.length > 0 && role !== 'patient' && (
-        <Section title="Recorded symptoms" id="symptoms" aside={`${phen.length} from HPO`}>
+      {phen.length > 0 && (role !== 'patient' || !plain) && (
+        <Section title="Recorded symptoms" id="symptoms" aside={`${phen.length} recorded features`}>
           <ul className="grid gap-x-8 gap-y-1.5 text-ui sm:grid-cols-2 lg:grid-cols-3">
             {phen.slice(0, detail === 'technical' ? undefined : 12).map((e) => (
               <li key={e.id} className="flex items-baseline justify-between gap-2 border-b border-line py-1">
-                <span className="text-ink-2">{nb(e.to)?.name}</span>
+                <span className="text-ink-2">{nb(e.to) && plain ? plainNodeLabel(nb(e.to)!) : nb(e.to)?.name}</span>
                 <CitationMarker edge={e} />
               </li>
             ))}

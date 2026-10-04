@@ -86,6 +86,7 @@ function ChatPanel() {
     e?.preventDefault()
     const q = draft.trim()
     if (!q || pending) return
+    const revision = useChat.getState().revision
     const last = messages.findLast((m) => 'answer' in m && !!m.answer.subjectId)
     const lastSubjectId = last && 'answer' in last ? last.answer.subjectId : null
     push({ from: 'user', text: q })
@@ -93,11 +94,12 @@ function ChatPanel() {
     setPending(true)
     try {
       const answer = await answerQuestion(getApiClient(), q, { focusId, lastSubjectId, detail })
-      push({ from: 'atlas', answer })
+      if (useChat.getState().revision === revision) push({ from: 'atlas', answer })
     } catch {
-      push({ from: 'atlas', error: 'The atlas could not answer that. Try again, or rephrase the question.' })
+      if (useChat.getState().revision === revision)
+        push({ from: 'atlas', error: 'The atlas could not answer that. Try again, or rephrase the question.' })
     } finally {
-      setPending(false)
+      if (useChat.getState().revision === revision) setPending(false)
     }
   }
 

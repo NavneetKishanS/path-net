@@ -6,6 +6,7 @@ import { useRole } from '@/components/role/role-provider'
 import { useGraph } from '@/lib/queries'
 import { BasisBadge, ContradictsBadge, SampleBadge, StatusBadge, TierBadge } from './badges'
 import { CitationMarker } from './citation'
+import { plainEvidence } from '@/lib/plain-language'
 
 interface Props {
   edge: Edge
@@ -15,41 +16,16 @@ interface Props {
 
 /**
  * Evidence for one edge, rendered for the current detail level:
- *  plain     one sentence and a link to the source
+ *  plain     simple explanation, limits and every source, with original quotations on disclosure
  *  standard  relation type, basis, curator scope, each source with its quote and date
  *  technical tier, status, confidence, ids, raw rows, and what it was built from
- * Contradicting evidence that touches this edge is always shown beside it (except in plain).
+ * Contradicting evidence and source scope remain available at every detail level.
  */
 export function EvidencePanel({ edge, from, to }: Props) {
   const { detail } = useRole()
   const graph = useGraph()
   const plain = detail === 'plain'
   const sentence = edgeSentence(edge, from, to, plain)
-
-  if (plain) {
-    const ev = edge.evidence[0]
-    return (
-      <div className="space-y-3">
-        <p className="prose-read">{sentence}</p>
-        {edge.basis === 'inferred' && (
-          <p className="text-ui text-ink-2">
-            The atlas worked this out by joining two separate findings. It is a lead to check with a specialist, not a
-            proven fact.
-          </p>
-        )}
-        {ev && ev.url ? (
-          <p className="text-ui text-ink-2">
-            Where this comes from: {SOURCE_PLAIN[ev.sourceType]}.{' '}
-            <a className="link" href={ev.url} target="_blank" rel="noreferrer">
-              Open the source
-            </a>
-          </p>
-        ) : (
-          <p className="text-ui text-ink-2">No source is attached to this link yet.</p>
-        )}
-      </div>
-    )
-  }
 
   const technical = detail === 'technical'
   const nodes = graph.data?.nodes ?? []
@@ -70,6 +46,108 @@ export function EvidencePanel({ edge, from, to }: Props) {
       : (graph.data?.edges ?? []).filter(
           (e) => e.stance === 'contradicts' && e.id !== edge.id && (touch.has(e.to) || touch.has(e.from)),
         )
+
+  if (plain) {
+    const readable = plainEvidence(edge, from, to)
+    return (
+      <div className="space-y-4" data-testid="plain-evidence">
+        <div className="flex flex-wrap items-center gap-1.5">
+          <BasisBadge basis={edge.basis} />
+          {edge.stance === 'contradicts' && <ContradictsBadge label="Evidence against" />}
+          {edge.sample && <SampleBadge />}
+          {edge.status !== 'verified' && <StatusBadge status={edge.status} />}
+        </div>
+        <p className="prose-read">{readable.sentence}</p>
+        {readable.warnings.map((warning) => (
+          <p key={warning} className="text-ui text-ink-2">
+            {warning}
+          </p>
+        ))}
+        {readable.scope && (
+          <section>
+            <h3 className="meta-label">Where this finding applies · original source limits</h3>
+            <p className="mt-1 text-ui text-ink-2">{readable.scope}</p>
+          </section>
+        )}
+        <section>
+          <h3 className="meta-label">Where this comes from ({readable.evidence.length})</h3>
+          {readable.evidence.length === 0 ? (
+            <p className="mt-1 text-ui text-ink-2">No source is attached to this link yet.</p>
+          ) : (
+            <ul className="mt-2 space-y-3">
+              {readable.evidence.map((ev) => (
+                <li key={ev.id} className="text-ui">
+                  <p className="text-ink-2">
+                    From {SOURCE_PLAIN[ev.sourceType]}. {ev.sample && <SampleBadge />}
+                  </p>
+                  {ev.url ? (
+                    <a className="link" href={ev.url} target="_blank" rel="noreferrer">
+                      {ev.title}
+                    </a>
+                  ) : (
+                    <p className="text-ink-2">{ev.title} · Source link not recorded.</p>
+                  )}
+                  {ev.stance === 'contradicts' && (
+                    <p className="text-contra-ink">This source limits or argues against the link.</p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+        {derived.length > 0 && (
+          <section>
+            <h3 className="meta-label">Findings this suggestion is built from</h3>
+            <ul className="mt-2 space-y-2">
+              {derived.map((d) => {
+                const a = byId(d.from)
+                const b = byId(d.to)
+                return (
+                  <li key={d.id} className="text-ui text-ink-2">
+                    {a && b ? plainEvidence(d, a, b).sentence : d.id} <CitationMarker edge={d} />
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        )}
+        {contradictions.length > 0 && (
+          <section className="border-t border-contra/30 pt-3">
+            <h3 className="meta-label">Evidence that limits this connection</h3>
+            <ul className="mt-2 space-y-2">
+              {contradictions.map((c) => {
+                const a = byId(c.from)
+                const b = byId(c.to)
+                return (
+                  <li key={c.id} className="text-ui text-ink-2">
+                    {a && b ? plainEvidence(c, a, b).sentence : 'This evidence limits the link.'}{' '}
+                    <CitationMarker edge={c} />
+                    {c.scope && <p className="mt-1 text-label">{c.scope}</p>}
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        )}
+        <details className="border-t border-line pt-3" data-testid="original-evidence">
+          <summary className="cursor-pointer text-ui font-medium text-accent-ink">
+            Read original wording and source quotations
+          </summary>
+          <div className="mt-3 space-y-3">
+            <p className="text-ui text-ink-2">{readable.scientificSentence}</p>
+            <p className="text-label text-ink-3">
+              Confidence: {readable.confidence === null ? 'Not scored yet.' : readable.confidence.toFixed(2)}
+            </p>
+            <ul className="divide-y divide-line">
+              {readable.evidence.map((ev) => (
+                <EvidenceItem key={ev.id} ev={ev} technical />
+              ))}
+            </ul>
+          </div>
+        </details>
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-5">

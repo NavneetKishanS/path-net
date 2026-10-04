@@ -1,6 +1,6 @@
 import { useEffect, useSyncExternalStore } from 'react'
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { createJSONStorage, persist } from 'zustand/middleware'
 import type { ActionPlan } from './model'
 
 export type TaskStatus = 'todo' | 'done' | 'closed'
@@ -93,6 +93,7 @@ interface WorkflowStore {
 }
 
 const now = () => new Date().toISOString()
+let changingScope = false
 
 export const useWorkflow = create<WorkflowStore>()(
   persist(
@@ -116,9 +117,36 @@ export const useWorkflow = create<WorkflowStore>()(
       setLastPlan: (planId) => set({ lastPlanId: planId }),
     }),
     // Rehydrated after mount so server and first client render agree.
-    { name: 'pathnet.workflow.v1', skipHydration: true },
+    {
+      name: 'pathnet.workflow.v1',
+      skipHydration: true,
+      storage: createJSONStorage(() => {
+        if (typeof window === 'undefined') throw new Error('Browser storage is unavailable on the server.')
+        return {
+          getItem: (name) => localStorage.getItem(name),
+          setItem: (name, value) => {
+            if (!changingScope) localStorage.setItem(name, value)
+          },
+          removeItem: (name) => localStorage.removeItem(name),
+        }
+      }),
+    },
   ),
 )
+
+/** Keep private task notes apart when people share a browser; retain the original guest store. */
+export async function setWorkflowAccount(userId: string | null): Promise<void> {
+  const name = userId ? `pathnet.workflow.v1:${userId}` : 'pathnet.workflow.v1'
+  if (useWorkflow.persist.getOptions().name === name) return
+  changingScope = true
+  try {
+    useWorkflow.persist.setOptions({ name })
+    useWorkflow.setState({ plans: {}, lastPlanId: null })
+    await useWorkflow.persist.rehydrate()
+  } finally {
+    changingScope = false
+  }
+}
 
 /** Loads saved progress from this browser once, and reports when it is ready. */
 export function useWorkflowReady(): boolean {

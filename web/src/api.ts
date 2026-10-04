@@ -29,6 +29,11 @@ export function getApiClient(): ApiClient {
   return client
 }
 
+/** Discard identity-dependent graph caches after a login, logout or role change. */
+export function resetApiClient(): void {
+  client = null
+}
+
 /** Contract-shaped graph, kept for the team scripts and P4's Supabase work. */
 export async function loadGraph(): Promise<Graph> {
   if (DATA_SOURCE === 'rest') return fetchRestGraph(API)

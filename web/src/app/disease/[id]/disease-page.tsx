@@ -7,8 +7,8 @@ import { DiseaseOverview } from '@/components/atlas/disease-overview'
 import { CommunityFinder } from '@/components/atlas/community-finder'
 
 export function DiseasePage({ id }: { id: string }) {
-  const { role } = useRole()
-  if (role === 'patient') {
+  const { role, detail } = useRole()
+  if (role === 'patient' && detail === 'plain') {
     return (
       <Page narrow>
         <CommunityFinder diseaseId={id} />

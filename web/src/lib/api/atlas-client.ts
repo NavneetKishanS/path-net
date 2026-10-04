@@ -14,19 +14,28 @@ export interface OverrideStore {
 }
 
 const KEY = 'pathnet.overrides.v1'
+let overrideKey = KEY
+let overridesAllowed = process.env.NEXT_PUBLIC_ACCOUNT_PROXY !== 'true'
+
+/** Local curator demonstrations belong to one verified administrator, never the next visitor. */
+export function setBrowserOverrideAccount(userId: string | null, canAdmin: boolean): void {
+  overridesAllowed = !!userId && canAdmin
+  overrideKey = userId ? `${KEY}:${userId}` : KEY
+}
 
 export const browserOverrideStore: OverrideStore = {
   read() {
-    if (typeof window === 'undefined') return EMPTY_OVERRIDES
+    if (typeof window === 'undefined' || !overridesAllowed) return EMPTY_OVERRIDES
     try {
-      const raw = window.localStorage.getItem(KEY)
+      const raw = window.localStorage.getItem(overrideKey)
       return raw ? { ...EMPTY_OVERRIDES, ...(JSON.parse(raw) as Overrides) } : EMPTY_OVERRIDES
     } catch {
       return EMPTY_OVERRIDES
     }
   },
   write(o) {
-    if (typeof window !== 'undefined') window.localStorage.setItem(KEY, JSON.stringify(o))
+    if (!overridesAllowed) throw new Error('An assigned administrator account is required.')
+    if (typeof window !== 'undefined') window.localStorage.setItem(overrideKey, JSON.stringify(o))
   },
 }
 

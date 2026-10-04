@@ -1,7 +1,8 @@
 'use client'
 
 import type { AtlasNode, Cluster } from '@/lib/model'
-import { EFFECT_PLAIN, NODE_TYPE_LABEL, effectOf } from '@/lib/copy'
+import { NODE_TYPE_LABEL } from '@/lib/copy'
+import { plainTerm } from '@/lib/plain-language'
 import { cn } from '@/lib/cn'
 import { SampleBadge } from '@/components/evidence/badges'
 
@@ -66,9 +67,7 @@ export function TypeLabel({ node }: { node: AtlasNode }) {
 
 /** Plain description for a mechanism, built from its class. */
 export function mechanismPlain(node: AtlasNode): string {
-  const effect = effectOf(node)
-  const text = EFFECT_PLAIN[effect]
-  return text.charAt(0).toUpperCase() + text.slice(1) + '.'
+  return plainTerm(node)?.explanation ?? node.summary ?? node.name
 }
 
 export function displayName(node: AtlasNode, plain: boolean): string {

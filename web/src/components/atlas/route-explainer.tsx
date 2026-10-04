@@ -8,6 +8,7 @@ import { CitationMarker } from '@/components/evidence/citation'
 import { EvidencePanel } from '@/components/evidence/evidence-panel'
 import { BasisBadge, ContradictsBadge } from '@/components/evidence/badges'
 import { edgeSentence } from '@/lib/copy'
+import { plainEdgeSentence } from '@/lib/plain-language'
 import { cn } from '@/lib/cn'
 import { useMediaQuery } from '@/lib/use-media-query'
 
@@ -35,7 +36,11 @@ export function RouteExplainer({ route }: { route: Route }) {
                 {route.kind === 'mechanism' ? 'Hypothesis built from cited findings' : 'Network overlap'}
               </span>
             </div>
-            <p className="prose-read text-ink">{edgeSentence(route.inferredEdge, route.from, route.to, plain)}</p>
+            <p className="prose-read text-ink">
+              {plain
+                ? plainEdgeSentence(route.inferredEdge, route.from, route.to)
+                : edgeSentence(route.inferredEdge, route.from, route.to, false)}
+            </p>
           </div>
         )}
 
@@ -61,7 +66,7 @@ export function RouteExplainer({ route }: { route: Route }) {
           />
         )}
 
-        {route.qualifiers.length > 0 && !plain && (
+        {route.qualifiers.length > 0 && (
           <section aria-labelledby="limits">
             <h2 id="limits" className="mb-2 flex items-center gap-2 text-h3">
               What limits this link
@@ -71,7 +76,16 @@ export function RouteExplainer({ route }: { route: Route }) {
                 <li key={q.id} className="flex flex-wrap items-start gap-2 text-ui text-ink-2">
                   <ContradictsBadge />
                   <span className="min-w-0 flex-1">
-                    {q.scope ?? 'Contradicting evidence.'} <CitationMarker edge={q} />
+                    {plain
+                      ? 'This finding limits how broadly the connection can be used.'
+                      : (q.scope ?? 'Contradicting evidence.')}{' '}
+                    <CitationMarker edge={q} />
+                    {plain && q.scope && (
+                      <details className="mt-1 text-label">
+                        <summary className="cursor-pointer text-accent-ink">Read the original limit</summary>
+                        <p className="mt-1">{q.scope}</p>
+                      </details>
+                    )}
                   </span>
                 </li>
               ))}
@@ -177,9 +191,13 @@ function StepList({
                   {offset + i + 1}
                 </span>
                 <div className="min-w-0">
-                  <p className="text-ui text-ink">{edgeSentence(s.edge, s.subject, s.object, plain)}</p>
+                  <p className="text-ui text-ink">
+                    {plain
+                      ? plainEdgeSentence(s.edge, s.subject, s.object)
+                      : edgeSentence(s.edge, s.subject, s.object, false)}
+                  </p>
                   <div className="mt-1.5 flex flex-wrap items-center gap-2">
-                    {!plain && <BasisBadge basis={s.edge.basis} />}
+                    {(!plain || s.edge.basis === 'inferred') && <BasisBadge basis={s.edge.basis} />}
                     <CitationMarker edge={s.edge} />
                     <button
                       type="button"

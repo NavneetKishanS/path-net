@@ -6,6 +6,7 @@ type NewMessage =
 export type ChatMessage = NewMessage & { id: number }
 
 interface ChatState {
+  revision: number
   open: boolean
   draft: string
   pending: boolean
@@ -21,6 +22,7 @@ let nextId = 1
 
 /** Session only: the conversation is not stored anywhere. */
 export const useChat = create<ChatState>()((set) => ({
+  revision: 0,
   open: false,
   draft: '',
   pending: false,
@@ -29,5 +31,5 @@ export const useChat = create<ChatState>()((set) => ({
   setDraft: (draft) => set({ draft }),
   setPending: (pending) => set({ pending }),
   push: (m) => set((s) => ({ messages: [...s.messages, { ...m, id: nextId++ }] })),
-  clear: () => set({ messages: [], draft: '' }),
+  clear: () => set((s) => ({ messages: [], draft: '', pending: false, revision: s.revision + 1 })),
 }))

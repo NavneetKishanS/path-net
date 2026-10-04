@@ -14,7 +14,11 @@ async function getJson<T>(url: string): Promise<T> {
 export async function fetchRestGraph(baseUrl: string): Promise<Graph> {
   const [nodes, edges, evidence, clusters, node_cluster] = await Promise.all(
     (['nodes', 'edges', 'evidence', 'clusters', 'node_cluster'] as const).map((t) =>
-      getJson<unknown[]>(`${baseUrl}/${t}`),
+      getJson<unknown[]>(
+        process.env.NEXT_PUBLIC_ACCOUNT_PROXY === 'true' && typeof window !== 'undefined'
+          ? `/api/account/graph?resource=${t}`
+          : `${baseUrl}/${t}`,
+      ),
     ),
   )
   return emptyGraph({ nodes, edges, evidence, clusters, node_cluster } as Partial<Graph>)

@@ -7,6 +7,7 @@ import { ThemeProvider } from 'next-themes'
 import { MotionConfig } from 'motion/react'
 import { getApiClient } from '@/api'
 import { RoleProvider } from './role/role-provider'
+import { AccountProvider } from './account/account-provider'
 
 // Start fetching and indexing the dataset while React hydrates, not after.
 if (typeof window !== 'undefined') void getApiClient().meta()
@@ -20,7 +21,9 @@ export function Providers({ children }: { children: ReactNode }) {
       <NuqsAdapter>
         <QueryClientProvider client={client}>
           <MotionConfig reducedMotion="user" transition={{ duration: 0.16, ease: [0.2, 0, 0, 1] }}>
-            <RoleProvider>{children}</RoleProvider>
+            <AccountProvider>
+              <RoleProvider>{children}</RoleProvider>
+            </AccountProvider>
           </MotionConfig>
         </QueryClientProvider>
       </NuqsAdapter>
