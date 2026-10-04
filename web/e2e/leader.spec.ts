@@ -35,7 +35,9 @@ test('leader goes from a condition to a cited connection, its evidence and an ac
 
   await page.getByTestId('to-action').click()
   await expect(page.getByRole('heading', { name: 'Action plan' })).toBeVisible()
-  await expect(page.getByTestId('do-this-week')).toContainText('Read how SCN2A DRAGONFLY registry is set up')
+  await expect(page.getByRole('link', { name: 'Action plan', exact: true })).toHaveAttribute('aria-current', 'page')
+  await expect(page.getByTestId('task-read-registry')).toContainText('Read how SCN2A DRAGONFLY registry is set up')
+  await page.getByTestId('outreach-details').getByText('Draft message').click()
   await expect(page.getByTestId('draft-outreach')).toContainText('Check every claim against its source')
   await expect(page.getByTestId('draft-outreach').locator('textarea')).toHaveValue(/PMID 34431999/)
   await expect(page).toHaveURL(/role=leader/)

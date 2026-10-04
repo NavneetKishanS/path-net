@@ -27,17 +27,25 @@ const compact = isLite('people') // reduced form of a panel
 
 ## Atlas views (`atlas/`, `action/`, `scout/`, `research/`, `admin/`)
 
-| Component                                     | Use                                                                                                               |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `DiseaseOverview id`                          | Condition page: gene, mechanism, community, Do this week, connections, mini map, symptoms.                        |
-| `ConnectionList fromId connections`           | Ranked connections with the ranking rule printed under the list.                                                  |
-| `RouteExplainer route`                        | "Why connected": numbered cited steps, evidence beside the selected step, limits, differences, open questions.    |
-| `NoRouteState noRoute? query? coverage`       | Honest empty state: what was searched, what is missing, what would answer it.                                     |
-| `CommunityFinder diseaseId`                   | Patient / Caregiver view of a condition. Plain copy, phone first.                                                 |
-| `ActionView diseaseId`                        | Action plan. Composes `DoThisWeek`, `DraftOutreach`, `AssetList`, `DuplicateCallout`, `StudyList`, `PartnerList`. |
-| `MechanismPicker`, `RankedClusters`           | Biotech Scout. Ranking rule is text (`RANK_RULE`), not a score.                                                   |
-| `MechanismIndex`, `PeopleView`, `FundingView` | Researcher views; `isLite` trims them for the leader.                                                             |
-| `AdminView`                                   | Builder status, review queue, synonyms, threshold, coverage.                                                      |
+| Component                                     | Use                                                                                                            |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `DiseaseOverview id`                          | Condition page: gene, mechanism, community, Do this week, connections, mini map, symptoms.                     |
+| `ConnectionList fromId connections`           | Ranked connections with the ranking rule printed under the list.                                               |
+| `RouteExplainer route`                        | "Why connected": numbered cited steps, evidence beside the selected step, limits, differences, open questions. |
+| `NoRouteState noRoute? query? coverage`       | Honest empty state: what was searched, what is missing, what would answer it.                                  |
+| `CommunityFinder diseaseId`                   | Patient / Caregiver view of a condition. Plain copy, phone first.                                              |
+| `ActionView diseaseId`                        | Action plan: `Workflow` tracker on top, cited background (routes, resources, studies, limits) below.           |
+| `Workflow plan`                               | Task tracker for one plan: mark done, close with a required note, restore, add your own. Filter in `?show=`.   |
+| `MechanismPicker`, `RankedClusters`           | Biotech Scout. Ranking rule is text (`RANK_RULE`), not a score.                                                |
+| `MechanismIndex`, `PeopleView`, `FundingView` | Researcher views; `isLite` trims them for the leader.                                                          |
+| `AdminView`                                   | Builder status, review queue, synonyms, threshold, coverage.                                                   |
+
+## Action plan tab
+
+- "Action plan" in the top nav shows for roles with the full `action` panel (Patient Group Leader, Admin). `/action` reopens the last plan used; `/action?view=all` lists plans with their progress.
+- Tasks come from `tasksFor(plan, progress)` in `src/lib/workflow.ts`: the plan's cited `doThisWeek` and `nextExperiments`, plus tasks the user adds (marked "Added by you", no citation).
+- Progress lives in `useWorkflow` (Zustand, saved to this browser's localStorage under `pathnet.workflow.v1`). Read it only after `useWorkflowReady()` is true, so server and client render the same thing.
+- `DoThisWeek` takes `doneIds` and `hiddenIds`, so the condition page shows the same progress.
 
 ## Chat (`chat/`)
 
