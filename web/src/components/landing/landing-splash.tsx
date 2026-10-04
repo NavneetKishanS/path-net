@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import { ArrowRight, ExternalLink, Waypoints } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
@@ -123,9 +124,14 @@ export function LandingSplash() {
     if (pathname === '/') show()
   }, [pathname, show])
 
+  // `visible` only ever flips true from the effect above, so this never renders during SSR or
+  // the initial client render -- safe to call createPortal(..., document.body) unconditionally.
   if (!visible) return null
   const counts = meta.data?.counts ?? { nodes: 0, edges: 0, evidence: 0 }
-  return (
+  return createPortal(
+    // Portalled to <body>, not rendered in place -- MotionConfig (providers.tsx) creates a
+    // stacking context around the normal component tree, which would otherwise trap this
+    // behind the onboarding dialog's own body-level portal regardless of z-index.
     <div className="fixed inset-0 z-[90] overflow-y-auto bg-sunken">
       <header className="sticky top-0 z-10 flex items-center justify-between border-b border-line bg-sunken/90 px-6 py-3 backdrop-blur-sm">
         <span className="inline-flex items-center gap-2 text-ui font-bold text-ink">
@@ -144,6 +150,7 @@ export function LandingSplash() {
       <PersonasSection />
       <TechSection />
       <FinalCta onEnter={hide} />
-    </div>
+    </div>,
+    document.body,
   )
 }

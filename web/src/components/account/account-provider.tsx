@@ -18,6 +18,7 @@ import {
 import { setWorkflowAccount } from '@/lib/workflow'
 import { setBrowserOverrideAccount } from '@/lib/api/atlas-client'
 import { useChat } from '@/components/chat/chat-store'
+import { useLanding } from '@/components/landing/landing-store'
 
 const VISITED = 'pathnet.initialized.v1'
 const GUEST_PROFILE = 'pathnet.guest-preferences.v1'
@@ -146,11 +147,15 @@ export function AccountProvider({ children }: { children: ReactNode }) {
     }
   }, [applySession, setTheme])
 
+  const landingVisible = useLanding((s) => s.visible)
   useEffect(() => {
-    if (!ready || session.user || pathname !== '/' || localStorage.getItem(VISITED)) return
+    // The landing splash also auto-shows on a fresh "/" visit and takes priority -- it portals
+    // on top of everything and would otherwise be stuck behind this dialog's body pointer-events
+    // lock. Skip opening onboarding while it's up instead of racing to close it after the fact.
+    if (!ready || session.user || pathname !== '/' || localStorage.getItem(VISITED) || landingVisible) return
     const timer = window.setTimeout(() => setOnboardingOpen(true), 0)
     return () => window.clearTimeout(timer)
-  }, [ready, session.user, pathname])
+  }, [ready, session.user, pathname, landingVisible])
 
   useEffect(() => {
     const refresh = async () => {
