@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-04T01:48:12.218458+00:00",
+  "status": "passed",
+  "scope": "Completed P1 M0-M3 branch publication candidate",
+  "target_branch": "p1/data",
+  "base_commit": "3b38ca0d40b33042f7a61c7bc04c5f632bd9cdcd",
+  "validated_code_tree": "c9dcc0d54c23ff1a77f756bf354033e6bd99ceff",
+  "publication_state": "accepted_candidate_before_commit_and_push",
+  "tests": {
+    "run": 125,
+    "passed": 124,
+    "skipped": 1,
+    "failed": 0
+  },
+  "clean_git_export": true,
+  "snapshot_files": 464,
+  "byte_identical_source_files": 462,
+  "curation_newline_only_differences": [
+    "data/curation/coverage_inventory.json",
+    "data/curation/demo_spec.json"
+  ],
+  "raw_files_unchanged": 451,
+  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "funding_file_sha256": "2bc60b9d7adec2fad2bfa2faf4d51885e00331353b733c8ea954b043ad39f14e",
+  "maintenance": {
+    "steps": 5,
+    "status": "complete",
+    "release_unchanged": true,
+    "candidate_changes": [],
+    "started_at": "2026-10-04T01:45:59Z",
+    "completed_at": "2026-10-04T01:46:37Z"
+  },
+  "m4": "Machine-assisted source reviews support M3; human reciprocal P1/P2 acceptance remains pending",
+  "database_writes": false,
+  "protected_p4_files_preserved": true,
+  "historical_receipts": "Execution-time publication states/hashes are retained, not rewritten as current push confirmation"
+}

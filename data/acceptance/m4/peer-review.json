@@ -1,0 +1,1023 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-04T01:16:48+00:00",
+  "status": "machine_assisted_source_review_complete_with_limits",
+  "milestone_m4_complete": false,
+  "reviewer": {
+    "id": "literature_trials",
+    "type": "independently_delegated_machine_assisted",
+    "perspective": "P2 source-context and interpretation",
+    "human_p2_role_owner_signoff": false,
+    "prior_contribution_disclosure": "Reviewer previously contributed to P1 source collectors and community curation; this was a separate review pass, not independent human scientific validation."
+  },
+  "snapshot": {
+    "full_file_sha256": {
+      "data/seed/graph.json": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+      "data/seed/provenance.json": "7ccff345a76633c6c8ac1bf3f687ba94f1727de3c3e9b0a1e9ee5602e19883bd",
+      "data/seed/demo_paths.json": "e5de79e4b72888d61db353a63d9009b1d4cea72846846a949a21b21255cc8095",
+      "data/curation/demo_spec.json": "830d108d0faab25b3bd2394f5df5a87972570842095483c94d47b7fb9320905c"
+    },
+    "graph_canonical_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b",
+    "graph_counts": {
+      "nodes": 58,
+      "edges": 69,
+      "evidence": 77,
+      "clusters": 4,
+      "node_cluster": 70
+    }
+  },
+  "scope": {
+    "edge_record_review_count": 69,
+    "evidence_provenance_check_count": 77,
+    "detailed_demo_edge_ids": [
+      "group_stxbp1_disease",
+      "asset_starr_disease",
+      "stxbp1_haploinsufficiency",
+      "stxbp1_synaptic_release",
+      "e_study_disease_study_nct06555965_dis_stxbp1",
+      "scn2a_r1882q_gof",
+      "scn2a_r853q_lof",
+      "scn2a_single_gof_assignment_refuted",
+      "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "e_investigator_disease_person_nih_15318049_dis_scn2a"
+    ],
+    "detailed_demo_evidence_ids": [
+      "ev_asset_starr_disease",
+      "ev_group_stxbp1_disease",
+      "ev_investigator_disease_person_nih_15318049_dis_scn2a",
+      "ev_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "ev_scn2a_r1882q_gof",
+      "ev_scn2a_r853q_lof",
+      "ev_scn2a_r853q_lof_limitation",
+      "ev_scn2a_single_gof_assignment_refuted",
+      "ev_study_disease_study_nct06555965_dis_stxbp1",
+      "ev_stxbp1_haploinsufficiency",
+      "ev_stxbp1_synaptic_release"
+    ],
+    "raw_check_count": 99,
+    "distinct_evidence_raw_files": 49,
+    "mechanism_abstracts_context_read": 8,
+    "organization_resource_pages_context_read": 8,
+    "selected_clinicaltrials_records_context_read": 5,
+    "selected_nih_awards_context_read": 6,
+    "source_snapshot_retrieval_date": "2026-10-03",
+    "new_network_retrievals": 0,
+    "excluded": [
+      "Independent reproduction of electrophysiology experiments",
+      "Rechecking every underlying HPO clinical paper",
+      "Current recruitment or resource availability verification",
+      "P2 extraction/gold-set precision evaluation",
+      "Deployed route-engine or generated-explanation acceptance"
+    ]
+  },
+  "checks": {
+    "graph_validation_errors": [],
+    "all_evidence_raw_checks_passed": true,
+    "community_exact_quotes_verified": 22,
+    "clinvar_to_assay_variant_identity_checked": [
+      "196039/R1882Q",
+      "194555/R853Q"
+    ],
+    "no_route_scope": "Unknown-query fixture within a selected slice only; runtime not executed in this review"
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "minor",
+      "status": "resolved_and_rechecked",
+      "location": "data/curation/demo_spec.json:network_overlap.scope",
+      "issue": "Original wording referred to both awards, but the two selected overlap edges cite one NIH application11301017.",
+      "resolution": "Root changed the description to one cited award and explicitly the same application record; regenerated demo/provenance. Graph bytes unchanged.",
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "affected_edge_ids": [
+        "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+        "e_investigator_disease_person_nih_15318049_dis_scn2a"
+      ]
+    },
+    {
+      "id": "C1",
+      "severity": "advisory",
+      "status": "source_limitation_retained",
+      "location": "asset_nih_11322512.props",
+      "issue": "Source is_active is true while project_end_date2026-05-22 predates the retrieval.",
+      "disposition": "Both raw values are preserved; source_is_active must not be presented as independently verified current availability. No graph correction required.",
+      "source_url": "https://reporter.nih.gov/project-details/11322512"
+    }
+  ],
+  "remaining_required_graph_corrections": [],
+  "reciprocal_review": {
+    "human_p2_owner_review": "pending",
+    "p2_artifact_review": "pending",
+    "data_extracted_present": false,
+    "data_gold_present": false,
+    "reason": "No P2 generated extraction cache or gold set is available in this checkout. This source review does not waive reciprocal M4 review."
+  },
+  "edge_reviews": [
+    {
+      "edge_id": "asset_dragonfly_disease",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_dragonfly_disease"
+      ],
+      "source_urls": [
+        "https://scn2a.iamrare.org/"
+      ]
+    },
+    {
+      "edge_id": "asset_kcnq2_biorepository_disease",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_kcnq2_biorepository_disease"
+      ],
+      "source_urls": [
+        "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/"
+      ]
+    },
+    {
+      "edge_id": "asset_kcnq2_nhs_disease",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_kcnq2_nhs_disease"
+      ],
+      "source_urls": [
+        "https://www.kcnq2cure.org/faq/"
+      ]
+    },
+    {
+      "edge_id": "asset_starr_disease",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_starr_disease"
+      ],
+      "source_urls": [
+        "https://www.stxbp1disorders.org/starr"
+      ]
+    },
+    {
+      "edge_id": "asset_stxbp1_rarex_disease",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_stxbp1_rarex_disease"
+      ],
+      "source_urls": [
+        "https://www.stxbp1disorders.org/rare-x"
+      ]
+    },
+    {
+      "edge_id": "e_asset_disease_asset_nih_11261066_dis_scn8a",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_disease_asset_nih_11261066_dis_scn8a"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11261066"
+      ]
+    },
+    {
+      "edge_id": "e_asset_disease_asset_nih_11317220_dis_scn2a_dee",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_disease_asset_nih_11317220_dis_scn2a_dee"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11317220"
+      ]
+    },
+    {
+      "edge_id": "e_asset_disease_asset_nih_11322512_dis_stxbp1",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_disease_asset_nih_11322512_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11322512"
+      ]
+    },
+    {
+      "edge_id": "e_asset_disease_asset_nih_11381904_dis_kcnq2",
+      "type": "asset_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_asset_disease_asset_nih_11381904_dis_kcnq2"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11381904"
+      ]
+    },
+    {
+      "edge_id": "e_disease_gene_dis_kcnq2_gene_kcnq2_supports",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_gene_dis_kcnq2_gene_kcnq2_supports_7422f36593"
+      ],
+      "source_urls": [
+        "https://api.orphadata.com/rd-associated-genes/orphacodes/439218"
+      ]
+    },
+    {
+      "edge_id": "e_disease_gene_dis_scn2a_dee_gene_scn2a_supports",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_gene_dis_scn2a_dee_gene_scn2a_supports_8397ba4c87"
+      ],
+      "source_urls": [
+        "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013388"
+      ]
+    },
+    {
+      "edge_id": "e_disease_gene_dis_scn2a_gene_scn2a_supports",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_gene_dis_scn2a_gene_scn2a_supports_c5f5480d6c"
+      ],
+      "source_urls": [
+        "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:1060245"
+      ]
+    },
+    {
+      "edge_id": "e_disease_gene_dis_scn8a_gene_scn8a_supports",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_gene_dis_scn8a_gene_scn8a_supports_ed2cc7fa6b"
+      ],
+      "source_urls": [
+        "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms?obo_id=MONDO:0013801"
+      ]
+    },
+    {
+      "edge_id": "e_disease_gene_dis_stxbp1_gene_stxbp1_supports",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_gene_dis_stxbp1_gene_stxbp1_supports_159fda40ce"
+      ],
+      "source_urls": [
+        "https://api.orphadata.com/rd-associated-genes/orphacodes/599373"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001249_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0001249_supports_72e4b214b5"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001250_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0001250_supports_6bfc4e9859"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001252_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0001252_supports_cce988afef"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001263_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0001263_supports_300eb761fb"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0001332_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0001332_supports_1392f78a7f"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0002521_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0002521_supports_3d6c06047b"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_kcnq2_hp_0011097_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_kcnq2_hp_0011097_supports_0585a0caf3"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn2a_dee_hp_0001263_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn2a_dee_hp_0001263_supports_a422bd81eb"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn8a_hp_0000729_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn8a_hp_0000729_supports_4352d15fc5"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn8a_hp_0001249_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn8a_hp_0001249_supports_61a38f9d91"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn8a_hp_0001252_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn8a_hp_0001252_supports_fd29302952"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn8a_hp_0001263_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn8a_hp_0001263_supports_dd3cf280ad"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn8a_hp_0002376_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn8a_hp_0002376_supports_3b41b4ae5b"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_scn8a_hp_0011097_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_scn8a_hp_0011097_supports_1141c5c4aa"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0000729_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0000729_supports_f0f9d649ec"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001249_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001249_supports_b35531768e"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001250_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001250_supports_cd5db82188"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001251_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001251_supports_24e48c0d32"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001252_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001252_supports_769ae255db",
+        "ev_disease_phenotype_dis_stxbp1_hp_0001252_supports_c1b909b2b3"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001263_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001263_supports_b44a108c1a"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001332_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001332_supports_37330df38e"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001337_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001337_supports_164a878fe4",
+        "ev_disease_phenotype_dis_stxbp1_hp_0001337_supports_b4334385c2"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0001344_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0001344_supports_01fe082cd4",
+        "ev_disease_phenotype_dis_stxbp1_hp_0001344_supports_c72f488a56"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002376_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0002376_supports_0608218b9d",
+        "ev_disease_phenotype_dis_stxbp1_hp_0002376_supports_7c2ae93414"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0002521_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0002521_supports_9e884cd4ae",
+        "ev_disease_phenotype_dis_stxbp1_hp_0002521_supports_fc6448ced4"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_disease_phenotype_dis_stxbp1_hp_0011097_supports",
+      "type": "disease_phenotype",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_disease_phenotype_dis_stxbp1_hp_0011097_supports_c44886cb1d",
+        "ev_disease_phenotype_dis_stxbp1_hp_0011097_supports_e8a7e5764c"
+      ],
+      "source_urls": [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_10318768_dis_scn2a_dee",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_10318768_dis_scn2a_dee"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11317220"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_10351324_dis_scn8a",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_10351324_dis_scn8a"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11261066"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_11673518_dis_kcnq2",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_11673518_dis_kcnq2"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11381904"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_scn2a",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_15318049_dis_scn2a"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11301017"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_scn8a",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_15318049_dis_scn8a"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11310175"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_15318049_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11301017"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_6574463_dis_kcnq2",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_6574463_dis_kcnq2"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11381904"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_78265993_dis_stxbp1",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_78265993_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11322512"
+      ]
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_8880930_dis_kcnq2",
+      "type": "investigator_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_8880930_dis_kcnq2"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11381904"
+      ]
+    },
+    {
+      "edge_id": "e_study_disease_study_nct04873869_dis_scn8a",
+      "type": "study_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_study_disease_study_nct04873869_dis_scn8a"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT04873869"
+      ]
+    },
+    {
+      "edge_id": "e_study_disease_study_nct05157737_dis_kcnq2",
+      "type": "study_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_study_disease_study_nct05157737_dis_kcnq2"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT05157737"
+      ]
+    },
+    {
+      "edge_id": "e_study_disease_study_nct05737784_dis_scn2a_dee",
+      "type": "study_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_study_disease_study_nct05737784_dis_scn2a_dee"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT05737784"
+      ]
+    },
+    {
+      "edge_id": "e_study_disease_study_nct06555965_dis_stxbp1",
+      "type": "study_disease",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_study_disease_study_nct06555965_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT06555965"
+      ]
+    },
+    {
+      "edge_id": "e_study_disease_study_nct06983158_dis_stxbp1",
+      "type": "study_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_study_disease_study_nct06983158_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT06983158"
+      ]
+    },
+    {
+      "edge_id": "group_kcnq2_disease",
+      "type": "group_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_group_kcnq2_disease"
+      ],
+      "source_urls": [
+        "https://www.kcnq2cure.org/our-role/"
+      ]
+    },
+    {
+      "edge_id": "group_scn2a_disease",
+      "type": "group_disease",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_group_scn2a_disease"
+      ],
+      "source_urls": [
+        "https://www.scn2a.org/"
+      ]
+    },
+    {
+      "edge_id": "group_stxbp1_disease",
+      "type": "group_disease",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_group_stxbp1_disease"
+      ],
+      "source_urls": [
+        "https://www.stxbp1disorders.org/"
+      ]
+    },
+    {
+      "edge_id": "kcnq2_dominant_negative",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_kcnq2_dominant_negative"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24318194/"
+      ]
+    },
+    {
+      "edge_id": "kcnq2_lof",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_kcnq2_lof"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24318194/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_autism_gene",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_autism_gene"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38651838/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_autism_lof",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_autism_lof",
+        "ev_scn2a_autism_lof_limitation"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+        "https://pubmed.ncbi.nlm.nih.gov/41642117/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_neonatal_gene",
+      "type": "disease_gene",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_neonatal_gene"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38651838/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_neonatal_gof",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_neonatal_gof"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38651838/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_r1882q_gof",
+      "type": "gene_variant_mechanism",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_r1882q_gof"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31558572/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_r853q_lof",
+      "type": "gene_variant_mechanism",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_r853q_lof",
+        "ev_scn2a_r853q_lof_limitation"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31558572/"
+      ]
+    },
+    {
+      "edge_id": "scn2a_single_gof_assignment_refuted",
+      "type": "disease_mechanism",
+      "stance": "contradicts",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn2a_single_gof_assignment_refuted"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/37578743/"
+      ]
+    },
+    {
+      "edge_id": "scn8a_dee_gof",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "source_record_and_scope",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_scn8a_dee_gof"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34431999/"
+      ]
+    },
+    {
+      "edge_id": "stxbp1_haploinsufficiency",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_stxbp1_haploinsufficiency"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/29538625/"
+      ]
+    },
+    {
+      "edge_id": "stxbp1_synaptic_release",
+      "type": "disease_mechanism",
+      "stance": "supports",
+      "review_depth": "detailed_demo_context",
+      "outcome": "source_supported_with_recorded_scope",
+      "evidence_ids": [
+        "ev_stxbp1_synaptic_release"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32073399/"
+      ]
+    }
+  ]
+}

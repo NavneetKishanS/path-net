@@ -1,0 +1,22 @@
+......s......................usage: fetch_groups.py [-h] [--kind {groups,mechanisms,all}]
+                       [--backend {direct,brightdata}] [--curation CURATION]
+                       [--source-id SOURCE_ID] [--raw-dir RAW_DIR]
+                       [--report REPORT] [--max-age-hours MAX_AGE_HOURS]
+                       [--retries RETRIES] [--force] [--offline]
+                       [--validate-curation] [--refresh-provenance]
+fetch_groups.py: error: Unknown source IDs for selected kind: missing
+................................................................................................
+----------------------------------------------------------------------
+Ran 125 tests in 20.052s
+
+OK (skipped=1)
+Cached group (brightdata, 200)
+Verified 0 pinned clinicaltrials records.
+Verified 1 pinned PubMed records for P2; all content digests match.
+Verified 41 pinned PubMed records for P2; all content digests match.
+Verified 0 pinned clinicaltrials records.
+Verified 0 pinned clinicaltrials records.
+Verified 2 pinned reporter records.
+Verified 1 pinned clinicaltrials records.
+Verified 1 pinned reporter records.
+Verified 1 pinned clinicaltrials records.

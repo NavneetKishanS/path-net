@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-04T00:39:45.433366+00:00",
+  "mode": "read_only_current_database",
+  "api_url": "http://127.0.0.1:3001",
+  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "tables": {
+    "nodes": {
+      "expected_rows": 58,
+      "database_rows": 58,
+      "exact_match": true
+    },
+    "edges": {
+      "expected_rows": 69,
+      "database_rows": 69,
+      "exact_match": true
+    },
+    "evidence": {
+      "expected_rows": 77,
+      "database_rows": 77,
+      "exact_match": true
+    },
+    "clusters": {
+      "expected_rows": 4,
+      "database_rows": 4,
+      "exact_match": true
+    },
+    "node_cluster": {
+      "expected_rows": 70,
+      "database_rows": 70,
+      "exact_match": true
+    }
+  },
+  "status": "passed",
+  "original_m2_receipt": "receipt.json",
+  "parallel_database_integration_receipt": "D:/Hack_Nation/path-net/data/acceptance/m1-docker-integration.json",
+  "source_snapshot_correspondence": {
+    "files": 463,
+    "p1_worktree_exact_match": true,
+    "shared_worktree_exact_match": true,
+    "modified": 0,
+    "added": 0,
+    "missing": 0
+  },
+  "scope": "Post-integration read-only comparison of anonymous REST graph-table columns with the pinned M2 seed; no database write, model call or RLS/Auth/platform regression rerun.",
+  "tooling_integration": "The M2 helper/receipt delivery remains in the P1 worktree; the shared run_m2.py differs and audit_cache.py is absent."
+}

@@ -41,7 +41,7 @@
       "e_investigator_disease_person_nih_15318049_dis_stxbp1",
       "e_investigator_disease_person_nih_15318049_dis_scn2a"
     ],
-    "scope": "Both awards name the investigator and describe the research team's gene-specific work. This supports discovering shared expertise, not inferring shared treatment response."
+    "scope": "The cited award names the investigator and describes the team's prior SCN2A- and STXBP1-specific research. These two links use the same application record and support discovering shared expertise, not inferring shared treatment response."
   },
   "no_route": {
     "query": "no supported match in this slice",

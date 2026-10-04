@@ -2,6 +2,8 @@
 
 Publication branch: **`p1/data`**, on `origin` at `https://github.com/NavneetKishanS/path-net.git`. This is the existing branch requested by the user. Base: `a1eba9df4ed149629d7cc2251d95646135cd10cc`. The user authorized committing and pushing the completed M1 integration. This scope record does not invent a commit hash or certify a remote push; those must be confirmed by the publication operation.
 
+The sections below record the historical M1/bootstrap scope: their M2 exclusions and pending funder gate applied at that time. The completed M2/M3 follow-up is included in the current [M0-M3 publication](P1-M0-M3-PUBLICATION.md).
+
 ## Bundled delivery
 
 - The pinned M1 graph: 58 nodes, 69 edges, 77 evidence rows, four provisional clusters and 70 memberships. Graph file SHA-256: `c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f`.
@@ -31,6 +33,34 @@ The M2 foreground maintenance runner `pipeline/run_m2.py`, its `pipeline/tests/t
 
 Local `.env` files, credentials, dependency environments, generated caches, database runtimes/volumes/backups and temporary audit/download artifacts are excluded. Source snapshots that were restricted to local-only review remain outside the repository.
 
-## Remaining acceptance
+## Historical M1/bootstrap remaining acceptance
 
 Real Supabase Auth, Edge Runtime/cloud deployment, deployed product acceptance, P3 persona/action/admin/coverage wiring, P2 final model evaluation/clustering, P1/P2 M4 source-context peer review, P1/P4 funder relation/projection agreement, media and submission remain separate gates. Publishing this branch does not close them.
+
+
+## Historical publication confirmations
+
+# P1 M1 publication confirmation
+
+The completed P1 M1 database integration was published to **`origin/p1/data`** on 2026-10-04 (Europe/Berlin).
+
+- Commit: `0e1a04d8e7da222892b06595e014ffb388e77aaf` — [verified GitHub commit](https://github.com/NavneetKishanS/path-net/commit/0e1a04d8e7da222892b06595e014ffb388e77aaf).
+- Remote branch head was read back and exactly matched the pushed commit. The push preserved the existing branch history; no `p1-data` branch was created.
+- Published scope: the 58-node / 69-edge / 77-evidence M1 snapshot, required platform integration dependencies, English documentation and acceptance artifacts.
+- Publication verification: 87 pipeline tests, 77 raw evidence checks, 159 pinned PubMed records, a clean Git export and exact preservation of 455 raw/seed files passed. Configured credentials and runtime files were excluded.
+- Separate M2 work was outside this publication. Local source/shared working trees retain their independent uncommitted work; the running shared database was left in place.
+
+See the [published scope and reproduction boundary](https://github.com/NavneetKishanS/path-net/blob/0e1a04d8e7da222892b06595e014ffb388e77aaf/context/P1-PUBLICATION.md) and [publication receipt](https://github.com/NavneetKishanS/path-net/blob/0e1a04d8e7da222892b06595e014ffb388e77aaf/data/acceptance/m1-publication.json). Earlier local-only publication statements describe the state before this confirmed push.
+
+## Automatic bootstrap publication confirmation
+
+The automatic local bootstrap was published to `origin/p1/data` on 2026-10-04:
+[`3b38ca0d40b33042f7a61c7bc04c5f632bd9cdcd`](https://github.com/NavneetKishanS/path-net/commit/3b38ca0d40b33042f7a61c7bc04c5f632bd9cdcd).
+The remote branch head was read back and exactly matched this commit. From the published checkout, `bash run.sh up` generates and imports response caches, migrates/upserts the database, starts PostgREST and builds/starts the frontend. Clean empty-volume startup and populated warm-start preservation passed; see the [published P4 handoff](https://github.com/NavneetKishanS/path-net/blob/3b38ca0d40b33042f7a61c7bc04c5f632bd9cdcd/context/P4-BOOTSTRAP.md) and [bootstrap receipt](https://github.com/NavneetKishanS/path-net/blob/3b38ca0d40b33042f7a61c7bc04c5f632bd9cdcd/data/acceptance/m1-bootstrap.json).
+The shared project runtime was synchronized and retains `pathnet_pgdata`. Separate source-worktree M2 changes remain independent and were not included in this bootstrap publication. Use the published snapshot for the P4 startup handoff. Real Auth, Edge Runtime and cloud deployment remain separate tasks.
+
+
+
+## Completed M0-M3 follow-up
+
+The current branch snapshot adds completed M2 maintenance and M3 funding data, preserving the published M1 source snapshot and P4 bootstrap. See [current publication scope](P1-M0-M3-PUBLICATION.md). Human reciprocal P1/P2 M4 acceptance remains pending; included machine-assisted source reviews support the M3 source-context correction without certifying M4.

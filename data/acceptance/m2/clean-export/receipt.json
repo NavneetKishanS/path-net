@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-04T00:54:45Z",
+  "status": "complete",
+  "mode": "offline_replay",
+  "requested_group_backend": "direct",
+  "project_root": "D:\\Hack_Nation\\path-net-p1-m1\\.runtime\\m2\\publication-review-0e1a04d\\export",
+  "stage_root": "D:\\Hack_Nation\\path-net-p1-m1\\.runtime\\m2\\publication-review-0e1a04d\\export\\.runtime\\m2\\run-20261004T005442Z-1bbc6f0e",
+  "release_unchanged": true,
+  "steps": [
+    {
+      "name": "acquire_or_replay",
+      "status": "passed",
+      "started_at": "2026-10-04T00:54:55Z",
+      "returncode": 0,
+      "log": "logs/acquire_or_replay.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T00:55:01Z"
+    },
+    {
+      "name": "build_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T00:55:01Z",
+      "returncode": 0,
+      "log": "logs/build_candidate.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T00:55:02Z"
+    },
+    {
+      "name": "validate_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T00:55:02Z",
+      "returncode": 0,
+      "log": "logs/validate_candidate.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T00:55:05Z"
+    },
+    {
+      "name": "audit_cache",
+      "status": "passed",
+      "started_at": "2026-10-04T00:55:05Z",
+      "returncode": 0,
+      "log": "logs/audit_cache.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T00:55:11Z"
+    }
+  ],
+  "candidate_changes": [],
+  "publication": "never_automatic",
+  "scope": "One finite foreground pass; overnight unattended execution was waived by the user",
+  "network_policy": "Socket connections and name resolution denied in every staged Python child",
+  "release_changes": [],
+  "source_changes": [],
+  "completed_at": "2026-10-04T00:55:12Z",
+  "release_file_count": 463,
+  "candidate_file_count": 463,
+  "format_only_restoration_count": 0
+}

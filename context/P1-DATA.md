@@ -1,8 +1,8 @@
 # P1 data delivery and integration guide
 
-Publication scope: branch `p1/data` bundles the 58-node M1 source/data snapshot, English integration documentation and the platform dependencies needed to reproduce the accepted local database/app workflow. The user has authorized committing and pushing this existing branch. The historical local acceptance and separate publication checks are distinguished in [P1 publication scope](P1-PUBLICATION.md); no cloud deployment or submission is claimed.
+Publication boundary: the 58-node M1 snapshot is published on `p1/data` at `0e1a04d`; the reviewed publication base is `3b38ca0` with P4 startup improvements. The completed M2 maintenance and M3 funding/report follow-ups are included in this publication. See [M3 execution](P1-M3-EXECUTION.md) for current acceptance and [M2 preparation](P1-M2-PUBLICATION.md) for historical clean-export verification.
 
-Release: 2026-10-03; M1 execution update: 2026-10-04 (Europe/Berlin). Publication branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2 and SCN8A neighbours. SCN2A supplies the documented same-gene/different-function example; it is also the first backup slice. P2's M0 agreement was confirmed by the user on 2026-10-04. Source coverage is recorded in `SOURCES.md` and `data/curation/coverage_inventory.json`.
+Release: 2026-10-03; M1 execution update: 2026-10-04 (Europe/Berlin). Branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2 and SCN8A neighbours. SCN2A supplies the documented same-gene/different-function example; it is also the first backup slice. P2's M0 agreement was confirmed by the user on 2026-10-04. Source coverage is recorded in `SOURCES.md` and `data/curation/coverage_inventory.json`.
 
 Current local M1 snapshot: **451 raw files**, comprising **449 data files**, `.gitkeep` and the `curate_community.py` helper, totalling **50,866,487 bytes**. It adds bounded ClinVar discovery and identity records, eight live Bright Data page snapshots, acquisition receipts and coverage restrictions. Retrieval timestamps are UTC, including 2026-10-03 evening requests recorded on October 4 locally. NORD's two new full-page responses remain outside the repository because of the publisher's reproduction restriction. Bundling does not change the source-specific copyrights, licences or terms in `SOURCES.md`.
 
@@ -16,8 +16,9 @@ The earlier `a1eba9d` packaging baseline had 500 project files and 425 raw files
 - `data/seed/provenance.json`: graph/input digests, evidence-to-source mappings, raw hashes, exact quote or structured-field locators, versions and attribution.
 - `data/seed/demo_paths.json`: primary STXBP1 group/resource journey, SCN2A variant counterexample, shared-investigator path and unknown-query fixture.
 - `data/seed/coverage.json`: dated query coverage, sample limits and graph counts. This file is a P4 input, not a sixth graph table.
+- `data/seed/funding_overlap.json`: source-checked administrative funding report, joining four NIH/NINDS applications and four distinct core projects to existing asset/disease/edge/evidence IDs. See [funding interface](P1-FUNDING-INTERFACE.md); it does not change `Graph` or create an explanation route.
 - `data/curation/`: compact reviewed inputs and pinned PMID/NCT/NIH-application manifests. The reviewed graph rebuilds without the full raw cache.
-- `data/raw/`: reviewed snapshot containing 159 nonempty PubMed records, 32 complete study records, 82 NIH annual awards, 32 pinned ontology/API build sources and public organization/mechanism snapshots, plus bounded ClinVar discovery responses, query metadata and original responses. The reviewed M1 additions are bundled in `p1/data`; publication scope is recorded in [P1-PUBLICATION.md](P1-PUBLICATION.md).
+- `data/raw/`: published M1 snapshot containing 159 nonempty PubMed records, 32 complete studies, 82 annual NIH application records, pinned ontology/API sources and public organization/mechanism snapshots, plus ClinVar discovery responses and original/query metadata. M3 preserves every original raw file.
 
 There are 49 tier A and 20 tier B edges; 68 support their scoped relationship and one contradicts assigning a single gain-of-function mechanism to the entire SCN2A disorder spectrum. There are no tier C/D claims. `verified` means checked against the source within the stated scope. Confidence is `null`; calibrated scoring belongs to P2.
 
@@ -55,7 +56,7 @@ Raw auditing checks the bundled original response/text hashes, exact quotes and 
 
 ## Reuse, repair or refresh source caches
 
-The `p1/data` publication snapshot contains the current source caches; no source download is required for the offline checks above. See [publication scope and checks](P1-PUBLICATION.md). The commands below reuse complete caches and can restore missing records or acquire sources into an alternate data directory:
+The published M1 and integrated local working tree contain the reviewed source caches; no source download is required for the offline checks above. The completed M2/M3 follow-ups are included in this branch snapshot. The commands below reuse complete caches and can restore missing records or acquire sources into an alternate data directory:
 
 ```bash
 # All selected sources; complete bundled caches are reused:
@@ -120,7 +121,7 @@ Retain visible HPO, Mondo, Orphadata and NCBI attribution from `SOURCES.md` when
 
 ## P4: loading, coverage and schema decisions
 
-Run this section from the repository root of the `p1/data` checkout, using P4's migration/upsert operator for the intended database. The original `pipeline/load_seed.py` remains available for a deliberate five-table baseline replacement:
+Run this section in the shared `D:/Hack_Nation/path-net` checkout, using P4's migration/upsert operator for the integrated database. The original `pipeline/load_seed.py` remains available for a deliberate five-table baseline replacement:
 
 ```bash
 # Integrated Docker path:

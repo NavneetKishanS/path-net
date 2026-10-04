@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-04T01:45:59Z",
+  "status": "complete",
+  "mode": "offline_replay",
+  "requested_group_backend": "direct",
+  "project_root": "D:\\Hack_Nation\\path-net-p1-publish\\.runtime\\clean-export",
+  "stage_root": "D:\\Hack_Nation\\path-net-p1-publish\\.runtime\\clean-export\\.runtime\\publication-maintenance",
+  "release_unchanged": true,
+  "steps": [
+    {
+      "name": "acquire_or_replay",
+      "status": "passed",
+      "started_at": "2026-10-04T01:46:10Z",
+      "returncode": 0,
+      "log": "logs/acquire_or_replay.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:46:20Z"
+    },
+    {
+      "name": "build_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T01:46:20Z",
+      "returncode": 0,
+      "log": "logs/build_candidate.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:46:21Z"
+    },
+    {
+      "name": "validate_candidate",
+      "status": "passed",
+      "started_at": "2026-10-04T01:46:21Z",
+      "returncode": 0,
+      "log": "logs/validate_candidate.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:46:26Z"
+    },
+    {
+      "name": "build_funding_projection",
+      "status": "passed",
+      "started_at": "2026-10-04T01:46:26Z",
+      "returncode": 0,
+      "log": "logs/build_funding_projection.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:46:28Z"
+    },
+    {
+      "name": "audit_cache",
+      "status": "passed",
+      "started_at": "2026-10-04T01:46:28Z",
+      "returncode": 0,
+      "log": "logs/audit_cache.log",
+      "format_only_restorations": [],
+      "format_only_restoration_count": 0,
+      "completed_at": "2026-10-04T01:46:36Z"
+    }
+  ],
+  "candidate_changes": [],
+  "publication": "never_automatic",
+  "scope": "One finite foreground pass; overnight unattended execution was waived by the user",
+  "network_policy": "Socket connections and name resolution denied in every staged Python child",
+  "release_changes": [],
+  "source_changes": [],
+  "completed_at": "2026-10-04T01:46:37Z",
+  "release_file_count": 464,
+  "candidate_file_count": 464,
+  "format_only_restoration_count": 0
+}
