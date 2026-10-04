@@ -98,8 +98,8 @@ export function GlobalSearch({ size = 'header', placeholder, autoFocus, onPick, 
         </label>
         <div
           className={cn(
-            'flex items-center gap-2 border bg-paper focus-within:border-ink focus-within:shadow-[0_0_0_3px_var(--focus),0_0_0_5px_var(--focus-ring)]',
-            hero ? 'h-14 rounded-md border-2 border-ink-2 px-4' : 'h-10 rounded-sm border-line-strong px-3',
+            'flex items-center gap-2',
+            hero ? 'h-14 rounded-md bg-paper px-4' : 'h-10 rounded-sm bg-surface px-3',
           )}
         >
           <Search className={cn('shrink-0 text-ink-3', hero ? 'size-5' : 'size-4')} aria-hidden />
