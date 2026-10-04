@@ -24,4 +24,11 @@ done
 code="$(curl -s -o /dev/null -w '%{http_code}' "$WEB")"
 if [ "$code" = "200" ]; then printf '  ok   web        %s\n' "$WEB"; else printf '  FAIL web        HTTP %s\n' "$code"; FAIL=1; fi
 
+session="$(curl -fsS "$WEB/api/account/session")"
+if [[ "$session" == *'"configured":true'* ]]; then
+  printf '  ok   accounts   local account service configured\n'
+else
+  printf '  FAIL accounts   account service is not configured or unavailable\n'; FAIL=1
+fi
+
 exit $FAIL

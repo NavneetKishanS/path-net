@@ -33,7 +33,7 @@ case "${1:-help}" in
     echo "bash run.sh reset   wipe the database and start clean"
     echo "bash run.sh logs    follow logs"
     echo "bash run.sh seed    refresh reviewed graph, explanations and coverage"
-    echo "bash run.sh web     run the web app alone, no backend (static data)"
+    echo "bash run.sh web     run the host web app and prepare local accounts (Node.js + Docker)"
     echo "bash run.sh data    rebuild and audit the reviewed P1 baseline offline"
     echo "bash run.sh migrate apply pending migrations using DATABASE_URL"
     echo "bash run.sh platform-seed upsert reviewed graph and coverage without deleting contributions"

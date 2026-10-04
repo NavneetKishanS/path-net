@@ -71,6 +71,10 @@ services:
       seed:
         condition: service_completed_successfully
     environment:
+      PATHNET_ACCOUNT_DATABASE_URL: postgresql://postgres:postgres@db:5432/pathnet
+      NEXT_PUBLIC_DATA_SOURCE: rest
+      NEXT_PUBLIC_API_URL: http://localhost:${PATHNET_API_PORT:-3001}
+      NEXT_PUBLIC_ACCOUNT_PROXY: "true"
       VITE_DATA_SOURCE: rest
       VITE_API_URL: http://localhost:${PATHNET_API_PORT:-3001}
       CHOKIDAR_USEPOLLING: "true"
