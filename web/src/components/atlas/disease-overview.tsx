@@ -9,6 +9,8 @@ import { CitationMarker } from '@/components/evidence/citation'
 import { ContradictsBadge } from '@/components/evidence/badges'
 import { DoThisWeek } from '@/components/action/action-parts'
 import { useActionPlan, useConnections, useCoverage, useGraph, useNode } from '@/lib/queries'
+import { statusOf, summarise, tasksFor, useWorkflow, useWorkflowReady } from '@/lib/workflow'
+import type { ActionPlan } from '@/lib/model'
 import { EFFECT_LABEL, effectOf } from '@/lib/copy'
 import { cn } from '@/lib/cn'
 import { ConnectionList } from './connection-list'
@@ -39,8 +41,10 @@ function Overview({ d }: { d: NodeDetail }) {
   const phen = d.edges.filter((e) => e.relation === 'disease_phenotype' && e.from === node.id)
   const groups = d.edges.filter((e) => e.relation === 'group_disease' && e.to === node.id)
   const nb = (nid: string) => d.neighbours.find((n) => n.id === nid)
+  const progress = useWorkflow((s) => s.plans[node.id])
+  const workflowReady = useWorkflowReady()
   // Render in one pass so sections do not push each other down as their queries resolve.
-  if (conns.isLoading || plan.isLoading) return <Pending label="Loading condition" lines={8} />
+  if (conns.isLoading || plan.isLoading || !workflowReady) return <Pending label="Loading condition" lines={8} />
   const routable = (conns.data ?? []).filter((c) => c.kind !== 'phenotype')
   return (
     <div className="space-y-10">
@@ -140,17 +144,24 @@ function Overview({ d }: { d: NodeDetail }) {
           id="dtw"
           aside={
             can('action') ? (
-              <AppLink
-                href={`/action/${node.id}`}
-                className="link inline-flex items-center gap-1"
-                data-testid="open-action"
-              >
-                Open the action plan <ArrowRight className="size-3.5" aria-hidden />
-              </AppLink>
+              <span className="inline-flex items-center gap-3">
+                {progress && <PlanProgressNote plan={plan.data} />}
+                <AppLink
+                  href={`/action/${node.id}`}
+                  className="link inline-flex items-center gap-1"
+                  data-testid="open-action"
+                >
+                  Open the action plan <ArrowRight className="size-3.5" aria-hidden />
+                </AppLink>
+              </span>
             ) : undefined
           }
         >
-          <DoThisWeek items={plan.data.doThisWeek.slice(0, 3)} />
+          <DoThisWeek
+            items={plan.data.doThisWeek.slice(0, 3)}
+            doneIds={plan.data.doThisWeek.map((a) => a.id).filter((t) => statusOf(progress, t).status === 'done')}
+            hiddenIds={plan.data.doThisWeek.map((a) => a.id).filter((t) => statusOf(progress, t).status === 'closed')}
+          />
         </Section>
       )}
 
@@ -201,6 +212,16 @@ function Fact({ label, children }: { label: string; children: React.ReactNode })
       <div className="meta-label">{label}</div>
       <div className="mt-0.5">{children}</div>
     </div>
+  )
+}
+
+function PlanProgressNote({ plan }: { plan: ActionPlan }) {
+  const progress = useWorkflow((s) => s.plans[plan.disease.id])
+  const sum = summarise(tasksFor(plan, progress), progress)
+  return (
+    <span className="text-ink-3" data-testid="plan-progress-note">
+      {sum.done} of {sum.active} done
+    </span>
   )
 }
 

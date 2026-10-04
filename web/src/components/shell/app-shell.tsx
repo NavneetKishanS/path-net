@@ -16,7 +16,8 @@ import { useChat } from '@/components/chat/chat-store'
 import { RoleSwitcher } from './role-switcher'
 import { ThemeToggle } from './theme-toggle'
 
-const NAV: { href: string; label: string; panel: PanelId }[] = [
+const NAV: { href: string; label: string; panel: PanelId; fullOnly?: boolean }[] = [
+  { href: '/action', label: 'Action plan', panel: 'action', fullOnly: true },
   { href: '/explore', label: 'Map', panel: 'graph' },
   { href: '/mechanisms', label: 'Mechanisms', panel: 'mechanismRanking' },
   { href: '/people', label: 'People', panel: 'people' },
@@ -25,10 +26,10 @@ const NAV: { href: string; label: string; panel: PanelId }[] = [
 ]
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const { can, role, detail, config } = useRole()
+  const { can, isLite, role, detail, config } = useRole()
   const path = usePathname()
   const chatOpen = useChat((s) => s.open) && config.assistant
-  const nav = NAV.filter((n) => can(n.panel))
+  const nav = NAV.filter((n) => can(n.panel) && !(n.fullOnly && isLite(n.panel)))
   return (
     <div className={cn('flex min-h-dvh flex-col', chatOpen && CHAT_WIDTH)}>
       <a

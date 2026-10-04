@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect } from 'react'
 import type { ActionPlan, Connection } from '@/lib/model'
 import { useRole } from '@/components/role/role-provider'
 import { AppLink } from '@/components/role/app-link'
@@ -7,25 +8,25 @@ import { ErrorNote, Page, PageHeader, Pending, Section } from '@/components/layo
 import { NoRouteState } from '@/components/atlas/no-route'
 import { CitationMarker } from '@/components/evidence/citation'
 import { ContradictsBadge, SupportedBadge } from '@/components/evidence/badges'
-import { useActionPlan, useCoverage, useRoute } from '@/lib/queries'
-import {
-  AssetList,
-  DoThisWeek,
-  DuplicateCallout,
-  EdgeCitations,
-  ExternalLink,
-  PartnerList,
-  StudyList,
-} from './action-parts'
-import { DraftOutreach } from './draft-outreach'
+import { useActionPlan, useCoverage } from '@/lib/queries'
+import { useWorkflow, useWorkflowReady } from '@/lib/workflow'
+import { AssetList, DuplicateCallout, ExternalLink, PartnerList, StudyList } from './action-parts'
+import { Workflow } from './workflow'
 
 export function ActionView({ diseaseId }: { diseaseId: string }) {
   const plan = useActionPlan(diseaseId)
+  const ready = useWorkflowReady()
+  const setLastPlan = useWorkflow((s) => s.setLastPlan)
   const { detail, can } = useRole()
-  if (plan.isLoading)
+  const found = !!plan.data
+  useEffect(() => {
+    if (ready && found) setLastPlan(diseaseId)
+  }, [ready, found, diseaseId, setLastPlan])
+
+  if (plan.isLoading || !ready)
     return (
       <Page>
-        <Pending label="Building the action plan" />
+        <Pending label="Building the action plan" lines={12} />
       </Page>
     )
   if (plan.error || !plan.data)
@@ -45,68 +46,21 @@ export function ActionView({ diseaseId }: { diseaseId: string }) {
           </AppLink>
         }
         title={plain ? 'What you can do next' : 'Action plan'}
+        actions={
+          <AppLink href="/action?view=all" className="link text-label" data-testid="all-plans">
+            All plans
+          </AppLink>
+        }
       >
         {plain
-          ? 'Steps that come from the links the atlas could support with a source.'
-          : 'Only steps that follow from cited links. Each one shows the links it rests on.'}
+          ? 'Tick off each step when it is done. Close the ones that do not fit, with a short note.'
+          : 'Steps that follow from cited links. Mark them done as you go, or close the ones that do not fit with a note.'}
       </PageHeader>
 
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_340px]">
-        <div className="min-w-0 space-y-10">
-          {can('nextStep') && (
-            <Section title="Do this week" id="do-this-week">
-              <DoThisWeek items={p.doThisWeek} />
-            </Section>
-          )}
+        <div className="min-w-0">{can('nextStep') && <Workflow plan={p} />}</div>
 
-          {p.viable[0] && can('nextStep') && !plain && <Outreach plan={p} />}
-
-          {p.viable.length > 0 && (
-            <Section
-              title={plain ? 'Communities you could work with' : 'Who to work with: shared mechanism, every step cited'}
-              id="viable"
-            >
-              <ConnectionBrief items={p.viable} fromId={p.disease.id} />
-            </Section>
-          )}
-
-          {p.noRoute && <NoRouteBlock plan={p} />}
-
-          {can('assets') && (
-            <Section
-              title="Shared resources"
-              id="assets"
-              aside={plain ? undefined : 'Registries, samples and funded projects'}
-            >
-              <div className="space-y-6">
-                <DuplicateCallout signals={p.duplicates} />
-                <AssetList assets={p.assets} />
-              </div>
-            </Section>
-          )}
-
-          <Section title={plain ? 'Studies' : 'Clinical studies'} id="studies">
-            <StudyList studies={plain ? p.studies.filter((s) => s.status === 'RECRUITING') : p.studies} />
-          </Section>
-
-          {!plain && p.nextExperiments.length > 0 && (
-            <Section title="Experiments to ask researchers about" id="experiments">
-              <ul className="space-y-4">
-                {p.nextExperiments.map((x) => (
-                  <li key={x.id}>
-                    <p className="text-ui font-medium text-ink">{x.title}</p>
-                    <p className="mt-0.5 max-w-[68ch] text-ui text-ink-2">{x.detail}</p>
-                    <div className="mt-1.5 text-label">
-                      <EdgeCitations ids={x.edgeIds} />
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </Section>
-          )}
-        </div>
-
-        <aside className="min-w-0 space-y-10" aria-label="People and limits">
+        <aside className="min-w-0 space-y-10" aria-label="People to work with">
           {p.ownCommunities.length > 0 && (
             <Section title={plain ? 'Your community' : 'Your own community'} id="own">
               <ul className="space-y-2">
@@ -127,34 +81,79 @@ export function ActionView({ diseaseId }: { diseaseId: string }) {
               <PartnerList people={p.partners} />
             </Section>
           )}
-          {!plain && p.network.length > 0 && (
-            <Section title="Shared people, not shared biology" id="network">
-              <ConnectionBrief items={p.network} fromId={p.disease.id} />
-            </Section>
-          )}
-          {!plain && p.unsupported.length > 0 && (
-            <Section title="Not supported as a route" id="unsupported">
-              <ul className="space-y-3">
-                {p.unsupported.map((c) => (
-                  <li key={c.disease.id} className="text-ui">
-                    <AppLink href={`/disease/${c.disease.id}`} className="font-medium text-ink hover:underline">
-                      {c.disease.name}
-                    </AppLink>
-                    <p className="text-label text-ink-2">{whyNot(c)}</p>
-                    {c.qualifiers.length > 0 && (
-                      <p className="mt-1 flex flex-wrap items-center gap-1.5">
-                        <ContradictsBadge />
-                        {c.qualifiers.map((q) => (
-                          <CitationMarker key={q.id} edge={q} />
-                        ))}
-                      </p>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </Section>
-          )}
         </aside>
+      </div>
+
+      <div className="mt-14" data-testid="plan-background">
+        <h2 className="text-h2 text-ink">{plain ? 'Why these steps' : 'Background for these tasks'}</h2>
+        <p className="mt-2 max-w-[68ch] text-ui text-ink-2">
+          {plain
+            ? 'What the atlas found, and what it could not support.'
+            : 'The cited connections, resources and limits the tasks above come from.'}
+        </p>
+        <div className="mt-6 grid gap-10 lg:grid-cols-[minmax(0,1fr)_340px]">
+          <div className="min-w-0 space-y-10">
+            {p.viable.length > 0 && (
+              <Section
+                title={
+                  plain ? 'Communities you could work with' : 'Who to work with: shared mechanism, every step cited'
+                }
+                id="viable"
+              >
+                <ConnectionBrief items={p.viable} fromId={p.disease.id} />
+              </Section>
+            )}
+
+            {p.noRoute && <NoRouteBlock plan={p} />}
+
+            {can('assets') && (
+              <Section
+                title="Shared resources"
+                id="assets"
+                aside={plain ? undefined : 'Registries, samples and funded projects'}
+              >
+                <div className="space-y-6">
+                  <DuplicateCallout signals={p.duplicates} />
+                  <AssetList assets={p.assets} />
+                </div>
+              </Section>
+            )}
+
+            <Section title={plain ? 'Studies' : 'Clinical studies'} id="studies">
+              <StudyList studies={plain ? p.studies.filter((s) => s.status === 'RECRUITING') : p.studies} />
+            </Section>
+          </div>
+
+          <div className="min-w-0 space-y-10">
+            {!plain && p.network.length > 0 && (
+              <Section title="Shared people, not shared biology" id="network">
+                <ConnectionBrief items={p.network} fromId={p.disease.id} />
+              </Section>
+            )}
+            {!plain && p.unsupported.length > 0 && (
+              <Section title="Not supported as a route" id="unsupported">
+                <ul className="space-y-3">
+                  {p.unsupported.map((c) => (
+                    <li key={c.disease.id} className="text-ui">
+                      <AppLink href={`/disease/${c.disease.id}`} className="font-medium text-ink hover:underline">
+                        {c.disease.name}
+                      </AppLink>
+                      <p className="text-label text-ink-2">{whyNot(c)}</p>
+                      {c.qualifiers.length > 0 && (
+                        <p className="mt-1 flex flex-wrap items-center gap-1.5">
+                          <ContradictsBadge />
+                          {c.qualifiers.map((q) => (
+                            <CitationMarker key={q.id} edge={q} />
+                          ))}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </Section>
+            )}
+          </div>
+        </div>
       </div>
     </Page>
   )
@@ -207,23 +206,6 @@ function ConnectionBrief({ items, fromId }: { items: Connection[]; fromId: strin
         </li>
       ))}
     </ul>
-  )
-}
-
-function Outreach({ plan }: { plan: ActionPlan }) {
-  const top = plan.viable[0]!
-  const route = useRoute(plan.disease.id, top.disease.id)
-  if (!route.data) return null
-  return (
-    <Section title="Draft outreach" id="outreach" aside={`To ${top.communities[0]?.group.name ?? top.disease.name}`}>
-      <DraftOutreach plan={plan} route={route.data} />
-      <p className="mt-3 text-label text-ink-3">
-        See the full reasoning:{' '}
-        <AppLink href={`/route?from=${plan.disease.id}&to=${top.disease.id}`} className="link">
-          why {plan.disease.name} connects to {top.disease.name}
-        </AppLink>
-      </p>
-    </Section>
   )
 }
 
