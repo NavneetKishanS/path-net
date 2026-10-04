@@ -126,8 +126,8 @@
       "SCN8A"
     ],
     "mondo_disease_terms": 5,
-    "hpo_terms": 12,
-    "phenotype_annotation_rows": 32,
+    "hpo_terms": 44,
+    "phenotype_annotation_rows": 85,
     "clinvar_variation_ids_by_gene": {
       "STXBP1": [
         "4904548"
@@ -161,14 +161,15 @@
     "No missing association is treated as evidence that no association exists.",
     "Source statuses and identifiers are pinned to the retrieval snapshot; live changes require review.",
     "Eight reviewed organization/resource pages were fetched through Bright Data; denied or restricted directories are explicitly recorded, not bypassed.",
-    "NORD full-page responses are local audit material only and are not part of the bundled cache."
+    "NORD full-page responses are local audit material only and are not part of the bundled cache.",
+    "The additive candidate reuses existing 2026-10-03 source caches; it is not a live status refresh. Phenotype coverage counts combine the original HPO annotations and exact Orphadata disease annotations. New HPO IDs/labels are as recorded by Orphadata, not a separately fetched HPO release."
   ],
   "graph_counts": {
-    "nodes": 58,
-    "edges": 69,
-    "evidence": 77,
+    "nodes": 120,
+    "edges": 135,
+    "evidence": 162,
     "clusters": 4,
-    "node_cluster": 70
+    "node_cluster": 147
   },
-  "graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b"
+  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2"
 }

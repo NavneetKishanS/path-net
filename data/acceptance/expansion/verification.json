@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "completed_at": "2026-10-04T02:32:29.147491+00:00",
+  "candidate_root": "D:\\Hack_Nation\\path-net-p1-expansion-20261004",
+  "source_root": "D:\\Hack_Nation\\path-net",
+  "baseline_head": "a1eba9df4ed149629d7cc2251d95646135cd10cc",
+  "baseline_branch": "p4/platform",
+  "baseline_counts": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "candidate_counts": {
+    "nodes": 120,
+    "edges": 135,
+    "evidence": 162,
+    "clusters": 4,
+    "node_cluster": 147
+  },
+  "added_node_types": {
+    "asset": 7,
+    "phenotype": 32,
+    "person": 8,
+    "study": 15
+  },
+  "retained_exact_records": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "graph_file_sha256": "1dee1870b96dbaed1e32fa2cf55510661e4f6d5f2aa27966e9b3d5f8ae86ce4b",
+  "graph_sha256": "7041ec09302aee85a13489d3833343c298b19c4c846a84b5718622da1c8eafad",
+  "raw_files": 451,
+  "raw_bytes": 50866487,
+  "new_acquisitions": 0,
+  "network_calls": 0,
+  "paid_calls": 0,
+  "model_calls": 0,
+  "pipeline_tests": {
+    "run": 134,
+    "passed": 133,
+    "skipped": 1,
+    "skip_reason": "Windows host denies unprivileged physical symlink creation"
+  },
+  "isolated_database_checks": {
+    "two_exact_sql_round_trips": true,
+    "five_exact_rest_tables_without_truncation": true,
+    "unchanged_p3_loadGraph_rest": true,
+    "twenty_existing_persona_explanations": true,
+    "two_upserts_preserve_approved_contribution_and_roles": true,
+    "schema_constraints_rls_unchanged": true,
+    "updated_coverage_cache": true,
+    "approved_contribution_visible_via_rest": true
+  },
+  "offline_consumer_checks": {
+    "status": "passed",
+    "unchanged_static_loadGraph": true,
+    "unchanged_new_node_and_evidence_panels": true,
+    "original_demo_paths_supported": true,
+    "no_route_and_contradiction_rules_preserved": true,
+    "browser_visual_acceptance": "not performed; rendering and actual consumer functions checked offline"
+  },
+  "maintenance": {
+    "steps": 5,
+    "release_file_count": 466,
+    "release_unchanged": true,
+    "candidate_changes": []
+  },
+  "publication": {
+    "shared_database_written": false,
+    "committed": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false
+  },
+  "limits": [
+    "Candidate source snapshots remain dated 2026-10-03; three read-only live spot checks did not refresh them.",
+    "Browser review has open search, interpretation and presentation findings; human M4 reciprocal acceptance remains pending.",
+    "P2 gold/extraction/explanation artifacts are not yet generated; reciprocal review and extraction evaluation are pending.",
+    "Origin contains pre-existing uncommitted P4/P1 work; promotion requires exact target-baseline comparison."
+  ],
+  "status_scope": "Original technical expansion acceptance; subsequent assisted/browser/human decisions are recorded separately.",
+  "delivery_language": "English",
+  "assisted_review": {
+    "updated_at": "2026-10-04T03:10:58.528263+00:00",
+    "graph_file_sha256": "1dee1870b96dbaed1e32fa2cf55510661e4f6d5f2aa27966e9b3d5f8ae86ce4b",
+    "source_fields_status": "passed",
+    "field_checks": 853,
+    "browser_status": "partial with open findings",
+    "new_node_search_attempted": 62,
+    "new_node_search_passed": 61,
+    "browser_cases": 22,
+    "screenshots": 18,
+    "live_official_page_spot_checks": 3,
+    "candidate_raw_or_seed_refreshed": false,
+    "human_p1_acceptance": "pending",
+    "human_p2_acceptance": "pending",
+    "p2_artifacts": "not generated; confirmed by user",
+    "gold_set_owner": "P2",
+    "report": "data/acceptance/expansion/review.md"
+  },
+  "receipt_scope": "Historical expansion-candidate acceptance before the P1 data_v2 text clarification; retained as audit history, not current remote publication acceptance.",
+  "current_p1_receipt": "../p1-data-v2/verification.json"
+}

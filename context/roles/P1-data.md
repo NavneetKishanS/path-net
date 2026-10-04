@@ -1,5 +1,7 @@
 # P1: Data lead
 
+**Current additive release:** `p1/data_v2` contains 120 nodes, 135 edges and 162 evidence records with four unchanged provisional groups. The P1-only source/raw/replay review passed; see [data_v2 scope and reproduction](../P1-EXPANSION.md). Historical M0-M3 sections below describe the preserved 58-node baseline. P2/M4 human, product and shared-database gates remain separate.
+
 Owner: ______________ · Sleeps 01:00 to 05:00 · Read `context/00-PROJECT.md` first.
 
 Status updated: **2026-10-04 (Europe/Berlin)**. Checked boxes have recorded evidence. M1 is published on `p1/data`; The completed M2/M3 follow-ups are included in this branch snapshot. The 58-node graph is integrated into the shared checkout and running Docker database. See [milestone status](../P1-TASK-STATUS.md), [M3 execution](../P1-M3-EXECUTION.md) and [shared M1 integration record](../P1-INTEGRATION.md).

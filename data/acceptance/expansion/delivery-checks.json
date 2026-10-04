@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "delivery_language": "English",
+  "checked_at": "2026-10-04T03:17:44.011648+00:00",
+  "text_check": "Changed/added UTF-8 delivery files contain no Chinese narrative; authored deliverable prose reviewed in English.",
+  "original_source_text_preserved": true,
+  "files_with_chinese_text": [],
+  "parsed_json_files": 25,
+  "valid_jpeg_screenshots": 18,
+  "local_markdown_links": "valid",
+  "original_checkout_head_branch_status": "unchanged",
+  "graph_unchanged_by_review": true,
+  "receipt_scope": "Historical expansion-candidate acceptance before the P1 data_v2 text clarification; retained as audit history, not current remote publication acceptance.",
+  "current_p1_receipt": "../p1-data-v2/verification.json"
+}

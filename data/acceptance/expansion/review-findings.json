@@ -1,0 +1,68 @@
+{
+  "graph_file_sha256": "670ed3d4cb63dc8a69ee99e2aeb0fd666310037385863d9028b35ddc2aa75e70",
+  "findings": [
+    {
+      "id": "R1",
+      "priority": "must resolve for search acceptance",
+      "owner": "P3; P1 supplies identifiers",
+      "finding": "The six-result limit hides an exact phenotype-name match; ext_ids are not searched.",
+      "example": "Searching Epileptic encephalopathy does not expose the existing new node hp_0200134. Searching HP:0100660 also fails to find Dyskinesia.",
+      "code": "web/src/App.tsx:7; web/src/App.tsx:62",
+      "proposal": "Prioritize exact names/aliases, include existing ext_ids, and expose remaining results through pagination or expansion. P1 may add stable-ID synonyms within the existing field as a compatibility aid; this does not replace a fix for result truncation.",
+      "status": "open"
+    },
+    {
+      "id": "R2",
+      "priority": "interpretation review required",
+      "owner": "P2 + P3",
+      "finding": "Inherited discovery-cluster memberships appear as unqualified functional assignments.",
+      "example": "Both the single-participant SCN2A GoF ASO study NCT06314490 and the SCN2A LoF mouse CRISPRa project 11289342 display both LoF and GoF clusters.",
+      "code": "web/src/Panels.tsx:39",
+      "proposal": "Label these as provisional discovery groups and expose membership rationale. P2 should review whether research/PI memberships carry an unintended functional implication. Retain variant-specific assay evidence separately from broad-condition discovery links.",
+      "status": "open"
+    },
+    {
+      "id": "R3",
+      "priority": "display clarification required",
+      "owner": "P1 + P3",
+      "finding": "Study nodes show recorded status but omit retrieval date, next_step and the single-participant restriction.",
+      "example": "NCT06314490 displays active not recruiting without showing its one-pediatric-participant scope or 2026-10-03 retrieval date.",
+      "code": "web/src/Panels.tsx:32",
+      "proposal": "Use existing props.plain/next_step/scope_note or display these existing fields. Suggested wording for this new node: A dated research record (retrieved 2026-10-03) for one pediatric participant with SCN2A-associated DEE. Recorded status: active not recruiting. This is an individualized research protocol, not a general enrollment opportunity. Cluster membership is a provisional discovery grouping, not a functional assignment.",
+      "status": "P1 text clarification complete; P3 rendering acceptance pending",
+      "p1_resolution": "Existing props.plain now states retrieval date, dated status and provisional discovery scope for the 15 added studies. NCT06314490 explicitly states its one-pediatric-participant scope and is not a general enrollment opportunity."
+    },
+    {
+      "id": "R4",
+      "priority": "coverage wording correction required",
+      "owner": "P3 + P4",
+      "finding": "A failed names/synonyms search is presented as an absence of papers, trials, registries or patient groups.",
+      "example": "HP:0100660 shows No supported route and a Missing claim even though the Dyskinesia node and its evidence exist.",
+      "code": "web/src/Panels.tsx:17; web/src/Panels.tsx:23",
+      "proposal": "Only report no matching name/alias within the slice. Distinguish no match, unsearched data and evidence-backed coverage gaps. If P4 coverage is displayed, retain its scope and source dates.",
+      "status": "open"
+    },
+    {
+      "id": "R5",
+      "priority": "source presentation clarification",
+      "owner": "P3",
+      "finding": "Structured field summaries and verbatim quotations share the same blockquote styling.",
+      "example": "The Dyskinesia frequency sentence combines Orphadata fields; NIH PI snippets may also combine fields. Provenance correctly records structured_record.",
+      "code": "web/src/Panels.tsx:64",
+      "proposal": "Identify structured-record summaries explicitly; preserve raw fields and locators, and do not describe compositions as verbatim quotations.",
+      "status": "open"
+    },
+    {
+      "id": "R6",
+      "priority": "visual improvement",
+      "owner": "P3",
+      "finding": "Long labels overlap substantially in the 120-node graph, including focused searches.",
+      "example": "The tested 1280x900 desktop layout and initial 697px-wide view both show crowding. Detail panels remain readable.",
+      "code": "web/src/GraphView.tsx:61",
+      "proposal": "Consider labels only for selected nodes/direct neighbors, with hover text for other nodes. Verify long study titles and densely connected regions.",
+      "status": "open"
+    }
+  ],
+  "historical_browser_graph_file_sha256": "1dee1870b96dbaed1e32fa2cf55510661e4f6d5f2aa27966e9b3d5f8ae86ce4b",
+  "scope": "Historical browser observations retained as handoff; current operation performs P1 review only and does not rerun P3 acceptance."
+}

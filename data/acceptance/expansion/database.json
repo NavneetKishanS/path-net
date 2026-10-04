@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-04T02:25:43.141989+00:00",
+  "status": "passed",
+  "runtime": "isolated native PostgreSQL and PostgREST; unchanged P4 upsert",
+  "graph_file_sha256": "1dee1870b96dbaed1e32fa2cf55510661e4f6d5f2aa27966e9b3d5f8ae86ce4b",
+  "candidate_counts": {
+    "nodes": 120,
+    "edges": 135,
+    "evidence": 162,
+    "clusters": 4,
+    "node_cluster": 147
+  },
+  "runtime_dir": "D:\\Hack_Nation\\path-net-p1-expansion-db-20261004\\expansion-xv5qavxz",
+  "api_url": "http://127.0.0.1:51582",
+  "checks": {
+    "two_exact_sql_round_trips": true,
+    "five_exact_rest_tables_without_truncation": true,
+    "unchanged_p3_loadGraph_rest": true,
+    "twenty_existing_persona_explanations": true,
+    "two_upserts_preserve_approved_contribution_and_roles": true,
+    "schema_constraints_rls_unchanged": true,
+    "updated_coverage_cache": true,
+    "approved_contribution_visible_via_rest": true
+  },
+  "server_version": "PostgreSQL 16.14, compiled by Visual C++ build 1944, 64-bit",
+  "postgrest_version": "PostgREST 12.2.3 (519615d)",
+  "app_loader_probe": "PASS: actual web/src/api.ts loadGraph(rest), all five tables exact, at least 15 real nodes.",
+  "temporary_servers_stopped": true
+}

@@ -1,0 +1,1264 @@
+{
+  "kind": "agent_assisted_source_and_context_review",
+  "reviewed_at": "2026-10-04T03:34:14.175832+00:00",
+  "reviewer": "current task assistant; not an independent human P1/P2 reviewer",
+  "graph_file_sha256": "670ed3d4cb63dc8a69ee99e2aeb0fd666310037385863d9028b35ddc2aa75e70",
+  "source_fields_status": "passed",
+  "field_checks": 853,
+  "errors": [],
+  "reviewed_counts": {
+    "new_nodes": 62,
+    "new_edges": 66,
+    "new_evidence": 85,
+    "clinical_records": 15,
+    "clinical_disease_links": 17,
+    "nih_core_projects": 7,
+    "nih_pi_links": 8,
+    "orphadata_associations": 53,
+    "original_demo_edges": 10,
+    "original_demo_evidence": 11
+  },
+  "studies": [
+    {
+      "id": "NCT01238250",
+      "genes": [
+        "STXBP1",
+        "SCN2A"
+      ],
+      "disease_targets": [
+        "dis_stxbp1",
+        "dis_scn2a"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-07-23",
+      "enrollment": {
+        "count": 100000,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT01238250.json",
+      "raw_sha256": "d9844e6871a313b6a6cc690185c7adedba5e3acead99bae40780781c696213a8",
+      "source_url": "https://clinicaltrials.gov/study/NCT01238250",
+      "context_review": "Multi-gene observational registry; the conditions explicitly include STXBP1 and SCN2A. This is not a DEE-only treatment trial.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT03934268",
+      "genes": [
+        "KCNQ2"
+      ],
+      "disease_targets": [
+        "dis_kcnq2"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "UNKNOWN",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2023-09-21",
+      "enrollment": {
+        "count": 100,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT03934268.json",
+      "raw_sha256": "6ee4781675cff28fe489436794f1d456adba89dfd162510300e04aeed0fcb36a",
+      "source_url": "https://clinicaltrials.gov/study/NCT03934268",
+      "context_review": "Neonatal KCNQ2 cohort; UNKNOWN must not be interpreted as recruiting.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT04639310",
+      "genes": [
+        "KCNQ2"
+      ],
+      "disease_targets": [
+        "dis_kcnq2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "TERMINATED",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2024-08-23",
+      "enrollment": {
+        "count": 8,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT04639310.json",
+      "raw_sha256": "62c89069e0845400ca14eb6f6e9c6be3d1578fa4a2d202b66bf2f0a3ee5bf963",
+      "source_url": "https://clinicaltrials.gov/study/NCT04639310",
+      "context_review": "Randomized KCNQ2-DEE treatment study; cached status TERMINATED. No inference about termination reasons or efficacy.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT04912856",
+      "genes": [
+        "KCNQ2"
+      ],
+      "disease_targets": [
+        "dis_kcnq2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "TERMINATED",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2025-02-14",
+      "enrollment": {
+        "count": 8,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT04912856.json",
+      "raw_sha256": "684d8bc413db5a319a92a883d1ba2fe12e31cb72caed338901dc5d7f024f9640",
+      "source_url": "https://clinicaltrials.gov/study/NCT04912856",
+      "context_review": "Extension for previous XEN496 study participants; TERMINATED, not a new enrollment opportunity.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT04937062",
+      "genes": [
+        "STXBP1"
+      ],
+      "disease_targets": [
+        "dis_stxbp1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "ACTIVE_NOT_RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-01-22",
+      "enrollment": {
+        "count": 50,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT04937062.json",
+      "raw_sha256": "9c13409160213e02b86817f1bc744bc793bfc12bb462ebf9d7fc3e0c857d77a0",
+      "source_url": "https://clinicaltrials.gov/study/NCT04937062",
+      "context_review": "Monogenic DEEs including STXBP1/SLC6A1; planned safety and tolerability assessment, not established efficacy.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT05161494",
+      "genes": [
+        "STXBP1"
+      ],
+      "disease_targets": [
+        "dis_stxbp1"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "COMPLETED",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-05-07",
+      "enrollment": {
+        "count": 41,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT05161494.json",
+      "raw_sha256": "dbeda0b37ec7f940da8c58f3a6d496e8b7105fc6c0f1555135f6ab3dd2a83024",
+      "source_url": "https://clinicaltrials.gov/study/NCT05161494",
+      "context_review": "Gait-analysis feasibility pilot including STXBP1 and tuberous sclerosis; COMPLETED.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT05226780",
+      "genes": [
+        "SCN8A"
+      ],
+      "disease_targets": [
+        "dis_scn8a"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "TERMINATED",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-05-27",
+      "enrollment": {
+        "count": 8,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT05226780.json",
+      "raw_sha256": "3bf72ab74fae984d461f3f29f7bb0cbbbad5cba23d5b65c384781dd9d0bca646",
+      "source_url": "https://clinicaltrials.gov/study/NCT05226780",
+      "context_review": "SCN8A-DEE extension assessing safety and tolerability; TERMINATED.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT05232630",
+      "genes": [
+        "STXBP1"
+      ],
+      "disease_targets": [
+        "dis_stxbp1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "COMPLETED",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-09-29",
+      "enrollment": {
+        "count": 20,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT05232630.json",
+      "raw_sha256": "29b29330875b0a2f15ae5c21f2d260e4671e164745e66e0c3451dae14dc9f95a",
+      "source_url": "https://clinicaltrials.gov/study/NCT05232630",
+      "context_review": "Non-controlled pilot across several DEEs, explicitly including STXBP1; COMPLETED does not establish treatment efficacy.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT05407727",
+      "genes": [
+        "SCN2A"
+      ],
+      "disease_targets": [
+        "dis_scn2a"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "COMPLETED",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2024-01-10",
+      "enrollment": {
+        "count": 5,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT05407727.json",
+      "raw_sha256": "dae95b66e182798ab26c7ec9dc376d5593b06da5369bed3925da0fba3b29ff36",
+      "source_url": "https://clinicaltrials.gov/study/NCT05407727",
+      "context_review": "Observational disease-burden study in early-onset SCN2A-DEE. Discovery link to the broad parent condition does not generalize eligibility to all subtypes.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT05462054",
+      "genes": [
+        "STXBP1"
+      ],
+      "disease_targets": [
+        "dis_stxbp1"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "WITHDRAWN",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2024-10-18",
+      "enrollment": {
+        "count": 0,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT05462054.json",
+      "raw_sha256": "c40913a47144d750dc9817edccae46a4cb8fa7ad00150273e329469671d6b666",
+      "source_url": "https://clinicaltrials.gov/study/NCT05462054",
+      "context_review": "Non-interventional STXBP1 natural-history study; WITHDRAWN with zero actual enrollment, not a completed cohort.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT05818553",
+      "genes": [
+        "SCN2A",
+        "SCN8A"
+      ],
+      "disease_targets": [
+        "dis_scn2a",
+        "dis_scn8a"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "ACTIVE_NOT_RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-01-29",
+      "enrollment": {
+        "count": 77,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT05818553.json",
+      "raw_sha256": "03ed20c85395771753dc75bc6b74eba45c649aa78488f2d05139680f5e380dc5",
+      "source_url": "https://clinicaltrials.gov/study/NCT05818553",
+      "context_review": "Conditions explicitly include SCN2A-DEE and SCN8A-DEE. Two discovery links do not establish shared efficacy or mechanism.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT06314490",
+      "genes": [
+        "SCN2A"
+      ],
+      "disease_targets": [
+        "dis_scn2a"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "ACTIVE_NOT_RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2025-04-01",
+      "enrollment": {
+        "count": 1,
+        "type": "ACTUAL"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT06314490.json",
+      "raw_sha256": "2a257a695239dcf5f01f6aef3648acd9184926497608affcbcb83fc1e434c907",
+      "source_url": "https://clinicaltrials.gov/study/NCT06314490",
+      "context_review": "Individualized ASO study for one pediatric participant, actual enrollment=1. Detailed description specifies SCN2A GoF; ACTIVE_NOT_RECRUITING.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT06356233",
+      "genes": [
+        "STXBP1"
+      ],
+      "disease_targets": [
+        "dis_stxbp1"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "NOT_YET_RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2024-04-10",
+      "enrollment": {
+        "count": 10,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT06356233.json",
+      "raw_sha256": "4c06c4b83f0c5eceeb753a45cb48abc31be07337660b43483e2926377746dd26",
+      "source_url": "https://clinicaltrials.gov/study/NCT06356233",
+      "context_review": "Observational STXBP1 phenotype/biomarker study; NOT_YET_RECRUITING is not a current enrollment opportunity.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT06625112",
+      "genes": [
+        "STXBP1"
+      ],
+      "disease_targets": [
+        "dis_stxbp1"
+      ],
+      "study_type": "OBSERVATIONAL",
+      "snapshot_status": "RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-02-06",
+      "enrollment": {
+        "count": 120,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT06625112.json",
+      "raw_sha256": "c1f7c822649ba2ce143188bcdb127b7da591cdce1f38516c3a8ef28602ab99b5",
+      "source_url": "https://clinicaltrials.gov/study/NCT06625112",
+      "context_review": "STXBP1 natural-history, endpoint and trial-readiness project; recruitment label is the status at retrieval.",
+      "result": "source fields match; scope qualified"
+    },
+    {
+      "id": "NCT07019922",
+      "genes": [
+        "SCN2A"
+      ],
+      "disease_targets": [
+        "dis_scn2a"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "snapshot_status": "RECRUITING",
+      "retrieved_at": "2026-10-03",
+      "last_update_posted": "2026-08-03",
+      "enrollment": {
+        "count": 40,
+        "type": "ESTIMATED"
+      },
+      "raw_path": "raw/clinicaltrials/studies/NCT07019922.json",
+      "raw_sha256": "5645e4901f21bab0cc70553983037c8d4eb19ff231fca17f64f37aa26ab35bba",
+      "source_url": "https://clinicaltrials.gov/study/NCT07019922",
+      "context_review": "Single-arm elsunersen study in early-onset SCN2A-DEE. Parent-condition discovery link does not imply suitability for all SCN2A subtypes.",
+      "result": "source fields match; scope qualified"
+    }
+  ],
+  "awards": [
+    {
+      "application_id": "11289342",
+      "gene": "SCN2A",
+      "target": "dis_scn2a",
+      "core_project_num": "R01MH136475",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "8843508",
+          "name": "Kevin J Bender"
+        },
+        {
+          "profile_id": "1858291",
+          "name": "Daniel Feldman"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11289342.json",
+      "raw_sha256": "89e389a30a731ef493874f6ce15478c51454aae352a3cf9ad9ebf74680ccc54f",
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "context_review": "SCN2A haploinsufficiency/ASD mouse CRISPRa project; preclinical rescue aims do not extend to GoF DEE.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    },
+    {
+      "application_id": "11594149",
+      "gene": "SCN2A",
+      "target": "dis_scn2a",
+      "core_project_num": "R56NS144233",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "12032778",
+          "name": "Yang Yang"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11594149.json",
+      "raw_sha256": "79abb8d8c97c3aa2a13d24f6f2ea7c515122e1502d77f4549b4a12c9ce1cd02a",
+      "source_url": "https://reporter.nih.gov/project-details/11594149",
+      "context_review": "SCN2A deficiency and Dual-AAV; planned validation in mice and human iPSC brain organoids, not clinical treatment.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    },
+    {
+      "application_id": "11436758",
+      "gene": "SCN2A",
+      "target": "dis_scn2a",
+      "core_project_num": "K99NS151036",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "14132242",
+          "name": "Kathryn Anne Salvati"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11436758.json",
+      "raw_sha256": "c6731abe26e0bd3c22b464b109ac614866e73c1ec23c47970779de32c4777dde",
+      "source_url": "https://reporter.nih.gov/project-details/11436758",
+      "context_review": "SCN2A haploinsufficiency and sensory perception; K99/R00 mouse cortical/thalamic circuit research plan.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    },
+    {
+      "application_id": "11312585",
+      "gene": "KCNQ2",
+      "target": "dis_kcnq2",
+      "core_project_num": "F31NS135753",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "78318543",
+          "name": "Dalton Jun-Da Huey"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11312585.json",
+      "raw_sha256": "72eebe59a26bc76024b3680c217d29471ebb2cad6f4064ad2f34723c65d7b772",
+      "source_url": "https://reporter.nih.gov/project-details/11312585",
+      "context_review": "KCNQ2 LoF/uORF; human iPSC neurons and ASO design, a cellular/preclinical research plan.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    },
+    {
+      "application_id": "11261040",
+      "gene": "SCN8A",
+      "target": "dis_scn8a",
+      "core_project_num": "R01NS034509",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "1863377",
+          "name": "MIRIAM H MEISLER"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11261040.json",
+      "raw_sha256": "edcee1051ee1740f36c6511ad2d6a089259dbed5af0061834cab8354955caefe",
+      "source_url": "https://reporter.nih.gov/project-details/11261040",
+      "context_review": "SCN8A mutant mice, ASO/shRNA/CRISPR; prior results are preclinical and proposed work aims to improve them.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    },
+    {
+      "application_id": "11309107",
+      "gene": "SCN8A",
+      "target": "dis_scn8a",
+      "core_project_num": "F31NS143361",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "78316333",
+          "name": "Jack Thomas Whiteley"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11309107.json",
+      "raw_sha256": "f7960ed61f311b9bdbc718d5d3045dd27e52a77624a5cf279c98525d114c1b83",
+      "source_url": "https://reporter.nih.gov/project-details/11309107",
+      "context_review": "SCN8A-DEE human iPSC thalamocortical organoids; model-based mechanism/intervention plan, not a patient trial.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    },
+    {
+      "application_id": "11285465",
+      "gene": "SCN8A",
+      "target": "dis_scn8a",
+      "core_project_num": "R01NS126392",
+      "fiscal_year": 2026,
+      "principal_investigators": [
+        {
+          "profile_id": "7347049",
+          "name": "Andrew P Escayg"
+        }
+      ],
+      "raw_path": "raw/reporter/projects/11285465.json",
+      "raw_sha256": "23fddf67d92df6955db531eb8d0e67c448256b6711cb61588fe88395f4b71efd",
+      "source_url": "https://reporter.nih.gov/project-details/11285465",
+      "context_review": "SCN8A R850Q/R1620L/N1768D mouse cell/circuit studies; findings must not be generalized to all variants.",
+      "result": "source fields match; preclinical/planned scope qualified"
+    }
+  ],
+  "phenotypes": [
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001249",
+      "source_label": "Intellectual disability",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[0]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001250",
+      "source_label": "Seizure",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[1]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001263",
+      "source_label": "Global developmental delay",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[2]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0011185",
+      "source_label": "EEG with focal epileptiform discharges",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[3]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0000729",
+      "source_label": "Autistic behavior",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[4]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0000750",
+      "source_label": "Delayed speech and language development",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[5]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0000752",
+      "source_label": "Hyperactivity",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[6]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001251",
+      "source_label": "Ataxia",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[7]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001252",
+      "source_label": "Hypotonia",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[8]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001337",
+      "source_label": "Tremor",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[9]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001344",
+      "source_label": "Absent speech",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[10]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002123",
+      "source_label": "Generalized myoclonic seizure",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[11]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002376",
+      "source_label": "Developmental regression",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[12]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002384",
+      "source_label": "Focal impaired awareness seizure",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[13]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002521",
+      "source_label": "Hypsarrhythmia",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[14]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002540",
+      "source_label": "Inability to walk",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[15]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0006989",
+      "source_label": "Dysplastic corpus callosum",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[16]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0010819",
+      "source_label": "Atonic seizure",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[17]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0010841",
+      "source_label": "Multifocal epileptiform discharges",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[18]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0011097",
+      "source_label": "Epileptic spasm",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[19]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0011153",
+      "source_label": "Focal motor seizure",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[20]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0011203",
+      "source_label": "EEG with abnormally slow frequencies",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[21]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0012469",
+      "source_label": "Infantile spasms",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[22]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0012762",
+      "source_label": "Cerebral white matter atrophy",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[23]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0200134",
+      "source_label": "Epileptic encephalopathy",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[24]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001257",
+      "source_label": "Spasticity",
+      "frequency_exact": "Very rare (<4-1%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[25]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001332",
+      "source_label": "Dystonia",
+      "frequency_exact": "Very rare (<4-1%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[26]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002510",
+      "source_label": "Spastic tetraplegia",
+      "frequency_exact": "Very rare (<4-1%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[27]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0007334",
+      "source_label": "Bilateral tonic-clonic seizure with focal onset",
+      "frequency_exact": "Very rare (<4-1%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[28]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0012448",
+      "source_label": "Delayed myelination",
+      "frequency_exact": "Very rare (<4-1%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[29]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "599373",
+      "source_disease_name": "STXBP1-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_stxbp1",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0100660",
+      "source_label": "Dyskinesia",
+      "frequency_exact": "Very rare (<4-1%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[30]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001249",
+      "source_label": "Intellectual disability",
+      "frequency_exact": "Obligate (100%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[0]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001263",
+      "source_label": "Global developmental delay",
+      "frequency_exact": "Very frequent (99-80%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[1]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002500",
+      "source_label": "Abnormal cerebral white matter morphology",
+      "frequency_exact": "Very frequent (99-80%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[2]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0010818",
+      "source_label": "Generalized tonic seizure",
+      "frequency_exact": "Very frequent (99-80%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[3]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0010851",
+      "source_label": "EEG with burst suppression",
+      "frequency_exact": "Very frequent (99-80%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[4]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0200134",
+      "source_label": "Epileptic encephalopathy",
+      "frequency_exact": "Very frequent (99-80%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[5]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0000980",
+      "source_label": "Pallor",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[6]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001041",
+      "source_label": "Facial erythema",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[7]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001250",
+      "source_label": "Seizure",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[8]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001252",
+      "source_label": "Hypotonia",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[9]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0001332",
+      "source_label": "Dystonia",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[10]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002104",
+      "source_label": "Apnea",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[11]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002181",
+      "source_label": "Cerebral edema",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[12]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002453",
+      "source_label": "Abnormal globus pallidus morphology",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[13]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002540",
+      "source_label": "Inability to walk",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[14]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0007015",
+      "source_label": "Poor gross motor coordination",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[15]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0011097",
+      "source_label": "Epileptic spasm",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[16]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0011968",
+      "source_label": "Feeding difficulties",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[17]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0012736",
+      "source_label": "Profound global developmental delay",
+      "frequency_exact": "Frequent (79-30%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[18]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002059",
+      "source_label": "Cerebral atrophy",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[19]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002079",
+      "source_label": "Hypoplasia of the corpus callosum",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[20]",
+      "existing_edge_retained": false,
+      "result": "exact source association; not individual risk"
+    },
+    {
+      "orpha_code": "439218",
+      "source_disease_name": "KCNQ2-related developmental and epileptic encephalopathy",
+      "graph_disease_id": "dis_kcnq2",
+      "source_record_date": "2026-06-23 07:57:18",
+      "hpo_id": "HP:0002521",
+      "source_label": "Hypsarrhythmia",
+      "frequency_exact": "Occasional (29-5%)",
+      "locator": "data.results.Disorder.HPODisorderAssociation[21]",
+      "existing_edge_retained": true,
+      "result": "exact source association; not individual risk"
+    }
+  ],
+  "original_demo_edges": [
+    {
+      "edge_id": "group_stxbp1_disease",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_group_stxbp1_disease"
+      ],
+      "source_urls": [
+        "https://www.stxbp1disorders.org/"
+      ],
+      "note": "Foundation serving STXBP1-related disorders; supported by the organization's public mission.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "asset_starr_disease",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_asset_starr_disease"
+      ],
+      "source_urls": [
+        "https://www.stxbp1disorders.org/starr"
+      ],
+      "note": "STARR is observational natural-history infrastructure for STXBP1-RD; it does not test a new therapy.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "stxbp1_haploinsufficiency",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_stxbp1_haploinsufficiency"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/29538625/"
+      ],
+      "note": "Cellular and mouse-model evidence supports haploinsufficiency for the tested STXBP1 variants; variant scope and model limitations are retained.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "stxbp1_synaptic_release",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_stxbp1_synaptic_release"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32073399/"
+      ],
+      "note": "Stxbp1 haploinsufficient mice show reduced cortical inhibitory neurotransmission; presynaptic release machinery is affected.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "e_study_disease_study_nct06555965_dis_stxbp1",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_study_disease_study_nct06555965_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT06555965"
+      ],
+      "note": "The registry title/conditions explicitly name STXBP1. Scope may include a broader gene-related spectrum; this is a research-discovery link, not an eligibility or efficacy claim. Status at retrieval: RECRUITING.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "scn2a_r1882q_gof",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_scn2a_r1882q_gof"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31558572/"
+      ],
+      "note": "Human Nav1.2 R1882Q showed GoF in transfected HEK cells; variant identity is separately supported by ClinVar.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "scn2a_r853q_lof",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_scn2a_r853q_lof",
+        "ev_scn2a_r853q_lof_limitation"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31558572/",
+        "https://pubmed.ncbi.nlm.nih.gov/31558572/"
+      ],
+      "note": "Human Nav1.2 R853Q primarily showed LoF in HEK cells. In Xenopus oocytes it also produced an anomalous gating-pore current, so it is not labeled pure LoF in every model.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "scn2a_single_gof_assignment_refuted",
+      "stance": "contradicts",
+      "evidence_ids": [
+        "ev_scn2a_single_gof_assignment_refuted"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/37578743/"
+      ],
+      "note": "Evidence refutes assigning a single GoF mechanism to the entire broad SCN2A-related disorder. Variant effects can be mixed or LoF; this edge records contradictory evidence, not a universal supported association.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_stxbp1",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_15318049_dis_stxbp1"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11301017"
+      ],
+      "note": "The award identifies this PI and explicitly describes the team's research on the named gene-related disorders. Shared investigators are a discovery opportunity, not proof of a shared disease mechanism.",
+      "result": "original edge/evidence/source binding retained"
+    },
+    {
+      "edge_id": "e_investigator_disease_person_nih_15318049_dis_scn2a",
+      "stance": "supports",
+      "evidence_ids": [
+        "ev_investigator_disease_person_nih_15318049_dis_scn2a"
+      ],
+      "source_urls": [
+        "https://reporter.nih.gov/project-details/11301017"
+      ],
+      "note": "The award identifies this PI and explicitly describes the team's research on the named gene-related disorders. Shared investigators are a discovery opportunity, not proof of a shared disease mechanism.",
+      "result": "original edge/evidence/source binding retained"
+    }
+  ],
+  "new_evidence_by_source": {
+    "nih_reporter": 15,
+    "orphadata": 53,
+    "clinicaltrials": 17
+  },
+  "human_p1_acceptance": "pending",
+  "human_p2_acceptance": "pending",
+  "reciprocal_p2_artifact_review": {
+    "status": "pending",
+    "extracted_directory_exists": false,
+    "gold_directory_exists": false
+  },
+  "scope": "Review dated cached records and their graph representation; not current recruitment certification, efficacy assessment, new HPO-release validation, P2 extraction evaluation, or deployed-product acceptance."
+}

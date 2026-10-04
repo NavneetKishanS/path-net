@@ -1,5 +1,7 @@
 # P1 data delivery and integration guide
 
+**Current additive release:** `p1/data_v2` contains 120 nodes, 135 edges and 162 evidence records with four unchanged provisional groups. The P1-only source/raw/replay review passed; see [data_v2 scope and reproduction](P1-EXPANSION.md). Historical M0-M3 sections below describe the preserved 58-node baseline. P2/M4 human, product and shared-database gates remain separate.
+
 Publication boundary: the 58-node M1 snapshot is published on `p1/data` at `0e1a04d`; the reviewed publication base is `3b38ca0` with P4 startup improvements. The completed M2 maintenance and M3 funding/report follow-ups are included in this publication. See [M3 execution](P1-M3-EXECUTION.md) for current acceptance and [M2 preparation](P1-M2-PUBLICATION.md) for historical clean-export verification.
 
 Release: 2026-10-03; M1 execution update: 2026-10-04 (Europe/Berlin). Branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2 and SCN8A neighbours. SCN2A supplies the documented same-gene/different-function example; it is also the first backup slice. P2's M0 agreement was confirmed by the user on 2026-10-04. Source coverage is recorded in `SOURCES.md` and `data/curation/coverage_inventory.json`.

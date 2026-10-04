@@ -7,8 +7,10 @@
     "curation/research_selection.json": "b3b04d1f2bc9f13b9b9f024bd3be9dc952727abb0b6d0443fb6c27239b26ecf2",
     "curation/pubmed_manifest.json": "cbda298ec7cac9cdf4781446071d4e6aa0c4b697e2a6b58e6163d4c70b423659",
     "curation/research_cache_manifest.json": "b06652b553e0389797673f1192716388262dc5c7ea353486adaadf82b09d4fca",
-    "curation/coverage_inventory.json": "db7f9090cecc4f46f2e79ad6ec1c6caf6cda3010f76605636c4f7c16222ca2fc",
-    "curation/demo_spec.json": "a0f2dcf6fef3ed5598deb55678febde0cc77fdde41597070c2d84e7110dd8ee2"
+    "curation/coverage_inventory.json": "9ce2cfdf614edb75418cf68f585d18d4d8d0455284b00a7071e960ebf3390f7a",
+    "curation/demo_spec.json": "a0f2dcf6fef3ed5598deb55678febde0cc77fdde41597070c2d84e7110dd8ee2",
+    "curation/expansion.json": "7bbb0d3b05c148b33503778001c966a49be14db75c6212efc05271af597745f7",
+    "curation/expansion_selection.json": "2f291a689d5aa36b7417522668eedc6465eb5c2d8342ecc41412365fe4f5900c"
   },
   "nodes": {
     "gene_stxbp1": {
@@ -1062,6 +1064,192 @@
     },
     "study_nct06983158": {
       "curation_file": "curation/research.json"
+    },
+    "asset_nih_11261040": {
+      "curation_file": "curation/expansion.json"
+    },
+    "asset_nih_11285465": {
+      "curation_file": "curation/expansion.json"
+    },
+    "asset_nih_11289342": {
+      "curation_file": "curation/expansion.json"
+    },
+    "asset_nih_11309107": {
+      "curation_file": "curation/expansion.json"
+    },
+    "asset_nih_11312585": {
+      "curation_file": "curation/expansion.json"
+    },
+    "asset_nih_11436758": {
+      "curation_file": "curation/expansion.json"
+    },
+    "asset_nih_11594149": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0000750": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0000752": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0000980": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0001041": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0001257": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002059": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002079": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002104": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002123": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002181": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002384": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002453": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002500": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002510": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0002540": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0006989": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0007015": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0007334": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0010818": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0010819": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0010841": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0010851": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0011153": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0011185": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0011203": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0011968": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0012448": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0012469": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0012736": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0012762": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0100660": {
+      "curation_file": "curation/expansion.json"
+    },
+    "hp_0200134": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_12032778": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_14132242": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_1858291": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_1863377": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_7347049": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_78316333": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_78318543": {
+      "curation_file": "curation/expansion.json"
+    },
+    "person_nih_8843508": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct01238250": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct03934268": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct04639310": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct04912856": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct04937062": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct05161494": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct05226780": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct05232630": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct05407727": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct05462054": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct05818553": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct06314490": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct06356233": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct06625112": {
+      "curation_file": "curation/expansion.json"
+    },
+    "study_nct07019922": {
+      "curation_file": "curation/expansion.json"
     }
   },
   "evidence": {
@@ -4211,6 +4399,3001 @@
       ],
       "evidence_sha256": "2c38b096d19084619fee5cc85c7456b18b276e7c67b6c3be75f8e27d75fa8675",
       "record_sha256": "2270e3e1850eeff5600a59de4bdb7f136f118c42f5db906e86d857c782aa0ef4"
+    },
+    "ev_study_disease_study_nct01238250_dis_stxbp1_clinicaltrials_nct01238250": {
+      "source_url": "https://clinicaltrials.gov/study/NCT01238250",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT01238250",
+        "briefTitle": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+        "conditions": [
+          "16P11.2 Deletion Syndrome",
+          "16p11.2 Duplications",
+          "1Q21.1 Deletion",
+          "1Q21.1 Microduplication Syndrome (Disorder)",
+          "ACTL6B",
+          "ADNP",
+          "AHDC1",
+          "ANK2",
+          "ANKRD11",
+          "ARID1B",
+          "ASH1L",
+          "BCL11A",
+          "CHAMP1",
+          "CHD2",
+          "CHD8",
+          "CSNK2A1",
+          "CTBP1",
+          "CTNNB1 Gene Mutation",
+          "CUL3",
+          "DDX3X",
+          "DNMT3A",
+          "DSCAM",
+          "DYRK1A",
+          "FOXP1",
+          "GRIN2A",
+          "GRIN2B",
+          "HIVEP2-Related Intellectual Disability",
+          "HNRNPH2",
+          "KATNAL2",
+          "KDM5B",
+          "KDM6B",
+          "KMT2C Gene Mutation",
+          "KMT2E",
+          "KMT5B",
+          "MBD5",
+          "MED13L",
+          "PACS1",
+          "PPP2R5D-Related Intellectual Disability",
+          "PTCHD1",
+          "REST",
+          "SCN2A Encephalopathy",
+          "SETBP1 Gene Mutation",
+          "SETD5",
+          "SMARCA4 Gene Mutation",
+          "SMARCC2",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "SYNGAP1-Related Intellectual Disability",
+          "TBR1",
+          "ARHGEF9",
+          "HNRNPU",
+          "PPP3CA",
+          "PPP2R1A",
+          "SLC6A1",
+          "2p16.3 Deletions",
+          "5q35 Deletions",
+          "5q35 Duplications",
+          "7q11.23 Duplications",
+          "15Q13.3 Deletion Syndrome",
+          "16p11.2 Triplications",
+          "16P12.2 Microdeletion",
+          "16P13.11 Microdeletion Syndrome (Disorder)",
+          "17Q12 Microdeletion Syndrome (Disorder)",
+          "17Q12 Duplication Syndrome",
+          "17Q21.31 Deletion Syndrome",
+          "17q21.3 Duplications",
+          "ACTB",
+          "ADSL",
+          "AFF2",
+          "ALDH5A1",
+          "ANK3",
+          "ARX",
+          "ATRX Gene Mutation",
+          "AUTS2 Syndrome",
+          "BCKDK",
+          "BRSK2",
+          "CACNA1C",
+          "CAPRIN1",
+          "CASK",
+          "CASZ1",
+          "CHD3",
+          "CIC",
+          "CNOT3",
+          "CREBBP Gene Mutation",
+          "CSDE1",
+          "CTCF",
+          "DEAF1",
+          "DHCR7",
+          "DLG4",
+          "EBF3",
+          "EHMT1",
+          "EP300 Gene Mutation",
+          "GIGYF1",
+          "GRIN1",
+          "GRIN2D",
+          "IQSEC2-Related Syndromic Intellectual Disability",
+          "IRF2BPL",
+          "KANSL1",
+          "KCNB1",
+          "KDM3B",
+          "NEXMIF",
+          "KMT2A",
+          "MBOAT7",
+          "MEIS2",
+          "MYT1L",
+          "NAA15",
+          "NBEA",
+          "NCKAP1",
+          "NIPBL",
+          "NLGN2",
+          "NLGN3",
+          "NLGN4X",
+          "NR4A2",
+          "NRXN1",
+          "NRXN2",
+          "NSD1 Gene Mutation",
+          "PHF21A",
+          "PHF3",
+          "PHIP",
+          "PSMD12",
+          "RELN",
+          "RERE",
+          "RFX3",
+          "RIMS1",
+          "RORB",
+          "SCN1A",
+          "SETD2 Gene Mutation",
+          "SHANK2",
+          "SIN3A",
+          "SLC9A6",
+          "SON",
+          "SOX5",
+          "SPAST",
+          "SRCAP",
+          "TAOK1",
+          "TANC2",
+          "TCF20",
+          "TLK2",
+          "TRIO",
+          "TRIP12",
+          "UPF3B",
+          "USP9X",
+          "VPS13B",
+          "WAC",
+          "WDFY3",
+          "ZBTB20",
+          "ZNF292",
+          "ZNF462",
+          "2Q37 Deletion Syndrome",
+          "9q34 Duplications",
+          "15q15 Deletions",
+          "15Q24 Deletion",
+          "NR3C2",
+          "SYNCRIP",
+          "2q37.3 Deletion",
+          "6q16 Deletion",
+          "15q11.2 BP1-BP2 Deletion",
+          "16p13.3 Deletion",
+          "17Q11.2 Microduplication Syndrome (Disorder)",
+          "17p13.3",
+          "Xq28 Duplication",
+          "CLCN4",
+          "CSNK2B",
+          "DYNC1H1",
+          "EIF3F",
+          "GNB1",
+          "MED13",
+          "MEF2C",
+          "RALGAPB",
+          "SCN1B",
+          "YY1",
+          "Xp11.22 Duplication",
+          "PACS2",
+          "MAOA",
+          "MAOB",
+          "HNRNPC",
+          "HNRNPD",
+          "HNRNPK",
+          "HNRNPR",
+          "HNRNPUL2",
+          "5P Deletion Syndrome",
+          "TCF7L2 Gene Mutation",
+          "HECW2",
+          "PPM1D",
+          "RNU4-2",
+          "SNAP25",
+          "FOXP2",
+          "ITSN1"
+        ],
+        "overallStatus": "RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT01238250.json",
+          "sha256": "d9844e6871a313b6a6cc690185c7adedba5e3acead99bae40780781c696213a8",
+          "contains": [
+            "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+            "RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "12b3860d35d950a1b5421cdefc5847076d58332f96b6e53b5191f617d832de22",
+      "record_sha256": "2653138345f5ef8aa0cd5d661a37e670837ce9649c8dcd7d0f5e5831f6781623"
+    },
+    "ev_study_disease_study_nct01238250_dis_scn2a_clinicaltrials_nct01238250": {
+      "source_url": "https://clinicaltrials.gov/study/NCT01238250",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT01238250",
+        "briefTitle": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+        "conditions": [
+          "16P11.2 Deletion Syndrome",
+          "16p11.2 Duplications",
+          "1Q21.1 Deletion",
+          "1Q21.1 Microduplication Syndrome (Disorder)",
+          "ACTL6B",
+          "ADNP",
+          "AHDC1",
+          "ANK2",
+          "ANKRD11",
+          "ARID1B",
+          "ASH1L",
+          "BCL11A",
+          "CHAMP1",
+          "CHD2",
+          "CHD8",
+          "CSNK2A1",
+          "CTBP1",
+          "CTNNB1 Gene Mutation",
+          "CUL3",
+          "DDX3X",
+          "DNMT3A",
+          "DSCAM",
+          "DYRK1A",
+          "FOXP1",
+          "GRIN2A",
+          "GRIN2B",
+          "HIVEP2-Related Intellectual Disability",
+          "HNRNPH2",
+          "KATNAL2",
+          "KDM5B",
+          "KDM6B",
+          "KMT2C Gene Mutation",
+          "KMT2E",
+          "KMT5B",
+          "MBD5",
+          "MED13L",
+          "PACS1",
+          "PPP2R5D-Related Intellectual Disability",
+          "PTCHD1",
+          "REST",
+          "SCN2A Encephalopathy",
+          "SETBP1 Gene Mutation",
+          "SETD5",
+          "SMARCA4 Gene Mutation",
+          "SMARCC2",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "SYNGAP1-Related Intellectual Disability",
+          "TBR1",
+          "ARHGEF9",
+          "HNRNPU",
+          "PPP3CA",
+          "PPP2R1A",
+          "SLC6A1",
+          "2p16.3 Deletions",
+          "5q35 Deletions",
+          "5q35 Duplications",
+          "7q11.23 Duplications",
+          "15Q13.3 Deletion Syndrome",
+          "16p11.2 Triplications",
+          "16P12.2 Microdeletion",
+          "16P13.11 Microdeletion Syndrome (Disorder)",
+          "17Q12 Microdeletion Syndrome (Disorder)",
+          "17Q12 Duplication Syndrome",
+          "17Q21.31 Deletion Syndrome",
+          "17q21.3 Duplications",
+          "ACTB",
+          "ADSL",
+          "AFF2",
+          "ALDH5A1",
+          "ANK3",
+          "ARX",
+          "ATRX Gene Mutation",
+          "AUTS2 Syndrome",
+          "BCKDK",
+          "BRSK2",
+          "CACNA1C",
+          "CAPRIN1",
+          "CASK",
+          "CASZ1",
+          "CHD3",
+          "CIC",
+          "CNOT3",
+          "CREBBP Gene Mutation",
+          "CSDE1",
+          "CTCF",
+          "DEAF1",
+          "DHCR7",
+          "DLG4",
+          "EBF3",
+          "EHMT1",
+          "EP300 Gene Mutation",
+          "GIGYF1",
+          "GRIN1",
+          "GRIN2D",
+          "IQSEC2-Related Syndromic Intellectual Disability",
+          "IRF2BPL",
+          "KANSL1",
+          "KCNB1",
+          "KDM3B",
+          "NEXMIF",
+          "KMT2A",
+          "MBOAT7",
+          "MEIS2",
+          "MYT1L",
+          "NAA15",
+          "NBEA",
+          "NCKAP1",
+          "NIPBL",
+          "NLGN2",
+          "NLGN3",
+          "NLGN4X",
+          "NR4A2",
+          "NRXN1",
+          "NRXN2",
+          "NSD1 Gene Mutation",
+          "PHF21A",
+          "PHF3",
+          "PHIP",
+          "PSMD12",
+          "RELN",
+          "RERE",
+          "RFX3",
+          "RIMS1",
+          "RORB",
+          "SCN1A",
+          "SETD2 Gene Mutation",
+          "SHANK2",
+          "SIN3A",
+          "SLC9A6",
+          "SON",
+          "SOX5",
+          "SPAST",
+          "SRCAP",
+          "TAOK1",
+          "TANC2",
+          "TCF20",
+          "TLK2",
+          "TRIO",
+          "TRIP12",
+          "UPF3B",
+          "USP9X",
+          "VPS13B",
+          "WAC",
+          "WDFY3",
+          "ZBTB20",
+          "ZNF292",
+          "ZNF462",
+          "2Q37 Deletion Syndrome",
+          "9q34 Duplications",
+          "15q15 Deletions",
+          "15Q24 Deletion",
+          "NR3C2",
+          "SYNCRIP",
+          "2q37.3 Deletion",
+          "6q16 Deletion",
+          "15q11.2 BP1-BP2 Deletion",
+          "16p13.3 Deletion",
+          "17Q11.2 Microduplication Syndrome (Disorder)",
+          "17p13.3",
+          "Xq28 Duplication",
+          "CLCN4",
+          "CSNK2B",
+          "DYNC1H1",
+          "EIF3F",
+          "GNB1",
+          "MED13",
+          "MEF2C",
+          "RALGAPB",
+          "SCN1B",
+          "YY1",
+          "Xp11.22 Duplication",
+          "PACS2",
+          "MAOA",
+          "MAOB",
+          "HNRNPC",
+          "HNRNPD",
+          "HNRNPK",
+          "HNRNPR",
+          "HNRNPUL2",
+          "5P Deletion Syndrome",
+          "TCF7L2 Gene Mutation",
+          "HECW2",
+          "PPM1D",
+          "RNU4-2",
+          "SNAP25",
+          "FOXP2",
+          "ITSN1"
+        ],
+        "overallStatus": "RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT01238250.json",
+          "sha256": "d9844e6871a313b6a6cc690185c7adedba5e3acead99bae40780781c696213a8",
+          "contains": [
+            "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+            "RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "f8694ebd6e0e39ecfd08e8f71bcabfd5197ab9a0ec6db3fac1736516703c9eb7",
+      "record_sha256": "2653138345f5ef8aa0cd5d661a37e670837ce9649c8dcd7d0f5e5831f6781623"
+    },
+    "ev_study_disease_study_nct03934268_dis_kcnq2_clinicaltrials_nct03934268": {
+      "source_url": "https://clinicaltrials.gov/study/NCT03934268",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT03934268",
+        "briefTitle": "A Cohort Study on the Prognosis of Neonatal KCNQ2 Gene-associated Epileptic Encephalopathy",
+        "conditions": [
+          "Seizures",
+          "Seizure Disorder",
+          "Seizure Newborn",
+          "Seizures, Generalized",
+          "Epileptic Encephalopathy",
+          "Epileptic Encephalopathy, Neonatal-onset",
+          "Epileptic Encephalopathy, Infant-onset",
+          "KCNQ2"
+        ],
+        "overallStatus": "UNKNOWN"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT03934268.json",
+          "sha256": "6ee4781675cff28fe489436794f1d456adba89dfd162510300e04aeed0fcb36a",
+          "contains": [
+            "A Cohort Study on the Prognosis of Neonatal KCNQ2 Gene-associated Epileptic Encephalopathy",
+            "UNKNOWN"
+          ]
+        }
+      ],
+      "evidence_sha256": "0da8308e96f37eb7929c756d7bc22ae1d06bac1924179ee0ff2b0787991cc223",
+      "record_sha256": "4db1b20f7d1f94b5950fda1f7bc910ac8ea6609015e76d3303b09241fd3dc746"
+    },
+    "ev_study_disease_study_nct04639310_dis_kcnq2_clinicaltrials_nct04639310": {
+      "source_url": "https://clinicaltrials.gov/study/NCT04639310",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT04639310",
+        "briefTitle": "XEN496 (Ezogabine) in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+        "conditions": [
+          "Epilepsy",
+          "Epilepsy in Children",
+          "Epilepsy; Seizure",
+          "Disease",
+          "Brain Diseases",
+          "Central Nervous System Diseases",
+          "Nervous System Diseases",
+          "Epileptic Syndromes"
+        ],
+        "overallStatus": "TERMINATED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT04639310.json",
+          "sha256": "62c89069e0845400ca14eb6f6e9c6be3d1578fa4a2d202b66bf2f0a3ee5bf963",
+          "contains": [
+            "XEN496 (Ezogabine) in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+            "TERMINATED"
+          ]
+        }
+      ],
+      "evidence_sha256": "f998ba8d48e2b2adc4e60773ec61a08000b8c8276625ffa441584e6ed0f00037",
+      "record_sha256": "cbc6aa2fbbf161ce188140922748c4a7392163c4557b60cbb4d76fd7e6c9ae04"
+    },
+    "ev_study_disease_study_nct04912856_dis_kcnq2_clinicaltrials_nct04912856": {
+      "source_url": "https://clinicaltrials.gov/study/NCT04912856",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT04912856",
+        "briefTitle": "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+        "conditions": [
+          "Epilepsy",
+          "Epilepsy in Children",
+          "Epilepsy; Seizure",
+          "Disease",
+          "Brain Diseases",
+          "Central Nervous System Diseases",
+          "Nervous System Diseases",
+          "Epileptic Syndromes"
+        ],
+        "overallStatus": "TERMINATED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT04912856.json",
+          "sha256": "684d8bc413db5a319a92a883d1ba2fe12e31cb72caed338901dc5d7f024f9640",
+          "contains": [
+            "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+            "TERMINATED"
+          ]
+        }
+      ],
+      "evidence_sha256": "e93dab0952eec40a871c98a7b3a8c487e147a03f28c8179f1b855ee03c85463e",
+      "record_sha256": "6e8379baaff93f4e12dc06c9d2e39ee09b4cc101b0f593b176461766c6a500af"
+    },
+    "ev_study_disease_study_nct04937062_dis_stxbp1_clinicaltrials_nct04937062": {
+      "source_url": "https://clinicaltrials.gov/study/NCT04937062",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT04937062",
+        "briefTitle": "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
+        "conditions": [
+          "STXBP1 Encephalopathy With Epilepsy, SLC6A1 Neurodevelopmental Disorder",
+          "Developmental and Epileptic Encephalopathy"
+        ],
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT04937062.json",
+          "sha256": "9c13409160213e02b86817f1bc744bc793bfc12bb462ebf9d7fc3e0c857d77a0",
+          "contains": [
+            "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
+            "ACTIVE_NOT_RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "52e1557a28a44ad722fba12bba566c05e44cb7cc4cc3bc1eb328214da1ba38e8",
+      "record_sha256": "8a91c30733185ef46f8a7aa538cc8c6fb850674516183d7120853515e0e63770"
+    },
+    "ev_study_disease_study_nct05161494_dis_stxbp1_clinicaltrials_nct05161494": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05161494",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05161494",
+        "briefTitle": "Gait in Rare Diseases",
+        "conditions": [
+          "Tuberous Sclerosis",
+          "STXBP1 Encephalopathy With Epilepsy"
+        ],
+        "overallStatus": "COMPLETED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05161494.json",
+          "sha256": "dbeda0b37ec7f940da8c58f3a6d496e8b7105fc6c0f1555135f6ab3dd2a83024",
+          "contains": [
+            "Gait in Rare Diseases",
+            "COMPLETED"
+          ]
+        }
+      ],
+      "evidence_sha256": "d7998e43052ab89bdffc2d717b61505bd5635a952219f75b9be9efe54cab933d",
+      "record_sha256": "034728ab3746d8a2055bfe1999f7dda68b9d21eefbddfcdab999d505376b6f1e"
+    },
+    "ev_study_disease_study_nct05226780_dis_scn8a_clinicaltrials_nct05226780": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05226780",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05226780",
+        "briefTitle": "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+        "conditions": [
+          "SCN8A Developmental and Epileptic Encephalopathy Syndrome"
+        ],
+        "overallStatus": "TERMINATED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05226780.json",
+          "sha256": "3bf72ab74fae984d461f3f29f7bb0cbbbad5cba23d5b65c384781dd9d0bca646",
+          "contains": [
+            "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+            "TERMINATED"
+          ]
+        }
+      ],
+      "evidence_sha256": "cda385c89e2a41daf9720bff6944cc172a15ceb9c082f98398dd38cb343f0775",
+      "record_sha256": "a0c09345ff4f5c724b2427b9b90deb2c6c666892f4bdb06c49b37894317ff270"
+    },
+    "ev_study_disease_study_nct05232630_dis_stxbp1_clinicaltrials_nct05232630": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05232630",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05232630",
+        "briefTitle": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+        "conditions": [
+          "Refractory Epilepsy",
+          "SYNGAP1 Encephalopathy",
+          "STXBP1 Encephalopathy With Epilepsy",
+          "Inv Dup(15) Encephalopathy",
+          "Multifocal or Bilateral Malformations of Cortical Development",
+          "Continuous Spike and Waves During Slow Sleep"
+        ],
+        "overallStatus": "COMPLETED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05232630.json",
+          "sha256": "29b29330875b0a2f15ae5c21f2d260e4671e164745e66e0c3451dae14dc9f95a",
+          "contains": [
+            "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+            "COMPLETED"
+          ]
+        }
+      ],
+      "evidence_sha256": "0e92299dd491ef49f659b2f3803bb4b88b49f8e5297abeb1486863c1236650c4",
+      "record_sha256": "b7864ffca179ff3bb115a8a696cb4a85e388c51743165d53390c99c6b72b1966"
+    },
+    "ev_study_disease_study_nct05407727_dis_scn2a_clinicaltrials_nct05407727": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05407727",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05407727",
+        "briefTitle": "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+        "conditions": [
+          "SCN2A-DEE",
+          "Epilepsy"
+        ],
+        "overallStatus": "COMPLETED"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05407727.json",
+          "sha256": "dae95b66e182798ab26c7ec9dc376d5593b06da5369bed3925da0fba3b29ff36",
+          "contains": [
+            "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+            "COMPLETED"
+          ]
+        }
+      ],
+      "evidence_sha256": "ffdd51b379be050b8b7e7c16265e3736a8e365cc97363bb70dc173574c499889",
+      "record_sha256": "c78bc5bf636dc1a2777053ea5885e5c4dfbfdb6303c8679c57a6c85ebefd3d21"
+    },
+    "ev_study_disease_study_nct05462054_dis_stxbp1_clinicaltrials_nct05462054": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05462054",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05462054",
+        "briefTitle": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+        "conditions": [
+          "STXBP1 Encephalopathy with Epilepsy"
+        ],
+        "overallStatus": "WITHDRAWN"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05462054.json",
+          "sha256": "c40913a47144d750dc9817edccae46a4cb8fa7ad00150273e329469671d6b666",
+          "contains": [
+            "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+            "WITHDRAWN"
+          ]
+        }
+      ],
+      "evidence_sha256": "d3f3c144332ae4ed8436ce058ba911ab4ec8b9b3e47fb8535f80748b969a428a",
+      "record_sha256": "6504ec6cda3740cdfde2889c153f2065cd88fc098c49a2d543b2425a1c01d608"
+    },
+    "ev_study_disease_study_nct05818553_dis_scn2a_clinicaltrials_nct05818553": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05818553",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05818553",
+        "briefTitle": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+        "conditions": [
+          "SCN2A Encephalopathy",
+          "SCN8A Encephalopathy"
+        ],
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05818553.json",
+          "sha256": "03ed20c85395771753dc75bc6b74eba45c649aa78488f2d05139680f5e380dc5",
+          "contains": [
+            "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+            "ACTIVE_NOT_RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "bb8aa57880ada6abb081656f15e0104fa4877c8da6c0ce0ed05a095c3b468dfb",
+      "record_sha256": "c6166da8278ec2ec03aa313d7812196def6b82f9db569a1992aadc2bc63cc77b"
+    },
+    "ev_study_disease_study_nct05818553_dis_scn8a_clinicaltrials_nct05818553": {
+      "source_url": "https://clinicaltrials.gov/study/NCT05818553",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT05818553",
+        "briefTitle": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+        "conditions": [
+          "SCN2A Encephalopathy",
+          "SCN8A Encephalopathy"
+        ],
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT05818553.json",
+          "sha256": "03ed20c85395771753dc75bc6b74eba45c649aa78488f2d05139680f5e380dc5",
+          "contains": [
+            "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+            "ACTIVE_NOT_RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "e41f5666dce7b1d864c69f83ed314df6a9efa24987a70f32fdcb01c6a6ca14f3",
+      "record_sha256": "c6166da8278ec2ec03aa313d7812196def6b82f9db569a1992aadc2bc63cc77b"
+    },
+    "ev_study_disease_study_nct06314490_dis_scn2a_clinicaltrials_nct06314490": {
+      "source_url": "https://clinicaltrials.gov/study/NCT06314490",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT06314490",
+        "briefTitle": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+        "conditions": [
+          "Genetic Disease"
+        ],
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT06314490.json",
+          "sha256": "2a257a695239dcf5f01f6aef3648acd9184926497608affcbcb83fc1e434c907",
+          "contains": [
+            "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+            "ACTIVE_NOT_RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "cd97f0e20c007e925d43150016c4eb700bf06aff056d2f1d1d5a77c6dba8e446",
+      "record_sha256": "6b78620041bf92441dda278d3368216ca6869898447f5b3bf6d807629bbff297"
+    },
+    "ev_study_disease_study_nct06356233_dis_stxbp1_clinicaltrials_nct06356233": {
+      "source_url": "https://clinicaltrials.gov/study/NCT06356233",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT06356233",
+        "briefTitle": "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+        "conditions": [
+          "STXBP1 Encephalopathy With Epilepsy"
+        ],
+        "overallStatus": "NOT_YET_RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT06356233.json",
+          "sha256": "4c06c4b83f0c5eceeb753a45cb48abc31be07337660b43483e2926377746dd26",
+          "contains": [
+            "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+            "NOT_YET_RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "f9f548be6728211db8d086cf9da9bb4bb3de78244a54388bcbb983842b0c7729",
+      "record_sha256": "67e86982f996b59b9d34eac3a14c252aa1469fe1bd017845039463e1685e3f87"
+    },
+    "ev_study_disease_study_nct06625112_dis_stxbp1_clinicaltrials_nct06625112": {
+      "source_url": "https://clinicaltrials.gov/study/NCT06625112",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT06625112",
+        "briefTitle": "A Multicentric European Study to Promote Clinical Trial Readiness for STXBP1-related Disorders",
+        "conditions": [
+          "STXBP1 Encephalopathy With Epilepsy"
+        ],
+        "overallStatus": "RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT06625112.json",
+          "sha256": "c1f7c822649ba2ce143188bcdb127b7da591cdce1f38516c3a8ef28602ab99b5",
+          "contains": [
+            "A Multicentric European Study to Promote Clinical Trial Readiness for STXBP1-related Disorders",
+            "RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "11c078bffb0e1e7e207c1569d739eb68e5f65554aa5282480ffbecf1d7859ade",
+      "record_sha256": "578f5fde561da8dfec2c4e947fa16226fe5f3fd3799680e466657549ea981b6a"
+    },
+    "ev_study_disease_study_nct07019922_dis_scn2a_clinicaltrials_nct07019922": {
+      "source_url": "https://clinicaltrials.gov/study/NCT07019922",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "protocolSection.identificationModule.briefTitle; conditionsModule.conditions; statusModule.overallStatus",
+      "source_record": {
+        "nctId": "NCT07019922",
+        "briefTitle": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+        "conditions": [
+          "Epileptic Encephalopathy",
+          "SCN2A Encephalopathy"
+        ],
+        "overallStatus": "RECRUITING"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/clinicaltrials/studies/NCT07019922.json",
+          "sha256": "5645e4901f21bab0cc70553983037c8d4eb19ff231fca17f64f37aa26ab35bba",
+          "contains": [
+            "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+            "RECRUITING"
+          ]
+        }
+      ],
+      "evidence_sha256": "3706d197b35940d795f1208ab34430d447bb2420813e25f7ddee5954851bdfc3",
+      "record_sha256": "fe0bda4b53de60fa71eec6e3c38d95d080b8ad53be3ef24e69506884ead77f5e"
+    },
+    "ev_asset_disease_asset_nih_11289342_dis_scn2a_reporter_11289342": {
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11289342,
+        "project_title": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+        "principal_investigators": [
+          {
+            "profile_id": 8843508,
+            "first_name": "Kevin",
+            "middle_name": "J",
+            "last_name": "Bender",
+            "is_contact_pi": true,
+            "full_name": "Kevin J Bender",
+            "title": "PROFESSOR"
+          },
+          {
+            "profile_id": 1858291,
+            "first_name": "Daniel",
+            "middle_name": "",
+            "last_name": "Feldman",
+            "is_contact_pi": false,
+            "full_name": "Daniel  Feldman",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "MH",
+            "name": "National Institute of Mental Health",
+            "abbreviation": "NIMH",
+            "total_cost": 672761.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11289342.json",
+          "sha256": "89e389a30a731ef493874f6ce15478c51454aae352a3cf9ad9ebf74680ccc54f",
+          "contains": [
+            "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder"
+          ]
+        }
+      ],
+      "evidence_sha256": "3a2d0da9bac41c6c1d113ef98f049526afe67e5d9f64fe3534034be4cd053bd4",
+      "record_sha256": "b48cc3da3b0066876dd1f7979b065152aae494009af1be70fe18967be8f7d846"
+    },
+    "ev_investigator_disease_person_nih_8843508_dis_scn2a_reporter_11289342": {
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=8843508]; project_title",
+      "source_record": {
+        "appl_id": 11289342,
+        "project_title": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+        "principal_investigators": [
+          {
+            "profile_id": 8843508,
+            "first_name": "Kevin",
+            "middle_name": "J",
+            "last_name": "Bender",
+            "is_contact_pi": true,
+            "full_name": "Kevin J Bender",
+            "title": "PROFESSOR"
+          },
+          {
+            "profile_id": 1858291,
+            "first_name": "Daniel",
+            "middle_name": "",
+            "last_name": "Feldman",
+            "is_contact_pi": false,
+            "full_name": "Daniel  Feldman",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "MH",
+            "name": "National Institute of Mental Health",
+            "abbreviation": "NIMH",
+            "total_cost": 672761.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11289342.json",
+          "sha256": "89e389a30a731ef493874f6ce15478c51454aae352a3cf9ad9ebf74680ccc54f",
+          "contains": [
+            "Kevin J Bender",
+            "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder"
+          ]
+        }
+      ],
+      "evidence_sha256": "79f64ccc1d94c92d24df9acc723a8564eb4dcb64157d45f4a5f19f8d76dd6f8d",
+      "record_sha256": "b48cc3da3b0066876dd1f7979b065152aae494009af1be70fe18967be8f7d846"
+    },
+    "ev_investigator_disease_person_nih_1858291_dis_scn2a_reporter_11289342": {
+      "source_url": "https://reporter.nih.gov/project-details/11289342",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=1858291]; project_title",
+      "source_record": {
+        "appl_id": 11289342,
+        "project_title": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+        "principal_investigators": [
+          {
+            "profile_id": 8843508,
+            "first_name": "Kevin",
+            "middle_name": "J",
+            "last_name": "Bender",
+            "is_contact_pi": true,
+            "full_name": "Kevin J Bender",
+            "title": "PROFESSOR"
+          },
+          {
+            "profile_id": 1858291,
+            "first_name": "Daniel",
+            "middle_name": "",
+            "last_name": "Feldman",
+            "is_contact_pi": false,
+            "full_name": "Daniel  Feldman",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "MH",
+            "name": "National Institute of Mental Health",
+            "abbreviation": "NIMH",
+            "total_cost": 672761.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11289342.json",
+          "sha256": "89e389a30a731ef493874f6ce15478c51454aae352a3cf9ad9ebf74680ccc54f",
+          "contains": [
+            "Daniel  Feldman",
+            "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder"
+          ]
+        }
+      ],
+      "evidence_sha256": "b30275bc70d19a06356fa3cb68b969cf581ff3b31c27c0487a5286c39c5b26c5",
+      "record_sha256": "b48cc3da3b0066876dd1f7979b065152aae494009af1be70fe18967be8f7d846"
+    },
+    "ev_asset_disease_asset_nih_11594149_dis_scn2a_reporter_11594149": {
+      "source_url": "https://reporter.nih.gov/project-details/11594149",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11594149,
+        "project_title": "Dual-AAV gene replacement for SCN2A disorders",
+        "principal_investigators": [
+          {
+            "profile_id": 12032778,
+            "first_name": "Yang",
+            "middle_name": "",
+            "last_name": "Yang",
+            "is_contact_pi": true,
+            "full_name": "Yang  Yang",
+            "title": "MCCOY ASSOCIATE PROFESSOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 545644.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11594149.json",
+          "sha256": "79abb8d8c97c3aa2a13d24f6f2ea7c515122e1502d77f4549b4a12c9ce1cd02a",
+          "contains": [
+            "Dual-AAV gene replacement for SCN2A disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "bd6c8f45d0429c1f9632c3df0ccff22b54c0449ed1d767ead1c3ea6e9e290c8b",
+      "record_sha256": "5368f675c253a3067c112b44cab6af180ad4b59b831470e364bceab8ab788a16"
+    },
+    "ev_investigator_disease_person_nih_12032778_dis_scn2a_reporter_11594149": {
+      "source_url": "https://reporter.nih.gov/project-details/11594149",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=12032778]; project_title",
+      "source_record": {
+        "appl_id": 11594149,
+        "project_title": "Dual-AAV gene replacement for SCN2A disorders",
+        "principal_investigators": [
+          {
+            "profile_id": 12032778,
+            "first_name": "Yang",
+            "middle_name": "",
+            "last_name": "Yang",
+            "is_contact_pi": true,
+            "full_name": "Yang  Yang",
+            "title": "MCCOY ASSOCIATE PROFESSOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 545644.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11594149.json",
+          "sha256": "79abb8d8c97c3aa2a13d24f6f2ea7c515122e1502d77f4549b4a12c9ce1cd02a",
+          "contains": [
+            "Yang  Yang",
+            "Dual-AAV gene replacement for SCN2A disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "30ea5204513c62ed214f97e0d56905e041d27e0760911624e4213b84b9da5284",
+      "record_sha256": "5368f675c253a3067c112b44cab6af180ad4b59b831470e364bceab8ab788a16"
+    },
+    "ev_asset_disease_asset_nih_11436758_dis_scn2a_reporter_11436758": {
+      "source_url": "https://reporter.nih.gov/project-details/11436758",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11436758,
+        "project_title": "Examining Scn2a loss of function in sensory perception",
+        "principal_investigators": [
+          {
+            "profile_id": 14132242,
+            "first_name": "Kathryn",
+            "middle_name": "Anne",
+            "last_name": "Salvati",
+            "is_contact_pi": true,
+            "full_name": "Kathryn Anne Salvati",
+            "title": "POSTDOCTORAL FELLOW"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 117747.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11436758.json",
+          "sha256": "c6731abe26e0bd3c22b464b109ac614866e73c1ec23c47970779de32c4777dde",
+          "contains": [
+            "Examining Scn2a loss of function in sensory perception"
+          ]
+        }
+      ],
+      "evidence_sha256": "02c77fbc6561030405c4e66cb920b86b5a95500dc5ad4bedaeacb8765b390b87",
+      "record_sha256": "f0de0022ba41dc0ed367ac2fe754768e270e46f75e3b965cf5380b6b1c5667f1"
+    },
+    "ev_investigator_disease_person_nih_14132242_dis_scn2a_reporter_11436758": {
+      "source_url": "https://reporter.nih.gov/project-details/11436758",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=14132242]; project_title",
+      "source_record": {
+        "appl_id": 11436758,
+        "project_title": "Examining Scn2a loss of function in sensory perception",
+        "principal_investigators": [
+          {
+            "profile_id": 14132242,
+            "first_name": "Kathryn",
+            "middle_name": "Anne",
+            "last_name": "Salvati",
+            "is_contact_pi": true,
+            "full_name": "Kathryn Anne Salvati",
+            "title": "POSTDOCTORAL FELLOW"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 117747.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11436758.json",
+          "sha256": "c6731abe26e0bd3c22b464b109ac614866e73c1ec23c47970779de32c4777dde",
+          "contains": [
+            "Kathryn Anne Salvati",
+            "Examining Scn2a loss of function in sensory perception"
+          ]
+        }
+      ],
+      "evidence_sha256": "f00527d97033fb4b5cd3157b6c3c5f0d334b974cf50fcf494b2e003733564277",
+      "record_sha256": "f0de0022ba41dc0ed367ac2fe754768e270e46f75e3b965cf5380b6b1c5667f1"
+    },
+    "ev_asset_disease_asset_nih_11312585_dis_kcnq2_reporter_11312585": {
+      "source_url": "https://reporter.nih.gov/project-details/11312585",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11312585,
+        "project_title": "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
+        "principal_investigators": [
+          {
+            "profile_id": 78318543,
+            "first_name": "Dalton",
+            "middle_name": "Jun-Da",
+            "last_name": "Huey",
+            "is_contact_pi": true,
+            "full_name": "Dalton Jun-Da Huey",
+            "title": "GRADUATE STUDENT"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 46477.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11312585.json",
+          "sha256": "72eebe59a26bc76024b3680c217d29471ebb2cad6f4064ad2f34723c65d7b772",
+          "contains": [
+            "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity"
+          ]
+        }
+      ],
+      "evidence_sha256": "4f555cecfd44705cedffa34301c20c5c15bd2d2fbc2e2d283c037e7f2bb5b815",
+      "record_sha256": "85028f7851a681d7555aef1e8d3c59e1d4e408e3fe2c0c0501b7b6b84c397479"
+    },
+    "ev_investigator_disease_person_nih_78318543_dis_kcnq2_reporter_11312585": {
+      "source_url": "https://reporter.nih.gov/project-details/11312585",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=78318543]; project_title",
+      "source_record": {
+        "appl_id": 11312585,
+        "project_title": "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
+        "principal_investigators": [
+          {
+            "profile_id": 78318543,
+            "first_name": "Dalton",
+            "middle_name": "Jun-Da",
+            "last_name": "Huey",
+            "is_contact_pi": true,
+            "full_name": "Dalton Jun-Da Huey",
+            "title": "GRADUATE STUDENT"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 46477.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11312585.json",
+          "sha256": "72eebe59a26bc76024b3680c217d29471ebb2cad6f4064ad2f34723c65d7b772",
+          "contains": [
+            "Dalton Jun-Da Huey",
+            "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity"
+          ]
+        }
+      ],
+      "evidence_sha256": "fe6b2762583847a50b557f9e3e4afd8726dae7dddd4a02c301d745e66247aaf4",
+      "record_sha256": "85028f7851a681d7555aef1e8d3c59e1d4e408e3fe2c0c0501b7b6b84c397479"
+    },
+    "ev_asset_disease_asset_nih_11261040_dis_scn8a_reporter_11261040": {
+      "source_url": "https://reporter.nih.gov/project-details/11261040",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11261040,
+        "project_title": "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+        "principal_investigators": [
+          {
+            "profile_id": 1863377,
+            "first_name": "MIRIAM",
+            "middle_name": "H",
+            "last_name": "MEISLER",
+            "is_contact_pi": true,
+            "full_name": "MIRIAM H MEISLER",
+            "title": "PROFESSOR OF HUMAN GENETICS"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 465915.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11261040.json",
+          "sha256": "edcee1051ee1740f36c6511ad2d6a089259dbed5af0061834cab8354955caefe",
+          "contains": [
+            "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A"
+          ]
+        }
+      ],
+      "evidence_sha256": "9fd749fd8245d3d0a878f8aa7c55a7746dce1844c88b3dd83e91132c51ce4752",
+      "record_sha256": "30de92c001db7b3c21c39a447ee88f1b98cd4b4a19016d197dd4407398f4223b"
+    },
+    "ev_investigator_disease_person_nih_1863377_dis_scn8a_reporter_11261040": {
+      "source_url": "https://reporter.nih.gov/project-details/11261040",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=1863377]; project_title",
+      "source_record": {
+        "appl_id": 11261040,
+        "project_title": "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+        "principal_investigators": [
+          {
+            "profile_id": 1863377,
+            "first_name": "MIRIAM",
+            "middle_name": "H",
+            "last_name": "MEISLER",
+            "is_contact_pi": true,
+            "full_name": "MIRIAM H MEISLER",
+            "title": "PROFESSOR OF HUMAN GENETICS"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 465915.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11261040.json",
+          "sha256": "edcee1051ee1740f36c6511ad2d6a089259dbed5af0061834cab8354955caefe",
+          "contains": [
+            "MIRIAM H MEISLER",
+            "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A"
+          ]
+        }
+      ],
+      "evidence_sha256": "1221fe2f648c25eaa65446a5eda890d8ebe6ba6eecb8932fe07bccc6bb9a2134",
+      "record_sha256": "30de92c001db7b3c21c39a447ee88f1b98cd4b4a19016d197dd4407398f4223b"
+    },
+    "ev_asset_disease_asset_nih_11309107_dis_scn8a_reporter_11309107": {
+      "source_url": "https://reporter.nih.gov/project-details/11309107",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11309107,
+        "project_title": "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit",
+        "principal_investigators": [
+          {
+            "profile_id": 78316333,
+            "first_name": "Jack",
+            "middle_name": "Thomas",
+            "last_name": "Whiteley",
+            "is_contact_pi": true,
+            "full_name": "Jack Thomas Whiteley",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 50114.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11309107.json",
+          "sha256": "f7960ed61f311b9bdbc718d5d3045dd27e52a77624a5cf279c98525d114c1b83",
+          "contains": [
+            "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit"
+          ]
+        }
+      ],
+      "evidence_sha256": "c50862e4bb02df888c95a6992e49bbc1794e8245b66fb929801396a3af9910a7",
+      "record_sha256": "11080b4f9c912665424b4c6c9067af61f0acd35c690898558b0b9ad1187e220a"
+    },
+    "ev_investigator_disease_person_nih_78316333_dis_scn8a_reporter_11309107": {
+      "source_url": "https://reporter.nih.gov/project-details/11309107",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=78316333]; project_title",
+      "source_record": {
+        "appl_id": 11309107,
+        "project_title": "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit",
+        "principal_investigators": [
+          {
+            "profile_id": 78316333,
+            "first_name": "Jack",
+            "middle_name": "Thomas",
+            "last_name": "Whiteley",
+            "is_contact_pi": true,
+            "full_name": "Jack Thomas Whiteley",
+            "title": ""
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 50114.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11309107.json",
+          "sha256": "f7960ed61f311b9bdbc718d5d3045dd27e52a77624a5cf279c98525d114c1b83",
+          "contains": [
+            "Jack Thomas Whiteley",
+            "Investigating SCN8A developmental and epileptic encephalopathy mechanisms and treatments in a human cellular model of the thalamocortical circuit"
+          ]
+        }
+      ],
+      "evidence_sha256": "17a333b4cc66636bb4870017d2879f231633bc08e4b83e3670a0bc01e347c126",
+      "record_sha256": "11080b4f9c912665424b4c6c9067af61f0acd35c690898558b0b9ad1187e220a"
+    },
+    "ev_asset_disease_asset_nih_11285465_dis_scn8a_reporter_11285465": {
+      "source_url": "https://reporter.nih.gov/project-details/11285465",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "project_title; agency_ic_fundings; fiscal_year",
+      "source_record": {
+        "appl_id": 11285465,
+        "project_title": "SCN8A encephalopathy: disease mechanisms and treatment",
+        "principal_investigators": [
+          {
+            "profile_id": 7347049,
+            "first_name": "Andrew",
+            "middle_name": "P",
+            "last_name": "Escayg",
+            "is_contact_pi": true,
+            "full_name": "Andrew P Escayg",
+            "title": "PROFESSOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 523154.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11285465.json",
+          "sha256": "23fddf67d92df6955db531eb8d0e67c448256b6711cb61588fe88395f4b71efd",
+          "contains": [
+            "SCN8A encephalopathy: disease mechanisms and treatment"
+          ]
+        }
+      ],
+      "evidence_sha256": "05525d0c18770603c65d5a32708a00a522135f6dce5c553ae57b18cd1007d4c9",
+      "record_sha256": "8988124ec93b45744c9976a5946bf1408f1b27ecc51ecff236a6a1511918cfa2"
+    },
+    "ev_investigator_disease_person_nih_7347049_dis_scn8a_reporter_11285465": {
+      "source_url": "https://reporter.nih.gov/project-details/11285465",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_record_locator": "principal_investigators[profile_id=7347049]; project_title",
+      "source_record": {
+        "appl_id": 11285465,
+        "project_title": "SCN8A encephalopathy: disease mechanisms and treatment",
+        "principal_investigators": [
+          {
+            "profile_id": 7347049,
+            "first_name": "Andrew",
+            "middle_name": "P",
+            "last_name": "Escayg",
+            "is_contact_pi": true,
+            "full_name": "Andrew P Escayg",
+            "title": "PROFESSOR"
+          }
+        ],
+        "agency_ic_fundings": [
+          {
+            "fy": 2026,
+            "code": "NS",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "abbreviation": "NINDS",
+            "total_cost": 523154.0
+          }
+        ],
+        "fiscal_year": 2026
+      },
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11285465.json",
+          "sha256": "23fddf67d92df6955db531eb8d0e67c448256b6711cb61588fe88395f4b71efd",
+          "contains": [
+            "Andrew P Escayg",
+            "SCN8A encephalopathy: disease mechanisms and treatment"
+          ]
+        }
+      ],
+      "evidence_sha256": "95c1a9c0ef15b7d7845db539fc5d1600b83fb5564d7d4e2e8bb1f0f2e06e04b5",
+      "record_sha256": "8988124ec93b45744c9976a5946bf1408f1b27ecc51ecff236a6a1511918cfa2"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001249_supports_orpha_599373_0": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[0]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001249",
+          "HPOTerm": "Intellectual disability"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001249",
+            "Intellectual disability",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "01c317535489f5a51ed6023e49bba72c8ecf0d6050484274c7ac56fd87aa082c",
+      "record_sha256": "fc2df0176cd585e3333f308d6c3af9eeda5ed3686a4507e552e7f56252b82afd"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001250_supports_orpha_599373_1": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[1]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001250",
+          "HPOTerm": "Seizure"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001250",
+            "Seizure",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "2bcdbc51f972d86b7931139e17fdbc0080962a5f15b30e0de9913ed10707b0eb",
+      "record_sha256": "2f8b74bd78746c57f57c7e39dde97f0f59ad88f41dc7a423b3c1095d650b0999"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001263_supports_orpha_599373_2": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[2]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001263",
+          "HPOTerm": "Global developmental delay"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001263",
+            "Global developmental delay",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "6605d796b31f5cf9a58e13c6bc4b7768e0292647208545392b2145f001206c13",
+      "record_sha256": "b59678f19511e8431c56db88f4ce9dd014f067066b37b47e5978943d63de968d"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0011185_supports_orpha_599373_3": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[3]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0011185",
+          "HPOTerm": "EEG with focal epileptiform discharges"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0011185",
+            "EEG with focal epileptiform discharges",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "16ee1cd5d3b25ec3ae1010781b3c2923de426404d3a0c11f5fe582850a18d239",
+      "record_sha256": "c4444430c63f58f8f888db0457e627c2553e1d853f1becd6b720312fad896b33"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0000729_supports_orpha_599373_4": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[4]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0000729",
+          "HPOTerm": "Autistic behavior"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0000729",
+            "Autistic behavior",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "7acd7356c22406c5abd1b0535c18b27ea44acfc27a8fe239c872b2bd3442cf41",
+      "record_sha256": "1305746b2f2e66918b91db0062e00f724b4266e5e9a2d782d585a3bbcba766d4"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0000750_supports_orpha_599373_5": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[5]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0000750",
+          "HPOTerm": "Delayed speech and language development"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0000750",
+            "Delayed speech and language development",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "277732bd64e3ea6cb883df8a4f602304cbcc1f3f9de83e765ad0b3b7459843b2",
+      "record_sha256": "822d3038d6dc707f9b2f10c9060649077cfdb1841289ddad583ce3e92845b297"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0000752_supports_orpha_599373_6": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[6]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0000752",
+          "HPOTerm": "Hyperactivity"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0000752",
+            "Hyperactivity",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "e78fcf0be9d588ab39e8f2d216d4921684e3aa021c7a2ef43dc331efe9af521f",
+      "record_sha256": "9447b9558c90691a102c0bf5ffd020cd28a53206541ba44dbda397b1652cd6ce"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001251_supports_orpha_599373_7": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[7]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001251",
+          "HPOTerm": "Ataxia"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001251",
+            "Ataxia",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "3c382cc93a48c1ad039c142595504db864950fc5724bd40de812038c08fd1b42",
+      "record_sha256": "b21cbb20b189620a0d7ba54e874ce655b06fc6d5c1b7b6f9e8087bb038ebab75"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001252_supports_orpha_599373_8": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[8]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001252",
+          "HPOTerm": "Hypotonia"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001252",
+            "Hypotonia",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "76949d143d973666f44d82c7f568a2a125efb02fee14ded2c52f1f733bef9177",
+      "record_sha256": "a2bf0ea9bdb1d81cfd142df48681e9f88a2c5ad73a3000e834f162ed86ea00cc"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001337_supports_orpha_599373_9": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[9]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001337",
+          "HPOTerm": "Tremor"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001337",
+            "Tremor",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "b6771fdea43272102ce62b6def9b542d75d04c0b7847fc6728aec5f2dd707771",
+      "record_sha256": "abc500baaba242bd4ddd8c3fc4a0830a87bccde0109ddb475c2db1f40a94c27f"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001344_supports_orpha_599373_10": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[10]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001344",
+          "HPOTerm": "Absent speech"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001344",
+            "Absent speech",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "63cdc369971d1c2b91dd4e92c2c64138dbe6e26efa823d6157afcc978db32bf2",
+      "record_sha256": "ff781d85d4e97ba5d3e3ba4b09cb128d547090d036549f0d199d92e0221a5ca8"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0002123_supports_orpha_599373_11": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[11]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002123",
+          "HPOTerm": "Generalized myoclonic seizure"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0002123",
+            "Generalized myoclonic seizure",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "e9816cb830ea7b4dee22859d6f03bf5c6fc2722aadc77262d0535a524add9d8d",
+      "record_sha256": "a9632bcf0eef202f91f526a6cf25487e0c0ca7ce80fa5d8b8c9a879cc3be0355"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0002376_supports_orpha_599373_12": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[12]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002376",
+          "HPOTerm": "Developmental regression"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0002376",
+            "Developmental regression",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "e36cd25f397b89310f602b8d8bfe57332168e9ea9ce79d520f01b85d5171a1d5",
+      "record_sha256": "92291b3a11747e55a9b2f99fa3a45aecbe6fc08a4a7602072e70db139b562c8f"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0002384_supports_orpha_599373_13": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[13]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002384",
+          "HPOTerm": "Focal impaired awareness seizure"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0002384",
+            "Focal impaired awareness seizure",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "94620a0da72282dcc7294980fa6db2c41be0c3bda3074c37fc60ec5bf570fc71",
+      "record_sha256": "4f8be1f316f9c85a2e7be3d9d7a609ecc3d343860165ca13b233efae1ecaec29"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0002521_supports_orpha_599373_14": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[14]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002521",
+          "HPOTerm": "Hypsarrhythmia"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0002521",
+            "Hypsarrhythmia",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "7bbd4054aaf68122578971cb959b5215838898ac6539d548aecf0c8d893131de",
+      "record_sha256": "d588849123beee6846053deacb1a11601500ebf6d917a3a6ab38af3e528ba4ce"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0002540_supports_orpha_599373_15": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[15]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002540",
+          "HPOTerm": "Inability to walk"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0002540",
+            "Inability to walk",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "4554fb44fe815e46984da044feb7b8e55a8a5a6f3ed81e6336f9c68bd9d0a2f3",
+      "record_sha256": "b50b57b27839ce5ab742557a02712ba068dbdff3d0b458d1f5f17caf720f97a6"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0006989_supports_orpha_599373_16": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[16]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0006989",
+          "HPOTerm": "Dysplastic corpus callosum"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0006989",
+            "Dysplastic corpus callosum",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "7cf34b394b9e62695548a4e1c1cb5bace27ea17b9ba1596940668128bf632d18",
+      "record_sha256": "01275c474bc09de9c693ea406e8579d58113ac1e88180f444d586ae708e8f96b"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0010819_supports_orpha_599373_17": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[17]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0010819",
+          "HPOTerm": "Atonic seizure"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0010819",
+            "Atonic seizure",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "aebc9ce23847998c4076ac117a91d6f84e54181cd4651d6bc62005670d6ca32d",
+      "record_sha256": "17485bcf5f5de33be4bd5a6a6801a8ffbf875fe15f9298a3ea010ed9bbdc1e7c"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0010841_supports_orpha_599373_18": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[18]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0010841",
+          "HPOTerm": "Multifocal epileptiform discharges"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0010841",
+            "Multifocal epileptiform discharges",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "ac73b3058810af07522e9d2c9110056740f6e0ace5cbe7b63246292900d2d284",
+      "record_sha256": "8c1c628f8072a91f5b061c81db62365b8cfa788e68e7d66f1bbecb2fa73ded30"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0011097_supports_orpha_599373_19": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[19]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0011097",
+          "HPOTerm": "Epileptic spasm"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0011097",
+            "Epileptic spasm",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "53a86859de82a0075bd8437edd289b16212252540cc5489e5b91816212f950a2",
+      "record_sha256": "830fdb09ecd5c0209baeb46a8cc8ee7f361ba6a3cdd82332fd4be4d36738585e"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0011153_supports_orpha_599373_20": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[20]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0011153",
+          "HPOTerm": "Focal motor seizure"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0011153",
+            "Focal motor seizure",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "bcab1c6e2a44dfac0c4039e8610b39c11705a8c8ddfc2801eb7585b82be467bf",
+      "record_sha256": "5cac6cd1cf7b42c4c92e2aa25029a720f062fcee2e8939d0c622d310ae3a1aed"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0011203_supports_orpha_599373_21": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[21]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0011203",
+          "HPOTerm": "EEG with abnormally slow frequencies"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0011203",
+            "EEG with abnormally slow frequencies",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "4757b54ca5144c3cb26f4b33725a852348cce6b6d56248640905dddf868c1c63",
+      "record_sha256": "57a5d15c37cf0ca4acfc37c7ce2011cd5af96cc4b6271e21d344b0767e5235ad"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0012469_supports_orpha_599373_22": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[22]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0012469",
+          "HPOTerm": "Infantile spasms"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0012469",
+            "Infantile spasms",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "9767294aec1e43c66dc6a8399a15cfa1123294347f58b51182d6d2478e762b87",
+      "record_sha256": "036640980dda32bf2c793bf23c659b7f777d4c39b9c42b015dcf1ce07681ea03"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0012762_supports_orpha_599373_23": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[23]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0012762",
+          "HPOTerm": "Cerebral white matter atrophy"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0012762",
+            "Cerebral white matter atrophy",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "5b5613555e28bbf7c53143b8f8e5aa56d9046d03d418922cfd0e5fbb2bee974e",
+      "record_sha256": "5be915fc4e13e913eae15962daedf5bc12ee9a0d22c93cc90831c6d3825263fb"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0200134_supports_orpha_599373_24": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[24]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0200134",
+          "HPOTerm": "Epileptic encephalopathy"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0200134",
+            "Epileptic encephalopathy",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "33cfe9ebc1459dcff1d01b58dda986b3a8ce9959ea3bf34e5298751013a143be",
+      "record_sha256": "7c39830a56dd050f405f5b82c7695580d4610aa662233bbabe1deca6cbd4daeb"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001257_supports_orpha_599373_25": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[25]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001257",
+          "HPOTerm": "Spasticity"
+        },
+        "HPOFrequency": "Very rare (<4-1%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001257",
+            "Spasticity",
+            "Very rare (<4-1%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "1026dfca36f577c9ab32d60be603c5eb478c6409dc7cb946523e013c669f70d2",
+      "record_sha256": "f633a0fd339f8b01a27c4e5ec7923533445ab723cbe362989fe879dc7ac7159b"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0001332_supports_orpha_599373_26": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[26]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001332",
+          "HPOTerm": "Dystonia"
+        },
+        "HPOFrequency": "Very rare (<4-1%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0001332",
+            "Dystonia",
+            "Very rare (<4-1%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "c530806ac1e06ef5718998d9f8743ec38fdff57717d76eec23f3644c768b962b",
+      "record_sha256": "db19b7bd66ffd85fb4923045f95ac8524a799a72835dd74cc496aa27aec5c218"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0002510_supports_orpha_599373_27": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[27]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002510",
+          "HPOTerm": "Spastic tetraplegia"
+        },
+        "HPOFrequency": "Very rare (<4-1%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0002510",
+            "Spastic tetraplegia",
+            "Very rare (<4-1%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "d7922a79253543b981826e40a3222505bcca4f3db4c3d5d738faf77bdba1b869",
+      "record_sha256": "99f5698a3c55973c049d0e762be383287bc960a1673f9b166ff184514343089a"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0007334_supports_orpha_599373_28": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[28]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0007334",
+          "HPOTerm": "Bilateral tonic-clonic seizure with focal onset"
+        },
+        "HPOFrequency": "Very rare (<4-1%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0007334",
+            "Bilateral tonic-clonic seizure with focal onset",
+            "Very rare (<4-1%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "e6a42225e950468e438ce46d0e8c4983fba7b25f5010caf8825515a564d390d2",
+      "record_sha256": "27d84418f35790180edb591d8effa66e855c7712fdf5207ce1dad03e4a94cbe8"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0012448_supports_orpha_599373_29": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[29]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0012448",
+          "HPOTerm": "Delayed myelination"
+        },
+        "HPOFrequency": "Very rare (<4-1%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0012448",
+            "Delayed myelination",
+            "Very rare (<4-1%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "4f13af162da2a47121471fc7bdf5daed458c8acb10f3fd75748ba3e9771a92ff",
+      "record_sha256": "c8119bf4e4e985f24ac66ebb4861f5beddc46edac00065140f3bc5a18c572085"
+    },
+    "ev_disease_phenotype_dis_stxbp1_hp_0100660_supports_orpha_599373_30": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_599373",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[30]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0100660",
+          "HPOTerm": "Dyskinesia"
+        },
+        "HPOFrequency": "Very rare (<4-1%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_599373.json",
+          "sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+          "contains": [
+            "HP:0100660",
+            "Dyskinesia",
+            "Very rare (<4-1%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "3d5357cef157ff98d90b2ee5ababdbbe6fed3756edcc3bbbe551e4d9f4eb66b0",
+      "record_sha256": "468e131fbfbc5365146158869edfe36d8aa4ad0d34a5c4f3f0837c439d6df186"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0001249_supports_orpha_439218_0": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[0]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001249",
+          "HPOTerm": "Intellectual disability"
+        },
+        "HPOFrequency": "Obligate (100%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0001249",
+            "Intellectual disability",
+            "Obligate (100%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "79918b2f6efaa612a58f2f4225f4d15af18f049a9f34decbe55c9d9ac4f335a5",
+      "record_sha256": "f0851c4a89aa521d7ea387472991b2f99a36301c0a9e7e70ee1124b2b09ce83d"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0001263_supports_orpha_439218_1": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[1]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001263",
+          "HPOTerm": "Global developmental delay"
+        },
+        "HPOFrequency": "Very frequent (99-80%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0001263",
+            "Global developmental delay",
+            "Very frequent (99-80%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "8ef364692f46e0fd6acff926205ad7f04e71019b23ca68f02b5c8c9f7f3b639a",
+      "record_sha256": "57a013349826e084907a7e286744d227eaa4391be01f805822adbd727c8629df"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002500_supports_orpha_439218_2": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[2]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002500",
+          "HPOTerm": "Abnormal cerebral white matter morphology"
+        },
+        "HPOFrequency": "Very frequent (99-80%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002500",
+            "Abnormal cerebral white matter morphology",
+            "Very frequent (99-80%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "ec2665d2363d67a17f02bf72df056dbbc720a7a2bb21d8176f4512818d82e6a4",
+      "record_sha256": "05db0a8d43b13f31318893c9e8c0c51c5b221bf74389868b6cb2f6c266775a10"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0010818_supports_orpha_439218_3": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[3]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0010818",
+          "HPOTerm": "Generalized tonic seizure"
+        },
+        "HPOFrequency": "Very frequent (99-80%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0010818",
+            "Generalized tonic seizure",
+            "Very frequent (99-80%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "c917a81d3e8bbe536baf6c62afeef8035152cb2255e22cfc1d7db252fd224057",
+      "record_sha256": "a1473c48e5f2d862b2e64ee919c12f173845c8766056ac0e78e10b310e246d08"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0010851_supports_orpha_439218_4": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[4]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0010851",
+          "HPOTerm": "EEG with burst suppression"
+        },
+        "HPOFrequency": "Very frequent (99-80%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0010851",
+            "EEG with burst suppression",
+            "Very frequent (99-80%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "5b88c6b38153fb9bf318e464875a812f7d46f55b88ba4231ec25ee8981374ed7",
+      "record_sha256": "07b0414f8a035f423749a42efdd87a2125fe49bed9e7c1819ac37ed7ccd66c18"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0200134_supports_orpha_439218_5": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[5]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0200134",
+          "HPOTerm": "Epileptic encephalopathy"
+        },
+        "HPOFrequency": "Very frequent (99-80%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0200134",
+            "Epileptic encephalopathy",
+            "Very frequent (99-80%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "bf0f90cfc10a6ea13b706e634c03508872faa0509d437b2f85862810ca7fca15",
+      "record_sha256": "74562bec6c5e59f28632ca204e9fb856b7713ef572825ebe53d08b70a988ef49"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0000980_supports_orpha_439218_6": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[6]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0000980",
+          "HPOTerm": "Pallor"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0000980",
+            "Pallor",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "a5506f3eee05f304579e8610f9800191a38c9698947f335bbdca1eb559d4c6f2",
+      "record_sha256": "813c34eb1b167a1cf46d698bceb8ba43b8a675d4ff82c20bd10280792c22cc5d"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0001041_supports_orpha_439218_7": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[7]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001041",
+          "HPOTerm": "Facial erythema"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0001041",
+            "Facial erythema",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "dcf3e1d061ae2dd76d491be026e50facb2e26ac7c0eaf4f2586df9030064b48f",
+      "record_sha256": "ac019a6ad395bf4b71dc44072728c7ed83fd0aa06a5e554aa44d87f32732f931"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0001250_supports_orpha_439218_8": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[8]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001250",
+          "HPOTerm": "Seizure"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0001250",
+            "Seizure",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "eec7c71fc55aaa3bb29ab02d1cf2aa4ed7802dd268c771e8738a10d3a8f4c2ac",
+      "record_sha256": "2f8b74bd78746c57f57c7e39dde97f0f59ad88f41dc7a423b3c1095d650b0999"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0001252_supports_orpha_439218_9": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[9]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001252",
+          "HPOTerm": "Hypotonia"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0001252",
+            "Hypotonia",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "1980a19ef071781cbfa11d75d552d8b71b6034c1456ae6894b1165fdc576b513",
+      "record_sha256": "ef9cc850fd5a55b93b08ed019c17864886e428c4f8ff225b7ca657480a15a540"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0001332_supports_orpha_439218_10": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[10]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0001332",
+          "HPOTerm": "Dystonia"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0001332",
+            "Dystonia",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "9af88786727b457581716e8a3c552bc112e50fe90769083ef209516b96386efb",
+      "record_sha256": "cf8c766cb84cae8214b46ac2c8829990be055ae8b382bfc274a9ff3642cdc1cc"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002104_supports_orpha_439218_11": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[11]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002104",
+          "HPOTerm": "Apnea"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002104",
+            "Apnea",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "be7cfd1ce9e2ed798723724e1b02d0634a1dcbb773250f2ab942d8f818b01e10",
+      "record_sha256": "700dcd7a8b52778feaad9f78cc6aab3224573eb145f4b2a55f56a2d3b79e438c"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002181_supports_orpha_439218_12": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[12]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002181",
+          "HPOTerm": "Cerebral edema"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002181",
+            "Cerebral edema",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "c0749543ed147f99cfaa7af5cb5faa91e76d7ab23ce5bd64e899dec5c46a7e84",
+      "record_sha256": "fe26d72f667aef54c73f42193e3a08e855cdd8868e2a6ed89a5db09829f23871"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002453_supports_orpha_439218_13": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[13]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002453",
+          "HPOTerm": "Abnormal globus pallidus morphology"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002453",
+            "Abnormal globus pallidus morphology",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "dbb2fb1023bc7a1cd80971770feaa7ab05aa897424acfb9f21883a87b9d9518c",
+      "record_sha256": "5c883ae58c54a3cc5acb3f76ae31216802c362ec943bdac18fe8d78bff5b1831"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002540_supports_orpha_439218_14": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[14]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002540",
+          "HPOTerm": "Inability to walk"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002540",
+            "Inability to walk",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "984f09c620b08b29b8067f2a67d804e9f8af9f52e99795bf14b84d972344aa6b",
+      "record_sha256": "8cb0585d0988ed675f89bd2ab7736b0bafba9d35191a6972a7ca7bf593d9a4db"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0007015_supports_orpha_439218_15": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[15]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0007015",
+          "HPOTerm": "Poor gross motor coordination"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0007015",
+            "Poor gross motor coordination",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "c4817682d3a24c4b5d6e2e0efdcfacdb309e86a38c2fb6363f1ac6e7d3a69d20",
+      "record_sha256": "f23ef3f2646988e2853f3e34606789fbb858f9a67c44918c41e80e34c756caf4"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0011097_supports_orpha_439218_16": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[16]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0011097",
+          "HPOTerm": "Epileptic spasm"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0011097",
+            "Epileptic spasm",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "83210c04196071d6dc89c7c57539c501b37f02f33b16cbb9cffcac104083f3a4",
+      "record_sha256": "7e4b62a0d77d9c15c02df7e4d42399f524fe3955c44a18ab6acfc2bd16b37c62"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0011968_supports_orpha_439218_17": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[17]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0011968",
+          "HPOTerm": "Feeding difficulties"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0011968",
+            "Feeding difficulties",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "cc2b9c4584360f74ab0c92a6f1c3abbde822dca164e84971cf9ee9d2ccf208d3",
+      "record_sha256": "64d74f3fe466e5de226af2b520bc9ebfb55e8724998b5024d9c31b90d57447cb"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0012736_supports_orpha_439218_18": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[18]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0012736",
+          "HPOTerm": "Profound global developmental delay"
+        },
+        "HPOFrequency": "Frequent (79-30%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0012736",
+            "Profound global developmental delay",
+            "Frequent (79-30%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "65d4b0186fb91c1e42e2af1de6a0e60b22339c079bd4bf0bdd0cd741421807fb",
+      "record_sha256": "68bbbde897f589759a8f26081c6a75177c2015177e34bddd7d0b6379590b829d"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002059_supports_orpha_439218_19": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[19]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002059",
+          "HPOTerm": "Cerebral atrophy"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002059",
+            "Cerebral atrophy",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "b39d0bfd0e9bf7baf5e6fff706f21afb37ea3241dc17a1cf5e09a84ef4704437",
+      "record_sha256": "129eb6e0d2949d222e570144ff43fb9e6308d2925ffaba37bff12a68ec7abf88"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002079_supports_orpha_439218_20": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[20]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002079",
+          "HPOTerm": "Hypoplasia of the corpus callosum"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002079",
+            "Hypoplasia of the corpus callosum",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "0e61b5a9bfc6ca21021e56577a44bf74e520e7acdb30d0042db0ae90c1800acc",
+      "record_sha256": "29d793b4a50ba90432ab2d074ffd2acae23957432fd0036d369e26dc860de562"
+    },
+    "ev_disease_phenotype_dis_kcnq2_hp_0002521_supports_orpha_439218_21": {
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "curation_file": "curation/expansion.json",
+      "verification": "structured_record",
+      "source_id": "orpha_phenotypes_439218",
+      "source_record_locator": "data.results.Disorder.HPODisorderAssociation[21]",
+      "source_record": {
+        "DiagnosticCriteria": null,
+        "HPO": {
+          "HPOId": "HP:0002521",
+          "HPOTerm": "Hypsarrhythmia"
+        },
+        "HPOFrequency": "Occasional (29-5%)"
+      },
+      "raw_checks": [
+        {
+          "path": "raw/ontologies/orpha_phenotypes_439218.json",
+          "sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+          "contains": [
+            "HP:0002521",
+            "Hypsarrhythmia",
+            "Occasional (29-5%)"
+          ]
+        }
+      ],
+      "evidence_sha256": "2753975dacb3a7a87c320f9fb6e62fca47640304495eeb3709570602e6b85370",
+      "record_sha256": "d588849123beee6846053deacb1a11601500ebf6d917a3a6ab38af3e528ba4ce"
     }
   },
   "sources": [
@@ -5251,6 +8434,202 @@
       "url": "https://reporter.nih.gov/project-details/11310175",
       "retrieved_at": "2026-10-03",
       "raw_path": "raw/reporter/projects/11310175.json"
+    },
+    {
+      "id": "NCT01238250",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT01238250",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT01238250.json"
+    },
+    {
+      "id": "NCT01238250",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT01238250",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT01238250.json"
+    },
+    {
+      "id": "NCT03934268",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT03934268",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT03934268.json"
+    },
+    {
+      "id": "NCT04639310",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT04639310",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT04639310.json"
+    },
+    {
+      "id": "NCT04912856",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT04912856",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT04912856.json"
+    },
+    {
+      "id": "NCT04937062",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT04937062",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT04937062.json"
+    },
+    {
+      "id": "NCT05161494",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05161494",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05161494.json"
+    },
+    {
+      "id": "NCT05226780",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05226780",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05226780.json"
+    },
+    {
+      "id": "NCT05232630",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05232630",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05232630.json"
+    },
+    {
+      "id": "NCT05407727",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05407727",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05407727.json"
+    },
+    {
+      "id": "NCT05462054",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05462054",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05462054.json"
+    },
+    {
+      "id": "NCT05818553",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05818553",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05818553.json"
+    },
+    {
+      "id": "NCT05818553",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT05818553",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT05818553.json"
+    },
+    {
+      "id": "NCT06314490",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT06314490",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT06314490.json"
+    },
+    {
+      "id": "NCT06356233",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT06356233",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT06356233.json"
+    },
+    {
+      "id": "NCT06625112",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT06625112",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT06625112.json"
+    },
+    {
+      "id": "NCT07019922",
+      "source_type": "clinicaltrials",
+      "url": "https://clinicaltrials.gov/study/NCT07019922",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/clinicaltrials/studies/NCT07019922.json"
+    },
+    {
+      "id": "11289342",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11289342",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11289342.json"
+    },
+    {
+      "id": "11594149",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11594149",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11594149.json"
+    },
+    {
+      "id": "11436758",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11436758",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11436758.json"
+    },
+    {
+      "id": "11312585",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11312585",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11312585.json"
+    },
+    {
+      "id": "11261040",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11261040",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11261040.json"
+    },
+    {
+      "id": "11309107",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11309107",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11309107.json"
+    },
+    {
+      "id": "11285465",
+      "source_type": "nih_reporter",
+      "url": "https://reporter.nih.gov/project-details/11285465",
+      "retrieved_at": "2026-10-03",
+      "raw_path": "raw/reporter/projects/11285465.json"
+    },
+    {
+      "source_id": "orpha_phenotypes_599373",
+      "provider": "Orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "resolved_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/599373",
+      "retrieved_at": "2026-10-03T20:49:35.036091+00:00",
+      "cache_path": "raw/ontologies/orpha_phenotypes_599373.json",
+      "raw_sha256": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+      "bytes": 8317,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://api.orphadata.com/openapi.json"
+    },
+    {
+      "source_id": "orpha_phenotypes_439218",
+      "provider": "Orphadata",
+      "source_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "resolved_url": "https://api.orphadata.com/rd-phenotypes/orphacodes/439218",
+      "retrieved_at": "2026-10-03T20:50:11.251412+00:00",
+      "cache_path": "raw/ontologies/orpha_phenotypes_439218.json",
+      "raw_sha256": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+      "bytes": 6214,
+      "etag": null,
+      "last_modified": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://api.orphadata.com/openapi.json"
     }
   ],
   "attribution": [
@@ -5260,7 +8639,7 @@
     "HUGO Gene Nomenclature Committee (HGNC), CC0; approved gene symbols and identifiers are retained.",
     "NCBI ClinVar; variant accession versions and original supporting submission identifiers are retained in provenance."
   ],
-  "graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b",
+  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2",
   "confidence_policy": "Null means not calibrated. Verified means checked against the cited source within the stated scope, not clinical certainty.",
   "release_date": "2026-10-03"
 }

@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-04",
+  "kind": "p1_additive_cached_source_selection",
+  "baseline_graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b",
+  "target_node_range": [
+    100,
+    150
+  ],
+  "mode": "offline_cached_source_review",
+  "new_acquisitions": 0,
+  "paid_calls": 0,
+  "model_calls": 0,
+  "scope_note": "Reviewed discovery links within the existing four-gene slice. SCN2A records link to the broad disease spectrum, not an assumed DEE subtype. Dated registration, funded aims and gene relevance do not establish clinical benefit, individual eligibility or functional direction.",
+  "studies": [
+    {
+      "id": "NCT01238250",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+      "review_excerpt": "Simons Searchlight is an observational, online, international research program for families with rare genetic variants that cause neurodevelopmental disorders and may be associated with autism. Simons Searchlight collects medical, behavioral, learning, and developmental information from people who have these rare genetic changes. The goal of this study is to improve the clinical care and treatment for these people. Simons Searchlight partners with families to collect data and distribute it to qualified researchers.",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT01238250",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "label": "Online Study of People Who Have Genetic Changes and Features of Autism: Simons Searchlight",
+      "review_excerpt": "Simons Searchlight is an observational, online, international research program for families with rare genetic variants that cause neurodevelopmental disorders and may be associated with autism. Simons Searchlight collects medical, behavioral, learning, and developmental information from people who have these rare genetic changes. The goal of this study is to improve the clinical care and treatment for these people. Simons Searchlight partners with families to collect data and distribute it to qualified researchers.",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT03934268",
+      "gene": "KCNQ2",
+      "disease": "dis_kcnq2",
+      "label": "A Cohort Study on the Prognosis of Neonatal KCNQ2 Gene-associated Epileptic Encephalopathy",
+      "review_excerpt": "The researchers hope to explore the etiological distribution and influencing factors of KCNQ2-related neonatal convulsions or refractory epileptic encephalopathy, and to improve the level of assessment, identification, intervention and shunt of KCNQ2-related convulsions. To formulate countermeasures and measures for prevention, management and health education.",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT04639310",
+      "gene": "KCNQ2",
+      "disease": "dis_kcnq2",
+      "label": "XEN496 (Ezogabine) in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+      "review_excerpt": "To investigate the potential antiseizure effects of adjunctive XEN496 (ezogabine) compared with placebo in children with KCNQ2 Developmental and Epileptic Encephalopathy (KCNQ2-DEE).",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT04912856",
+      "gene": "KCNQ2",
+      "disease": "dis_kcnq2",
+      "label": "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+      "review_excerpt": "To assess the long-term safety and tolerability of XEN496 in pediatric subjects with KCNQ2 developmental and epileptic encephalopathy (KCNQ2-DEE) who had participated in the primary study (XPF-009-301).",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT04937062",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy",
+      "review_excerpt": "This study is to evaluate the use of glycerol phenylbutyrate for monogenetic developmental epileptic encephalopathies (DEEs). DEEs are characterized by epilepsy and developmental delay in early life.\n\nTwo examples of DEEs are STXBP1 and SLC6A1, though there are dozens of others.\n\nSTXBP1 Encephalopathy is a severe disease that can cause seizures and developmental delays in infants and children. SLC6A1 neurodevelopmental disorder is characterized by developmental delay and often epilepsy. Both STXBP1 encephalopathy and SLC6A1 neurodevelopmental disorder cause symptoms because there are not enough working proteins made by these genes.\n\nIt is possible that a medication called phenylbutyrate may help the the remaining proteins work better for STXBP1, SLC6A1, and/or other similar DEEs caused by ",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05161494",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "Gait in Rare Diseases",
+      "review_excerpt": "The aim of this pilot study is to explore whether the knowledge and experience gained during the T-GaiD project (Treatment of Gait Disorders in Dravet Syndrome - NCT03857451) can be transferred to other populations with similar problems, i.e. motor and gait problems as a result of a genetic disorder characterized by epilepsy and developmental delay. In this pilot study, 40 people with Tuberous Sclerosis Complex and 30 people with STXBP1 will be recruited via the Antwerp University Hospital and invited for a gait analysis in the M²OCEAN movement lab. The aim of the pilot study is to evaluate the feasibility of the 3D gait analysis protocol and to determine the sensitivity of the primary (summative measure of the severity of gait abnormalities) and the secondary (spatio-temporal and kinemati",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05226780",
+      "gene": "SCN8A",
+      "disease": "dis_scn8a",
+      "label": "Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as an Adjunctive Therapy for Participants With SCN8A-DEE",
+      "review_excerpt": "Extension study to evaluate how safe and tolerable the drug NBI-921352 is when used as adjunctive therapy in participants with SCN8A developmental and epileptic encephalopathy syndrome (SCN8A-DEE).",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05232630",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+      "review_excerpt": "This study is a pilot non-controlled clinical trial with adjunctive fenfluramine for the treatment of five different types of developmental and epileptic encephalopathies (DEEs) focused on epileptic and \"non-epileptic outcomes\": SYNGAP1 and STXBP1 encephalopathies, inv-dup(15) encephalopathy, multifocal or bilateral malformations of cortical development, and continuous spikes and waves during sleep. The main goal is to assess changes in seizure frequency comparing before and after treatment with fenfluramine in five specific types of developmental and epileptic encephalopathies (DEEs). Secondary objectives of this study are the analysis of changes in seizure intensity and duration, and \"non-epileptic outcomes\" such as variations in cognitive activity, level of alertness, impulsivity/self-c",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05407727",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "label": "A Prospective, Remote Observational Study in Pediatric Participants With Early-Onset SCN2A-Developmental and Epileptic Encephalopathy",
+      "review_excerpt": "This prospective observational study is designed to assess the individualized baseline disease burden in pediatric participants aged 1 year to 16 years, with early-onset SCN2A-DEE by characterizing and quantifying changes in clinical features over a period of up to 12 months.",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05462054",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy",
+      "review_excerpt": "This is a prospective, non-interventional, longitudinal study designed to characterize the natural history of STXBP1 related encephalopathy with epilepsy, in participants ≤ \\<5 years of age.",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05818553",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "label": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "review_excerpt": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT05818553",
+      "gene": "SCN8A",
+      "disease": "dis_scn8a",
+      "label": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "review_excerpt": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT06314490",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "label": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+      "review_excerpt": "This research project entails delivery of a personalized antisense oligonucleotide (ASO) drug designed for a single pediatric participant with SCN2A associated developmental epileptic encephalopathy",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT06356233",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "Phenotyping and Identification of Biological Markers in STXBP1 Encephalopathy",
+      "review_excerpt": "This is a prospective observational study to evaluate the phenotype of 10 patients under 10 years of age with developmental epileptic encephalopathy due to mutation of the STXBP1 gene. The study will consist of a clinical and neurodevelopmental evaluation, magnetic resonance imaging, prolonged electroencephalogram, cardiological study, and analysis of biomarkers in cerebrospinal fluid. These patients will be followed up for 3 years. The aim of the study is, knowing the baseline phenotype, to analyse the response to commonly used drugs and to anticipate the response to different drugs available on the market in this group of patients based on clinical and biomarker assessment (EEG, MRI and study of specific proteins and neurotransmitters in plasma, urine and CSF).",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT06625112",
+      "gene": "STXBP1",
+      "disease": "dis_stxbp1",
+      "label": "A Multicentric European Study to Promote Clinical Trial Readiness for STXBP1-related Disorders",
+      "review_excerpt": "STXBP1-related disorders (STXBP1-RD) are rare genetic neurodevelopmental disorders, caused by pathogenic variants in the gene STXBP1. The core clinical features of the disorder are developmental delay often leading to (severe) intellectual disability and seizures in most patients, although the phenotypic spectrum is variable. Behavioral problems and movement disorders are frequent comorbidities. STXBP1-RD are severe disorders with significant impact on the quality of life of the patients and their caregivers. At the moment, there is no cure for STXBP1-RD and treatment is largely limited to symptom control. Recent advances in the field of precision medicine and gene therapy have led to the identification of potential novel disease modifying therapies for STXBP1-RD that hold promise to reach",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    },
+    {
+      "id": "NCT07019922",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "label": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+      "review_excerpt": "A Multi-Center, Single-Arm Clinical Trial to Investigate the Efficacy and Safety of Elsunersen in Pediatric Participants with Early Onset SCN2A Developmental and Epileptic Encephalopathy",
+      "review_reason": "Gene is explicitly named in the official title or condition list; reviewed rare genetic/neurodevelopmental disease scope. Preserve dated status; no efficacy or eligibility inference."
+    }
+  ],
+  "awards": [
+    {
+      "id": "11289342",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "review_excerpt": "Title: CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism\nspectrum disorder\nProject Summary: Heterozygous loss-of-function mutations in the sodium channel gene SCN2A\nare strongly associated with autism spectrum disorder. SCN2A encodes the neuronal sodium\nchannel NaV1.2, which contributes to membrane excitability in somatodendritic or axonal\ncompartments, depending on cell class. Heterozygous loss of Scn2a, modeled in Scn2a+/- mice,\ncauses deficits in cellular excitability and synaptic function across multiple brain areas, and drives\nrobust systems- and behavioral-level deficits in sensory processing, neural coding, and\nsensorimotor learning. Here, our goal is to rescue these cellular, circuit and behavioral deficits\nusing CRISPR-activation (CRISPRa)-based therapeutic approaches in Scn2a+/- mice.\n Most autism risk genes, like SCN2A, are associated with autism by heterozygous loss-of-\nfunction. CRISPRa is a promising therapeutic approach for many genetic forms of autism\nbecause it upregulates expression of the remaining functional gene copy, potentially rescuing\ncellular function. Scn2a+/- mice are an ideal test case for CRISPRa intervention in severe genetic\nforms of autism.\n We have developed CRISPRa-based reagents that restore Scn2a expression to near-\nnormal levels, and preliminary data show that treatment of adolescent Scn2a+/- mice with\nCRIS",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "R01MH136475"
+    },
+    {
+      "id": "11594149",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "review_excerpt": "Project Summary/Abstract\n SCN2A encodes the voltage-gated sodium channel Nav1.2, an important channel mainly expressed in\nthe brain to mediate neuronal action potential firing. Recent large-scale genetic studies in humans have\ndemonstrated that mutations in SCN2A are one of the leading causes of neurodevelopmental disorders. Protein-\ntruncating variants (PTVs), which lead to SCN2A deficiency, represent a sizable proportion. However, there is\nno effective treatment or cure for these genetic disorders. Our lab has established a “gene trap” Scn2a-deficient\nmouse model and found that partial restoration of the SCN2A gene expression can rescue key disease\nphenotypes. Restoration of gene expression by the exogenous supply of functional genes is a demonstrated\napproach to treating monogenic diseases caused by gene deficiency. Thus, developing a “gene replacement\ntherapy” to restore SCN2A expression could be a potential therapeutic strategy. AAV is an FDA-approved\ndelivery vehicle used in different types of gene therapies. However, one major limitation of AAV is its relatively\nsmall packing capacity. The SCN2A gene is beyond the packaging capacity of a single AAV. To overcome this\npackaging limitation, technologies were developed to separate a single gene into two parts for packing into two\nAAVs (Dual-AAV), which can then be assembled inside the cells to produce a full-length functiona",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "R56NS144233"
+    },
+    {
+      "id": "11436758",
+      "gene": "SCN2A",
+      "disease": "dis_scn2a",
+      "review_excerpt": "PROJECT SUMMARY\nAutism Spectrum Disorder (ASD) is a life-long neurodevelopmental condition that impacts ~1% of the global\npopulation. Affecting ~90% of individuals with ASD, somatosensory dysfunction is a burdensome feature of ASD\npathophysiology that emerges early in development. Caregivers of ASD individuals often report challenges in\nbonding through affective touch, observing preferences or aversions to specific textures, sensory seeking\nbehavior, and difficulty in filtering sensory information. All affects one’s ability to learn, socialize and participate\nin everyday activities. The goal of this project is to define a novel mechanism by which haploinsufficiency of\nSCN2A—the gene most strongly associated with autism spectrum disorder (ASD)—disrupts function at the cell,\ncircuit, and behavior level to alter sensory perception.\nThe gene SCN2A encodes the sodium channel NaV1.2, and is expressed throughout neocortical excitatory\nneuron dendrites, whose function is critical for proper integration of synaptic inputs. How these dendritically\nlocalized channels aid in neocortical function in vivo, and how circuits adapt to loss of dendritic excitability is\npoorly understood.\nIn the mentored phase (K99), I will test the central hypothesis that Scn2a haploinsufficiency (Scn2a+/-) disrupts\ndendritic integration in the somatosensory cortex, leading to impaired sensory perception, modeli",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "K99NS151036"
+    },
+    {
+      "id": "11312585",
+      "gene": "KCNQ2",
+      "disease": "dis_kcnq2",
+      "review_excerpt": "PROJECT SUMMARY\nHeterozygous loss-of-function (LOF) is a common genetic mechanism among many monogenic epilepsy genes\nincluding KCNQ2, which encodes a brain voltage-gated potassium channel (Kv7.2). Pathogenic KCNQ2 variants\nare associated with severe developmental and epileptic encephalopathies that lack targeted treatments. We\nidentified an upstream open reading frame (uORF) within the 5’-untranslated region (5’-UTR) of the KCNQ2\nmRNA transcript that competes with the canonical reading frame for translation and attenuates Kv7.2 functional\nexpression in non-neuronal cells. Because suppressing uORF translation could be an effective strategy for\nboosting KCNQ2 expression in the setting of heterozygous LOF, we seek to determine the physiological\nrelevance of the KCNQ2 uORF (Aim 1), and to target the uORF with antisense oligonucleotides (ASO) using a\nstructure-driven approach (Aim 2). Our approach to Aim 1 will involve genome editing of human induced\npluripotent stem cells (iPSC) to inactivate the uORF start codon and to compare uORF usage, Kv7.2 translation,\nand electrophysiological properties of the channel in neurons differentiated from edited and non-edited iPSC\nlines. For Aim 2, we will experimentally deduce the secondary structure of the KCNQ2 5’-UTR, then design a\nseries of ASOs targeting the least structured regions proximal to the uORF. We will then confirm binding of\ncand",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "F31NS135753"
+    },
+    {
+      "id": "11261040",
+      "gene": "SCN8A",
+      "disease": "dis_scn8a",
+      "review_excerpt": "ABSTRACT\nDuring the previous funding period, we generated a conditional mouse model of the recurrent sodium channel\nmutation SCN8A-p.R1872W that is responsible for the rare, devastating disorder Developmental Epileptic\nEncephalopathy (DEE). We demonstrated that expression of the mutant channel in excitatory neurons of the\nforebrain reproduces the seizures and sudden death of the human disorder. We also developed an effective\ntreatment for Scn8a-DEE by intracerebroventricular administration of an antisense oligonucleotide (ASO) that\nreduced both mutant and wildtype transcript level throughout the brain, resulting in delayed seizure onset and\nextended lifespan. We will build on this important preclinical result by developing improved, longeracting\ntreatments that will minimize the side effects of excess Scn8a reduction. First, AAV viral delivery of an Scn8a-\nshRNA will limit effects to specific brain regions only. Second, the multiple nucleotide substitutions in our\nengineered Scn8a-N1768D mutant make it feasible to specifically inactivate the mutant allele by CRISPR/Cas\ntargeting. The goal of these experiments is to minimize the potential side effects of Scn8a deficiency and to\navoid the repeated treatments required for ASO therapy. Finally, expression of Scn8aR1872W in cerebellar\nPurkinje cells results in elevated neuronal excitability. We will characterize mice with specific e",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "R01NS034509"
+    },
+    {
+      "id": "11309107",
+      "gene": "SCN8A",
+      "disease": "dis_scn8a",
+      "review_excerpt": "PROJECT SUMMARY/ABSTRACT\n Mutations in the voltage-gated sodium channel (VGSC) gene, SCN8A, are associated with\ndevelopmental and epileptic encephalopathy (DEE). DEE is a severe condition, characterized by\nneurodevelopmental delay, behavioral and intellectual impairment, and seizures. Despite the availability of\nseveral VGSC-targeting pharmacological agents, no effective treatment exists for patients with SCN8A-DEE.\nAdditionally, seizure-altering medication rarely ameliorates DEE-associated cognitive and behavioral\ncomorbidities. To better understand the etiology of SCN8A-DEE and to test novel gene therapy approaches as\nalternatives to pharmacological interventions, I have generated a novel human induced pluripotent stem cell\n(hiPSC)-derived organoid model of the thalamocortical circuit (hTCO). This human cellular thalamocortical\nsystem produces rhythmic oscillations that resemble those that are affected in animal models of Scn8a-\nassociated epilepsy. Here, I will interrogate the underlying physiology of altered thalamocortical cellular and\nnetwork activity using whole-cell patch-clamp and two-photon calcium imaging techniques, as well as\nimmunohistochemical and transcriptomic analysis of control and SCN8A-DEE mutant hTCOs. My preliminary\nwork has already established that cells required for thalamocortical rhythm generation are present in hTCOs and\nthat hTCOs exhibit mature tha",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "F31NS143361"
+    },
+    {
+      "id": "11285465",
+      "gene": "SCN8A",
+      "disease": "dis_scn8a",
+      "review_excerpt": "PROJECT SUMMARY\nThe mammalian genome contains four voltage-gated sodium channels that are expressed at high levels in the\ncentral nervous system: SCN1A, SCN2A, SCN3A and SCN8A. This gene family plays an important role in the\netiology of human epilepsy and mutations in each gene are associated with different types of epilepsy. However,\nthe relationship between altered SCN8A function and epilepsy appears more complex. While we have shown\nthat mice with loss-of-function Scn8a mutations are more resistant to induced seizures, many de novo gain-of-\nfunction SCN8A mutations have been identified in patients with a range of clinical features including catastrophic\nchildhood epilepsy, autism, intellectual disability and developmental delay. Individuals with SCN8A mutations\nalso face an increased risk for sudden unexpected death in epilepsy (SUDEP). The mechanisms by which\nSCN8A mutations lead to the observed range of clinically challenging features remain poorly understood, and\ncurrent therapies are often woefully inadequate. Our central hypothesis is that the development of the most\neffective therapy for SCN8A disorders requires a mechanistic understanding of the precise cell types\nand brain regions underlying SCN8A pathologies. Our proposal builds on our recent studies in which we\ndecoupled the cell types, circuits, and regions underlying seizure generation versus seizure resistance d",
+      "review_reason": "The title names the gene and reviewed abstract describes the relevant neurological disorder/model. Latest cached annual application for a distinct core project; planned/preclinical work is not treatment benefit.",
+      "core_project_num": "R01NS126392"
+    }
+  ],
+  "orphadata": [
+    {
+      "id": "599373",
+      "association_ids": [
+        "HP:0001249",
+        "HP:0001250",
+        "HP:0001263",
+        "HP:0011185",
+        "HP:0000729",
+        "HP:0000750",
+        "HP:0000752",
+        "HP:0001251",
+        "HP:0001252",
+        "HP:0001337",
+        "HP:0001344",
+        "HP:0002123",
+        "HP:0002376",
+        "HP:0002384",
+        "HP:0002521",
+        "HP:0002540",
+        "HP:0006989",
+        "HP:0010819",
+        "HP:0010841",
+        "HP:0011097",
+        "HP:0011153",
+        "HP:0011203",
+        "HP:0012469",
+        "HP:0012762",
+        "HP:0200134",
+        "HP:0001257",
+        "HP:0001332",
+        "HP:0002510",
+        "HP:0007334",
+        "HP:0012448",
+        "HP:0100660"
+      ],
+      "review_reason": "Exact Orphanet disease equivalence already exists in the baseline. Use all validated positive dated public annotations; retain source frequency and exact source labels without individual-risk inference."
+    },
+    {
+      "id": "439218",
+      "association_ids": [
+        "HP:0001249",
+        "HP:0001263",
+        "HP:0002500",
+        "HP:0010818",
+        "HP:0010851",
+        "HP:0200134",
+        "HP:0000980",
+        "HP:0001041",
+        "HP:0001250",
+        "HP:0001252",
+        "HP:0001332",
+        "HP:0002104",
+        "HP:0002181",
+        "HP:0002453",
+        "HP:0002540",
+        "HP:0007015",
+        "HP:0011097",
+        "HP:0011968",
+        "HP:0012736",
+        "HP:0002059",
+        "HP:0002079",
+        "HP:0002521"
+      ],
+      "review_reason": "Exact Orphanet disease equivalence already exists in the baseline. Use all validated positive dated public annotations; retain source frequency and exact source labels without individual-risk inference."
+    }
+  ],
+  "raw_files": {
+    "raw/clinicaltrials/studies/NCT01238250.json": "d9844e6871a313b6a6cc690185c7adedba5e3acead99bae40780781c696213a8",
+    "raw/clinicaltrials/studies/NCT03934268.json": "6ee4781675cff28fe489436794f1d456adba89dfd162510300e04aeed0fcb36a",
+    "raw/clinicaltrials/studies/NCT04639310.json": "62c89069e0845400ca14eb6f6e9c6be3d1578fa4a2d202b66bf2f0a3ee5bf963",
+    "raw/clinicaltrials/studies/NCT04912856.json": "684d8bc413db5a319a92a883d1ba2fe12e31cb72caed338901dc5d7f024f9640",
+    "raw/clinicaltrials/studies/NCT04937062.json": "9c13409160213e02b86817f1bc744bc793bfc12bb462ebf9d7fc3e0c857d77a0",
+    "raw/clinicaltrials/studies/NCT05161494.json": "dbeda0b37ec7f940da8c58f3a6d496e8b7105fc6c0f1555135f6ab3dd2a83024",
+    "raw/clinicaltrials/studies/NCT05226780.json": "3bf72ab74fae984d461f3f29f7bb0cbbbad5cba23d5b65c384781dd9d0bca646",
+    "raw/clinicaltrials/studies/NCT05232630.json": "29b29330875b0a2f15ae5c21f2d260e4671e164745e66e0c3451dae14dc9f95a",
+    "raw/clinicaltrials/studies/NCT05407727.json": "dae95b66e182798ab26c7ec9dc376d5593b06da5369bed3925da0fba3b29ff36",
+    "raw/clinicaltrials/studies/NCT05462054.json": "c40913a47144d750dc9817edccae46a4cb8fa7ad00150273e329469671d6b666",
+    "raw/clinicaltrials/studies/NCT05818553.json": "03ed20c85395771753dc75bc6b74eba45c649aa78488f2d05139680f5e380dc5",
+    "raw/clinicaltrials/studies/NCT06314490.json": "2a257a695239dcf5f01f6aef3648acd9184926497608affcbcb83fc1e434c907",
+    "raw/clinicaltrials/studies/NCT06356233.json": "4c06c4b83f0c5eceeb753a45cb48abc31be07337660b43483e2926377746dd26",
+    "raw/clinicaltrials/studies/NCT06625112.json": "c1f7c822649ba2ce143188bcdb127b7da591cdce1f38516c3a8ef28602ab99b5",
+    "raw/clinicaltrials/studies/NCT07019922.json": "5645e4901f21bab0cc70553983037c8d4eb19ff231fca17f64f37aa26ab35bba",
+    "raw/reporter/projects/11289342.json": "89e389a30a731ef493874f6ce15478c51454aae352a3cf9ad9ebf74680ccc54f",
+    "raw/reporter/projects/11594149.json": "79abb8d8c97c3aa2a13d24f6f2ea7c515122e1502d77f4549b4a12c9ce1cd02a",
+    "raw/reporter/projects/11436758.json": "c6731abe26e0bd3c22b464b109ac614866e73c1ec23c47970779de32c4777dde",
+    "raw/reporter/projects/11312585.json": "72eebe59a26bc76024b3680c217d29471ebb2cad6f4064ad2f34723c65d7b772",
+    "raw/reporter/projects/11261040.json": "edcee1051ee1740f36c6511ad2d6a089259dbed5af0061834cab8354955caefe",
+    "raw/reporter/projects/11309107.json": "f7960ed61f311b9bdbc718d5d3045dd27e52a77624a5cf279c98525d114c1b83",
+    "raw/reporter/projects/11285465.json": "23fddf67d92df6955db531eb8d0e67c448256b6711cb61588fe88395f4b71efd",
+    "raw/ontologies/orpha_phenotypes_599373.json": "cf6c2556efa1b87e68dfb21be2260613851ef9eeb0250f25ac17a3f79cdacd77",
+    "raw/ontologies/orpha_phenotypes_599373.meta.json": "e7cb1ba1674f6448fd053492a4c3bca3cdfe0be9bef1b7b595d0a4feb21ab35d",
+    "raw/ontologies/orpha_phenotypes_439218.json": "abe58a4ffc4666996476112f0a228464a95da9631dd58f51cb6577e01fc8575f",
+    "raw/ontologies/orpha_phenotypes_439218.meta.json": "a4696da5fe83c1708560fb33240c2d5e15c8b417dcb398b9c333c462caa1933c"
+  },
+  "exclusions": [
+    {
+      "source": "clinicaltrials",
+      "id": "NCT02505477",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT02885389",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT03043560",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT03907124",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT04802135",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT04827901",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT05450822",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT06585605",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT06674070",
+      "reason": "Common SCN2A polymorphism study does not establish the selected rare monogenic disease scope."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT06967727",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT07031661",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT07494331",
+      "reason": "No selected gene named in title/conditions; keyword search hit is insufficient for a disease link."
+    },
+    {
+      "source": "nih_reporter",
+      "id": "11082457",
+      "reason": "Gene-related cocaine-reward/respiratory physiology project; not selected as a source-backed rare-disease discovery link."
+    },
+    {
+      "source": "nih_reporter",
+      "id": "10768567",
+      "reason": "Gene-related cocaine-reward/respiratory physiology project; not selected as a source-backed rare-disease discovery link."
+    },
+    {
+      "source": "nih_reporter",
+      "id": "11004391",
+      "reason": "Gene-related cocaine-reward/respiratory physiology project; not selected as a source-backed rare-disease discovery link."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "P1-only release review",
+  "status": "passed",
+  "reviewed_at": "2026-10-04T03:40:03.692598+00:00",
+  "reviewer": "Current task assistant performing the user-authorized P1 review; not human M4 peer sign-off",
+  "base_commit": "b856a547dcc211c1f4e6692e349855f965ef353d",
+  "target_branch": "p1/data_v2",
+  "delivery_language": "English",
+  "graph_file_sha256": "670ed3d4cb63dc8a69ee99e2aeb0fd666310037385863d9028b35ddc2aa75e70",
+  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2",
+  "counts": {
+    "nodes": 120,
+    "edges": 135,
+    "evidence": 162,
+    "clusters": 4,
+    "node_cluster": 147
+  },
+  "retained_exact_records": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "source_field_checks": 853,
+  "source_errors": [],
+  "raw_cache": {
+    "raw_files": 451,
+    "raw_bytes": 50866487,
+    "reference_count": 654
+  },
+  "raw_errors": [],
+  "tests": {
+    "run": 135,
+    "passed": 134,
+    "skipped": 1,
+    "skip_reason": "Windows denies unprivileged physical-symlink creation"
+  },
+  "offline_replay": {
+    "steps": 5,
+    "all_passed": true,
+    "release_unchanged": true,
+    "candidate_changes": [],
+    "network_policy": "Socket connections and name resolution denied in every staged Python child"
+  },
+  "p1_correction": "Existing props.plain now states retrieval date, dated status and provisional discovery scope for the 15 added studies. NCT06314490 explicitly states its one-pediatric-participant scope and is not a general enrollment opportunity.",
+  "new_acquisitions": 0,
+  "model_calls": 0,
+  "paid_calls": 0,
+  "publication_gate": "P1 review passed; user authorized a commit and push to the new p1/data_v2 branch. This receipt does not assert that the later push has happened.",
+  "screenshots_in_new_commit": 0,
+  "shared_database_written": false,
+  "merged": false,
+  "deployed": false,
+  "other_owner_gates": {
+    "P2_gold_extraction_and_clustering": "Pending; outside this P1 publication gate",
+    "P3_product_search_and_visual_acceptance": "Pending; prior findings retained as handoff",
+    "P4_target_database_and_cloud_acceptance": "Separate next operation",
+    "M4_human_reciprocal_review": "Pending; no reviewer identity or decision fabricated"
+  }
+}
