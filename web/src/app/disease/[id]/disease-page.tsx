@@ -17,15 +17,19 @@ export function DiseasePage({ id }: { id: string }) {
   }
   return (
     <Page>
-      {role === 'leader' && (
-        <p className="mb-6 text-label text-ink-3">
-          Is this the condition your group serves?{' '}
-          <AppLink href={`/?focus=${id}`} className="link" data-testid="set-focus">
-            Make it your home
-          </AppLink>
-        </p>
-      )}
-      <DiseaseOverview id={id} />
+      <DiseaseOverview
+        id={id}
+        note={
+          role === 'leader' && (
+            <p className="mb-5 text-label text-ink-2">
+              Is this the condition your group serves?{' '}
+              <AppLink href={`/?focus=${id}`} className="link" data-testid="set-focus">
+                Make it your home
+              </AppLink>
+            </p>
+          )
+        }
+      />
     </Page>
   )
 }

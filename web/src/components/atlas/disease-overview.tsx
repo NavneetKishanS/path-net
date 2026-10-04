@@ -19,14 +19,14 @@ import { ClusterTag, ExternalIds, Ident, TypeLabel, mechanismPlain } from './nod
 import { MiniMap } from '@/components/graph/mini-map'
 
 /** Condition page: what it is, how it is caused, who serves it, what it connects to, what to do. */
-export function DiseaseOverview({ id }: { id: string }) {
+export function DiseaseOverview({ id, note }: { id: string; note?: React.ReactNode }) {
   const detail = useNode(id)
   if (detail.isLoading) return <Pending label="Loading condition" lines={8} />
   if (detail.error || !detail.data) return <ErrorNote error={detail.error ?? `No condition with id ${id}`} />
-  return <Overview d={detail.data} />
+  return <Overview d={detail.data} note={note} />
 }
 
-function Overview({ d }: { d: NodeDetail }) {
+function Overview({ d, note }: { d: NodeDetail; note?: React.ReactNode }) {
   const { can, detail, role } = useRole()
   const graph = useGraph()
   const conns = useConnections(d.node.id)
@@ -48,7 +48,8 @@ function Overview({ d }: { d: NodeDetail }) {
   const routable = (conns.data ?? []).filter((c) => c.kind !== 'phenotype')
   return (
     <div className="space-y-10">
-      <header>
+      <header className="title-band -mt-8 pt-8 pb-8 md:-mt-10 md:pt-10">
+        {note}
         <div className="mb-2 flex flex-wrap items-center gap-x-4 gap-y-1">
           <TypeLabel node={node} />
           {clusters.map((c) => (

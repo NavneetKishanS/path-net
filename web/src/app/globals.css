@@ -3,71 +3,79 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* Design tokens. Colour carries meaning only:
-   accent = interaction and selection; supports / inferred / contradicts = evidence state;
-   c0..c3 = mechanism cluster identity. Everything else is ink on paper. */
+   accent = brand, links, interaction and selection; supports / inferred / contradicts = evidence state;
+   c0..c3 = mechanism cluster identity. Everything else is ink on paper.
+   Light values follow the NHS and USWDS public health palettes (blue #005eb8, text #212b32,
+   panel grey #f0f4f5, success green #007f3b, error red #d5281b, yellow focus). All text pairs meet WCAG AA. */
 :root {
-  --paper: oklch(0.99 0.002 250);
-  --surface: oklch(0.973 0.003 250);
-  --sunken: oklch(0.955 0.004 250);
-  --ink: oklch(0.23 0.018 255);
-  --ink-2: oklch(0.42 0.016 255);
-  --ink-3: oklch(0.52 0.014 255);
-  --line: oklch(0.905 0.006 255);
-  --line-strong: oklch(0.82 0.008 255);
+  --paper: #ffffff;
+  --surface: #f0f4f5;
+  --sunken: #e4eaec;
+  --band: #e8f1f8;
+  --ink: #212b32;
+  --ink-2: #4c6272;
+  --ink-3: #5d6f7d;
+  --line: #d8dde0;
+  --line-strong: #8a979f;
 
-  --accent: oklch(0.5 0.14 245);
-  --accent-ink: oklch(0.44 0.14 245);
-  --accent-weak: oklch(0.95 0.025 245);
+  --accent: #005eb8;
+  --accent-ink: #005eb8;
+  --accent-strong: #003087;
+  --accent-weak: #e8f1f8;
 
-  --supports: oklch(0.5 0.1 155);
-  --supports-weak: oklch(0.95 0.03 155);
-  --inferred: oklch(0.6 0.13 70);
-  --inferred-ink: oklch(0.47 0.1 65);
-  --inferred-weak: oklch(0.96 0.04 80);
-  --contra: oklch(0.54 0.19 28);
-  --contra-ink: oklch(0.5 0.18 28);
-  --contra-weak: oklch(0.96 0.025 28);
+  --supports: #007f3b;
+  --supports-weak: #e6f3eb;
+  --inferred: #b86e00;
+  --inferred-ink: #8a5300;
+  --inferred-weak: #fff5d9;
+  --contra: #d5281b;
+  --contra-ink: #b3200f;
+  --contra-weak: #fcebe9;
 
-  --c0: oklch(0.56 0.1 165);
-  --c1: oklch(0.55 0.11 310);
-  --c2: oklch(0.6 0.1 55);
-  --c3: oklch(0.56 0.09 215);
-  --neutral-node: oklch(0.68 0.01 255);
+  --c0: #00a499;
+  --c1: #8a4fb0;
+  --c2: #ed8b00;
+  --c3: #41b6e6;
+  --neutral-node: #aeb7bd;
 
-  --focus: oklch(0.5 0.14 245);
+  --focus: #ffeb3b;
+  --focus-ring: #212b32;
   color-scheme: light;
 }
 
 .dark {
-  --paper: oklch(0.18 0.01 255);
-  --surface: oklch(0.21 0.012 255);
-  --sunken: oklch(0.155 0.01 255);
-  --ink: oklch(0.93 0.006 255);
-  --ink-2: oklch(0.78 0.01 255);
-  --ink-3: oklch(0.68 0.012 255);
-  --line: oklch(0.3 0.012 255);
-  --line-strong: oklch(0.4 0.014 255);
+  --paper: #0e1824;
+  --surface: #15222f;
+  --sunken: #0a121b;
+  --band: #132a42;
+  --ink: #e9eef2;
+  --ink-2: #b6c3cd;
+  --ink-3: #97a7b3;
+  --line: #263646;
+  --line-strong: #4a6074;
 
-  --accent: oklch(0.72 0.12 245);
-  --accent-ink: oklch(0.78 0.11 245);
-  --accent-weak: oklch(0.28 0.05 245);
+  --accent: #5ea9f2;
+  --accent-ink: #86bff5;
+  --accent-strong: #b4d7fa;
+  --accent-weak: #132a42;
 
-  --supports: oklch(0.72 0.1 155);
-  --supports-weak: oklch(0.27 0.04 155);
-  --inferred: oklch(0.78 0.12 75);
-  --inferred-ink: oklch(0.8 0.11 75);
-  --inferred-weak: oklch(0.29 0.045 75);
-  --contra: oklch(0.7 0.16 28);
-  --contra-ink: oklch(0.76 0.14 28);
-  --contra-weak: oklch(0.29 0.06 28);
+  --supports: #4cc38a;
+  --supports-weak: #0f3024;
+  --inferred: #e0a43a;
+  --inferred-ink: #f2c26b;
+  --inferred-weak: #3a2c0c;
+  --contra: #ff7a6b;
+  --contra-ink: #ff9d92;
+  --contra-weak: #3d1714;
 
-  --c0: oklch(0.72 0.1 165);
-  --c1: oklch(0.72 0.1 310);
-  --c2: oklch(0.75 0.1 60);
-  --c3: oklch(0.72 0.09 215);
-  --neutral-node: oklch(0.58 0.012 255);
+  --c0: #3cc7bc;
+  --c1: #b88ad6;
+  --c2: #f5a93c;
+  --c3: #6ccaf0;
+  --neutral-node: #607385;
 
-  --focus: oklch(0.72 0.12 245);
+  --focus: #ffeb3b;
+  --focus-ring: #0e1824;
   color-scheme: dark;
 }
 
@@ -82,7 +90,9 @@
   --color-line-strong: var(--line-strong);
   --color-accent: var(--accent);
   --color-accent-ink: var(--accent-ink);
+  --color-accent-strong: var(--accent-strong);
   --color-accent-weak: var(--accent-weak);
+  --color-band: var(--band);
   --color-supports: var(--supports);
   --color-supports-weak: var(--supports-weak);
   --color-inferred: var(--inferred);
@@ -97,23 +107,22 @@
   --color-c3: var(--c3);
 
   --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
   --font-mono: var(--font-plex-mono), ui-monospace, 'SFMono-Regular', monospace;
 
-  /* Type scale: 12 / 13 / 14 / 16 / 20 / 26 / 34 */
-  --text-meta: 0.75rem;
+  /* Type scale: 13 / 14 / 16 / 18 / 20 / 26 / 36. Body copy is 16px or more, as on health sites. */
+  --text-meta: 0.8125rem;
   --text-meta--line-height: 1.4;
-  --text-label: 0.8125rem;
-  --text-label--line-height: 1.4;
-  --text-ui: 0.875rem;
-  --text-ui--line-height: 1.45;
-  --text-body: 1rem;
+  --text-label: 0.875rem;
+  --text-label--line-height: 1.45;
+  --text-ui: 1rem;
+  --text-ui--line-height: 1.5;
+  --text-body: 1.125rem;
   --text-body--line-height: 1.55;
   --text-h3: 1.25rem;
   --text-h3--line-height: 1.3;
   --text-h2: 1.625rem;
   --text-h2--line-height: 1.2;
-  --text-h1: 2.125rem;
+  --text-h1: 2.25rem;
   --text-h1--line-height: 1.15;
 
   --radius-xs: 2px;
@@ -132,16 +141,26 @@
   }
   body {
     font-size: var(--text-ui);
-    line-height: 1.45;
+    line-height: 1.5;
     min-height: 100dvh;
+    overflow-x: clip;
   }
   ::selection {
     background: var(--accent-weak);
   }
+  input[type='checkbox'],
+  input[type='radio'] {
+    accent-color: var(--accent);
+  }
+  /* Yellow focus with a dark ring, as on NHS and GOV.UK: visible on white, blue and dark backgrounds. */
   :focus-visible {
-    outline: 2px solid var(--focus);
-    outline-offset: 2px;
+    outline: 3px solid var(--focus);
+    outline-offset: 0;
+    box-shadow: 0 0 0 5px var(--focus-ring);
     border-radius: 2px;
+  }
+  .outline-none:focus-visible {
+    box-shadow: none;
   }
   a {
     color: inherit;
@@ -149,9 +168,12 @@
   h1,
   h2,
   h3 {
-    font-family: var(--font-serif);
     font-weight: 600;
+    letter-spacing: -0.01em;
     text-wrap: balance;
+  }
+  h1 {
+    font-weight: 700;
   }
   p {
     text-wrap: pretty;
@@ -168,24 +190,35 @@
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    text-decoration-color: color-mix(in oklch, var(--accent-ink) 40%, transparent);
   }
   .link:hover {
-    text-decoration-color: currentColor;
+    color: var(--accent-strong);
+    text-decoration-thickness: 2px;
   }
   .prose-read {
-    font-family: var(--font-serif);
     font-size: var(--text-body);
     line-height: 1.6;
     max-width: 68ch;
   }
   .meta-label {
-    font-family: var(--font-sans);
     font-size: var(--text-meta);
-    color: var(--ink-3);
-    font-variant-caps: all-small-caps;
-    letter-spacing: 0.04em;
-    font-weight: 500;
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  /* Full-width pale blue band behind a page title, as on condition pages of hospital sites. */
+  .title-band {
+    position: relative;
+    isolation: isolate;
+  }
+  .title-band::before {
+    content: '';
+    position: absolute;
+    inset: 0 auto 0 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    background: var(--band);
+    border-bottom: 1px solid var(--line);
+    z-index: -1;
   }
   .hairline {
     border-color: var(--line);

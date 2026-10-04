@@ -15,10 +15,10 @@ Every screen in `web/` is reviewed against this list before it is called done. T
 ### Colour
 | Tell | Our rule |
 |---|---|
-| Purple/indigo/violet as the default accent; blue-to-purple or purple-to-pink gradients | One cobalt accent (OKLCH hue 245) used only for interaction and selection. No gradients anywhere. |
-| Gradient headline text (`background-clip: text`) | Solid ink. Emphasis comes from the serif face and weight. |
+| Purple/indigo/violet as the default accent; blue-to-purple or purple-to-pink gradients | One health-blue accent (`#005eb8`, as on NHS and NIH sites) for brand, links and interaction. No gradients anywhere. |
+| Gradient headline text (`background-clip: text`) | Solid ink. Emphasis comes from size and weight. |
 | Glowing neon accents and orbs on dark mode, aurora/mesh blobs | Dark theme is the same token set with lower lightness. No glow, no box-shadow colour. |
-| The current "warm editorial" default: cream/sand background, serif display, brass/terracotta accent | Cool near-white paper (OKLCH chroma 0.002), no cream. Serif is for reading text, not an oversized italic hero. |
+| The current "warm editorial" default: cream/sand background, serif display, brass/terracotta accent | White paper with pale blue-grey panels, as on health sites. No cream, no serif display. |
 | Colour used as decoration; raw `-500` utility colours with no semantic token | Colour carries meaning only: accent, supports, inferred, contradicts, and four cluster identities. All are CSS variables. |
 | Colour as the only signal | Every coloured mark has a text label or a line pattern (solid = observed, dashed = inferred, red with a "Contradicts" label). |
 | Grey text on colour that fails contrast | All text tokens checked for WCAG AA on both themes. |
@@ -26,9 +26,9 @@ Every screen in `web/` is reviewed against this list before it is called done. T
 ### Typography
 | Tell | Our rule |
 |---|---|
-| Inter (or Geist, DM Sans, Space Grotesk) as the only face | IBM Plex Sans for UI, Source Serif 4 for reading text and titles, IBM Plex Mono for identifiers (gene symbols, MONDO/HPO/PMID ids). |
-| Flat hierarchy; same size and weight everywhere | Tight scale: 12 / 13 / 14 / 16 / 20 / 26 / 34 px with clear roles. |
-| ALL-CAPS eyebrow above every section; numbered "01 / 02 / 03" section markers | Small-caps labels only for metadata rows (relation type, source). No section numbering. |
+| Inter (or Geist, DM Sans, Space Grotesk) as the only face | IBM Plex Sans for headings and text, IBM Plex Mono for identifiers (gene symbols, MONDO/HPO/PMID ids). |
+| Flat hierarchy; same size and weight everywhere | Scale 13 / 14 / 16 / 18 / 20 / 26 / 36 px with clear roles; body text never below 16px. |
+| ALL-CAPS eyebrow above every section; numbered "01 / 02 / 03" section markers | Short semibold labels only for metadata rows (relation type, source). No section numbering. |
 | Crushed display letter-spacing, wide-tracked body | Default tracking; tabular numerals in tables. |
 | Lines over 80 characters | Prose capped at about 68ch. |
 

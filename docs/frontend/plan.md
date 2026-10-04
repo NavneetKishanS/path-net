@@ -107,10 +107,11 @@ interface ApiClient {
 
 ## 7. Design tokens
 
-- Paper: cool near-white, chroma 0.002 (not cream). Ink: blue-black. Hairlines instead of boxes.
-- One accent: cobalt `oklch(0.50 0.14 245)`, interaction and selection only.
-- Semantic: `supports` green, `inferred` amber (always dashed + labelled), `contradicts` vermilion (always labelled), four muted cluster hues.
-- Type: IBM Plex Sans (UI), Source Serif 4 (titles and reading prose), IBM Plex Mono (identifiers). Scale 12/13/14/16/20/26/34.
+- Follows the public health palettes users already trust (NHS service manual, USWDS used by NIH and CDC), checked against NHS, MedlinePlus, Mayo Clinic, Cleveland Clinic, NORD and GARD condition pages.
+- Paper: white; panels and title bands in pale blue-grey (`#f0f4f5`, `#e8f1f8`). Ink: `#212b32`, secondary `#4c6272`. Hairlines instead of boxes.
+- One accent: health blue `#005eb8` for the brand mark, links, primary buttons, the active tab and selection. Focus is NHS yellow `#ffeb3b` with a dark ring.
+- Semantic: `supports` green `#007f3b`, `inferred` amber (always dashed + labelled), `contradicts` red `#d5281b` (always labelled), four cluster hues from the NHS palette.
+- Type: IBM Plex Sans for headings and text, IBM Plex Mono for identifiers. Body text 16px or more. Scale 13/14/16/18/20/26/36.
 - Space: 4px base (4, 8, 12, 16, 24, 32, 48, 72). Radius: 2/4/6. Shadows only on floating layers.
 - Light and dark from the same variable names.
 

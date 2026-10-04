@@ -91,7 +91,7 @@ function PlanRow({ id }: { id: string }) {
         <span className="text-ui font-medium text-ink">{plan.data.disease.name}</span>
         <span className="flex items-center gap-3 text-label text-ink-2">
           <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface" aria-hidden>
-            <span className="block h-full bg-ink-2" style={{ width: `${Math.round(sum.share * 100)}%` }} />
+            <span className="block h-full bg-accent" style={{ width: `${Math.round(sum.share * 100)}%` }} />
           </span>
           {sum.done} of {sum.active} done
         </span>

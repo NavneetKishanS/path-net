@@ -6,14 +6,14 @@ type Variant = 'primary' | 'secondary' | 'ghost' | 'quiet'
 type Size = 'sm' | 'md'
 
 const VARIANT: Record<Variant, string> = {
-  primary: 'bg-accent text-paper hover:bg-accent-ink border border-transparent',
-  secondary: 'bg-paper text-ink border border-line-strong hover:bg-surface',
+  primary: 'bg-accent text-paper hover:bg-accent-strong border border-transparent font-semibold',
+  secondary: 'bg-paper text-accent-ink border border-accent hover:bg-accent-weak',
   ghost: 'text-ink-2 hover:text-ink hover:bg-surface border border-transparent',
   quiet: 'text-accent-ink hover:underline underline-offset-4 border border-transparent px-0',
 }
 const SIZE: Record<Size, string> = {
-  sm: 'h-7 px-2.5 text-label gap-1.5',
-  md: 'h-9 px-3.5 text-ui gap-2',
+  sm: 'h-8 px-3 text-label gap-1.5',
+  md: 'h-10 px-4 text-ui gap-2',
 }
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

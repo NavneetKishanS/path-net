@@ -183,7 +183,7 @@ function EvidenceItem({ ev, technical }: { ev: Evidence; technical: boolean }) {
       )}
       {ev.authors && <p className="text-meta text-ink-3">{ev.authors.join(', ')} et al.</p>}
       {ev.snippet && !raw && (
-        <blockquote className="mt-2 border-l-2 border-line-strong pl-3 font-serif text-ui text-ink-2 italic">
+        <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-ui text-ink-2 italic">
           “{ev.snippet}”
         </blockquote>
       )}

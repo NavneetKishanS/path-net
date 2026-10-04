@@ -2,7 +2,7 @@
 
 import type { ReactNode } from 'react'
 import { usePathname } from 'next/navigation'
-import { Search } from 'lucide-react'
+import { Search, Waypoints } from 'lucide-react'
 import { useRole } from '@/components/role/role-provider'
 import { AppLink } from '@/components/role/app-link'
 import { GlobalSearch } from '@/components/search/global-search'
@@ -38,11 +38,16 @@ export function AppShell({ children }: { children: ReactNode }) {
       >
         Skip to content
       </a>
-      <header className="sticky top-0 z-20 border-b border-line bg-paper">
-        <div className="mx-auto flex h-14 max-w-[1280px] items-center gap-4 px-4 md:px-6">
-          <AppLink href="/" className="flex shrink-0 items-baseline gap-2" aria-label="PathNet home">
-            <span className="font-serif text-[19px] font-semibold tracking-tight text-ink">PathNet</span>
-            <span className="hidden text-label text-ink-3 sm:inline">Rare disease atlas</span>
+      <header className="sticky top-0 z-20 border-t-4 border-b border-t-accent border-b-line bg-paper">
+        <div className="mx-auto flex h-16 max-w-[1280px] items-center gap-4 px-4 md:px-6">
+          <AppLink href="/" className="flex shrink-0 items-center gap-2.5" aria-label="PathNet home">
+            <span aria-hidden className="grid size-8 place-items-center rounded-sm bg-accent text-paper">
+              <Waypoints className="size-5" strokeWidth={2.25} />
+            </span>
+            <span className="flex flex-col leading-none">
+              <span className="text-[20px] font-bold tracking-tight text-accent-ink">PathNet</span>
+              <span className="mt-0.5 hidden text-meta text-ink-2 sm:inline">Rare disease atlas</span>
+            </span>
           </AppLink>
           {role !== 'patient' && (
             <div className="hidden flex-1 justify-center md:flex">
@@ -66,7 +71,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           </div>
         </div>
         {nav.length > 0 && (
-          <nav aria-label="Sections" className="mx-auto flex max-w-[1280px] gap-1 overflow-x-auto px-4 pb-1.5 md:px-6">
+          <nav aria-label="Sections" className="mx-auto flex max-w-[1280px] gap-1 overflow-x-auto px-2 md:px-4">
             <NavLink href="/" active={path === '/'}>
               Home
             </NavLink>
@@ -99,8 +104,10 @@ function NavLink({ href, active, children }: { href: string; active: boolean; ch
       href={href}
       aria-current={active ? 'page' : undefined}
       className={cn(
-        'rounded-sm px-2.5 py-1 text-label whitespace-nowrap',
-        active ? 'bg-surface font-medium text-ink' : 'text-ink-2 hover:bg-surface hover:text-ink',
+        '-mb-px border-b-[3px] px-2.5 pt-1.5 pb-2 text-ui whitespace-nowrap',
+        active
+          ? 'border-accent font-semibold text-ink'
+          : 'border-transparent text-accent-ink hover:border-line-strong hover:underline hover:underline-offset-4',
       )}
     >
       {children}

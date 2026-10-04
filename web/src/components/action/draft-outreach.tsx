@@ -86,7 +86,7 @@ export function DraftOutreach({ plan, route }: { plan: ActionPlan; route: Route 
         ref={area}
         defaultValue={draft.body}
         rows={16}
-        className="w-full resize-y rounded-sm border border-line bg-surface p-3 font-mono text-[12.5px] leading-relaxed text-ink focus:border-accent focus:outline-none"
+        className="w-full resize-y rounded-sm border border-line bg-surface p-3 font-mono text-[12.5px] leading-relaxed text-ink focus:border-accent"
       />
       <div className="mt-2 flex items-center gap-3">
         <Button variant="secondary" size="sm" onClick={copy}>
