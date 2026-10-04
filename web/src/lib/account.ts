@@ -1,5 +1,5 @@
 import type { Role as ContractRole } from '@/types'
-import { ROLE_CONFIG, type DetailLevel, type Role } from './roles'
+import { DEFAULT_ROLE, ROLE_CONFIG, type DetailLevel, type Role } from './roles'
 
 export const ACCOUNT_ROLES = ['patient', 'leader', 'researcher', 'scout'] as const
 export type AccountLanding = '/' | '/explore' | '/action' | '/mechanisms' | '/people'
@@ -36,7 +36,7 @@ export interface AccountSession {
   roleStatus?: 'active' | 'pending'
 }
 
-export function defaultProfile(role: Role = 'patient'): AccountProfile {
+export function defaultProfile(role: Role = DEFAULT_ROLE): AccountProfile {
   return {
     displayName: '',
     role,
