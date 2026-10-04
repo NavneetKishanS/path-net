@@ -3028,6 +3028,50 @@
       "note": "Foundation describes an STXBP1 patient-owned data-collection program enabled by RARE-X; clinical efficacy and current data availability are not established."
     },
     {
+      "id": "bridge_shares_investigator_dis_scn2a_dis_scn8a",
+      "src": "dis_scn2a",
+      "dst": "dis_scn8a",
+      "type": "shares_investigator",
+      "tier": "C",
+      "confidence": null,
+      "stance": "supports",
+      "status": "unverified",
+      "note": "Inferred (Jaccard 0.11): both diseases have a verified investigator link to Ingo Helbig. A hypothesis to check, not a proven shared biology."
+    },
+    {
+      "id": "bridge_shares_investigator_dis_scn2a_dis_stxbp1",
+      "src": "dis_scn2a",
+      "dst": "dis_stxbp1",
+      "type": "shares_investigator",
+      "tier": "C",
+      "confidence": null,
+      "stance": "supports",
+      "status": "unverified",
+      "note": "Inferred (Jaccard 0.17): both diseases have a verified investigator link to Ingo Helbig. A hypothesis to check, not a proven shared biology."
+    },
+    {
+      "id": "bridge_shares_investigator_dis_scn8a_dis_stxbp1",
+      "src": "dis_scn8a",
+      "dst": "dis_stxbp1",
+      "type": "shares_investigator",
+      "tier": "C",
+      "confidence": null,
+      "stance": "supports",
+      "status": "unverified",
+      "note": "Inferred (Jaccard 0.17): both diseases have a verified investigator link to Ingo Helbig. A hypothesis to check, not a proven shared biology."
+    },
+    {
+      "id": "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis",
+      "src": "dis_scn2a_neonatal_epilepsy",
+      "dst": "dis_scn8a",
+      "type": "shares_mechanism_with",
+      "tier": "C",
+      "confidence": null,
+      "stance": "supports",
+      "status": "unverified",
+      "note": "Inferred (Jaccard 0.95): both diseases have a verified mechanism link to Voltage-gated sodium channel gain of function. A hypothesis to check, not a proven shared biology."
+    },
+    {
       "id": "e_asset_disease_asset_nih_11261040_dis_scn8a",
       "src": "asset_nih_11261040",
       "dst": "dis_scn8a",
@@ -4459,6 +4503,69 @@
     }
   ],
   "evidence": [
+    {
+      "id": "bridge_shares_investigator_dis_scn2a_dis_scn8a_ev0",
+      "edge_id": "bridge_shares_investigator_dis_scn2a_dis_scn8a",
+      "source_type": "inferred",
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "pmid": null,
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from SCN2A-related disorder's existing investigator link to Ingo Helbig, shared with developmental and epileptic encephalopathy, 13."
+    },
+    {
+      "id": "bridge_shares_investigator_dis_scn2a_dis_scn8a_ev1",
+      "edge_id": "bridge_shares_investigator_dis_scn2a_dis_scn8a",
+      "source_type": "inferred",
+      "source_url": "https://reporter.nih.gov/project-details/11310175",
+      "pmid": null,
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from developmental and epileptic encephalopathy, 13's existing investigator link to Ingo Helbig, shared with SCN2A-related disorder."
+    },
+    {
+      "id": "bridge_shares_investigator_dis_scn2a_dis_stxbp1_ev0",
+      "edge_id": "bridge_shares_investigator_dis_scn2a_dis_stxbp1",
+      "source_type": "inferred",
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "pmid": null,
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from SCN2A-related disorder's existing investigator link to Ingo Helbig, shared with developmental and epileptic encephalopathy, 4."
+    },
+    {
+      "id": "bridge_shares_investigator_dis_scn8a_dis_stxbp1_ev0",
+      "edge_id": "bridge_shares_investigator_dis_scn8a_dis_stxbp1",
+      "source_type": "inferred",
+      "source_url": "https://reporter.nih.gov/project-details/11310175",
+      "pmid": null,
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from developmental and epileptic encephalopathy, 13's existing investigator link to Ingo Helbig, shared with developmental and epileptic encephalopathy, 4."
+    },
+    {
+      "id": "bridge_shares_investigator_dis_scn8a_dis_stxbp1_ev1",
+      "edge_id": "bridge_shares_investigator_dis_scn8a_dis_stxbp1",
+      "source_type": "inferred",
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "pmid": null,
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from developmental and epileptic encephalopathy, 4's existing investigator link to Ingo Helbig, shared with developmental and epileptic encephalopathy, 13."
+    },
+    {
+      "id": "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis_ev0",
+      "edge_id": "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis",
+      "source_type": "inferred",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "pmid": "38651838",
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from SCN2A-related neonatal-onset epilepsy subgroup's existing mechanism link to Voltage-gated sodium channel gain of function, shared with developmental and epileptic encephalopathy, 13."
+    },
+    {
+      "id": "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis_ev1",
+      "edge_id": "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis",
+      "source_type": "inferred",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34431999/",
+      "pmid": "34431999",
+      "retrieved_at": "2026-10-03",
+      "snippet": "Derived from developmental and epileptic encephalopathy, 13's existing mechanism link to Voltage-gated sodium channel gain of function, shared with SCN2A-related neonatal-onset epilepsy subgroup."
+    },
     {
       "id": "ev_asset_disease_asset_nih_11261040_dis_scn8a_reporter_11261040",
       "edge_id": "e_asset_disease_asset_nih_11261040_dis_scn8a",

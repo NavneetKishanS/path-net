@@ -2,7 +2,10 @@
 
 No API calls. Default inputs are the committed data/curation files. Raw caches
 can be audited separately with validate_graph.py --check-raw. P2 may add extracted
-claims through its own reviewed merge; this command rebuilds the P1 baseline.
+claims through its own reviewed merge; this command rebuilds the P1 baseline, then
+applies bridge_edges.py's shares_mechanism_with/shares_investigator edges as a final,
+deterministic step (pure graph inference over the baseline, no LLM, so it belongs in
+the reproducible build rather than a separate manual merge).
 """
 from __future__ import annotations
 
@@ -12,6 +15,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+from bridge_edges import propose as propose_bridge_edges
 from common import DATA_DIR, save_json
 from validate_graph import FIELDS, digest, validate_graph
 
@@ -178,6 +182,29 @@ def build(curation_dir: Path, include_expansion: bool = True):
         cluster["mechanism"]["method"] = "Provisional, source-reviewed P1 groups; P2 owns algorithmic clustering."
         cluster["mechanism"]["scope"] = "Membership organizes reviewed records; it does not establish treatment equivalence or a functional diagnosis."
     graph["node_cluster"] = [{"node_id": node, "cluster_id": cluster} for node in sorted(memberships) for cluster in sorted(memberships[node])]
+
+    if include_expansion:
+        # Skipped when building the pre-expansion reference baseline (expand_slice.py's drift
+        # check hashes that exact call) -- bridge edges belong in the real committed graph, not
+        # in the pinned internal reference point expansion reviews compare against.
+        bridge = propose_bridge_edges(graph)
+        graph["edges"] += bridge["new_edges"]
+        graph["evidence"] += bridge["new_evidence"]
+        # Every bridge-evidence source_url is a real, already-audited one of this build's own
+        # evidence rows (bridge_edges.py reuses them, never a new fetch) -- so the same raw file
+        # that already backs it still does. Carry its raw_checks over by URL instead of
+        # re-auditing a file bridge_edges.py never read itself.
+        raw_checks_by_url: dict[str, list] = {}
+        for v in provenance["evidence"].values():
+            raw_checks_by_url.setdefault(v["source_url"], v.get("raw_checks") or [])
+        for ev in bridge["new_evidence"]:
+            # Graph-derived, not read from a source document directly: "derived", not "verbatim".
+            provenance["evidence"][ev["id"]] = {
+                "source_url": ev["source_url"], "curation_file": "pipeline/bridge_edges.py",
+                "verification": "derived", "source_id": None, "source_record_locator": None,
+                "source_record": None, "raw_checks": raw_checks_by_url.get(ev["source_url"], []),
+            }
+
     for key in ("edges", "evidence"):
         graph[key].sort(key=lambda row: row["id"])
     errors = validate_graph(graph)

@@ -166,10 +166,10 @@
   ],
   "graph_counts": {
     "nodes": 120,
-    "edges": 135,
-    "evidence": 162,
+    "edges": 139,
+    "evidence": 169,
     "clusters": 4,
     "node_cluster": 147
   },
-  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2"
+  "graph_sha256": "60e269b23bee478e3c097da36122868f395671128136f41632e58db1fa2a875b"
 }
