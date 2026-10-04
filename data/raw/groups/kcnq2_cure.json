@@ -2,12 +2,12 @@
   "source_id": "kcnq2_cure",
   "requested_url": "https://www.kcnq2cure.org/our-role/",
   "source_url": "https://www.kcnq2cure.org/our-role/",
-  "retrieved_at": "2026-10-03T20:48:42Z",
+  "retrieved_at": "2026-10-03T23:19:32Z",
   "status_code": 200,
-  "backend": "direct",
+  "backend": "brightdata",
   "content_type": "text/html; charset=UTF-8",
-  "encoding": "UTF-8",
-  "body_sha256": "8596773c42f646f9be511f3f3f51f9b1d5a1bac6cde38877c9df335cbe3fb8fb",
+  "encoding": "utf-8",
+  "body_sha256": "644299acca3a5f7d0484b75f39803aaf574e12d36b4098093a15a807c1ed969e",
   "text_sha256": "f81e4043ef34535083d2b6f5b9fd6b86b0b9395e536801067dcdca9dcd6132d3",
   "body_path": "raw/groups/kcnq2_cure.body",
   "text_path": "raw/groups/kcnq2_cure.txt",
@@ -16,7 +16,7 @@
     {
       "url": "https://www.kcnq2cure.org/robots.txt",
       "sha256": "56488c3d7b5cc553b5dcc49e6b440cfd65b1a15c92cf55b0fe7490c74f5ce5ae",
-      "retrieved_at": "2026-10-03T20:48:40Z",
+      "retrieved_at": "2026-10-03T23:19:23Z",
       "allowed": true
     }
   ],

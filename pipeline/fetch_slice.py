@@ -49,13 +49,15 @@ def record_digest(record):
     return hashlib.sha256(json.dumps(record, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
 
 
-def restore_research(manifest, refresh=False):
+def restore_research(manifest, refresh=False, check_only=False):
     """Pin NCT/application IDs; refuse silent upstream changes to the release."""
     with requests.Session() as session:
         session.headers["User-Agent"] = "PathNet/0.1 (public-source research cache)"
         for source, folder, id_key in (("clinicaltrials", "studies", "study_ids"), ("reporter", "projects", "application_ids")):
             expected = manifest[source]
             missing = [r["id"] for r in expected if refresh or not (RAW_DIR / source / folder / f"{r['id']}.json").is_file()]
+            if missing and check_only:
+                raise ValueError(f"{source}: pinned cache is incomplete in offline mode")
             if missing:
                 retrieved_at = utc_now()
                 if source == "clinicaltrials":
@@ -102,18 +104,22 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--sources", nargs="+", choices=["pubmed", "research", "ontologies", "community"], default=["pubmed", "research", "ontologies", "community"])
     ap.add_argument("--refresh", action="store_true", help="Explicitly refetch public sources; changed pinned records fail for review")
+    ap.add_argument("--offline", action="store_true", help="Replay pinned caches only, ignore page expiry and prohibit acquisition")
     ap.add_argument("--group-backend", choices=["direct", "brightdata"], default="direct")
     args = ap.parse_args()
-    load_env(ROOT / ".env")
+    if args.offline and args.refresh:
+        ap.error("--offline cannot be combined with --refresh")
+    if not args.offline:
+        load_env(ROOT / ".env")
     if "pubmed" in args.sources:
-        restore(read(DATA_DIR / "curation/pubmed_manifest.json"), refresh=args.refresh)
+        restore(read(DATA_DIR / "curation/pubmed_manifest.json"), refresh=args.refresh, check_only=args.offline)
     if "research" in args.sources:
-        restore_research(read(DATA_DIR / "curation/research_cache_manifest.json"), args.refresh)
+        restore_research(read(DATA_DIR / "curation/research_cache_manifest.json"), args.refresh, check_only=args.offline)
         run("curate_research.py")
     if "ontologies" in args.sources:
-        run("fetch_ontologies.py", *(["--refresh"] if args.refresh else []))
+        run("fetch_ontologies.py", *(["--refresh"] if args.refresh else ["--offline"] if args.offline else []))
     if "community" in args.sources:
-        run("fetch_groups.py", "--kind", "all", "--backend", args.group_backend, *(["--force"] if args.refresh else []))
+        run("fetch_groups.py", "--kind", "all", "--backend", args.group_backend, *(["--force"] if args.refresh else ["--offline"] if args.offline else []))
         run("fetch_groups.py", "--refresh-provenance")
         run("fetch_groups.py", "--validate-curation")
     print("Selected source acquisition complete. Review changed curation files, then run build_graph.py and validate_graph.py --check-raw.")

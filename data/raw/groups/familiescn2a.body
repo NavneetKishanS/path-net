@@ -477,7 +477,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					
 		<div class="ld-module-sd ld-module-sd-hover ld-module-sd-right">
 
-			<button class="nav-trigger d-flex pos-rel align-items-center justify-content-center style-1    collapsed lqd-drawer-6ac16a256698b" role="button" type="button" data-ld-toggle="1" data-toggle-options="{&quot;cloneTriggerInTarget&quot;:false,&quot;type&quot;:&quot;click&quot;}" data-toggle="collapse" data-bs-toggle="collapse" data-target="#lqd-drawer-6ac16a256698b" data-bs-target="#lqd-drawer-6ac16a256698b" aria-expanded="false" aria-label="Trigger" aria-controls="977ab22">
+			<button class="nav-trigger d-flex pos-rel align-items-center justify-content-center style-1    collapsed lqd-drawer-6ac18d7289666" role="button" type="button" data-ld-toggle="1" data-toggle-options="{&quot;cloneTriggerInTarget&quot;:false,&quot;type&quot;:&quot;click&quot;}" data-toggle="collapse" data-bs-toggle="collapse" data-target="#lqd-drawer-6ac18d7289666" data-bs-target="#lqd-drawer-6ac18d7289666" aria-expanded="false" aria-label="Trigger" aria-controls="977ab22">
 
 			<span class="bars d-inline-block pos-rel z-index-1">
 				<span class="bars-inner d-flex flex-column w-100 h-100">
@@ -490,8 +490,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</button>
 
 			<div
-				class="ld-module-dropdown collapse pos-abs lqd-drawer-6ac16a256698b"
-				id="lqd-drawer-6ac16a256698b"
+				class="ld-module-dropdown collapse pos-abs lqd-drawer-6ac18d7289666"
+				id="lqd-drawer-6ac18d7289666"
 				data-move-element='{ "target": ".elementor", "type": "appendTo", "wrapWithElementorWidgetEl": true, "wrapper": "<div />", "wrapperClass": "ld-module-sd ld-module-sd-hover ld-module-sd-right" }'>
 				<div class="ld-sd-wrap">
 									<div class="ld-sd-inner justify-content-center">
@@ -790,7 +790,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="elementor-element elementor-element-b0cc2e2 elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="b0cc2e2" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a25870a3" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d733ff81" class="ld-fancy-heading pos-rel">
 			<h1 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines h1"  data-split-text="true" data-split-options='{"type":"lines"}'> Welcome to 
 The&nbsp;FamilieSCN2A 
 Foundation</h1>		</div>
@@ -800,7 +800,7 @@ Foundation</h1>		</div>
 				<div class="elementor-element elementor-element-0f69bdc elementor-widget__width-initial elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="0f69bdc" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a25876b5" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d7340740" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines p"  data-split-text="true" data-split-options='{"type":"lines"}'> The global leader in SCN2A-related autism &amp; epilepsy research, advocacy, and community. Discover the difference families make.</p>		</div>
 
 						</div>
@@ -900,7 +900,7 @@ Foundation</h1>		</div>
 						<div class="elementor-element elementor-element-9ce6677 elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="9ce6677" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258a325" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d7356069" class="ld-fancy-heading pos-rel">
 			<h2 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines h2"  data-split-text="true" data-split-options='{"type":"lines"}'> Here you will find the world’s largest SCN2A community and the most complete body of research and information on SCN2A-Related&nbsp;Disorders (SRDs).</h2>		</div>
 
 						</div>
@@ -908,7 +908,7 @@ Foundation</h1>		</div>
 				<div class="elementor-element elementor-element-81a808b elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="81a808b" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258a86f" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d7356a79" class="ld-fancy-heading pos-rel">
 			<h5 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines h5"  data-split-text="true" data-split-options='{"type":"lines"}'> Most rare diseases do not have a cure. However, recent progress in precision medicine, drug repurposing, and gene therapy are offering hope for treating these types of disorders. Our mission is to accelerate this work.</h5>		</div>
 
 						</div>
@@ -941,7 +941,7 @@ Foundation</h1>		</div>
 				<div class="elementor-element elementor-element-1582a73 elementor-widget elementor-widget-hub_fancy_heading" data-id="1582a73" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258b491" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d7358085" class="ld-fancy-heading pos-rel">
 			<h2 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h2"  > What are SCN2A-Related Disorders (SRDs)?</h2>		</div>
 
 						</div>
@@ -996,7 +996,7 @@ Foundation</h1>		</div>
 				<div class="elementor-element elementor-element-05ae9ea elementor-widget elementor-widget-hub_fancy_heading" data-id="05ae9ea" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258c29f" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73598fc" class="ld-fancy-heading pos-rel">
 			<h4 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h4"  > EL-PFDD Meeting</h4>		</div>
 
 						</div>
@@ -1022,7 +1022,7 @@ Foundation</h1>		</div>
 				<div class="elementor-element elementor-element-799ba4c elementor-widget elementor-widget-hub_fancy_heading" data-id="799ba4c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258d2e3" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d736db71" class="ld-fancy-heading pos-rel">
 			<h2 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h2"  > News &amp;
 Updates</h2>		</div>
 
@@ -1066,7 +1066,7 @@ Updates</h2>		</div>
 						<div class="elementor-element elementor-element-0ccee9f elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="0ccee9f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258de67" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d736ec1f" class="ld-fancy-heading pos-rel">
 			<h2 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines h2"  data-split-text="true" data-split-options='{"type":"lines"}'> Stay in Touch</h2>		</div>
 
 						</div>
@@ -1074,7 +1074,7 @@ Updates</h2>		</div>
 				<div class="elementor-element elementor-element-949bea1 elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="949bea1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258e396" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d736f67d" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines p"  data-split-text="true" data-split-options='{"type":"lines"}'> Join our email list to stay informed about the latest research, clinical trials, community events, advocacy efforts, and all things SCN2A-related.</p>		</div>
 
 						</div>
@@ -1098,7 +1098,7 @@ Updates</h2>		</div>
 				<div class="elementor-element elementor-element-57bcf64 elementor-widget elementor-widget-hub_fancy_heading" data-id="57bcf64" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258ef44" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d7370458" class="ld-fancy-heading pos-rel">
 			<h2 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h2"  > Community</h2>		</div>
 
 						</div>
@@ -1136,7 +1136,7 @@ Updates</h2>		</div>
 						<div class="elementor-element elementor-element-3b1f37d elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="3b1f37d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a258ff2f" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d737179c" class="ld-fancy-heading pos-rel">
 			<h2 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines h2"  data-split-text="true" data-split-options='{"type":"lines"}'> Newly Diagnosed?</h2>		</div>
 
 						</div>
@@ -1144,7 +1144,7 @@ Updates</h2>		</div>
 				<div class="elementor-element elementor-element-00e29f4 elementor-widget elementor-widget-hub_fancy_heading lqd-el-has-inner-anim" data-id="00e29f4" data-element_type="widget" data-e-type="widget" data-settings="{&quot;enable_split&quot;:&quot;true&quot;,&quot;split_type&quot;:&quot;lines&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a2590437" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d7371d4c" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left lqd-split-lines p"  data-split-text="true" data-split-options='{"type":"lines"}'> You are not alone. Here you will find a caring community and abundant resources on SCN2A-related disorders (SRDs). Whether you have a newborn baby with epilepsy or are an adult with autism, we welcome ALL those with SRDs. We&nbsp;are glad you found us.</p>		</div>
 
 						</div>
@@ -1191,7 +1191,7 @@ Updates</h2>		</div>
 				<div class="elementor-element elementor-element-cf788db elementor-widget elementor-widget-hub_fancy_heading" data-id="cf788db" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a25974d5" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73a06ca" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left p"  > The FamilieSCN2A Foundation is a&nbsp;registered 501(c)(3).
 <b>FEIN 47-3169795</b><br>
 P.O. Box 4260<br>
@@ -1213,7 +1213,7 @@ info@scn2a.org</p>		</div>
 				<div class="elementor-element elementor-element-1f60eea elementor-widget elementor-widget-hub_fancy_heading" data-id="1f60eea" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a25981ab" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73a17c4" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left p"  > <b>Who are we?</b><br>
 The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed with rare forms of epilepsy and autism as a result of a change in the SCN2A gene. The SCN2A gene helps regulate neuronal excitability, support brain development, and contribute to learning and memory. Changes in the SCN2A gene can cause a range of health issues known as SCN2A-related disorders (SRD). <b><a href="https://www.scn2a.org/about-us/team-members/">LEARN MORE.</a></b> </p>		</div>
 
@@ -1222,14 +1222,14 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 				<div class="elementor-element elementor-element-e24d4d3 elementor-widget elementor-widget-hub_fancy_heading" data-id="e24d4d3" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a2598745" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73a1e67" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left p"  > <b>Our mission is to accelerate research, build community, and advocate to improve the lives of ALL those affected by SCN2A-Related Disorders (SRD).</b></p>		</div>
 
 						</div>
 				</div>
 				<div class="elementor-element elementor-element-8630a0f elementor-widget elementor-widget-shortcode" data-id="8630a0f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
-							<div class="elementor-shortcode"><div class="gtranslate_wrapper" id="gt-wrapper-78052731"></div></div>
+							<div class="elementor-shortcode"><div class="gtranslate_wrapper" id="gt-wrapper-39479982"></div></div>
 						</div>
 				</div>
 				<div class="elementor-element elementor-element-66656fd elementor-widget elementor-widget-elementskit-social-media" data-id="66656fd" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-social-media.default">
@@ -1287,7 +1287,7 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 						<div class="elementor-element elementor-element-d41e8b5 elementor-widget elementor-widget-hub_fancy_heading" data-id="d41e8b5" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a2599216" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73a2c49" class="ld-fancy-heading pos-rel">
 			<h5 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h5"  > Subscribe &amp; stay informed!</h5>		</div>
 
 						</div>
@@ -1305,7 +1305,7 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 				<div class="elementor-element elementor-element-52648d3 elementor-widget elementor-widget-hub_fancy_heading" data-id="52648d3" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a2599e70" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73b79be" class="ld-fancy-heading pos-rel">
 			<h5 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h5"  > Quick links</h5>		</div>
 
 						</div>
@@ -1399,7 +1399,7 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 						<div class="elementor-element elementor-element-ecfd9a2 elementor-widget elementor-widget-hub_fancy_heading" data-id="ecfd9a2" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a259aa81" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73b8e3f" class="ld-fancy-heading pos-rel">
 			<h5 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h5"  > Up for a Challenge?</h5>		</div>
 
 						</div>
@@ -1417,7 +1417,7 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 				<div class="elementor-element elementor-element-1e06916 elementor-widget elementor-widget-hub_fancy_heading" data-id="1e06916" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a259b60f" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73ba17b" class="ld-fancy-heading pos-rel">
 			<h5 class="ld-fh-element d-inline-block pos-rel  elementor-heading-title lqd-highlight-classic lqd-highlight-grow-left h5" ><a href="https://secure.qgiv.com/event/fromonetomany/" > Join the 7th Annual SCN2A Warrior Challenge—our largest community fundraising and awareness event. Walk, run, ride, or choose your own challenge to support the FamilieSCN2A Foundation.</a></h5>		</div>
 
 						</div>
@@ -1425,7 +1425,7 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 				<div class="elementor-element elementor-element-e887e7f elementor-widget elementor-widget-hub_fancy_heading" data-id="e887e7f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a259bb3c" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73ba9e6" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left p" ><a href="https://secure.qgiv.com/event/fromonetomany/" > Every mile you move, every dollar you raise, and every voice you rally brings us closer to breakthroughs in research, life-changing support programs, and a brighter future for individuals and families affected by SCN2A-related disorders.</a></p>		</div>
 
 						</div>
@@ -1519,7 +1519,7 @@ The FamilieSCN2A Foundation was founded in 2015 by parents of children diagnosed
 				<div class="elementor-element elementor-element-6f98716 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-hub_fancy_heading" data-id="6f98716" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
 					
-		<div id="ld-fancy-heading-6ac16a259c046" class="ld-fancy-heading pos-rel">
+		<div id="ld-fancy-heading-6ac18d73baffd" class="ld-fancy-heading pos-rel">
 			<p class="ld-fh-element d-inline-block pos-rel  lqd-highlight-classic lqd-highlight-grow-left p"  > The information provided on this website is not intended to diagnose or treat any disease or disorder. <b><a href="https://scn2a.org/pdf/FamilieSC2A%20Privacy%20Policy.pdf" target="_blank">Full Disclaimer &amp; Privacy Policy.</a></b> Please direct any medical-related questions to your physician. &#169; 2025 The FamilieSCN2A Foundation. Web Design by LMTD.</p>		</div>
 
 						</div>
@@ -1630,10 +1630,10 @@ var ekit_config = {"ajaxurl":"https://www.scn2a.org/wp-admin/admin-ajax.php","no
 <script id="smartmenus-js" src="https://www.scn2a.org/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"></script>
 <script id="ui-slim-js" src="https://www.scn2a.org/wp-content/plugins/elementskit-lite/widgets/init/assets/js/ekit-ui.js?ver=4.0.7"></script>
 <script id="ekit-accordion-js" src="https://www.scn2a.org/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/accordion.js?ver=4.0.7"></script>
-<script id="gt_widget_script_78052731-js-before">
-window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['78052731'] = {"default_language":"en","languages":["af","sq","am","ar","hy","az","eu","be","bn","bs","bg","ca","ceb","ny","zh-CN","zh-TW","co","hr","cs","da","nl","en","eo","et","tl","fi","fr","fy","gl","ka","de","el","gu","ht","ha","haw","iw","hi","hmn","hu","is","ig","id","ga","it","ja","jw","kn","kk","km","ko","ku","ky","lo","la","lv","lt","lb","mk","mg","ms","ml","mt","mi","mr","mn","my","ne","no","ps","fa","pl","pt","pa","ro","ru","sm","gd","sr","st","sn","sd","si","sk","sl","so","es","su","sw","sv","tg","ta","te","th","tr","uk","ur","uz","vi","cy","xh","yi","yo","zu"],"url_structure":"none","flag_style":"2d","wrapper_selector":"#gt-wrapper-78052731","alt_flags":{"en":"usa"},"float_switcher_open_direction":"top","switcher_horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
-//# sourceURL=gt_widget_script_78052731-js-before
-</script><script src="https://www.scn2a.org/wp-content/plugins/gtranslate/js/float.js?ver=5.0.1" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="www.scn2a.org" data-gt-widget-id="78052731" defer></script><script id="elementor-pro-webpack-runtime-js" src="https://www.scn2a.org/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.1"></script>
+<script id="gt_widget_script_39479982-js-before">
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['39479982'] = {"default_language":"en","languages":["af","sq","am","ar","hy","az","eu","be","bn","bs","bg","ca","ceb","ny","zh-CN","zh-TW","co","hr","cs","da","nl","en","eo","et","tl","fi","fr","fy","gl","ka","de","el","gu","ht","ha","haw","iw","hi","hmn","hu","is","ig","id","ga","it","ja","jw","kn","kk","km","ko","ku","ky","lo","la","lv","lt","lb","mk","mg","ms","ml","mt","mi","mr","mn","my","ne","no","ps","fa","pl","pt","pa","ro","ru","sm","gd","sr","st","sn","sd","si","sk","sl","so","es","su","sw","sv","tg","ta","te","th","tr","uk","ur","uz","vi","cy","xh","yi","yo","zu"],"url_structure":"none","flag_style":"2d","wrapper_selector":"#gt-wrapper-39479982","alt_flags":{"en":"usa"},"float_switcher_open_direction":"top","switcher_horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+//# sourceURL=gt_widget_script_39479982-js-before
+</script><script src="https://www.scn2a.org/wp-content/plugins/gtranslate/js/float.js?ver=5.0.1" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="www.scn2a.org" data-gt-widget-id="39479982" defer></script><script id="elementor-pro-webpack-runtime-js" src="https://www.scn2a.org/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.1"></script>
 <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.scn2a.org\/wp-admin\/admin-ajax.php","nonce":"18f4d58ac9","urls":{"assets":"https:\/\/www.scn2a.org\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.scn2a.org\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.scn2a.org\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 //# sourceURL=elementor-pro-frontend-js-before

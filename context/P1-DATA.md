@@ -1,23 +1,25 @@
 # P1 data delivery and integration guide
 
-Release: 2026-10-03. Branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2 and SCN8A neighbours. SCN2A supplies the documented same-gene/different-function example; it is also the first backup slice. The source coverage behind this choice is recorded in `SOURCES.md` and `data/curation/coverage_inventory.json`.
+Publication scope: branch `p1/data` bundles the 58-node M1 source/data snapshot, English integration documentation and the platform dependencies needed to reproduce the accepted local database/app workflow. The user has authorized committing and pushing this existing branch. The historical local acceptance and separate publication checks are distinguished in [P1 publication scope](P1-PUBLICATION.md); no cloud deployment or submission is claimed.
 
-Packaging update: **2026-10-04**. The delivery now tracks the original `data/raw/` snapshot: **425 files**, comprising **423 data files**, `.gitkeep` and the `curate_community.py` helper, totalling **50,321,976 bytes**. A fresh checkout includes the source caches needed for offline raw-evidence and PubMed checks. Source retrieval dates remain 2026-10-03; bundling does not change the source-specific copyrights, licences or terms documented in `SOURCES.md`.
+Release: 2026-10-03; M1 execution update: 2026-10-04 (Europe/Berlin). Publication branch: `p1/data`. Primary slice: STXBP1, with SCN2A, KCNQ2 and SCN8A neighbours. SCN2A supplies the documented same-gene/different-function example; it is also the first backup slice. P2's M0 agreement was confirmed by the user on 2026-10-04. Source coverage is recorded in `SOURCES.md` and `data/curation/coverage_inventory.json`.
+
+Current local M1 snapshot: **451 raw files**, comprising **449 data files**, `.gitkeep` and the `curate_community.py` helper, totalling **50,866,487 bytes**. It adds bounded ClinVar discovery and identity records, eight live Bright Data page snapshots, acquisition receipts and coverage restrictions. Retrieval timestamps are UTC, including 2026-10-03 evening requests recorded on October 4 locally. NORD's two new full-page responses remain outside the repository because of the publisher's reproduction restriction. Bundling does not change the source-specific copyrights, licences or terms in `SOURCES.md`.
 
 Temporary signed redirect query parameters and fragments were removed from metadata for publication; the stable `source_url` and original response bytes and hashes are retained. `.gitattributes` disables line-ending conversion for `data/raw/**` to preserve exact provenance hashes across platforms. `curate_community.py` is a historical curation helper; supported replay and rebuilding use `pipeline/fetch_slice.py` and `pipeline/build_graph.py`.
 
-Packaging validation on 2026-10-04 used a clean Git-exported copy containing all 500 project files. Every one of the 425 raw files matched the final snapshot's per-file SHA-256 inventory. The exported copy passed the offline audit of all 76 evidence records, verification of all 159 pinned PubMed records, and all 64 tests.
+The earlier `a1eba9d` packaging baseline had 500 project files and 425 raw files; its clean Git export passed 64 tests. The original M1 native clean-source snapshot passed **86 tests**, all **77 evidence rows and five ClinVar identities**, and the pinned 159-record abstract check. The shared integration later passed **99 pipeline tests** with the same pinned graph. See [M1 native history](P1-M1-EXECUTION.md) and [shared M1 integration record](P1-INTEGRATION.md). Concurrent M2 changes are not certified as a completed M2 milestone by this integration.
 
 ## Delivered baseline
 
-- `data/seed/graph.json`: 54 real nodes, 68 edges, 76 evidence records, four provisional mechanism groups, 69 memberships. No placeholders; every edge has source evidence.
+- `data/seed/graph.json`: 58 real nodes, 69 edges, 77 evidence records, four provisional mechanism groups, 70 memberships. No placeholders; every edge has source evidence.
 - `data/seed/provenance.json`: graph/input digests, evidence-to-source mappings, raw hashes, exact quote or structured-field locators, versions and attribution.
 - `data/seed/demo_paths.json`: primary STXBP1 group/resource journey, SCN2A variant counterexample, shared-investigator path and unknown-query fixture.
 - `data/seed/coverage.json`: dated query coverage, sample limits and graph counts. This file is a P4 input, not a sixth graph table.
 - `data/curation/`: compact reviewed inputs and pinned PMID/NCT/NIH-application manifests. The reviewed graph rebuilds without the full raw cache.
-- `data/raw/`: tracked original snapshot containing 159 nonempty PubMed records, 32 complete study records, 82 NIH annual awards, 29 ontology/API sources and public organization/mechanism snapshots, plus query metadata and original responses.
+- `data/raw/`: reviewed snapshot containing 159 nonempty PubMed records, 32 complete study records, 82 NIH annual awards, 32 pinned ontology/API build sources and public organization/mechanism snapshots, plus bounded ClinVar discovery responses, query metadata and original responses. The reviewed M1 additions are bundled in `p1/data`; publication scope is recorded in [P1-PUBLICATION.md](P1-PUBLICATION.md).
 
-There are 49 tier A and 19 tier B edges; 67 support their scoped relationship and one contradicts assigning a single gain-of-function mechanism to the entire SCN2A disorder spectrum. There are no tier C/D claims. `verified` means checked against the source within the stated scope. Confidence is `null`; calibrated scoring belongs to P2.
+There are 49 tier A and 20 tier B edges; 68 support their scoped relationship and one contradicts assigning a single gain-of-function mechanism to the entire SCN2A disorder spectrum. There are no tier C/D claims. `verified` means checked against the source within the stated scope. Confidence is `null`; calibrated scoring belongs to P2.
 
 ## Rebuild and verify
 
@@ -35,13 +37,13 @@ python pipeline/validate_graph.py
 python -m unittest discover -s pipeline/tests -p 'test_*.py'
 ```
 
-The last three commands work offline from committed curation snapshots. Builds are byte-stable across Python hash seeds. The builder replaces the P1 baseline; use `--output-dir` to compare a rebuild without overwriting later P2 merges:
+The last three commands work offline from the bundled local curation snapshots. Builds are byte-stable across Python hash seeds. The builder replaces the P1 baseline; use `--output-dir` to compare a rebuild without overwriting later P2 merges:
 
 ```bash
 python pipeline/build_graph.py --output-dir /path/to/comparison
 ```
 
-The original caches are bundled in this release. From a fresh checkout, these stronger checks also work offline:
+The current source caches are bundled in the integrated local working tree. Run these stronger checks offline against that snapshot:
 
 ```bash
 python pipeline/validate_graph.py --check-raw
@@ -53,7 +55,7 @@ Raw auditing checks the bundled original response/text hashes, exact quotes and 
 
 ## Reuse, repair or refresh source caches
 
-A fresh checkout already contains the original release caches; no source download is required for the offline checks above. The commands below reuse complete caches and can restore missing records or acquire sources into an alternate data directory:
+The `p1/data` publication snapshot contains the current source caches; no source download is required for the offline checks above. See [publication scope and checks](P1-PUBLICATION.md). The commands below reuse complete caches and can restore missing records or acquire sources into an alternate data directory:
 
 ```bash
 # All selected sources; complete bundled caches are reused:
@@ -71,18 +73,26 @@ python pipeline/fetch_slice.py --sources ontologies community
 
 PubMed restoration pins 159 PMIDs and verifies title, abstract, authors and URL digests independently of retrieval time. Research restoration pins 32 NCT IDs and 82 annual NIH application IDs. An explicit `--refresh` requests current source records; changed, missing or empty records fail for review instead of silently passing as the saved release. Old PubMed records invalidated by refresh are retained under the query's `stale/` directory, outside P2's input directory.
 
-Ontology and community retrieval use their saved source URLs and official releases. The community fetcher imports confirmed mechanism abstracts from the original PubMed XML, which is included in a fresh checkout. When restoring into an empty alternate data directory, run the PubMed step first. Changed page quotes fail rather than being rewritten automatically. After acquisition, inspect changed compact curation files, rebuild, and run the raw audit. Retrieval dates and upstream responses can change, so a new live snapshot is not guaranteed to have the original release's hashes.
+Ontology and community retrieval use their saved source URLs and official releases. The community fetcher imports confirmed mechanism abstracts from the original PubMed XML, which is included in the bundled local snapshot. When restoring into an empty alternate data directory, run the PubMed step first. Changed page quotes fail rather than being rewritten automatically. After acquisition, inspect changed compact curation files, rebuild, and run the raw audit. Retrieval dates and upstream responses can change, so a new live snapshot is not guaranteed to have the original release's hashes.
 
 The individual `fetch_pubmed.py`, `fetch_clinicaltrials.py`, `fetch_reporter.py` and `fetch_ontologies.py` commands remain available for new coverage searches. Query-based expansion is deliberately separate from pinned release replay. Refresh coverage inventory and source review when expanding the curated scope.
 
 Bright Data is implemented as an explicit alternative:
 
 ```bash
-# Configure BRIGHTDATA_API_KEY and BRIGHTDATA_ZONE in local .env first.
+# Configure BRIGHTDATA_API_KEY and BRIGHTDATA_UNLOCKER_ZONE in local .env first.
 python pipeline/fetch_slice.py --sources community --group-backend brightdata --refresh
 ```
 
-This release used direct public-page retrieval. Bright Data requests were tested with fixtures, not live credentials. Both modes respect the fetcher's robots checks and only retrieve public landing pages.
+M1 used Bright Data for eight reviewed public group/resource pages. Every target returned HTTP 200 and its reviewed quote matched verbatim. See `data/raw/groups/brightdata_acquisition.json`. The client accepts documented target status fields and repeated HTTP headers; the provider's outer HTTP 200 alone is not success. Both modes respect target robots checks. Global Genes robots access returned 403 and Orphanet's directory rules denied this bot; neither was bypassed. NORD responses were reviewed locally without bundling them.
+
+For a bounded live probe, load the local environment and select one existing source without replacing reviewed caches:
+
+```powershell
+python -c "import sys; from pathlib import Path; sys.path.insert(0, 'pipeline'); from fetch_slice import load_env; load_env(Path('.env')); import fetch_groups; fetch_groups.main()" --backend brightdata --kind groups --source-id stxbp1_foundation --raw-dir ../tmp/p1-brightdata-probe --report ../tmp/p1-brightdata-probe/result.json --retries 0 --force
+```
+
+This command sends a metered provider request. Normal direct-mode replay accepts the bundled Bright Data cache without credentials; explicit Bright Data selection cannot silently reuse a direct-method cache.
 
 ## P2: extraction, reconciliation and clustering
 
@@ -90,7 +100,7 @@ Read `data/raw/pubmed/<PMID>.json`. Every file has exactly `pmid`, `title`, `abs
 
 Keep ontology namespaces in `ext_ids`; every value is a string. Only explicitly exact ontology aliases enter `synonyms`. Related, broad, narrow or untyped aliases are retained under `props.ontology_synonyms` with their source scope, and must not trigger automatic identity merges. Curated SCN2A subgroups have no invented MONDO ID; use `props.parent_disease` to relate them to `dis_scn2a`.
 
-Preserve the reviewed seed while merging model-derived claims by stable ID. Never promote `stance: contradicts` or neutral limiting evidence to support. The two SCN2A ClinVar identities are joined to separately cited functional assays; their clinical classification alone does not imply gain/loss of function. Model/assay caveats are on each edge and variant `props.functional_scope`.
+Preserve the reviewed seed while merging model-derived claims by stable ID. Never promote `stance: contradicts` or neutral limiting evidence to support. Five ClinVar identities cover all four genes. Only the two SCN2A variants have separately cited functional assays; the three new identity examples retain `effect: unknown` and no mechanism edges. Clinical classification alone does not imply gain/loss of function. Model/assay caveats are on each functional edge and variant `props.functional_scope`. Identity-only variants reference genes through `props.gene_id`; no new relation type or inferred mechanism membership was introduced.
 
 P1's four visual groups are source-reviewed starting groups. The unchanged `cluster.py` currently returns three Louvain disease groups and merges several conditions through HPO overlap. It does not reproduce P1's four mechanism groups or gene multi-membership. Its separate `clusters.generated.json` output should be reviewed before integration; do not silently replace the supplied memberships. P2 still owns extraction, gold-set evaluation, scored inferences, explanations and final clustering.
 
@@ -110,18 +120,22 @@ Retain visible HPO, Mondo, Orphadata and NCBI attribution from `SOURCES.md` when
 
 ## P4: loading, coverage and schema decisions
 
-Use the unchanged SQL migration and `pipeline/load_seed.py`:
+Run this section from the repository root of the `p1/data` checkout, using P4's migration/upsert operator for the intended database. The original `pipeline/load_seed.py` remains available for a deliberate five-table baseline replacement:
 
 ```bash
-# Existing Docker path, when Docker Desktop is available:
+# Integrated Docker path:
 bash run.sh seed
 bash run.sh smoke
 
-# Existing direct PostgreSQL path; DATABASE_URL must point to the intended DB:
-python pipeline/load_seed.py
+# Direct integrated PostgreSQL path; DATABASE_URL must point to the intended DB:
+python scripts/platform.py migrate
+python scripts/platform.py seed
+
+# Deliberate five-table replacement only; removes approved contribution edges:
+# python pipeline/load_seed.py
 ```
 
-The loader replaces the five graph tables. Run it only against the intended prototype database. This machine lacks Docker; the exact migration and unmodified loader were exercised against an isolated PostgreSQL WASM instance with two full loads, exact data round-trips and `anon` SELECT. That verifies SQL/data compatibility but does not substitute for Docker/PostgREST, Supabase, RLS or deployment acceptance.
+The shared Docker PostgreSQL 16.15 database now serves the 58-node M1 snapshot through PostgREST 12.2.3. The literal `bash run.sh seed` and smoke workflow passed; the operator validates and upserts graph/coverage rows while retaining platform records and any approved contributions. Database rows and REST output were compared against the pinned five-table seed, and the database-backed app was checked. The existing `pathnet_pgdata` volume persists the database; db/api/web use `restart: unless-stopped` while Docker is available. This does not configure Windows or Docker boot startup. Original native PostgreSQL 16.14 acceptance remains in `data/acceptance/m1-native.json`; current shared receipts and service commands are in [shared M1 integration record](P1-INTEGRATION.md). Supabase Auth, Edge Runtime and cloud deployment remain outstanding.
 
 Optional repeatable local SQL test:
 
@@ -143,7 +157,7 @@ The response reports what was searched, matched IDs, direct supported A/B edges,
 
 Two schema boundaries are intentionally retained: (1) there is no funder node/edge type, so actual grant funding is represented in award-asset metadata and the existing `asset_disease` relation; (2) no personal email/phone fields are exported. Named public investigators have stable NIH profile IDs and source links; `award_recipient_organization` is explicitly not a personal affiliation. P4 owns dedicated funder relations and any restricted contact view if the team chooses to extend the contract.
 
-Merge the ready-to-paste data section in `P1-README-SECTION.md` into the P4-owned README. The root README and platform/frontend/AI files were not edited by P1.
+The current `P1-README-SECTION.md` has been integrated into the shared root README, including M1 counts, live Bright Data acquisition, source attribution and verified reproduction commands. Platform/frontend/AI implementation remains with its respective owner.
 
 ## Acceptance and remaining integration
 
@@ -162,4 +176,4 @@ Recorded validation on 2026-10-03:
 
 Completed P1 work: source/slice selection and backup; real seed; HPO/Mondo/Orphadata/ClinVar identity and annotation ingestion; pinned literature corpus; trial and grant caches; patient organizations and assets; investigator/funding representation; mechanism counterexample and contradictory evidence; reproducible build; strict contract/provenance validation; source-context audit; per-role handoff and README data section.
 
-External integration still needed: P2's final extraction/gold-set work and human team cross-review, P3's action/persona/label-layout work and coverage wiring, P4's live database/RLS/deployment checks and README integration. Bright Data live verification requires configured credentials. These are explicit integration dependencies; no source, API result, model evaluation or deployment success has been fabricated to fill them.
+M1 additions are recorded in [P1-M1-EXECUTION.md](P1-M1-EXECUTION.md); shared database/README integration is complete and recorded in [shared M1 integration record](P1-INTEGRATION.md). Remaining work: P2 final extraction/gold-set work and M4 peer cross-review; P3 action/persona/label-layout and coverage wiring; P4 real Auth, Edge Runtime, Supabase/cloud deployment and deployed acceptance. Bright Data live verification is complete. M0 slice approval does not imply M4 source-context peer acceptance.

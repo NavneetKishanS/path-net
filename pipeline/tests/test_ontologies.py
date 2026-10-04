@@ -1,13 +1,19 @@
 """Regression tests for evidence-sign and identifier integrity at ingestion."""
 import json
+import copy
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from fetch_ontologies import (SourceCache, active_term, digest, exact_disease_ids,
-                              normalize_clinvar, parse_hpoa, reconcile_gene, term_aliases)
+from fetch_ontologies import (CLINVAR_IDS_BY_GENE, GENES, SourceCache, active_term,
+                              build_slice, canonical_json, clinvar_records, digest,
+                              exact_disease_ids, normalize_clinvar, parse_hpoa,
+                              reconcile_gene, term_aliases)
+
+ROOT = Path(__file__).resolve().parents[2]
 
 
 class HpoTests(unittest.TestCase):
@@ -94,6 +100,92 @@ class CacheTests(unittest.TestCase):
             (path / "source.meta.json").write_text(json.dumps({"source_url": "https://example.org/data", "raw_sha256": digest(b'{"changed":false}')}), encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "provenance mismatch"):
                 SourceCache(path, offline=True).json("source", "https://example.org/data", "HPO")
+
+
+class ClinVarIdentityTests(unittest.TestCase):
+    def setUp(self):
+        self.genes = {
+            "SCN2A": {"id": "gene_scn2a", "ext_ids": {"NCBIGene": "6326"}},
+            "KCNQ2": {"id": "gene_kcnq2", "ext_ids": {"NCBIGene": "3785"}},
+        }
+        self.record = {
+            "uid": "4945793", "title": "NM_172107.4(KCNQ2):c.387+2del",
+            "accession_version": "VCV004945793.1",
+            "genes": [{"symbol": "KCNQ2", "geneid": "3785"}],
+            "germline_classification": {"description": "Pathogenic"},
+            "molecular_consequence_list": ["splice donor variant"],
+            "protein_change": "",
+        }
+
+    def test_missing_substituted_duplicate_or_extra_summary_fails(self):
+        uid = self.record["uid"]
+        valid = {"result": {"uids": [uid], uid: self.record}}
+        cases = []
+        missing = copy.deepcopy(valid)
+        del missing["result"][uid]
+        cases.append(missing)
+        substituted = copy.deepcopy(valid)
+        substituted["result"][uid]["uid"] = "196039"
+        cases.append(substituted)
+        duplicate = copy.deepcopy(valid)
+        duplicate["result"]["uids"].append(uid)
+        cases.append(duplicate)
+        extra = copy.deepcopy(valid)
+        extra["result"]["uids"].append("196039")
+        cases.append(extra)
+        for payload in cases:
+            with self.subTest(payload=payload):
+                with self.assertRaisesRegex(ValueError, "pinned request"):
+                    clinvar_records(payload, (uid,))
+
+    def test_response_order_does_not_reassign_pinned_ids(self):
+        first = {"uid": "196039"}
+        second = {"uid": "194555"}
+        payload = {"result": {"uids": ["194555", "196039"], "196039": first, "194555": second}}
+        self.assertEqual(clinvar_records(payload, ("196039", "194555")), [first, second])
+
+    def test_accession_cannot_be_substituted_for_a_different_variation(self):
+        for accession in ("VCV000196039.1", "VCV004945793", "RCV004945793.1"):
+            with self.subTest(accession=accession):
+                record = {**self.record, "accession_version": accession}
+                with self.assertRaisesRegex(ValueError, "accession/Variation ID mismatch"):
+                    normalize_clinvar(record, self.genes, expected_symbol="KCNQ2")
+
+    def test_another_valid_slice_gene_cannot_satisfy_requested_gene(self):
+        with self.assertRaisesRegex(ValueError, "gene identity mismatch"):
+            normalize_clinvar(self.record, self.genes, expected_symbol="SCN2A")
+        record = copy.deepcopy(self.record)
+        record["genes"].append({"symbol": "UNRELATED", "geneid": "999999"})
+        with self.assertRaisesRegex(ValueError, "gene identity mismatch"):
+            normalize_clinvar(record, self.genes, expected_symbol="KCNQ2")
+
+    def test_splice_or_frameshift_consequence_does_not_assign_function(self):
+        for consequence in ("splice donor variant", "frameshift variant"):
+            with self.subTest(consequence=consequence):
+                record = {**self.record, "molecular_consequence_list": [consequence]}
+                node = normalize_clinvar(record, self.genes, expected_symbol="KCNQ2")
+                self.assertEqual(node["props"]["effect"], "unknown")
+                self.assertEqual(node["props"]["classification"], "Pathogenic")
+                self.assertEqual(node["synonyms"], [])
+
+    def test_all_four_genes_have_pinned_auditable_offline_identity_coverage(self):
+        snapshot = json.loads((ROOT / "data/curation/ontology_slice.json").read_text(encoding="utf-8"))
+        with patch("urllib.request.urlopen", side_effect=AssertionError("Offline build attempted network")):
+            rebuilt = build_slice(SourceCache(ROOT / "data/raw/ontologies", offline=True))
+        self.assertEqual(rebuilt, snapshot)
+        self.assertEqual({v["props"]["gene_symbol"] for v in rebuilt["variants"]}, set(GENES))
+        self.assertEqual(len(rebuilt["variants"]), 5)
+        for variant in rebuilt["variants"]:
+            props = variant["props"]
+            uid = variant["ext_ids"]["ClinVarVariation"]
+            self.assertIn(uid, CLINVAR_IDS_BY_GENE[props["gene_symbol"]])
+            self.assertEqual(props["effect"], "unknown")
+            self.assertNotIn("effect_evidence_edge_ids", props)
+            ev = variant["provenance"]
+            raw = (ROOT / "data" / ev["cache_path"]).read_bytes()
+            self.assertEqual(digest(raw), ev["raw_sha256"])
+            self.assertEqual(json.loads(raw)["result"][uid], ev["source_record"])
+            self.assertEqual(ev["record_sha256"], digest(canonical_json(ev["source_record"]).encode("utf-8")))
 
 
 if __name__ == "__main__":

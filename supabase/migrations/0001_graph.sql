@@ -55,4 +55,4 @@ do $$ begin
   end if;
 end $$;
 grant usage on schema public to anon;
-grant select on all tables in schema public to anon;
+grant select on nodes, edges, evidence, clusters, node_cluster to anon;

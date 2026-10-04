@@ -1,0 +1,132 @@
+{
+  "provider": "Bright Data Web Unlocker",
+  "endpoint": "https://api.brightdata.com/request",
+  "target_response_format": "json",
+  "max_retries_per_request": 0,
+  "credentials_stored": false,
+  "scope": "Eight previously reviewed allowed public community/resource pages; no patient records accessed",
+  "outcome": "live_verified",
+  "sources": [
+    {
+      "source_id": "stxbp1_foundation",
+      "url": "https://www.stxbp1disorders.org/",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:18:32Z",
+      "body_sha256": "e442a8f406240242caf158b8958ce12acaade4729e3a899537755cd2802fd17b",
+      "text_sha256": "b3148b18a19bc76ea8580facd35324069933fa42ff12143aa444ebab3ac0ec97",
+      "evidence_ids": [
+        "ev_group_stxbp1_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/stxbp1_foundation.json"
+    },
+    {
+      "source_id": "stxbp1_starr",
+      "url": "https://www.stxbp1disorders.org/starr",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:10Z",
+      "body_sha256": "9114a93eaa833e35e5fa8296650c7dc0fa9647b7d9acb0fe076b0b718787073a",
+      "text_sha256": "1fa97dcbccebb28ef33a2aab1595a2135cf71cf887ea138b3b400b1d581c7f5a",
+      "evidence_ids": [
+        "ev_asset_starr_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/stxbp1_starr.json"
+    },
+    {
+      "source_id": "familiescn2a",
+      "url": "https://www.scn2a.org/",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:17Z",
+      "body_sha256": "3d9b4646992cd864fe11f113912a163f2985a37cf502dc583340a6125c222100",
+      "text_sha256": "d78ad8d5d9ddfa139e8f5a059d402fcac0449b857754285d88c389e35c088e25",
+      "evidence_ids": [
+        "ev_group_scn2a_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/familiescn2a.json"
+    },
+    {
+      "source_id": "scn2a_dragonfly",
+      "url": "https://scn2a.iamrare.org/",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:23Z",
+      "body_sha256": "72e9191b86886b8a9caa81e86494a6d21fc21ef91cc3607a5e1d19eb4cbe1e4c",
+      "text_sha256": "681a350e8467bfe08491ad0358014b52de63dad0b33df577e4a295f223d56304",
+      "evidence_ids": [
+        "ev_asset_dragonfly_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/scn2a_dragonfly.json"
+    },
+    {
+      "source_id": "kcnq2_cure",
+      "url": "https://www.kcnq2cure.org/our-role/",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:32Z",
+      "body_sha256": "644299acca3a5f7d0484b75f39803aaf574e12d36b4098093a15a807c1ed969e",
+      "text_sha256": "f81e4043ef34535083d2b6f5b9fd6b86b0b9395e536801067dcdca9dcd6132d3",
+      "evidence_ids": [
+        "ev_group_kcnq2_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/kcnq2_cure.json"
+    },
+    {
+      "source_id": "kcnq2_faq",
+      "url": "https://www.kcnq2cure.org/faq/",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:36Z",
+      "body_sha256": "87afd07f45f36ebc220ef0323a1f3bae721b2d1969647cbb6b0484abf2e6fba1",
+      "text_sha256": "c75cadb29e127e65d73f496d01003997473463d93b9b6e8b3abd1a19f1f94c89",
+      "evidence_ids": [
+        "ev_asset_kcnq2_nhs_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/kcnq2_faq.json"
+    },
+    {
+      "source_id": "kcnq2_biorepository",
+      "url": "https://www.kcnq2cure.org/2026/02/25/kcnq2-biorepository/",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:42Z",
+      "body_sha256": "d05b90be20563f2186ecc82c44e16ed31890fda1524b92ce1df8160eded99aee",
+      "text_sha256": "ce371555e15952e17721e143033f117f954ba59dee0b2abca1b238bff0a2a1b9",
+      "evidence_ids": [
+        "ev_asset_kcnq2_biorepository_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/kcnq2_biorepository.json"
+    },
+    {
+      "source_id": "stxbp1_rarex",
+      "url": "https://www.stxbp1disorders.org/rare-x",
+      "outcome": "reviewed",
+      "backend": "brightdata",
+      "target_status": 200,
+      "retrieved_at": "2026-10-03T23:19:49Z",
+      "body_sha256": "36053331d285e8c396492daf68654bda820e11510e660f874ae5c7b8e3d8e928",
+      "text_sha256": "944b03d05b5ecdc2a91107a29672b553ba25ea512656cbdad716be02e4d5dae4",
+      "evidence_ids": [
+        "ev_asset_stxbp1_rarex_disease"
+      ],
+      "unchanged_quotes_matched": 1,
+      "snapshot_path": "raw/groups/stxbp1_rarex.json"
+    }
+  ],
+  "diagnostic_note": "Initial smoke returned target HTTP200 but exposed a repeated-header array shape; client parsing was corrected and the final smoke and seven-source batch passed. Only reviewed target content is bundled."
+}

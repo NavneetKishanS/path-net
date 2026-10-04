@@ -111,18 +111,64 @@
     "clinicaltrials": 32,
     "nih_reporter": 82
   },
+  "milestone_approvals": {
+    "M0": {
+      "approved_by": "P2",
+      "recorded_from": "User confirmation in the P1 task",
+      "recorded_on": "2026-10-04"
+    }
+  },
+  "ontology_coverage": {
+    "genes": [
+      "STXBP1",
+      "SCN2A",
+      "KCNQ2",
+      "SCN8A"
+    ],
+    "mondo_disease_terms": 5,
+    "hpo_terms": 12,
+    "phenotype_annotation_rows": 32,
+    "clinvar_variation_ids_by_gene": {
+      "STXBP1": [
+        "4904548"
+      ],
+      "SCN2A": [
+        "196039",
+        "194555"
+      ],
+      "KCNQ2": [
+        "4945793"
+      ],
+      "SCN8A": [
+        "4916868"
+      ]
+    },
+    "clinvar_scope": "Five pinned identity examples across all four genes, not an exhaustive or representative variant sample. Clinical classification and consequence do not establish functional effect.",
+    "orphadata_scope": "Assessed STXBP1 and KCNQ2 gene associations use exact Orphanet identities; SCN2A and SCN8A disease-gene associations use MONDO. Broader Orphanet mappings are not assumed equivalent."
+  },
+  "community_acquisition": {
+    "backend": "brightdata",
+    "verified_public_pages": 8,
+    "receipt": "raw/groups/brightdata_acquisition.json",
+    "coverage_attempts": "raw/groups/coverage_attempts.json",
+    "scope": "Reviewed group and resource pages only; public landing pages, no patient records or private contacts.",
+    "nord": "Two official pages fetched for local review only; full responses excluded from the repository because of the publisher's reproduction restriction.",
+    "global_genes": "robots.txt returned HTTP 403; permission was not established and no page or proxy request was sent.",
+    "orphanet_directory": "Published robots rules deny this research bot; no page or proxy request was sent. Orphadata API coverage is recorded separately."
+  },
   "limitations": [
     "Selected sources and bounded query samples, not exhaustive disease coverage.",
     "No missing association is treated as evidence that no association exists.",
     "Source statuses and identifiers are pinned to the retrieval snapshot; live changes require review.",
-    "Direct organization-page retrieval was used; Bright Data backend was not exercised live."
+    "Eight reviewed organization/resource pages were fetched through Bright Data; denied or restricted directories are explicitly recorded, not bypassed.",
+    "NORD full-page responses are local audit material only and are not part of the bundled cache."
   ],
   "graph_counts": {
-    "nodes": 54,
-    "edges": 68,
-    "evidence": 76,
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
     "clusters": 4,
-    "node_cluster": 69
+    "node_cluster": 70
   },
-  "graph_sha256": "508724167dc7c8af5241dbc7c6483f614653a36b90740df611d7d88cf8a593cf"
+  "graph_sha256": "6f5f4e162cd621271e87c0ac849c527b5dc35e624ce486c8421b8daf928bac3b"
 }

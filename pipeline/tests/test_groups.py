@@ -12,7 +12,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from fetch_groups import (BRIGHTDATA_ENDPOINT, FetchError, PublicFetcher, RobotsDenied,
-                          extract_text, quote_locator, sha256, validate_curation, refresh_provenance)
+                          extract_text, quote_locator, sha256, validate_curation, refresh_provenance, main)
 
 
 def response(status=200, body="", headers=None):
@@ -109,6 +109,72 @@ class PublicFetcherTests(unittest.TestCase):
         self.assertEqual(session.calls[1][1], BRIGHTDATA_ENDPOINT)
         self.assertEqual(session.calls[1][2]["json"], {"zone": "test-zone", "url": self.source["url"], "format": "json"})
         self.assertNotIn("sensitive-test-key", json.dumps(record))
+
+    def test_provider_target_status_is_checked_in_both_documented_shapes(self):
+        for key in ("status", "status_code"):
+            with self.subTest(key=key):
+                status, headers, body = PublicFetcher._provider_response(response(body=json.dumps({
+                    key: 403, "headers": {"Content-Type": "text/html", "Set-Cookie": ["example=a", "test=b"]}, "body": "Access denied"})))
+                self.assertEqual(status, 403)
+                self.assertEqual(headers, {"content-type": "text/html", "set-cookie": "example=a, test=b"})
+                self.assertEqual(body, b"Access denied")
+        for payload in ["not-json", "[]", '{"body":"secret-provider-content"}',
+                        '{"status":200,"status_code":403,"body":"secret-provider-content"}',
+                        '{"status":200,"headers":[],"body":"secret-provider-content"}',
+                        '{"status":200,"body":null}']:
+            with self.subTest(payload=payload), self.assertRaises(FetchError) as raised:
+                PublicFetcher._provider_response(response(body=payload))
+            self.assertNotIn("secret-provider-content", str(raised.exception))
+
+    def test_backend_change_cannot_masquerade_as_live_provider_validation(self):
+        self.fetcher(FakeSession([response(404), response(body="<p>Community</p>")])).fetch(self.source)
+        session = FakeSession([])
+        with patch.dict(os.environ, {"BRIGHTDATA_API_KEY": "test", "BRIGHTDATA_UNLOCKER_ZONE": "test"}):
+            with self.assertRaisesRegex(FetchError, "Cached backend differs"):
+                self.fetcher(session, backend="brightdata").fetch(self.source)
+        self.assertEqual(session.calls, [])
+
+    def test_released_provider_cache_replays_offline_without_credentials(self):
+        session = FakeSession([response(404), response(body=json.dumps({
+            "status_code": 200, "headers": {}, "body": "<p>Reviewed community page.</p>"}))])
+        with patch.dict(os.environ, {"BRIGHTDATA_API_KEY": "test", "BRIGHTDATA_UNLOCKER_ZONE": "test"}):
+            record = self.fetcher(session, backend="brightdata").fetch(self.source)
+        offline = FakeSession([])
+        with patch.dict(os.environ, {"BRIGHTDATA_API_KEY": "", "BRIGHTDATA_UNLOCKER_ZONE": ""}):
+            self.assertEqual(self.fetcher(offline).fetch(self.source), record)
+        self.assertEqual(offline.calls, [])
+
+    def test_denied_robots_access_is_not_reported_as_a_publisher_rule(self):
+        with self.assertRaisesRegex(RobotsDenied, "HTTP 403.*permission is not established"):
+            self.fetcher(FakeSession([response(403)])).fetch(self.source)
+
+    def test_cli_selection_and_alternate_cache_bound_provider_validation(self):
+        curation = Path(self.temp.name) / "curation.json"
+        curation.write_text(json.dumps({"sources": [self.source, {**self.source, "id": "other"}]}), encoding="utf-8")
+        args = ["fetch_groups.py", "--curation", str(curation), "--raw-dir", str(self.raw),
+                "--source-id", "group", "--backend", "brightdata", "--retries", "0"]
+        with patch.object(sys, "argv", args), patch("fetch_groups.PublicFetcher") as factory:
+            factory.return_value.fetch.return_value = {"backend": "brightdata", "status_code": 200,
+                "retrieved_at": "2026-10-03T23:00:00Z", "body_sha256": "test-body", "text_sha256": "test-text"}
+            main()
+        factory.assert_called_once_with(raw_dir=self.raw, backend="brightdata", max_age_hours=24, retries=0, offline=False)
+        factory.return_value.fetch.assert_called_once_with(self.source, force=False)
+        with patch.object(sys, "argv", args + ["--source-id", "missing"]), patch("fetch_groups.PublicFetcher") as factory:
+            with self.assertRaises(SystemExit):
+                main()
+        factory.assert_not_called()
+
+    def test_offline_replay_ignores_age_and_cannot_fall_back_to_network(self):
+        original = self.fetcher(FakeSession([response(404), response(body="<p>Reviewed old page.</p>")])).fetch(self.source)
+        stale_clock = lambda: 4102444800
+        session = FakeSession([])
+        replay = self.fetcher(session, offline=True, clock=stale_clock)
+        self.assertEqual(replay.fetch(self.source), original)
+        with self.assertRaisesRegex(FetchError, "Offline cache is missing"):
+            replay.fetch({**self.source, "id": "missing"})
+        with self.assertRaisesRegex(FetchError, "prohibits network"):
+            replay._request("GET", self.source["url"])
+        self.assertEqual(session.calls, [])
 
     def test_quote_validation_requires_exact_text_hash_offsets_url_and_date(self):
         session = FakeSession([response(404), response(body="<p>A natural history study for Gene A.</p>")])

@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-04T00:25:40+00:00",
+  "runtime": "Docker Compose PostgreSQL/PostgREST; shared project database",
+  "database": "pathnet",
+  "api_url": "http://127.0.0.1:3001",
+  "web_url": "http://127.0.0.1:5173",
+  "graph_file_sha256": "c469a8ff133dcddb4146c54de9e5a93e1891f01e752c58bd4a70cbddb02b4d8f",
+  "counts": {
+    "nodes": 58,
+    "edges": 69,
+    "evidence": 77,
+    "clusters": 4,
+    "node_cluster": 70
+  },
+  "checks": {
+    "all_five_sql_tables_exact": true,
+    "all_prior_graph_identities_retained": true,
+    "platform_roles_contacts_contributions_preserved": true,
+    "rebuilt_caches_exact": true,
+    "all_five_anonymous_rest_tables_exact": true,
+    "anonymous_protected_tables_denied": true,
+    "anonymous_cache_scope_and_current_coverage": true,
+    "web_http_rest_configuration_and_cors": true,
+    "persistent_volume_and_service_restart_policies": true,
+    "verified_after_explicit_service_restart": true,
+    "actual_frontend_loadGraph_rest_exact": true,
+    "standard_run_sh_smoke_passed": true,
+    "integrated_four_file_rebuild_byte_identical": true
+  },
+  "server_version": "PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+  "migration_count": 2,
+  "preserved_platform_counts": {
+    "user_roles": 0,
+    "organizations": 0,
+    "organization_members": 0,
+    "professional_contact_records": 0,
+    "contributions": 0
+  },
+  "cache_counts": {
+    "explanations": 20,
+    "coverage": 1
+  },
+  "postgrest_version": "postgrest/12.2.3",
+  "services": {
+    "pathnet-db-1": {
+      "running": true,
+      "restart_policy": "unless-stopped"
+    },
+    "pathnet-api-1": {
+      "running": true,
+      "restart_policy": "unless-stopped"
+    },
+    "pathnet-web-1": {
+      "running": true,
+      "restart_policy": "unless-stopped"
+    }
+  },
+  "database_volume": "pathnet_pgdata",
+  "commands": [
+    "bash run.sh seed",
+    "docker compose up -d db api web",
+    "node scripts/build_platform_cache.mjs",
+    "python scripts/platform.py cache",
+    "docker compose restart db api web"
+  ],
+  "status": "passed",
+  "browser": {
+    "data_source": "rest",
+    "stxbp1_search_and_new_rarex_record": true,
+    "rarex_verified_evidence_url_quote_date": true,
+    "unknown_query_no_supported_route": true,
+    "rechecked_after_service_restart": true,
+    "error_logs": 0,
+    "screenshot": "data/acceptance/m1-docker-browser.jpg",
+    "screenshot_sha256": "a1030819d5d0728c4a78ee04c31306f7e1155edd29fdcc9e65d83a50de35df2f"
+  },
+  "regression": {
+    "pipeline_tests_passed": 99,
+    "raw_evidence_checks_passed": 77,
+    "pinned_pubmed_records_verified": 159,
+    "rls_assertions_passed": 168,
+    "endpoint_tests_passed": 21,
+    "operator_unit_tests_passed": 5,
+    "operator_integration_passed": true,
+    "cache_supersession_preserves_unrelated_paths_and_audiences": true,
+    "frontend_production_build_passed": true
+  },
+  "integration_scope": "Local shared checkout on p4/platform; working changes remain uncommitted. Cloud/Auth/deployment and human P1/P2 peer review are outside this acceptance."
+}

@@ -149,6 +149,70 @@ def validate_provenance(graph: dict, provenance: dict, data_dir: Path = DATA_DIR
             errors.append(f"Missing or invalid curation input {relative}")
         elif digest(json.loads(path.read_text(encoding="utf-8"))) != expected:
             errors.append(f"Curation input changed: {relative}; rebuild and review the release.")
+    # Identity-only variants may have no functional edge. Audit their original
+    # ClinVar records as well as edge evidence so they cannot escape raw checks.
+    nodes = {n["id"]: n for n in graph.get("nodes", [])}
+    for node in nodes.values():
+        if node.get("type") != "variant" or not ({"ClinVar", "ClinVarVariation"} & node.get("ext_ids", {}).keys()):
+            continue
+        binding = provenance.get("nodes", {}).get(node["id"], {})
+        source = binding.get("source_record", {})
+        record = source.get("source_record", {})
+        tag = node["id"]
+        if not source or not record:
+            errors.append(f"{tag}: missing ClinVar identity provenance")
+            continue
+        if binding.get("curation_file") not in provenance.get("curation_inputs", {}):
+            errors.append(f"{tag}: missing reviewed curation binding")
+        if not valid_url(source.get("source_url")) or not source.get("source_record_locator"):
+            errors.append(f"{tag}: invalid ClinVar source locator")
+        if source.get("record_sha256") != digest(record):
+            errors.append(f"{tag}: ClinVar source record digest mismatch")
+        if (str(record.get("uid")) != node["ext_ids"].get("ClinVarVariation")
+                or record.get("accession_version") != node["ext_ids"].get("ClinVar")
+                or record.get("title") != node.get("name")):
+            errors.append(f"{tag}: ClinVar node identity differs from the reviewed record")
+        props = node.get("props", {})
+        classification = record.get("germline_classification", {})
+        for key, expected in (("classification", classification.get("description", "")),
+                              ("review_status", classification.get("review_status", "")),
+                              ("last_evaluated", classification.get("last_evaluated", "")),
+                              ("molecular_consequences", record.get("molecular_consequence_list", []))):
+            if key in props and props[key] != expected:
+                errors.append(f"{tag}: ClinVar clinical property {key} differs from the reviewed record")
+        gene = nodes.get(props.get("gene_id"), {})
+        gene_ids = {str(g.get("geneid")) for g in record.get("genes", [])}
+        if gene.get("type") != "gene" or gene.get("ext_ids", {}).get("NCBIGene") not in gene_ids:
+            errors.append(f"{tag}: ClinVar gene identity mismatch")
+        if props.get("effect") not in (None, "", "unknown"):
+            claimed = set(props.get("effect_evidence_edge_ids", []))
+            supporting = {e["id"] for e in graph.get("edges", [])
+                          if e.get("src") == tag and e.get("type") == "gene_variant_mechanism"
+                          and e.get("stance") == "supports" and e.get("status") == "verified"
+                          and e.get("tier") in {"A", "B"}
+                          and nodes.get(e.get("dst"), {}).get("type") == "mechanism"
+                          and nodes.get(e.get("dst"), {}).get("props", {}).get("effect") == props["effect"]}
+            if not claimed or not claimed <= supporting:
+                errors.append(f"{tag}: functional effect lacks referenced, matching source-backed mechanism edges")
+        if check_raw:
+            relative = source.get("cache_path", "")
+            path = (data_dir / relative).resolve()
+            if not relative or not path.is_relative_to(data_dir.resolve()) or not path.is_file():
+                errors.append(f"{tag}: missing or invalid ClinVar raw cache")
+                continue
+            body = path.read_bytes()
+            if (not re.fullmatch(r"[0-9a-f]{64}", source.get("raw_sha256", ""))
+                    or hashlib.sha256(body).hexdigest() != source["raw_sha256"]):
+                errors.append(f"{tag}: ClinVar raw cache digest mismatch")
+            try:
+                original = json.loads(body)
+                locator = source["source_record_locator"].split(".")
+                for key in locator:
+                    original = original[key]
+                if digest(original) != source["record_sha256"]:
+                    errors.append(f"{tag}: ClinVar raw record differs from the reviewed identity")
+            except (ValueError, KeyError, TypeError):
+                errors.append(f"{tag}: invalid ClinVar raw record locator")
     for ev in graph.get("evidence", []):
         p = audit.get(ev["id"])
         if not p:

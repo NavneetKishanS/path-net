@@ -56,7 +56,7 @@ def build(curation_dir: Path):
             elif node["type"] == "mechanism":
                 plain = node["props"].get("scope", node["name"])
             elif node["type"] == "variant":
-                plain = "A specific DNA change recorded in ClinVar. Functional effects are supported separately by the linked experimental evidence."
+                plain = "A specific DNA change recorded in ClinVar. Clinical classification does not establish its functional effect; follow separately cited assay evidence where available."
             else:
                 plain = node["props"].get("scope") or node["props"].get("reuse_status") or node["name"]
             node["props"]["plain"] = plain

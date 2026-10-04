@@ -2,6 +2,8 @@
 
 Owner: ______________ · Sleeps 05:00 to 09:00 · Read `context/00-PROJECT.md` first.
 
+Local integration status (2026-10-04): the 58-node P1 M1 snapshot is loaded into the persistent shared Docker database and read by the app. The exact seed command, README reproduction and browser checks are recorded in [P1-INTEGRATION.md](../P1-INTEGRATION.md); full platform/cloud/media gates remain tracked in [P4-TASK-STATUS.md](../P4-TASK-STATUS.md).
+
 ## Mission
 Own the foundation (schema, roles, deploy) and the story (README, demo script, videos, submission). You are also the integrator: keep `main` working and gate-tag known-good builds.
 
@@ -40,7 +42,7 @@ bash run.sh smoke     # prints row counts and checks the web server
 - [ ] End-to-end smoke test of the demo path with all five logins.
 
 **M4 (10:00 to 13:00)**
-- [ ] README: architecture with the diagram, and the exact reproduce-the-dataset commands.
+- [x] README: architecture diagram and exact reproduce-the-dataset commands, updated and verified for the current 58-node M1 snapshot.
 - [ ] Record the 1-minute walkthrough with ElevenLabs voiceover, and the team video.
 - [ ] Record a backup screen capture in case the live demo fails.
 

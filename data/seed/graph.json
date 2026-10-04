@@ -234,6 +234,25 @@
       }
     },
     {
+      "id": "asset_stxbp1_rarex",
+      "type": "asset",
+      "name": "STXBP1 RARE-X Data Collection Program",
+      "synonyms": [
+        "STXBP1 Disorders Data Collection Program"
+      ],
+      "ext_ids": {},
+      "props": {
+        "asset_type": "patient_data_collection_program",
+        "url": "https://www.stxbp1disorders.org/rare-x",
+        "access": "Public program information; participant-level data were not accessed",
+        "reuse_status": "Researcher access, consent and suitability require program-team review",
+        "next_step": "Review the foundation program information and contact the program about data access for a defined research question.",
+        "plain": "Researcher access, consent and suitability require program-team review",
+        "kind": "patient_data_collection_program",
+        "source_url": "https://www.stxbp1disorders.org/rare-x"
+      }
+    },
+    {
       "id": "dis_kcnq2",
       "type": "disease",
       "name": "developmental and epileptic encephalopathy, 7",
@@ -1365,8 +1384,8 @@
           "missense variant"
         ],
         "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/194555/",
-        "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function.",
-        "plain": "A specific DNA change recorded in ClinVar. Functional effects are supported separately by the linked experimental evidence.",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function.",
+        "plain": "A specific DNA change recorded in ClinVar. Clinical classification does not establish its functional effect; follow separately cited assay evidence where available.",
         "effect_evidence_edge_ids": [
           "scn2a_r853q_lof"
         ],
@@ -1395,12 +1414,88 @@
           "missense variant"
         ],
         "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/196039/",
-        "functional_effect_note": "Clinical significance and missense consequence do not establish gain or loss of function.",
-        "plain": "A specific DNA change recorded in ClinVar. Functional effects are supported separately by the linked experimental evidence.",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function.",
+        "plain": "A specific DNA change recorded in ClinVar. Clinical classification does not establish its functional effect; follow separately cited assay evidence where available.",
         "effect_evidence_edge_ids": [
           "scn2a_r1882q_gof"
         ],
         "functional_scope": "Human Nav1.2 R1882Q showed GoF in transfected HEK cells; variant identity is separately supported by ClinVar."
+      }
+    },
+    {
+      "id": "var_clinvar_4904548",
+      "type": "variant",
+      "name": "NM_001032221.6(STXBP1):c.1655G>T (p.Cys552Phe)",
+      "synonyms": [
+        "C552F, C538F, C516F, C549F"
+      ],
+      "ext_ids": {
+        "ClinVar": "VCV004904548.1",
+        "ClinVarVariation": "4904548"
+      },
+      "props": {
+        "gene_id": "gene_stxbp1",
+        "gene_symbol": "STXBP1",
+        "effect": "unknown",
+        "classification": "Likely pathogenic",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2020/10/07 00:00",
+        "molecular_consequences": [
+          "missense variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4904548/",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function.",
+        "plain": "A specific DNA change recorded in ClinVar. Clinical classification does not establish its functional effect; follow separately cited assay evidence where available."
+      }
+    },
+    {
+      "id": "var_clinvar_4916868",
+      "type": "variant",
+      "name": "NM_001330260.2(SCN8A):c.5190T>A (p.Ser1730Arg)",
+      "synonyms": [
+        "S1730R, S1689R"
+      ],
+      "ext_ids": {
+        "ClinVar": "VCV004916868.1",
+        "ClinVarVariation": "4916868"
+      },
+      "props": {
+        "gene_id": "gene_scn8a",
+        "gene_symbol": "SCN8A",
+        "effect": "unknown",
+        "classification": "Likely pathogenic",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2023/09/12 00:00",
+        "molecular_consequences": [
+          "missense variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4916868/",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function.",
+        "plain": "A specific DNA change recorded in ClinVar. Clinical classification does not establish its functional effect; follow separately cited assay evidence where available."
+      }
+    },
+    {
+      "id": "var_clinvar_4945793",
+      "type": "variant",
+      "name": "NM_172107.4(KCNQ2):c.387+2del",
+      "synonyms": [],
+      "ext_ids": {
+        "ClinVar": "VCV004945793.1",
+        "ClinVarVariation": "4945793"
+      },
+      "props": {
+        "gene_id": "gene_kcnq2",
+        "gene_symbol": "KCNQ2",
+        "effect": "unknown",
+        "classification": "Pathogenic",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2024/11/22 00:00",
+        "molecular_consequences": [
+          "splice donor variant"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4945793/",
+        "functional_effect_note": "Clinical significance and molecular consequence do not establish gain or loss of function.",
+        "plain": "A specific DNA change recorded in ClinVar. Clinical classification does not establish its functional effect; follow separately cited assay evidence where available."
       }
     }
   ],
@@ -1448,6 +1543,17 @@
       "stance": "supports",
       "status": "verified",
       "note": "STARR is observational natural-history infrastructure for STXBP1-RD; it does not test a new therapy."
+    },
+    {
+      "id": "asset_stxbp1_rarex_disease",
+      "src": "asset_stxbp1_rarex",
+      "dst": "dis_stxbp1",
+      "type": "asset_disease",
+      "tier": "B",
+      "confidence": null,
+      "stance": "supports",
+      "status": "verified",
+      "note": "Foundation describes an STXBP1 patient-owned data-collection program enabled by RARE-X; clinical efficacy and current data availability are not established."
     },
     {
       "id": "e_asset_disease_asset_nih_11261066_dis_scn8a",
@@ -2228,6 +2334,15 @@
       "retrieved_at": "2026-10-03"
     },
     {
+      "id": "ev_asset_stxbp1_rarex_disease",
+      "edge_id": "asset_stxbp1_rarex_disease",
+      "source_type": "patient_organization",
+      "source_url": "https://www.stxbp1disorders.org/rare-x",
+      "pmid": null,
+      "snippet": "The STXBP1 Disorders Data Collection Program will be patient-owned but enabled by RARE-X technology.",
+      "retrieved_at": "2026-10-03"
+    },
+    {
       "id": "ev_disease_gene_dis_kcnq2_gene_kcnq2_supports_7422f36593",
       "edge_id": "e_disease_gene_dis_kcnq2_gene_kcnq2_supports",
       "source_type": "orphadata",
@@ -2923,6 +3038,10 @@
     },
     {
       "node_id": "asset_starr_natural_history",
+      "cluster_id": "c_stxbp1_synaptic"
+    },
+    {
+      "node_id": "asset_stxbp1_rarex",
       "cluster_id": "c_stxbp1_synaptic"
     },
     {

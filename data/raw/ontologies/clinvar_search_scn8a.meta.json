@@ -1,0 +1,14 @@
+{
+  "source_id": "clinvar_search_scn8a",
+  "provider": "ClinVar",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=SCN8A%5Bgene%5D+AND+pathogenic%5BClinical+significance%5D+AND+single_gene%5Bprop%5D&retmode=json&retmax=5",
+  "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=SCN8A%5Bgene%5D+AND+pathogenic%5BClinical+significance%5D+AND+single_gene%5Bprop%5D&retmode=json&retmax=5",
+  "retrieved_at": "2026-10-03T23:05:18.655460+00:00",
+  "cache_path": "raw/ontologies/clinvar_search_scn8a.json",
+  "raw_sha256": "22c5c968b8851686a81209381311e60ed554401d5d5b1abbf4f8669268a30610",
+  "bytes": 586,
+  "etag": null,
+  "last_modified": null,
+  "license": "Public NCBI database; cite ClinVar and original submitters",
+  "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/"
+}

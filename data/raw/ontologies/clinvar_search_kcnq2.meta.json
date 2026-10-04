@@ -1,0 +1,14 @@
+{
+  "source_id": "clinvar_search_kcnq2",
+  "provider": "ClinVar",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=KCNQ2%5Bgene%5D+AND+pathogenic%5BClinical+significance%5D+AND+single_gene%5Bprop%5D&retmode=json&retmax=5",
+  "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=KCNQ2%5Bgene%5D+AND+pathogenic%5BClinical+significance%5D+AND+single_gene%5Bprop%5D&retmode=json&retmax=5",
+  "retrieved_at": "2026-10-03T23:05:18.118428+00:00",
+  "cache_path": "raw/ontologies/clinvar_search_kcnq2.json",
+  "raw_sha256": "377c409e6f52b01196079fbcab6280b820fa341293fb5ab5231123d4e9d7b585",
+  "bytes": 587,
+  "etag": null,
+  "last_modified": null,
+  "license": "Public NCBI database; cite ClinVar and original submitters",
+  "license_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/"
+}
