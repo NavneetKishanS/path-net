@@ -17,6 +17,7 @@ import { RoleSwitcher } from './role-switcher'
 import { ThemeToggle } from './theme-toggle'
 import { AccountMenu } from '@/components/account/account-menu'
 import { Onboarding } from '@/components/account/onboarding'
+import { LandingSplash } from '@/components/landing/landing-splash'
 
 const NAV: { href: string; label: string; panel: PanelId; fullOnly?: boolean }[] = [
   { href: '/action', label: 'Action plan', panel: 'action', fullOnly: true },
@@ -98,6 +99,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <DataFooter plain={detail === 'plain'} />
       <EvidenceDrawer />
       <Onboarding />
+      <LandingSplash />
     </div>
   )
 }
