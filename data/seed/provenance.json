@@ -7394,6 +7394,145 @@
       ],
       "evidence_sha256": "2753975dacb3a7a87c320f9fb6e62fca47640304495eeb3709570602e6b85370",
       "record_sha256": "d588849123beee6846053deacb1a11601500ebf6d917a3a6ab38af3e528ba4ce"
+    },
+    "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis_ev0": {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38651838/",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/mechanisms/pmid_38651838.body",
+          "sha256": "d4974e26e23385e9b99cf733859d1ffe36f5cdd433ef84714741dbbd603c5eeb"
+        },
+        {
+          "path": "raw/mechanisms/pmid_38651838.txt",
+          "sha256": "ed4871770c423ee1c2d4c514ddbcf76f83f022131254a2a395c325d65688cf99",
+          "contains": [
+            "gain-of-function and mixed function variants predominated in neonatal-onset epilepsy"
+          ]
+        }
+      ],
+      "evidence_sha256": "7de5cbe49cb51d0957219752ab3387abc4bc50096087790abe3c53d7c6884269"
+    },
+    "bridge_shares_mechanism_with_dis_scn2a_neonatal_epilepsy_dis_ev1": {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34431999/",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/mechanisms/pmid_34431999.body",
+          "sha256": "9be6797880c75a39d919b34e9de4bb4dffb667c750ab1f6f63efd3114a04da02"
+        },
+        {
+          "path": "raw/mechanisms/pmid_34431999.txt",
+          "sha256": "ffc60febb5a01ef7492f5c620ec6420e790c1445e8c52eb66621bc4abbb7b553",
+          "contains": [
+            "Two variants causing developmental and epileptic encephalopathy showed a strong gain-of-function"
+          ]
+        }
+      ],
+      "evidence_sha256": "cb2b4b784e54ec7fb8d9c0129e0dcb5aac739945163801394fa3c5276f1e4431"
+    },
+    "bridge_shares_investigator_dis_scn2a_dis_scn8a_ev0": {
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11301017.json",
+          "sha256": "43b8fc9001df760d21afad38b7b8e92661324fd297f25d1a4fbc5ce75470d764",
+          "contains": [
+            "Ingo  Helbig",
+            "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "091fab61359c5ba912df717f39333eb7e201388c92529287232d1e5ce03a5553"
+    },
+    "bridge_shares_investigator_dis_scn2a_dis_scn8a_ev1": {
+      "source_url": "https://reporter.nih.gov/project-details/11310175",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11310175.json",
+          "sha256": "61d5d31bf82e3814924d14c793bc3feaaa749564ecd3d77eebd57f7649a39f78",
+          "contains": [
+            "Ingo  Helbig",
+            "STXBP1- and SCN8A-related disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "cd6fa779c3d930645e7b74f5ba42ed4887193034e14af9ae952d8ed2da908f1a"
+    },
+    "bridge_shares_investigator_dis_scn2a_dis_stxbp1_ev0": {
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11301017.json",
+          "sha256": "43b8fc9001df760d21afad38b7b8e92661324fd297f25d1a4fbc5ce75470d764",
+          "contains": [
+            "Ingo  Helbig",
+            "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "f189729d5ab778e199e55f2a2c172cdfe47b42812cc598fb56d316782a334d05"
+    },
+    "bridge_shares_investigator_dis_scn8a_dis_stxbp1_ev0": {
+      "source_url": "https://reporter.nih.gov/project-details/11310175",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11310175.json",
+          "sha256": "61d5d31bf82e3814924d14c793bc3feaaa749564ecd3d77eebd57f7649a39f78",
+          "contains": [
+            "Ingo  Helbig",
+            "STXBP1- and SCN8A-related disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "34cd00e51c464679c8c75080dae83b89313b5482e00609452b740858ed6d3a6d"
+    },
+    "bridge_shares_investigator_dis_scn8a_dis_stxbp1_ev1": {
+      "source_url": "https://reporter.nih.gov/project-details/11301017",
+      "curation_file": "pipeline/bridge_edges.py",
+      "verification": "derived",
+      "source_id": null,
+      "source_record_locator": null,
+      "source_record": null,
+      "raw_checks": [
+        {
+          "path": "raw/reporter/projects/11301017.json",
+          "sha256": "43b8fc9001df760d21afad38b7b8e92661324fd297f25d1a4fbc5ce75470d764",
+          "contains": [
+            "Ingo  Helbig",
+            "SCN2A-related disorders and to STXBP1-\nrelated disorders"
+          ]
+        }
+      ],
+      "evidence_sha256": "18dc01464274cb833ec540993c306c94d984db6c4084cbb1099ff92c7fbb87f7"
     }
   },
   "sources": [
@@ -8639,7 +8778,7 @@
     "HUGO Gene Nomenclature Committee (HGNC), CC0; approved gene symbols and identifiers are retained.",
     "NCBI ClinVar; variant accession versions and original supporting submission identifiers are retained in provenance."
   ],
-  "graph_sha256": "3dc7bce4e274f39041e7f61451f79ae65f7b47226b3e08acedcc60df9219e9c2",
+  "graph_sha256": "60e269b23bee478e3c097da36122868f395671128136f41632e58db1fa2a875b",
   "confidence_policy": "Null means not calibrated. Verified means checked against the cited source within the stated scope, not clinical certainty.",
   "release_date": "2026-10-03"
 }

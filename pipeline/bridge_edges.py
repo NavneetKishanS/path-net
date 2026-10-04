@@ -13,15 +13,19 @@ Confidence rule (deterministic, not model-scored -- these are graph inferences, 
 from text): Jaccard overlap of each disease's full set of mechanism (or investigator) links,
 clamped to [0.05, 0.95]. Two diseases that share one mechanism out of five each is a weaker
 bridge than two diseases whose only mechanism is the shared one; Jaccard captures that where
-a raw shared-count would not. The clamp keeps a tier-C hypothesis from ever reading as certain
-(and avoids rounding to exactly 0 or 1, which would be an obviously-fabricated precision).
+a raw shared-count would not. Recorded in the edge's `note` text, not the structured
+`confidence` field, which stays null -- every other edge in this graph follows the same
+"null means not calibrated" policy (provenance.json's confidence_policy), and populating a
+numeric score here would be the only edge type in the whole graph claiming otherwise.
 
 Every evidence row reuses a real source_url already in the seed (the contributing
 disease_mechanism or investigator_disease edge's own evidence) -- nothing is invented, and the
 snippet is clearly framed as a derivation, not a quote. Tier is always C, status "unverified"
 (validate_graph.py forbids tier C + verified), stance "supports".
 
-Does NOT touch data/seed/graph.json (P1's file). Writes a review proposal:
+Called automatically as the final step of build_graph.py's build() (pure graph inference over
+the baseline, no LLM, so it belongs in the reproducible build). Run standalone to preview the
+proposal without rebuilding everything:
     data/seed/bridge_edges.generated.json
 Owner: P2.
 """
@@ -79,7 +83,11 @@ def propose(seed: dict) -> dict:
             shared_names = ", ".join(sorted(names.get(s, s) for s in shared))
             new_edges.append({
                 "id": edge_id, "src": a, "dst": b, "type": edge_type, "tier": "C",
-                "confidence": conf, "stance": "supports", "status": "unverified",
+                # confidence stays null, matching the project-wide "not calibrated yet" policy
+                # every other edge follows (provenance.json's confidence_policy) -- the Jaccard
+                # score is still recorded, just as descriptive text rather than a structured
+                # field other code may assume is always null.
+                "confidence": None, "stance": "supports", "status": "unverified",
                 "note": f"Inferred (Jaccard {conf}): both diseases have a verified {label} link to {shared_names}. A hypothesis to check, not a proven shared biology.",
             })
             seen_urls = set()
