@@ -1,6 +1,7 @@
 'use client'
 
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Check } from 'lucide-react'
+import { cn } from '@/lib/cn'
 import type { ActionItem, AssetCategory, AssetRecord, DuplicateSignal, InvestigatorRecord } from '@/lib/model'
 import { useRole } from '@/components/role/role-provider'
 import { AppLink } from '@/components/role/app-link'
@@ -44,19 +45,38 @@ export function EdgeCitations({ ids, max = 4 }: { ids: string[]; max?: number })
 }
 
 /** The few concrete steps for this week, each tied to the links that justify it. */
-export function DoThisWeek({ items }: { items: ActionItem[] }) {
+export function DoThisWeek({
+  items,
+  doneIds = [],
+  hiddenIds = [],
+}: {
+  items: ActionItem[]
+  /** Steps marked done in the action plan. */
+  doneIds?: string[]
+  /** Steps closed in the action plan. */
+  hiddenIds?: string[]
+}) {
   const { detail } = useRole()
-  if (items.length === 0)
+  const shown = items.filter((a) => !hiddenIds.includes(a.id))
+  if (shown.length === 0)
     return <p className="text-ui text-ink-2">No concrete step can be justified from the cited links yet.</p>
   return (
     <ol className="space-y-5" data-testid="do-this-week">
-      {items.map((a, i) => (
+      {shown.map((a, i) => (
         <li key={a.id} className="grid grid-cols-[24px_minmax(0,1fr)] gap-3">
           <span aria-hidden className="pt-0.5 font-mono text-label text-ink-3">
-            {i + 1}.
+            {doneIds.includes(a.id) ? <Check className="size-4" /> : `${i + 1}.`}
           </span>
           <div className="min-w-0">
-            <p className="font-serif text-[17px] leading-snug font-semibold text-ink">{a.title}</p>
+            <p
+              className={cn(
+                'font-serif text-[17px] leading-snug font-semibold',
+                doneIds.includes(a.id) ? 'text-ink-3 line-through decoration-ink-3/60' : 'text-ink',
+              )}
+            >
+              {a.title}
+              {doneIds.includes(a.id) && <span className="sr-only"> (done)</span>}
+            </p>
             <p className="mt-1 max-w-[68ch] text-ui text-ink-2">{a.detail}</p>
             <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-label">
               {detail !== 'plain' && (
