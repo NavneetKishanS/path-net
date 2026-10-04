@@ -80,6 +80,10 @@ function OnboardingContent() {
   const [error, setError] = useState('')
   const title = mode === 'login' ? 'Welcome back to PathNet' : step === 1 ? 'Choose your role' : 'Make PathNet your own'
   const guest = () => {
+    // The role picker only updates local `profile` state; without this it's silently
+    // discarded and continuing as guest always falls back to the account default,
+    // regardless of which card was selected.
+    if (role) account.setGuestProfile(profile)
     account.continueAsGuest()
     router.push('/')
   }
