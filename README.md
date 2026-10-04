@@ -1,167 +1,223 @@
 # PathNet: AI Atlas for the World's Rare Diseases
 
-Hack-Nation × OpenAI × Buffalo Initiative, Challenge 05. A mechanism-first knowledge graph that helps a patient-group leader find a cited connection, an existing research resource, a potential partner and a concrete question to take to an expert. A coverage gap is shown as a gap in this selected dataset.
+Hack-Nation × OpenAI × Buffalo Initiative, Challenge 05. PathNet helps patients, patient-group leaders and researchers explore cited connections between rare conditions, biological mechanisms, studies, investigators and community resources. The current atlas covers STXBP1, SCN2A, KCNQ2 and SCN8A.
 
-**Local prototype, 2026-10-04.** P1 has delivered the real STXBP1 slice with SCN2A, KCNQ2 and SCN8A neighbours. P4 supplies the platform against that release. No Supabase project or deployment platform is configured. Native PostgreSQL accounts support onboarding, saved preferences and operator-assigned protected roles; the public role selector remains a presentation preference. Cloud authentication, deployed acceptance and videos remain outstanding. See [P4 task status](context/P4-TASK-STATUS.md) for the earlier platform verification boundary and [Accounts and onboarding](docs/frontend/accounts.md) for the local account adapter.
+The application uses **Next.js 16, React 19, TypeScript and Cytoscape**, with a reproducible Python data pipeline and PostgreSQL/PostgREST integration. The committed seed contains **120 nodes, 139 edges and 169 evidence records**. Its source-curated data v2 layer and subsequent inferred bridges are described below.
 
-Publication scope: branch `p1/data` bundles the 58-node M1 source/data snapshot, English integration documentation and the platform dependencies needed to reproduce the accepted local database/app workflow. The user has authorized committing and pushing this existing branch. The historical local acceptance and separate publication checks are distinguished in [P1 publication scope](context/P1-PUBLICATION.md); no cloud deployment or submission is claimed.
+## Explore the atlas
 
-## Start the complete local stack
+- Search conditions, genes, symptoms, mechanisms and resources by name, synonym or supported identifier.
+- Open cited condition and node pages, explore the interactive map or table, and inspect source records, contradictions and the scope of each connection.
+- Follow route explanations and create an action plan with tasks, notes and progress saved in the browser.
+- Browse mechanism groups, investigators and NIH-linked funding through role-specific views.
+- Use the source-bounded atlas assistant in the patient-group-leader and researcher views. Its current answers are deterministic graph queries.
+- Configure native accounts for onboarding and saved reading/workspace preferences. Assigned administrators also have local review and synonym demonstrations.
 
-From the repository root, with Docker Desktop running and Bash available:
+The five perspectives are `family`, `group_leader`, `scout`, `researcher` and `admin`. Viewing preferences control presentation; protected access follows the authenticated account's database role.
+
+## Quick start
+
+### Run the frontend with the current seed
+
+Install Node.js 22 and npm. From the repository root, use Bash:
+
+```bash
+cd web
+npm ci
+NEXT_PUBLIC_DATA_SOURCE=static npm run dev
+```
+
+On Windows PowerShell:
+
+```powershell
+Set-Location web
+npm ci
+$env:NEXT_PUBLIC_DATA_SOURCE = "static"
+npm run dev
+```
+
+Open **http://localhost:5173**. The `predev` step copies the repository seed to `web/public/graph.json`. This mode supports graph exploration without a database; account registration requires the account configuration below. Check existing `web/.env.local` settings when switching data modes.
+
+| Data mode | Source |
+| --- | --- |
+| `mock` (default) | Pinned frontend example in `web/src/data/slice/`, based on the reviewed data v2 layer |
+| `static` | Current seed copied to `web/public/graph.json` during development/build |
+| `rest` | Five graph resources from PostgREST, or the session-aware account graph proxy |
+
+Set `NEXT_PUBLIC_DATA_SOURCE` explicitly to select a mode. `NEXT_PUBLIC_API_URL` supplies the REST origin. The frontend can derive additional cited hypotheses in memory, so view-level link counts can exceed the stored seed counts.
+
+### Run the database, REST API and frontend
+
+Install Docker Desktop with Docker Compose v2 and use a Bash terminal from the repository root:
 
 ```bash
 bash run.sh up
 ```
 
-This foreground command runs the database, deterministic cache builder, migration/seed/cache import, REST API and web app. Host Python, Node.js and AI/cloud keys are unnecessary for this local startup. First startup downloads container images and locked frontend dependencies. Keep this terminal open for logs; once ready, run `bash run.sh smoke` in a second terminal to check the graph, family explanations, current coverage and web response.
-
-The one-shot `cache-build` service uses Node.js 24 Alpine to create 20 role-scoped explanations and one coverage snapshot in the dedicated `bootstrap_cache` Docker volume. The seed service waits for a healthy database and successful cache build, then runs migrations, graph upsert and cache import. API/web startup depends on successful seeding. The frontend runs `npm ci`, a production build and then the Vite development server; this local server is not a production deployment.
-
-`bash run.sh seed` also rebuilds/imports the current caches automatically. Re-running seed retains platform records and approved graph contributions. `bash run.sh down` stops the stack and retains its volumes. `bash run.sh reset` deletes those local volumes and recreates the stack; use it only to deliberately discard that database.
-
-| Service | Local address | Purpose |
-| --- | --- | --- |
-| Web | http://localhost:5173 | React/Vite app |
-| REST API | http://localhost:3001 | PostgREST over the five graph tables |
-| Database | localhost:54322 | Local PostgreSQL, database `pathnet` |
-
-PostgreSQL uses a persistent `pgdata` Docker volume; db/api/web use `restart: unless-stopped` while Docker is available. This does not configure Windows or Docker boot startup. The earlier shared-stack acceptance remains in [P1-INTEGRATION.md](context/P1-INTEGRATION.md). The new one-command bootstrap passed from a clean staged Git archive with initially empty volumes; [P4-BOOTSTRAP.md](context/P4-BOOTSTRAP.md) and [its receipt](data/acceptance/m1-bootstrap.json) record fresh startup, automatic cache refresh and warm restart/preservation checks.
-
-For an isolated parallel stack, export these optional values in the terminal used for startup and smoke:
+Keep that terminal open. Once the services are ready, run this in a second Bash terminal:
 
 ```bash
-export COMPOSE_PROJECT_NAME=pathnet-p4
-export PATHNET_DB_PORT=54323
-export PATHNET_API_PORT=3002
-export PATHNET_WEB_PORT=5174
-bash run.sh up
+bash run.sh smoke
 ```
 
-Defaults are `pathnet`, 54322, 3001 and 5173 respectively. Different project names isolate Docker volumes; different ports avoid conflicts. The browser API URL and smoke checks follow the selected ports.
+Smoke checks require `curl`, `awk` and `tr`, available in typical Bash environments. Host Python, Node.js and model/cloud credentials are unnecessary for this container startup; the first run downloads container images and locked frontend dependencies.
 
-For a static-only app without Docker, install Node.js and run `npm --prefix web ci` followed by `npm --prefix web run dev`. Static mode reads the bundled graph and does not exercise the database, cache import, authentication or row-level security.
+| Service | Local address |
+| --- | --- |
+| Next.js frontend | http://localhost:5173 |
+| PostgREST API | http://localhost:3001 |
+| PostgreSQL database `pathnet` | localhost:54322 |
 
-## Architecture and shared interfaces
+The startup builds deterministic explanation/coverage caches, applies numbered migrations, upserts the graph and imports the caches before starting the API and frontend. The Compose frontend selects REST data through the supported legacy environment aliases. Account tables are included in the migrations; the frontend account connection is configured separately.
 
-```mermaid
-flowchart LR
-    Sources[Public source snapshots] --> Pipeline[Offline Python pipeline]
-    Pipeline --> Seed[Reviewed graph and provenance]
-    Seed --> Loader[Seed loader]
-    Loader --> DB[(Postgres / Supabase)]
-    DB --> RLS[Role policies and restricted views]
-    RLS --> REST[PostgREST]
-    REST --> UI[React app]
-    Seed --> Static[Static public demo]
-    Static --> UI
-    UI -. platform integration .-> Edge[Edge Functions]
-    RLS --> Edge
-    Edge --> Cache[Cited fallback / coverage]
-    Edge -. optional server-side calls .-> OpenAI[OpenAI]
-    Auth[Supabase Auth: future configured instance] -. user identity .-> RLS
+- `bash run.sh seed` upserts the seed and imports the cache bundle while preserving platform records and approved graph contributions.
+- `bash run.sh down` stops the services and retains volumes.
+- `bash run.sh logs` follows service logs.
+- `bash run.sh reset` deletes local database/cache volumes and starts again.
+
+For a parallel stack, set `COMPOSE_PROJECT_NAME`, `PATHNET_DB_PORT`, `PATHNET_API_PORT` and `PATHNET_WEB_PORT` before startup and smoke checks. Defaults are `pathnet`, `54322`, `3001` and `5173`. Historical bootstrap checks are recorded in [the bootstrap notes](context/P4-BOOTSTRAP.md).
+
+## Accounts and saved preferences
+
+Native accounts use the existing PostgreSQL database. Configure `web/.env.local` from [web/.env.example](web/.env.example), replacing its sample database and API addresses with your installation's addresses:
+
+- `PATHNET_ACCOUNT_DATABASE_URL`: server-only PostgreSQL connection.
+- `NEXT_PUBLIC_DATA_SOURCE=rest`: database-backed graph mode.
+- `NEXT_PUBLIC_ACCOUNT_PROXY=true`: same-origin graph reads using the verified session and PostgreSQL row-level security.
+
+For the host-run account frontend, use Node.js 22/npm and a fresh terminal so earlier data-mode overrides do not replace the settings in `web/.env.local`. If the Compose stack is running, first free the frontend port while keeping its database and API running:
+
+```bash
+docker compose stop web
 ```
 
-Source retrieval, extraction, reconciliation and clustering run offline. The live app reads the stored graph. Optional model calls belong in server-side functions; API keys never belong in browser variables. The Blueprint's Supabase/Auth deployment is the target; local Postgres and static data support development before a cloud project exists.
+Then run from the repository root:
 
-- [contract/contract.json](contract/contract.json) is the shared enum authority. The graph stays `{nodes, edges, evidence, clusters, node_cluster}`; node IDs remain stable text slugs and labels remain `name`.
-- [web/src/api.ts](web/src/api.ts) keeps `loadGraph(): Promise<Graph>`. Coverage, provenance and demo paths are sidecars, not extra graph tables.
-- [Platform API contract](contract/platform-api.md) specifies path explanation, abstract extraction and coverage responses for P2/P3 integration. [P4 platform notes](context/P4-PLATFORM.md) cover roles, contributions and local verification.
-- NIH funding remains in award assets' `props.funder` and the existing `asset_disease` relationship. A shared funder does not establish a biological mechanism; this release adds no funder node or edge type.
+```bash
+npm --prefix web run accounts:setup
+npm --prefix web run dev
+```
 
-The five roles are `family`, `group_leader`, `scout`, `researcher` and `admin`. Backend policies enforce the role assigned to an authenticated user. A client-selected role is never authorization. Public graph discovery and restricted professional-contact access are separate; the P1 release contains no personal email or phone fields.
+Account setup is idempotent and preserves existing users. New registrations receive the `family` database role. An operator can assign a registered user's protected role:
+
+```bash
+npm --prefix web run accounts:role -- registered-user@example.com researcher
+```
+
+Profiles and workspace preferences are stored in PostgreSQL. Action progress, custom notes and administrator review/synonym demonstrations remain account-scoped browser storage; chat is session-only. The native adapter currently has no email-verification or password-recovery service. Supabase Auth is a separate integration.
+
+See [Accounts, onboarding and reading preferences](docs/frontend/accounts.md) for guest access, administrator assignment, simple language, security boundaries and account verification.
 
 ## Dataset and evidence
 
-The **P1 M1 snapshot, updated on 2026-10-04 (Europe/Berlin),** contains **58 nodes, 69 edges, 77 evidence rows, 4 provisional mechanism clusters and 70 memberships**. Every edge has evidence: 49 tier A database associations and 20 tier B source-backed claims. There are no tier C inferred bridges or tier D contributions in this baseline. `verified` means checked against the cited source within the claim's scope. All confidence values are `null`; calibrated probabilities were not measured.
+Source snapshots are pinned to the **2026-10-03 retrieval snapshot**, with the expanded release reviewed on 2026-10-04. These are bounded selections across four genes, rather than comprehensive rare-disease coverage.
 
-The **2026-10-04 M1 update** includes **451 raw files**, comprising 449 data/cache/receipt files, `.gitkeep` and the `curate_community.py` helper, totalling **50,866,487 bytes**. Retrieval timestamps are UTC; late October 3 provider requests occurred on October 4 in Europe/Berlin. Eight public group/resource pages were verified through live Bright Data requests. Five ClinVar identities cover all four genes; the three new identity-only examples retain unknown functional effect. The new STXBP1 RARE-X asset describes patient-owned data collection with qualified access, rather than treatment efficacy. The cached corpus contains 159 nonempty PubMed abstracts, 32 unique studies and 82 annual NIH award records. Searches and graph selections are deliberately bounded.
+| Layer | Nodes | Edges | Evidence | Groups | Memberships |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Reviewed source-curated data v2 | 120 | 135 | 162 | 4 | 147 |
+| Current main seed, including inferred bridges | 120 | 139 | 169 | 4 | 147 |
 
-SCN2A illustrates why variants in one gene can belong to different functional groups. Assay context and evidence limiting a simple gain/loss classification remain visible. The primary journey links the STXBP1 Foundation, the STXBP1 condition and STARR natural-history resource. Its asset and official study record describe the same resource. See [stable demo IDs and scopes](data/seed/demo_paths.json), [provenance](data/seed/provenance.json), [source-context review](context/P1-EVIDENCE-REVIEW.md) and [source inventory, licences and limitations](context/SOURCES.md).
+The current seed contains **115 tier A source-database links, 20 tier B source-backed claims and 4 unverified tier C bridges**. Every edge has evidence. One tier B claim retains a contradicting stance. All structured `confidence` values remain `null`; no calibrated probabilities are supplied.
 
-This service uses the **Human Phenotype Ontology project, version 2026-09-01**, with **HPO annotation release 2026-09-02**. We acknowledge the Human Phenotype Ontology Consortium and retain its [licence conditions](https://human-phenotype-ontology.github.io/license.html). Mondo is credited to the Monarch Initiative under CC BY 4.0; Orphadata to Orphanet / INSERM under CC BY 4.0; HGNC provides CC0 nomenclature data. NCBI/NLM resources are used under their [disclaimer and copyright policies](https://www.ncbi.nlm.nih.gov/home/about/policies/); some abstracts retain author or publisher copyright. Full abstracts and original public page bodies are bundled for source audit; the graph retains short attributable excerpts. Bundling does not change each source's copyright, licence or terms, and no blanket open licence is assigned to these materials. OMIM was not queried directly.
+The four added bridges derive shared-mechanism or shared-investigator connections from existing verified supporting links. Their seven evidence records describe the derivation and reuse the supporting source references. The four committed groups remain provisional reviewed discovery groups; membership does not establish a functional assignment.
 
-## Reproduce the reviewed baseline
+### Source coverage
 
-Use Python 3.10 or later from the repository root:
+| Source | Cached snapshot | Graph use |
+| --- | --- | --- |
+| PubMed | 159 nonempty abstracts | Cited scientific claims and the downstream abstract corpus |
+| ClinicalTrials.gov | 32 unique study records | 20 selected study nodes with dated status and scope |
+| NIH RePORTER | 82 annual application records | Project, funding and public investigator links |
+| HGNC, MONDO, HPO, Orphadata and ClinVar | Pinned ontology/identity responses | 44 phenotype terms, 85 phenotype annotation rows and 5 ClinVar identity examples |
+| Public patient-group/resource pages | 8 verified page snapshots | Community and resource connections |
+
+The expansion reused **451 existing raw files (50,866,487 bytes)**. It added reviewed selections from the same caches, with no source refresh. Study statuses reflect retrieval-time records. Registry, funding and disease-frequency links retain their original scope; variant functional claims require assay evidence.
+
+The source-curated funding report contains **11 applications and 11 distinct core projects across 2 FY2026 institute groups**. Its stored graph/provenance bindings reference the reviewed data v2 release. Annual application rows are distinguished from core projects.
+
+The STXBP1 Foundation–condition–STARR journey and SCN2A variant-context counterexamples remain available. See [demo paths](data/seed/demo_paths.json), [coverage](data/seed/coverage.json), [provenance](data/seed/provenance.json), [funding report](data/seed/funding_overlap.json), [data v2 review](context/P1-EXPANSION.md) and [source inventory](context/SOURCES.md).
+
+### Data engineering workflow
+
+This diagram shows the reviewed source-curated data v2 layer, its pinned sources and downstream delivery interfaces. Current main extends this layer with the four inferred bridges described above.
+
+![Data engineering workflow for the reviewed data v2 layer](docs/diagrams/data-engineering-workflow-data-v2.png)
+
+### Evidence graph construction rules
+
+The rules diagram covers stable identities, reviewed semantic-edge aggregation, separate source evidence, validation and provisional group membership. Its KCNQ2–Hypotonia example retains both the HPO annotation and the Orphadata record.
+
+![Evidence graph construction rules for the reviewed data v2 layer](docs/diagrams/evidence-graph-construction-rules-data-v2.png)
+
+## Architecture and interfaces
+
+The reviewed pipeline produces `data/seed/graph.json` and its provenance, coverage, demo-path and funding sidecars. The frontend consumes the graph through a shared adapter, using either copied static data or database resources.
+
+- [contract/contract.json](contract/contract.json) defines the graph enums. The five collections remain `nodes`, `edges`, `evidence`, `clusters` and `node_cluster`.
+- [web/src/api.ts](web/src/api.ts) preserves `loadGraph(): Promise<Graph>` and selects the frontend data adapter.
+- [contract/platform-api.md](contract/platform-api.md) describes explanation, extraction and coverage interfaces; [platform notes](context/P4-PLATFORM.md) cover database policies and operator verification.
+- NIH funding uses award assets and `asset_disease` links. Funding reports and other sidecars add context without introducing graph tables.
+- Native account routes live under `/api/account`. Database credentials and optional model keys stay on the server.
+
+## Reproduce the data
+
+Use Python 3.10 or later. From the repository root:
 
 ```bash
 python -m venv .venv
 # macOS / Linux
 source .venv/bin/activate
 python -m pip install -r pipeline/requirements.txt
-```
-
-On Windows PowerShell, use `.\.venv\Scripts\Activate.ps1` instead of `source`.
-
-Rebuild from the bundled local compact curation snapshots and validate the graph:
-
-```bash
 python pipeline/build_graph.py
-python pipeline/validate_graph.py
+python pipeline/build_funding_projection.py
+python pipeline/validate_graph.py --check-raw
+python pipeline/restore_pubmed.py --check
 python -m unittest discover -s pipeline/tests -p 'test_*.py'
 ```
 
-`make data` runs the builder and raw-source validation; `make verify` runs raw validation, pinned PubMed verification and pipeline tests. Set `PYTHON=/path/to/python` if Make should use another interpreter. PowerShell users without Make can use the Python commands directly.
+On Windows PowerShell, activate with `.\.venv\Scripts\Activate.ps1` instead of `source`.
 
-These commands require no network, API keys, model calls or running database after dependencies are installed. Expected counts are 58 nodes, 69 edges, 77 evidence rows, 4 clusters and 70 memberships. The builder replaces the P1 baseline; preserve later P2 merges or use `python pipeline/build_graph.py --output-dir /path/to/comparison` to rebuild separately.
+The deterministic builder includes reviewed expansion and bridge inference without model calls. Expected current-seed counts are **120 / 139 / 169 / 4 / 147**. Rebuilding writes generated seed files; use `python pipeline/build_graph.py --output-dir .venv/comparison-seed` for a separate comparison build. Regenerating the funding report refreshes its graph/provenance bindings.
 
-The bundled original source snapshot enables stronger offline checks:
+`make data` builds and audits the graph; `make verify` checks raw provenance, pinned abstracts and pipeline tests. Set `PYTHON=/path/to/python` to select another interpreter. Dependency installation needs network access; deterministic replay afterward uses bundled caches without API keys or a database.
 
-```bash
-python pipeline/validate_graph.py --check-raw
-python pipeline/fetch_groups.py --validate-curation
-python pipeline/restore_pubmed.py --check
-```
+Optional [extraction](pipeline/extract.py) and [reconciliation](pipeline/merge_extracted.py) use provider credentials and model API calls. Reconciliation writes a review proposal. [Clustering](pipeline/cluster.py) writes a separate generated proposal using seeded Louvain clustering: shared mechanisms form links, phenotype overlap can strengthen them, and contradicting mechanism claims are excluded from clustering while remaining visible. These proposals do not replace the four committed reviewed groups.
 
-These verify original raw-file hashes, quoted content and the pinned abstract corpus. The `p1/data` publication snapshot includes these reviewed caches and all four seed sidecars. See [publication scope and checks](context/P1-PUBLICATION.md) for the branch boundary. Re-fetching a changing source creates a new snapshot and may require renewed curation; it is not guaranteed to reproduce the original response hashes. [P1's integration guide](context/P1-DATA.md) describes selective retrieval and pinned replay. New Bright Data requests require `BRIGHTDATA_API_KEY` and `BRIGHTDATA_UNLOCKER_ZONE`; the eight reviewed page snapshots replay offline without credentials. [Provider receipts](data/raw/groups/brightdata_acquisition.json) record target statuses, source hashes and evidence IDs. Source access restrictions and local-only NORD responses remain documented in [SOURCES.md](context/SOURCES.md).
+The repository includes [five hand-labelled abstracts and twenty gold claims](data/gold/gold.jsonl). Extraction outputs are ignored and are not bundled as a reproducible benchmark. [The peer-review notes](context/P2-M4-PEER-REVIEW.md) record the scope of historical development evaluations.
 
-## Optional direct operator setup and verification
+## Verification and deployment
 
-The normal Docker bootstrap performs these migrations and cache steps automatically. The following commands are for a separate, deliberately configured database and require host Python/Node.js.
-
-Copy `.env.example` to a local `.env` and keep secrets out of version control. Inspect configuration without contacting services:
+Frontend checks, from the repository root:
 
 ```bash
-python scripts/platform.py doctor
+npm --prefix web test
+npm --prefix web run typecheck
+npm --prefix web run lint
+npm --prefix web run build
 ```
 
-When a local or future cloud PostgreSQL database is deliberately configured in `DATABASE_URL`, apply migrations and load the reviewed graph:
+Browser checks require Playwright browsers and the applicable app/database configuration. `npm --prefix web run test:e2e` also discovers live account tests; configure `PATHNET_ACCOUNT_DATABASE_URL` and `PATHNET_TEST_URL`. See [account verification](docs/frontend/accounts.md#verification) for the dedicated account suite. Operator/role/endpoint checks are documented in [platform verification](context/P4-PLATFORM.md#local-verification).
 
-```bash
-python scripts/platform.py migrate
-python scripts/platform.py seed
+[The Vercel workflow](.github/workflows/deploy-web.yml) builds and deploys `web/` for matching main-branch changes or manual dispatch. It requires `VERCEL_TOKEN`, `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID`. Changes only to seed data, the README or documentation images do not trigger that workflow; refreshing hosted static data requires a new build/deploy. Production database and account connections are configured separately.
 
-# Rebuild/import deterministic explanation caches after graph changes (Node.js 24):
-node scripts/build_platform_cache.mjs
-python scripts/platform.py cache --input .venv/p4-platform-cache.json
-```
+The current frontend assistant uses deterministic graph queries. Optional server-side model functions and extraction scripts have separate credential and evaluation requirements. Contribution contracts and server functions exist; frontend submission and read-aloud are not implemented.
 
-These direct operator commands require host Python/Node.js and a deliberately configured `DATABASE_URL`; they are optional alternatives to the complete Docker bootstrap. `bash run.sh up` and `bash run.sh seed` build/import the deterministic bundle inside containers automatically. The earlier M1 seed/smoke run is recorded in [the historical integration receipt](data/acceptance/m1-docker-integration.json). Fresh one-command bootstrap acceptance is tracked in [P4-BOOTSTRAP.md](context/P4-BOOTSTRAP.md). Graph upsert retains other rows such as approved contributions. The unchanged P1 command `python pipeline/load_seed.py` replaces the graph tables; use it only for deliberate baseline replacement, since that removes approved contribution edges even though platform audit records remain.
+## Source attribution
 
-Role-policy, endpoint and CLI tests run locally without Supabase credentials; see [exact prerequisites and commands](context/P4-PLATFORM.md#local-verification). Once Supabase Auth exists, `python scripts/platform.py demo-users` provisions the five configured demo identities, and `python scripts/platform.py smoke-auth` checks their real API sessions. Neither command has been run against a configured project in this delivery, and they do not constitute browser/UI acceptance.
+We acknowledge the Human Phenotype Ontology Consortium and retain the [HPO licence conditions](https://human-phenotype-ontology.github.io/license.html). The original ontology snapshot uses HPO 2026-09-01 and annotations 2026-09-02; added phenotype identities retain the IDs and labels in the dated Orphadata responses.
 
-## OpenAI usage and current limits
-
-P2 owns model extraction, reconciliation, scoring, final clustering, prompts and gold-set evaluation. P4 provides server-side explanation/extraction boundaries and evidence checks. The P1 seed is source-curated; its delivery does not establish that a live OpenAI call, evaluation result or extraction precision target has been achieved. No key is required for baseline replay or the deterministic local platform path. Configure model credentials only when validating the optional server-side model path.
-
-The four supplied clusters are reviewed P1 starting groups. The current UI still needs P3's action view, authenticated persona homes, contribution/admin screens and platform API integration. Five local authorization identities in tests do not constitute five working browser logins. Supabase Auth, cloud database execution, production deployment, a clean-browser role walkthrough, read-aloud, walkthrough/team videos and submission remain gates before claiming the full Blueprint MVP.
-
-Recruitment statuses are dated observations: the selected CAP-002 and NBI-921352 studies were terminated, and the KCNQ2 phenotype study had unknown status. A registry or grant link does not establish treatment efficacy, eligibility or permission to reuse participant data. The no-route fixture is an unknown query in this slice, not a claim that a named disease has no research. No measured 10× impact is claimed.
+Mondo is credited to the Monarch Initiative, Orphadata to Orphanet/INSERM, and HGNC for gene nomenclature. NCBI/NLM materials follow their [source policies](https://www.ncbi.nlm.nih.gov/home/about/policies/). Abstracts and public-page content retain their source-specific rights and terms; bundling does not assign them a blanket open licence. OMIM was not queried directly. See [source inventory, attribution and limitations](context/SOURCES.md).
 
 ## Repository guide
 
-| Path | Responsibility |
+| Path | Contents |
 | --- | --- |
-| `pipeline/`, `data/` | Source retrieval, reviewed seed, evidence and offline processing |
-| `supabase/` | Schema, role policies and server-side functions |
-| `contract/` | Shared graph enums and platform API contract |
-| `web/` | React application and platform integration boundary |
-| `scripts/`, `run.sh` | Local setup and verification |
-| `context/` | Role briefs, handoffs and acceptance evidence |
-
-The [one-minute demo script](context/P4-DEMO-SCRIPT.md) is a recording plan grounded in the delivered fixture. It is not a claim that the planned screens or a video already exist.
-
-## Local accounts and onboarding
-
-The frontend supports native local accounts and saved profile preferences without changing graph contracts. Configure the server-only `PATHNET_ACCOUNT_DATABASE_URL` and `NEXT_PUBLIC_ACCOUNT_PROXY=true` using `web/.env.example`, then run `npm run accounts:setup` from `web/`. This adapter supplements the existing Supabase integration; it does not replace Supabase Auth. See [Accounts and onboarding](docs/frontend/accounts.md) for role assignment, guest access, simple language, and the boundary between database-backed preferences and browser-only action progress.
+| `pipeline/` | Acquisition, reviewed construction, audit, optional extraction and proposals |
+| `data/raw/`, `data/curation/`, `data/seed/` | Pinned sources, reviewed selections and graph/sidecars |
+| `data/gold/`, `data/acceptance/` | Gold labels and dated verification receipts |
+| `web/` | Next.js atlas, graph adapters, account service and frontend tests |
+| `supabase/` | Database migrations, role policies and server functions |
+| `contract/` | Shared graph and platform interfaces |
+| `scripts/`, `run.sh` | Local startup, caches and operator tools |
+| `docs/frontend/`, `docs/diagrams/` | Frontend guidance and architecture diagrams |
+| `context/` | Design notes, handoffs and source/implementation reviews |
