@@ -1,11 +1,14 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { ArrowRight, Waypoints } from 'lucide-react'
+import { ArrowRight, ExternalLink, Waypoints } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
+import { useMeta } from '@/lib/queries'
+import { HowItWorksSection, PersonasSection, ProblemSection, SourcesSection, TechSection } from './sections'
 
 const SEEN_KEY = 'pathnet.seen-splash.v1'
+const REPO_URL = 'https://github.com/NavneetKishanS/path-net'
 const CLUSTER_COLORS = ['var(--c0)', 'var(--c1)', 'var(--c2)', 'var(--c3)'] as const
 
 /** A node near (x, y) with short connecting lines to a couple of neighbours -- a constellation,
@@ -58,9 +61,58 @@ function Constellation() {
   )
 }
 
+function Hero({ onEnter }: { onEnter: () => void }) {
+  return (
+    <div className="relative flex min-h-[86vh] flex-col items-center justify-center overflow-hidden px-6 text-center">
+      <Constellation />
+      <div className="relative flex max-w-[640px] flex-col items-center">
+        <span className="mb-6 inline-flex items-center gap-1.5 rounded-full border border-line-strong bg-paper/60 px-3 py-1 text-meta text-ink-2 backdrop-blur-sm">
+          <Waypoints className="size-3.5 text-accent-ink" aria-hidden />
+          Rare Disease Atlas
+        </span>
+        <h1 className="text-h1 font-bold tracking-tight text-ink sm:text-[2.75rem]">
+          Five thousand points of light.
+          <br />
+          One map to see the constellations.
+        </h1>
+        <p className="mt-5 max-w-[48ch] text-ui text-ink-2">
+          PathNet connects rare-disease research by mechanism, not name — so your community finds
+          what already exists, with the evidence to back it, instead of rebuilding it.
+        </p>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Button variant="primary" size="md" onClick={onEnter} className="h-11 px-6 text-ui">
+            Explore the Atlas
+            <ArrowRight className="size-4" aria-hidden />
+          </Button>
+          <Button variant="secondary" size="md" asChild className="h-11 px-5 text-ui">
+            <a href={REPO_URL} target="_blank" rel="noreferrer">
+              <ExternalLink className="size-4" aria-hidden />
+              View the source
+            </a>
+          </Button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function FinalCta({ onEnter }: { onEnter: () => void }) {
+  return (
+    <section className="px-6 py-20 text-center">
+      <h2 className="mx-auto max-w-[560px] text-h1 font-bold text-ink">See your condition&apos;s path, not just its name.</h2>
+      <Button variant="primary" size="md" onClick={onEnter} className="mt-8 h-11 px-6 text-ui">
+        Explore the Atlas
+        <ArrowRight className="size-4" aria-hidden />
+      </Button>
+      <p className="mt-8 text-meta text-ink-3">Hack-Nation × OpenAI × Buffalo Initiative — Challenge 05</p>
+    </section>
+  )
+}
+
 export function LandingSplash() {
   const pathname = usePathname()
   const [visible, setVisible] = useState(false)
+  const meta = useMeta()
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- localStorage is only known after hydration
@@ -77,29 +129,26 @@ export function LandingSplash() {
   }
 
   if (!visible) return null
+  const counts = meta.data?.counts ?? { nodes: 0, edges: 0, evidence: 0 }
   return (
-    <div className="fixed inset-0 z-[90] flex flex-col items-center justify-center overflow-hidden bg-sunken px-6 text-center">
-      <Constellation />
-      <div className="relative flex max-w-[640px] flex-col items-center">
-        <span className="mb-6 inline-flex items-center gap-1.5 rounded-full border border-line-strong bg-paper/60 px-3 py-1 text-meta text-ink-2 backdrop-blur-sm">
-          <Waypoints className="size-3.5 text-accent-ink" aria-hidden />
-          Rare Disease Atlas
+    <div className="fixed inset-0 z-[90] overflow-y-auto bg-sunken">
+      <header className="sticky top-0 z-10 flex items-center justify-between border-b border-line bg-sunken/90 px-6 py-3 backdrop-blur-sm">
+        <span className="inline-flex items-center gap-2 text-ui font-bold text-ink">
+          <Waypoints className="size-5 text-accent-ink" aria-hidden />
+          PathNet
         </span>
-        <h1 className="text-h1 font-bold tracking-tight text-ink sm:text-[2.75rem]">
-          Five thousand points of light.
-          <br />
-          One map to see the constellations.
-        </h1>
-        <p className="mt-5 max-w-[48ch] text-ui text-ink-2">
-          PathNet connects rare-disease research by mechanism, not name — so your community finds
-          what already exists, with the evidence to back it, instead of rebuilding it.
-        </p>
-        <Button variant="primary" size="md" onClick={dismiss} className="mt-8 h-11 px-6 text-ui">
+        <Button variant="primary" size="sm" onClick={dismiss}>
           Explore the Atlas
-          <ArrowRight className="size-4" aria-hidden />
+          <ArrowRight className="size-3.5" aria-hidden />
         </Button>
-        <p className="mt-8 text-meta text-ink-3">Hack-Nation × OpenAI × Buffalo Initiative — Challenge 05</p>
-      </div>
+      </header>
+      <Hero onEnter={dismiss} />
+      {counts.nodes > 0 && <SourcesSection counts={counts} />}
+      <ProblemSection />
+      <HowItWorksSection />
+      <PersonasSection />
+      <TechSection />
+      <FinalCta onEnter={dismiss} />
     </div>
   )
 }
